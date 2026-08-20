@@ -669,6 +669,15 @@ a { color: var(--accent); }
 .lightbox__cap strong { font-weight: 650; }
 .lightbox__counter { font-variant-numeric: tabular-nums; opacity: .7; flex: none; }
 
+/* --- an aside inside a criterion control --------------------------------- */
+
+.crit__aside {
+  margin-top: 10px; padding-top: 10px;
+  border-top: 1px dashed var(--line-soft);
+}
+.crit__aside:empty { display: none; }
+.crit__aside .range__hint { margin-top: 5px; }
+
 /* --- seasons, for worlds with no calendar --------------------------------- */
 
 .seasons {

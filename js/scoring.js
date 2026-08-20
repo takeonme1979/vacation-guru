@@ -97,6 +97,22 @@ export const BUDGET_STYLES = [
   { id: 'luxury', label: 'Luxury', help: '4/5-star, fine dining, private transfers' }
 ];
 
+/**
+ * What ruling out hostels does to a budget day.
+ *
+ * "Budget" quietly assumed a dorm bed, which is not what a great many people
+ * travelling cheaply actually want. Swapping the dorm for the cheapest private
+ * room is the single biggest line on a budget day: accommodation is roughly
+ * half of it, and a private room runs to something like double a bed in a
+ * six-share. That lands a little over a third of the way from budget to
+ * mid-range, which is where this sits.
+ *
+ * Expressed as a fraction of the gap rather than a flat uplift, so it scales
+ * with how expensive the place is — the dorm-to-room gap is a few pounds in
+ * Rishikesh and a great deal more in Zurich.
+ */
+export const PRIVATE_ROOM_UPLIFT = 0.35;
+
 // ---------------------------------------------------------------------------
 // Small maths helpers
 // ---------------------------------------------------------------------------
@@ -146,9 +162,16 @@ function normaliseScale(value, scale) {
  *
  * Single source of truth — the UI reads this rather than repeating the formula.
  */
-export function dailyCost(dest, style = 'mid', month = 6) {
-  const base = dest.costPerDay ? dest.costPerDay[style] : undefined;
+export function dailyCost(dest, style = 'mid', month = 6, { noHostels = false } = {}) {
+  if (!dest.costPerDay) return null;
+  let base = dest.costPerDay[style];
   if (!isNum(base)) return null;
+
+  // Only the budget tier assumes a dorm bed, so only the budget tier changes.
+  if (noHostels && style === 'budget' && isNum(dest.costPerDay.mid)) {
+    base += (dest.costPerDay.mid - base) * PRIVATE_ROOM_UPLIFT;
+  }
+
   const idx = Array.isArray(dest.priceIndex) && dest.priceIndex.length === 12 ? dest.priceIndex[month] : 80;
   return Math.round(base * (0.72 + 0.0035 * idx));
 }
@@ -160,9 +183,9 @@ export function dailyCost(dest, style = 'mid', month = 6) {
  * how they interact, so the UI uses this to show the real spread and to warn
  * when a budget rules out almost everything.
  */
-export function budgetSpread(destinations, style = 'mid', month = 6) {
+export function budgetSpread(destinations, style = 'mid', month = 6, opts = {}) {
   const costs = destinations
-    .map((d) => dailyCost(d, style, month))
+    .map((d) => dailyCost(d, style, month, opts))
     .filter(isNum)
     .sort((a, b) => a - b);
   if (!costs.length) return null;
@@ -292,7 +315,7 @@ export function scoreCriterion(criterion, dest, prefs) {
 
     case 'budget': {
       const style = prefs.targets?.budgetStyle ?? 'mid';
-      const cost = dailyCost(dest, style, month);
+      const cost = dailyCost(dest, style, month, { noHostels: !!prefs.targets?.noHostels });
       if (cost == null) return { score: null, detail: 'No data', value: null };
       const budget = prefs.targets?.budgetPerDay ?? 130;
       // Both branches must meet at cost === budget (0.85) so the score decreases
@@ -468,9 +491,21 @@ export function scoreDestination(dest, prefs, criteriaById) {
 
   const scored = breakdown.filter((b) => b.score != null);
   const highlights = scored.filter((b) => b.rag === 'green').slice(0, 4);
+
+  // Amber has to be able to reach the card, or the traffic light only has two
+  // colours where it matters most. Vienna scored 0.68 on cost — "18% over
+  // budget", plainly amber — on a search where cost was marked Important, and
+  // the card showed no warning at all, so it read as a clean 86% match.
+  //
+  // Red always warns, at any weight. Amber warns only where you said it
+  // mattered, so cards do not fill up with quibbles about things you never
+  // asked about.
+  const AMBER_MATTERS_AT = WEIGHTS[2];        // "Important"
+  const severity = (b) => (b.rag === 'red' ? 0 : 1);
   const watchOuts = scored
-    .filter((b) => b.rag === 'red' && b.weight > 0)
-    .sort((a, b) => b.weight - a.weight)
+    .filter((b) => b.weight > 0
+      && (b.rag === 'red' || (b.rag === 'amber' && b.weight >= AMBER_MATTERS_AT)))
+    .sort((a, b) => severity(a) - severity(b) || b.weight - a.weight)
     .slice(0, 3);
 
   return {
@@ -561,6 +596,7 @@ export function emptyPrefs() {
       peacefulness: 45,
       budgetPerDay: 130,
       budgetStyle: 'mid',
+      noHostels: false,
       costTier: 2,
       maxFlightHours: 8,
       tripNights: 7

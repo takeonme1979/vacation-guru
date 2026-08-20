@@ -679,6 +679,15 @@ a { color: var(--accent); }
 .lightbox__cap strong { font-weight: 650; }
 .lightbox__counter { font-variant-numeric: tabular-nums; opacity: .7; flex: none; }
 
+/* --- an aside inside a criterion control --------------------------------- */
+
+.crit__aside {
+  margin-top: 10px; padding-top: 10px;
+  border-top: 1px dashed var(--line-soft);
+}
+.crit__aside:empty { display: none; }
+.crit__aside .range__hint { margin-top: 5px; }
+
 /* --- seasons, for worlds with no calendar --------------------------------- */
 
 .seasons {
@@ -1458,6 +1467,22 @@ const BUDGET_STYLES = [
   { id: 'luxury', label: 'Luxury', help: '4/5-star, fine dining, private transfers' }
 ];
 
+/**
+ * What ruling out hostels does to a budget day.
+ *
+ * "Budget" quietly assumed a dorm bed, which is not what a great many people
+ * travelling cheaply actually want. Swapping the dorm for the cheapest private
+ * room is the single biggest line on a budget day: accommodation is roughly
+ * half of it, and a private room runs to something like double a bed in a
+ * six-share. That lands a little over a third of the way from budget to
+ * mid-range, which is where this sits.
+ *
+ * Expressed as a fraction of the gap rather than a flat uplift, so it scales
+ * with how expensive the place is — the dorm-to-room gap is a few pounds in
+ * Rishikesh and a great deal more in Zurich.
+ */
+const PRIVATE_ROOM_UPLIFT = 0.35;
+
 // ---------------------------------------------------------------------------
 // Small maths helpers
 // ---------------------------------------------------------------------------
@@ -1507,9 +1532,16 @@ function normaliseScale(value, scale) {
  *
  * Single source of truth — the UI reads this rather than repeating the formula.
  */
-function dailyCost(dest, style = 'mid', month = 6) {
-  const base = dest.costPerDay ? dest.costPerDay[style] : undefined;
+function dailyCost(dest, style = 'mid', month = 6, { noHostels = false } = {}) {
+  if (!dest.costPerDay) return null;
+  let base = dest.costPerDay[style];
   if (!isNum(base)) return null;
+
+  // Only the budget tier assumes a dorm bed, so only the budget tier changes.
+  if (noHostels && style === 'budget' && isNum(dest.costPerDay.mid)) {
+    base += (dest.costPerDay.mid - base) * PRIVATE_ROOM_UPLIFT;
+  }
+
   const idx = Array.isArray(dest.priceIndex) && dest.priceIndex.length === 12 ? dest.priceIndex[month] : 80;
   return Math.round(base * (0.72 + 0.0035 * idx));
 }
@@ -1521,9 +1553,9 @@ function dailyCost(dest, style = 'mid', month = 6) {
  * how they interact, so the UI uses this to show the real spread and to warn
  * when a budget rules out almost everything.
  */
-function budgetSpread(destinations, style = 'mid', month = 6) {
+function budgetSpread(destinations, style = 'mid', month = 6, opts = {}) {
   const costs = destinations
-    .map((d) => dailyCost(d, style, month))
+    .map((d) => dailyCost(d, style, month, opts))
     .filter(isNum)
     .sort((a, b) => a - b);
   if (!costs.length) return null;
@@ -1653,7 +1685,7 @@ function scoreCriterion(criterion, dest, prefs) {
 
     case 'budget': {
       const style = prefs.targets?.budgetStyle ?? 'mid';
-      const cost = dailyCost(dest, style, month);
+      const cost = dailyCost(dest, style, month, { noHostels: !!prefs.targets?.noHostels });
       if (cost == null) return { score: null, detail: 'No data', value: null };
       const budget = prefs.targets?.budgetPerDay ?? 130;
       // Both branches must meet at cost === budget (0.85) so the score decreases
@@ -1829,9 +1861,21 @@ function scoreDestination(dest, prefs, criteriaById) {
 
   const scored = breakdown.filter((b) => b.score != null);
   const highlights = scored.filter((b) => b.rag === 'green').slice(0, 4);
+
+  // Amber has to be able to reach the card, or the traffic light only has two
+  // colours where it matters most. Vienna scored 0.68 on cost — "18% over
+  // budget", plainly amber — on a search where cost was marked Important, and
+  // the card showed no warning at all, so it read as a clean 86% match.
+  //
+  // Red always warns, at any weight. Amber warns only where you said it
+  // mattered, so cards do not fill up with quibbles about things you never
+  // asked about.
+  const AMBER_MATTERS_AT = WEIGHTS[2];        // "Important"
+  const severity = (b) => (b.rag === 'red' ? 0 : 1);
   const watchOuts = scored
-    .filter((b) => b.rag === 'red' && b.weight > 0)
-    .sort((a, b) => b.weight - a.weight)
+    .filter((b) => b.weight > 0
+      && (b.rag === 'red' || (b.rag === 'amber' && b.weight >= AMBER_MATTERS_AT)))
+    .sort((a, b) => severity(a) - severity(b) || b.weight - a.weight)
     .slice(0, 3);
 
   return {
@@ -1922,6 +1966,7 @@ function emptyPrefs() {
       peacefulness: 45,
       budgetPerDay: 130,
       budgetStyle: 'mid',
+      noHostels: false,
       costTier: 2,
       maxFlightHours: 8,
       tripNights: 7
@@ -1994,6 +2039,7 @@ function monthCurve(dest, prefs, criteriaById) {
   __x.COST_TIERS = COST_TIERS;
   __x.costTierLabel = costTierLabel;
   __x.BUDGET_STYLES = BUDGET_STYLES;
+  __x.PRIVATE_ROOM_UPLIFT = PRIVATE_ROOM_UPLIFT;
 };
 
 __mods["data.js"] = function (__x) {
@@ -2790,23 +2836,27 @@ function emptyState(icon, title, body, action = null) {
  */
 function budgetNote(prefs) {
   const style = BUDGET_STYLES.find((b) => b.id === prefs.targets.budgetStyle);
-  const label = (style?.label || 'mid-range').toLowerCase();
-  const spread = budgetSpread(data().destinations, prefs.targets.budgetStyle, prefs.month);
-  if (!spread) return { text: `At ${label} style, excluding flights.`, level: '' };
+  const plain = (style?.label || 'mid-range').toLowerCase();
+  const label = prefs.targets.noHostels && prefs.targets.budgetStyle === 'budget'
+    ? `${plain} style without hostels`
+    : `${plain} style`;
+  const noHostels = !!prefs.targets.noHostels;
+  const spread = budgetSpread(data().destinations, prefs.targets.budgetStyle, prefs.month, { noHostels });
+  if (!spread) return { text: `At ${label}, excluding flights.`, level: '' };
 
   const value = prefs.targets.budgetPerDay;
   const n = spread.withinBudget(value);
   if (n === 0) {
     return {
       level: ' is-bad',
-      text: `Nothing costs under £${value} a day at ${label} style — the cheapest is £${spread.min}. `
+      text: `Nothing costs under £${value} a day at ${label} — the cheapest is £${spread.min}. `
         + 'Everywhere will score badly on Cost. Raise the budget, or change travel style under Trip.'
     };
   }
   const pct = Math.round((n / spread.count) * 100);
   return {
     level: pct < 10 ? ' is-warn' : '',
-    text: `${n} of ${spread.count} destinations (${pct}%) fit at ${label} style. `
+    text: `${n} of ${spread.count} destinations (${pct}%) fit at ${label}. `
       + `Typical is £${spread.median} a day. Travel style is set under Trip.`
   };
 }
@@ -2856,6 +2906,34 @@ function targetControl(criterion, prefs, go) {
         noteEl.className = 'budget-note' + n.level;
         noteEl.textContent = n.text;
       };
+
+      // Budget travel quietly assumed a dorm bed, which is not what a great
+      // many people travelling cheaply actually want. Only shown at budget
+      // style, because it is the only tier that assumes one.
+      const hostelRow = h('div', { class: 'crit__aside' });
+      const paintHostels = () => {
+        const p = store.state.prefs;
+        if (p.targets.budgetStyle !== 'budget') { mount(hostelRow); return; }
+        const box = h('input', {
+          type: 'checkbox',
+          checked: !p.targets.noHostels,
+          onchange: (e) => {
+            store.setTarget('noHostels', !e.target.checked);
+            paintHostels();
+            paintNote();
+          }
+        });
+        mount(hostelRow,
+          h('label', { class: 'switch switch--inline' },
+            box,
+            h('span', null, 'Hostels are fine')),
+          h('p', { class: 'range__hint' },
+            p.targets.noHostels
+              ? 'Pricing the cheapest private room instead, which is the biggest single line on a budget day.'
+              : 'Budget prices assume a dorm bed. Untick to price the cheapest private room instead.')
+        );
+      };
+
       const block = h('div', { class: 'crit__target' },
         rangeField({
           label: 'Your budget per person, per day',
@@ -2866,8 +2944,10 @@ function targetControl(criterion, prefs, go) {
           rightLabel: '£700+ →',
           onInput: (v) => { store.setTarget('budgetPerDay', v); paintNote(); }
         }),
+        hostelRow,
         noteEl
       );
+      paintHostels();
       paintNote();
       return block;
     }
@@ -3091,7 +3171,10 @@ function renderSetup(root, { go }) {
 
   const timeless = world.timeModel === 'none';
   const when = periodLabel(prefs.month, world.timeModel);
-  const spread = usesMoney ? budgetSpread(destinations, prefs.targets.budgetStyle, prefs.month) : null;
+  const spread = usesMoney
+    ? budgetSpread(destinations, prefs.targets.budgetStyle, prefs.month,
+        { noHostels: !!prefs.targets.noHostels })
+    : null;
   const styleMeta = BUDGET_STYLES.find((b) => b.id === prefs.targets.budgetStyle) || {};
 
 
@@ -3180,7 +3263,8 @@ function renderSetup(root, { go }) {
                 s.prefs.targets.budgetStyle = id;
                 // Keep the daily budget anchored to what this tier actually costs,
                 // so the two can never sit in an impossible combination.
-                const sp = budgetSpread(destinations, id, s.prefs.month);
+                const sp = budgetSpread(destinations, id, s.prefs.month,
+                  { noHostels: !!s.prefs.targets.noHostels });
                 if (sp) s.prefs.targets.budgetPerDay = Math.round(sp.median / 10) * 10;
               });
               rerender();
@@ -3682,7 +3766,8 @@ function renderDetail(root, id, { go }) {
   const flightHours = prefs.home ? estimateFlightHours(prefs.home, dest) : null;
   const style = prefs.targets.budgetStyle;
   const nights = prefs.targets.tripNights ?? 7;
-  const dayCost = dailyCost(dest, style, m) ?? 0;
+  const noHostels = !!prefs.targets.noHostels;
+  const dayCost = dailyCost(dest, style, m, { noHostels }) ?? 0;
 
   mount(root,
     h('section', { class: 'screen screen--detail' },
@@ -3834,7 +3919,7 @@ function renderDetail(root, id, { go }) {
             h('h2', null, 'Typical daily cost'),
             h('div', { class: 'costs' },
               ['budget', 'mid', 'luxury'].map((k) => {
-                const perDay = dailyCost(dest, k, m) ?? 0;
+                const perDay = dailyCost(dest, k, m, { noHostels }) ?? 0;
                 return h('div', { class: 'costs__item' + (k === style ? ' is-on' : '') },
                   h('span', { class: 'costs__label' }, k === 'mid' ? 'Mid-range' : k[0].toUpperCase() + k.slice(1)),
                   h('strong', null, '£' + perDay.toLocaleString('en-GB')),
@@ -4044,7 +4129,8 @@ function renderCompare(root, { go }) {
               return h('div', { class: 'cmp__cell' },
                 h('span', { class: 'cmp__score' }, costTierLabel(r.dest.costTier)));
             }
-            const v = dailyCost(r.dest, prefs.targets.budgetStyle, prefs.month) ?? 0;
+            const v = dailyCost(r.dest, prefs.targets.budgetStyle, prefs.month,
+              { noHostels: !!prefs.targets.noHostels }) ?? 0;
             const nights = prefs.targets.tripNights ?? 7;
             return h('div', { class: 'cmp__cell' },
               h('span', { class: 'cmp__score' }, '£' + v),

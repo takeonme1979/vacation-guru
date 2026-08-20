@@ -336,23 +336,27 @@ export function emptyState(icon, title, body, action = null) {
  */
 function budgetNote(prefs) {
   const style = BUDGET_STYLES.find((b) => b.id === prefs.targets.budgetStyle);
-  const label = (style?.label || 'mid-range').toLowerCase();
-  const spread = budgetSpread(data().destinations, prefs.targets.budgetStyle, prefs.month);
-  if (!spread) return { text: `At ${label} style, excluding flights.`, level: '' };
+  const plain = (style?.label || 'mid-range').toLowerCase();
+  const label = prefs.targets.noHostels && prefs.targets.budgetStyle === 'budget'
+    ? `${plain} style without hostels`
+    : `${plain} style`;
+  const noHostels = !!prefs.targets.noHostels;
+  const spread = budgetSpread(data().destinations, prefs.targets.budgetStyle, prefs.month, { noHostels });
+  if (!spread) return { text: `At ${label}, excluding flights.`, level: '' };
 
   const value = prefs.targets.budgetPerDay;
   const n = spread.withinBudget(value);
   if (n === 0) {
     return {
       level: ' is-bad',
-      text: `Nothing costs under £${value} a day at ${label} style — the cheapest is £${spread.min}. `
+      text: `Nothing costs under £${value} a day at ${label} — the cheapest is £${spread.min}. `
         + 'Everywhere will score badly on Cost. Raise the budget, or change travel style under Trip.'
     };
   }
   const pct = Math.round((n / spread.count) * 100);
   return {
     level: pct < 10 ? ' is-warn' : '',
-    text: `${n} of ${spread.count} destinations (${pct}%) fit at ${label} style. `
+    text: `${n} of ${spread.count} destinations (${pct}%) fit at ${label}. `
       + `Typical is £${spread.median} a day. Travel style is set under Trip.`
   };
 }
@@ -402,6 +406,34 @@ export function targetControl(criterion, prefs, go) {
         noteEl.className = 'budget-note' + n.level;
         noteEl.textContent = n.text;
       };
+
+      // Budget travel quietly assumed a dorm bed, which is not what a great
+      // many people travelling cheaply actually want. Only shown at budget
+      // style, because it is the only tier that assumes one.
+      const hostelRow = h('div', { class: 'crit__aside' });
+      const paintHostels = () => {
+        const p = store.state.prefs;
+        if (p.targets.budgetStyle !== 'budget') { mount(hostelRow); return; }
+        const box = h('input', {
+          type: 'checkbox',
+          checked: !p.targets.noHostels,
+          onchange: (e) => {
+            store.setTarget('noHostels', !e.target.checked);
+            paintHostels();
+            paintNote();
+          }
+        });
+        mount(hostelRow,
+          h('label', { class: 'switch switch--inline' },
+            box,
+            h('span', null, 'Hostels are fine')),
+          h('p', { class: 'range__hint' },
+            p.targets.noHostels
+              ? 'Pricing the cheapest private room instead, which is the biggest single line on a budget day.'
+              : 'Budget prices assume a dorm bed. Untick to price the cheapest private room instead.')
+        );
+      };
+
       const block = h('div', { class: 'crit__target' },
         rangeField({
           label: 'Your budget per person, per day',
@@ -412,8 +444,10 @@ export function targetControl(criterion, prefs, go) {
           rightLabel: '£700+ →',
           onInput: (v) => { store.setTarget('budgetPerDay', v); paintNote(); }
         }),
+        hostelRow,
         noteEl
       );
+      paintHostels();
       paintNote();
       return block;
     }

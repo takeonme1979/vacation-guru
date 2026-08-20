@@ -41,7 +41,8 @@ export function renderDetail(root, id, { go }) {
   const flightHours = prefs.home ? estimateFlightHours(prefs.home, dest) : null;
   const style = prefs.targets.budgetStyle;
   const nights = prefs.targets.tripNights ?? 7;
-  const dayCost = dailyCost(dest, style, m) ?? 0;
+  const noHostels = !!prefs.targets.noHostels;
+  const dayCost = dailyCost(dest, style, m, { noHostels }) ?? 0;
 
   mount(root,
     h('section', { class: 'screen screen--detail' },
@@ -193,7 +194,7 @@ export function renderDetail(root, id, { go }) {
             h('h2', null, 'Typical daily cost'),
             h('div', { class: 'costs' },
               ['budget', 'mid', 'luxury'].map((k) => {
-                const perDay = dailyCost(dest, k, m) ?? 0;
+                const perDay = dailyCost(dest, k, m, { noHostels }) ?? 0;
                 return h('div', { class: 'costs__item' + (k === style ? ' is-on' : '') },
                   h('span', { class: 'costs__label' }, k === 'mid' ? 'Mid-range' : k[0].toUpperCase() + k.slice(1)),
                   h('strong', null, '£' + perDay.toLocaleString('en-GB')),

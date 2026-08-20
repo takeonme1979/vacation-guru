@@ -30,7 +30,10 @@ export function renderSetup(root, { go }) {
 
   const timeless = world.timeModel === 'none';
   const when = periodLabel(prefs.month, world.timeModel);
-  const spread = usesMoney ? budgetSpread(destinations, prefs.targets.budgetStyle, prefs.month) : null;
+  const spread = usesMoney
+    ? budgetSpread(destinations, prefs.targets.budgetStyle, prefs.month,
+        { noHostels: !!prefs.targets.noHostels })
+    : null;
   const styleMeta = BUDGET_STYLES.find((b) => b.id === prefs.targets.budgetStyle) || {};
 
 
@@ -119,7 +122,8 @@ export function renderSetup(root, { go }) {
                 s.prefs.targets.budgetStyle = id;
                 // Keep the daily budget anchored to what this tier actually costs,
                 // so the two can never sit in an impossible combination.
-                const sp = budgetSpread(destinations, id, s.prefs.month);
+                const sp = budgetSpread(destinations, id, s.prefs.month,
+                  { noHostels: !!s.prefs.targets.noHostels });
                 if (sp) s.prefs.targets.budgetPerDay = Math.round(sp.median / 10) * 10;
               });
               rerender();

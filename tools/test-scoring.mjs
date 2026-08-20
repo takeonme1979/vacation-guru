@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   rankDestinations, scoreDestination, scoreCriterion, emptyPrefs, applyPreset,
-  monthCurve, estimateFlightHours, MONTHS
+  monthCurve, estimateFlightHours, MONTHS, budgetSpread, dailyCost
 } from '../js/scoring.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -245,6 +245,113 @@ console.log('\nExplainability');
     `${best.dest.name}: ${best.highlights.map((h) => h.criterion.label).join(', ')}`);
   check('every rated criterion appears in the breakdown',
     best.breakdown.length === Object.values(prefs.weights).filter(Boolean).length);
+}
+
+// ---------------------------------------------------------------------------
+console.log('\nBudget does not have to mean a dorm bed');
+// ---------------------------------------------------------------------------
+{
+  // "Budget" quietly assumed a hostel, which is not what a great many people
+  // travelling cheaply actually want. Ruling one out prices the cheapest
+  // private room instead — the biggest single line on a budget day.
+  const priced = destinations.filter((d) => d.costPerDay);
+
+  const raises = priced.filter((d) =>
+    dailyCost(d, 'budget', 7, { noHostels: true }) > dailyCost(d, 'budget', 7));
+  check('ruling out hostels costs more, everywhere',
+    raises.length === priced.length,
+    `${priced.length - raises.length} destinations did not move`);
+
+  const between = priced.filter((d) => {
+    const room = dailyCost(d, 'budget', 7, { noHostels: true });
+    return room > dailyCost(d, 'budget', 7) && room < dailyCost(d, 'mid', 7);
+  });
+  check('a private room lands between budget and mid-range',
+    between.length === priced.length,
+    `${priced.length - between.length} landed outside the gap`);
+
+  const untouched = priced.every((d) =>
+    dailyCost(d, 'mid', 7, { noHostels: true }) === dailyCost(d, 'mid', 7)
+    && dailyCost(d, 'luxury', 7, { noHostels: true }) === dailyCost(d, 'luxury', 7));
+  check('only the budget tier assumes a dorm, so only it changes', untouched);
+
+  // It has to actually change the answers, or it is decoration.
+  const base = emptyPrefs();
+  base.month = 7;
+  base.targets.budgetStyle = 'budget';
+  base.targets.budgetPerDay = 50;
+  base.weights = { cost: 3 };
+
+  const withDorms = rankDestinations(destinations, base, criteriaById).results;
+  const noDorms = rankDestinations(
+    destinations, { ...base, targets: { ...base.targets, noHostels: true } }, criteriaById).results;
+
+  const fitDorms = withDorms.filter((r) => r.breakdown.find((b) => b.criterion.id === 'cost')?.rag === 'green').length;
+  const fitRooms = noDorms.filter((r) => r.breakdown.find((b) => b.criterion.id === 'cost')?.rag === 'green').length;
+  check('it changes which destinations fit the budget',
+    fitRooms < fitDorms, `${fitDorms} fit with dorms, ${fitRooms} without — expected fewer`);
+
+  // A cheap place should still be affordable without a dorm; an expensive one
+  // should not suddenly become so.
+  const cheap = destinations.find((d) => /Rishikesh/i.test(d.name));
+  check('somewhere genuinely cheap stays affordable without a hostel',
+    dailyCost(cheap, 'budget', 7, { noHostels: true }) < 30,
+    `£${dailyCost(cheap, 'budget', 7, { noHostels: true })}/day`);
+
+  const dear = destinations.find((d) => /Zurich/i.test(d.name));
+  check('somewhere expensive does not become cheap',
+    dailyCost(dear, 'budget', 7, { noHostels: true }) > 100,
+    `£${dailyCost(dear, 'budget', 7, { noHostels: true })}/day`);
+}
+
+// ---------------------------------------------------------------------------
+console.log('\nAmber is allowed to warn you');
+// ---------------------------------------------------------------------------
+{
+  // Vienna at "budget" travel style costs ~59 a day against a 50 budget: 18%
+  // over, plainly amber. The card used to show no warning at all, because
+  // watch-outs only ever collected RED, so it read as a clean 86% match on a
+  // search where cost had been marked Important. A traffic light with two
+  // working colours is not a traffic light.
+  const spread = budgetSpread(destinations, 'budget', 7);
+  const prefs = emptyPrefs();
+  prefs.month = 7;
+  prefs.targets.budgetStyle = 'budget';
+  prefs.targets.budgetPerDay = Math.round(spread.median / 10) * 10;
+  prefs.weights = { cost: 2, museums: 2, architecture: 2, history: 2, safety: 2 };
+
+  const all = rankDestinations(destinations, prefs, criteriaById).results;
+  const vienna = all.find((r) => /Vienna/i.test(r.dest.name));
+
+  const cost = vienna.breakdown.find((b) => b.criterion.id === 'cost');
+  check('Vienna really is amber on cost at budget style',
+    cost && cost.rag === 'amber', cost ? `${cost.rag}: ${cost.detail}` : 'no cost in breakdown');
+  check('and the card says so',
+    vienna.watchOuts.some((w) => w.criterion.id === 'cost'),
+    `watch-outs: ${vienna.watchOuts.map((w) => w.criterion.label).join(', ') || 'none'}`);
+
+  // Amber only warns where you said it mattered, or every card fills up with
+  // quibbles about things you never asked about.
+  const idle = emptyPrefs();
+  idle.month = 7;
+  idle.targets.budgetStyle = 'budget';
+  idle.targets.budgetPerDay = Math.round(spread.median / 10) * 10;
+  idle.weights = { museums: 2, architecture: 2, cost: 1 };   // cost: "Nice to have"
+  const quiet = rankDestinations(destinations, idle, criteriaById).results
+    .find((r) => /Vienna/i.test(r.dest.name));
+  check('an amber you barely care about stays quiet',
+    !quiet.watchOuts.some((w) => w.criterion.id === 'cost'),
+    `warned anyway: ${quiet.watchOuts.map((w) => w.criterion.label).join(', ')}`);
+
+  // Red still warns whatever the weight.
+  const reds = all.filter((r) => r.breakdown.some((b) => b.rag === 'red' && b.weight > 0));
+  check('red always warns, at any weight',
+    reds.every((r) => r.watchOuts.length > 0),
+    `${reds.filter((r) => !r.watchOuts.length).length} destinations hid a red`);
+
+  // And it must not become noise.
+  const busiest = Math.max(...all.slice(0, 30).map((r) => r.watchOuts.length));
+  check('cards do not fill up with warnings', busiest <= 3, `one card carries ${busiest}`);
 }
 
 // ---------------------------------------------------------------------------

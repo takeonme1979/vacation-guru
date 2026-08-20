@@ -263,6 +263,30 @@ tools/
   serve.mjs           static server
 ```
 
+### Budget does not have to mean a dorm bed
+
+"Budget" travel style quietly assumed a hostel, and a great many people
+travelling cheaply do not want one. A **Hostels are fine** tick box under the
+cost control lets you say so; untick it and the budget tier prices the cheapest
+private room instead.
+
+It is modelled as a fraction of the gap to mid-range (`PRIVATE_ROOM_UPLIFT`,
+35%) rather than a flat uplift, because the dorm-to-room gap is a few pounds in
+Rishikesh and a great deal more in Zurich. Accommodation is roughly half a
+budget day and a private room runs to about double a bed in a six-share, which
+lands a little over a third of the way up.
+
+| | dorm | private room | mid-range |
+| --- | --- | --- | --- |
+| Rishikesh | £12 | £20 | £33 |
+| Chiang Mai | £21 | £31 | £52 |
+| Prague | £47 | £68 | £105 |
+| Vienna | £59 | £85 | £132 |
+| Zurich | £87 | £123 | £190 |
+
+It changes real answers: destinations under £50 a day fall from 145 to 80. Only
+the budget tier moves — mid-range and luxury never assumed a dorm.
+
 ### Cost, where money is not comparable
 
 A fictional realm has no meaningful price per night, but "you could do this on a
@@ -372,7 +396,7 @@ and its places get the same button.
 
 `npm test` runs five suites, none of which needs a browser or any dependency.
 
-**`test-scoring.mjs` (26 checks)** asserts that recommendations are *sensible*, not
+**`test-scoring.mjs` (37 checks)** asserts that recommendations are *sensible*, not
 that arithmetic is correct — a ski search must return snow, a beach search must
 return beaches, scores must stay monotonic, missing data must never masquerade as a
 bad match. It has already caught two real bugs: the seasonal-gating problem (July

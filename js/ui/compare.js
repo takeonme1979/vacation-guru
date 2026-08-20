@@ -104,7 +104,8 @@ export function renderCompare(root, { go }) {
               return h('div', { class: 'cmp__cell' },
                 h('span', { class: 'cmp__score' }, costTierLabel(r.dest.costTier)));
             }
-            const v = dailyCost(r.dest, prefs.targets.budgetStyle, prefs.month) ?? 0;
+            const v = dailyCost(r.dest, prefs.targets.budgetStyle, prefs.month,
+              { noHostels: !!prefs.targets.noHostels }) ?? 0;
             const nights = prefs.targets.tripNights ?? 7;
             return h('div', { class: 'cmp__cell' },
               h('span', { class: 'cmp__score' }, '£' + v),
