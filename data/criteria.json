@@ -121,6 +121,7 @@
     { "id": "ski-week",       "label": "Ski Week",            "icon": "🎿", "prefs": { "skiing": 3, "snowReliability": 3, "mountains": 2, "scenery": 2, "wellness": 1, "bars": 1 }, "targets": { "temperature": 2 } },
     { "id": "family-summer",  "label": "Family Summer",       "icon": "👪", "prefs": { "familyYoungKids": 3, "beaches": 2, "safety": 2, "swimming": 2, "healthHygiene": 2, "themeParks": 1, "flightTime": 2 }, "targets": { "temperature": 26 } },
     { "id": "honeymoon",      "label": "Honeymoon",           "icon": "💍", "prefs": { "romance": 3, "scenery": 3, "luxury": 2, "beaches": 2, "peacefulness": 2, "fineDining": 2 }, "targets": { "temperature": 27, "peacefulness": 25 } },
+    { "id": "romantic-break", "label": "Romantic Getaway",    "icon": "🥂", "prefs": { "romance": 3, "walkability": 2, "foodScene": 2, "wine": 2, "architecture": 2, "peacefulness": 2, "flightTime": 2, "scenery": 1, "coffee": 1, "safety": 1 }, "targets": { "temperature": 19, "peacefulness": 35 } },
     { "id": "foodie",         "label": "Foodie Trip",         "icon": "🍽️", "prefs": { "foodScene": 3, "streetFood": 2, "markets": 2, "fineDining": 2, "wine": 1, "localCulture": 1 } },
     { "id": "party",          "label": "Party Trip",          "icon": "🪩", "prefs": { "clubbing": 3, "bars": 3, "groupParty": 2, "beaches": 1, "cost": 2 }, "targets": { "peacefulness": 90 } },
     { "id": "budget-backpack","label": "Budget Backpacking",  "icon": "🎒", "prefs": { "cost": 3, "backpacker": 3, "valueForMoney": 2, "soloTravel": 2, "streetFood": 1 } },

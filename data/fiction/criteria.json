@@ -106,15 +106,16 @@
   ],
 
   "presets": [
-    { "id": "classic-quest",  "label": "The Classic Quest",   "icon": "🗡️", "prefs": { "questing": 3, "hiking": 3, "scenery": 2, "fellowship": 2, "artefacts": 2, "monsters": 1, "prophecy": 1 }, "targets": { "temperature": 16, "crowding": 25 } },
-    { "id": "safe-and-warm",  "label": "Safe & Comfortable",  "icon": "🫖", "prefs": { "safety": 3, "comfort": 3, "hospitality": 3, "foodScene": 2, "gettingBack": 3, "warRisk": 2, "seniors": 2 }, "targets": { "temperature": 19, "crowding": 30 } },
+    { "id": "classic-quest",  "label": "The Classic Quest",   "icon": "🗡️", "prefs": { "questing": 3, "hiking": 3, "scenery": 2, "fellowship": 2, "artefacts": 2, "monsters": 1, "prophecy": 1 }, "targets": { "temperature": 16, "peacefulness": 25 } },
+    { "id": "safe-and-warm",  "label": "Safe & Comfortable",  "icon": "🫖", "prefs": { "safety": 3, "comfort": 3, "hospitality": 3, "foodScene": 2, "gettingBack": 3, "warRisk": 2, "seniors": 2 }, "targets": { "temperature": 19, "peacefulness": 30 } },
     { "id": "high-magic",     "label": "Deep Magic",          "icon": "🔮", "prefs": { "magic": 3, "wizards": 3, "libraries": 2, "artefacts": 2, "temples": 1, "timeStrange": 1 } },
     { "id": "final-frontier", "label": "The Final Frontier",  "icon": "🚀", "prefs": { "spaceTravel": 3, "technology": 3, "stargazing": 2, "peoples": 2, "cities": 1 } },
     { "id": "here-be-dragons","label": "Here Be Dragons",     "icon": "🐉", "prefs": { "dragons": 3, "monsters": 3, "combat": 2, "questing": 2, "scenery": 1 } },
-    { "id": "tavern-crawl",   "label": "Tavern Crawl",        "icon": "🍻", "prefs": { "taverns": 3, "ale": 3, "music": 2, "revels": 2, "feasting": 2, "cities": 1 }, "targets": { "crowding": 80 } },
-    { "id": "scholars-leave", "label": "Scholar's Leave",     "icon": "📚", "prefs": { "libraries": 3, "history": 3, "architecture": 2, "ruins": 2, "localCulture": 2, "crowding": 1 }, "targets": { "crowding": 25 } },
+    { "id": "tavern-crawl",   "label": "Tavern Crawl",        "icon": "🍻", "prefs": { "taverns": 3, "ale": 3, "music": 2, "revels": 2, "feasting": 2, "cities": 1 }, "targets": { "peacefulness": 80 } },
+    { "id": "scholars-leave", "label": "Scholar's Leave",     "icon": "📚", "prefs": { "libraries": 3, "history": 3, "architecture": 2, "ruins": 2, "localCulture": 2, "crowding": 1 }, "targets": { "peacefulness": 25 } },
     { "id": "sea-voyage",     "label": "A Sea Voyage",        "icon": "⛵", "prefs": { "sailing": 3, "islands": 3, "coast": 2, "seaMonsters": 2, "scenery": 2 } },
-    { "id": "honeymoon",      "label": "Honeymoon",           "icon": "💍", "prefs": { "romance": 3, "scenery": 3, "safety": 2, "luxury": 2, "comfort": 2, "gettingBack": 2 }, "targets": { "temperature": 22, "crowding": 20 } },
+    { "id": "honeymoon",      "label": "Honeymoon",           "icon": "💍", "prefs": { "romance": 3, "scenery": 3, "safety": 2, "luxury": 2, "comfort": 2, "gettingBack": 2 }, "targets": { "temperature": 22, "peacefulness": 20 } },
+    { "id": "romantic-break", "label": "Romantic Getaway",    "icon": "🥂", "prefs": { "romance": 3, "taverns": 3, "feasting": 3, "wandering": 2, "architecture": 2, "wine": 2, "music": 2, "gettingBack": 2, "localCulture": 1, "scenery": 1 }, "targets": { "temperature": 17, "peacefulness": 40 } },
     { "id": "just-survive",   "label": "Just Get Me Home",    "icon": "🫁", "prefs": { "survivability": 3, "gettingBack": 3, "safety": 3, "healing": 2, "commonTongue": 2, "warRisk": 2 } }
   ]
 }

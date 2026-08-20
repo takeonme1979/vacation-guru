@@ -263,6 +263,26 @@ tools/
   serve.mjs           static server
 ```
 
+### Romantic Getaway, separate from Honeymoon
+
+They are different trips. A honeymoon happens once, is far away and is expensive.
+A romantic getaway is a long weekend somewhere walkable with good dinners, and
+happens far more often — so it weights `walkability`, `foodScene`, `wine`,
+`architecture` and `flightTime`, targets 19°C rather than 27°C, and deliberately
+does not weight `luxury` or `beaches` at all.
+
+| | top results |
+| --- | --- |
+| **Honeymoon** | Maldives, Bora Bora, Seychelles, Turks & Caicos, Saint Lucia |
+| **Romantic Getaway** | Paris, Venice, Québec City, San Sebastián, Bruges, Salzburg |
+
+Two of their top twenty overlap. If they returned the same list, one of them
+would be pointless, and there is a test asserting they do not.
+
+The fictional world has the same pair, though the separation is weaker — six of
+twelve overlap there, because across 128 realms comfort and romance correlate
+much more tightly than they do on Earth.
+
 ### Budget does not have to mean a dorm bed
 
 "Budget" travel style quietly assumed a hostel, and a great many people
@@ -396,7 +416,7 @@ and its places get the same button.
 
 `npm test` runs five suites, none of which needs a browser or any dependency.
 
-**`test-scoring.mjs` (37 checks)** asserts that recommendations are *sensible*, not
+**`test-scoring.mjs` (44 checks)** asserts that recommendations are *sensible*, not
 that arithmetic is correct — a ski search must return snow, a beach search must
 return beaches, scores must stay monotonic, missing data must never masquerade as a
 bad match. It has already caught two real bugs: the seasonal-gating problem (July

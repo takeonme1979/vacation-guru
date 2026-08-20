@@ -248,6 +248,72 @@ console.log('\nExplainability');
 }
 
 // ---------------------------------------------------------------------------
+console.log('\nA romantic getaway is not a honeymoon');
+// ---------------------------------------------------------------------------
+{
+  // Two different trips. A honeymoon is once, far away and expensive; a
+  // romantic getaway is a long weekend somewhere walkable with good dinners,
+  // and happens far more often. If both presets returned the same list, one of
+  // them would be pointless.
+  const rom = top({ ...applyPreset(emptyPrefs(), presets['romantic-break']), month: 3 }, 12);
+  const hon = top({ ...applyPreset(emptyPrefs(), presets['honeymoon']), month: 6 }, 12);
+
+  check('a romantic getaway is genuinely romantic',
+    rom.every((r) => r.dest.ratings.romance >= 60),
+    rom.filter((r) => r.dest.ratings.romance < 60).map((r) => r.dest.name).join(', '));
+
+  // Mostly, not entirely. Santorini is romance 98 and walkability 42 — steep,
+  // spread across villages, you need a bus — and it belongs on this list
+  // regardless. Requiring every result to be walkable would have been asserting
+  // a rule the world does not follow.
+  const walkable = rom.filter((r) => r.dest.ratings.walkability >= 55).length;
+  check('and mostly somewhere you can wander around together', walkable >= 9,
+    `${walkable}/12 walkable: ${rom.filter((r) => r.dest.ratings.walkability < 55).map((r) => r.dest.name).join(', ')}`);
+
+  check('a honeymoon is still beaches and luxury',
+    hon.filter((r) => r.dest.ratings.beaches >= 70 || r.dest.ratings.luxury >= 75).length >= 9,
+    `only ${hon.filter((r) => r.dest.ratings.beaches >= 70 || r.dest.ratings.luxury >= 75).length}/12`);
+
+  const honIds = new Set(hon.map((r) => r.dest.id));
+  const shared = rom.filter((r) => honIds.has(r.dest.id)).length;
+  check('the two lists are genuinely different', shared <= 4,
+    `${shared}/12 destinations appear in both`);
+
+  check('it does not simply pick the most expensive places',
+    rom.filter((r) => r.dest.ratings.luxury >= 85).length <= 6,
+    `${rom.filter((r) => r.dest.ratings.luxury >= 85).length}/12 are top-tier luxury`);
+}
+
+// ---------------------------------------------------------------------------
+console.log('\nEvery preset asks a question the engine can answer');
+// ---------------------------------------------------------------------------
+{
+  // A preset naming a target the engine never reads is silently ignored. Six
+  // fiction presets set `targets.crowding` — a fair guess, since the criterion
+  // is called `crowding` there — while the engine has only ever read
+  // `targets.peacefulness`. Tavern Crawl asked for a heaving inn and quietly
+  // got the default instead.
+  const READS = ['temperature', 'peacefulness', 'budgetPerDay', 'budgetStyle',
+    'noHostels', 'costTier', 'maxFlightHours', 'tripNights'];
+  const bad = [];
+  for (const preset of Object.values(presets)) {
+    for (const k of Object.keys(preset.targets || {})) {
+      if (!READS.includes(k)) bad.push(`${preset.id}.${k}`);
+    }
+    for (const k of Object.keys(preset.prefs || {})) {
+      if (!criteriaById.has(k)) bad.push(`${preset.id}.${k}`);
+    }
+  }
+  check('no preset sets something that is never read', bad.length === 0, bad.join(', '));
+
+  // And every preset has to actually return something.
+  const empty = Object.values(presets).filter((preset) =>
+    top({ ...applyPreset(emptyPrefs(), preset), month: 6 }, 1).length === 0);
+  check('every preset returns results', empty.length === 0,
+    empty.map((p) => p.id).join(', '));
+}
+
+// ---------------------------------------------------------------------------
 console.log('\nBudget does not have to mean a dorm bed');
 // ---------------------------------------------------------------------------
 {

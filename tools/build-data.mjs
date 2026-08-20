@@ -64,6 +64,20 @@ const EARTH_CLIMATE_RANGE = {
   snowDepth: [0, 600]
 };
 const CLIMATE_KEYS = Object.keys(EARTH_CLIMATE_RANGE);
+
+/**
+ * The target keys the scoring engine actually reads.
+ *
+ * A preset naming anything else is silently ignored, which is exactly what
+ * happened: six fiction presets set `targets.crowding` — a perfectly reasonable
+ * guess, since the criterion is called `crowding` there — while the engine has
+ * only ever read `targets.peacefulness`. Tavern Crawl asked for a heaving inn
+ * and got the default for a year without anything saying so.
+ */
+const TARGET_KEYS = [
+  'temperature', 'peacefulness', 'budgetPerDay', 'budgetStyle', 'noHostels',
+  'costTier', 'maxFlightHours', 'tripNights'
+];
 const REQUIRED_CLIMATE = ['tempHigh', 'tempLow', 'rainDays', 'sunHours', 'humidity'];
 
 function checkArray(dest, name, arr, { min = -60, max = 400, required = true } = {}) {
@@ -122,6 +136,24 @@ async function buildWorld(world) {
     for (const k of Object.keys(a.r)) {
       if (!ratedSet.has(k)) err(`archetype ${aid}: "${k}" is not a rated criterion`);
     }
+  }
+
+  // ---- presets ------------------------------------------------------------
+  // A preset is just a saved set of answers, so every key in it has to be a
+  // question the app can actually ask.
+  for (const preset of criteria.presets || []) {
+    if (!preset.id || !preset.label) { err(`preset with no id or label`); continue; }
+    for (const [k, v] of Object.entries(preset.prefs || {})) {
+      if (!allCritIds.has(k)) err(`preset ${preset.id}: "${k}" is not a criterion`);
+      else if (![0, 1, 2, 3].includes(v)) err(`preset ${preset.id}: ${k} = ${v}, expected 0-3`);
+    }
+    for (const k of Object.keys(preset.targets || {})) {
+      if (!TARGET_KEYS.includes(k)) {
+        err(`preset ${preset.id}: target "${k}" is not one the engine reads `
+          + `(${TARGET_KEYS.join(', ')})`);
+      }
+    }
+    if (!Object.keys(preset.prefs || {}).length) warn(`preset ${preset.id}: sets no criteria`);
   }
 
   // ---- load destination shards -------------------------------------------
