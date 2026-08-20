@@ -263,6 +263,25 @@ tools/
   serve.mjs           static server
 ```
 
+### Starting over
+
+`clearCriteria()` draws one line: it clears everything you have said you **want**
+and keeps the practical facts of the trip.
+
+| cleared | kept |
+| --- | --- |
+| every criterion weight | the month you are going |
+| the targets a preset moved (temperature, atmosphere, cost tier, flight time) | trip length |
+| continent and type filters | travel style and hostel preference |
+| the applied preset | your saved and been-there lists |
+
+Clearing weights alone was not enough, which is what it used to do. Beach & Chill
+also pushes the temperature target to 28°C and atmosphere to 30, and those
+survived a "Clear all" invisibly, quietly shaping the next search.
+
+It sits on the Criteria screen and on the Trip screen, and the Trip one appears
+only when there is something to clear.
+
 ### Romantic Getaway, separate from Honeymoon
 
 They are different trips. A honeymoon happens once, is far away and is expensive.
@@ -423,7 +442,7 @@ bad match. It has already caught two real bugs: the seasonal-gating problem (Jul
 skiing in the Dolomites) and a discontinuity where a destination slightly over
 budget outranked one comfortably under it.
 
-**`test-render.mjs` (29 checks)** uses the DOM shim in `tools/dom-shim.mjs` to
+**`test-render.mjs` (33 checks)** uses the DOM shim in `tools/dom-shim.mjs` to
 actually render every screen in Node, including every detail page, then clicks
 presets, importance buttons and month tiles to confirm state updates. It fails on
 any `NaN`/`undefined` reaching the DOM. It has caught two bugs the browser hid: a

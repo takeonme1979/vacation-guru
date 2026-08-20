@@ -139,6 +139,39 @@ export async function resetAll() {
   emit();
 }
 
+/**
+ * Start the questionnaire again.
+ *
+ * The line this draws: it clears everything you have said you WANT, and keeps
+ * the practical facts of the trip. Weights, the criterion targets a preset may
+ * have moved, and the preset itself all go. Your month, trip length, travel
+ * style, home airport, saved list and been-there list all stay, because none of
+ * those is a criterion and losing them would be a nasty surprise.
+ *
+ * Clearing weights alone was not enough: picking Beach & Chill also pushes the
+ * temperature target to 28 and the atmosphere target to 30, and those survived
+ * a "Clear all" invisibly, quietly shaping the next search.
+ */
+export function clearCriteria() {
+  const fresh = emptyPrefs().targets;
+  update((s) => {
+    s.prefs.weights = {};
+    s.prefs.filters = { ...s.prefs.filters, continents: [], types: [] };
+    s.lastPreset = null;
+    for (const k of ['temperature', 'peacefulness', 'costTier', 'maxFlightHours']) {
+      s.prefs.targets[k] = fresh[k];
+    }
+  });
+}
+
+/** Is there anything to clear? */
+export function hasCriteria() {
+  const p = state.prefs;
+  return Object.values(p.weights || {}).some(Boolean)
+    || (p.filters?.continents || []).length > 0
+    || (p.filters?.types || []).length > 0;
+}
+
 // ---- convenience mutators --------------------------------------------------
 
 export function setImportance(criterionId, level) {

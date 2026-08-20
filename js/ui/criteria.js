@@ -156,8 +156,9 @@ export function renderCriteria(root, { go }) {
         expandBtn,
         h('button', {
           class: 'btn btn--ghost',
+          title: 'Clears every criterion and target. Your month, trip length and saved list stay.',
           onclick: () => {
-            store.update((s) => { s.prefs.weights = {}; s.lastPreset = null; });
+            store.clearCriteria();
             openCats.clear();          // a fresh start should look like one
             expandBtn.textContent = 'Expand all';
             paintList();

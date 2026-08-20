@@ -679,6 +679,10 @@ a { color: var(--accent); }
 .lightbox__cap strong { font-weight: 650; }
 .lightbox__counter { font-variant-numeric: tabular-nums; opacity: .7; flex: none; }
 
+/* A block that should not compete with the ones above it. */
+.block--quiet { border-style: dashed; background: none; }
+.block--quiet .block__hint { margin-top: 8px; margin-bottom: 0; }
+
 /* --- an aside inside a criterion control --------------------------------- */
 
 .crit__aside {
@@ -2438,6 +2442,39 @@ async function resetAll() {
   emit();
 }
 
+/**
+ * Start the questionnaire again.
+ *
+ * The line this draws: it clears everything you have said you WANT, and keeps
+ * the practical facts of the trip. Weights, the criterion targets a preset may
+ * have moved, and the preset itself all go. Your month, trip length, travel
+ * style, home airport, saved list and been-there list all stay, because none of
+ * those is a criterion and losing them would be a nasty surprise.
+ *
+ * Clearing weights alone was not enough: picking Beach & Chill also pushes the
+ * temperature target to 28 and the atmosphere target to 30, and those survived
+ * a "Clear all" invisibly, quietly shaping the next search.
+ */
+function clearCriteria() {
+  const fresh = emptyPrefs().targets;
+  update((s) => {
+    s.prefs.weights = {};
+    s.prefs.filters = { ...s.prefs.filters, continents: [], types: [] };
+    s.lastPreset = null;
+    for (const k of ['temperature', 'peacefulness', 'costTier', 'maxFlightHours']) {
+      s.prefs.targets[k] = fresh[k];
+    }
+  });
+}
+
+/** Is there anything to clear? */
+function hasCriteria() {
+  const p = state.prefs;
+  return Object.values(p.weights || {}).some(Boolean)
+    || (p.filters?.continents || []).length > 0
+    || (p.filters?.types || []).length > 0;
+}
+
 // ---- convenience mutators --------------------------------------------------
 
 function setImportance(criterionId, level) {
@@ -2488,6 +2525,8 @@ const isComparing = (id) => state.compare.includes(id);
   __x.restore = restore;
   __x.setWorld = setWorld;
   __x.resetAll = resetAll;
+  __x.clearCriteria = clearCriteria;
+  __x.hasCriteria = hasCriteria;
   __x.setImportance = setImportance;
   __x.setTarget = setTarget;
   __x.setMonth = setMonth;
@@ -3360,6 +3399,23 @@ function renderSetup(root, { go }) {
         )
       ),
 
+      // ---- start again ----------------------------------------------------
+      // Only shown when there is something to clear, so it can never surprise
+      // anybody by appearing next to an empty questionnaire.
+      store.hasCriteria()
+        ? h('div', { class: 'block block--quiet' },
+            h('button', {
+              class: 'btn btn--ghost',
+              onclick: () => { store.clearCriteria(); rerender(); }
+            }, 'Clear all criteria'),
+            h('p', { class: 'block__hint' },
+              'Clears every criterion, every filter, and anything a trip type set for you. '
+              + (usesMoney
+                  ? 'Your month, trip length, travel style and saved places all stay.'
+                  : 'Your saved places stay.'))
+          )
+        : null,
+
       // ---- go -------------------------------------------------------------
       h('div', { class: 'sticky-actions' },
         h('div', { class: 'sticky-actions__summary' },
@@ -3544,8 +3600,9 @@ function renderCriteria(root, { go }) {
         expandBtn,
         h('button', {
           class: 'btn btn--ghost',
+          title: 'Clears every criterion and target. Your month, trip length and saved list stay.',
           onclick: () => {
-            store.update((s) => { s.prefs.weights = {}; s.lastPreset = null; });
+            store.clearCriteria();
             openCats.clear();          // a fresh start should look like one
             expandBtn.textContent = 'Expand all';
             paintList();

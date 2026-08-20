@@ -669,6 +669,10 @@ a { color: var(--accent); }
 .lightbox__cap strong { font-weight: 650; }
 .lightbox__counter { font-variant-numeric: tabular-nums; opacity: .7; flex: none; }
 
+/* A block that should not compete with the ones above it. */
+.block--quiet { border-style: dashed; background: none; }
+.block--quiet .block__hint { margin-top: 8px; margin-bottom: 0; }
+
 /* --- an aside inside a criterion control --------------------------------- */
 
 .crit__aside {

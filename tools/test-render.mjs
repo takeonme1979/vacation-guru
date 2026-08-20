@@ -12,7 +12,7 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { installDom, countNodes, Nd } from './dom-shim.mjs';
-import { budgetSpread, crowdWord } from '../js/scoring.js';
+import { budgetSpread, crowdWord, applyPreset } from '../js/scoring.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -403,6 +403,61 @@ check('a gallery is never padded out with gradients', () => {
   }
   const shape = Object.keys(sizes).sort().map((k) => `${k}\u00d7${sizes[k]}`).join(' ');
   return `gallery sizes ${shape}${short ? `, ${short} short of two real photos` : ''}`;
+});
+
+console.log('\nStarting over actually starts over');
+check('clearing takes the targets a preset moved with it', () => {
+  // Weights alone were not enough. Beach & Chill also pushes the temperature
+  // target to 28 and atmosphere to 30, and those used to survive a "Clear all"
+  // invisibly, quietly shaping the next search.
+  const beach = data().presets.find((p) => p.id === 'beach-chill');
+  store_.update((s) => {
+    s.prefs = applyPreset(store_.state.prefs, beach);
+    s.prefs.filters.continents = ['Europe'];
+  }, { persist: false });
+
+  const moved = store_.state.prefs.targets.temperature;
+  assert(moved === 28, `the preset did not move the temperature target (${moved})`);
+  assert(store_.hasCriteria(), 'hasCriteria() says there is nothing to clear');
+
+  store_.clearCriteria();
+
+  assert(Object.values(store_.state.prefs.weights).every((v) => !v), 'weights survived');
+  assert(store_.state.prefs.targets.temperature !== 28,
+    `temperature target still ${store_.state.prefs.targets.temperature}`);
+  assert(store_.state.prefs.filters.continents.length === 0, 'a continent filter survived');
+  assert(store_.state.lastPreset === null, 'the preset is still marked as applied');
+  assert(!store_.hasCriteria(), 'hasCriteria() still says there is something to clear');
+  return 'weights, targets, filters and the preset all cleared';
+});
+
+check('but it keeps the practical facts of the trip', () => {
+  store_.update((s) => {
+    s.prefs.month = 2;
+    s.prefs.targets.tripNights = 11;
+    s.prefs.targets.budgetStyle = 'luxury';
+    s.prefs.weights = { beaches: 3 };
+  }, { persist: false });
+  store_.clearCriteria();
+  const t = store_.state.prefs.targets;
+  assert(store_.state.prefs.month === 2, 'the month was reset');
+  assert(t.tripNights === 11, 'trip length was reset');
+  assert(t.budgetStyle === 'luxury', 'travel style was reset');
+  return 'month, trip length and travel style all survive';
+});
+
+check('the trip screen offers it only when there is something to clear', () => {
+  const has = () => {
+    const r = root();
+    renderSetup(r, { go: () => {} });
+    return r.querySelectorAll('.btn').some((b) => /Clear all criteria/.test(b.textContent));
+  };
+  store_.clearCriteria();
+  assert(!has(), 'offered to clear an empty questionnaire');
+  store_.update((s) => { s.prefs.weights = { beaches: 3 }; }, { persist: false });
+  assert(has(), 'no way to start over from the trip screen');
+  store_.clearCriteria();
+  return 'hidden when empty, shown when not';
 });
 
 console.log('\nCriteria list starts collapsed');

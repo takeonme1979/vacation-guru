@@ -219,6 +219,23 @@ export function renderSetup(root, { go }) {
         )
       ),
 
+      // ---- start again ----------------------------------------------------
+      // Only shown when there is something to clear, so it can never surprise
+      // anybody by appearing next to an empty questionnaire.
+      store.hasCriteria()
+        ? h('div', { class: 'block block--quiet' },
+            h('button', {
+              class: 'btn btn--ghost',
+              onclick: () => { store.clearCriteria(); rerender(); }
+            }, 'Clear all criteria'),
+            h('p', { class: 'block__hint' },
+              'Clears every criterion, every filter, and anything a trip type set for you. '
+              + (usesMoney
+                  ? 'Your month, trip length, travel style and saved places all stay.'
+                  : 'Your saved places stay.'))
+          )
+        : null,
+
       // ---- go -------------------------------------------------------------
       h('div', { class: 'sticky-actions' },
         h('div', { class: 'sticky-actions__summary' },
