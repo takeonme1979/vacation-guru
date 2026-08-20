@@ -3,6 +3,7 @@ import { data } from '../data.js';
 import * as store from '../state.js';
 import {
   applyPreset, BUDGET_STYLES, prefsSummary, budgetSpread, crowdWord, periodLabel
+, MAX_PER_COUNTRY
 } from '../scoring.js';
 import {
   field, timePicker, segmented, rangeField, importancePicker, targetControl, tripCriteria
@@ -213,9 +214,9 @@ export function renderSetup(root, { go }) {
         h('label', { class: 'switch' },
           h('input', {
             type: 'checkbox', checked: prefs.maxPerCountry > 0,
-            onchange: (e) => store.update((s) => { s.prefs.maxPerCountry = e.target.checked ? 2 : 0; })
+            onchange: (e) => store.update((s) => { s.prefs.maxPerCountry = e.target.checked ? MAX_PER_COUNTRY : 0; })
           }),
-          h('span', null, 'Mix it up — at most two results per country near the top')
+          h('span', null, `Mix it up — at most ${MAX_PER_COUNTRY} results per ${usesMoney ? 'country' : 'universe'} near the top`)
         )
       ),
 

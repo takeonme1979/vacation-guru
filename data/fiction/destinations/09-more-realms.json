@@ -1,0 +1,583 @@
+{
+  "_doc": "More of the same universes — the places the first pass had no room for.",
+  "destinations": [
+    {
+      "id": "isengard",
+      "name": "Isengard",
+      "country": "ME",
+      "region": "The Gap of Rohan",
+      "continent": "High Fantasy",
+      "type": "fortress",
+      "arch": "dark-realm",
+      "blurb": "A ring of stone around a black tower, once a garden and a library, now a pit of forges and felled trees. The wizard inside has a mind of metal and wheels.",
+      "about": "Orthanc itself was built by the Númenóreans and cannot be broken — everything Saruman did to it was landscaping. The valley was wooded and beautiful before he cut it down for fuel, which is precisely why the Ents come, and why the book's most satisfying scene is a river being let back in.",
+      "tags": ["orthanc", "saruman", "forges", "the ents came"],
+      "climate": {
+        "tempHigh": [5, 7, 11, 15, 19, 22, 24, 24, 20, 15, 9, 6],
+        "tempLow": [-1, 0, 3, 6, 9, 12, 14, 14, 11, 7, 3, 0],
+        "rainDays": [14, 12, 12, 11, 10, 9, 8, 9, 10, 12, 14, 15],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 4, 2, 2],
+        "humidity": [84, 82, 78, 74, 71, 68, 66, 68, 72, 78, 83, 85]
+      },
+      "crowd": [58, 58, 60, 62, 65, 68, 70, 70, 66, 62, 60, 58],
+      "costTier": 2,
+      "r": {
+        "architecture": 88, "ruins": 78, "underground": 88, "history": 88, "libraries": 82,
+        "wizards": 92, "magic": 82, "artefacts": 85, "intrigue": 92, "technology": 62,
+        "combat": 85, "monsters": 82, "questing": 78, "mountains": 72, "forests": 42,
+        "scenery": 45, "safety": 12, "lawAndOrder": 32, "hospitality": 5, "comfort": 22,
+        "healing": 25, "foodScene": 22, "vegetarian": 25, "ale": 32, "taverns": 15, "revels": 12,
+        "music": 15, "festivals": 5, "familyFriendly": 2, "seniors": 8, "romance": 5,
+        "luxury": 32, "peoples": 32, "localCulture": 42, "wandering": 25, "stargazing": 22
+      },
+      "photos": [
+        "Black stone tower fortress",
+        "Industrial forge fire night",
+        "Circular stone wall fortress aerial",
+        "Felled forest stumps",
+        "Dark tower storm clouds",
+        "Water flooding valley"
+      ]
+    },
+    {
+      "id": "gondor-osgiliath",
+      "name": "Ithilien & Osgiliath",
+      "country": "ME",
+      "region": "Eastern Gondor",
+      "continent": "High Fantasy",
+      "type": "ruins",
+      "arch": "pastoral-idyll",
+      "blurb": "The garden of Gondor gone to seed — herbs growing wild over abandoned terraces, and downriver the broken bridges of a city that was the jewel of the kingdom.",
+      "about": "Tolkien loved Ithilien best of anywhere he invented, and it shows: the chapter set there is mostly a list of plants. It is the one place in the book where the war is close enough to hear and the prose still stops to notice tamarisk and marjoram. Osgiliath below it was the old capital, fought over so many times that nobody lives there any more.",
+      "tags": ["herbs", "faramir", "broken bridges", "the anduin"],
+      "climate": {
+        "tempHigh": [11, 13, 17, 21, 26, 30, 33, 33, 28, 22, 16, 12],
+        "tempLow": [4, 5, 7, 10, 14, 18, 20, 20, 17, 12, 8, 5],
+        "rainDays": [10, 9, 8, 6, 4, 2, 1, 1, 3, 6, 9, 11],
+        "sunHours": [4, 5, 6, 8, 9, 11, 12, 11, 9, 7, 5, 4],
+        "humidity": [76, 74, 70, 65, 60, 54, 50, 52, 58, 66, 73, 77]
+      },
+      "crowd": [18, 18, 20, 24, 28, 32, 34, 34, 30, 26, 22, 18],
+      "costTier": 1,
+      "r": {
+        "forests": 88, "plains": 78, "rivers": 88, "scenery": 92, "ruins": 92,
+        "architecture": 85, "history": 90, "wilderness": 78, "hiking": 85, "wandering": 88,
+        "artefacts": 68, "questing": 82, "combat": 72, "monsters": 62, "stargazing": 82,
+        "localCulture": 62, "hospitality": 55, "comfort": 42, "safety": 32, "warRisk": 15,
+        "healing": 45, "foodScene": 55, "vegetarian": 82, "wine": 68, "cities": 22,
+        "markets": 12, "taverns": 15, "romance": 68, "soloTravel": 62, "fellowship": 72
+      },
+      "photos": [
+        "Mediterranean herb hillside",
+        "Ruined stone bridge river",
+        "Overgrown terraced garden ruins",
+        "River valley moonlight ruins",
+        "Wild rosemary thyme hillside",
+        "Broken columns river bank"
+      ]
+    },
+    {
+      "id": "the-shire-buckland",
+      "name": "Buckland & the Old Forest",
+      "country": "ME",
+      "region": "The eastern Shire",
+      "continent": "High Fantasy",
+      "type": "forest",
+      "arch": "pastoral-idyll",
+      "blurb": "The Shire's odd corner, where hobbits keep boats and lock their doors, backing onto a wood whose trees move the paths at night and do not like people.",
+      "about": "The Old Forest is the first genuinely frightening thing in The Lord of the Rings, and it happens twenty miles from home. Old Man Willow swallows two hobbits; Tom Bombadil, who Tolkien never explained and refused to, sings them out again. Peter Jackson cut all of it, which is defensible and still a shame.",
+      "tags": ["old man willow", "bombadil", "the high hay", "hobbits with boats"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 14, 18, 21, 23, 23, 20, 15, 10, 8],
+        "tempLow": [1, 1, 3, 5, 8, 11, 13, 13, 11, 8, 4, 2],
+        "rainDays": [15, 13, 13, 12, 11, 10, 10, 10, 11, 14, 15, 16],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 2],
+        "humidity": [88, 86, 83, 80, 77, 75, 74, 76, 80, 85, 88, 89]
+      },
+      "crowd": [15, 15, 18, 24, 30, 34, 36, 36, 30, 24, 18, 16],
+      "costTier": 1,
+      "r": {
+        "forests": 96, "rivers": 82, "wilderness": 78, "scenery": 82, "hiking": 78,
+        "wandering": 72, "magic": 78, "timeStrange": 82, "monsters": 68, "beasts": 72,
+        "prophecy": 55, "artefacts": 55, "taverns": 78, "ale": 88, "pipeweed": 92,
+        "feasting": 88, "hospitality": 82, "comfort": 72, "familyFriendly": 68, "seniors": 62,
+        "localCulture": 88, "music": 78, "festivals": 72, "fellowship": 82, "safety": 42,
+        "healing": 55, "cities": 5, "markets": 32, "sailing": 45, "swimming": 42,
+        "vegetarian": 82, "stargazing": 68
+      },
+      "photos": [
+        "Ancient willow tree river",
+        "Dark tangled forest path",
+        "English river punt willows",
+        "Hedge boundary countryside",
+        "Misty woodland dawn eerie",
+        "Thatched cottage riverside"
+      ]
+    },
+    {
+      "id": "the-reach-oldtown",
+      "name": "The Reach",
+      "country": "WES",
+      "region": "Southwest Westeros",
+      "continent": "High Fantasy",
+      "type": "plains",
+      "arch": "pastoral-idyll",
+      "blurb": "The richest and most fertile part of Westeros — orchards, vineyards, tourneys and courtly manners laid thickly over the usual amount of scheming.",
+      "about": "The Reach is where Westeros keeps its idea of chivalry, which mostly means the knights there are better dressed rather than better behaved. Its lords have spent three hundred years insisting on a claim to be Kings of the Reach that everyone politely ignores. The wine is genuinely the best in the Seven Kingdoms, and the Arbor's is the best of that.",
+      "tags": ["orchards", "arbor gold", "tourneys", "chivalry"],
+      "climate": {
+        "tempHigh": [12, 14, 17, 21, 25, 28, 30, 30, 26, 21, 16, 13],
+        "tempLow": [5, 5, 7, 10, 13, 16, 18, 18, 16, 12, 8, 6],
+        "rainDays": [11, 10, 10, 9, 7, 5, 3, 4, 6, 9, 11, 12],
+        "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [80, 78, 74, 70, 66, 62, 58, 60, 66, 72, 78, 81]
+      },
+      "crowd": [42, 42, 48, 58, 68, 75, 78, 78, 70, 58, 48, 45],
+      "costTier": 2,
+      "r": {
+        "plains": 92, "forests": 72, "rivers": 82, "scenery": 85, "coast": 62, "wine": 100,
+        "feasting": 92, "foodScene": 88, "ale": 78, "taverns": 82, "festivals": 92, "music": 88,
+        "revels": 82, "romance": 88, "architecture": 85, "history": 82, "libraries": 78,
+        "localCulture": 88, "intrigue": 88, "combat": 72, "hospitality": 85, "comfort": 78,
+        "safety": 68, "lawAndOrder": 72, "healing": 62, "luxury": 82, "seniors": 72,
+        "familyFriendly": 68, "wandering": 72, "markets": 78
+      },
+      "photos": [
+        "Rolling farmland orchards summer",
+        "Medieval tournament jousting",
+        "Vineyard rows sunset hills",
+        "Golden wheat field castle",
+        "Medieval feast hall banquet",
+        "English country manor gardens"
+      ]
+    },
+    {
+      "id": "riverrun-wes",
+      "name": "The Riverlands",
+      "country": "WES",
+      "region": "Central Westeros",
+      "continent": "High Fantasy",
+      "type": "region",
+      "arch": "pastoral-idyll",
+      "blurb": "Where every road in Westeros crosses and every war is fought. Green, wet, and comprehensively burned down at least once a generation.",
+      "about": "Riverrun sits in the fork of two rivers and can flood its own moat, which is the single best piece of castle design in the books. The Riverlands' misfortune is geography: they are in the middle, so everyone marches through, and the smallfolk pay for all of it. The Red Wedding happens here, at a bridge nobody could avoid using.",
+      "tags": ["the trident", "riverrun", "the twins", "always at war"],
+      "climate": {
+        "tempHigh": [7, 9, 13, 17, 21, 24, 26, 26, 22, 17, 11, 8],
+        "tempLow": [1, 2, 4, 7, 11, 14, 16, 16, 13, 9, 5, 2],
+        "rainDays": [14, 12, 13, 12, 11, 10, 9, 9, 11, 13, 14, 15],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 3, 2],
+        "humidity": [86, 84, 80, 76, 73, 70, 68, 70, 75, 81, 85, 87]
+      },
+      "crowd": [38, 38, 42, 48, 55, 62, 65, 65, 58, 50, 42, 38],
+      "costTier": 1,
+      "r": {
+        "rivers": 96, "plains": 82, "forests": 78, "scenery": 78, "sailing": 68, "swimming": 55,
+        "hiking": 68, "wandering": 78, "architecture": 78, "history": 88, "ruins": 72,
+        "combat": 88, "intrigue": 88, "questing": 72, "taverns": 78, "ale": 82, "feasting": 68,
+        "music": 72, "localCulture": 78, "markets": 68, "safety": 22, "warRisk": 8,
+        "lawAndOrder": 32, "hospitality": 55, "comfort": 45, "healing": 42, "familyFriendly": 25,
+        "romance": 55, "luxury": 42, "wine": 55
+      },
+      "photos": [
+        "River fork castle aerial",
+        "English river willows meadow",
+        "Medieval bridge stone river",
+        "Burned village ruins field",
+        "River mist morning reeds",
+        "Watermill river stone"
+      ]
+    },
+    {
+      "id": "asshai-wes",
+      "name": "Asshai by the Shadow",
+      "country": "WES",
+      "region": "The far east of Essos",
+      "continent": "High Fantasy",
+      "type": "city",
+      "arch": "dark-realm",
+      "blurb": "A city built entirely of greasy black stone that drinks the light, at the end of the world, where nothing grows, nothing breeds, and everyone wears a mask.",
+      "about": "Almost nothing is confirmed about Asshai, which is exactly why it works — Martin gives you a handful of details (the black stone, the sunless harbour, the shadowbinders) and lets the gap do the rest. It has no children. Its food is all imported. The river runs black and the fish caught in it are blind and deformed. Melisandre came from here.",
+      "tags": ["shadowbinders", "black stone", "no children", "the sunless sea"],
+      "climate": {
+        "tempHigh": [18, 18, 19, 20, 21, 22, 23, 23, 22, 21, 19, 18],
+        "tempLow": [11, 11, 12, 13, 14, 15, 16, 16, 15, 14, 12, 11],
+        "rainDays": [16, 15, 15, 14, 13, 12, 12, 12, 13, 14, 15, 16],
+        "sunHours": [1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1],
+        "humidity": [90, 90, 89, 88, 87, 86, 85, 86, 87, 88, 89, 90],
+        "seaTemp": [16, 16, 16, 17, 18, 19, 19, 19, 19, 18, 17, 16]
+      },
+      "crowd": [28, 28, 28, 30, 30, 32, 32, 32, 30, 30, 28, 28],
+      "costTier": 3,
+      "r": {
+        "cities": 82, "architecture": 90, "magic": 100, "wizards": 96, "prophecy": 96,
+        "undead": 92, "artefacts": 96, "intrigue": 96, "libraries": 88, "history": 88,
+        "timeStrange": 88, "markets": 78, "coast": 68, "sailing": 62, "ruins": 72, "dragons": 62,
+        "safety": 5, "survivability": 12, "hospitality": 8, "comfort": 22, "healing": 32,
+        "foodScene": 18, "vegetarian": 15, "wine": 42, "taverns": 32, "revels": 12, "music": 22,
+        "festivals": 5, "familyFriendly": 0, "seniors": 8, "romance": 12, "luxury": 68,
+        "gettingBack": 22, "commonTongue": 32, "peoples": 55, "scenery": 42
+      },
+      "photos": [
+        "Black stone city dark harbour",
+        "Obsidian wall texture",
+        "Foggy harbour dark ships",
+        "Masked figures robes procession",
+        "Dark river black water",
+        "Volcanic black rock coast"
+      ]
+    },
+    {
+      "id": "hoth-echo",
+      "name": "Alderaan",
+      "country": "SW",
+      "region": "The Core Worlds",
+      "continent": "Science Fiction",
+      "type": "region",
+      "arch": "utopia",
+      "blurb": "Snow-capped mountains above grasslands and glass-spired cities, a world with no weapons and a two-thousand-year peace. Visit while you can.",
+      "about": "Alderaan exists in the films for about ninety seconds and only in order to be destroyed, which is the point: it is the Death Star's argument, made once. Everything else known about it — the pacifism, the art, the royal house that adopted Leia — was filled in afterwards by people trying to make the loss land harder. It works.",
+      "tags": ["pacifist", "grasslands", "house organa", "no longer there"],
+      "climate": {
+        "tempHigh": [4, 6, 11, 16, 20, 24, 26, 25, 21, 15, 9, 5],
+        "tempLow": [-4, -3, 1, 5, 9, 13, 15, 14, 11, 6, 1, -3],
+        "rainDays": [10, 9, 10, 10, 10, 9, 7, 7, 8, 10, 11, 11],
+        "sunHours": [3, 4, 5, 7, 8, 9, 10, 9, 8, 6, 4, 3],
+        "humidity": [76, 74, 70, 66, 64, 62, 58, 60, 64, 70, 75, 77],
+        "snowDepth": [45, 42, 22, 4, 0, 0, 0, 0, 0, 2, 18, 38]
+      },
+      "crowd": [48, 48, 52, 58, 62, 68, 70, 70, 64, 58, 52, 50],
+      "costTier": 2,
+      "r": {
+        "mountains": 96, "plains": 88, "scenery": 98, "rivers": 85, "cities": 85,
+        "architecture": 96, "libraries": 92, "history": 88, "localCulture": 92, "music": 92,
+        "artefacts": 72, "peoples": 78, "technology": 88, "spaceTravel": 85, "healing": 88,
+        "hiking": 88, "safety": 96, "warRisk": 96, "lawAndOrder": 88, "hospitality": 90,
+        "comfort": 88, "luxury": 82, "seniors": 88, "familyFriendly": 88, "romance": 88,
+        "foodScene": 85, "wine": 82, "feasting": 82, "combat": 5, "monsters": 5,
+        "gettingBack": 25, "stargazing": 88
+      },
+      "photos": [
+        "Snow capped mountains grassland",
+        "Alpine lake mountain reflection",
+        "Glass spire city concept",
+        "Mountain meadow wildflowers",
+        "Grand concert hall interior",
+        "Mountain range dawn light"
+      ]
+    },
+    {
+      "id": "geonosis-sw",
+      "name": "Kamino",
+      "country": "SW",
+      "region": "The Outer Rim",
+      "continent": "Science Fiction",
+      "type": "planet",
+      "arch": "alien-world",
+      "blurb": "An ocean world of permanent storm where a tall, courteous people grow armies to order in white sterile halls raised above the waves on stilts.",
+      "about": "Kamino was deleted from the star charts by someone who did not want it found, which is how a clone army got built without the Republic noticing. Visually it is the cleanest thing in Star Wars — all white curves and rain — and the contrast with what it manufactures is the whole idea. The Kaminoans are unfailingly polite about it.",
+      "tags": ["clone facility", "endless storm", "stilt cities", "deleted from the archives"],
+      "climate": {
+        "tempHigh": [19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19],
+        "tempLow": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "rainDays": [29, 27, 29, 28, 29, 28, 29, 29, 28, 29, 28, 29],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98],
+        "seaTemp": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+      },
+      "crowd": [32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32],
+      "costTier": 2,
+      "r": {
+        "technology": 98, "spaceTravel": 88, "architecture": 92, "healing": 92, "cities": 72,
+        "coast": 78, "seaMonsters": 72, "libraries": 72, "intrigue": 92, "peoples": 55,
+        "history": 62, "scenery": 62, "lawAndOrder": 82, "safety": 55, "hospitality": 62,
+        "comfort": 68, "commonTongue": 78, "survivability": 62, "foodScene": 32,
+        "vegetarian": 45, "ale": 5, "wine": 8, "taverns": 5, "revels": 2, "music": 12,
+        "festivals": 2, "markets": 8, "familyFriendly": 22, "seniors": 42, "romance": 22,
+        "luxury": 45, "forests": 0, "mountains": 0, "desert": 0, "wilderness": 12,
+        "swimming": 12, "sailing": 32, "stargazing": 0, "magic": 5
+      },
+      "photos": [
+        "Stormy ocean waves grey",
+        "White curved modern architecture",
+        "Rain on window ocean",
+        "Modern white corridor clean",
+        "Ocean platform stilts storm",
+        "Lightning over sea"
+      ]
+    },
+    {
+      "id": "vulcan-forge",
+      "name": "Ferenginar",
+      "country": "TREK",
+      "region": "The Ferengi Alliance",
+      "continent": "Science Fiction",
+      "type": "planet",
+      "arch": "space-port",
+      "blurb": "A rain-soaked world where commerce is a religion, admission is charged for everything including the temples, and the 285 Rules of Acquisition are studied like scripture.",
+      "about": "The Ferengi began as an attempt at a menacing new enemy and failed completely, so Deep Space Nine did the sensible thing and made them funny — then, quietly, made them the show's best vehicle for satire about labour, family and unregulated capitalism. It rains 178 days a year and they have seventeen words for rain, none of which is 'rain'.",
+      "tags": ["rules of acquisition", "latinum", "commerce", "constant rain"],
+      "climate": {
+        "tempHigh": [27, 27, 27, 28, 28, 28, 28, 28, 28, 27, 27, 27],
+        "tempLow": [22, 22, 22, 23, 23, 23, 23, 23, 23, 22, 22, 22],
+        "rainDays": [26, 25, 26, 26, 27, 27, 27, 27, 26, 26, 25, 26],
+        "sunHours": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "humidity": [96, 96, 96, 97, 97, 97, 97, 97, 97, 96, 96, 96]
+      },
+      "crowd": [72, 72, 72, 74, 74, 74, 74, 74, 74, 72, 72, 72],
+      "costTier": 3,
+      "r": {
+        "markets": 100, "shopping": 96, "cities": 78, "intrigue": 96, "gambling": 96,
+        "technology": 82, "spaceTravel": 88, "peoples": 68, "localCulture": 92, "history": 62,
+        "libraries": 55, "temples": 78, "taverns": 82, "revels": 68, "foodScene": 55,
+        "feasting": 62, "forests": 68, "rivers": 62, "safety": 55, "lawAndOrder": 62,
+        "hospitality": 32, "comfort": 45, "healing": 68, "familyFriendly": 32, "seniors": 42,
+        "romance": 25, "luxury": 72, "vegetarian": 22, "commonTongue": 88, "mountains": 12,
+        "coast": 32, "swimming": 15, "stargazing": 2, "magic": 0
+      },
+      "photos": [
+        "Heavy rain city street night",
+        "Bazaar stalls crowded interior",
+        "Rain forest tropical downpour",
+        "Gold bars treasure",
+        "Neon market alley rain",
+        "Ornate temple interior gold"
+      ]
+    },
+    {
+      "id": "unseen-library",
+      "name": "Death's Domain — the Ramtops",
+      "country": "DISC",
+      "region": "The Ramtops",
+      "continent": "High Fantasy",
+      "type": "mountains",
+      "arch": "frozen-waste",
+      "blurb": "The high Ramtops beyond Lancre: bandits, trolls who turn to stone in the heat, dwarf mines, and a monastery of monks who look after history and get it wrong occasionally.",
+      "about": "The Ramtops run the length of the Disc and get steadily less hospitable the higher you go. The History Monks at Oi Dong slice and store time itself, moving it from places that are not using it — Wednesdays in a quiet village — to places that need more. Lu-Tze, the sweeper, is the most dangerous man on the Disc and has never hit anyone.",
+      "tags": ["history monks", "trolls", "dwarf mines", "sliced time"],
+      "climate": {
+        "tempHigh": [-3, -2, 2, 7, 12, 16, 18, 18, 14, 9, 3, -1],
+        "tempLow": [-12, -11, -8, -3, 2, 6, 8, 8, 4, 0, -5, -10],
+        "rainDays": [13, 12, 12, 11, 11, 10, 9, 10, 11, 12, 13, 14],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 4, 2, 2],
+        "humidity": [84, 82, 79, 76, 74, 72, 70, 72, 76, 80, 84, 86],
+        "snowDepth": [80, 82, 62, 30, 8, 0, 0, 0, 2, 15, 45, 72]
+      },
+      "crowd": [8, 8, 10, 15, 22, 30, 34, 34, 26, 18, 12, 9],
+      "costTier": 1,
+      "r": {
+        "mountains": 98, "scenery": 92, "wilderness": 92, "hiking": 90, "climbing": 88,
+        "underground": 88, "forests": 68, "stargazing": 90, "timeStrange": 96, "magic": 78,
+        "wizards": 62, "monsters": 78, "beasts": 68, "combat": 78, "questing": 82,
+        "artefacts": 78, "libraries": 85, "temples": 88, "history": 92, "localCulture": 82,
+        "survivability": 42, "safety": 35, "hospitality": 45, "comfort": 25, "healing": 55,
+        "ale": 68, "taverns": 42, "feasting": 55, "familyFriendly": 22, "seniors": 22,
+        "wandering": 88, "soloTravel": 72
+      },
+      "photos": [
+        "High mountain pass snow",
+        "Tibetan monastery cliff",
+        "Mountain monastery prayer flags",
+        "Rocky mountain scree slope",
+        "Dwarf mine entrance rock",
+        "Himalayan peaks clouds"
+      ]
+    },
+    {
+      "id": "genua-disc",
+      "name": "Genua",
+      "country": "DISC",
+      "region": "The Disc's far continent",
+      "continent": "High Fantasy",
+      "type": "city",
+      "arch": "high-city",
+      "blurb": "A river city of gumbo, voodoo and Mardi Gras, currently being forced into a fairy tale by a godmother who has decided everyone will be happy whether they like it or not.",
+      "about": "Genua is New Orleans, and Witches Abroad uses it to make a serious point in a silly book: that stories have their own momentum, and someone determined to make life fit one will grind up anybody who does not. Mrs Gogol's voodoo works by belief and gumbo. The food descriptions are the best Pratchett ever wrote.",
+      "tags": ["gumbo", "voodoo", "mardi gras", "a story being forced"],
+      "climate": {
+        "tempHigh": [17, 19, 22, 26, 29, 32, 33, 33, 30, 26, 21, 18],
+        "tempLow": [8, 10, 13, 17, 21, 24, 25, 25, 23, 18, 13, 9],
+        "rainDays": [10, 9, 9, 8, 9, 12, 15, 14, 11, 8, 8, 10],
+        "sunHours": [5, 5, 6, 8, 9, 9, 8, 8, 7, 7, 5, 4],
+        "humidity": [82, 80, 80, 80, 82, 84, 86, 86, 84, 80, 80, 82]
+      },
+      "crowd": [78, 92, 75, 68, 65, 62, 60, 60, 65, 70, 72, 78],
+      "costTier": 2,
+      "r": {
+        "cities": 88, "architecture": 88, "foodScene": 100, "feasting": 96, "markets": 90,
+        "festivals": 100, "music": 96, "revels": 94, "taverns": 88, "ale": 78, "wine": 78,
+        "magic": 88, "wizards": 62, "undead": 82, "prophecy": 82, "intrigue": 92,
+        "localCulture": 96, "rivers": 82, "peoples": 82, "artefacts": 62, "hospitality": 78,
+        "comfort": 68, "safety": 45, "lawAndOrder": 38, "healing": 62, "romance": 82,
+        "familyFriendly": 45, "seniors": 55, "luxury": 68, "shopping": 78, "vegetarian": 55,
+        "monsters": 55
+      },
+      "photos": [
+        "New Orleans French Quarter balcony",
+        "Mardi Gras parade masks",
+        "Gumbo creole cooking pot",
+        "Bayou swamp cypress",
+        "Jazz musicians street",
+        "Wrought iron balcony flowers"
+      ]
+    },
+    {
+      "id": "hogwarts-lake",
+      "name": "The Ministry of Magic",
+      "country": "HP",
+      "region": "Under Whitehall",
+      "continent": "High Fantasy",
+      "type": "underground",
+      "arch": "high-city",
+      "blurb": "A vast underground bureaucracy reached by flushing yourself down a toilet, with an enchanted ceiling, a fountain of dubious taste, and a courtroom nobody wants to visit.",
+      "about": "The Ministry is Rowling's best joke and her sharpest point: magic administered by civil servants, with a Department of Mysteries nobody understands and a press office that lies. The Atrium's fountain shows a wizard being adored by grateful magical creatures, which everyone walks past daily without noticing what it says.",
+      "tags": ["floo network", "department of mysteries", "bureaucracy", "the atrium"],
+      "climate": {
+        "tempHigh": [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "tempLow": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "rainDays": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55]
+      },
+      "crowd": [78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78],
+      "costTier": 2,
+      "r": {
+        "underground": 96, "architecture": 88, "cities": 68, "magic": 92, "wizards": 92,
+        "artefacts": 92, "libraries": 82, "intrigue": 100, "history": 78, "prophecy": 88,
+        "timeStrange": 88, "technology": 22, "peoples": 55, "markets": 32, "lawAndOrder": 55,
+        "combat": 68, "monsters": 55, "undead": 55, "healing": 72, "safety": 42,
+        "hospitality": 25, "comfort": 55, "commonTongue": 96, "foodScene": 42, "feasting": 32,
+        "taverns": 22, "ale": 25, "familyFriendly": 25, "seniors": 55, "romance": 12,
+        "luxury": 45, "wilderness": 0, "forests": 0, "mountains": 0, "coast": 0, "swimming": 0,
+        "stargazing": 0, "hiking": 0, "scenery": 32, "wandering": 22
+      },
+      "photos": [
+        "Grand underground atrium hall",
+        "Victorian government building interior",
+        "Ornate lift cage brass",
+        "Marble fountain statues hall",
+        "Endless filing shelves archive",
+        "Dark courtroom stone tiers"
+      ]
+    },
+    {
+      "id": "azkaban-hp",
+      "name": "Azkaban",
+      "country": "HP",
+      "region": "The North Sea",
+      "continent": "High Fantasy",
+      "type": "island",
+      "arch": "dark-realm",
+      "blurb": "A fortress on a rock in the North Sea guarded by things that feed on happiness. Nobody had escaped in three hundred years, and then two people did in four.",
+      "about": "Dementors are the best thing Rowling invented, because she wrote them out of her own depression rather than out of folklore: they take the good and leave you with the worst of what you have. The counter-charm requires a genuinely happy memory, which is the point — and it is taught to a thirteen-year-old by the only adult who understands the problem.",
+      "tags": ["dementors", "the patronus", "north sea", "no escape"],
+      "climate": {
+        "tempHigh": [5, 5, 6, 8, 11, 14, 16, 16, 14, 11, 8, 6],
+        "tempLow": [1, 1, 2, 3, 6, 9, 11, 11, 10, 7, 4, 2],
+        "rainDays": [20, 17, 18, 15, 14, 13, 14, 15, 17, 20, 21, 21],
+        "sunHours": [1, 1, 2, 3, 4, 4, 4, 4, 3, 2, 1, 1],
+        "humidity": [90, 89, 88, 86, 85, 85, 86, 87, 88, 90, 91, 91],
+        "seaTemp": [7, 6, 6, 7, 9, 12, 14, 15, 14, 12, 10, 8]
+      },
+      "crowd": [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+      "costTier": 1,
+      "r": {
+        "islands": 62, "coast": 68, "architecture": 68, "ruins": 55, "undead": 96,
+        "monsters": 92, "magic": 82, "intrigue": 78, "history": 62, "seaMonsters": 42,
+        "wilderness": 55, "scenery": 32, "safety": 2, "survivability": 8, "hospitality": 0,
+        "comfort": 0, "healing": 5, "lawAndOrder": 45, "gettingBack": 5, "foodScene": 2,
+        "feasting": 0, "ale": 0, "wine": 0, "taverns": 0, "markets": 0, "shopping": 0,
+        "festivals": 0, "revels": 0, "music": 0, "gambling": 0, "luxury": 0, "familyFriendly": 0,
+        "seniors": 0, "romance": 0, "fellowship": 5, "peoples": 12, "localCulture": 12,
+        "forests": 0, "mountains": 12, "swimming": 5, "stargazing": 32, "wizards": 55,
+        "questing": 55, "artefacts": 22
+      },
+      "photos": [
+        "Rock fortress north sea storm",
+        "Bass Rock cliff sea",
+        "Stone prison corridor dark",
+        "Grey sea storm waves rock",
+        "Barred window stone cell",
+        "Lonely island fog sea"
+      ]
+    },
+    {
+      "id": "narnia-underland",
+      "name": "The Lone Islands & the Eastern Sea",
+      "country": "NAR",
+      "region": "Beyond Cair Paravel",
+      "continent": "High Fantasy",
+      "type": "island",
+      "arch": "island-kingdom",
+      "blurb": "Sail east past the Lone Islands and the sea gets stranger — an island where dreams come true, one that turns things to gold, and finally water you can drink and light you can eat.",
+      "about": "The Voyage of the Dawn Treader is the best of the seven, and it is the one with the least plot: a boat sails east and things get progressively more numinous until the water turns sweet and lilies grow on it. Eustace becomes a dragon through pure greed and is un-dragoned painfully by Aslan, which is the most honest thing Lewis wrote about being forgiven.",
+      "tags": ["dawn treader", "dark island", "sweet water", "the utter east"],
+      "climate": {
+        "tempHigh": [18, 18, 19, 21, 23, 25, 27, 27, 25, 22, 20, 18],
+        "tempLow": [12, 12, 13, 14, 16, 18, 20, 20, 19, 17, 14, 13],
+        "rainDays": [9, 8, 8, 7, 6, 5, 4, 4, 5, 7, 8, 9],
+        "sunHours": [5, 6, 7, 8, 9, 10, 11, 10, 9, 7, 6, 5],
+        "humidity": [78, 77, 76, 74, 72, 70, 68, 69, 71, 74, 76, 78],
+        "seaTemp": [17, 17, 18, 19, 21, 23, 25, 25, 24, 22, 20, 18]
+      },
+      "crowd": [15, 15, 18, 22, 28, 34, 38, 38, 32, 25, 19, 16],
+      "costTier": 2,
+      "r": {
+        "islands": 96, "coast": 92, "sailing": 98, "seaMonsters": 88, "swimming": 78,
+        "scenery": 96, "wilderness": 82, "stargazing": 96, "magic": 92, "prophecy": 88,
+        "timeStrange": 92, "dragons": 78, "questing": 96, "artefacts": 85, "monsters": 78,
+        "adrenaline": 82, "peoples": 72, "history": 68, "fellowship": 92, "wandering": 88,
+        "safety": 42, "survivability": 55, "hospitality": 62, "comfort": 45, "healing": 68,
+        "gettingBack": 45, "foodScene": 62, "feasting": 72, "familyFriendly": 72, "seniors": 32,
+        "romance": 72, "soloTravel": 55
+      },
+      "photos": [
+        "Tall ship open ocean sails",
+        "Island lagoon turquoise remote",
+        "Sunrise over calm ocean",
+        "Sea lilies water surface",
+        "Dark storm island sea",
+        "Ship deck sunset rigging"
+      ]
+    },
+    {
+      "id": "underland-nar",
+      "name": "Underland",
+      "country": "NAR",
+      "region": "Beneath the Northern Waste",
+      "continent": "High Fantasy",
+      "type": "underground",
+      "arch": "underworld",
+      "blurb": "A sunless kingdom of gnomes and lamplight, a silver chair, and a queen who will patiently explain that there is no sun, no Narnia and no Aslan, until you believe her.",
+      "about": "The Silver Chair contains the single best scene in the series: the witch throwing enchanted powder on the fire and arguing, reasonably and gently, that the overworld is something the characters invented. Puddleglum puts his foot in the fire to clear his head and says he will go on living like a Narnian even if there isn't one. It is a better argument than most philosophy manages.",
+      "tags": ["the silver chair", "puddleglum", "gnomes", "bism"],
+      "climate": {
+        "tempHigh": [13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13],
+        "tempLow": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82]
+      },
+      "crowd": [42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42],
+      "costTier": 1,
+      "r": {
+        "underground": 100, "architecture": 78, "cities": 62, "magic": 92, "wizards": 68,
+        "monsters": 82, "undead": 55, "artefacts": 78, "prophecy": 82, "intrigue": 88,
+        "questing": 92, "combat": 72, "volcanic": 72, "rivers": 62, "peoples": 72, "scenery": 68,
+        "safety": 15, "survivability": 32, "hospitality": 32, "comfort": 32, "healing": 32,
+        "gettingBack": 25, "commonTongue": 92, "foodScene": 32, "feasting": 42, "taverns": 22,
+        "ale": 32, "familyFriendly": 25, "seniors": 22, "romance": 22, "luxury": 55,
+        "forests": 0, "mountains": 42, "coast": 0, "swimming": 12, "stargazing": 0, "hiking": 45,
+        "wilderness": 42, "fellowship": 82
+      },
+      "photos": [
+        "Vast cavern lamplight underground",
+        "Underground lake still dark",
+        "Cave city carved rock",
+        "Glowing cavern deep earth",
+        "Stone throne chamber",
+        "Underground river boat torch"
+      ]
+    }
+  ]
+}

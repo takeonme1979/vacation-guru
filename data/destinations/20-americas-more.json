@@ -1,0 +1,605 @@
+{
+  "_doc": "North America and the Caribbean, second pass — the American interior, Atlantic Canada, Central America and the smaller islands.",
+  "destinations": [
+    {
+      "id": "austin-us",
+      "name": "Austin & the Hill Country",
+      "country": "US",
+      "region": "Texas",
+      "continent": "North America",
+      "lat": 30.267,
+      "lon": -97.743,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "Live music every night of the week, barbecue worth queuing four hours for, and swimming holes in the limestone hills west of town when the heat becomes unreasonable.",
+      "tags": ["live music", "brisket", "barton springs", "sxsw"],
+      "climate": {
+        "tempHigh": [16, 18, 23, 27, 30, 34, 36, 37, 33, 27, 21, 16],
+        "tempLow": [4, 6, 11, 15, 20, 23, 24, 25, 21, 16, 10, 5],
+        "rainDays": [7, 7, 7, 6, 8, 6, 4, 4, 6, 7, 6, 7],
+        "sunHours": [6, 6, 7, 8, 9, 11, 11, 11, 9, 8, 6, 6],
+        "humidity": [68, 67, 65, 68, 72, 68, 64, 62, 66, 66, 68, 68]
+      },
+      "crowd": [55, 58, 88, 68, 65, 62, 62, 58, 62, 70, 62, 58],
+      "priceIndex": [74, 78, 100, 86, 82, 80, 80, 76, 80, 86, 80, 78],
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 380
+      },
+      "r": {
+        "liveMusic": 100, "bars": 92, "festivals": 96, "foodScene": 92, "streetFood": 88,
+        "artScene": 85, "museums": 72, "theatre": 72, "coffee": 88, "beer": 92, "markets": 78,
+        "walkability": 68, "cycling": 78, "swimming": 82, "lakesRivers": 85, "hiking": 72,
+        "wine": 72, "shopping": 78, "lgbtqScene": 85, "groupParty": 88, "englishSpoken": 100,
+        "valueForMoney": 55, "digitalNomad": 88, "familyYoungKids": 68
+      },
+      "photos": [
+        "Austin Texas skyline Lady Bird Lake",
+        "Barton Springs pool Austin",
+        "Texas barbecue brisket",
+        "Austin live music venue 6th street",
+        "Texas hill country bluebonnets",
+        "Hamilton Pool Texas"
+      ]
+    },
+    {
+      "id": "denver-us",
+      "name": "Denver & the Front Range",
+      "country": "US",
+      "region": "Colorado",
+      "continent": "North America",
+      "lat": 39.739,
+      "lon": -104.99,
+      "type": "city",
+      "arch": "mountain-town",
+      "blurb": "A mile-high city with 300 days of sun and the Rockies an hour west — Red Rocks for concerts, fourteeners for weekends, and more breweries than anywhere in America.",
+      "tags": ["red rocks", "fourteeners", "breweries", "mile high"],
+      "climate": {
+        "tempHigh": [7, 8, 12, 17, 22, 28, 32, 30, 26, 19, 12, 7],
+        "tempLow": [-8, -7, -3, 1, 7, 12, 16, 15, 10, 3, -3, -8],
+        "rainDays": [5, 6, 8, 9, 11, 9, 9, 9, 7, 6, 5, 5],
+        "sunHours": [7, 7, 8, 9, 9, 11, 11, 10, 9, 8, 7, 6],
+        "humidity": [55, 55, 52, 48, 52, 48, 44, 46, 46, 48, 55, 57],
+        "snowDepth": [15, 18, 22, 12, 1, 0, 0, 0, 0, 4, 12, 16]
+      },
+      "crowd": [62, 60, 58, 52, 58, 72, 82, 80, 68, 58, 52, 62],
+      "priceIndex": [80, 78, 76, 70, 74, 86, 94, 92, 82, 74, 70, 80],
+      "cost": {
+        "budget": 65,
+        "mid": 155,
+        "luxury": 400
+      },
+      "r": {
+        "mountains": 94, "hiking": 92, "skiing": 88, "scenery": 90, "nationalParks": 92,
+        "climbing": 88, "cycling": 88, "adrenaline": 85, "lakesRivers": 72, "wildlife": 78,
+        "roadTrip": 92, "beer": 98, "liveMusic": 92, "foodScene": 85, "museums": 80,
+        "artScene": 80, "bars": 85, "coffee": 85, "walkability": 72, "publicTransport": 68,
+        "englishSpoken": 100, "valueForMoney": 52, "familyYoungKids": 78, "wellness": 78
+      },
+      "photos": [
+        "Red Rocks amphitheatre Colorado",
+        "Denver skyline Rocky Mountains",
+        "Colorado fourteener hiking summit",
+        "Denver brewery taproom",
+        "Rocky Mountain National Park elk",
+        "Maroon Bells Colorado autumn"
+      ]
+    },
+    {
+      "id": "savannah-us",
+      "name": "Savannah & the Lowcountry",
+      "country": "US",
+      "region": "Georgia",
+      "continent": "North America",
+      "lat": 32.081,
+      "lon": -81.091,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Twenty-two garden squares under live oaks dripping with Spanish moss, antebellum houses, and a drinking law that lets you carry your glass down the street.",
+      "tags": ["spanish moss", "squares", "antebellum", "open container"],
+      "climate": {
+        "tempHigh": [16, 18, 22, 26, 30, 33, 34, 33, 31, 26, 21, 17],
+        "tempLow": [5, 6, 10, 14, 19, 23, 24, 24, 22, 16, 11, 7],
+        "rainDays": [9, 8, 8, 6, 8, 11, 13, 13, 10, 7, 6, 8],
+        "sunHours": [6, 6, 7, 9, 9, 9, 8, 8, 7, 7, 6, 6],
+        "humidity": [74, 72, 72, 70, 74, 78, 80, 82, 80, 76, 74, 75]
+      },
+      "crowd": [48, 52, 82, 88, 78, 68, 65, 62, 65, 78, 68, 58],
+      "priceIndex": [68, 72, 94, 98, 88, 80, 78, 76, 78, 90, 82, 76],
+      "cost": {
+        "budget": 58,
+        "mid": 140,
+        "luxury": 370
+      },
+      "r": {
+        "historicSites": 94, "architecture": 96, "museums": 78, "artScene": 82,
+        "walkability": 94, "localCulture": 88, "scenery": 88, "romance": 92, "foodScene": 88,
+        "fineDining": 85, "bars": 88, "liveMusic": 82, "markets": 72, "beaches": 68,
+        "swimming": 62, "cycling": 78, "festivals": 82, "englishSpoken": 100, "seniors": 88,
+        "valueForMoney": 58, "familyYoungKids": 72, "wildlife": 68
+      },
+      "photos": [
+        "Savannah Georgia squares Spanish moss",
+        "Forsyth Park fountain Savannah",
+        "Savannah historic houses river street",
+        "Wormsloe avenue oaks Georgia",
+        "Tybee Island beach Georgia",
+        "Savannah cobblestone riverfront"
+      ]
+    },
+    {
+      "id": "acadia-us",
+      "name": "Acadia & the Maine Coast",
+      "country": "US",
+      "region": "Maine",
+      "continent": "North America",
+      "lat": 44.339,
+      "lon": -68.273,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "Granite headlands, spruce and 45 miles of carriage roads built by a Rockefeller who hated cars. The first place in the United States to see the sunrise.",
+      "tags": ["cadillac mountain", "lobster", "carriage roads", "leaf peeping"],
+      "climate": {
+        "tempHigh": [0, 1, 5, 11, 17, 22, 25, 25, 21, 15, 9, 3],
+        "tempLow": [-11, -10, -5, 1, 6, 11, 15, 14, 10, 5, 0, -6],
+        "rainDays": [11, 10, 11, 11, 12, 11, 10, 9, 9, 10, 11, 12],
+        "sunHours": [5, 6, 7, 7, 8, 9, 9, 8, 7, 6, 4, 4],
+        "humidity": [72, 70, 70, 70, 72, 76, 78, 79, 78, 74, 74, 74],
+        "seaTemp": [4, 3, 4, 6, 9, 12, 15, 16, 15, 12, 9, 6],
+        "snowDepth": [30, 32, 22, 5, 0, 0, 0, 0, 0, 0, 5, 20]
+      },
+      "crowd": [12, 12, 15, 25, 45, 78, 92, 95, 85, 68, 22, 14],
+      "priceIndex": [45, 45, 48, 58, 72, 92, 100, 100, 94, 82, 52, 48],
+      "cost": {
+        "budget": 58,
+        "mid": 145,
+        "luxury": 400
+      },
+      "r": {
+        "scenery": 96, "hiking": 94, "nationalParks": 96, "forests": 92, "cycling": 92,
+        "kayaking": 88, "climbing": 82, "wildlife": 82, "lakesRivers": 82, "sailing": 82,
+        "stargazing": 90, "beaches": 55, "swimming": 32, "foodScene": 85, "fineDining": 78,
+        "roadTrip": 90, "englishSpoken": 100, "safety": 92, "romance": 85, "valueForMoney": 55,
+        "familyYoungKids": 85, "seniors": 78
+      },
+      "photos": [
+        "Acadia National Park Maine coast",
+        "Bass Harbor lighthouse Maine",
+        "Maine lobster boat harbour",
+        "Cadillac Mountain sunrise Acadia",
+        "Maine autumn foliage coast",
+        "Acadia carriage road bridge"
+      ]
+    },
+    {
+      "id": "smokies-us",
+      "name": "The Great Smoky Mountains",
+      "country": "US",
+      "region": "Tennessee & North Carolina",
+      "continent": "North America",
+      "lat": 35.611,
+      "lon": -83.489,
+      "type": "mountains",
+      "arch": "wilderness-park",
+      "blurb": "The most visited national park in America and still enormous enough to lose yourself in — 800 miles of trail, 1,500 bears, and the blue haze the Cherokee named it for.",
+      "tags": ["blue ridge", "black bears", "appalachian trail", "wildflowers"],
+      "climate": {
+        "tempHigh": [8, 10, 14, 20, 24, 28, 30, 29, 26, 20, 14, 9],
+        "tempLow": [-3, -2, 1, 6, 11, 16, 18, 18, 14, 7, 2, -2],
+        "rainDays": [11, 10, 12, 10, 12, 12, 14, 12, 8, 8, 9, 10],
+        "sunHours": [5, 6, 7, 8, 8, 8, 8, 8, 7, 7, 5, 5],
+        "humidity": [72, 68, 66, 66, 74, 78, 80, 82, 80, 76, 72, 72],
+        "snowDepth": [8, 8, 5, 1, 0, 0, 0, 0, 0, 0, 1, 5]
+      },
+      "crowd": [32, 32, 45, 62, 68, 82, 88, 82, 72, 92, 55, 35],
+      "priceIndex": [58, 58, 68, 80, 84, 92, 96, 92, 86, 100, 74, 60],
+      "cost": {
+        "budget": 48,
+        "mid": 118,
+        "luxury": 300
+      },
+      "r": {
+        "mountains": 92, "hiking": 96, "forests": 96, "nationalParks": 98, "wildlife": 92,
+        "scenery": 94, "lakesRivers": 85, "cycling": 72, "climbing": 62, "fishing": 82,
+        "roadTrip": 92, "stargazing": 78, "adrenaline": 62, "localCulture": 82, "liveMusic": 85,
+        "historicSites": 72, "englishSpoken": 100, "familyYoungKids": 90, "seniors": 78,
+        "valueForMoney": 78, "themeParks": 78, "skiing": 0
+      },
+      "photos": [
+        "Great Smoky Mountains blue haze",
+        "Smoky Mountains autumn foliage",
+        "Black bear Smoky Mountains",
+        "Cades Cove Tennessee",
+        "Appalachian trail forest",
+        "Smoky Mountains waterfall"
+      ]
+    },
+    {
+      "id": "nova-scotia-ca",
+      "name": "Nova Scotia & Cape Breton",
+      "country": "CA",
+      "region": "The Maritimes",
+      "continent": "North America",
+      "lat": 46.2,
+      "lon": -60.7,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "The Cabot Trail winding along cliffs above the Atlantic, fishing villages painted in primary colours, Gaelic still spoken in places, and the world's highest tides next door.",
+      "tags": ["cabot trail", "lobster", "gaelic", "bay of fundy"],
+      "climate": {
+        "tempHigh": [-1, -1, 3, 9, 15, 20, 24, 24, 20, 14, 8, 2],
+        "tempLow": [-10, -10, -6, 0, 5, 10, 14, 14, 10, 5, 0, -6],
+        "rainDays": [15, 13, 14, 13, 13, 12, 11, 11, 11, 13, 14, 16],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 8, 6, 5, 3, 3],
+        "humidity": [78, 76, 76, 76, 76, 78, 80, 80, 80, 78, 78, 79],
+        "seaTemp": [2, 1, 2, 4, 8, 12, 17, 19, 17, 13, 9, 5],
+        "snowDepth": [35, 40, 28, 8, 0, 0, 0, 0, 0, 0, 4, 22]
+      },
+      "crowd": [12, 12, 15, 25, 42, 68, 88, 92, 82, 62, 22, 15],
+      "priceIndex": [48, 48, 50, 58, 70, 86, 98, 100, 92, 76, 55, 50],
+      "cost": {
+        "budget": 52,
+        "mid": 125,
+        "luxury": 320
+      },
+      "r": {
+        "scenery": 96, "roadTrip": 96, "hiking": 90, "nationalParks": 88, "wildlife": 88,
+        "forests": 88, "kayaking": 85, "sailing": 82, "fishing": 85, "beaches": 62,
+        "swimming": 42, "cycling": 82, "stargazing": 88, "foodScene": 85, "liveMusic": 92,
+        "localCulture": 88, "historicSites": 82, "festivals": 82, "englishSpoken": 100,
+        "safety": 94, "valueForMoney": 68, "seniors": 82, "familyYoungKids": 78
+      },
+      "photos": [
+        "Cabot Trail Cape Breton Nova Scotia",
+        "Peggys Cove lighthouse Nova Scotia",
+        "Lunenburg colourful waterfront",
+        "Bay of Fundy tides Nova Scotia",
+        "Cape Breton highlands autumn",
+        "Nova Scotia lobster boats"
+      ]
+    },
+    {
+      "id": "guatemala-tikal-gt",
+      "name": "Tikal & the Petén",
+      "country": "GT",
+      "region": "Northern Guatemala",
+      "continent": "North America",
+      "lat": 17.222,
+      "lon": -89.623,
+      "type": "region",
+      "arch": "jungle-eco",
+      "blurb": "Maya temples pushing up through rainforest canopy, with howler monkeys at dawn and toucans overhead. Climb Temple IV at sunrise and there is nothing above the trees but pyramids.",
+      "tags": ["maya", "rainforest", "howler monkeys", "temple iv"],
+      "climate": {
+        "tempHigh": [28, 30, 32, 34, 34, 32, 32, 32, 31, 30, 29, 28],
+        "tempLow": [18, 18, 20, 21, 22, 22, 22, 22, 22, 21, 20, 18],
+        "rainDays": [8, 5, 4, 4, 9, 16, 15, 14, 17, 15, 11, 9],
+        "sunHours": [6, 7, 8, 8, 7, 6, 6, 6, 5, 6, 6, 6],
+        "humidity": [84, 80, 76, 74, 76, 82, 82, 82, 85, 86, 86, 85]
+      },
+      "crowd": [72, 72, 68, 55, 45, 42, 62, 62, 45, 45, 52, 68],
+      "priceIndex": [84, 84, 80, 68, 60, 58, 76, 76, 60, 60, 66, 80],
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 165
+      },
+      "r": {
+        "historicSites": 98, "architecture": 92, "museums": 72, "localCulture": 88,
+        "forests": 94, "wildlife": 92, "nationalParks": 94, "hiking": 82, "scenery": 90,
+        "lakesRivers": 78, "climbing": 62, "stargazing": 82, "adrenaline": 68, "ecoFriendly": 78,
+        "foodScene": 68, "streetFood": 78, "backpacker": 88, "soloTravel": 72,
+        "valueForMoney": 90, "romance": 72, "familyYoungKids": 62, "healthHygiene": 55
+      },
+      "photos": [
+        "Tikal temple rainforest Guatemala",
+        "Tikal Temple IV above canopy",
+        "Howler monkey Guatemala jungle",
+        "Maya ruins Guatemala Peten",
+        "Toucan Guatemala rainforest",
+        "Flores island Guatemala lake"
+      ]
+    },
+    {
+      "id": "granada-ni",
+      "name": "Granada & Ometepe",
+      "country": "NI",
+      "region": "Southwest Nicaragua",
+      "continent": "North America",
+      "lat": 11.929,
+      "lon": -85.956,
+      "type": "lake",
+      "arch": "historic-city",
+      "blurb": "A candy-coloured colonial city on a freshwater sea, with an island of two volcanoes in the middle of it and Pacific surf ninety minutes west. Central America at half the price.",
+      "tags": ["colonial", "two volcanoes", "lake nicaragua", "cheap"],
+      "climate": {
+        "tempHigh": [32, 33, 34, 35, 34, 32, 32, 32, 31, 31, 31, 31],
+        "tempLow": [21, 21, 22, 24, 24, 23, 23, 23, 23, 23, 22, 21],
+        "rainDays": [1, 0, 1, 2, 10, 17, 15, 15, 18, 18, 8, 2],
+        "sunHours": [9, 9, 9, 9, 7, 5, 6, 6, 5, 6, 8, 8],
+        "humidity": [70, 66, 64, 66, 74, 82, 82, 82, 85, 84, 78, 74]
+      },
+      "crowd": [72, 72, 62, 52, 42, 38, 48, 48, 35, 35, 48, 68],
+      "priceIndex": [82, 82, 74, 66, 58, 54, 62, 62, 52, 52, 62, 78],
+      "cost": {
+        "budget": 20,
+        "mid": 48,
+        "luxury": 140
+      },
+      "r": {
+        "historicSites": 88, "architecture": 92, "localCulture": 88, "markets": 82,
+        "religiousSites": 78, "volcanic": 94, "lakesRivers": 92, "hiking": 88, "kayaking": 85,
+        "swimming": 72, "scenery": 88, "wildlife": 82, "surfing": 85, "adrenaline": 82,
+        "nationalParks": 78, "walkability": 88, "foodScene": 68, "streetFood": 78, "bars": 78,
+        "backpacker": 94, "soloTravel": 82, "digitalNomad": 78, "valueForMoney": 96
+      },
+      "photos": [
+        "Granada Nicaragua colonial cathedral",
+        "Ometepe island volcanoes Nicaragua",
+        "Lake Nicaragua sunset",
+        "Granada colourful street Nicaragua",
+        "Volcano boarding Cerro Negro",
+        "San Juan del Sur surf Nicaragua"
+      ]
+    },
+    {
+      "id": "roatan-hn",
+      "name": "Roatán & the Bay Islands",
+      "country": "HN",
+      "region": "The Bay Islands",
+      "continent": "Caribbean",
+      "lat": 16.33,
+      "lon": -86.53,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "The southern end of the second-largest barrier reef on earth, and the cheapest place in the world to learn to dive. Whale sharks off Utila, and English still spoken from the buccaneer days.",
+      "tags": ["barrier reef", "cheap diving", "whale sharks", "west end"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 30, 31, 31, 31, 31, 31, 30, 29, 28],
+        "tempLow": [23, 23, 24, 25, 26, 26, 26, 26, 26, 25, 24, 23],
+        "rainDays": [16, 12, 9, 6, 7, 10, 11, 11, 12, 16, 18, 18],
+        "sunHours": [6, 7, 8, 9, 9, 8, 8, 8, 7, 6, 6, 6],
+        "humidity": [82, 80, 78, 77, 78, 80, 79, 79, 81, 83, 84, 84],
+        "seaTemp": [27, 27, 27, 28, 29, 29, 29, 30, 30, 29, 28, 27]
+      },
+      "crowd": [78, 82, 78, 62, 48, 45, 55, 55, 42, 42, 52, 72],
+      "priceIndex": [90, 94, 90, 76, 64, 62, 72, 72, 58, 58, 68, 86],
+      "cost": {
+        "budget": 30,
+        "mid": 72,
+        "luxury": 220
+      },
+      "r": {
+        "scuba": 98, "snorkelling": 94, "beaches": 88, "swimming": 90, "islands": 92,
+        "sailing": 78, "fishing": 82, "waterSports": 78, "kayaking": 72, "wildlife": 82,
+        "scenery": 85, "bars": 82, "foodScene": 72, "englishSpoken": 88, "backpacker": 92,
+        "soloTravel": 82, "digitalNomad": 78, "valueForMoney": 92, "romance": 78,
+        "familyYoungKids": 68, "safety": 55
+      },
+      "photos": [
+        "Roatan West Bay beach Honduras",
+        "Roatan coral reef diving",
+        "Whale shark Utila Honduras",
+        "Roatan island aerial Caribbean",
+        "Bay Islands sunset Honduras",
+        "Roatan West End waterfront"
+      ]
+    },
+    {
+      "id": "dominica-dm",
+      "name": "Dominica",
+      "country": "DM",
+      "region": "The Windward Islands",
+      "continent": "Caribbean",
+      "lat": 15.415,
+      "lon": -61.371,
+      "type": "island",
+      "arch": "island-volcanic",
+      "blurb": "The Nature Island — nine active volcanoes, 365 rivers, a boiling lake you hike five hours to reach, and almost no beaches, which is why the cruise crowds go elsewhere.",
+      "tags": ["boiling lake", "waterfalls", "sperm whales", "waitukubuli trail"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 30, 30, 30, 31, 31, 31, 30, 29, 28],
+        "tempLow": [21, 21, 21, 22, 23, 24, 24, 24, 23, 23, 22, 22],
+        "rainDays": [18, 14, 12, 11, 12, 16, 20, 21, 19, 20, 19, 19],
+        "sunHours": [7, 8, 8, 8, 8, 7, 7, 8, 7, 7, 7, 7],
+        "humidity": [80, 78, 77, 77, 79, 82, 83, 83, 84, 84, 83, 81],
+        "seaTemp": [26, 26, 26, 27, 28, 28, 29, 29, 29, 29, 28, 27]
+      },
+      "crowd": [55, 55, 52, 45, 38, 32, 32, 32, 25, 28, 38, 52],
+      "priceIndex": [76, 76, 72, 66, 60, 55, 55, 55, 50, 52, 60, 74],
+      "cost": {
+        "budget": 42,
+        "mid": 100,
+        "luxury": 285
+      },
+      "r": {
+        "volcanic": 96, "forests": 96, "hiking": 96, "lakesRivers": 96, "scenery": 96,
+        "nationalParks": 94, "wildlife": 88, "scuba": 90, "snorkelling": 85, "swimming": 82,
+        "kayaking": 78, "adrenaline": 88, "wellness": 88, "islands": 88, "beaches": 45,
+        "ecoFriendly": 92, "localCulture": 85, "englishSpoken": 95, "valueForMoney": 68,
+        "backpacker": 78, "romance": 78, "familyYoungKids": 52
+      },
+      "photos": [
+        "Dominica Trafalgar Falls",
+        "Boiling Lake Dominica hike",
+        "Dominica rainforest river",
+        "Champagne Reef Dominica snorkelling",
+        "Dominica coastline cliffs",
+        "Sperm whale Dominica"
+      ]
+    },
+    {
+      "id": "martinique-mq",
+      "name": "Martinique & Guadeloupe",
+      "country": "MQ",
+      "region": "The French Antilles",
+      "continent": "Caribbean",
+      "lat": 14.641,
+      "lon": -61.024,
+      "type": "island",
+      "arch": "island-volcanic",
+      "blurb": "France in the Caribbean: rum distilleries with appellation rules, patisseries in the tropics, black-sand beaches under a volcano, and rainforest in the middle of it all.",
+      "tags": ["rhum agricole", "mont pelée", "creole", "french antilles"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 30, 30, 30, 30, 31, 31, 30, 29, 28],
+        "tempLow": [21, 21, 21, 22, 23, 24, 24, 24, 24, 23, 23, 22],
+        "rainDays": [17, 13, 11, 10, 12, 15, 18, 18, 17, 18, 18, 18],
+        "sunHours": [8, 8, 8, 8, 8, 7, 7, 8, 7, 7, 7, 7],
+        "humidity": [80, 78, 77, 78, 80, 82, 82, 83, 84, 84, 83, 81],
+        "seaTemp": [27, 26, 27, 27, 28, 29, 29, 29, 29, 29, 28, 27]
+      },
+      "crowd": [78, 82, 78, 65, 52, 45, 52, 55, 42, 45, 55, 72],
+      "priceIndex": [92, 96, 92, 80, 68, 62, 70, 72, 58, 62, 70, 88],
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 360
+      },
+      "r": {
+        "beaches": 90, "swimming": 88, "snorkelling": 85, "scuba": 85, "islands": 92,
+        "sailing": 90, "volcanic": 90, "forests": 92, "hiking": 92, "scenery": 92,
+        "nationalParks": 85, "waterSports": 82, "kayaking": 82, "foodScene": 92,
+        "fineDining": 88, "wine": 82, "localCulture": 88, "markets": 85, "romance": 88,
+        "safety": 78, "healthHygiene": 88, "valueForMoney": 48, "familyYoungKids": 78,
+        "seniors": 75
+      },
+      "photos": [
+        "Martinique Les Salines beach",
+        "Mont Pelee Martinique volcano",
+        "Rhum agricole distillery Martinique",
+        "Guadeloupe Carbet falls",
+        "Martinique creole market",
+        "Guadeloupe beach palm trees"
+      ]
+    },
+    {
+      "id": "palm-springs-us",
+      "name": "Palm Springs & Joshua Tree",
+      "country": "US",
+      "region": "California",
+      "continent": "North America",
+      "lat": 33.83,
+      "lon": -116.545,
+      "type": "region",
+      "arch": "desert",
+      "blurb": "Mid-century modern houses under a 3,000m mountain, pools everywhere, and an hour east a national park of granite piles and trees that look drawn by Seuss.",
+      "tags": ["mid-century modern", "joshua tree", "pools", "desert modernism"],
+      "climate": {
+        "tempHigh": [21, 23, 27, 31, 36, 41, 43, 42, 39, 32, 25, 20],
+        "tempLow": [8, 9, 12, 15, 20, 24, 28, 27, 24, 18, 12, 7],
+        "rainDays": [4, 4, 3, 1, 1, 0, 1, 1, 1, 2, 2, 4],
+        "sunHours": [8, 9, 10, 11, 12, 13, 12, 12, 11, 10, 9, 8],
+        "humidity": [44, 38, 32, 25, 20, 17, 24, 27, 28, 31, 38, 44]
+      },
+      "crowd": [72, 82, 88, 82, 62, 42, 35, 35, 48, 68, 75, 72],
+      "priceIndex": [88, 96, 100, 94, 78, 60, 52, 52, 66, 84, 90, 88],
+      "cost": {
+        "budget": 62,
+        "mid": 155,
+        "luxury": 450
+      },
+      "r": {
+        "desert": 96, "architecture": 94, "scenery": 90, "hiking": 90, "nationalParks": 94,
+        "climbing": 94, "stargazing": 96, "wellness": 92, "golf": 96, "swimming": 88,
+        "cycling": 78, "roadTrip": 88, "foodScene": 82, "fineDining": 82, "bars": 82,
+        "shopping": 85, "lgbtqScene": 96, "romance": 88, "artScene": 82, "festivals": 88,
+        "englishSpoken": 100, "valueForMoney": 48, "seniors": 85, "luxury": 88
+      },
+      "photos": [
+        "Joshua Tree National Park boulders",
+        "Palm Springs mid century modern house",
+        "Palm Springs pool mountains",
+        "Joshua tree sunset California",
+        "Palm Springs aerial tramway",
+        "Coachella valley windmills"
+      ]
+    },
+    {
+      "id": "vieques-pr",
+      "name": "Vieques & Culebra",
+      "country": "PR",
+      "region": "The Spanish Virgin Islands",
+      "continent": "Caribbean",
+      "lat": 18.126,
+      "lon": -65.44,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Two small islands off Puerto Rico with wild horses on the roads, Flamenco Beach on every list of the world's best, and the brightest bioluminescent bay on earth.",
+      "tags": ["bioluminescent bay", "wild horses", "flamenco beach", "former navy range"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 29, 30, 31, 31, 31, 31, 31, 30, 29],
+        "tempLow": [22, 22, 22, 23, 24, 25, 25, 25, 25, 25, 24, 23],
+        "rainDays": [12, 8, 7, 8, 12, 11, 13, 14, 13, 14, 15, 15],
+        "sunHours": [8, 8, 9, 8, 8, 8, 8, 8, 7, 7, 7, 7],
+        "humidity": [79, 78, 77, 77, 79, 79, 79, 80, 80, 81, 81, 80],
+        "seaTemp": [26, 26, 26, 27, 28, 28, 29, 29, 29, 29, 28, 27]
+      },
+      "crowd": [78, 82, 78, 62, 48, 45, 55, 52, 38, 40, 52, 75],
+      "priceIndex": [92, 96, 90, 76, 64, 62, 72, 68, 56, 58, 68, 90],
+      "cost": {
+        "budget": 48,
+        "mid": 118,
+        "luxury": 330
+      },
+      "r": {
+        "beaches": 96, "swimming": 92, "snorkelling": 92, "scuba": 82, "islands": 94,
+        "kayaking": 92, "sailing": 82, "waterSports": 78, "wildlife": 85, "scenery": 90,
+        "stargazing": 90, "nationalParks": 78, "romance": 92, "foodScene": 78, "bars": 68,
+        "englishSpoken": 92, "visaEase": 100, "backpacker": 68, "valueForMoney": 62,
+        "familyYoungKids": 78, "adrenaline": 68
+      },
+      "photos": [
+        "Flamenco Beach Culebra Puerto Rico",
+        "Bioluminescent bay Vieques kayak",
+        "Vieques wild horses beach",
+        "Culebra island turquoise water",
+        "Vieques beach palm trees",
+        "Puerto Rico snorkelling reef"
+      ]
+    },
+    {
+      "id": "baja-sur-mx",
+      "name": "La Paz & the Sea of Cortez",
+      "country": "MX",
+      "region": "Baja California Sur",
+      "continent": "North America",
+      "lat": 24.142,
+      "lon": -110.312,
+      "type": "coast",
+      "arch": "beach-resort",
+      "blurb": "Cousteau's \"aquarium of the world\": whale sharks in the bay from October, sea lions at Espíritu Santo, and grey whales calving on the Pacific side every winter.",
+      "tags": ["whale sharks", "sea lions", "espíritu santo", "grey whales"],
+      "climate": {
+        "tempHigh": [23, 25, 27, 30, 32, 34, 35, 35, 34, 32, 28, 24],
+        "tempLow": [13, 13, 14, 16, 19, 22, 25, 26, 25, 22, 17, 14],
+        "rainDays": [2, 1, 0, 0, 0, 0, 2, 4, 5, 2, 1, 2],
+        "sunHours": [8, 9, 10, 11, 11, 11, 10, 10, 9, 9, 8, 8],
+        "humidity": [62, 58, 54, 50, 50, 52, 60, 66, 68, 66, 62, 62],
+        "seaTemp": [21, 20, 20, 22, 24, 26, 29, 30, 30, 28, 25, 23]
+      },
+      "crowd": [72, 78, 78, 62, 48, 42, 45, 45, 40, 55, 68, 72],
+      "priceIndex": [86, 92, 92, 76, 64, 58, 60, 60, 56, 70, 82, 86],
+      "cost": {
+        "budget": 38,
+        "mid": 92,
+        "luxury": 280
+      },
+      "r": {
+        "wildlife": 96, "snorkelling": 92, "scuba": 92, "beaches": 92, "swimming": 88,
+        "islands": 90, "sailing": 88, "kayaking": 90, "fishing": 92, "waterSports": 82,
+        "desert": 85, "scenery": 92, "hiking": 78, "stargazing": 92, "nationalParks": 85,
+        "foodScene": 85, "streetFood": 88, "bars": 72, "romance": 85, "adrenaline": 78,
+        "valueForMoney": 82, "familyYoungKids": 78, "backpacker": 72
+      },
+      "photos": [
+        "Espiritu Santo island Baja Mexico",
+        "Whale shark La Paz Mexico",
+        "Sea lions Espiritu Santo",
+        "Balandra beach Baja California",
+        "Grey whale calf Baja Mexico",
+        "Sea of Cortez desert coastline"
+      ]
+    }
+  ]
+}

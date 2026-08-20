@@ -571,6 +571,13 @@ export function rankDestinations(destinations, prefs, criteriaById) {
  * Keeps the list from becoming "eight Greek islands". Overflow entries are not
  * discarded, just pushed below everything that made the cap.
  */
+/**
+ * How many results one country may hold near the top of the list when "Mix it
+ * up" is on. Two was tight enough that a country you genuinely wanted lost its
+ * third-best option to a country you did not.
+ */
+export const MAX_PER_COUNTRY = 3;
+
 function applyCountryCap(results, cap) {
   const seen = new Map();
   const primary = [];
@@ -605,7 +612,7 @@ export function emptyPrefs() {
     home: null,
     strict: false,
     filters: { continents: [], excludeIds: [], types: [] },
-    maxPerCountry: 2
+    maxPerCountry: MAX_PER_COUNTRY
   };
 }
 

@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   rankDestinations, scoreDestination, scoreCriterion, emptyPrefs, applyPreset,
-  monthCurve, estimateFlightHours, MONTHS, budgetSpread, dailyCost
+  monthCurve, estimateFlightHours, MONTHS, budgetSpread, dailyCost, MAX_PER_COUNTRY
 } from '../js/scoring.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -57,12 +57,12 @@ console.log('Sanity');
   // With the country cap on, order is deliberately not globally descending —
   // over-cap entries are demoted below everything that made the cut. Each
   // block must still be internally descending.
-  const capped = rankDestinations(destinations, { ...prefs, maxPerCountry: 2 }, criteriaById).results;
+  const capped = rankDestinations(destinations, { ...prefs, maxPerCountry: MAX_PER_COUNTRY }, criteriaById).results;
   const seenCount = {};
   const primary = [], overflow = [];
   for (const r of capped) {
     const n = seenCount[r.dest.country] = (seenCount[r.dest.country] || 0) + 1;
-    (n <= 2 ? primary : overflow).push(r);
+    (n <= MAX_PER_COUNTRY ? primary : overflow).push(r);
   }
   check('diversity-capped results are descending within each block',
     primary.every((r, i) => i === 0 || primary[i - 1].overall >= r.overall) &&

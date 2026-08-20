@@ -1,0 +1,353 @@
+{
+  "_doc": "Europe, second pass — the Balkans, the Carpathians and the microstates that the first pass skipped.",
+  "destinations": [
+    {
+      "id": "transylvania-ro",
+      "name": "Transylvania & Brașov",
+      "country": "RO",
+      "region": "Central Romania",
+      "continent": "Europe",
+      "lat": 45.657,
+      "lon": 25.601,
+      "type": "region",
+      "arch": "historic-city",
+      "blurb": "Saxon fortified churches, painted medieval towns under the Carpathians, and Europe's largest population of brown bears living genuinely wild in the forest above them.",
+      "tags": ["saxon towns", "carpathians", "brown bears", "bran castle"],
+      "climate": {
+        "tempHigh": [1, 3, 9, 16, 21, 24, 26, 26, 21, 15, 8, 2],
+        "tempLow": [-7, -6, -2, 3, 8, 11, 13, 13, 9, 4, 0, -4],
+        "rainDays": [9, 8, 9, 11, 13, 13, 11, 10, 8, 8, 9, 10],
+        "sunHours": [2, 3, 5, 6, 7, 8, 9, 8, 7, 5, 3, 2],
+        "humidity": [82, 78, 72, 68, 70, 72, 70, 70, 74, 78, 82, 84],
+        "snowDepth": [22, 20, 8, 1, 0, 0, 0, 0, 0, 0, 4, 16]
+      },
+      "crowd": [42, 42, 45, 52, 62, 72, 85, 88, 68, 55, 42, 55],
+      "priceIndex": [62, 62, 65, 70, 78, 86, 96, 98, 82, 70, 62, 74],
+      "cost": {
+        "budget": 30,
+        "mid": 68,
+        "luxury": 175
+      },
+      "r": {
+        "historicSites": 92, "architecture": 92, "museums": 72, "religiousSites": 85,
+        "localCulture": 88, "markets": 75, "mountains": 90, "hiking": 92, "forests": 92,
+        "wildlife": 90, "nationalParks": 85, "scenery": 92, "skiing": 68, "cycling": 78,
+        "roadTrip": 90, "stargazing": 78, "foodScene": 78, "wine": 78, "beer": 78,
+        "walkability": 85, "valueForMoney": 92, "backpacker": 82, "familyYoungKids": 72,
+        "romance": 78
+      },
+      "photos": [
+        "Brasov Romania old town square",
+        "Bran Castle Romania",
+        "Transylvania Saxon fortified church",
+        "Carpathian mountains Romania",
+        "Sighisoara Romania colourful",
+        "Transfagarasan road Romania"
+      ]
+    },
+    {
+      "id": "bucharest-ro",
+      "name": "Bucharest",
+      "country": "RO",
+      "region": "Wallachia",
+      "continent": "Europe",
+      "lat": 44.427,
+      "lon": 26.103,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "Belle Époque villas next to the second-largest building on earth, a nightlife the rest of Europe hasn't caught up with, and prices that make it feel like a mistake.",
+      "tags": ["little paris", "palace of parliament", "nightlife", "brutalism"],
+      "climate": {
+        "tempHigh": [3, 5, 12, 19, 24, 28, 31, 31, 25, 18, 10, 4],
+        "tempLow": [-5, -4, 0, 6, 11, 15, 17, 16, 12, 6, 2, -2],
+        "rainDays": [7, 7, 8, 9, 11, 11, 9, 7, 6, 7, 8, 8],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 10, 8, 6, 3, 2],
+        "humidity": [86, 82, 72, 66, 68, 68, 64, 63, 70, 76, 84, 87],
+        "snowDepth": [10, 9, 2, 0, 0, 0, 0, 0, 0, 0, 1, 6]
+      },
+      "crowd": [45, 45, 52, 62, 68, 75, 78, 75, 68, 58, 48, 55],
+      "priceIndex": [64, 64, 70, 78, 84, 90, 92, 90, 84, 74, 66, 74],
+      "cost": {
+        "budget": 32,
+        "mid": 72,
+        "luxury": 185
+      },
+      "r": {
+        "architecture": 88, "historicSites": 82, "museums": 85, "artScene": 82, "theatre": 82,
+        "liveMusic": 85, "festivals": 82, "localCulture": 82, "bars": 94, "clubbing": 92,
+        "foodScene": 85, "fineDining": 80, "streetFood": 78, "coffee": 88, "wine": 85,
+        "beer": 82, "markets": 78, "shopping": 82, "walkability": 78, "publicTransport": 82,
+        "wifi": 98, "digitalNomad": 90, "valueForMoney": 94, "groupParty": 88, "lgbtqScene": 62,
+        "backpacker": 82
+      },
+      "photos": [
+        "Palace of Parliament Bucharest",
+        "Bucharest old town nightlife",
+        "Romanian Athenaeum Bucharest",
+        "Bucharest belle epoque architecture",
+        "Bucharest park lake",
+        "Bucharest street cafe"
+      ]
+    },
+    {
+      "id": "sofia-bg",
+      "name": "Sofia & the Rila Mountains",
+      "country": "BG",
+      "region": "Western Bulgaria",
+      "continent": "Europe",
+      "lat": 42.698,
+      "lon": 23.322,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "A capital with a 2,290m mountain inside the city limits, Roman ruins under the metro stations, and the Rila Monastery's striped arcades an hour and a half south.",
+      "tags": ["vitosha", "rila monastery", "roman ruins", "seven lakes"],
+      "climate": {
+        "tempHigh": [3, 6, 11, 17, 21, 25, 28, 28, 23, 17, 10, 4],
+        "tempLow": [-4, -3, 1, 5, 10, 13, 15, 15, 11, 7, 2, -2],
+        "rainDays": [8, 7, 9, 11, 13, 12, 9, 8, 7, 8, 9, 9],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 10, 8, 5, 3, 2],
+        "humidity": [82, 78, 70, 65, 68, 67, 63, 63, 68, 76, 82, 84],
+        "snowDepth": [18, 16, 6, 0, 0, 0, 0, 0, 0, 0, 3, 12]
+      },
+      "crowd": [45, 45, 48, 55, 62, 70, 78, 78, 68, 55, 45, 52],
+      "priceIndex": [62, 62, 66, 72, 78, 86, 92, 92, 82, 70, 62, 70],
+      "cost": {
+        "budget": 28,
+        "mid": 65,
+        "luxury": 170
+      },
+      "r": {
+        "historicSites": 85, "religiousSites": 90, "architecture": 82, "museums": 80,
+        "localCulture": 82, "markets": 78, "mountains": 90, "hiking": 92, "skiing": 78,
+        "lakesRivers": 82, "nationalParks": 85, "scenery": 88, "forests": 82, "cycling": 68,
+        "foodScene": 85, "wine": 85, "streetFood": 78, "bars": 85, "coffee": 85,
+        "walkability": 82, "publicTransport": 80, "wifi": 96, "digitalNomad": 88,
+        "valueForMoney": 94, "backpacker": 85
+      },
+      "photos": [
+        "Rila Monastery Bulgaria arcades",
+        "Sofia Alexander Nevsky cathedral",
+        "Vitosha mountain Sofia",
+        "Seven Rila Lakes Bulgaria",
+        "Sofia yellow brick road street",
+        "Bulgarian mountain village"
+      ]
+    },
+    {
+      "id": "plovdiv-bg",
+      "name": "Plovdiv & the Rhodopes",
+      "country": "BG",
+      "region": "Southern Bulgaria",
+      "continent": "Europe",
+      "lat": 42.144,
+      "lon": 24.75,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "One of the oldest continuously inhabited cities in Europe, with a Roman theatre still used for opera, a hill of painted merchant houses, and the Rhodope mountains behind.",
+      "tags": ["roman theatre", "old town", "kapana", "rhodopes"],
+      "climate": {
+        "tempHigh": [5, 8, 13, 19, 24, 28, 31, 31, 26, 19, 12, 6],
+        "tempLow": [-3, -1, 3, 7, 12, 16, 18, 18, 13, 8, 3, -1],
+        "rainDays": [6, 6, 7, 9, 10, 9, 6, 5, 5, 7, 8, 8],
+        "sunHours": [3, 4, 5, 7, 8, 10, 11, 10, 8, 6, 3, 2],
+        "humidity": [80, 76, 68, 64, 66, 64, 60, 60, 66, 74, 80, 82],
+        "snowDepth": [8, 6, 1, 0, 0, 0, 0, 0, 0, 0, 1, 5]
+      },
+      "crowd": [40, 40, 45, 55, 65, 72, 80, 80, 68, 55, 42, 48],
+      "priceIndex": [58, 58, 62, 70, 78, 84, 90, 90, 80, 68, 60, 66],
+      "cost": {
+        "budget": 25,
+        "mid": 58,
+        "luxury": 155
+      },
+      "r": {
+        "historicSites": 92, "architecture": 92, "museums": 82, "artScene": 88, "theatre": 85,
+        "localCulture": 88, "markets": 78, "festivals": 82, "mountains": 82, "hiking": 85,
+        "forests": 82, "scenery": 82, "wine": 90, "foodScene": 85, "streetFood": 78, "bars": 85,
+        "coffee": 82, "walkability": 92, "romance": 82, "cycling": 68, "valueForMoney": 96,
+        "backpacker": 85, "digitalNomad": 82, "seniors": 72
+      },
+      "photos": [
+        "Plovdiv Roman theatre Bulgaria",
+        "Plovdiv old town painted houses",
+        "Kapana district Plovdiv",
+        "Rhodope mountains Bulgaria",
+        "Plovdiv main street",
+        "Bachkovo monastery Bulgaria"
+      ]
+    },
+    {
+      "id": "high-tatras-sk",
+      "name": "The High Tatras",
+      "country": "SK",
+      "region": "Northern Slovakia",
+      "continent": "Europe",
+      "lat": 49.16,
+      "lon": 20.14,
+      "type": "mountains",
+      "arch": "mountain-town",
+      "blurb": "The smallest alpine range in the world, packing 2,600m granite peaks, tarns and chamois into an area you can cross on foot in two days. Skiing in winter, huts in summer.",
+      "tags": ["tatra huts", "chamois", "granite peaks", "compact alps"],
+      "climate": {
+        "tempHigh": [0, 1, 5, 11, 16, 19, 21, 21, 16, 11, 5, 1],
+        "tempLow": [-8, -8, -4, 1, 5, 9, 11, 10, 7, 3, -2, -6],
+        "rainDays": [11, 10, 11, 12, 14, 15, 14, 13, 10, 9, 12, 12],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 7, 5, 4, 2, 2],
+        "humidity": [82, 80, 76, 72, 74, 76, 76, 76, 78, 80, 84, 85],
+        "snowDepth": [65, 70, 55, 25, 4, 0, 0, 0, 0, 5, 25, 55]
+      },
+      "crowd": [62, 62, 52, 42, 48, 62, 82, 85, 62, 48, 40, 55],
+      "priceIndex": [78, 78, 68, 60, 66, 76, 94, 96, 76, 64, 58, 72],
+      "cost": {
+        "budget": 34,
+        "mid": 78,
+        "luxury": 200
+      },
+      "r": {
+        "mountains": 96, "hiking": 96, "scenery": 94, "nationalParks": 92, "skiing": 85,
+        "climbing": 88, "forests": 88, "lakesRivers": 88, "wildlife": 78, "cycling": 78,
+        "adrenaline": 78, "wellness": 85, "stargazing": 82, "localCulture": 72, "foodScene": 68,
+        "beer": 88, "valueForMoney": 88, "familyYoungKids": 78, "backpacker": 78, "romance": 72,
+        "seniors": 62
+      },
+      "photos": [
+        "High Tatras Slovakia peaks",
+        "Strbske Pleso lake Tatras",
+        "Tatra mountain hut Slovakia",
+        "High Tatras winter snow",
+        "Slovakia mountain trail chamois",
+        "Tatras autumn larch"
+      ]
+    },
+    {
+      "id": "belgrade-rs",
+      "name": "Belgrade",
+      "country": "RS",
+      "region": "The Danube & Sava",
+      "continent": "Europe",
+      "lat": 44.787,
+      "lon": 20.449,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "A city destroyed and rebuilt forty-odd times, sitting where two big rivers meet, with floating river clubs, a fortress park and a nightlife that genuinely does not stop.",
+      "tags": ["splavovi", "kalemegdan", "rakija", "nightlife"],
+      "climate": {
+        "tempHigh": [5, 7, 13, 19, 24, 27, 30, 30, 25, 19, 12, 6],
+        "tempLow": [-1, 0, 4, 9, 14, 17, 19, 19, 15, 10, 5, 1],
+        "rainDays": [9, 8, 9, 11, 12, 11, 9, 8, 8, 8, 10, 11],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 9, 7, 5, 3, 2],
+        "humidity": [80, 76, 68, 64, 66, 66, 62, 62, 68, 74, 79, 82],
+        "snowDepth": [8, 6, 1, 0, 0, 0, 0, 0, 0, 0, 1, 5]
+      },
+      "crowd": [48, 48, 55, 65, 72, 78, 80, 78, 72, 62, 52, 58],
+      "priceIndex": [66, 66, 72, 80, 86, 90, 92, 90, 86, 76, 68, 74],
+      "cost": {
+        "budget": 30,
+        "mid": 70,
+        "luxury": 180
+      },
+      "r": {
+        "bars": 96, "clubbing": 96, "liveMusic": 90, "groupParty": 92, "festivals": 88,
+        "foodScene": 88, "streetFood": 85, "fineDining": 78, "coffee": 90, "wine": 78,
+        "beer": 85, "markets": 85, "historicSites": 82, "museums": 80, "architecture": 78,
+        "artScene": 85, "localCulture": 88, "lakesRivers": 82, "walkability": 82,
+        "publicTransport": 72, "wifi": 92, "digitalNomad": 88, "valueForMoney": 94,
+        "backpacker": 88, "swimming": 62
+      },
+      "photos": [
+        "Belgrade Kalemegdan fortress rivers",
+        "Belgrade splav river club",
+        "Skadarlija Belgrade bohemian street",
+        "Belgrade Saint Sava temple",
+        "Belgrade rooftop bar Danube",
+        "Belgrade Zemun waterfront"
+      ]
+    },
+    {
+      "id": "andorra-ad",
+      "name": "Andorra",
+      "country": "AD",
+      "region": "The Pyrenees",
+      "continent": "Europe",
+      "lat": 42.546,
+      "lon": 1.601,
+      "type": "mountains",
+      "arch": "ski-resort",
+      "blurb": "A 468-square-kilometre principality between France and Spain, run jointly by a bishop and the French president, with the biggest ski area in the Pyrenees and no VAT.",
+      "tags": ["grandvalira", "duty free", "pyrenees", "co-principality"],
+      "climate": {
+        "tempHigh": [5, 6, 10, 12, 16, 21, 25, 24, 20, 15, 9, 6],
+        "tempLow": [-3, -2, 0, 3, 6, 10, 13, 13, 10, 6, 1, -2],
+        "rainDays": [7, 7, 8, 11, 12, 10, 8, 9, 8, 9, 8, 7],
+        "sunHours": [5, 5, 6, 6, 7, 8, 9, 8, 7, 6, 5, 4],
+        "humidity": [72, 70, 68, 70, 70, 68, 64, 66, 70, 74, 74, 74],
+        "snowDepth": [85, 95, 80, 40, 8, 0, 0, 0, 0, 4, 30, 65]
+      },
+      "crowd": [88, 88, 78, 45, 38, 45, 62, 68, 45, 42, 48, 82],
+      "priceIndex": [96, 98, 88, 62, 56, 62, 74, 80, 62, 58, 66, 92],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 275
+      },
+      "r": {
+        "skiing": 94, "mountains": 92, "hiking": 90, "scenery": 88, "nationalParks": 78,
+        "climbing": 78, "cycling": 90, "wellness": 90, "lakesRivers": 78, "adrenaline": 82,
+        "forests": 78, "shopping": 92, "foodScene": 78, "wine": 72, "bars": 72,
+        "valueForMoney": 72, "familyYoungKids": 82, "safety": 94, "walkability": 68,
+        "seniors": 62, "stargazing": 82
+      },
+      "photos": [
+        "Andorra Pyrenees ski resort",
+        "Andorra la Vella town",
+        "Grandvalira ski slopes Andorra",
+        "Andorra mountain lake summer",
+        "Andorra Romanesque church",
+        "Pyrenees hiking Andorra"
+      ]
+    },
+    {
+      "id": "monaco-mc",
+      "name": "Monaco & the Riviera",
+      "country": "MC",
+      "region": "The Côte d'Azur",
+      "continent": "Europe",
+      "lat": 43.738,
+      "lon": 7.424,
+      "type": "city",
+      "arch": "resort-city",
+      "blurb": "Two square kilometres of superyachts, a casino you must dress for, and a Grand Prix run through streets that are otherwise a rather formal seaside town.",
+      "tags": ["grand prix", "casino", "superyachts", "monte carlo"],
+      "climate": {
+        "tempHigh": [13, 13, 15, 17, 21, 24, 27, 27, 24, 21, 17, 14],
+        "tempLow": [8, 8, 10, 12, 16, 19, 22, 22, 19, 16, 12, 9],
+        "rainDays": [6, 6, 6, 7, 6, 4, 2, 3, 5, 7, 8, 7],
+        "sunHours": [5, 6, 7, 8, 9, 10, 11, 10, 8, 6, 5, 4],
+        "humidity": [70, 70, 70, 72, 74, 74, 72, 72, 72, 72, 72, 71],
+        "seaTemp": [14, 13, 14, 15, 18, 21, 24, 25, 23, 21, 18, 16]
+      },
+      "crowd": [55, 55, 62, 72, 92, 88, 92, 94, 82, 68, 58, 58],
+      "priceIndex": [82, 82, 88, 94, 100, 98, 100, 100, 94, 86, 82, 84],
+      "cost": {
+        "budget": 110,
+        "mid": 245,
+        "luxury": 850
+      },
+      "r": {
+        "luxury": 100, "fineDining": 98, "casinos": 100, "shopping": 96, "sailing": 96,
+        "beaches": 68, "swimming": 78, "scenery": 90, "architecture": 85, "museums": 82,
+        "historicSites": 72, "sports": 94, "bars": 85, "wine": 92, "foodScene": 90,
+        "walkability": 88, "safety": 100, "cleanliness": 96, "romance": 88, "seniors": 85,
+        "valueForMoney": 8, "backpacker": 5, "familyYoungKids": 62
+      },
+      "photos": [
+        "Monaco harbour superyachts",
+        "Monte Carlo casino Monaco",
+        "Monaco Grand Prix circuit",
+        "Monaco skyline Mediterranean",
+        "Monaco old town Le Rocher",
+        "French Riviera coast Monaco"
+      ]
+    }
+  ]
+}
