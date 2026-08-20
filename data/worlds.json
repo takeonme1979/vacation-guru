@@ -1,0 +1,57 @@
+{
+  "_doc": "Selectable worlds. Each is a complete, independent dataset — its own criteria, archetypes, universes and destinations — scored by the exact same engine.",
+  "worlds": [
+    {
+      "id": "real",
+      "label": "Real world",
+      "short": "Real",
+      "icon": "🧭",
+      "dir": ".",
+      "theme": null,
+      "tagline": "Places you can actually book a flight to.",
+      "photoPolicy": "photo",
+      "timeModel": "months"
+    },
+    {
+      "id": "fiction",
+      "label": "Fiction",
+      "short": "Fiction",
+      "icon": "🐉",
+      "dir": "fiction",
+      "theme": "fiction",
+      "tagline": "Realms from fantasy, science fiction and literature. Survival not guaranteed.",
+      "climateRange": {
+        "tempHigh": [
+          -120,
+          120
+        ],
+        "tempLow": [
+          -200,
+          100
+        ],
+        "rainDays": [
+          0,
+          31
+        ],
+        "sunHours": [
+          0,
+          20
+        ],
+        "humidity": [
+          0,
+          100
+        ],
+        "seaTemp": [
+          -40,
+          100
+        ],
+        "snowDepth": [
+          0,
+          2000
+        ]
+      },
+      "photoPolicy": "any",
+      "timeModel": "seasons"
+    }
+  ]
+}

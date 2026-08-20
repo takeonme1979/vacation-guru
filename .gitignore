@@ -1,0 +1,26 @@
+# NOTE: the generated files are deliberately NOT ignored.
+#
+#   data/destinations.json      data/photos.json      data/meta.json
+#   data/fiction/*.json         vacation-guru.html    sw.js's cache stamp
+#
+# Netlify runs no build command, so whatever is committed here is exactly what
+# gets served. Ignoring the build output would deploy an empty app. Run
+# `npm run build` before committing; CI checks that you did.
+
+node_modules/
+.netlify/
+.cache/
+
+*.log
+npm-debug.log*
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# scratch files
+.redo.txt
+tools/.peek.mjs

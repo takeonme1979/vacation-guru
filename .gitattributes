@@ -1,0 +1,18 @@
+# LF everywhere, including in the working tree on Windows.
+#
+# This is not a style preference. `bundle.mjs` inlines css/styles.css and every
+# JS module verbatim into vacation-guru.html, so the bundle's bytes depend on
+# the line endings of its inputs. With the usual Windows checkout the same
+# source would produce a different bundle on a developer's machine than in CI,
+# and the "committed build output is up to date" check would fail forever
+# without anything actually being wrong.
+
+* text=auto eol=lf
+
+# Generated. Diffs of a 2 MB single-file bundle or a 1 MB photo manifest help
+# nobody; mark them so reviews stay readable.
+vacation-guru.html   linguist-generated=true -diff
+data/photos.json     linguist-generated=true -diff
+data/fiction/photos.json linguist-generated=true -diff
+data/destinations.json   linguist-generated=true -diff
+data/fiction/destinations.json linguist-generated=true -diff

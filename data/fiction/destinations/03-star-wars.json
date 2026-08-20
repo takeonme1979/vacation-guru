@@ -1,0 +1,370 @@
+{
+  "_doc": "The Star Wars galaxy. Photo topics use the real shooting locations — Tunisia, Norway, Iceland, Guatemala and Skellig Michael.",
+  "destinations": [
+    {
+      "id": "tatooine", "name": "Tatooine", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "desert", "arch": "desert-world",
+      "blurb": "Twin suns, moisture farms and a spaceport bar with a strict no-droids policy. Nothing happens here, which is precisely why so much of it does.",
+      "tags": ["twin suns", "desert", "podracing", "cantina"],
+      "climate": {
+        "tempHigh": [34, 36, 40, 44, 48, 51, 52, 52, 48, 42, 37, 34],
+        "tempLow":  [14, 15, 18, 22, 26, 30, 32, 32, 28, 23, 18, 15],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [12, 12, 13, 13, 14, 14, 14, 14, 13, 13, 12, 12],
+        "humidity": [18, 16, 14, 12, 10, 8, 7, 8, 10, 13, 16, 18]
+      },
+      "crowd":      [32, 32, 35, 38, 42, 45, 48, 48, 44, 38, 34, 32],
+      "costTier": 1,
+      "r": {
+        "desert": 100, "stargazing": 96, "scenery": 78, "wilderness": 82, "underground": 62,
+        "markets": 72, "taverns": 82, "gambling": 92, "adrenaline": 88, "music": 78,
+        "peoples": 78, "localCulture": 78, "combat": 68, "monsters": 68,
+        "spaceTravel": 78, "technology": 62, "magic": 42, "prophecy": 82,
+        "safety": 25, "lawAndOrder": 8, "hospitality": 32, "comfort": 22,
+        "survivability": 32, "healing": 32, "foodScene": 32, "vegetarian": 35,
+        "familyFriendly": 12, "seniors": 12, "luxury": 15, "wandering": 82,
+        "coast": 0, "swimming": 2, "rivers": 0, "forests": 0
+      },
+      "photos": ["Chott el Djerid Tunisia salt flat", "Ksar Ouled Soltane Tunisia", "Matmata troglodyte house Tunisia", "Sahara sand dunes twin", "Tunisia desert village white domes", "Death Valley desert sunset"]
+    },
+    {
+      "id": "coruscant", "name": "Coruscant", "country": "SW", "region": "Core Worlds", "continent": "Science Fiction",
+      "type": "city", "arch": "space-port",
+      "blurb": "A single city covering an entire planet, a thousand levels deep. The upper levels have opera and senators; the lower levels have everything else.",
+      "tags": ["ecumenopolis", "senate", "opera", "levels"],
+      "climate": {
+        "tempHigh": [19, 19, 20, 20, 21, 21, 21, 21, 21, 20, 20, 19],
+        "tempLow":  [14, 14, 15, 15, 16, 16, 16, 16, 16, 15, 15, 14],
+        "rainDays": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "sunHours": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "humidity": [58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58]
+      },
+      "crowd":      [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92],
+      "costTier": 3,
+      "r": {
+        "cities": 100, "architecture": 96, "technology": 96, "spaceTravel": 96,
+        "peoples": 98, "markets": 88, "shopping": 92, "intrigue": 98, "libraries": 88,
+        "music": 88, "revels": 82, "gambling": 78, "taverns": 82, "foodScene": 82,
+        "luxury": 92, "comfort": 82, "healing": 88, "commonTongue": 92,
+        "safety": 42, "lawAndOrder": 55, "underground": 88, "combat": 62,
+        "wilderness": 0, "forests": 0, "plains": 0, "mountains": 0, "coast": 0,
+        "stargazing": 22, "scenery": 55, "beasts": 8, "familyFriendly": 45,
+        "wandering": 32, "seniors": 55
+      },
+      "photos": ["Futuristic city skyline night", "Hong Kong dense skyline night", "Cyberpunk city lights", "Shanghai Pudong skyline", "Hong Kong dense high rise night", "Naples Palazzo Reale Caserta"]
+    },
+    {
+      "id": "hoth", "name": "Hoth", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "ice", "arch": "frozen-waste",
+      "blurb": "An ice planet with nothing to recommend it except that nobody looks for you here. Night temperatures will kill an unprotected human in minutes.",
+      "tags": ["ice", "wampas", "rebel base", "lethal"],
+      "climate": {
+        "tempHigh": [-32, -31, -28, -24, -20, -18, -17, -18, -21, -25, -29, -31],
+        "tempLow":  [-58, -57, -54, -50, -46, -43, -42, -43, -47, -51, -55, -57],
+        "rainDays": [14, 13, 13, 12, 11, 10, 10, 11, 12, 13, 14, 14],
+        "sunHours": [3, 3, 4, 4, 5, 5, 5, 5, 4, 4, 3, 3],
+        "humidity": [62, 62, 61, 60, 59, 58, 58, 59, 60, 61, 62, 62],
+        "snowDepth": [180, 185, 178, 168, 158, 152, 150, 152, 160, 170, 178, 182]
+      },
+      "crowd":      [2, 2, 2, 3, 3, 4, 4, 4, 3, 3, 2, 2],
+      "costTier": 1,
+      "r": {
+        "wilderness": 98, "scenery": 82, "stargazing": 92, "underground": 78,
+        "monsters": 78, "combat": 72, "climbing": 68, "hiking": 55,
+        "technology": 62, "spaceTravel": 72,
+        "survivability": 5, "safety": 8, "comfort": 5, "healing": 32, "hospitality": 8,
+        "foodScene": 5, "vegetarian": 12, "ale": 3, "taverns": 3, "markets": 2,
+        "shopping": 2, "revels": 2, "music": 3, "festivals": 0, "cities": 5,
+        "familyFriendly": 0, "seniors": 0, "romance": 8, "luxury": 2,
+        "forests": 0, "coast": 0, "swimming": 0, "rivers": 0, "beasts": 25, "libraries": 5
+      },
+      "photos": ["Hardangerjokulen glacier Norway", "Antarctic ice plateau", "Snow blizzard whiteout", "Ice cave Norway glacier", "Frozen wasteland horizon", "Snow drift arctic desert"]
+    },
+    {
+      "id": "endor", "name": "The Forest Moon of Endor", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "forest", "arch": "lost-world",
+      "blurb": "Thousand-foot redwoods, speeder bikes and a village of small hostile bears who will either eat you or crown you. Beautiful, and much more dangerous than it looks.",
+      "tags": ["redwoods", "ewoks", "speeder bikes", "moon"],
+      "climate": {
+        "tempHigh": [12, 13, 15, 17, 20, 23, 25, 25, 23, 19, 15, 12],
+        "tempLow":  [5, 5, 6, 8, 10, 12, 14, 14, 12, 10, 7, 5],
+        "rainDays": [16, 14, 15, 12, 9, 6, 4, 5, 7, 12, 16, 17],
+        "sunHours": [3, 4, 5, 6, 8, 9, 10, 9, 8, 5, 3, 3],
+        "humidity": [86, 85, 84, 81, 78, 75, 73, 74, 77, 82, 86, 87]
+      },
+      "crowd":      [10, 10, 12, 15, 20, 26, 30, 28, 22, 16, 12, 10],
+      "costTier": 1,
+      "r": {
+        "forests": 100, "wilderness": 92, "scenery": 92, "beasts": 88, "hiking": 88,
+        "climbing": 82, "adrenaline": 92, "localCulture": 82, "peoples": 68,
+        "combat": 72, "rivers": 72, "stargazing": 82, "monsters": 55,
+        "technology": 62, "spaceTravel": 55, "festivals": 68, "music": 62,
+        "safety": 35, "survivability": 68, "comfort": 25, "hospitality": 38,
+        "cities": 12, "markets": 12, "shopping": 8, "libraries": 5, "luxury": 8,
+        "familyFriendly": 32, "seniors": 15, "wandering": 88, "fellowship": 82
+      },
+      "photos": ["Redwood National Park California", "Giant sequoia forest floor", "Coast redwoods fog California", "Tall forest canopy sunbeams", "Mossy forest floor ferns", "Treehouse village forest"]
+    },
+    {
+      "id": "naboo", "name": "Naboo", "country": "SW", "region": "Mid Rim", "continent": "Science Fiction",
+      "type": "region", "arch": "utopia",
+      "blurb": "Lakeside palaces, waterfall cities and rolling green hills, with an entire amphibian civilisation in the planet's core. The most beautiful world in the galaxy and it knows it.",
+      "tags": ["palaces", "lakes", "waterfalls", "gungans"],
+      "climate": {
+        "tempHigh": [16, 17, 19, 22, 25, 28, 30, 30, 27, 23, 19, 17],
+        "tempLow":  [8, 8, 10, 12, 15, 18, 20, 20, 18, 14, 11, 9],
+        "rainDays": [8, 7, 7, 6, 5, 4, 3, 3, 5, 7, 8, 9],
+        "sunHours": [5, 6, 7, 8, 9, 10, 11, 10, 9, 7, 5, 4],
+        "humidity": [72, 70, 68, 66, 64, 62, 60, 62, 66, 70, 72, 73],
+        "seaTemp":  [15, 15, 16, 18, 21, 24, 26, 27, 25, 22, 19, 16]
+      },
+      "crowd":      [38, 40, 48, 58, 65, 70, 72, 70, 65, 55, 44, 40],
+      "costTier": 3,
+      "r": {
+        "scenery": 98, "architecture": 98, "rivers": 96, "cities": 88, "coast": 78,
+        "swimming": 82, "sailing": 78, "luxury": 96, "comfort": 92, "romance": 96,
+        "foodScene": 88, "wine": 88, "festivals": 88, "music": 88, "artefacts": 62,
+        "peoples": 72, "underground": 68, "seaMonsters": 68, "history": 78,
+        "safety": 78, "lawAndOrder": 78, "hospitality": 88, "healing": 82,
+        "familyFriendly": 78, "seniors": 82, "libraries": 72, "technology": 78,
+        "spaceTravel": 72, "intrigue": 78, "warRisk": 55
+      },
+      "photos": ["Villa del Balbianello Lake Como", "Plaza de Espana Seville", "Palace lake reflection Italy", "Caserta Royal Palace Italy", "Plitvice Lakes waterfalls Croatia", "Lake Como villa gardens"]
+    },
+    {
+      "id": "mustafar", "name": "Mustafar", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "volcanic", "arch": "dark-realm",
+      "blurb": "A world of open lava rivers and mining platforms, where the air is unbreathable and the ground is optional. Historically a poor choice of duelling venue.",
+      "tags": ["lava", "mining", "duels", "unbreathable"],
+      "climate": {
+        "tempHigh": [56, 57, 58, 58, 59, 60, 61, 61, 60, 58, 57, 56],
+        "tempLow":  [42, 42, 43, 44, 45, 46, 47, 47, 46, 44, 43, 42],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        "humidity": [12, 12, 11, 11, 10, 10, 10, 10, 10, 11, 11, 12]
+      },
+      "crowd":      [6, 6, 6, 7, 8, 8, 9, 9, 8, 7, 6, 6],
+      "costTier": 2,
+      "r": {
+        "volcanic": 100, "scenery": 72, "technology": 72, "spaceTravel": 68,
+        "combat": 88, "adrenaline": 82, "underground": 78, "monsters": 42,
+        "survivability": 3, "safety": 3, "comfort": 3, "healing": 15, "hospitality": 5,
+        "foodScene": 5, "vegetarian": 5, "ale": 3, "taverns": 5, "markets": 8,
+        "shopping": 5, "revels": 2, "music": 2, "festivals": 0, "libraries": 5,
+        "familyFriendly": 0, "seniors": 0, "romance": 2, "luxury": 22,
+        "forests": 0, "coast": 0, "swimming": 0, "rivers": 0, "beasts": 3,
+        "stargazing": 12, "wilderness": 62, "cities": 22
+      },
+      "photos": ["Lava flow river night Hawaii", "Volcanic eruption fountain lava", "Etna eruption Sicily night", "Black volcanic rock steam", "Molten lava close up", "Volcano crater glow"]
+    },
+    {
+      "id": "ahch-to", "name": "Ahch-To", "country": "SW", "region": "Unknown Regions", "continent": "Science Fiction",
+      "type": "island", "arch": "island-kingdom",
+      "blurb": "A green island of stone huts and impossible steps in a cold ocean, the first Jedi temple, and thousands of very confident seabirds.",
+      "tags": ["jedi temple", "island", "seabirds", "isolation"],
+      "climate": {
+        "tempHigh": [8, 8, 10, 12, 15, 17, 19, 19, 17, 14, 11, 9],
+        "tempLow":  [4, 4, 5, 6, 9, 11, 13, 13, 12, 9, 7, 5],
+        "rainDays": [18, 16, 17, 14, 13, 12, 13, 14, 15, 18, 19, 19],
+        "sunHours": [2, 3, 4, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [87, 86, 85, 83, 82, 82, 83, 84, 85, 87, 88, 88],
+        "seaTemp":  [10, 9, 10, 11, 12, 14, 15, 16, 15, 14, 12, 11]
+      },
+      "crowd":      [4, 4, 5, 8, 12, 18, 22, 20, 14, 8, 5, 4],
+      "costTier": 1,
+      "r": {
+        "islands": 96, "coast": 96, "scenery": 96, "wilderness": 88, "beasts": 88,
+        "climbing": 82, "hiking": 78, "history": 92, "temples": 96, "libraries": 78,
+        "magic": 88, "wizards": 92, "prophecy": 88, "artefacts": 78,
+        "sailing": 62, "seaMonsters": 45, "stargazing": 88, "soloTravel": 78,
+        "safety": 62, "comfort": 12, "hospitality": 22, "luxury": 3,
+        "cities": 3, "markets": 2, "shopping": 0, "taverns": 2, "revels": 2,
+        "foodScene": 15, "gambling": 0, "familyFriendly": 22, "seniors": 15,
+        "gettingThere": 12, "commonTongue": 32
+      },
+      "photos": ["Skellig Michael Ireland monastery", "Skellig Michael steps beehive huts", "Puffins Skellig Ireland", "Remote island Atlantic cliffs", "Stone beehive hut Ireland", "Rough sea rocky island"]
+    },
+    {
+      "id": "bespin", "name": "Cloud City, Bespin", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "sky", "arch": "space-port",
+      "blurb": "A tibanna-gas mining platform floating in the habitable band of a gas giant. Superb sunsets, excellent dining, and the hospitality has a poor historical record.",
+      "tags": ["floating city", "gas giant", "sunsets", "carbonite"],
+      "climate": {
+        "tempHigh": [22, 22, 22, 23, 23, 23, 23, 23, 23, 22, 22, 22],
+        "tempLow":  [16, 16, 16, 17, 17, 17, 17, 17, 17, 16, 16, 16],
+        "rainDays": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        "sunHours": [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "humidity": [48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48]
+      },
+      "crowd":      [55, 55, 55, 58, 58, 60, 60, 60, 58, 56, 55, 55],
+      "costTier": 3,
+      "r": {
+        "cities": 88, "architecture": 88, "scenery": 96, "stargazing": 92,
+        "technology": 92, "spaceTravel": 88, "luxury": 96, "comfort": 92,
+        "foodScene": 82, "revels": 82, "gambling": 82, "music": 78, "shopping": 78,
+        "romance": 88, "peoples": 78, "intrigue": 88, "markets": 68,
+        "safety": 32, "lawAndOrder": 42, "hospitality": 28, "healing": 78,
+        "wilderness": 0, "forests": 0, "mountains": 0, "coast": 0, "swimming": 0,
+        "rivers": 0, "beasts": 12, "hiking": 3, "climbing": 12, "familyFriendly": 55,
+        "seniors": 68, "adrenaline": 68
+      },
+      "photos": ["Sunset above clouds aerial", "Cloud sea sunrise mountain", "Cloud inversion mountain summit", "Orange cloudscape sunset", "Above the clouds golden light", "Modern white architecture curves"]
+    },
+    {
+      "id": "kashyyyk", "name": "Kashyyyk", "country": "SW", "region": "Mid Rim", "continent": "Science Fiction",
+      "type": "forest", "arch": "lost-world",
+      "blurb": "Wroshyr trees kilometres tall with cities built in the canopy, and a warrior culture of very large people who take debts extremely seriously.",
+      "tags": ["wookiees", "canopy cities", "giant trees", "beaches"],
+      "climate": {
+        "tempHigh": [26, 26, 27, 28, 29, 30, 31, 31, 30, 28, 27, 26],
+        "tempLow":  [19, 19, 20, 21, 22, 23, 23, 23, 22, 21, 20, 19],
+        "rainDays": [17, 16, 16, 15, 14, 12, 11, 12, 14, 16, 17, 17],
+        "sunHours": [5, 5, 5, 6, 6, 7, 7, 7, 6, 6, 5, 5],
+        "humidity": [86, 85, 85, 84, 83, 81, 80, 81, 83, 85, 86, 86],
+        "seaTemp":  [26, 26, 26, 27, 28, 28, 29, 29, 28, 28, 27, 26]
+      },
+      "crowd":      [28, 28, 30, 34, 38, 42, 45, 44, 40, 34, 30, 28],
+      "costTier": 2,
+      "r": {
+        "forests": 100, "cities": 72, "climbing": 96, "scenery": 92, "wilderness": 88,
+        "beasts": 82, "coast": 72, "swimming": 68, "adrenaline": 88, "combat": 82,
+        "localCulture": 92, "peoples": 68, "feasting": 72, "fellowship": 88,
+        "technology": 68, "spaceTravel": 68, "architecture": 78, "hiking": 82,
+        "safety": 42, "comfort": 52, "hospitality": 72, "commonTongue": 25,
+        "libraries": 42, "markets": 45, "shopping": 32, "luxury": 32,
+        "familyFriendly": 42, "seniors": 22, "monsters": 68
+      },
+      "photos": ["Giant tree canopy rainforest", "Kapok tree buttress roots jungle", "Canopy walkway rainforest", "Tropical rainforest river beach", "Tall tropical trees mist", "Treetop village huts"]
+    },
+    {
+      "id": "dagobah", "name": "Dagobah", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "wetland", "arch": "lost-world",
+      "blurb": "A swamp planet with no cities, no technology and a very strong presence in the Force. One resident, who is not accepting visitors.",
+      "tags": ["swamp", "training", "isolation", "the force"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 29, 30, 30, 31, 31, 30, 29, 28, 28],
+        "tempLow":  [22, 22, 22, 23, 23, 24, 24, 24, 24, 23, 22, 22],
+        "rainDays": [22, 21, 22, 21, 21, 20, 20, 20, 21, 22, 22, 22],
+        "sunHours": [2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2],
+        "humidity": [94, 94, 94, 93, 93, 92, 92, 92, 93, 94, 94, 94]
+      },
+      "crowd":      [1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1],
+      "costTier": 1,
+      "r": {
+        "forests": 92, "wilderness": 96, "rivers": 78, "beasts": 82, "monsters": 68,
+        "magic": 92, "wizards": 96, "prophecy": 88, "questing": 82, "timeStrange": 62,
+        "soloTravel": 72, "hiking": 55, "stargazing": 32,
+        "safety": 22, "survivability": 42, "comfort": 2, "healing": 32, "hospitality": 8,
+        "cities": 0, "markets": 0, "shopping": 0, "taverns": 0, "revels": 0,
+        "music": 2, "festivals": 0, "foodScene": 8, "vegetarian": 55, "ale": 0,
+        "libraries": 12, "luxury": 0, "familyFriendly": 3, "seniors": 3,
+        "romance": 5, "technology": 5, "scenery": 45
+      },
+      "photos": ["Swamp cypress trees mist", "Mangrove swamp roots water", "Foggy bog wetland", "Everglades swamp Florida", "Dark swamp reflection trees", "Rainforest swamp humid"]
+    },
+    {
+      "id": "jakku", "name": "Jakku", "country": "SW", "region": "Western Reaches", "continent": "Science Fiction",
+      "type": "desert", "arch": "desert-world",
+      "blurb": "A junkyard planet where a fleet came to die. Scavenging is the entire economy and portions are paid in something that expands into bread.",
+      "tags": ["scavenging", "wrecks", "desert", "poverty"],
+      "climate": {
+        "tempHigh": [32, 34, 38, 42, 46, 48, 49, 49, 45, 40, 35, 32],
+        "tempLow":  [12, 13, 16, 20, 24, 27, 29, 29, 25, 21, 16, 13],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [11, 12, 12, 13, 13, 14, 14, 13, 13, 12, 11, 11],
+        "humidity": [16, 15, 13, 11, 9, 8, 7, 8, 9, 12, 14, 16]
+      },
+      "crowd":      [18, 18, 20, 22, 24, 26, 28, 28, 25, 22, 19, 18],
+      "costTier": 1,
+      "r": {
+        "desert": 98, "wilderness": 88, "stargazing": 92, "ruins": 88, "artefacts": 68,
+        "markets": 58, "technology": 55, "spaceTravel": 62, "adrenaline": 68,
+        "scenery": 62, "combat": 55, "monsters": 42, "peoples": 55,
+        "safety": 18, "lawAndOrder": 8, "hospitality": 18, "comfort": 8,
+        "survivability": 32, "healing": 15, "foodScene": 8, "vegetarian": 25,
+        "taverns": 32, "ale": 22, "revels": 12, "music": 15, "festivals": 5,
+        "libraries": 5, "luxury": 3, "familyFriendly": 5, "seniors": 5,
+        "forests": 0, "coast": 0, "swimming": 0, "rivers": 0, "wandering": 82
+      },
+      "photos": ["Aircraft boneyard desert wrecks", "Rub al Khali desert dunes", "Abandoned ship desert", "Wadi Rum Jordan desert", "Scrapyard metal desert", "Sand dune ripples aerial"]
+    },
+    {
+      "id": "mos-eisley", "name": "Mos Eisley Spaceport", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "city", "arch": "space-port",
+      "blurb": "You will never find a more wretched hive of scum and villainy. Outstanding live music, and the drinks are cheap because the clientele are unlikely to complain.",
+      "tags": ["cantina", "smugglers", "spaceport", "villainy"],
+      "climate": {
+        "tempHigh": [34, 36, 40, 44, 48, 51, 52, 52, 48, 42, 37, 34],
+        "tempLow":  [14, 15, 18, 22, 26, 30, 32, 32, 28, 23, 18, 15],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [12, 12, 13, 13, 14, 14, 14, 14, 13, 13, 12, 12],
+        "humidity": [18, 16, 14, 12, 10, 8, 7, 8, 10, 13, 16, 18]
+      },
+      "crowd":      [62, 62, 65, 68, 70, 72, 74, 74, 71, 67, 64, 62],
+      "costTier": 1,
+      "r": {
+        "taverns": 96, "music": 96, "gambling": 92, "markets": 88, "peoples": 92,
+        "spaceTravel": 88, "technology": 68, "intrigue": 88, "combat": 78,
+        "desert": 92, "revels": 78, "shopping": 68, "adrenaline": 72,
+        "safety": 8, "lawAndOrder": 3, "hospitality": 25, "comfort": 18,
+        "healing": 32, "foodScene": 45, "vegetarian": 32, "wine": 32,
+        "familyFriendly": 3, "seniors": 8, "romance": 15, "luxury": 12,
+        "libraries": 8, "temples": 5, "history": 32, "scenery": 32,
+        "forests": 0, "coast": 0, "swimming": 2, "wandering": 68
+      },
+      "photos": ["Tunisia desert town white buildings", "Ajim Djerba Tunisia street", "Ait Ben Haddou Morocco", "Crowded bazaar dim interior", "Live band smoky bar", "Sandy town flat roofs"]
+    },
+    {
+      "id": "yavin-4", "name": "Yavin 4", "country": "SW", "region": "Outer Rim", "continent": "Science Fiction",
+      "type": "jungle", "arch": "lost-world",
+      "blurb": "A jungle moon of a gas giant, with Massassi temples rising above the canopy. Humid, loud with insects, and historically good for hiding a fleet.",
+      "tags": ["temples", "jungle", "rebel base", "gas giant"],
+      "climate": {
+        "tempHigh": [29, 30, 31, 32, 32, 32, 32, 32, 31, 30, 29, 29],
+        "tempLow":  [20, 20, 21, 22, 23, 23, 23, 23, 22, 22, 21, 20],
+        "rainDays": [15, 13, 12, 12, 16, 19, 18, 17, 18, 17, 16, 15],
+        "sunHours": [5, 6, 7, 7, 6, 5, 6, 6, 5, 5, 5, 5],
+        "humidity": [86, 84, 83, 84, 87, 89, 88, 88, 89, 88, 87, 86]
+      },
+      "crowd":      [12, 12, 14, 16, 18, 20, 22, 22, 19, 16, 14, 12],
+      "costTier": 1,
+      "r": {
+        "forests": 96, "ruins": 96, "temples": 92, "architecture": 82, "wilderness": 92,
+        "beasts": 88, "scenery": 88, "hiking": 82, "climbing": 78, "rivers": 78,
+        "history": 82, "artefacts": 72, "magic": 55, "stargazing": 88,
+        "spaceTravel": 62, "technology": 52, "adrenaline": 68, "monsters": 62,
+        "safety": 45, "comfort": 22, "hospitality": 32, "luxury": 8,
+        "cities": 8, "markets": 8, "shopping": 5, "taverns": 12, "revels": 8,
+        "foodScene": 22, "familyFriendly": 25, "seniors": 18, "libraries": 22
+      },
+      "photos": ["Tikal temple above jungle Guatemala", "Maya pyramid rainforest canopy", "Tikal Guatemala Temple I", "Jungle mist morning canopy", "Ancient stone temple vines", "Howler monkey rainforest"]
+    },
+    {
+      "id": "death-star", "name": "The Death Star", "country": "SW", "region": "Wherever it is parked", "continent": "Science Fiction",
+      "type": "station", "arch": "dystopia",
+      "blurb": "A moon-sized battle station with a superlaser and, famously, a two-metre thermal exhaust port. Immaculate corridors, appalling health and safety, no handrails anywhere.",
+      "tags": ["battle station", "empire", "superlaser", "no handrails"],
+      "climate": {
+        "tempHigh": [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+        "tempLow":  [19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+      },
+      "crowd":      [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70],
+      "costTier": 2,
+      "r": {
+        "technology": 100, "spaceTravel": 96, "architecture": 78, "cities": 72,
+        "combat": 92, "intrigue": 88, "adrenaline": 78, "underground": 72,
+        "stargazing": 78, "peoples": 42, "lawAndOrder": 78,
+        "safety": 5, "survivability": 55, "comfort": 42, "healing": 68,
+        "hospitality": 5, "foodScene": 25, "vegetarian": 42, "ale": 15,
+        "taverns": 12, "markets": 8, "shopping": 8, "revels": 5, "music": 3,
+        "festivals": 0, "libraries": 32, "luxury": 32, "familyFriendly": 0,
+        "seniors": 8, "romance": 5, "wilderness": 0, "forests": 0, "coast": 0,
+        "swimming": 0, "rivers": 0, "beasts": 0, "mountains": 0, "scenery": 32
+      },
+      "photos": ["Space station interior corridor", "Futuristic hangar bay", "Industrial reactor shaft", "White corridor sci fi", "Space station exterior sphere", "Control room screens dark"]
+    }
+  ]
+}

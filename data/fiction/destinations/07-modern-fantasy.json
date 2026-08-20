@@ -1,0 +1,433 @@
+{
+  "_doc": "Modern fantasy — the Wheel of Time, the Stormlight Archive, the Witcher, His Dark Materials, Redwall and Fantastica.",
+  "destinations": [
+    {
+      "id": "tar-valon", "name": "Tar Valon", "country": "WOT", "region": "The island in the Erinin", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "A city of ogier-built towers on a river island, home to the White Tower and the only women in the world permitted to channel. Nobody enters a treaty with Tar Valon lightly.",
+      "about": "The Aes Sedai are bound by three oaths — no lying, no making weapons, no using the One Power to kill except in defence — which makes them the most feared and least trusted people alive, because everyone knows exactly how much room those oaths leave. The Tower is split into seven Ajahs of different colours and purposes, and its politics are the slow, poisonous kind. The buildings were made by Ogier stonemasons and look grown rather than built.",
+      "tags": ["aes sedai", "the white tower", "seven ajahs", "three oaths"],
+      "climate": {
+        "tempHigh": [4, 6, 11, 16, 21, 25, 28, 27, 23, 17, 10, 5],
+        "tempLow":  [-4, -3, 1, 5, 10, 14, 16, 16, 12, 7, 2, -2],
+        "rainDays": [12, 10, 11, 11, 11, 10, 9, 9, 9, 11, 12, 13],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 9, 7, 5, 3, 2],
+        "humidity": [84, 82, 78, 73, 70, 68, 66, 68, 72, 78, 83, 85]
+      },
+      "crowd":      [55, 55, 60, 66, 72, 76, 78, 78, 74, 68, 60, 56],
+      "costTier": 2,
+      "r": {
+        "cities": 92, "architecture": 100, "libraries": 100, "history": 96,
+        "magic": 96, "wizards": 96, "prophecy": 96, "intrigue": 100,
+        "artefacts": 88, "temples": 55, "markets": 82, "shopping": 72,
+        "rivers": 82, "healing": 96, "peoples": 78, "localCulture": 88,
+        "foodScene": 78, "feasting": 78, "wine": 78, "ale": 68, "taverns": 78,
+        "music": 72, "festivals": 68, "scenery": 78, "combat": 62,
+        "hospitality": 62, "comfort": 78, "safety": 78, "lawAndOrder": 88,
+        "seniors": 68, "familyFriendly": 55, "luxury": 78, "soloTravel": 62,
+        "wilderness": 5, "forests": 12, "mountains": 22, "coast": 0, "swimming": 22,
+        "technology": 15, "dragons": 12, "undead": 45, "stargazing": 45
+      },
+      "photos": ["White marble city towers", "Ile de la Cite Paris aerial", "Cathedral spire white stone", "Grand library dome interior", "Bridge to island city", "Ornate stone tower carved"]
+    },
+    {
+      "id": "two-rivers", "name": "The Two Rivers", "country": "WOT", "region": "Andor, in theory", "continent": "High Fantasy",
+      "type": "village", "arch": "pastoral-idyll",
+      "blurb": "Sheep, tabac and the best wool in the world, in a corner of the map so quiet that its people have forgotten they were once the last soldiers of a fallen nation.",
+      "about": "Jordan's deliberate echo of the Shire: an ordinary farming district whose ordinariness is the whole point, and out of which walk three of the most consequential people in the world. The Women's Circle and the Village Council disagree about everything and run the place perfectly well. It is also, quietly, the remnant of Manetheren, a kingdom that died refusing to surrender — which becomes relevant.",
+      "tags": ["tabac", "sheep", "manetheren", "bel tine"],
+      "climate": {
+        "tempHigh": [6, 7, 11, 15, 19, 23, 25, 25, 21, 16, 10, 7],
+        "tempLow":  [-1, 0, 2, 5, 9, 13, 15, 15, 12, 7, 3, 0],
+        "rainDays": [14, 12, 13, 12, 11, 10, 9, 9, 10, 13, 14, 15],
+        "sunHours": [2, 3, 4, 6, 7, 8, 9, 8, 6, 4, 2, 2],
+        "humidity": [87, 85, 82, 78, 75, 72, 70, 72, 76, 81, 86, 88]
+      },
+      "crowd":      [10, 10, 14, 20, 26, 30, 32, 32, 26, 20, 14, 12],
+      "costTier": 1,
+      "r": {
+        "plains": 88, "forests": 78, "rivers": 78, "scenery": 78,
+        "hiking": 68, "wandering": 72, "wilderness": 55, "beasts": 55,
+        "pipeweed": 96, "ale": 88, "taverns": 88, "feasting": 82, "foodScene": 68,
+        "festivals": 88, "music": 88, "revels": 78, "localCulture": 88,
+        "fellowship": 92, "history": 62, "prophecy": 62, "monsters": 45,
+        "hospitality": 92, "comfort": 62, "safety": 68, "lawAndOrder": 78,
+        "healing": 55, "familyFriendly": 92, "seniors": 78, "vegetarian": 62,
+        "romance": 62, "soloTravel": 42,
+        "cities": 2, "markets": 32, "shopping": 12, "luxury": 8, "gambling": 25,
+        "technology": 8, "magic": 32, "wizards": 22, "coast": 0, "swimming": 42,
+        "mountains": 25, "stargazing": 78, "libraries": 12, "combat": 45
+      },
+      "photos": ["English village green sheep", "Rolling farmland hedgerows", "Thatched inn village lane", "Sheep pasture stone wall", "Village festival maypole", "Water mill stream willows"]
+    },
+    {
+      "id": "shadar-logoth", "name": "Shadar Logoth", "country": "WOT", "region": "The blighted north", "continent": "High Fantasy",
+      "type": "ruins", "arch": "dark-realm",
+      "blurb": "A perfectly preserved dead city that destroyed itself fighting evil by becoming worse. Do not touch anything. Do not stay after dark. Do not let Mashadar touch you.",
+      "about": "Once Aridhol, it defended itself so ruthlessly that the defence consumed the defenders, and what remains is a hunger with streets. Jordan's cleanest moral: an evil that arises from fighting evil is not thereby better. The city is untouched — furniture, gold, glassware, all sitting there — because everyone who has come to loot it has stayed. Mashadar is a grey mist and it moves.",
+      "tags": ["aridhol", "mashadar", "take nothing", "self-destroyed"],
+      "climate": {
+        "tempHigh": [2, 3, 8, 14, 19, 24, 27, 26, 21, 14, 7, 3],
+        "tempLow":  [-8, -7, -3, 2, 7, 11, 14, 13, 9, 3, -2, -6],
+        "rainDays": [11, 10, 10, 10, 10, 9, 8, 8, 9, 10, 11, 12],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 9, 7, 4, 2, 2],
+        "humidity": [86, 84, 80, 75, 72, 70, 68, 70, 74, 80, 85, 87],
+        "snowDepth": [40, 38, 22, 5, 0, 0, 0, 0, 0, 2, 15, 34]
+      },
+      "crowd":      [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+      "costTier": 1,
+      "r": {
+        "ruins": 100, "architecture": 92, "history": 92, "cities": 62,
+        "artefacts": 100, "undead": 92, "monsters": 92, "magic": 88,
+        "underground": 82, "scenery": 62, "wilderness": 78, "intrigue": 62,
+        "questing": 88, "adrenaline": 92, "combat": 82, "prophecy": 55,
+        "safety": 2, "survivability": 5, "hospitality": 0, "comfort": 5,
+        "healing": 0, "lawAndOrder": 0, "gettingBack": 15,
+        "markets": 0, "shopping": 0, "taverns": 0, "ale": 0,
+        "wine": 0, "foodScene": 0, "feasting": 0, "festivals": 0, "revels": 0,
+        "gambling": 0, "luxury": 5, "familyFriendly": 0, "seniors": 2,
+        "romance": 0, "peoples": 0, "fellowship": 15, "technology": 5,
+        "forests": 22, "coast": 0, "swimming": 0, "rivers": 42, "beasts": 8,
+        "libraries": 45, "temples": 45, "localCulture": 25, "stargazing": 32
+      },
+      "photos": ["Abandoned city overgrown", "Empty stone streets ruins", "Grey mist ruined buildings", "Deserted marble plaza", "Ruined mansion interior decay", "Fog rolling through ruins"]
+    },
+
+    {
+      "id": "urithiru", "name": "Urithiru", "country": "ROS", "region": "The high mountains", "continent": "High Fantasy",
+      "type": "citadel", "arch": "high-city",
+      "blurb": "A tower city of a hundred levels carved into a mountain above the storms, with a garden at the top that grows without soil and a lift system nobody has repaired in millennia.",
+      "about": "Abandoned for four thousand years and rediscovered by people with no manual. Urithiru sits above the highstorms — the only place on Roshar that does — and is connected to every other Radiant city by a network of portals in its basement. Sanderson's worldbuilding runs on rules: the tower has a mind, the mind has been asleep, and waking it turns out to have consequences that are entirely foreshadowed.",
+      "tags": ["the tower", "above the storms", "oathgates", "the sibling"],
+      "climate": {
+        "tempHigh": [4, 4, 5, 6, 8, 10, 11, 11, 9, 7, 5, 4],
+        "tempLow":  [-8, -8, -7, -5, -3, -1, 0, 0, -2, -4, -6, -8],
+        "rainDays": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        "sunHours": [9, 9, 9, 10, 10, 10, 10, 10, 10, 9, 9, 9],
+        "humidity": [30, 30, 30, 31, 32, 33, 33, 33, 32, 31, 30, 30]
+      },
+      "crowd":      [45, 45, 48, 50, 52, 55, 58, 58, 55, 52, 48, 45],
+      "costTier": 2,
+      "r": {
+        "mountains": 100, "architecture": 96, "cities": 82, "scenery": 96,
+        "stargazing": 96, "ruins": 88, "history": 92, "artefacts": 96,
+        "magic": 92, "prophecy": 88, "libraries": 88, "underground": 82,
+        "wilderness": 72, "climbing": 82, "hiking": 68, "intrigue": 88,
+        "healing": 78, "technology": 62, "timeStrange": 62, "questing": 88,
+        "combat": 82, "peoples": 78, "markets": 62, "foodScene": 68,
+        "hospitality": 68, "comfort": 55, "safety": 62, "lawAndOrder": 68,
+        "seniors": 42, "familyFriendly": 45, "fellowship": 88, "luxury": 55,
+        "forests": 8, "coast": 0, "swimming": 12, "rivers": 12, "beasts": 32,
+        "dragons": 8, "undead": 32, "vegetarian": 55, "wine": 62, "ale": 55
+      },
+      "photos": ["Mountain citadel above clouds", "Potala Palace Lhasa Tibet", "Himalayan peaks above cloud sea", "Carved cliff monastery", "Vast stone atrium levels", "Rooftop garden mountain view"]
+    },
+    {
+      "id": "shattered-plains", "name": "The Shattered Plains", "country": "ROS", "region": "Central Roshar", "continent": "High Fantasy",
+      "type": "badlands", "arch": "alien-world",
+      "blurb": "A thousand square miles of plateaus separated by chasms, scoured every few days by storms that would strip the skin off you. The war fought across it has lasted six years and achieved nothing.",
+      "about": "Roshar's ecology is built around the highstorms: the plants retract into shells, the animals are crustaceans, and there is no grass that does not hide. The plateaus are the shattered remains of something, and the chasms between them are full of bones, gemhearts and one very large predator. Sanderson wrote the bridge crews — men used as expendable equipment — as the emotional engine of the first book.",
+      "tags": ["highstorms", "chasms", "bridge crews", "gemhearts"],
+      "climate": {
+        "tempHigh": [26, 27, 28, 29, 30, 31, 32, 32, 31, 29, 27, 26],
+        "tempLow":  [15, 16, 17, 18, 19, 20, 21, 21, 20, 18, 16, 15],
+        "rainDays": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+        "sunHours": [8, 8, 8, 9, 9, 9, 9, 9, 9, 8, 8, 8],
+        "humidity": [55, 55, 54, 53, 52, 51, 50, 51, 52, 53, 54, 55]
+      },
+      "crowd":      [32, 32, 34, 36, 38, 40, 42, 42, 40, 36, 34, 32],
+      "costTier": 1,
+      "r": {
+        "wilderness": 96, "scenery": 88, "underground": 78, "plains": 45,
+        "climbing": 92, "hiking": 78, "adrenaline": 96, "beasts": 88,
+        "monsters": 88, "combat": 96, "questing": 88, "artefacts": 82,
+        "magic": 78, "stargazing": 88, "ruins": 72, "peoples": 62,
+        "fellowship": 92, "history": 68, "intrigue": 82, "technology": 42,
+        "survivability": 22, "safety": 12, "hospitality": 32, "comfort": 15,
+        "healing": 45, "lawAndOrder": 32, "warRisk": 5, "familyFriendly": 3,
+        "seniors": 5, "luxury": 15, "cities": 15, "markets": 42, "shopping": 12,
+        "taverns": 42, "ale": 55, "wine": 45, "foodScene": 42, "feasting": 45,
+        "forests": 2, "coast": 5, "swimming": 5, "rivers": 12, "libraries": 25
+      },
+      "photos": ["Canyon plateau maze aerial", "Slot canyon deep chasm", "Storm front approaching plains", "Rock plateau desert aerial", "Lightning storm badlands", "Deep gorge shadowed floor"]
+    },
+
+    {
+      "id": "novigrad", "name": "Novigrad", "country": "WIT", "region": "Redania", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "The Continent's biggest free city — docks, banks, brothels, bathhouses and a religious purge in progress. Mages are being burned in the square; business continues.",
+      "about": "Sapkowski's world is one where the fantastical is being squeezed out by politics, and Novigrad is where you watch it happen: the Eternal Fire's witch hunts are less about theology than about who owns the mage-run banks. Everything is for sale, including the guard. The card game Gwent, invented as flavour, became popular enough to be released as its own product.",
+      "tags": ["free city", "eternal fire", "gwent", "witch hunts"],
+      "climate": {
+        "tempHigh": [1, 2, 6, 12, 18, 21, 23, 23, 18, 12, 6, 2],
+        "tempLow":  [-4, -4, -1, 3, 8, 11, 13, 13, 10, 5, 1, -2],
+        "rainDays": [15, 13, 12, 11, 11, 12, 12, 11, 11, 13, 15, 16],
+        "sunHours": [1, 2, 4, 5, 7, 7, 7, 7, 5, 3, 1, 1],
+        "humidity": [88, 86, 82, 76, 72, 72, 73, 75, 80, 85, 88, 89]
+      },
+      "crowd":      [62, 62, 66, 72, 78, 82, 84, 84, 78, 72, 66, 64],
+      "costTier": 2,
+      "r": {
+        "cities": 96, "markets": 92, "architecture": 88, "history": 82,
+        "intrigue": 96, "temples": 78, "peoples": 82, "shopping": 82,
+        "taverns": 96, "ale": 92, "wine": 82, "gambling": 96, "revels": 88,
+        "foodScene": 78, "feasting": 72, "music": 88, "festivals": 72,
+        "coast": 55, "sailing": 68, "rivers": 68, "combat": 78, "monsters": 72,
+        "magic": 68, "wizards": 62, "undead": 55, "artefacts": 72, "libraries": 68,
+        "localCulture": 88, "romance": 68, "soloTravel": 68,
+        "safety": 32, "lawAndOrder": 32, "hospitality": 55, "comfort": 55,
+        "healing": 45, "familyFriendly": 15, "seniors": 32, "luxury": 68,
+        "vegetarian": 32, "wilderness": 2, "forests": 8, "mountains": 5,
+        "swimming": 25, "technology": 18, "stargazing": 15, "dragons": 25
+      },
+      "photos": ["Medieval port city harbour", "Gdansk old town waterfront", "Half timbered market square", "Medieval docks wooden ships", "Bathhouse interior stone", "Cathedral square burning braziers"]
+    },
+    {
+      "id": "skellige", "name": "Skellige", "country": "WIT", "region": "The northern isles", "continent": "High Fantasy",
+      "type": "island", "arch": "island-kingdom",
+      "blurb": "Six storm-battered islands of longships, mead halls and a succession system that involves a lot of shouting. The sea here has things in it that the mainland does not believe in.",
+      "about": "Norse in every particular except that the sea monsters are real and the druids are politically influential. Clans hold the islands, the king is elected by combat and consensus in roughly that order, and everyone can sail. Sapkowski's Skellige is a small culture that knows it is small; the games rendered it as the most beautiful place in the world and the hardest to survive a winter in.",
+      "tags": ["longships", "clans", "mead", "sea monsters"],
+      "climate": {
+        "tempHigh": [3, 3, 5, 8, 12, 15, 17, 17, 14, 10, 6, 4],
+        "tempLow":  [-2, -2, -1, 2, 5, 8, 10, 10, 8, 5, 2, 0],
+        "rainDays": [21, 18, 19, 16, 14, 13, 13, 14, 16, 19, 21, 22],
+        "sunHours": [1, 2, 3, 5, 6, 7, 6, 5, 4, 2, 1, 1],
+        "humidity": [90, 89, 88, 85, 83, 82, 82, 83, 86, 88, 90, 91],
+        "seaTemp":  [7, 6, 6, 8, 10, 12, 14, 15, 14, 12, 10, 8]
+      },
+      "crowd":      [12, 12, 14, 18, 24, 30, 34, 32, 26, 18, 14, 12],
+      "costTier": 1,
+      "r": {
+        "islands": 96, "coast": 96, "sailing": 96, "seaMonsters": 92,
+        "scenery": 96, "mountains": 82, "wilderness": 88, "hiking": 82,
+        "climbing": 72, "forests": 68, "wandering": 78, "stargazing": 78,
+        "combat": 88, "monsters": 82, "beasts": 72, "adrenaline": 82,
+        "ale": 92, "feasting": 92, "taverns": 78, "music": 82, "festivals": 88,
+        "revels": 88, "fellowship": 88, "localCulture": 92, "history": 72,
+        "magic": 62, "undead": 62, "artefacts": 68, "questing": 78,
+        "hospitality": 78, "comfort": 32, "safety": 42, "lawAndOrder": 45,
+        "healing": 42, "seniors": 25, "familyFriendly": 32, "soloTravel": 55,
+        "cities": 15, "markets": 32, "shopping": 15, "luxury": 22, "gambling": 62,
+        "swimming": 22, "technology": 12, "vegetarian": 15, "wine": 32
+      },
+      "photos": ["Lofoten islands Norway peaks", "Faroe Islands cliffs green", "Viking longship replica", "Storm waves rocky coast", "Turf roofed hall Norway", "Fjord village mountain backdrop"]
+    },
+    {
+      "id": "kaer-morhen", "name": "Kaer Morhen", "country": "WIT", "region": "The Blue Mountains", "continent": "High Fantasy",
+      "type": "keep", "arch": "frozen-waste",
+      "blurb": "A half-ruined fortress up a mountain trail nobody maintains, where witchers are made and, in winter, where the last handful of them come home to drink and repair their swords.",
+      "about": "The Trial of the Grasses killed most of the boys put through it and can no longer be performed, because the keep was sacked and the mutagens destroyed — which means the witchers are a profession with no new entrants and a known end date. That elegiac note is the whole series in one building. The winter sequences here, with four monster hunters cooking badly and arguing, are the warmest thing Sapkowski wrote.",
+      "tags": ["witchers", "the trial of the grasses", "wintering", "a dying trade"],
+      "climate": {
+        "tempHigh": [-4, -3, 2, 8, 14, 18, 20, 19, 14, 8, 2, -3],
+        "tempLow":  [-13, -12, -8, -2, 3, 7, 9, 9, 5, 0, -5, -11],
+        "rainDays": [12, 11, 11, 11, 12, 12, 11, 11, 10, 11, 13, 13],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 2],
+        "humidity": [86, 84, 80, 76, 74, 74, 73, 75, 79, 83, 86, 88],
+        "snowDepth": [95, 92, 70, 30, 4, 0, 0, 0, 0, 8, 45, 85]
+      },
+      "crowd":      [6, 6, 5, 4, 3, 3, 3, 3, 3, 4, 5, 6],
+      "costTier": 1,
+      "r": {
+        "mountains": 96, "wilderness": 92, "forests": 82, "scenery": 92,
+        "hiking": 82, "climbing": 78, "ruins": 88, "history": 82,
+        "combat": 100, "monsters": 82, "beasts": 72, "artefacts": 78,
+        "magic": 68, "wizards": 55, "adrenaline": 88, "questing": 82,
+        "fellowship": 96, "ale": 78, "feasting": 68, "stargazing": 88,
+        "libraries": 62, "undead": 55, "soloTravel": 62, "localCulture": 72,
+        "survivability": 45, "safety": 42, "hospitality": 55, "comfort": 22,
+        "healing": 62, "lawAndOrder": 32, "familyFriendly": 8, "seniors": 12,
+        "cities": 0, "markets": 2, "shopping": 0, "luxury": 5, "gambling": 45,
+        "taverns": 22, "wine": 32, "foodScene": 32, "festivals": 22,
+        "coast": 0, "swimming": 8, "rivers": 55, "technology": 15, "romance": 42
+      },
+      "photos": ["Ruined castle mountain snow", "Alpine fortress winter", "Stone keep frozen valley", "Snowy mountain trail castle", "Firelit stone hall", "Broken tower snow peaks"]
+    },
+
+    {
+      "id": "lyras-oxford", "name": "Lyra's Oxford", "country": "HDM", "region": "Brytain", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "Oxford as it is in a world with airships, anbaric light and everyone's soul walking beside them as an animal. Jordan College has a roof you are not supposed to be on.",
+      "about": "Pullman's Oxford is the real one with the Reformation gone the other way: the Church runs the sciences under the name of experimental theology, and the colleges are its rivals. Dæmons settle into a fixed animal form at adolescence, which is the series' most quietly devastating idea — you find out what you are, and then you are it. The alethiometer, a truth-telling instrument read with three needles and a book of symbols, is the plot's engine.",
+      "tags": ["dæmons", "jordan college", "alethiometer", "anbaric light"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 14, 18, 21, 23, 22, 19, 15, 10, 8],
+        "tempLow":  [1, 1, 3, 4, 8, 11, 13, 13, 10, 7, 4, 2],
+        "rainDays": [14, 11, 12, 11, 11, 10, 10, 10, 10, 13, 14, 14],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 2],
+        "humidity": [88, 85, 81, 76, 74, 73, 72, 75, 79, 84, 87, 89]
+      },
+      "crowd":      [48, 48, 52, 58, 64, 70, 74, 74, 66, 58, 52, 50],
+      "costTier": 2,
+      "r": {
+        "cities": 82, "architecture": 96, "libraries": 96, "history": 92,
+        "temples": 68, "intrigue": 92, "artefacts": 92, "prophecy": 82,
+        "timeStrange": 92, "magic": 68, "technology": 45, "beasts": 92,
+        "rivers": 72, "markets": 62, "shopping": 55, "foodScene": 68,
+        "taverns": 78, "ale": 78, "wine": 68, "feasting": 78, "music": 62,
+        "localCulture": 88, "peoples": 62, "scenery": 68, "underground": 55,
+        "hospitality": 62, "comfort": 68, "safety": 55, "lawAndOrder": 55,
+        "healing": 62, "familyFriendly": 62, "seniors": 68, "romance": 62,
+        "soloTravel": 68, "wilderness": 5, "forests": 15, "mountains": 0,
+        "coast": 0, "swimming": 25, "stargazing": 62, "combat": 32, "undead": 42
+      },
+      "photos": ["Oxford Radcliffe Camera", "Oxford college rooftops spires", "Punting on the Cherwell", "Gothic college dining hall", "Covered market Oxford", "Zeppelin airship historic"]
+    },
+    {
+      "id": "cittagazze", "name": "Cittàgazze", "country": "HDM", "region": "A world between", "continent": "High Fantasy",
+      "type": "city", "arch": "lost-world",
+      "blurb": "A warm Mediterranean city of cafés and shuttered palazzi, entirely empty of adults. The Spectres ate them. The children are fine, until they aren't.",
+      "about": "The city of magpies sits at a crossroads between worlds, which is why so many windows open onto it. Its people made the subtle knife, cut too many holes, and let the Spectres in — creatures that consume adult consciousness and leave the body standing. Children can't see them and are ignored by them, so Cittàgazze is a beautiful abandoned resort run by feral teenagers. Pullman's most effective horror image, achieved with no gore at all.",
+      "tags": ["the spectres", "the subtle knife", "no adults", "windows between worlds"],
+      "climate": {
+        "tempHigh": [13, 14, 17, 20, 24, 28, 31, 31, 27, 22, 17, 14],
+        "tempLow":  [6, 6, 8, 11, 15, 19, 21, 22, 19, 15, 10, 7],
+        "rainDays": [8, 7, 7, 8, 6, 4, 2, 3, 5, 8, 10, 9],
+        "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 8, 6, 4, 4],
+        "humidity": [74, 72, 70, 69, 67, 64, 62, 64, 68, 72, 75, 76],
+        "seaTemp":  [15, 14, 15, 16, 19, 23, 25, 26, 24, 21, 18, 16]
+      },
+      "crowd":      [8, 8, 9, 10, 12, 14, 15, 15, 13, 11, 9, 8],
+      "costTier": 1,
+      "r": {
+        "cities": 78, "architecture": 92, "coast": 88, "swimming": 82,
+        "sailing": 62, "scenery": 92, "ruins": 78, "history": 68,
+        "timeStrange": 96, "magic": 78, "artefacts": 92, "prophecy": 62,
+        "undead": 82, "monsters": 82, "intrigue": 68, "wandering": 82,
+        "foodScene": 55, "markets": 42, "soloTravel": 45, "adrenaline": 78,
+        "safety": 12, "survivability": 32, "hospitality": 25, "comfort": 42,
+        "healing": 22, "lawAndOrder": 8, "familyFriendly": 12, "seniors": 3,
+        "peoples": 32, "fellowship": 62, "localCulture": 45, "libraries": 42,
+        "taverns": 22, "ale": 22, "wine": 55, "feasting": 32, "festivals": 12,
+        "revels": 22, "gambling": 15, "luxury": 32, "shopping": 25,
+        "wilderness": 12, "forests": 22, "mountains": 32, "technology": 22
+      },
+      "photos": ["Empty Italian piazza dusk", "Mediterranean seafront palazzi", "Deserted café tables street", "Shuttered windows old town", "Palm lined boulevard empty", "Italian harbour town evening"]
+    },
+    {
+      "id": "svalbard-panserbjorne", "name": "Svalbard", "country": "HDM", "region": "The high Arctic", "continent": "High Fantasy",
+      "type": "polar", "arch": "frozen-waste",
+      "blurb": "The kingdom of the armoured bears, who forge their own armour from sky-iron and regard it as their soul. There is a palace of ice, a deposed king, and a duel.",
+      "about": "Pullman's panserbjørne are the best-realised non-humans in modern fantasy precisely because they are not people in fur: they cannot be tricked, except by appealing to the one thing they lack and want. Iorek Byrnison's armour is not clothing, it is the equivalent of a dæmon. The real Svalbard is a Norwegian archipelago you can fly to, with about 2,500 residents and considerably more polar bears than the tourist board mentions.",
+      "tags": ["armoured bears", "sky-iron", "aurora", "the palace of ice"],
+      "climate": {
+        "tempHigh": [-13, -14, -13, -9, -2, 4, 7, 6, 1, -5, -9, -12],
+        "tempLow":  [-20, -21, -21, -16, -8, -1, 2, 1, -3, -10, -15, -18],
+        "rainDays": [8, 8, 8, 6, 5, 5, 6, 8, 9, 10, 9, 9],
+        "sunHours": [0, 1, 5, 10, 12, 12, 11, 8, 4, 1, 0, 0],
+        "humidity": [75, 75, 76, 78, 82, 85, 86, 85, 83, 80, 77, 75],
+        "snowDepth": [95, 110, 120, 115, 70, 15, 0, 0, 10, 45, 70, 88]
+      },
+      "crowd":      [4, 4, 6, 10, 16, 24, 28, 26, 16, 8, 5, 4],
+      "costTier": 3,
+      "r": {
+        "wilderness": 100, "scenery": 96, "mountains": 82, "coast": 88,
+        "stargazing": 96, "beasts": 96, "monsters": 62, "adrenaline": 88,
+        "hiking": 68, "climbing": 62, "sailing": 62, "wandering": 72,
+        "combat": 78, "artefacts": 78, "magic": 55, "timeStrange": 72,
+        "history": 55, "localCulture": 78, "questing": 82, "peoples": 45,
+        "survivability": 15, "safety": 22, "hospitality": 32, "comfort": 25,
+        "healing": 32, "lawAndOrder": 55, "familyFriendly": 5, "seniors": 8,
+        "cities": 8, "markets": 8, "shopping": 5, "taverns": 25, "ale": 32,
+        "wine": 15, "foodScene": 25, "feasting": 42, "festivals": 12,
+        "revels": 15, "gambling": 5, "luxury": 32, "technology": 32,
+        "forests": 0, "swimming": 2, "rivers": 12, "temples": 5, "libraries": 15
+      },
+      "photos": ["Svalbard glacier arctic", "Polar bear on ice", "Northern lights snow mountains", "Arctic ice palace formation", "Frozen fjord Svalbard", "Midnight sun arctic landscape"]
+    },
+
+    {
+      "id": "redwall-abbey", "name": "Redwall Abbey", "country": "RED", "region": "Mossflower Country", "continent": "High Fantasy",
+      "type": "abbey", "arch": "pastoral-idyll",
+      "blurb": "A red sandstone abbey of mice, moles and hedgehogs in a wood full of woodland, defended by everyone and famous chiefly for the size of its dinners.",
+      "about": "Jacques wrote the first book to be read aloud to children at a school for the blind, which is why everything is described by taste, sound and texture — the feasts run for pages and have been the subject of actual cookbooks. The abbey is besieged in most books and survives because the peaceful creatures turn out to be extremely willing when pushed. Moles speak in dialect. Badgers do the fighting.",
+      "tags": ["feasts", "mice", "october ale", "sieges"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 14, 18, 21, 23, 23, 20, 15, 10, 8],
+        "tempLow":  [1, 1, 3, 5, 8, 11, 13, 13, 11, 8, 4, 2],
+        "rainDays": [14, 12, 12, 11, 10, 9, 9, 9, 10, 13, 14, 15],
+        "sunHours": [2, 3, 4, 6, 7, 8, 7, 7, 5, 4, 2, 2],
+        "humidity": [88, 86, 83, 79, 76, 74, 73, 75, 79, 84, 87, 89]
+      },
+      "crowd":      [28, 28, 32, 38, 45, 52, 55, 55, 48, 40, 32, 30],
+      "costTier": 1,
+      "r": {
+        "feasting": 100, "foodScene": 92, "ale": 96, "wine": 72, "vegetarian": 100,
+        "hospitality": 100, "fellowship": 96, "festivals": 92, "music": 88,
+        "revels": 82, "familyFriendly": 96, "seniors": 88, "comfort": 82,
+        "safety": 78, "lawAndOrder": 82, "healing": 82, "libraries": 78,
+        "architecture": 82, "history": 78, "temples": 62, "artefacts": 72,
+        "forests": 92, "plains": 68, "rivers": 68, "scenery": 78, "beasts": 88,
+        "hiking": 62, "wandering": 68, "questing": 72, "combat": 68,
+        "localCulture": 92, "prophecy": 72, "romance": 55, "stargazing": 62,
+        "cities": 0, "markets": 32, "shopping": 12, "luxury": 32, "gambling": 8,
+        "technology": 5, "magic": 25, "coast": 0, "swimming": 45, "mountains": 12,
+        "monsters": 45, "undead": 12, "dragons": 5, "wilderness": 45
+      },
+      "photos": ["Red sandstone abbey exterior", "Abbey cloister garden", "Long feast table laden food", "English woodland bluebells", "Stone abbey gatehouse", "Orchard and beehives summer"]
+    },
+    {
+      "id": "salamandastron", "name": "Salamandastron", "country": "RED", "region": "The western shore", "continent": "High Fantasy",
+      "type": "mountains", "arch": "island-kingdom",
+      "blurb": "A hollow mountain on the coast, home to the Badger Lord and the Long Patrol hares, who are the finest fighters in the country and by some distance the hungriest.",
+      "about": "An extinct volcano riddled with tunnels and forges, where badger rulers have been buried in sequence for centuries and sometimes see the future in the fire. The hares of the Long Patrol combine parade-ground manners with appalling violence and an appetite that is a running joke across twenty-two books. It faces the sea, and the trouble usually arrives from it.",
+      "tags": ["badger lords", "the long patrol", "hares", "forge fires"],
+      "climate": {
+        "tempHigh": [8, 8, 10, 13, 16, 19, 21, 21, 19, 15, 11, 9],
+        "tempLow":  [3, 3, 4, 6, 9, 12, 14, 14, 12, 9, 6, 4],
+        "rainDays": [16, 13, 14, 12, 11, 10, 10, 11, 12, 15, 17, 17],
+        "sunHours": [2, 3, 5, 6, 8, 8, 8, 7, 6, 4, 2, 2],
+        "humidity": [86, 85, 83, 80, 78, 77, 76, 77, 80, 83, 86, 87],
+        "seaTemp":  [9, 9, 9, 11, 13, 15, 17, 18, 17, 15, 12, 10]
+      },
+      "crowd":      [18, 18, 20, 24, 30, 36, 40, 40, 33, 26, 21, 19],
+      "costTier": 1,
+      "r": {
+        "mountains": 88, "coast": 92, "underground": 92, "volcanic": 62,
+        "scenery": 88, "swimming": 45, "sailing": 55, "hiking": 72,
+        "wilderness": 62, "climbing": 68, "combat": 96, "beasts": 82,
+        "monsters": 55, "adrenaline": 78, "questing": 78, "artefacts": 82,
+        "prophecy": 78, "history": 82, "fellowship": 96, "localCulture": 88,
+        "feasting": 92, "ale": 92, "foodScene": 78, "festivals": 78, "music": 82,
+        "hospitality": 88, "comfort": 55, "safety": 62, "lawAndOrder": 78,
+        "healing": 68, "familyFriendly": 78, "seniors": 55, "vegetarian": 88,
+        "cities": 0, "markets": 15, "shopping": 5, "luxury": 22, "gambling": 12,
+        "technology": 12, "magic": 22, "forests": 32, "rivers": 22, "libraries": 55,
+        "stargazing": 78, "temples": 32, "wandering": 62
+      },
+      "photos": ["Coastal mountain beach dunes", "Volcanic cone by sea", "Cave forge firelight", "Wild atlantic beach cliffs", "Tunnel through rock lantern", "Sea mist headland grass"]
+    },
+
+    {
+      "id": "ivory-tower", "name": "The Ivory Tower", "country": "FANT", "region": "The heart of Fantastica", "continent": "High Fantasy",
+      "type": "citadel", "arch": "utopia",
+      "blurb": "A white spiral at the centre of a land made entirely of human imagination, where the Childlike Empress is dying because too few people are still making things up.",
+      "about": "Fantastica has no borders, because imagination has none, and it is being eaten by the Nothing — a hole that appears wherever people stop believing. The Empress cannot act; she can only wait for a human child to give her a new name. Ende's second half, which the 1984 film omits entirely, is about what happens to someone who can wish for anything: every wish costs a memory, and you can wish yourself into having nothing left to wish with.",
+      "tags": ["the childlike empress", "the nothing", "auryn", "make a wish"],
+      "climate": {
+        "tempHigh": [21, 21, 22, 23, 24, 25, 26, 26, 25, 23, 22, 21],
+        "tempLow":  [13, 13, 14, 15, 16, 17, 18, 18, 17, 15, 14, 13],
+        "rainDays": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "sunHours": [8, 8, 9, 9, 10, 10, 10, 10, 9, 9, 8, 8],
+        "humidity": [58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58]
+      },
+      "crowd":      [42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42],
+      "costTier": 2,
+      "r": {
+        "architecture": 100, "scenery": 96, "magic": 100, "artefacts": 96,
+        "prophecy": 92, "timeStrange": 92, "libraries": 92, "peoples": 100,
+        "history": 78, "cities": 68, "wizards": 68, "dragons": 78,
+        "monsters": 72, "beasts": 88, "questing": 92, "wandering": 92,
+        "festivals": 82, "music": 78, "localCulture": 92, "fellowship": 82,
+        "stargazing": 82, "temples": 55, "markets": 62, "romance": 62,
+        "hospitality": 82, "comfort": 72, "safety": 55, "lawAndOrder": 68,
+        "healing": 72, "familyFriendly": 88, "seniors": 55, "luxury": 78,
+        "gettingBack": 25, "survivability": 55, "technology": 5,
+        "wilderness": 62, "forests": 55, "mountains": 55, "coast": 32,
+        "swimming": 42, "desert": 42, "combat": 45, "undead": 32
+      },
+      "photos": ["White spiral staircase tower", "White marble palace facade", "Impossible architecture white", "Spiral ramp tower interior", "Cloud sea white citadel", "Ornate white marble hall"]
+    }
+  ]
+}

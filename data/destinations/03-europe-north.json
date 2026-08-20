@@ -1,0 +1,610 @@
+{
+  "_doc": "Britain, Ireland, the Nordics and the Baltics.",
+  "destinations": [
+    {
+      "id": "london-gb", "name": "London", "country": "GB", "region": "England", "continent": "Europe",
+      "lat": 51.507, "lon": -0.128, "type": "city", "arch": "capital-city",
+      "blurb": "Free world-class museums, the best theatre on earth and a genuinely global food scene — priced like the world capital it is.",
+      "tags": ["museums", "theatre", "food", "shopping"],
+      "climate": {
+        "tempHigh": [8, 9, 12, 15, 18, 21, 23, 23, 20, 16, 11, 9],
+        "tempLow":  [3, 3, 4, 6, 9, 12, 14, 14, 12, 9, 6, 4],
+        "rainDays": [12, 10, 11, 10, 10, 10, 9, 10, 10, 12, 12, 12],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 1],
+        "humidity": [86, 83, 79, 75, 74, 74, 73, 76, 80, 84, 86, 87]
+      },
+      "crowd":      [42, 45, 55, 68, 75, 88, 95, 92, 78, 65, 55, 68],
+      "priceIndex": [52, 55, 65, 78, 85, 95, 100, 98, 85, 72, 62, 78],
+      "cost": { "budget": 75, "mid": 165, "luxury": 420 },
+      "r": {
+        "museums": 100, "theatre": 100, "artScene": 94, "historicSites": 88, "architecture": 86,
+        "liveMusic": 94, "foodScene": 90, "fineDining": 92, "markets": 86, "shopping": 96,
+        "bars": 90, "clubbing": 84, "lgbtqScene": 92, "sports": 96, "festivals": 84,
+        "publicTransport": 94, "walkability": 78, "accessibility": 70, "digitalNomad": 82,
+        "soloTravel": 84, "familyTeens": 86, "familyYoungKids": 72, "themeParks": 55,
+        "valueForMoney": 30, "beaches": 0, "swimming": 18, "scenery": 32, "cleanliness": 58,
+        "safety": 66, "seniors": 66, "backpacker": 62, "romance": 66
+      },
+      "photos": ["Tower Bridge London", "British Museum Great Court", "Westminster Abbey and Big Ben", "Borough Market London", "Notting Hill colourful houses", "West End theatre Shaftesbury Avenue"]
+    },
+    {
+      "id": "edinburgh-gb", "name": "Edinburgh", "country": "GB", "region": "Scotland", "continent": "Europe",
+      "lat": 55.953, "lon": -3.188, "type": "city", "arch": "historic-city",
+      "blurb": "A volcanic crag with a castle on it, a medieval Old Town, a Georgian New Town — and in August, the biggest arts festival in the world.",
+      "tags": ["history", "festival", "whisky", "walkable"],
+      "climate": {
+        "tempHigh": [7, 7, 9, 11, 14, 17, 19, 18, 16, 13, 9, 7],
+        "tempLow":  [1, 1, 2, 4, 6, 9, 11, 11, 9, 7, 3, 1],
+        "rainDays": [13, 11, 12, 11, 11, 11, 11, 12, 11, 13, 13, 13],
+        "sunHours": [2, 3, 4, 5, 6, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [83, 81, 79, 76, 75, 75, 77, 78, 80, 82, 83, 84]
+      },
+      "crowd":      [32, 35, 42, 52, 62, 72, 85, 98, 68, 52, 38, 58],
+      "priceIndex": [42, 45, 55, 65, 75, 85, 95, 100, 78, 60, 48, 72],
+      "cost": { "budget": 68, "mid": 145, "luxury": 360 },
+      "r": {
+        "historicSites": 94, "architecture": 92, "museums": 84, "theatre": 88, "festivals": 100,
+        "liveMusic": 80, "walkability": 90, "scenery": 80, "hiking": 68, "mountains": 45,
+        "foodScene": 78, "bars": 86, "beer": 88, "localCulture": 82, "romance": 80,
+        "soloTravel": 82, "publicTransport": 76, "valueForMoney": 52, "seniors": 74,
+        "beaches": 32, "swimming": 22, "clubbing": 70, "familyYoungKids": 62, "shopping": 74
+      },
+      "photos": ["Edinburgh Castle from Princes Street", "Royal Mile Edinburgh", "Arthur's Seat view over Edinburgh", "Victoria Street Edinburgh", "Edinburgh Fringe Festival street performer", "Dean Village Edinburgh"]
+    },
+    {
+      "id": "scottish-highlands-gb", "name": "Scottish Highlands", "country": "GB", "region": "Scotland", "continent": "Europe",
+      "lat": 57.120, "lon": -4.710, "type": "mountains", "arch": "wilderness-park",
+      "blurb": "Empty glens, sea lochs and Britain's biggest mountains — spectacular, moody, and in June you should genuinely worry about the midges.",
+      "tags": ["hiking", "scenery", "whisky", "wild"],
+      "climate": {
+        "tempHigh": [6, 6, 8, 11, 14, 17, 18, 18, 16, 12, 8, 6],
+        "tempLow":  [0, 0, 1, 3, 6, 9, 11, 11, 9, 6, 3, 1],
+        "rainDays": [17, 14, 15, 13, 13, 13, 14, 15, 15, 17, 17, 17],
+        "sunHours": [1, 2, 3, 5, 5, 5, 4, 4, 3, 2, 1, 1],
+        "humidity": [86, 84, 82, 79, 77, 78, 80, 81, 83, 85, 86, 87],
+        "snowDepth": [15, 18, 12, 4, 0, 0, 0, 0, 0, 0, 3, 10]
+      },
+      "crowd":      [18, 20, 28, 42, 55, 68, 85, 88, 62, 42, 25, 22],
+      "priceIndex": [35, 38, 45, 58, 68, 80, 92, 95, 72, 52, 38, 42],
+      "cost": { "budget": 58, "mid": 125, "luxury": 300 },
+      "r": {
+        "scenery": 94, "mountains": 84, "hiking": 92, "lakesRivers": 88, "wildlife": 78,
+        "forests": 68, "nationalParks": 88, "stargazing": 88, "northernLights": 45, "climbing": 82,
+        "cycling": 74, "kayaking": 76, "fishing": 86, "roadTrip": 94, "historicSites": 78,
+        "localCulture": 78, "skiing": 42, "golf": 82, "romance": 78,
+        "publicTransport": 22, "walkability": 22, "beaches": 48, "swimming": 25,
+        "foodScene": 62, "clubbing": 8, "familyYoungKids": 52, "accessibility": 28
+      },
+      "photos": ["Glencoe valley Scotland", "Eilean Donan Castle", "Loch Ness Urquhart Castle", "Ben Nevis mountain Scotland", "Glenfinnan Viaduct train", "Scottish Highlands red deer stag"]
+    },
+    {
+      "id": "isle-of-skye-gb", "name": "Isle of Skye", "country": "GB", "region": "Scotland", "continent": "Europe",
+      "lat": 57.400, "lon": -6.200, "type": "island", "arch": "wilderness-park",
+      "blurb": "Jagged Cuillin ridges, sea cliffs and rock formations with names out of folklore. Beautiful, busy in summer, and very wet.",
+      "tags": ["scenery", "hiking", "island", "photography"],
+      "climate": {
+        "tempHigh": [7, 7, 9, 11, 14, 16, 18, 18, 16, 12, 9, 7],
+        "tempLow":  [2, 2, 3, 4, 7, 10, 12, 12, 10, 7, 4, 3],
+        "rainDays": [19, 16, 17, 14, 13, 14, 15, 16, 16, 19, 19, 20],
+        "sunHours": [1, 2, 3, 5, 6, 5, 4, 4, 3, 2, 1, 1],
+        "humidity": [87, 85, 84, 81, 79, 80, 82, 83, 85, 86, 87, 88],
+        "seaTemp":  [8, 7, 8, 9, 11, 12, 14, 14, 13, 12, 10, 9]
+      },
+      "crowd":      [12, 14, 22, 38, 52, 68, 88, 90, 58, 35, 18, 15],
+      "priceIndex": [30, 32, 42, 58, 70, 82, 95, 98, 70, 48, 34, 38],
+      "cost": { "budget": 58, "mid": 125, "luxury": 290 },
+      "r": {
+        "scenery": 98, "mountains": 86, "hiking": 92, "islands": 88, "climbing": 88,
+        "stargazing": 82, "wildlife": 74, "nationalParks": 78, "kayaking": 78, "roadTrip": 90,
+        "localCulture": 74, "romance": 80, "fishing": 78, "northernLights": 35,
+        "publicTransport": 12, "walkability": 18, "foodScene": 62, "clubbing": 3,
+        "shopping": 18, "museums": 25, "accessibility": 20, "familyYoungKids": 45, "seniors": 40
+      },
+      "photos": ["Old Man of Storr Isle of Skye", "Quiraing Skye landscape", "Fairy Pools Isle of Skye", "Neist Point lighthouse Skye", "Cuillin ridge Skye", "Portree harbour Skye"]
+    },
+    {
+      "id": "cornwall-gb", "name": "Cornwall", "country": "GB", "region": "England", "continent": "Europe",
+      "lat": 50.266, "lon": -5.053, "type": "coast", "arch": "beach-resort",
+      "blurb": "Britain's surf coast: turquoise coves, fishing harbours, coast path walking and a food scene well above its weight.",
+      "tags": ["beach", "surfing", "coast path", "food"],
+      "climate": {
+        "tempHigh": [9, 9, 11, 13, 16, 18, 20, 20, 18, 15, 12, 10],
+        "tempLow":  [4, 4, 5, 6, 9, 12, 14, 14, 12, 10, 7, 5],
+        "rainDays": [15, 13, 13, 11, 10, 9, 9, 10, 11, 14, 15, 15],
+        "sunHours": [2, 3, 4, 6, 7, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [85, 83, 81, 79, 79, 79, 80, 81, 82, 84, 85, 86],
+        "seaTemp":  [10, 9, 10, 11, 13, 15, 17, 18, 17, 15, 13, 11]
+      },
+      "crowd":      [22, 25, 35, 55, 65, 78, 95, 98, 68, 45, 28, 32],
+      "priceIndex": [38, 40, 52, 68, 75, 88, 100, 100, 78, 55, 40, 48],
+      "cost": { "budget": 62, "mid": 135, "luxury": 320 },
+      "r": {
+        "beaches": 86, "surfing": 90, "scenery": 86, "hiking": 86, "kayaking": 78, "sailing": 74,
+        "wildlife": 62, "foodScene": 82, "fineDining": 78, "localCulture": 76,
+        "romance": 76, "familyYoungKids": 86, "roadTrip": 78, "cycling": 68, "fishing": 74,
+        "swimming": 62, "publicTransport": 25, "clubbing": 32, "museums": 45, "shopping": 48,
+        "valueForMoney": 45, "seniors": 74, "artScene": 68
+      },
+      "photos": ["St Michael's Mount Cornwall", "Kynance Cove Cornwall", "Fistral Beach Newquay surfers", "St Ives harbour Cornwall", "Minack Theatre Cornwall", "Eden Project biomes Cornwall"]
+    },
+    {
+      "id": "lake-district-gb", "name": "Lake District", "country": "GB", "region": "England", "continent": "Europe",
+      "lat": 54.457, "lon": -3.089, "type": "mountains", "arch": "wilderness-park",
+      "blurb": "England's mountains and lakes in a compact, walkable national park — with proper pubs, and rain you should simply plan for.",
+      "tags": ["hiking", "lakes", "pubs", "family"],
+      "climate": {
+        "tempHigh": [7, 7, 10, 13, 16, 19, 20, 20, 17, 13, 9, 7],
+        "tempLow":  [1, 1, 2, 4, 7, 10, 12, 12, 10, 7, 4, 2],
+        "rainDays": [17, 14, 15, 13, 13, 13, 14, 14, 14, 17, 17, 17],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 2, 1, 1],
+        "humidity": [85, 83, 80, 77, 76, 77, 79, 80, 82, 84, 85, 86]
+      },
+      "crowd":      [25, 28, 38, 55, 65, 75, 88, 92, 68, 50, 32, 35],
+      "priceIndex": [40, 42, 52, 68, 75, 85, 95, 98, 78, 58, 45, 52],
+      "cost": { "budget": 58, "mid": 125, "luxury": 290 },
+      "r": {
+        "hiking": 94, "lakesRivers": 94, "scenery": 88, "mountains": 76, "nationalParks": 90,
+        "forests": 72, "kayaking": 84, "climbing": 78, "cycling": 78, "wildlife": 62,
+        "swimming": 55, "beer": 88, "foodScene": 70, "fineDining": 68, "romance": 78,
+        "familyYoungKids": 78, "seniors": 66, "roadTrip": 74, "walkability": 45,
+        "publicTransport": 32, "clubbing": 8, "beaches": 10, "valueForMoney": 52
+      },
+      "photos": ["Derwentwater Lake District", "Wastwater and Scafell Pike", "Ambleside Lake District village", "Buttermere reflection Lake District", "Honister Pass Lake District", "Hill Top Beatrix Potter house"]
+    },
+    {
+      "id": "bath-gb", "name": "Bath", "country": "GB", "region": "England", "continent": "Europe",
+      "lat": 51.381, "lon": -2.360, "type": "city", "arch": "historic-city",
+      "blurb": "Honey-coloured Georgian crescents around Roman baths, small enough to cover on foot and the Cotswolds ten minutes away.",
+      "tags": ["architecture", "roman", "spa", "walkable"],
+      "climate": {
+        "tempHigh": [8, 9, 12, 15, 18, 21, 23, 23, 20, 16, 11, 8],
+        "tempLow":  [2, 2, 3, 5, 8, 11, 13, 13, 11, 8, 5, 3],
+        "rainDays": [13, 11, 11, 10, 10, 10, 9, 10, 10, 12, 13, 13],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 1],
+        "humidity": [86, 83, 79, 76, 75, 75, 74, 77, 80, 84, 86, 87]
+      },
+      "crowd":      [35, 38, 48, 60, 68, 75, 85, 88, 72, 58, 45, 58],
+      "priceIndex": [48, 50, 60, 72, 78, 85, 92, 95, 80, 65, 52, 65],
+      "cost": { "budget": 68, "mid": 145, "luxury": 340 },
+      "r": {
+        "architecture": 96, "historicSites": 92, "museums": 74, "wellness": 88, "walkability": 94,
+        "romance": 84, "foodScene": 76, "fineDining": 76, "shopping": 72, "theatre": 62,
+        "seniors": 86, "accessibility": 62, "cycling": 68, "hiking": 58, "scenery": 62,
+        "roadTrip": 74, "clubbing": 32, "beaches": 0, "swimming": 20, "valueForMoney": 48,
+        "familyYoungKids": 58, "publicTransport": 58
+      },
+      "photos": ["Royal Crescent Bath", "Roman Baths Bath England", "Pulteney Bridge Bath", "Bath Abbey interior", "Thermae Bath Spa rooftop pool", "Cotswolds village near Bath"]
+    },
+    {
+      "id": "dublin-ie", "name": "Dublin", "country": "IE", "region": "Leinster", "continent": "Europe",
+      "lat": 53.350, "lon": -6.260, "type": "city", "arch": "capital-city",
+      "blurb": "Georgian squares, extraordinary literary history and the best pub culture anywhere — compact, sociable and eye-wateringly expensive.",
+      "tags": ["pubs", "literature", "music", "history"],
+      "climate": {
+        "tempHigh": [8, 8, 10, 12, 15, 18, 20, 19, 17, 14, 10, 8],
+        "tempLow":  [3, 3, 4, 5, 8, 11, 13, 13, 11, 8, 5, 4],
+        "rainDays": [13, 11, 12, 11, 11, 11, 12, 12, 11, 13, 13, 13],
+        "sunHours": [2, 3, 4, 5, 6, 6, 5, 5, 4, 3, 2, 2],
+        "humidity": [84, 82, 80, 77, 77, 77, 78, 79, 81, 83, 84, 85]
+      },
+      "crowd":      [35, 38, 48, 58, 68, 78, 88, 88, 72, 55, 42, 55],
+      "priceIndex": [45, 48, 58, 68, 78, 88, 95, 95, 80, 62, 50, 68],
+      "cost": { "budget": 70, "mid": 150, "luxury": 360 },
+      "r": {
+        "bars": 96, "beer": 96, "liveMusic": 92, "localCulture": 86, "historicSites": 78,
+        "museums": 80, "architecture": 72, "theatre": 78, "walkability": 84, "festivals": 82,
+        "foodScene": 74, "soloTravel": 84, "groupParty": 88, "publicTransport": 62,
+        "valueForMoney": 32, "beaches": 42, "swimming": 25, "hiking": 55, "scenery": 48,
+        "familyYoungKids": 58, "clubbing": 74, "shopping": 70, "seniors": 66
+      },
+      "photos": ["Temple Bar Dublin pub", "Trinity College Long Room library", "Ha'penny Bridge Dublin", "Guinness Storehouse Dublin", "Georgian doors Dublin Merrion Square", "Dublin Castle courtyard"]
+    },
+    {
+      "id": "kerry-ie", "name": "Kerry & Dingle", "country": "IE", "region": "Munster", "continent": "Europe",
+      "lat": 52.140, "lon": -9.930, "type": "coast", "arch": "wilderness-park",
+      "blurb": "Ireland's most dramatic corner: the Ring of Kerry, the Dingle peninsula, Atlantic cliffs and trad music in tiny harbour pubs.",
+      "tags": ["scenery", "road trip", "music", "coast"],
+      "climate": {
+        "tempHigh": [9, 9, 11, 13, 15, 18, 19, 19, 17, 14, 11, 9],
+        "tempLow":  [4, 4, 5, 6, 9, 11, 13, 13, 11, 9, 6, 5],
+        "rainDays": [17, 14, 15, 13, 12, 12, 14, 14, 14, 17, 17, 18],
+        "sunHours": [2, 3, 4, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [86, 84, 82, 80, 79, 80, 81, 82, 83, 85, 86, 87],
+        "seaTemp":  [10, 9, 10, 11, 12, 14, 15, 16, 15, 14, 12, 11]
+      },
+      "crowd":      [15, 18, 28, 45, 58, 72, 90, 92, 65, 42, 22, 20],
+      "priceIndex": [32, 35, 45, 60, 72, 85, 98, 100, 75, 52, 38, 42],
+      "cost": { "budget": 58, "mid": 125, "luxury": 290 },
+      "r": {
+        "scenery": 92, "roadTrip": 94, "hiking": 84, "beaches": 68,
+        "localCulture": 88, "liveMusic": 90, "bars": 84, "wildlife": 68, "kayaking": 74,
+        "nationalParks": 80, "stargazing": 84, "golf": 88, "fishing": 78, "romance": 82,
+        "surfing": 62, "swimming": 42, "publicTransport": 18, "clubbing": 25,
+        "museums": 38, "shopping": 35, "familyYoungKids": 62, "seniors": 62
+      },
+      "photos": ["Ring of Kerry coastal view", "Slea Head Dingle Peninsula", "Gap of Dunloe Killarney", "Skellig Michael monastery", "Dingle harbour Ireland", "Killarney National Park lakes"]
+    },
+    {
+      "id": "galway-ie", "name": "Galway & Connemara", "country": "IE", "region": "Connacht", "continent": "Europe",
+      "lat": 53.270, "lon": -9.057, "type": "region", "arch": "historic-city",
+      "blurb": "A small, riotously musical city on the Atlantic, with the bogs and mountains of Connemara and the Cliffs of Moher on the doorstep.",
+      "tags": ["music", "coast", "pubs", "scenery"],
+      "climate": {
+        "tempHigh": [8, 8, 10, 12, 15, 17, 19, 19, 17, 13, 10, 8],
+        "tempLow":  [3, 3, 4, 5, 8, 11, 13, 13, 11, 8, 5, 4],
+        "rainDays": [18, 15, 16, 13, 13, 13, 14, 15, 15, 18, 18, 19],
+        "sunHours": [2, 3, 4, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [86, 84, 82, 80, 79, 80, 81, 82, 84, 85, 86, 87],
+        "seaTemp":  [10, 9, 10, 11, 12, 14, 15, 16, 15, 14, 12, 11]
+      },
+      "crowd":      [18, 20, 30, 45, 58, 72, 88, 90, 65, 45, 25, 25],
+      "priceIndex": [35, 38, 48, 62, 72, 85, 95, 98, 75, 55, 40, 45],
+      "cost": { "budget": 55, "mid": 118, "luxury": 275 },
+      "r": {
+        "liveMusic": 96, "bars": 90, "localCulture": 88, "festivals": 86, "walkability": 86,
+        "scenery": 86, "hiking": 80, "roadTrip": 88, "beaches": 62, "kayaking": 70,
+        "foodScene": 78, "soloTravel": 82, "backpacker": 78, "nationalParks": 76,
+        "wildlife": 62, "romance": 76, "publicTransport": 35, "swimming": 38,
+        "clubbing": 62, "museums": 45, "familyYoungKids": 62, "valueForMoney": 58
+      },
+      "photos": ["Cliffs of Moher Ireland", "Galway Latin Quarter street", "Connemara National Park landscape", "Kylemore Abbey Connemara", "Aran Islands stone walls", "Galway traditional music session"]
+    },
+    {
+      "id": "iceland-is", "name": "Iceland & the South Coast", "country": "IS", "region": "Southern Region", "continent": "Europe",
+      "lat": 64.146, "lon": -21.942, "type": "island", "arch": "island-volcanic",
+      "blurb": "Glaciers, black beaches, geysers and waterfalls within a day's drive of the capital — plus the aurora from September to March.",
+      "tags": ["volcano", "aurora", "waterfalls", "geothermal"],
+      "climate": {
+        "tempHigh": [3, 3, 4, 7, 10, 12, 14, 13, 11, 7, 4, 3],
+        "tempLow":  [-2, -2, -1, 1, 4, 7, 9, 8, 6, 3, 0, -2],
+        "rainDays": [13, 12, 14, 13, 12, 12, 13, 14, 14, 15, 13, 14],
+        "sunHours": [1, 2, 4, 5, 6, 6, 6, 5, 4, 3, 1, 0],
+        "humidity": [78, 77, 76, 75, 74, 76, 79, 80, 79, 79, 78, 79],
+        "snowDepth": [25, 28, 22, 8, 0, 0, 0, 0, 0, 2, 12, 22]
+      },
+      "crowd":      [45, 45, 48, 52, 62, 80, 92, 92, 70, 55, 45, 58],
+      "priceIndex": [58, 58, 60, 65, 75, 90, 100, 100, 82, 68, 58, 72],
+      "cost": { "budget": 85, "mid": 180, "luxury": 420 },
+      "r": {
+        "volcanic": 100, "scenery": 98, "northernLights": 96, "nationalParks": 88, "wildlife": 78,
+        "hiking": 88, "stargazing": 82, "wellness": 92, "lakesRivers": 84, "roadTrip": 96,
+        "adrenaline": 84, "kayaking": 68, "beaches": 45, "swimming": 55, "cleanliness": 94,
+        "safety": 96, "ecoFriendly": 90, "romance": 84,
+        "valueForMoney": 25, "publicTransport": 28, "clubbing": 52, "foodScene": 66,
+        "historicSites": 45, "museums": 52, "familyYoungKids": 58, "shopping": 42
+      },
+      "photos": ["Skogafoss waterfall Iceland", "Northern lights over Iceland", "Reynisfjara black sand beach", "Jokulsarlon glacier lagoon", "Blue Lagoon Iceland geothermal spa", "Reykjavik Hallgrimskirkja church"]
+    },
+    {
+      "id": "bergen-fjords-no", "name": "Bergen & the Fjords", "country": "NO", "region": "Vestland", "continent": "Europe",
+      "lat": 60.391, "lon": 5.322, "type": "coast", "arch": "nordic-city",
+      "blurb": "A wooden Hanseatic wharf, seven mountains and the gateway to the Sognefjord and Nærøyfjord. Also, famously, the rain capital of Europe.",
+      "tags": ["fjords", "scenery", "hiking", "cruise"],
+      "climate": {
+        "tempHigh": [4, 4, 6, 9, 14, 17, 18, 18, 15, 11, 7, 4],
+        "tempLow":  [0, 0, 1, 3, 7, 10, 12, 12, 9, 6, 3, 0],
+        "rainDays": [19, 15, 17, 14, 13, 14, 16, 17, 18, 20, 19, 20],
+        "sunHours": [1, 2, 3, 5, 6, 6, 6, 5, 4, 2, 1, 0],
+        "humidity": [80, 77, 75, 73, 73, 75, 77, 78, 80, 81, 81, 81],
+        "seaTemp":  [7, 6, 6, 8, 10, 13, 15, 16, 14, 12, 10, 8],
+        "snowDepth": [35, 45, 40, 15, 1, 0, 0, 0, 0, 0, 8, 25]
+      },
+      "crowd":      [22, 22, 28, 38, 55, 75, 92, 90, 62, 40, 25, 28],
+      "priceIndex": [38, 38, 45, 58, 72, 88, 100, 98, 72, 52, 40, 48],
+      "cost": { "budget": 85, "mid": 180, "luxury": 420 },
+      "r": {
+        "scenery": 98, "mountains": 88, "hiking": 90, "lakesRivers": 84, "kayaking": 86,
+        "sailing": 82, "nationalParks": 82, "fishing": 84, "wildlife": 62, "roadTrip": 88,
+        "architecture": 78, "historicSites": 72, "localCulture": 72, "romance": 84,
+        "cleanliness": 92, "safety": 92, "ecoFriendly": 92, "seniors": 72,
+        "valueForMoney": 25, "beaches": 25, "swimming": 32, "clubbing": 48, "foodScene": 72
+      },
+      "photos": ["Bryggen wharf Bergen", "Nærøyfjord Norway", "Trolltunga cliff Norway", "Flam railway Norway", "Bergen funicular Floyen view", "Geirangerfjord waterfall"]
+    },
+    {
+      "id": "lofoten-no", "name": "Lofoten Islands", "country": "NO", "region": "Nordland", "continent": "Europe",
+      "lat": 68.150, "lon": 13.610, "type": "island", "arch": "wilderness-park",
+      "blurb": "Granite peaks rising straight from the Arctic sea above red fishermen's cabins — midnight sun in June, aurora from September.",
+      "tags": ["arctic", "scenery", "aurora", "hiking"],
+      "climate": {
+        "tempHigh": [1, 1, 2, 6, 10, 14, 16, 15, 12, 7, 3, 1],
+        "tempLow":  [-3, -3, -2, 1, 4, 8, 11, 10, 7, 3, 0, -2],
+        "rainDays": [16, 14, 15, 12, 10, 10, 11, 13, 15, 17, 16, 17],
+        "sunHours": [0, 2, 4, 6, 7, 7, 6, 5, 3, 1, 0, 0],
+        "humidity": [80, 79, 78, 76, 75, 76, 78, 79, 80, 81, 81, 81],
+        "seaTemp":  [5, 4, 4, 5, 7, 10, 12, 13, 11, 9, 7, 6],
+        "snowDepth": [45, 50, 42, 20, 2, 0, 0, 0, 0, 0, 15, 35]
+      },
+      "crowd":      [22, 24, 25, 32, 48, 68, 88, 85, 55, 32, 20, 20],
+      "priceIndex": [40, 42, 45, 55, 68, 85, 98, 95, 68, 48, 38, 42],
+      "cost": { "budget": 75, "mid": 158, "luxury": 380 },
+      "r": {
+        "scenery": 100, "northernLights": 92, "mountains": 90, "hiking": 90, "islands": 92,
+        "beaches": 72, "kayaking": 84, "fishing": 92, "surfing": 62, "climbing": 82,
+        "wildlife": 70, "stargazing": 78, "roadTrip": 92, "localCulture": 74, "romance": 86,
+        "cleanliness": 92, "safety": 92, "ecoFriendly": 88, "swimming": 25,
+        "valueForMoney": 32, "publicTransport": 22, "clubbing": 5, "shopping": 18,
+        "museums": 35, "familyYoungKids": 48, "seniors": 42
+      },
+      "photos": ["Reine Lofoten Norway", "Hamnoy fishing village Lofoten", "Northern lights Lofoten", "Haukland beach Lofoten", "Reinebringen hike view", "Lofoten rorbuer red cabins"]
+    },
+    {
+      "id": "tromso-no", "name": "Tromsø", "country": "NO", "region": "Troms", "continent": "Europe",
+      "lat": 69.649, "lon": 18.956, "type": "city", "arch": "nordic-city",
+      "blurb": "The Arctic's most liveable small city and Europe's most reliable aurora base — dog-sledding, whale-watching and a surprising bar scene.",
+      "tags": ["aurora", "arctic", "whales", "husky"],
+      "climate": {
+        "tempHigh": [-1, -1, 1, 4, 8, 13, 16, 15, 10, 5, 1, -1],
+        "tempLow":  [-6, -6, -5, -2, 2, 6, 9, 9, 5, 1, -3, -5],
+        "rainDays": [15, 13, 14, 11, 10, 10, 12, 13, 15, 16, 15, 16],
+        "sunHours": [0, 1, 4, 6, 7, 7, 6, 5, 3, 1, 0, 0],
+        "humidity": [78, 77, 76, 74, 72, 73, 75, 76, 78, 79, 79, 79],
+        "snowDepth": [70, 85, 80, 45, 5, 0, 0, 0, 0, 5, 35, 60]
+      },
+      "crowd":      [58, 55, 50, 32, 35, 52, 72, 68, 45, 42, 48, 62],
+      "priceIndex": [70, 68, 62, 45, 50, 68, 85, 82, 58, 52, 60, 78],
+      "cost": { "budget": 80, "mid": 170, "luxury": 400 },
+      "r": {
+        "northernLights": 100, "scenery": 88, "wildlife": 84, "mountains": 82, "hiking": 78,
+        "skiing": 72, "adrenaline": 78, "stargazing": 76, "kayaking": 68, "fishing": 82,
+        "localCulture": 74, "museums": 58, "bars": 76, "beer": 82, "foodScene": 72,
+        "romance": 80, "cleanliness": 90, "safety": 92, "familyTeens": 78,
+        "valueForMoney": 28, "beaches": 15, "swimming": 15, "clubbing": 55, "shopping": 45
+      },
+      "photos": ["Northern lights Tromso Norway", "Arctic Cathedral Tromso", "Husky sledding Tromso", "Tromso city winter aerial", "Whale watching Tromso orca", "Fjellheisen cable car view Tromso"]
+    },
+    {
+      "id": "oslo-no", "name": "Oslo", "country": "NO", "region": "Oslo", "continent": "Europe",
+      "lat": 59.914, "lon": 10.752, "type": "city", "arch": "nordic-city",
+      "blurb": "A capital wedged between a fjord and a forest, with superb modern museums and cross-country ski trails inside the city limits.",
+      "tags": ["design", "museums", "fjord", "outdoors"],
+      "climate": {
+        "tempHigh": [-1, 0, 4, 10, 16, 19, 22, 21, 16, 9, 4, 0],
+        "tempLow":  [-6, -6, -3, 1, 6, 10, 13, 12, 8, 3, -1, -5],
+        "rainDays": [12, 10, 10, 9, 10, 11, 12, 12, 12, 13, 13, 13],
+        "sunHours": [1, 3, 4, 6, 8, 8, 8, 7, 5, 3, 1, 0],
+        "humidity": [84, 80, 72, 66, 62, 66, 70, 73, 79, 83, 86, 86],
+        "snowDepth": [30, 35, 25, 5, 0, 0, 0, 0, 0, 0, 8, 22]
+      },
+      "crowd":      [32, 32, 35, 42, 55, 70, 82, 78, 62, 48, 38, 52],
+      "priceIndex": [45, 45, 48, 58, 68, 82, 92, 88, 72, 58, 48, 65],
+      "cost": { "budget": 85, "mid": 180, "luxury": 430 },
+      "r": {
+        "museums": 88, "artScene": 84, "architecture": 84, "forests": 78, "lakesRivers": 72,
+        "hiking": 78, "skiing": 74, "cycling": 82, "sailing": 74, "kayaking": 72,
+        "walkability": 84, "publicTransport": 90, "cleanliness": 92, "safety": 92,
+        "ecoFriendly": 94, "foodScene": 76, "fineDining": 82, "familyYoungKids": 78,
+        "valueForMoney": 22, "beaches": 42, "swimming": 45, "clubbing": 62, "shopping": 68
+      },
+      "photos": ["Oslo Opera House roof", "Vigeland Sculpture Park Oslo", "Munch Museum Oslo", "Oslo fjord islands summer", "Holmenkollen ski jump Oslo", "Aker Brygge waterfront Oslo"]
+    },
+    {
+      "id": "stockholm-se", "name": "Stockholm", "country": "SE", "region": "Stockholm", "continent": "Europe",
+      "lat": 59.329, "lon": 18.069, "type": "city", "arch": "nordic-city",
+      "blurb": "Fourteen islands of pastel waterfront and a 30,000-island archipelago beyond — long white summer nights, cosy candlelit winters.",
+      "tags": ["design", "islands", "museums", "food"],
+      "climate": {
+        "tempHigh": [-1, -1, 3, 9, 16, 20, 22, 21, 16, 10, 4, 1],
+        "tempLow":  [-5, -6, -3, 1, 6, 11, 14, 13, 9, 5, 1, -3],
+        "rainDays": [10, 8, 8, 7, 7, 9, 10, 10, 10, 11, 11, 11],
+        "sunHours": [1, 2, 4, 6, 9, 10, 9, 8, 5, 3, 1, 0],
+        "humidity": [86, 84, 78, 70, 64, 66, 70, 74, 79, 84, 88, 88],
+        "snowDepth": [20, 25, 15, 2, 0, 0, 0, 0, 0, 0, 4, 14]
+      },
+      "crowd":      [32, 32, 38, 45, 58, 75, 88, 82, 62, 48, 38, 55],
+      "priceIndex": [45, 45, 50, 58, 70, 85, 95, 90, 72, 58, 48, 68],
+      "cost": { "budget": 75, "mid": 158, "luxury": 380 },
+      "r": {
+        "museums": 90, "architecture": 88, "artScene": 84, "historicSites": 78, "islands": 84,
+        "sailing": 86, "kayaking": 82, "cycling": 84, "walkability": 86, "publicTransport": 92,
+        "foodScene": 82, "fineDining": 86, "coffee": 92, "shopping": 82, "clubbing": 74,
+        "cleanliness": 92, "safety": 88, "ecoFriendly": 94, "familyYoungKids": 84,
+        "themeParks": 62, "valueForMoney": 32, "beaches": 52, "swimming": 55, "romance": 78
+      },
+      "photos": ["Gamla Stan Stockholm old town", "Stockholm archipelago islands", "Vasa Museum ship Stockholm", "Stockholm City Hall waterfront", "Stortorget colourful houses Stockholm", "Fotografiska Stockholm view"]
+    },
+    {
+      "id": "swedish-lapland-se", "name": "Swedish Lapland", "country": "SE", "region": "Norrbotten", "continent": "Europe",
+      "lat": 68.349, "lon": 18.830, "type": "region", "arch": "wilderness-park",
+      "blurb": "Abisko's famously clear 'blue hole' sky makes this one of the best aurora spots on earth — plus the Icehotel and Sámi reindeer country.",
+      "tags": ["aurora", "arctic", "icehotel", "wilderness"],
+      "climate": {
+        "tempHigh": [-9, -9, -5, 0, 6, 13, 17, 14, 8, 1, -5, -8],
+        "tempLow":  [-16, -16, -13, -7, -1, 5, 9, 7, 3, -3, -10, -14],
+        "rainDays": [10, 9, 8, 7, 7, 9, 11, 12, 12, 12, 11, 11],
+        "sunHours": [0, 2, 5, 7, 9, 10, 9, 6, 3, 1, 0, 0],
+        "humidity": [80, 79, 78, 74, 70, 68, 71, 76, 80, 83, 83, 82],
+        "snowDepth": [60, 75, 85, 70, 20, 0, 0, 0, 0, 10, 35, 50]
+      },
+      "crowd":      [62, 58, 55, 35, 25, 35, 58, 52, 38, 30, 42, 55],
+      "priceIndex": [72, 68, 65, 45, 38, 48, 68, 62, 48, 42, 55, 70],
+      "cost": { "budget": 80, "mid": 170, "luxury": 400 },
+      "r": {
+        "northernLights": 100, "stargazing": 92, "scenery": 88, "nationalParks": 90,
+        "hiking": 86, "skiing": 76, "adrenaline": 76, "wildlife": 76, "forests": 82,
+        "localCulture": 80, "lakesRivers": 80, "fishing": 82, "romance": 84,
+        "cleanliness": 94, "safety": 92, "ecoFriendly": 92, "familyTeens": 78,
+        "valueForMoney": 35, "publicTransport": 20, "clubbing": 3, "shopping": 15,
+        "beaches": 5, "swimming": 20, "museums": 32, "foodScene": 62
+      },
+      "photos": ["Aurora borealis Abisko Sweden", "Icehotel Jukkasjarvi Sweden", "Reindeer Sami Lapland", "Abisko National Park Lapporten", "Dog sledding Swedish Lapland", "Kungsleden trail Sweden"]
+    },
+    {
+      "id": "copenhagen-dk", "name": "Copenhagen", "country": "DK", "region": "Capital Region", "continent": "Europe",
+      "lat": 55.677, "lon": 12.568, "type": "city", "arch": "nordic-city",
+      "blurb": "The design and food capital of the North: bikes everywhere, harbour swimming in the middle of the city, and Noma's long shadow.",
+      "tags": ["design", "food", "cycling", "hygge"],
+      "climate": {
+        "tempHigh": [4, 4, 7, 12, 16, 20, 22, 22, 18, 13, 8, 5],
+        "tempLow":  [-1, -2, 0, 3, 8, 11, 14, 14, 11, 7, 4, 1],
+        "rainDays": [12, 9, 10, 9, 9, 9, 10, 11, 11, 12, 13, 13],
+        "sunHours": [1, 2, 4, 6, 8, 8, 8, 7, 5, 3, 1, 1],
+        "humidity": [86, 84, 80, 74, 70, 71, 73, 75, 79, 84, 87, 87]
+      },
+      "crowd":      [38, 38, 45, 55, 65, 80, 92, 88, 68, 52, 45, 62],
+      "priceIndex": [50, 50, 55, 65, 75, 88, 98, 95, 75, 60, 52, 72],
+      "cost": { "budget": 75, "mid": 160, "luxury": 390 },
+      "r": {
+        "foodScene": 92, "fineDining": 96, "coffee": 92, "artScene": 88, "museums": 84,
+        "architecture": 90, "cycling": 100, "walkability": 90, "publicTransport": 90,
+        "shopping": 84, "bars": 82, "clubbing": 74, "themeParks": 78, "swimming": 62,
+        "lgbtqScene": 88, "cleanliness": 92, "safety": 90, "ecoFriendly": 94,
+        "familyYoungKids": 86, "romance": 78, "valueForMoney": 32, "beaches": 52, "scenery": 42,
+        "skiing": 4, "mountains": 2
+      },
+      "photos": ["Nyhavn Copenhagen colourful houses", "Tivoli Gardens Copenhagen", "Copenhagen cycling infrastructure", "Superkilen park Copenhagen", "Copenhagen harbour bath swimming", "Torvehallerne food market Copenhagen"]
+    },
+    {
+      "id": "helsinki-fi", "name": "Helsinki", "country": "FI", "region": "Uusimaa", "continent": "Europe",
+      "lat": 60.170, "lon": 24.941, "type": "city", "arch": "nordic-city",
+      "blurb": "Understated, design-obsessed and built on a sea of islands — with the world's best public saunas and a ferry to Tallinn.",
+      "tags": ["design", "sauna", "islands", "calm"],
+      "climate": {
+        "tempHigh": [-2, -3, 1, 8, 15, 19, 22, 20, 15, 8, 3, 0],
+        "tempLow":  [-7, -8, -5, 0, 5, 10, 14, 13, 8, 3, -1, -5],
+        "rainDays": [11, 9, 8, 7, 7, 8, 9, 10, 11, 12, 12, 12],
+        "sunHours": [1, 2, 4, 7, 9, 10, 10, 8, 5, 2, 1, 0],
+        "humidity": [88, 86, 80, 70, 64, 66, 70, 75, 81, 86, 89, 89],
+        "snowDepth": [25, 35, 28, 5, 0, 0, 0, 0, 0, 0, 5, 18]
+      },
+      "crowd":      [30, 30, 35, 42, 55, 72, 88, 82, 60, 45, 35, 52],
+      "priceIndex": [42, 42, 48, 55, 68, 82, 95, 90, 70, 55, 45, 65],
+      "cost": { "budget": 70, "mid": 148, "luxury": 360 },
+      "r": {
+        "wellness": 96, "architecture": 86, "artScene": 82, "museums": 80, "islands": 78,
+        "forests": 74, "cycling": 80, "kayaking": 74, "sailing": 74, "walkability": 84,
+        "publicTransport": 90, "foodScene": 76, "coffee": 92, "cleanliness": 94, "safety": 94,
+        "ecoFriendly": 92, "soloTravel": 80, "digitalNomad": 82, "familyYoungKids": 80,
+        "valueForMoney": 42, "beaches": 42, "swimming": 48, "clubbing": 62, "shopping": 68
+      },
+      "photos": ["Helsinki Cathedral Senate Square", "Loyly sauna Helsinki", "Suomenlinna sea fortress Helsinki", "Oodi library Helsinki interior", "Temppeliaukio rock church Helsinki", "Helsinki market square harbour"]
+    },
+    {
+      "id": "finnish-lapland-fi", "name": "Finnish Lapland", "country": "FI", "region": "Lapland", "continent": "Europe",
+      "lat": 66.503, "lon": 25.729, "type": "region", "arch": "wilderness-park",
+      "blurb": "Snowy forest, glass igloos, huskies and the official Santa Claus Village — which is why December here is the busiest month of the year.",
+      "tags": ["aurora", "snow", "santa", "husky"],
+      "climate": {
+        "tempHigh": [-9, -9, -4, 2, 9, 16, 20, 17, 11, 3, -3, -7],
+        "tempLow":  [-16, -16, -12, -5, 1, 7, 11, 9, 4, -2, -8, -13],
+        "rainDays": [11, 9, 8, 7, 8, 9, 11, 12, 12, 12, 12, 12],
+        "sunHours": [0, 2, 4, 7, 9, 10, 10, 7, 4, 2, 0, 0],
+        "humidity": [88, 86, 82, 74, 66, 64, 68, 75, 82, 87, 89, 89],
+        "snowDepth": [55, 70, 80, 55, 10, 0, 0, 0, 0, 5, 25, 45]
+      },
+      "crowd":      [78, 68, 62, 42, 28, 38, 62, 55, 38, 32, 45, 95],
+      "priceIndex": [88, 78, 72, 48, 38, 48, 72, 65, 45, 40, 58, 100],
+      "cost": { "budget": 75, "mid": 160, "luxury": 380 },
+      "r": {
+        "northernLights": 94, "forests": 88, "scenery": 82, "stargazing": 84,
+        "skiing": 74, "adrenaline": 78, "wildlife": 72, "hiking": 76, "lakesRivers": 78,
+        "wellness": 88, "localCulture": 76, "familyYoungKids": 92, "familyTeens": 84,
+        "romance": 82, "cleanliness": 92, "safety": 94, "ecoFriendly": 88,
+        "valueForMoney": 38, "publicTransport": 25, "clubbing": 12, "beaches": 5,
+        "swimming": 20, "museums": 42, "shopping": 32, "foodScene": 62
+      },
+      "photos": ["Glass igloo northern lights Finland", "Santa Claus Village Rovaniemi", "Husky safari Finnish Lapland", "Snowy forest Lapland Finland", "Reindeer sleigh Lapland", "Levi ski resort Finland"]
+    },
+    {
+      "id": "tallinn-ee", "name": "Tallinn", "country": "EE", "region": "Harju", "continent": "Europe",
+      "lat": 59.437, "lon": 24.754, "type": "city", "arch": "historic-city",
+      "blurb": "A complete, intact medieval walled town wrapped around one of Europe's most digital societies — and still genuinely good value.",
+      "tags": ["medieval", "value", "digital", "walkable"],
+      "climate": {
+        "tempHigh": [-1, -2, 2, 9, 15, 19, 21, 20, 15, 9, 3, 0],
+        "tempLow":  [-6, -7, -4, 1, 6, 10, 13, 13, 9, 4, 0, -4],
+        "rainDays": [11, 9, 9, 8, 8, 9, 10, 11, 11, 12, 13, 12],
+        "sunHours": [1, 2, 4, 7, 9, 10, 9, 8, 5, 2, 1, 0],
+        "humidity": [88, 86, 81, 72, 68, 70, 73, 77, 82, 86, 89, 89],
+        "snowDepth": [20, 28, 20, 2, 0, 0, 0, 0, 0, 0, 4, 14]
+      },
+      "crowd":      [28, 28, 32, 42, 55, 72, 88, 85, 62, 45, 35, 55],
+      "priceIndex": [38, 38, 45, 55, 68, 82, 95, 92, 70, 52, 42, 65],
+      "cost": { "budget": 45, "mid": 100, "luxury": 250 },
+      "r": {
+        "historicSites": 92, "architecture": 90, "walkability": 92, "museums": 70, "wifi": 98,
+        "digitalNomad": 92, "foodScene": 76, "bars": 78, "beer": 82, "coffee": 82,
+        "valueForMoney": 84, "festivals": 68, "localCulture": 74, "romance": 78,
+        "cleanliness": 86, "safety": 86, "backpacker": 76, "soloTravel": 78,
+        "beaches": 42, "swimming": 38, "clubbing": 68, "familyYoungKids": 66, "shopping": 62
+      },
+      "photos": ["Tallinn old town square", "Tallinn city walls towers", "Alexander Nevsky Cathedral Tallinn", "Toompea hill viewpoint Tallinn", "Telliskivi creative city Tallinn", "Tallinn old town in snow"]
+    },
+    {
+      "id": "riga-lv", "name": "Riga", "country": "LV", "region": "Riga", "continent": "Europe",
+      "lat": 56.949, "lon": 24.105, "type": "city", "arch": "historic-city",
+      "blurb": "The largest collection of Art Nouveau architecture in Europe, a huge covered market in old Zeppelin hangars, and Baltic prices.",
+      "tags": ["art nouveau", "value", "market", "beach"],
+      "climate": {
+        "tempHigh": [-2, -2, 3, 11, 17, 20, 22, 21, 16, 10, 3, 0],
+        "tempLow":  [-7, -8, -4, 1, 6, 10, 13, 12, 8, 4, 0, -5],
+        "rainDays": [11, 9, 9, 8, 8, 9, 10, 10, 10, 11, 13, 12],
+        "sunHours": [1, 2, 4, 6, 9, 9, 9, 7, 5, 2, 1, 0],
+        "humidity": [88, 86, 80, 71, 67, 70, 74, 77, 82, 86, 89, 89],
+        "snowDepth": [18, 24, 15, 1, 0, 0, 0, 0, 0, 0, 3, 12]
+      },
+      "crowd":      [28, 28, 32, 42, 55, 70, 85, 82, 58, 45, 32, 52],
+      "priceIndex": [38, 38, 44, 55, 66, 80, 92, 90, 68, 52, 40, 62],
+      "cost": { "budget": 42, "mid": 95, "luxury": 240 },
+      "r": {
+        "architecture": 94, "historicSites": 82, "markets": 88, "museums": 68, "artScene": 72,
+        "walkability": 86, "foodScene": 76, "bars": 80, "beer": 84, "clubbing": 74,
+        "groupParty": 80, "valueForMoney": 88, "beaches": 58, "swimming": 45,
+        "forests": 62, "romance": 70, "backpacker": 78, "soloTravel": 74,
+        "cleanliness": 76, "familyYoungKids": 58, "shopping": 62, "liveMusic": 72
+      },
+      "photos": ["Riga Art Nouveau facade Alberta iela", "Riga old town House of Blackheads", "Riga Central Market pavilions", "Riga skyline from Vansu bridge", "Jurmala beach Latvia", "Riga Christmas market"]
+    },
+    {
+      "id": "vilnius-lt", "name": "Vilnius", "country": "LT", "region": "Vilnius", "continent": "Europe",
+      "lat": 54.687, "lon": 25.280, "type": "city", "arch": "historic-city",
+      "blurb": "One of Europe's largest baroque old towns, a self-declared artists' republic across the river, and almost no crowds.",
+      "tags": ["baroque", "value", "quiet", "art"],
+      "climate": {
+        "tempHigh": [-2, -1, 4, 12, 18, 21, 23, 22, 17, 11, 4, 0],
+        "tempLow":  [-8, -8, -4, 1, 6, 10, 12, 12, 8, 3, -1, -5],
+        "rainDays": [11, 9, 9, 9, 9, 10, 10, 10, 10, 11, 12, 12],
+        "sunHours": [1, 2, 4, 6, 8, 9, 8, 7, 5, 2, 1, 0],
+        "humidity": [87, 84, 78, 68, 64, 68, 72, 74, 80, 85, 89, 89],
+        "snowDepth": [18, 22, 12, 1, 0, 0, 0, 0, 0, 0, 3, 11]
+      },
+      "crowd":      [25, 25, 30, 40, 52, 68, 82, 80, 58, 42, 30, 48],
+      "priceIndex": [35, 35, 42, 52, 64, 78, 90, 88, 66, 50, 38, 58],
+      "cost": { "budget": 40, "mid": 90, "luxury": 225 },
+      "r": {
+        "architecture": 90, "historicSites": 86, "religiousSites": 84, "artScene": 80,
+        "walkability": 88, "museums": 66, "foodScene": 78, "bars": 76, "beer": 82,
+        "coffee": 78, "valueForMoney": 90, "forests": 68, "cycling": 72,
+        "romance": 74, "backpacker": 74, "soloTravel": 74, "digitalNomad": 76,
+        "cleanliness": 80, "beaches": 15, "swimming": 32, "clubbing": 62, "familyYoungKids": 58
+      },
+      "photos": ["Vilnius old town aerial baroque", "Gate of Dawn Vilnius", "Uzupis republic Vilnius", "Vilnius Cathedral and belfry", "Trakai Island Castle Lithuania", "Vilnius St Anne's Church"]
+    },
+    {
+      "id": "faroe-islands-fo", "name": "Faroe Islands", "country": "FO", "region": "Faroe Islands", "continent": "Europe",
+      "lat": 62.008, "lon": -6.771, "type": "island", "arch": "wilderness-park",
+      "blurb": "Eighteen green, sheer-sided islands in the North Atlantic — grass-roofed villages, sea stacks and a waterfall that falls into the ocean.",
+      "tags": ["remote", "scenery", "hiking", "birds"],
+      "climate": {
+        "tempHigh": [6, 6, 7, 8, 11, 13, 14, 14, 13, 10, 8, 7],
+        "tempLow":  [2, 2, 2, 3, 6, 8, 10, 10, 9, 6, 4, 3],
+        "rainDays": [22, 19, 21, 18, 15, 14, 16, 17, 20, 23, 22, 23],
+        "sunHours": [1, 2, 3, 4, 5, 5, 4, 4, 3, 2, 1, 0],
+        "humidity": [88, 87, 87, 86, 85, 86, 87, 87, 87, 88, 88, 88],
+        "seaTemp":  [7, 7, 7, 8, 9, 10, 11, 12, 11, 10, 9, 8]
+      },
+      "crowd":      [15, 15, 20, 28, 42, 62, 82, 80, 52, 30, 18, 18],
+      "priceIndex": [32, 32, 38, 48, 62, 80, 95, 92, 65, 45, 34, 38],
+      "cost": { "budget": 80, "mid": 165, "luxury": 380 },
+      "r": {
+        "scenery": 98, "islands": 96, "hiking": 90, "wildlife": 84, "nationalParks": 62,
+        "kayaking": 68, "fishing": 88, "roadTrip": 88, "localCulture": 82, "romance": 82,
+        "cleanliness": 92, "safety": 96, "ecoFriendly": 84, "fineDining": 72,
+        "stargazing": 62, "northernLights": 52, "valueForMoney": 32,
+        "beaches": 32, "swimming": 15, "publicTransport": 42, "clubbing": 8,
+        "shopping": 18, "museums": 32, "familyYoungKids": 42, "seniors": 42, "accessibility": 32
+      },
+      "photos": ["Mulafossur waterfall Gasadalur Faroe", "Saksun village Faroe Islands", "Sorvagsvatn lake Faroe Islands", "Torshavn turf roof houses", "Drangarnir sea stack Faroe", "Faroe Islands puffins Mykines"]
+    }
+  ]
+}

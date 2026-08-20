@@ -1,0 +1,354 @@
+{
+  "_doc": "Middle-earth. Photo topics point at the New Zealand filming locations, which are real places you can actually stand in.",
+  "destinations": [
+    {
+      "id": "the-shire", "name": "The Shire", "country": "ME", "region": "Eriador", "continent": "High Fantasy",
+      "type": "region", "arch": "pastoral-idyll",
+      "blurb": "Rolling green farmland, six meals a day and a deep suspicion of anything that happens. The single most restful destination in fiction, provided nobody knocks on your door about a quest.",
+      "tags": ["pastoral", "food", "safe", "pipeweed"],
+      "climate": {
+        "tempHigh": [6, 7, 10, 14, 18, 21, 23, 22, 19, 14, 9, 6],
+        "tempLow":  [1, 1, 3, 5, 8, 11, 13, 13, 11, 7, 4, 2],
+        "rainDays": [12, 10, 11, 10, 9, 8, 8, 9, 9, 12, 13, 13],
+        "sunHours": [2, 3, 4, 6, 7, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [85, 83, 79, 75, 74, 74, 74, 76, 79, 84, 86, 86]
+      },
+      "crowd":      [25, 25, 32, 42, 52, 62, 68, 65, 72, 52, 35, 45],
+      "costTier": 1,
+      "r": {
+        "foodScene": 98, "feasting": 96, "ale": 98, "pipeweed": 100, "taverns": 92,
+        "hospitality": 96, "safety": 96, "comfort": 88, "familyFriendly": 98, "seniors": 92,
+        "localCulture": 92, "festivals": 88, "plains": 82, "rivers": 78, "scenery": 76,
+        "questing": 12, "combat": 3, "monsters": 3, "dragons": 0, "undead": 2, "magic": 15,
+        "cities": 8, "intrigue": 5, "warRisk": 92, "gettingBack": 95, "survivability": 98,
+        "libraries": 32, "luxury": 25, "wandering": 78, "romance": 62, "music": 78
+      },
+      "photos": ["Hobbiton Matamata New Zealand", "Hobbiton hobbit hole round door", "Green Dragon Inn Hobbiton", "Waikato rolling green farmland New Zealand", "English countryside cottage garden", "Barley field harvest"]
+    },
+    {
+      "id": "rivendell", "name": "Rivendell", "country": "ME", "region": "Eriador", "continent": "High Fantasy",
+      "type": "valley", "arch": "elven-refuge",
+      "blurb": "A hidden house in a river gorge where the food is good, the singing never quite stops and nobody is in any hurry. The finest convalescence in Middle-earth.",
+      "tags": ["elves", "healing", "waterfalls", "lore"],
+      "climate": {
+        "tempHigh": [8, 9, 13, 17, 21, 24, 26, 25, 22, 17, 12, 9],
+        "tempLow":  [2, 2, 4, 7, 11, 14, 16, 15, 12, 8, 5, 3],
+        "rainDays": [9, 8, 9, 8, 8, 7, 6, 6, 7, 9, 10, 10],
+        "sunHours": [3, 4, 5, 7, 8, 9, 9, 8, 7, 5, 3, 3],
+        "humidity": [78, 76, 74, 72, 71, 70, 69, 70, 73, 77, 79, 79]
+      },
+      "crowd":      [18, 18, 22, 28, 35, 42, 45, 42, 48, 38, 25, 22],
+      "costTier": 2,
+      "r": {
+        "healing": 100, "libraries": 96, "history": 98, "music": 100, "scenery": 96,
+        "rivers": 96, "architecture": 94, "artefacts": 92, "magic": 82, "wizards": 82,
+        "hospitality": 92, "comfort": 92, "safety": 94, "romance": 88, "seniors": 88,
+        "vegetarian": 92, "wine": 86, "foodScene": 84, "peoples": 72, "prophecy": 78,
+        "timeStrange": 72, "gettingThere": 22, "gettingBack": 88, "questing": 62,
+        "taverns": 32, "revels": 38, "gambling": 5, "markets": 18, "cities": 42
+      },
+      "photos": ["Kaitoke Regional Park New Zealand Rivendell", "Waterfall gorge forest New Zealand", "Autumn beech forest golden leaves", "Mountain river valley New Zealand", "Ornate carved stone cloister arch", "Misty forest waterfall"]
+    },
+    {
+      "id": "lothlorien", "name": "Lothlórien", "country": "ME", "region": "Wilderland", "continent": "High Fantasy",
+      "type": "forest", "arch": "elven-refuge",
+      "blurb": "Golden mallorn woods where time runs differently and everyone speaks in a way that makes you feel underdressed. You will leave with gifts and an unresolved feeling.",
+      "tags": ["elves", "golden wood", "time", "mystical"],
+      "climate": {
+        "tempHigh": [9, 10, 14, 18, 22, 25, 27, 26, 23, 18, 13, 10],
+        "tempLow":  [3, 3, 5, 8, 12, 15, 17, 16, 13, 9, 6, 4],
+        "rainDays": [10, 9, 10, 9, 8, 7, 6, 6, 8, 10, 11, 11],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 8, 6, 4, 3, 3],
+        "humidity": [80, 78, 76, 74, 73, 72, 71, 72, 75, 79, 81, 81]
+      },
+      "crowd":      [12, 12, 15, 20, 26, 32, 35, 32, 38, 28, 18, 15],
+      "costTier": 2,
+      "r": {
+        "forests": 100, "timeStrange": 96, "magic": 92, "scenery": 98, "music": 94,
+        "artefacts": 88, "prophecy": 82, "history": 92, "libraries": 78, "wizards": 78,
+        "safety": 92, "healing": 88, "vegetarian": 92, "romance": 86, "beasts": 82,
+        "hospitality": 68, "commonTongue": 48, "gettingThere": 18, "gettingBack": 72,
+        "taverns": 12, "revels": 25, "markets": 8, "cities": 32, "foodScene": 72,
+        "wandering": 48, "familyFriendly": 62
+      },
+      "photos": ["Golden autumn forest canopy", "Ancient beech forest New Zealand", "Sunlight through forest canopy gold", "Silver birch woodland", "Fangorn forest Fiordland New Zealand", "Mossy old growth forest"]
+    },
+    {
+      "id": "minas-tirith", "name": "Minas Tirith", "country": "ME", "region": "Gondor", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "Seven white tiers built into a mountainside, with a view across the Pelennor and a great deal of stairs. Magnificent, ceremonial, and periodically besieged.",
+      "tags": ["white city", "citadel", "views", "siege"],
+      "climate": {
+        "tempHigh": [12, 13, 16, 20, 25, 29, 32, 32, 28, 22, 17, 13],
+        "tempLow":  [4, 5, 7, 10, 14, 18, 21, 21, 18, 13, 9, 5],
+        "rainDays": [8, 7, 7, 6, 4, 2, 1, 1, 3, 6, 8, 9],
+        "sunHours": [4, 5, 6, 8, 9, 11, 12, 11, 9, 6, 5, 4],
+        "humidity": [72, 70, 67, 64, 60, 55, 52, 54, 60, 68, 72, 73]
+      },
+      "crowd":      [55, 55, 62, 68, 72, 75, 78, 78, 82, 72, 58, 62],
+      "costTier": 2,
+      "r": {
+        "cities": 98, "architecture": 96, "history": 94, "scenery": 88, "ruins": 62,
+        "libraries": 88, "intrigue": 82, "combat": 78, "questing": 78, "festivals": 78,
+        "markets": 72, "temples": 62, "mountains": 78, "warRisk": 22, "safety": 52,
+        "lawAndOrder": 78, "comfort": 68, "healing": 68, "commonTongue": 92,
+        "feasting": 72, "taverns": 68, "wine": 78, "luxury": 78, "seniors": 32,
+        "gettingThere": 68, "gettingBack": 68, "familyFriendly": 42
+      },
+      "photos": ["Mount Sunday Edoras New Zealand", "White stone citadel hillside", "Medieval walled city tiers", "Mont Saint Michel France", "Castle battlements view valley", "Southern Alps New Zealand plain"]
+    },
+    {
+      "id": "edoras", "name": "Edoras & Rohan", "country": "ME", "region": "Rohan", "continent": "High Fantasy",
+      "type": "region", "arch": "pastoral-idyll",
+      "blurb": "A golden hall on a lone hill above endless grass, and the best horses in the world. Come for the riding, stay because someone has taken your horse.",
+      "tags": ["horses", "grassland", "golden hall", "riding"],
+      "climate": {
+        "tempHigh": [4, 6, 10, 15, 20, 24, 26, 25, 21, 15, 9, 5],
+        "tempLow":  [-3, -2, 1, 5, 9, 13, 15, 14, 11, 6, 2, -1],
+        "rainDays": [8, 7, 8, 8, 8, 7, 6, 6, 7, 9, 9, 9],
+        "sunHours": [3, 4, 5, 7, 8, 9, 10, 9, 7, 5, 3, 2],
+        "humidity": [76, 73, 70, 67, 66, 65, 63, 65, 69, 74, 77, 78],
+        "snowDepth": [22, 18, 8, 1, 0, 0, 0, 0, 0, 0, 5, 15]
+      },
+      "crowd":      [22, 22, 30, 42, 55, 62, 65, 62, 58, 45, 30, 28],
+      "costTier": 1,
+      "r": {
+        "plains": 98, "beasts": 92, "scenery": 88, "mountains": 72, "wilderness": 78,
+        "localCulture": 92, "feasting": 88, "ale": 88, "music": 82, "festivals": 78,
+        "combat": 78, "questing": 72, "hiking": 78, "wandering": 88, "fellowship": 82,
+        "architecture": 62, "history": 72, "hospitality": 78, "warRisk": 32,
+        "cities": 32, "libraries": 22, "markets": 42, "luxury": 32, "magic": 18,
+        "comfort": 45, "familyFriendly": 55
+      },
+      "photos": ["Mount Sunday Canterbury New Zealand", "Golden tussock grassland New Zealand", "Horses galloping grassland", "Southern Alps braided river", "Viking longhouse thatched roof", "Rohan plains Ashburton New Zealand"]
+    },
+    {
+      "id": "moria", "name": "Moria", "country": "ME", "region": "Misty Mountains", "continent": "High Fantasy",
+      "type": "underground", "arch": "underworld",
+      "blurb": "The greatest dwarf-realm ever delved, now empty except for what moved in afterwards. Astonishing halls. Do not go alone, at night, or at all.",
+      "tags": ["dwarves", "mines", "halls", "very dangerous"],
+      "climate": {
+        "tempHigh": [8, 8, 8, 9, 9, 10, 10, 10, 9, 9, 8, 8],
+        "tempLow":  [4, 4, 4, 5, 5, 6, 6, 6, 5, 5, 4, 4],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78]
+      },
+      "crowd":      [5, 5, 5, 6, 8, 10, 12, 12, 10, 8, 6, 5],
+      "costTier": 1,
+      "r": {
+        "underground": 100, "architecture": 96, "ruins": 96, "history": 94, "artefacts": 88,
+        "monsters": 96, "undead": 78, "combat": 92, "questing": 92, "climbing": 82,
+        "peoples": 42, "libraries": 68, "magic": 68,
+        "safety": 2, "survivability": 12, "gettingBack": 15, "gettingThere": 22,
+        "comfort": 3, "healing": 5, "hospitality": 3, "foodScene": 2, "feasting": 2,
+        "taverns": 2, "ale": 3, "music": 5, "familyFriendly": 1, "seniors": 2,
+        "scenery": 72, "stargazing": 0, "warRisk": 15, "lawAndOrder": 3
+      },
+      "photos": ["Cave cathedral chamber stalactites", "Deep mine shaft columns", "Underground cavern lake", "Ancient stone pillars hall", "Mine tunnel darkness", "Waitomo caves New Zealand"]
+    },
+    {
+      "id": "mordor", "name": "Mordor", "country": "ME", "region": "Mordor", "continent": "High Fantasy",
+      "type": "region", "arch": "dark-realm",
+      "blurb": "A volcanic plain of ash and slag under a permanent overcast, ringed by mountains and administered with real commitment. Remarkably quiet in the off-season.",
+      "tags": ["volcanic", "ash", "hostile", "one ring"],
+      "climate": {
+        "tempHigh": [22, 24, 28, 33, 38, 42, 44, 43, 39, 32, 26, 22],
+        "tempLow":  [12, 13, 16, 20, 24, 28, 30, 29, 26, 21, 16, 13],
+        "rainDays": [1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        "sunHours": [1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1],
+        "humidity": [28, 26, 24, 20, 18, 15, 14, 15, 18, 22, 26, 28]
+      },
+      "crowd":      [12, 12, 15, 18, 22, 28, 32, 30, 25, 18, 14, 12],
+      "costTier": 1,
+      "r": {
+        "volcanic": 100, "desert": 88, "mountains": 88, "ruins": 78, "wilderness": 92,
+        "questing": 96, "monsters": 96, "combat": 94, "undead": 72, "artefacts": 96,
+        "prophecy": 88, "magic": 82, "adrenaline": 72, "underground": 82, "safety": 2, "survivability": 8, "gettingBack": 8, "gettingThere": 12,
+        "hospitality": 2, "comfort": 2, "healing": 3, "foodScene": 3, "feasting": 2,
+        "vegetarian": 8, "ale": 5, "taverns": 3, "music": 2, "revels": 2,
+        "familyFriendly": 0, "seniors": 0, "romance": 3, "luxury": 2,
+        "stargazing": 8, "scenery": 42, "beasts": 8, "lawAndOrder": 8, "warRisk": 3
+      },
+      "photos": ["Mount Ngauruhoe Tongariro New Zealand", "Volcanic ash plain desert", "Tongariro Alpine Crossing red crater", "Lava field black rock Iceland", "Volcano eruption night glow", "Desolate volcanic landscape"]
+    },
+    {
+      "id": "fangorn", "name": "Fangorn Forest", "country": "ME", "region": "Wilderland", "continent": "High Fantasy",
+      "type": "forest", "arch": "elven-refuge",
+      "blurb": "The oldest forest left standing, and it is watching you. Nothing here is in a hurry, including any conversation you may be invited into.",
+      "tags": ["ents", "ancient", "trees", "slow"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 15, 19, 22, 24, 23, 20, 15, 10, 8],
+        "tempLow":  [1, 2, 4, 7, 10, 13, 15, 14, 12, 8, 5, 2],
+        "rainDays": [14, 12, 13, 12, 11, 10, 9, 10, 11, 14, 15, 15],
+        "sunHours": [2, 2, 3, 4, 5, 6, 6, 5, 4, 3, 2, 2],
+        "humidity": [88, 86, 84, 82, 81, 80, 79, 80, 83, 87, 89, 89]
+      },
+      "crowd":      [6, 6, 8, 10, 14, 18, 20, 18, 16, 12, 8, 6],
+      "costTier": 1,
+      "r": {
+        "forests": 100, "wilderness": 96, "history": 96, "timeStrange": 82, "magic": 72,
+        "beasts": 82, "scenery": 88, "peoples": 55, "hiking": 78, "monsters": 62,
+        "localCulture": 78, "prophecy": 55, "rivers": 72,
+        "safety": 32, "gettingThere": 25, "gettingBack": 55, "commonTongue": 42,
+        "cities": 2, "markets": 2, "taverns": 2, "shopping": 0, "revels": 2,
+        "comfort": 18, "luxury": 5, "familyFriendly": 25, "seniors": 22,
+        "foodScene": 25, "ale": 12, "libraries": 15
+      },
+      "photos": ["Fiordland moss forest New Zealand", "Ancient gnarled trees forest", "Old growth rainforest moss", "Redwood forest tall trees", "Misty dark forest", "Twisted ancient oak tree"]
+    },
+    {
+      "id": "erebor", "name": "Erebor", "country": "ME", "region": "Wilderland", "continent": "High Fantasy",
+      "type": "underground", "arch": "high-city",
+      "blurb": "The Lonely Mountain — a dwarf kingdom of vaulted halls and a treasury that has caused two wars. Superb metalwork, excellent ale, occasional dragon.",
+      "tags": ["dwarves", "treasure", "smithing", "mountain"],
+      "climate": {
+        "tempHigh": [-2, 0, 5, 11, 16, 20, 22, 21, 17, 11, 4, 0],
+        "tempLow":  [-11, -9, -5, 0, 5, 9, 11, 10, 6, 1, -4, -9],
+        "rainDays": [9, 8, 8, 8, 9, 9, 8, 8, 8, 9, 10, 10],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 5, 4, 2, 2],
+        "humidity": [80, 77, 74, 70, 68, 68, 67, 69, 73, 78, 81, 82],
+        "snowDepth": [55, 58, 45, 20, 3, 0, 0, 0, 0, 5, 28, 48]
+      },
+      "crowd":      [42, 42, 48, 55, 62, 68, 70, 68, 65, 55, 45, 48],
+      "costTier": 3,
+      "r": {
+        "underground": 98, "architecture": 96, "cities": 88, "artefacts": 92, "history": 90,
+        "markets": 88, "shopping": 92, "mountains": 92, "ale": 96, "feasting": 92,
+        "dragons": 68, "combat": 68, "luxury": 92, "comfort": 72, "peoples": 45,
+        "libraries": 72, "music": 78, "taverns": 88, "festivals": 72,
+        "safety": 62, "hospitality": 55, "commonTongue": 68, "lawAndOrder": 78,
+        "vegetarian": 25, "stargazing": 42, "familyFriendly": 52, "wandering": 32,
+        "gettingThere": 45, "gettingBack": 72
+      },
+      "photos": ["Dwarven hall stone columns", "Mountain fortress gate", "Gold treasure hoard coins", "Blacksmith forge sparks", "Lonely mountain peak snow", "Underground great hall pillars"]
+    },
+    {
+      "id": "bree", "name": "Bree", "country": "ME", "region": "Eriador", "continent": "High Fantasy",
+      "type": "town", "arch": "pastoral-idyll",
+      "blurb": "A crossroads town where Men and Hobbits drink in the same room and everyone notices strangers. The Prancing Pony does a good pint and a poor job of keeping secrets.",
+      "tags": ["crossroads", "inn", "rangers", "rumours"],
+      "climate": {
+        "tempHigh": [5, 6, 9, 13, 17, 20, 22, 21, 18, 13, 8, 5],
+        "tempLow":  [0, 0, 2, 4, 7, 10, 12, 12, 10, 6, 3, 1],
+        "rainDays": [13, 11, 12, 11, 10, 9, 9, 10, 10, 13, 14, 14],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 1],
+        "humidity": [86, 84, 81, 78, 76, 76, 76, 78, 81, 85, 87, 87]
+      },
+      "crowd":      [45, 45, 50, 55, 60, 65, 68, 68, 65, 58, 48, 52],
+      "costTier": 1,
+      "r": {
+        "taverns": 96, "ale": 92, "music": 82, "hospitality": 72, "markets": 68,
+        "localCulture": 82, "peoples": 62, "intrigue": 68, "questing": 62,
+        "foodScene": 78, "feasting": 78, "pipeweed": 88, "comfort": 62,
+        "safety": 55, "lawAndOrder": 45, "commonTongue": 92, "wandering": 78,
+        "soloTravel": 72, "gettingThere": 82, "gettingBack": 88,
+        "cities": 25, "libraries": 15, "architecture": 42, "luxury": 22,
+        "magic": 12, "scenery": 55, "familyFriendly": 68
+      },
+      "photos": ["Medieval timber framed inn", "Old English coaching inn night", "Tudor village street", "Tavern interior fireplace", "Rainy cobbled village lane", "Village crossroads signpost"]
+    },
+    {
+      "id": "helms-deep", "name": "Helm's Deep", "country": "ME", "region": "Rohan", "continent": "High Fantasy",
+      "type": "fortress", "arch": "high-city",
+      "blurb": "A fortress wedged into a ravine that has never fallen while men defended it. Spectacular walls, dramatic acoustics, and a strong chance of being asked to hold a line.",
+      "tags": ["fortress", "siege", "ravine", "caves"],
+      "climate": {
+        "tempHigh": [3, 5, 9, 14, 19, 23, 25, 24, 20, 14, 8, 4],
+        "tempLow":  [-4, -3, 0, 4, 8, 12, 14, 13, 10, 5, 1, -2],
+        "rainDays": [9, 8, 9, 9, 8, 7, 6, 7, 8, 10, 10, 10],
+        "sunHours": [3, 4, 5, 6, 8, 9, 9, 9, 7, 5, 3, 2],
+        "humidity": [78, 75, 72, 69, 68, 67, 65, 67, 71, 76, 79, 80],
+        "snowDepth": [25, 20, 10, 2, 0, 0, 0, 0, 0, 0, 6, 18]
+      },
+      "crowd":      [28, 28, 32, 38, 45, 52, 55, 52, 48, 40, 32, 30],
+      "costTier": 1,
+      "r": {
+        "architecture": 88, "combat": 96, "mountains": 88, "underground": 82, "ruins": 55,
+        "history": 78, "questing": 78, "climbing": 72, "scenery": 82, "fellowship": 88,
+        "warRisk": 15, "safety": 32, "comfort": 35, "luxury": 15,
+        "taverns": 32, "ale": 55, "feasting": 55, "markets": 22, "shopping": 15,
+        "libraries": 18, "magic": 15, "familyFriendly": 22, "seniors": 15,
+        "gettingThere": 48, "gettingBack": 62, "hospitality": 58
+      },
+      "photos": ["Fortress wall ravine gorge", "Castle keep stone wall night", "Deep gorge cliff New Zealand", "Medieval fortress gate", "Glowworm cave New Zealand", "Stone battlements torches"]
+    },
+    {
+      "id": "grey-havens", "name": "The Grey Havens", "country": "ME", "region": "Lindon", "continent": "High Fantasy",
+      "type": "coast", "arch": "elven-refuge",
+      "blurb": "A quiet harbour at the end of everything, where white ships leave for the West. A one-way destination, and everyone knows it.",
+      "tags": ["harbour", "elves", "departure", "melancholy"],
+      "climate": {
+        "tempHigh": [8, 8, 10, 13, 16, 19, 21, 21, 19, 15, 11, 9],
+        "tempLow":  [3, 3, 4, 6, 9, 12, 14, 14, 12, 9, 6, 4],
+        "rainDays": [15, 13, 14, 12, 11, 10, 10, 11, 12, 15, 16, 16],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [86, 85, 84, 82, 81, 81, 82, 83, 84, 86, 87, 87],
+        "seaTemp":  [9, 9, 9, 10, 12, 14, 16, 17, 16, 14, 12, 10]
+      },
+      "crowd":      [10, 10, 12, 15, 18, 22, 24, 22, 20, 16, 12, 10],
+      "costTier": 2,
+      "r": {
+        "coast": 96, "sailing": 96, "scenery": 94, "music": 92, "history": 88,
+        "architecture": 82, "romance": 88, "timeStrange": 78, "magic": 72,
+        "prophecy": 72, "peoples": 42, "libraries": 62, "healing": 78,
+        "safety": 88, "comfort": 78, "hospitality": 72, "vegetarian": 88,
+        "gettingBack": 12, "gettingThere": 42, "commonTongue": 55,
+        "taverns": 18, "revels": 12, "gambling": 2, "markets": 15, "cities": 32,
+        "combat": 5, "monsters": 5, "familyFriendly": 42, "seniors": 82, "wandering": 32
+      },
+      "photos": ["Grey harbour misty sea dawn", "White sailing ship harbour", "Atlantic coast grey sea cliffs", "Stone quay harbour mist", "Sunset over ocean horizon", "Old harbour lighthouse fog"]
+    },
+    {
+      "id": "misty-mountains", "name": "The Misty Mountains", "country": "ME", "region": "Hithaeglir", "continent": "High Fantasy",
+      "type": "mountains", "arch": "frozen-waste",
+      "blurb": "A thousand-mile spine of snow, storm and things living under it. The passes are worse than they look, and they look bad.",
+      "tags": ["mountains", "passes", "snow", "goblins"],
+      "climate": {
+        "tempHigh": [-6, -5, -1, 4, 9, 14, 16, 15, 11, 5, -2, -5],
+        "tempLow":  [-16, -15, -11, -6, -1, 3, 6, 5, 2, -4, -11, -15],
+        "rainDays": [12, 11, 11, 10, 10, 9, 8, 9, 9, 11, 12, 13],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [80, 78, 76, 74, 73, 72, 71, 73, 76, 79, 81, 81],
+        "snowDepth": [92, 98, 88, 55, 22, 5, 2, 3, 12, 42, 72, 88]
+      },
+      "crowd":      [8, 8, 10, 15, 22, 32, 38, 35, 26, 16, 10, 8],
+      "costTier": 1,
+      "r": {
+        "mountains": 100, "climbing": 96, "hiking": 90, "wilderness": 96, "scenery": 94,
+        "underground": 78, "monsters": 82, "combat": 78, "adrenaline": 82, "stargazing": 88,
+        "questing": 82, "beasts": 55, "dragons": 32, "wandering": 88, "fellowship": 88,
+        "safety": 12, "survivability": 25, "comfort": 8, "healing": 12, "hospitality": 15,
+        "cities": 5, "markets": 3, "taverns": 3, "foodScene": 8, "luxury": 5,
+        "familyFriendly": 3, "seniors": 3, "gettingThere": 28, "gettingBack": 45,
+        "libraries": 5, "commonTongue": 32
+      },
+      "photos": ["Southern Alps New Zealand snow peaks", "Mountain pass blizzard", "Alpine ridge storm clouds", "Mount Cook New Zealand", "Snow covered mountain range", "Mountaineers snowy ridge"]
+    },
+    {
+      "id": "dead-marshes", "name": "The Dead Marshes", "country": "ME", "region": "Dagorlad", "continent": "High Fantasy",
+      "type": "wetland", "arch": "underworld",
+      "blurb": "A flooded battlefield where the faces of the fallen show under the water. Uniquely atmospheric. Do not follow the lights.",
+      "tags": ["marsh", "haunted", "bleak", "corpse candles"],
+      "climate": {
+        "tempHigh": [8, 9, 13, 18, 23, 27, 30, 29, 25, 19, 13, 9],
+        "tempLow":  [2, 3, 6, 10, 14, 18, 20, 20, 17, 12, 7, 3],
+        "rainDays": [16, 14, 15, 13, 12, 10, 9, 10, 12, 15, 17, 17],
+        "sunHours": [1, 2, 3, 4, 5, 6, 6, 6, 4, 3, 2, 1],
+        "humidity": [92, 91, 90, 88, 87, 86, 85, 86, 89, 91, 92, 92]
+      },
+      "crowd":      [3, 3, 4, 5, 6, 8, 9, 8, 7, 5, 4, 3],
+      "costTier": 1,
+      "r": {
+        "undead": 96, "wilderness": 88, "rivers": 68, "history": 78, "ruins": 62,
+        "questing": 82, "magic": 68, "prophecy": 55, "timeStrange": 55,
+        "safety": 5, "survivability": 18, "comfort": 2, "healing": 3, "hospitality": 2,
+        "scenery": 32, "beasts": 15, "foodScene": 2, "ale": 2, "taverns": 0,
+        "cities": 0, "markets": 0, "shopping": 0, "revels": 0, "music": 3,
+        "familyFriendly": 0, "seniors": 0, "romance": 5, "luxury": 0,
+        "gettingThere": 32, "gettingBack": 32, "lawAndOrder": 2
+      },
+      "photos": ["Misty marsh wetland dawn", "Peat bog reflection sky", "Swamp fog dead trees", "Will o wisp marsh light", "Flooded fenland grey", "Bog pool still water"]
+    }
+  ]
+}

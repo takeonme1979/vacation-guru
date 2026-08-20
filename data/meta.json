@@ -1,0 +1,27 @@
+{
+  "builtAt": "2026-08-20T12:53:33.942Z",
+  "schemaVersion": 1,
+  "destinations": 289,
+  "countries": 104,
+  "ratedCriteria": 79,
+  "totalCriteria": 88,
+  "dataPoints": 22831,
+  "photoTopics": 1734,
+  "byContinent": {
+    "Oceania": 17,
+    "Asia": 74,
+    "North America": 40,
+    "Europe": 100,
+    "Caribbean": 12,
+    "South America": 21,
+    "Africa": 25
+  },
+  "byType": {
+    "coast": 32,
+    "city": 117,
+    "region": 41,
+    "island": 65,
+    "mountains": 29,
+    "lake": 5
+  }
+}

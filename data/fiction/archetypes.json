@@ -1,0 +1,321 @@
+{
+  "_doc": "Place-SHAPE baselines for fictional realms. Merge order is archetype -> universe -> destination overrides.",
+  "schemaVersion": 1,
+
+  "archetypes": {
+    "pastoral-idyll": {
+      "label": "Green, peaceable farming country",
+      "r": {
+        "mountains": 20, "forests": 62, "plains": 78, "desert": 0, "islands": 10, "volcanic": 0,
+        "underground": 25, "scenery": 72, "wilderness": 32, "cities": 18, "ruins": 25, "stargazing": 68,
+        "coast": 15, "swimming": 45, "sailing": 15, "seaMonsters": 2, "rivers": 72,
+        "questing": 25, "hiking": 68, "climbing": 20, "combat": 8, "monsters": 8, "dragons": 2,
+        "undead": 3, "beasts": 58, "adrenaline": 15,
+        "magic": 20, "wizards": 22, "technology": 12, "spaceTravel": 0, "artefacts": 15,
+        "prophecy": 18, "timeStrange": 5,
+        "history": 45, "architecture": 52, "libraries": 25, "temples": 22, "localCulture": 82,
+        "peoples": 25, "markets": 55, "intrigue": 12, "festivals": 72,
+        "foodScene": 88, "feasting": 88, "vegetarian": 78, "ale": 88, "wine": 45, "pipeweed": 92,
+        "taverns": 88, "music": 72, "revels": 55, "gambling": 25, "shopping": 42,
+        "gettingThere": 72, "gettingBack": 92, "survivability": 95, "safety": 92, "lawAndOrder": 78,
+        "warRisk": 88, "hospitality": 92, "commonTongue": 88, "healing": 55, "comfort": 82,
+        "romance": 62, "familyFriendly": 92, "soloTravel": 78, "fellowship": 72, "luxury": 35,
+        "wandering": 72, "seniors": 88
+      }
+    },
+
+    "high-city": {
+      "label": "Great capital or citadel",
+      "r": {
+        "mountains": 25, "forests": 15, "plains": 30, "desert": 5, "islands": 8, "volcanic": 2,
+        "underground": 42, "scenery": 68, "wilderness": 5, "cities": 96, "ruins": 45, "stargazing": 22,
+        "coast": 35, "swimming": 30, "sailing": 45, "seaMonsters": 8, "rivers": 55,
+        "questing": 55, "hiking": 18, "climbing": 30, "combat": 55, "monsters": 18, "dragons": 12,
+        "undead": 12, "beasts": 15, "adrenaline": 35,
+        "magic": 45, "wizards": 55, "technology": 45, "spaceTravel": 0, "artefacts": 55,
+        "prophecy": 40, "timeStrange": 12,
+        "history": 88, "architecture": 92, "libraries": 78, "temples": 72, "localCulture": 72,
+        "peoples": 62, "markets": 88, "intrigue": 88, "festivals": 78,
+        "foodScene": 78, "feasting": 78, "vegetarian": 55, "ale": 72, "wine": 72, "pipeweed": 55,
+        "taverns": 82, "music": 78, "revels": 75, "gambling": 62, "shopping": 88,
+        "gettingThere": 78, "gettingBack": 78, "survivability": 88, "safety": 55, "lawAndOrder": 68,
+        "warRisk": 55, "hospitality": 55, "commonTongue": 78, "healing": 68, "comfort": 78,
+        "romance": 62, "familyFriendly": 52, "soloTravel": 68, "fellowship": 62, "luxury": 82,
+        "wandering": 42, "seniors": 58
+      }
+    },
+
+    "elven-refuge": {
+      "label": "Hidden sanctuary of an old, careful people",
+      "r": {
+        "mountains": 58, "forests": 88, "plains": 15, "desert": 0, "islands": 12, "volcanic": 0,
+        "underground": 15, "scenery": 96, "wilderness": 62, "cities": 45, "ruins": 42, "stargazing": 86,
+        "coast": 12, "swimming": 55, "sailing": 20, "seaMonsters": 2, "rivers": 88,
+        "questing": 45, "hiking": 72, "climbing": 42, "combat": 25, "monsters": 12, "dragons": 5,
+        "undead": 5, "beasts": 72, "adrenaline": 18,
+        "magic": 82, "wizards": 78, "technology": 22, "spaceTravel": 0, "artefacts": 78,
+        "prophecy": 62, "timeStrange": 68,
+        "history": 96, "architecture": 92, "libraries": 92, "temples": 55, "localCulture": 88,
+        "peoples": 45, "markets": 25, "intrigue": 45, "festivals": 62,
+        "foodScene": 78, "feasting": 68, "vegetarian": 92, "ale": 45, "wine": 82, "pipeweed": 45,
+        "taverns": 32, "music": 96, "revels": 42, "gambling": 8, "shopping": 32,
+        "gettingThere": 32, "gettingBack": 78, "survivability": 92, "safety": 92, "lawAndOrder": 82,
+        "warRisk": 82, "hospitality": 82, "commonTongue": 62, "healing": 92, "comfort": 88,
+        "romance": 88, "familyFriendly": 72, "soloTravel": 72, "fellowship": 68, "luxury": 78,
+        "wandering": 55, "seniors": 78
+      }
+    },
+
+    "dark-realm": {
+      "label": "Blighted land under a hostile power",
+      "r": {
+        "mountains": 78, "forests": 22, "plains": 42, "desert": 55, "islands": 5, "volcanic": 82,
+        "underground": 78, "scenery": 45, "wilderness": 78, "cities": 42, "ruins": 72, "stargazing": 22,
+        "coast": 8, "swimming": 5, "sailing": 8, "seaMonsters": 15, "rivers": 15,
+        "questing": 88, "hiking": 62, "climbing": 62, "combat": 92, "monsters": 92, "dragons": 45,
+        "undead": 72, "beasts": 25, "adrenaline": 62,
+        "magic": 78, "wizards": 55, "technology": 35, "spaceTravel": 0, "artefacts": 72,
+        "prophecy": 72, "timeStrange": 25,
+        "history": 68, "architecture": 55, "libraries": 22, "temples": 45, "localCulture": 32,
+        "peoples": 35, "markets": 18, "intrigue": 62, "festivals": 8,
+        "foodScene": 12, "feasting": 12, "vegetarian": 15, "ale": 22, "wine": 8, "pipeweed": 8,
+        "taverns": 15, "music": 8, "revels": 8, "gambling": 22, "shopping": 12,
+        "gettingThere": 25, "gettingBack": 18, "survivability": 22, "safety": 5, "lawAndOrder": 12,
+        "warRisk": 8, "hospitality": 8, "commonTongue": 32, "healing": 12, "comfort": 8,
+        "romance": 12, "familyFriendly": 2, "soloTravel": 15, "fellowship": 72, "luxury": 5,
+        "wandering": 45, "seniors": 3
+      }
+    },
+
+    "frozen-waste": {
+      "label": "Ice, tundra and things that live in it",
+      "r": {
+        "mountains": 82, "forests": 42, "plains": 55, "desert": 15, "islands": 25, "volcanic": 15,
+        "underground": 42, "scenery": 88, "wilderness": 96, "cities": 12, "ruins": 45, "stargazing": 92,
+        "coast": 45, "swimming": 5, "sailing": 32, "seaMonsters": 42, "rivers": 42,
+        "questing": 72, "hiking": 82, "climbing": 78, "combat": 62, "monsters": 72, "dragons": 25,
+        "undead": 55, "beasts": 72, "adrenaline": 68,
+        "magic": 55, "wizards": 32, "technology": 22, "spaceTravel": 0, "artefacts": 42,
+        "prophecy": 55, "timeStrange": 25,
+        "history": 55, "architecture": 32, "libraries": 15, "temples": 32, "localCulture": 72,
+        "peoples": 42, "markets": 22, "intrigue": 32, "festivals": 32,
+        "foodScene": 35, "feasting": 55, "vegetarian": 12, "ale": 55, "wine": 12, "pipeweed": 25,
+        "taverns": 42, "music": 45, "revels": 35, "gambling": 32, "shopping": 18,
+        "gettingThere": 25, "gettingBack": 45, "survivability": 32, "safety": 25, "lawAndOrder": 25,
+        "warRisk": 45, "hospitality": 52, "commonTongue": 42, "healing": 25, "comfort": 22,
+        "romance": 42, "familyFriendly": 12, "soloTravel": 32, "fellowship": 78, "luxury": 12,
+        "wandering": 82, "seniors": 8
+      }
+    },
+
+    "desert-world": {
+      "label": "Sand, sun and scarcity",
+      "r": {
+        "mountains": 45, "forests": 3, "plains": 45, "desert": 98, "islands": 2, "volcanic": 25,
+        "underground": 62, "scenery": 82, "wilderness": 88, "cities": 45, "ruins": 68, "stargazing": 96,
+        "coast": 5, "swimming": 5, "sailing": 5, "seaMonsters": 25, "rivers": 5,
+        "questing": 78, "hiking": 62, "climbing": 45, "combat": 72, "monsters": 68, "dragons": 22,
+        "undead": 32, "beasts": 45, "adrenaline": 72,
+        "magic": 45, "wizards": 42, "technology": 55, "spaceTravel": 25, "artefacts": 55,
+        "prophecy": 72, "timeStrange": 18,
+        "history": 78, "architecture": 62, "libraries": 32, "temples": 55, "localCulture": 88,
+        "peoples": 58, "markets": 78, "intrigue": 72, "festivals": 45,
+        "foodScene": 45, "feasting": 42, "vegetarian": 42, "ale": 32, "wine": 25, "pipeweed": 35,
+        "taverns": 62, "music": 55, "revels": 45, "gambling": 68, "shopping": 62,
+        "gettingThere": 45, "gettingBack": 52, "survivability": 32, "safety": 28, "lawAndOrder": 25,
+        "warRisk": 35, "hospitality": 55, "commonTongue": 48, "healing": 32, "comfort": 32,
+        "romance": 48, "familyFriendly": 18, "soloTravel": 38, "fellowship": 68, "luxury": 42,
+        "wandering": 78, "seniors": 15
+      }
+    },
+
+    "island-kingdom": {
+      "label": "Sea power, ports and archipelagos",
+      "r": {
+        "mountains": 42, "forests": 45, "plains": 25, "desert": 5, "islands": 96, "volcanic": 35,
+        "underground": 22, "scenery": 88, "wilderness": 45, "cities": 68, "ruins": 52, "stargazing": 72,
+        "coast": 96, "swimming": 82, "sailing": 98, "seaMonsters": 72, "rivers": 32,
+        "questing": 62, "hiking": 52, "climbing": 38, "combat": 62, "monsters": 45, "dragons": 22,
+        "undead": 22, "beasts": 52, "adrenaline": 58,
+        "magic": 48, "wizards": 42, "technology": 42, "spaceTravel": 0, "artefacts": 48,
+        "prophecy": 42, "timeStrange": 18,
+        "history": 72, "architecture": 72, "libraries": 52, "temples": 55, "localCulture": 78,
+        "peoples": 58, "markets": 78, "intrigue": 68, "festivals": 68,
+        "foodScene": 72, "feasting": 68, "vegetarian": 45, "ale": 68, "wine": 62, "pipeweed": 45,
+        "taverns": 82, "music": 72, "revels": 68, "gambling": 62, "shopping": 68,
+        "gettingThere": 55, "gettingBack": 65, "survivability": 78, "safety": 48, "lawAndOrder": 48,
+        "warRisk": 45, "hospitality": 62, "commonTongue": 62, "healing": 52, "comfort": 62,
+        "romance": 72, "familyFriendly": 48, "soloTravel": 58, "fellowship": 68, "luxury": 62,
+        "wandering": 62, "seniors": 45
+      }
+    },
+
+    "space-port": {
+      "label": "Spacefaring hub or station",
+      "r": {
+        "mountains": 5, "forests": 5, "plains": 5, "desert": 5, "islands": 0, "volcanic": 0,
+        "underground": 45, "scenery": 55, "wilderness": 2, "cities": 88, "ruins": 15, "stargazing": 98,
+        "coast": 2, "swimming": 15, "sailing": 5, "seaMonsters": 0, "rivers": 2,
+        "questing": 55, "hiking": 5, "climbing": 12, "combat": 55, "monsters": 25, "dragons": 2,
+        "undead": 5, "beasts": 18, "adrenaline": 62,
+        "magic": 8, "wizards": 8, "technology": 96, "spaceTravel": 98, "artefacts": 42,
+        "prophecy": 15, "timeStrange": 45,
+        "history": 45, "architecture": 72, "libraries": 62, "temples": 22, "localCulture": 52,
+        "peoples": 92, "markets": 82, "intrigue": 72, "festivals": 42,
+        "foodScene": 62, "feasting": 45, "vegetarian": 68, "ale": 62, "wine": 48, "pipeweed": 42,
+        "taverns": 82, "music": 62, "revels": 72, "gambling": 78, "shopping": 78,
+        "gettingThere": 72, "gettingBack": 78, "survivability": 72, "safety": 48, "lawAndOrder": 52,
+        "warRisk": 52, "hospitality": 48, "commonTongue": 72, "healing": 78, "comfort": 62,
+        "romance": 42, "familyFriendly": 42, "soloTravel": 68, "fellowship": 62, "luxury": 58,
+        "wandering": 55, "seniors": 45
+      }
+    },
+
+    "alien-world": {
+      "label": "Another planet, mostly unsettled",
+      "r": {
+        "mountains": 68, "forests": 55, "plains": 55, "desert": 45, "islands": 25, "volcanic": 45,
+        "underground": 55, "scenery": 92, "wilderness": 92, "cities": 22, "ruins": 42, "stargazing": 96,
+        "coast": 35, "swimming": 32, "sailing": 22, "seaMonsters": 45, "rivers": 45,
+        "questing": 68, "hiking": 78, "climbing": 62, "combat": 45, "monsters": 78, "dragons": 15,
+        "undead": 12, "beasts": 88, "adrenaline": 72,
+        "magic": 15, "wizards": 10, "technology": 72, "spaceTravel": 82, "artefacts": 42,
+        "prophecy": 22, "timeStrange": 35,
+        "history": 45, "architecture": 32, "libraries": 25, "temples": 25, "localCulture": 62,
+        "peoples": 62, "markets": 25, "intrigue": 35, "festivals": 28,
+        "foodScene": 32, "feasting": 25, "vegetarian": 52, "ale": 25, "wine": 18, "pipeweed": 22,
+        "taverns": 25, "music": 35, "revels": 25, "gambling": 25, "shopping": 22,
+        "gettingThere": 32, "gettingBack": 48, "survivability": 38, "safety": 32, "lawAndOrder": 22,
+        "warRisk": 55, "hospitality": 42, "commonTongue": 28, "healing": 42, "comfort": 32,
+        "romance": 52, "familyFriendly": 15, "soloTravel": 35, "fellowship": 78, "luxury": 22,
+        "wandering": 78, "seniors": 15
+      }
+    },
+
+    "wonderland": {
+      "label": "A place that does not obey the ordinary rules",
+      "r": {
+        "mountains": 25, "forests": 62, "plains": 35, "desert": 15, "islands": 22, "volcanic": 8,
+        "underground": 55, "scenery": 78, "wilderness": 35, "cities": 48, "ruins": 25, "stargazing": 55,
+        "coast": 25, "swimming": 32, "sailing": 25, "seaMonsters": 32, "rivers": 45,
+        "questing": 62, "hiking": 35, "climbing": 25, "combat": 32, "monsters": 55, "dragons": 32,
+        "undead": 22, "beasts": 68, "adrenaline": 55,
+        "magic": 92, "wizards": 52, "technology": 22, "spaceTravel": 5, "artefacts": 62,
+        "prophecy": 48, "timeStrange": 88,
+        "history": 42, "architecture": 68, "libraries": 45, "temples": 25, "localCulture": 92,
+        "peoples": 78, "markets": 62, "intrigue": 55, "festivals": 78,
+        "foodScene": 62, "feasting": 72, "vegetarian": 68, "ale": 55, "wine": 55, "pipeweed": 62,
+        "taverns": 62, "music": 68, "revels": 78, "gambling": 55, "shopping": 62,
+        "gettingThere": 35, "gettingBack": 42, "survivability": 62, "safety": 42, "lawAndOrder": 28,
+        "warRisk": 62, "hospitality": 58, "commonTongue": 72, "healing": 42, "comfort": 52,
+        "romance": 55, "familyFriendly": 62, "soloTravel": 55, "fellowship": 55, "luxury": 48,
+        "wandering": 62, "seniors": 42
+      }
+    },
+
+    "underworld": {
+      "label": "Beneath the world, or beyond death",
+      "r": {
+        "mountains": 42, "forests": 12, "plains": 15, "desert": 25, "islands": 8, "volcanic": 72,
+        "underground": 98, "scenery": 68, "wilderness": 62, "cities": 45, "ruins": 78, "stargazing": 5,
+        "coast": 12, "swimming": 8, "sailing": 25, "seaMonsters": 45, "rivers": 62,
+        "questing": 88, "hiking": 55, "climbing": 68, "combat": 68, "monsters": 88, "dragons": 32,
+        "undead": 96, "beasts": 25, "adrenaline": 55,
+        "magic": 88, "wizards": 55, "technology": 15, "spaceTravel": 0, "artefacts": 72,
+        "prophecy": 78, "timeStrange": 72,
+        "history": 82, "architecture": 68, "libraries": 45, "temples": 78, "localCulture": 55,
+        "peoples": 52, "markets": 32, "intrigue": 62, "festivals": 12,
+        "foodScene": 15, "feasting": 18, "vegetarian": 25, "ale": 25, "wine": 22, "pipeweed": 12,
+        "taverns": 25, "music": 32, "revels": 18, "gambling": 32, "shopping": 22,
+        "gettingThere": 22, "gettingBack": 12, "survivability": 25, "safety": 12, "lawAndOrder": 32,
+        "warRisk": 45, "hospitality": 22, "commonTongue": 42, "healing": 18, "comfort": 15,
+        "romance": 25, "familyFriendly": 3, "soloTravel": 22, "fellowship": 72, "luxury": 22,
+        "wandering": 52, "seniors": 5
+      }
+    },
+
+    "school-of-magic": {
+      "label": "An institution that teaches the impossible",
+      "r": {
+        "mountains": 32, "forests": 62, "plains": 25, "desert": 2, "islands": 15, "volcanic": 2,
+        "underground": 55, "scenery": 78, "wilderness": 32, "cities": 42, "ruins": 32, "stargazing": 72,
+        "coast": 22, "swimming": 42, "sailing": 22, "seaMonsters": 25, "rivers": 55,
+        "questing": 62, "hiking": 45, "climbing": 32, "combat": 42, "monsters": 55, "dragons": 42,
+        "undead": 35, "beasts": 62, "adrenaline": 62,
+        "magic": 96, "wizards": 98, "technology": 15, "spaceTravel": 0, "artefacts": 78,
+        "prophecy": 68, "timeStrange": 55,
+        "history": 82, "architecture": 92, "libraries": 96, "temples": 32, "localCulture": 82,
+        "peoples": 55, "markets": 55, "intrigue": 68, "festivals": 78,
+        "foodScene": 78, "feasting": 92, "vegetarian": 62, "ale": 55, "wine": 45, "pipeweed": 42,
+        "taverns": 62, "music": 55, "revels": 55, "gambling": 42, "shopping": 62,
+        "gettingThere": 42, "gettingBack": 72, "survivability": 78, "safety": 55, "lawAndOrder": 68,
+        "warRisk": 62, "hospitality": 68, "commonTongue": 88, "healing": 78, "comfort": 72,
+        "romance": 52, "familyFriendly": 68, "soloTravel": 55, "fellowship": 78, "luxury": 45,
+        "wandering": 35, "seniors": 42
+      }
+    },
+
+    "dystopia": {
+      "label": "A functioning society you would not want to live in",
+      "r": {
+        "mountains": 12, "forests": 15, "plains": 22, "desert": 25, "islands": 8, "volcanic": 5,
+        "underground": 52, "scenery": 35, "wilderness": 22, "cities": 92, "ruins": 45, "stargazing": 15,
+        "coast": 22, "swimming": 18, "sailing": 15, "seaMonsters": 8, "rivers": 25,
+        "questing": 55, "hiking": 12, "climbing": 25, "combat": 62, "monsters": 22, "dragons": 2,
+        "undead": 15, "beasts": 12, "adrenaline": 55,
+        "magic": 12, "wizards": 12, "technology": 88, "spaceTravel": 35, "artefacts": 32,
+        "prophecy": 25, "timeStrange": 32,
+        "history": 55, "architecture": 72, "libraries": 42, "temples": 22, "localCulture": 48,
+        "peoples": 52, "markets": 62, "intrigue": 92, "festivals": 32,
+        "foodScene": 42, "feasting": 25, "vegetarian": 55, "ale": 45, "wine": 35, "pipeweed": 35,
+        "taverns": 55, "music": 52, "revels": 52, "gambling": 62, "shopping": 62,
+        "gettingThere": 62, "gettingBack": 45, "survivability": 68, "safety": 28, "lawAndOrder": 45,
+        "warRisk": 32, "hospitality": 28, "commonTongue": 72, "healing": 55, "comfort": 45,
+        "romance": 32, "familyFriendly": 18, "soloTravel": 45, "fellowship": 55, "luxury": 45,
+        "wandering": 42, "seniors": 25
+      }
+    },
+
+    "lost-world": {
+      "label": "A place time forgot, full of large animals",
+      "r": {
+        "mountains": 62, "forests": 92, "plains": 55, "desert": 12, "islands": 62, "volcanic": 55,
+        "underground": 45, "scenery": 92, "wilderness": 96, "cities": 8, "ruins": 55, "stargazing": 78,
+        "coast": 55, "swimming": 42, "sailing": 42, "seaMonsters": 68, "rivers": 78,
+        "questing": 72, "hiking": 85, "climbing": 62, "combat": 55, "monsters": 88, "dragons": 35,
+        "undead": 8, "beasts": 96, "adrenaline": 82,
+        "magic": 25, "wizards": 15, "technology": 35, "spaceTravel": 5, "artefacts": 45,
+        "prophecy": 25, "timeStrange": 55,
+        "history": 55, "architecture": 25, "libraries": 12, "temples": 35, "localCulture": 55,
+        "peoples": 42, "markets": 15, "intrigue": 25, "festivals": 22,
+        "foodScene": 32, "feasting": 32, "vegetarian": 42, "ale": 22, "wine": 15, "pipeweed": 22,
+        "taverns": 18, "music": 28, "revels": 22, "gambling": 18, "shopping": 12,
+        "gettingThere": 22, "gettingBack": 38, "survivability": 42, "safety": 18, "lawAndOrder": 12,
+        "warRisk": 65, "hospitality": 38, "commonTongue": 32, "healing": 28, "comfort": 25,
+        "romance": 48, "familyFriendly": 12, "soloTravel": 32, "fellowship": 78, "luxury": 18,
+        "wandering": 88, "seniors": 10
+      }
+    },
+
+    "utopia": {
+      "label": "A society that has genuinely solved things",
+      "r": {
+        "mountains": 42, "forests": 62, "plains": 45, "desert": 12, "islands": 35, "volcanic": 8,
+        "underground": 25, "scenery": 88, "wilderness": 45, "cities": 82, "ruins": 22, "stargazing": 78,
+        "coast": 52, "swimming": 78, "sailing": 62, "seaMonsters": 5, "rivers": 62,
+        "questing": 22, "hiking": 72, "climbing": 45, "combat": 8, "monsters": 8, "dragons": 5,
+        "undead": 2, "beasts": 62, "adrenaline": 52,
+        "magic": 32, "wizards": 32, "technology": 78, "spaceTravel": 45, "artefacts": 32,
+        "prophecy": 22, "timeStrange": 25,
+        "history": 68, "architecture": 88, "libraries": 88, "temples": 45, "localCulture": 78,
+        "peoples": 72, "markets": 62, "intrigue": 22, "festivals": 82,
+        "foodScene": 88, "feasting": 78, "vegetarian": 92, "ale": 68, "wine": 78, "pipeweed": 62,
+        "taverns": 72, "music": 88, "revels": 68, "gambling": 32, "shopping": 62,
+        "gettingThere": 42, "gettingBack": 72, "survivability": 95, "safety": 95, "lawAndOrder": 88,
+        "warRisk": 92, "hospitality": 88, "commonTongue": 78, "healing": 92, "comfort": 92,
+        "romance": 82, "familyFriendly": 88, "soloTravel": 82, "fellowship": 68, "luxury": 78,
+        "wandering": 48, "seniors": 88
+      }
+    }
+  }
+}

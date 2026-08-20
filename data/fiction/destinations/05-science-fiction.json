@@ -1,0 +1,515 @@
+{
+  "_doc": "Science fiction — Star Trek, Dune, the Culture, Foundation, the Hitchhiker's Guide and assorted other planets.",
+  "destinations": [
+    {
+      "id": "vulcan", "name": "Vulcan", "country": "TREK", "region": "40 Eridani", "continent": "Science Fiction",
+      "type": "desert", "arch": "desert-world",
+      "blurb": "A hot, thin-aired desert world of monasteries and forge-red rock, populated by people who suppressed their emotions and have been quietly smug about it for two thousand years.",
+      "tags": ["logic", "monasteries", "thin air", "desert"],
+      "climate": {
+        "tempHigh": [38, 39, 41, 43, 45, 47, 48, 48, 46, 43, 40, 38],
+        "tempLow":  [18, 19, 21, 23, 25, 27, 28, 28, 26, 23, 20, 18],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [11, 11, 12, 12, 13, 13, 13, 13, 12, 12, 11, 11],
+        "humidity": [12, 11, 10, 9, 8, 7, 6, 7, 8, 9, 11, 12]
+      },
+      "crowd":      [28, 28, 30, 32, 34, 36, 38, 38, 35, 32, 30, 28],
+      "costTier": 2,
+      "r": {
+        "desert": 98, "mountains": 82, "scenery": 82, "stargazing": 92, "wilderness": 78,
+        "temples": 92, "libraries": 96, "history": 92, "architecture": 88, "localCulture": 96,
+        "cities": 68, "technology": 88, "healing": 88, "lawAndOrder": 96,
+        "safety": 88, "warRisk": 92, "vegetarian": 100, "hospitality": 42,
+        "survivability": 35, "comfort": 62, "commonTongue": 78,
+        "taverns": 5, "ale": 3, "wine": 8, "revels": 3, "gambling": 2,
+        "music": 62, "festivals": 32, "familyFriendly": 45, "seniors": 55,
+        "romance": 15, "combat": 45, "monsters": 42, "beasts": 55,
+        "forests": 2, "coast": 0, "swimming": 2, "rivers": 2
+      },
+      "photos": ["Red desert mountains Utah", "Wadi Rum red rock Jordan", "Desert monastery cliff", "Arid volcanic landscape red", "Ancient stone temple desert", "Red rock canyon spires"]
+    },
+    {
+      "id": "risa", "name": "Risa", "country": "TREK", "region": "Epsilon Ceti", "continent": "Science Fiction",
+      "type": "island", "arch": "utopia",
+      "blurb": "The Federation's pleasure planet, where the weather is engineered and hospitality is a formal discipline. The statuette means yes. It rains only when someone sabotages the control net.",
+      "tags": ["pleasure planet", "weather control", "beaches", "jamaharon"],
+      "climate": {
+        "tempHigh": [28, 28, 28, 29, 29, 29, 29, 29, 29, 28, 28, 28],
+        "tempLow":  [22, 22, 22, 22, 23, 23, 23, 23, 23, 22, 22, 22],
+        "rainDays": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "sunHours": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "humidity": [64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64],
+        "seaTemp":  [27, 27, 27, 27, 28, 28, 28, 28, 28, 27, 27, 27]
+      },
+      "crowd":      [72, 72, 74, 76, 78, 80, 82, 82, 78, 75, 73, 72],
+      "costTier": 3,
+      "r": {
+        "coast": 98, "swimming": 96, "islands": 92, "sailing": 88, "scenery": 92,
+        "luxury": 98, "comfort": 100, "hospitality": 100, "romance": 100,
+        "foodScene": 92, "feasting": 88, "wine": 88, "revels": 92, "music": 88,
+        "festivals": 88, "taverns": 82, "gambling": 72, "shopping": 78,
+        "healing": 96, "safety": 96, "warRisk": 96, "seniors": 88,
+        "familyFriendly": 62, "adrenaline": 72, "technology": 88,
+        "monsters": 2, "combat": 2, "undead": 0, "dragons": 0, "questing": 5,
+        "wilderness": 22, "prophecy": 5, "magic": 2
+      },
+      "photos": ["Tropical resort beach palms", "Bora Bora overwater bungalow", "Turquoise lagoon aerial", "Beach cocktail sunset", "Tropical infinity pool", "Palm beach white sand"]
+    },
+    {
+      "id": "qonos", "name": "Qo'noS", "country": "TREK", "region": "The Klingon Empire", "continent": "Science Fiction",
+      "type": "region", "arch": "dark-realm",
+      "blurb": "Red skies, volcanic ranges and a culture where dishonour is worse than death and the food is still moving. Superb opera. Bring your own knife.",
+      "tags": ["honour", "opera", "live food", "volcanic"],
+      "climate": {
+        "tempHigh": [14, 16, 20, 25, 30, 34, 36, 35, 30, 24, 18, 15],
+        "tempLow":  [-2, 0, 4, 9, 14, 18, 20, 19, 15, 9, 3, -1],
+        "rainDays": [10, 9, 9, 8, 7, 5, 4, 5, 7, 9, 10, 10],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 8, 7, 5, 4, 3],
+        "humidity": [62, 60, 57, 54, 50, 46, 44, 46, 51, 57, 61, 63],
+        "snowDepth": [28, 24, 12, 2, 0, 0, 0, 0, 0, 2, 14, 25]
+      },
+      "crowd":      [45, 45, 48, 52, 55, 58, 60, 58, 55, 50, 47, 45],
+      "costTier": 2,
+      "r": {
+        "volcanic": 88, "mountains": 92, "wilderness": 82, "scenery": 78,
+        "combat": 100, "monsters": 82, "beasts": 78, "questing": 82,
+        "localCulture": 96, "history": 88, "music": 92, "festivals": 82,
+        "feasting": 92, "ale": 92, "taverns": 82, "temples": 68, "architecture": 78,
+        "cities": 72, "technology": 82, "spaceTravel": 82,
+        "safety": 18, "lawAndOrder": 42, "hospitality": 38, "comfort": 32,
+        "healing": 45, "vegetarian": 3, "familyFriendly": 12, "seniors": 15,
+        "romance": 42, "luxury": 32, "libraries": 55, "warRisk": 22
+      },
+      "photos": ["Red sky volcanic landscape", "Jagged mountain range storm", "Volcanic crater red glow", "Brutalist fortress architecture", "Blood red sunset mountains", "Basalt columns dramatic"]
+    },
+    {
+      "id": "deep-space-nine", "name": "Deep Space Nine & Bajor", "country": "TREK", "region": "The Bajoran system", "continent": "Science Fiction",
+      "type": "station", "arch": "space-port",
+      "blurb": "A recovering world of terraced farms and monasteries, and the Cardassian station above it beside a stable wormhole. The best bar in the quadrant, run by the least trustworthy man in it.",
+      "tags": ["wormhole", "prophets", "station", "quarks"],
+      "climate": {
+        "tempHigh": [12, 13, 16, 19, 23, 26, 28, 28, 25, 20, 15, 12],
+        "tempLow":  [4, 5, 7, 10, 13, 17, 19, 19, 16, 12, 8, 5],
+        "rainDays": [9, 8, 8, 7, 6, 5, 4, 5, 6, 8, 9, 9],
+        "sunHours": [4, 5, 6, 7, 9, 10, 10, 9, 8, 6, 4, 4],
+        "humidity": [72, 70, 68, 66, 64, 62, 60, 62, 66, 70, 72, 73]
+      },
+      "crowd":      [58, 58, 60, 62, 64, 66, 68, 68, 65, 62, 60, 58],
+      "costTier": 2,
+      "r": {
+        "spaceTravel": 96, "technology": 92, "cities": 68, "peoples": 92,
+        "temples": 92, "prophecy": 96, "timeStrange": 88, "intrigue": 96,
+        "taverns": 92, "gambling": 92, "revels": 78, "markets": 82, "foodScene": 72,
+        "history": 88, "architecture": 72, "localCulture": 88, "libraries": 78,
+        "plains": 68, "mountains": 62, "scenery": 72, "healing": 88,
+        "safety": 45, "lawAndOrder": 58, "hospitality": 68, "comfort": 62,
+        "warRisk": 32, "combat": 68, "familyFriendly": 45, "seniors": 55
+      },
+      "photos": ["Space station docking ring", "Terraced hillside farms Asia", "Spiral galaxy Hubble", "Monastery cliffside temple", "Airport terminal curved atrium", "Istanbul Grand Bazaar interior"]
+    },
+
+    {
+      "id": "arrakis", "name": "Arrakis", "country": "DUNE", "region": "Canopus", "continent": "Science Fiction",
+      "type": "desert", "arch": "desert-world",
+      "blurb": "The only source of the spice, and the harshest inhabited world known. Water is currency, worms are three hundred metres long, and the Fremen do not need your help.",
+      "tags": ["spice", "sandworms", "fremen", "water discipline"],
+      "climate": {
+        "tempHigh": [42, 44, 48, 53, 58, 62, 64, 64, 59, 52, 46, 42],
+        "tempLow":  [8, 9, 12, 16, 20, 24, 26, 26, 22, 17, 12, 9],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [13, 13, 14, 14, 14, 14, 14, 14, 14, 13, 13, 13],
+        "humidity": [4, 4, 3, 2, 2, 2, 2, 2, 2, 3, 3, 4]
+      },
+      "crowd":      [22, 22, 24, 26, 28, 30, 32, 32, 29, 26, 24, 22],
+      "costTier": 2,
+      "r": {
+        "desert": 100, "stargazing": 100, "wilderness": 96, "scenery": 92,
+        "monsters": 96, "underground": 88, "questing": 92, "combat": 92,
+        "prophecy": 100, "localCulture": 96, "artefacts": 78, "markets": 68,
+        "intrigue": 96, "history": 78, "technology": 72, "spaceTravel": 78,
+        "survivability": 8, "safety": 12, "comfort": 8, "healing": 42,
+        "hospitality": 32, "foodScene": 22, "vegetarian": 42, "ale": 5,
+        "wine": 5, "taverns": 22, "revels": 12, "music": 32, "festivals": 32,
+        "familyFriendly": 3, "seniors": 5, "romance": 42, "luxury": 32,
+        "forests": 0, "coast": 0, "swimming": 0, "rivers": 0, "beasts": 32
+      },
+      "photos": ["Sand dunes vast desert aerial", "Rub al Khali empty quarter", "Desert sandstorm horizon", "Sandstone canyon narrow", "Namib desert dunes sunrise", "Desert nomad tent night stars"]
+    },
+    {
+      "id": "caladan", "name": "Caladan", "country": "DUNE", "region": "Delta Pavonis", "continent": "Science Fiction",
+      "type": "coast", "arch": "island-kingdom",
+      "blurb": "A green ocean world of rain, cliffs and fishing fleets — the Atreides homeworld, and everything Arrakis is not. Leaving it was the mistake.",
+      "tags": ["ocean", "rain", "atreides", "fishing"],
+      "climate": {
+        "tempHigh": [9, 10, 12, 15, 18, 21, 23, 23, 20, 16, 12, 10],
+        "tempLow":  [4, 4, 6, 8, 11, 14, 16, 16, 14, 11, 7, 5],
+        "rainDays": [19, 17, 18, 15, 13, 11, 10, 11, 13, 17, 19, 20],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [88, 87, 86, 84, 82, 81, 80, 81, 84, 87, 89, 89],
+        "seaTemp":  [10, 9, 10, 11, 13, 15, 17, 18, 17, 15, 12, 11]
+      },
+      "crowd":      [22, 22, 26, 32, 38, 44, 48, 46, 40, 32, 25, 22],
+      "costTier": 2,
+      "r": {
+        "coast": 96, "sailing": 92, "seaMonsters": 62, "islands": 72, "scenery": 92,
+        "rivers": 72, "plains": 62, "swimming": 45, "architecture": 82,
+        "history": 78, "localCulture": 88, "foodScene": 82, "feasting": 78,
+        "wine": 72, "music": 78, "hospitality": 82, "comfort": 78,
+        "safety": 68, "lawAndOrder": 78, "healing": 68, "intrigue": 78,
+        "familyFriendly": 68, "seniors": 72, "romance": 82, "luxury": 78,
+        "cities": 55, "libraries": 68, "combat": 55, "wandering": 62
+      },
+      "photos": ["Rainy Atlantic coast cliffs", "Fishing boats harbour storm", "Norwegian coastal village rain", "Sea cliffs green Ireland", "Castle by grey sea", "Fishing nets harbour wooden"]
+    },
+    {
+      "id": "giedi-prime", "name": "Giedi Prime", "country": "DUNE", "region": "Ophiuchi B", "continent": "Science Fiction",
+      "type": "industrial", "arch": "dystopia",
+      "blurb": "A stripped industrial world under a black sun, seat of House Harkonnen. The architecture is brutal, the entertainments are worse, and there is no natural light anywhere.",
+      "tags": ["harkonnen", "industrial", "black sun", "cruelty"],
+      "climate": {
+        "tempHigh": [11, 12, 14, 17, 20, 23, 25, 25, 22, 18, 14, 12],
+        "tempLow":  [2, 2, 4, 6, 9, 12, 14, 14, 12, 8, 5, 3],
+        "rainDays": [16, 15, 15, 14, 13, 12, 12, 12, 13, 15, 16, 16],
+        "sunHours": [1, 1, 2, 2, 3, 3, 3, 3, 2, 2, 1, 1],
+        "humidity": [82, 81, 80, 79, 78, 77, 76, 77, 79, 81, 82, 82]
+      },
+      "crowd":      [72, 72, 72, 74, 74, 76, 76, 76, 75, 73, 72, 72],
+      "costTier": 2,
+      "r": {
+        "cities": 88, "architecture": 78, "technology": 82, "spaceTravel": 78,
+        "intrigue": 92, "combat": 78, "underground": 78, "markets": 62,
+        "gambling": 72, "revels": 62, "history": 55,
+        "safety": 8, "lawAndOrder": 25, "hospitality": 5, "comfort": 25,
+        "healing": 42, "warRisk": 32, "foodScene": 32, "vegetarian": 22,
+        "familyFriendly": 0, "seniors": 8, "romance": 5, "luxury": 55,
+        "scenery": 15, "wilderness": 12, "forests": 5, "plains": 12,
+        "coast": 12, "swimming": 5, "stargazing": 12, "beasts": 8,
+        "libraries": 35, "music": 42, "festivals": 32, "temples": 12
+      },
+      "photos": ["Brutalist industrial architecture", "Oil refinery night industrial", "Black monolithic architecture", "Industrial smokestacks dark", "Concrete brutalist tower", "Steel mill furnace glow"]
+    },
+    {
+      "id": "trantor", "name": "Trantor", "country": "FOUN", "region": "The Galactic Core", "continent": "Science Fiction",
+      "type": "city", "arch": "space-port",
+      "blurb": "Forty billion people under a continuous metal dome covering the whole planet, and the Imperial Library where a mathematician worked out exactly how it all ends.",
+      "tags": ["imperial capital", "domed", "library", "psychohistory"],
+      "climate": {
+        "tempHigh": [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+        "tempLow":  [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52]
+      },
+      "crowd":      [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96],
+      "costTier": 2,
+      "r": {
+        "cities": 100, "libraries": 100, "architecture": 88, "technology": 92,
+        "spaceTravel": 92, "history": 96, "intrigue": 96, "prophecy": 96,
+        "underground": 92, "markets": 82, "shopping": 78, "peoples": 62,
+        "foodScene": 62, "comfort": 68, "healing": 82,
+        "lawAndOrder": 68, "safety": 45, "commonTongue": 92,
+        "wilderness": 0, "forests": 0, "mountains": 0, "coast": 0, "plains": 0,
+        "swimming": 5, "rivers": 0, "beasts": 2, "stargazing": 0, "scenery": 32,
+        "hiking": 2, "climbing": 5, "familyFriendly": 42, "seniors": 55, "magic": 0
+      },
+      "photos": ["Endless city dome interior", "Vast library reading room", "Metal megastructure interior", "Derinkuyu underground city Cappadocia", "Eden Project biomes aerial", "Imperial palace grand hall"]
+    },
+
+    {
+      "id": "culture-orbital", "name": "A Culture Orbital", "country": "CUL", "region": "Anywhere it likes", "continent": "Science Fiction",
+      "type": "megastructure", "arch": "utopia",
+      "blurb": "A ring three million kilometres across, spun for gravity, with engineered weather and no laws, money, work or death. Ask the Mind politely and it will build you a continent.",
+      "tags": ["post-scarcity", "minds", "no money", "hedonism"],
+      "climate": {
+        "tempHigh": [19, 20, 22, 24, 26, 28, 29, 28, 26, 24, 21, 19],
+        "tempLow":  [11, 12, 13, 15, 17, 19, 20, 20, 18, 16, 13, 12],
+        "rainDays": [5, 5, 5, 4, 4, 3, 3, 3, 4, 5, 5, 5],
+        "sunHours": [7, 8, 8, 9, 10, 11, 11, 10, 9, 8, 7, 7],
+        "humidity": [62, 62, 61, 60, 60, 59, 58, 59, 60, 61, 62, 62],
+        "seaTemp":  [20, 20, 21, 22, 24, 25, 26, 26, 25, 23, 22, 21]
+      },
+      "crowd":      [48, 48, 50, 52, 55, 58, 60, 58, 55, 52, 50, 48],
+      "costTier": 1,
+      "r": {
+        "technology": 100, "spaceTravel": 100, "comfort": 100, "healing": 100,
+        "safety": 96, "survivability": 96, "hospitality": 92, "luxury": 96,
+        "foodScene": 96, "feasting": 92, "wine": 92, "ale": 88, "vegetarian": 96,
+        "revels": 96, "music": 92, "festivals": 92, "taverns": 88, "gambling": 72,
+        "libraries": 96, "peoples": 92, "scenery": 92, "coast": 88, "swimming": 92,
+        "mountains": 82, "forests": 82, "adrenaline": 88, "stargazing": 96,
+        "seniors": 92, "familyFriendly": 88, "romance": 88, "lawAndOrder": 78,
+        "warRisk": 92, "intrigue": 68, "combat": 12, "monsters": 5, "prophecy": 8
+      },
+      "photos": ["Curved terraced valley aerial", "Eden Project biome interior Cornwall", "Utopian city garden future", "Curved horizon habitat interior", "Futuristic terraced garden city", "Space habitat interior landscape"]
+    },
+    {
+      "id": "magrathea", "name": "Magrathea", "country": "HHG", "region": "Horsehead Nebula", "continent": "Science Fiction",
+      "type": "planet", "arch": "space-port",
+      "blurb": "A planet that manufactures other planets to order, currently in recession and asleep for five million years. Ask to see the fjords. They won an award.",
+      "tags": ["planet factory", "fjords", "mice", "recession"],
+      "climate": {
+        "tempHigh": [-2, -1, 2, 6, 10, 14, 16, 15, 12, 7, 2, -1],
+        "tempLow":  [-12, -11, -8, -4, 0, 4, 6, 6, 3, -2, -7, -11],
+        "rainDays": [14, 13, 13, 12, 11, 10, 10, 11, 12, 13, 14, 14],
+        "sunHours": [1, 2, 3, 5, 6, 7, 6, 5, 4, 2, 1, 1],
+        "humidity": [80, 79, 78, 76, 75, 74, 74, 75, 77, 79, 80, 81],
+        "snowDepth": [42, 45, 35, 15, 2, 0, 0, 0, 0, 8, 25, 38]
+      },
+      "crowd":      [3, 3, 4, 5, 6, 8, 9, 8, 6, 5, 4, 3],
+      "costTier": 3,
+      "r": {
+        "technology": 96, "spaceTravel": 88, "underground": 92, "architecture": 82,
+        "scenery": 96, "mountains": 88, "coast": 88, "wilderness": 88,
+        "history": 82, "libraries": 62, "artefacts": 72, "timeStrange": 78,
+        "stargazing": 82, "questing": 62, "intrigue": 68,
+        "safety": 32, "comfort": 32, "hospitality": 12, "healing": 55,
+        "foodScene": 15, "taverns": 8, "ale": 8, "markets": 8, "shopping": 12,
+        "revels": 5, "music": 12, "festivals": 3, "familyFriendly": 15,
+        "seniors": 22, "romance": 32, "luxury": 62, "beasts": 22, "monsters": 32
+      },
+      "photos": ["Norwegian fjord aerial", "Geirangerfjord Norway", "Factory floor vast industrial", "Frozen fjord winter Norway", "Shipyard dry dock construction", "Underground cavern machinery"]
+    },
+    {
+      "id": "milliways", "name": "Milliways", "country": "HHG", "region": "The end of time", "continent": "Science Fiction",
+      "type": "restaurant", "arch": "space-port",
+      "blurb": "The Restaurant at the End of the Universe, where you dine while the cosmos collapses outside the window, twice nightly. Pay by depositing a penny in your own era.",
+      "tags": ["fine dining", "apocalypse", "time travel", "the dish of the day"],
+      "climate": {
+        "tempHigh": [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+        "tempLow":  [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45]
+      },
+      "crowd":      [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88],
+      "costTier": 3,
+      "r": {
+        "foodScene": 100, "feasting": 96, "wine": 96, "ale": 82, "luxury": 96,
+        "comfort": 88, "music": 88, "revels": 82, "peoples": 96, "timeStrange": 100,
+        "technology": 92, "spaceTravel": 88, "stargazing": 100, "scenery": 92,
+        "intrigue": 72, "hospitality": 78, "healing": 62, "commonTongue": 92,
+        "safety": 68, "lawAndOrder": 55, "romance": 72, "seniors": 78,
+        "vegetarian": 45, "gambling": 68, "shopping": 42, "markets": 22,
+        "wilderness": 0, "forests": 0, "mountains": 0, "coast": 0, "swimming": 0,
+        "rivers": 0, "beasts": 12, "hiking": 0, "climbing": 0, "familyFriendly": 32,
+        "questing": 12, "combat": 15, "magic": 12
+      },
+      "photos": ["Fine dining restaurant elegant", "Grand dining room chandelier", "Crab Nebula supernova remnant", "White tablecloth restaurant window", "Cosmic explosion nebula", "Art deco restaurant interior"]
+    },
+
+    {
+      "id": "pandora", "name": "Pandora", "country": "PAN", "region": "Alpha Centauri A", "continent": "Science Fiction",
+      "type": "jungle", "arch": "alien-world",
+      "blurb": "A moon of bioluminescent rainforest, floating mountains and a planet-wide neural network. The air will kill you in four minutes and the wildlife will get there first.",
+      "tags": ["bioluminescent", "floating mountains", "navi", "unbreathable"],
+      "climate": {
+        "tempHigh": [29, 29, 30, 30, 31, 31, 31, 31, 31, 30, 30, 29],
+        "tempLow":  [22, 22, 22, 23, 23, 24, 24, 24, 23, 23, 22, 22],
+        "rainDays": [19, 18, 18, 17, 16, 15, 14, 15, 16, 18, 19, 19],
+        "sunHours": [4, 4, 5, 5, 6, 6, 6, 6, 5, 5, 4, 4],
+        "humidity": [90, 90, 89, 88, 87, 86, 85, 86, 87, 89, 90, 90]
+      },
+      "crowd":      [12, 12, 14, 16, 18, 20, 22, 22, 19, 16, 14, 12],
+      "costTier": 3,
+      "r": {
+        "forests": 100, "wilderness": 98, "scenery": 100, "beasts": 96, "monsters": 88,
+        "mountains": 92, "rivers": 88, "climbing": 88, "adrenaline": 96,
+        "stargazing": 96, "magic": 62, "localCulture": 92, "peoples": 55,
+        "technology": 78, "spaceTravel": 78, "hiking": 88, "questing": 82,
+        "survivability": 5, "safety": 12, "comfort": 25, "healing": 55,
+        "hospitality": 42, "commonTongue": 25, "foodScene": 22, "vegetarian": 62,
+        "cities": 12, "markets": 5, "shopping": 3, "taverns": 3, "revels": 12,
+        "familyFriendly": 3, "seniors": 5, "luxury": 32, "libraries": 15
+      },
+      "photos": ["Zhangjiajie floating mountains China", "Bioluminescent forest night", "Tianzi mountains pillars China", "Glowing fungi forest floor", "Rainforest waterfall mist", "Bioluminescent plankton blue"]
+    },
+    {
+      "id": "ringworld", "name": "The Ringworld", "country": "RING", "region": "Around a G-type star", "continent": "Science Fiction",
+      "type": "megastructure", "arch": "lost-world",
+      "blurb": "A band of engineered land circling a star, with three million times Earth's surface area and a civilisation that has forgotten how any of it works.",
+      "tags": ["megastructure", "vast", "collapsed", "shadow squares"],
+      "climate": {
+        "tempHigh": [22, 22, 23, 24, 26, 28, 29, 29, 27, 25, 23, 22],
+        "tempLow":  [12, 12, 13, 14, 16, 18, 20, 20, 18, 16, 14, 12],
+        "rainDays": [8, 8, 8, 7, 7, 6, 6, 6, 7, 8, 8, 8],
+        "sunHours": [8, 8, 8, 9, 9, 10, 10, 10, 9, 9, 8, 8],
+        "humidity": [68, 68, 67, 66, 65, 64, 63, 64, 65, 66, 67, 68],
+        "seaTemp":  [20, 20, 21, 22, 23, 25, 26, 26, 25, 23, 22, 21]
+      },
+      "crowd":      [25, 25, 26, 28, 30, 32, 34, 34, 31, 29, 27, 25],
+      "costTier": 2,
+      "r": {
+        "technology": 96, "spaceTravel": 82, "scenery": 96, "wilderness": 96,
+        "plains": 96, "mountains": 82, "coast": 82, "rivers": 82, "forests": 78,
+        "ruins": 92, "artefacts": 88, "peoples": 92, "wandering": 96,
+        "stargazing": 92, "questing": 88, "history": 82, "adrenaline": 72,
+        "safety": 32, "lawAndOrder": 18, "hospitality": 42, "comfort": 45,
+        "commonTongue": 32, "healing": 62, "cities": 52, "markets": 45,
+        "libraries": 42, "familyFriendly": 22, "seniors": 25, "gettingBack": 22
+      },
+      "photos": ["Curved Earth horizon from orbit", "Curved landscape horizon sky", "Vast plains to horizon", "Alien landscape wide valley", "Saturn rings Cassini", "Endless grassland aerial"]
+    },
+    {
+      "id": "solaris", "name": "Solaris Station", "country": "SOL", "region": "A binary system", "continent": "Science Fiction",
+      "type": "station", "arch": "alien-world",
+      "blurb": "A research station above an ocean that is a single thinking organism. It has read your mind and built something from it, and it is waiting outside your door.",
+      "tags": ["thinking ocean", "psychology", "visitors", "unsettling"],
+      "climate": {
+        "tempHigh": [19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19],
+        "tempLow":  [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7],
+        "humidity": [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55],
+        "seaTemp":  [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+      },
+      "crowd":      [4, 4, 4, 4, 5, 5, 5, 5, 5, 4, 4, 4],
+      "costTier": 3,
+      "r": {
+        "technology": 88, "spaceTravel": 88, "scenery": 88, "libraries": 82,
+        "timeStrange": 82, "undead": 78, "prophecy": 55, "stargazing": 78,
+        "soloTravel": 42, "intrigue": 72, "history": 55,
+        "safety": 32, "survivability": 55, "comfort": 45, "healing": 55,
+        "hospitality": 12, "commonTongue": 68, "foodScene": 22,
+        "cities": 2, "markets": 0, "shopping": 0, "taverns": 0, "ale": 5,
+        "revels": 0, "music": 15, "festivals": 0, "familyFriendly": 0,
+        "seniors": 12, "romance": 32, "luxury": 42, "wilderness": 42,
+        "forests": 0, "mountains": 0, "beasts": 5, "monsters": 42, "combat": 12
+      },
+      "photos": ["Alien ocean surface swirling", "Space station interior window", "Strange ocean waves colour", "Empty corridor station eerie", "Plasma cloud formation", "Isolated research station"]
+    },
+    {
+      "id": "the-citadel", "name": "The Citadel", "country": "ME3", "region": "The Serpent Nebula", "continent": "Science Fiction",
+      "type": "station", "arch": "space-port",
+      "blurb": "A vast station of five arms and a central ring, capital of galactic civilisation, built by someone nobody has met. The wards go on for kilometres and the bureaucracy is worse.",
+      "tags": ["galactic capital", "council", "wards", "bureaucracy"],
+      "climate": {
+        "tempHigh": [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+        "tempLow":  [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "humidity": [48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48]
+      },
+      "crowd":      [82, 82, 82, 82, 84, 84, 84, 84, 83, 82, 82, 82],
+      "costTier": 2,
+      "r": {
+        "cities": 96, "architecture": 92, "technology": 96, "spaceTravel": 96,
+        "peoples": 100, "markets": 88, "shopping": 88, "intrigue": 92,
+        "libraries": 82, "taverns": 82, "revels": 82, "gambling": 78,
+        "foodScene": 78, "music": 78, "healing": 88, "lawAndOrder": 68,
+        "artefacts": 68, "history": 72, "combat": 72, "stargazing": 88,
+        "safety": 55, "comfort": 78, "hospitality": 55, "commonTongue": 88,
+        "wilderness": 0, "forests": 8, "mountains": 0, "coast": 0, "swimming": 12,
+        "rivers": 2, "beasts": 5, "familyFriendly": 45, "seniors": 55, "magic": 8
+      },
+      "photos": ["International Space Station orbit", "Futuristic station interior atrium", "Futuristic mall atrium interior", "Glass elevator shaft atrium", "Modern parliament chamber circular", "Shinjuku neon street night"]
+    },
+    {
+      "id": "helium-barsoom", "name": "Helium, Barsoom", "country": "BAR", "region": "The dead sea bottoms", "continent": "Science Fiction",
+      "type": "city", "arch": "desert-world",
+      "blurb": "Twin cities of scarlet and yellow towers above the ochre moss of a dying Mars, with flying ships, four-armed green warriors and a princess who needs no rescuing.",
+      "tags": ["mars", "airships", "swordplay", "dying world"],
+      "climate": {
+        "tempHigh": [18, 20, 24, 28, 32, 35, 36, 35, 31, 26, 21, 18],
+        "tempLow":  [-22, -20, -16, -11, -6, -2, 0, -1, -5, -11, -17, -21],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [10, 10, 11, 11, 12, 12, 12, 12, 11, 11, 10, 10],
+        "humidity": [8, 8, 7, 6, 5, 4, 4, 5, 6, 7, 8, 8]
+      },
+      "crowd":      [42, 42, 45, 48, 50, 52, 54, 54, 51, 48, 45, 42],
+      "costTier": 2,
+      "r": {
+        "desert": 96, "cities": 88, "architecture": 92, "ruins": 88, "stargazing": 96,
+        "combat": 96, "adrenaline": 92, "questing": 88, "monsters": 82, "beasts": 78,
+        "technology": 68, "spaceTravel": 55, "history": 88, "artefacts": 78,
+        "intrigue": 88, "romance": 88, "localCulture": 88, "peoples": 68,
+        "markets": 62, "feasting": 62, "libraries": 55,
+        "survivability": 32, "safety": 22, "comfort": 42, "healing": 55,
+        "hospitality": 45, "commonTongue": 32, "familyFriendly": 15, "seniors": 18,
+        "forests": 0, "coast": 2, "swimming": 3, "rivers": 2, "wilderness": 88
+      },
+      "photos": ["Mars surface red landscape", "Ochre desert dead sea bed", "Airship illustration antique", "Red planet canyon", "Shibam mud brick towers Yemen", "Barsoom John Carter illustration"]
+    },
+    {
+      "id": "isla-nublar", "name": "Isla Nublar", "country": "JP", "region": "Off Costa Rica", "continent": "Science Fiction",
+      "type": "island", "arch": "lost-world",
+      "blurb": "A tropical island theme park stocked with de-extincted dinosaurs and a security system with a single point of failure. Spared no expense. Should have spared some.",
+      "tags": ["dinosaurs", "theme park", "cloning", "hubris"],
+      "climate": {
+        "tempHigh": [28, 29, 30, 30, 30, 29, 29, 29, 29, 29, 28, 28],
+        "tempLow":  [21, 21, 22, 23, 23, 23, 22, 22, 22, 22, 22, 21],
+        "rainDays": [8, 6, 6, 9, 17, 20, 18, 19, 21, 22, 15, 10],
+        "sunHours": [7, 8, 8, 7, 5, 4, 5, 5, 4, 4, 5, 6],
+        "humidity": [82, 80, 79, 82, 86, 88, 87, 88, 89, 89, 86, 84],
+        "seaTemp":  [27, 27, 28, 29, 29, 29, 29, 29, 29, 29, 28, 28]
+      },
+      "crowd":      [45, 45, 42, 38, 32, 28, 32, 32, 26, 25, 32, 42],
+      "costTier": 3,
+      "r": {
+        "beasts": 100, "monsters": 92, "forests": 92, "islands": 88, "wilderness": 82,
+        "scenery": 88, "coast": 78, "swimming": 62, "adrenaline": 92,
+        "technology": 88, "rivers": 72, "hiking": 68, "climbing": 55,
+        "luxury": 82, "comfort": 72, "foodScene": 68, "familyFriendly": 22,
+        "safety": 12, "lawAndOrder": 32, "healing": 55, "hospitality": 68,
+        "commonTongue": 92, "markets": 32, "shopping": 55, "libraries": 42,
+        "taverns": 32, "revels": 25, "seniors": 25, "gettingBack": 32,
+        "magic": 0, "dragons": 25, "undead": 0, "questing": 62
+      },
+      "photos": ["Kualoa Ranch Hawaii valley", "Tropical island jungle aerial", "Hawaii jungle waterfall Kauai", "Dinosaur fossil skeleton museum", "Electric fence jungle", "Costa Rica rainforest mist"]
+    },
+    {
+      "id": "gallifrey", "name": "Gallifrey", "country": "WHO", "region": "The constellation of Kasterborous", "continent": "Science Fiction",
+      "type": "region", "arch": "high-city",
+      "blurb": "Orange skies, silver-leaved trees and a glass-domed Citadel of Time Lords who watch everything and interfere with nothing, allegedly. Twin suns rise in the south.",
+      "tags": ["time lords", "citadel", "orange sky", "silver trees"],
+      "climate": {
+        "tempHigh": [18, 19, 21, 23, 25, 27, 28, 28, 26, 23, 20, 18],
+        "tempLow":  [8, 9, 10, 12, 14, 16, 18, 18, 16, 13, 10, 9],
+        "rainDays": [4, 4, 4, 3, 3, 2, 2, 2, 3, 4, 4, 4],
+        "sunHours": [9, 9, 10, 10, 11, 11, 11, 11, 10, 10, 9, 9],
+        "humidity": [42, 42, 41, 40, 39, 38, 37, 38, 39, 40, 41, 42]
+      },
+      "crowd":      [35, 35, 36, 38, 40, 42, 44, 44, 41, 38, 36, 35]
+      ,
+      "costTier": 3,
+      "r": {
+        "timeStrange": 100, "technology": 96, "spaceTravel": 96, "libraries": 96,
+        "cities": 88, "architecture": 96, "history": 96, "scenery": 92,
+        "stargazing": 96, "prophecy": 88, "artefacts": 88, "intrigue": 92,
+        "plains": 78, "mountains": 78, "forests": 72, "wilderness": 68,
+        "lawAndOrder": 78, "safety": 68, "healing": 92, "comfort": 82,
+        "hospitality": 32, "luxury": 88, "commonTongue": 92,
+        "taverns": 15, "ale": 12, "revels": 22, "gambling": 12, "markets": 25,
+        "familyFriendly": 32, "seniors": 62, "combat": 42, "monsters": 45
+      },
+      "photos": ["Orange sky alien landscape", "Silver birch forest sunlight", "Glass dome roof architecture", "Red grass field sunset", "Observatory dome mountain summit", "Twin suns alien horizon"]
+    },
+    {
+      "id": "holy-terra", "name": "Holy Terra", "country": "W40K", "region": "The Sol System", "continent": "Science Fiction",
+      "type": "city", "arch": "dystopia",
+      "blurb": "A planet-wide hive city built over the bones of Earth, centred on a golden throne that consumes a thousand psykers a day. Pilgrimage of a lifetime; do not look up.",
+      "tags": ["imperium", "hive city", "pilgrimage", "grim"],
+      "climate": {
+        "tempHigh": [34, 35, 36, 37, 38, 39, 40, 40, 39, 37, 35, 34],
+        "tempLow":  [22, 22, 23, 24, 25, 26, 27, 27, 26, 25, 23, 22],
+        "rainDays": [2, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 2],
+        "sunHours": [3, 3, 3, 3, 4, 4, 4, 4, 4, 3, 3, 3],
+        "humidity": [32, 32, 31, 30, 29, 28, 28, 28, 29, 30, 31, 32]
+      },
+      "crowd":      [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98],
+      "costTier": 2,
+      "r": {
+        "cities": 100, "architecture": 96, "temples": 100, "history": 96,
+        "underground": 92, "technology": 78, "spaceTravel": 88, "artefacts": 88,
+        "intrigue": 92, "combat": 88, "libraries": 78, "ruins": 72,
+        "magic": 78, "prophecy": 82, "undead": 62, "festivals": 68,
+        "safety": 12, "lawAndOrder": 55, "hospitality": 8, "comfort": 12,
+        "healing": 25, "survivability": 32, "foodScene": 15, "vegetarian": 15,
+        "ale": 25, "taverns": 32, "revels": 15, "markets": 55, "shopping": 32,
+        "familyFriendly": 2, "seniors": 8, "romance": 5, "luxury": 42,
+        "wilderness": 0, "forests": 0, "coast": 0, "swimming": 0, "beasts": 3,
+        "scenery": 32, "stargazing": 12
+      },
+      "photos": ["Gothic cathedral vast interior", "Brutalist concrete housing estate", "Gold throne room ornate", "Industrial gothic architecture", "Endless city towers smog", "Cathedral spires dark sky"]
+    }
+  ]
+}

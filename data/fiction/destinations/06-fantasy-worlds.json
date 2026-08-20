@@ -1,0 +1,547 @@
+{
+  "_doc": "Fantasy worlds — Discworld, Narnia, the Wizarding World, Earthsea and the Hyborian Age.",
+  "destinations": [
+    {
+      "id": "ankh-morpork", "name": "Ankh-Morpork", "country": "DISC", "region": "The Sto Plains", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "The Discworld's great, filthy, thriving city, built on the silt of a river too thick to drink and too thin to plough. Run by a tyrant who is very good at it, and by guilds for everything including thieves.",
+      "about": "A million people, several dozen species and one Patrician. The Guild of Thieves is licensed and issues receipts; the Watch has grown from three drunks to a functioning police force; the Post Office works again. Pratchett used it to write about every civic institution in turn — the mint, the newspaper, the railway, the opera house — which is why the city changes measurably from book to book. Nothing in it is safe and everything in it is funny.",
+      "tags": ["guilds", "the watch", "unhygienic river", "the patrician"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 15, 19, 22, 24, 24, 20, 16, 11, 8],
+        "tempLow":  [1, 1, 3, 5, 9, 12, 14, 14, 12, 8, 4, 2],
+        "rainDays": [15, 13, 13, 12, 11, 10, 9, 10, 11, 14, 15, 16],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [86, 85, 83, 80, 77, 74, 72, 74, 78, 83, 86, 87]
+      },
+      "crowd":      [82, 82, 84, 86, 88, 90, 92, 92, 88, 86, 84, 82],
+      "costTier": 2,
+      "r": {
+        "cities": 100, "markets": 100, "architecture": 82, "history": 88,
+        "intrigue": 100, "peoples": 96, "libraries": 92, "wizards": 92, "magic": 82,
+        "taverns": 96, "ale": 96, "foodScene": 78, "feasting": 72, "festivals": 88,
+        "music": 82, "revels": 88, "gambling": 82, "shopping": 88, "temples": 88,
+        "combat": 72, "undead": 68, "monsters": 62, "artefacts": 72, "questing": 72,
+        "technology": 42, "rivers": 42, "localCulture": 96, "wandering": 68,
+        "safety": 38, "lawAndOrder": 55, "hospitality": 62, "comfort": 52,
+        "healing": 42, "vegetarian": 45, "wine": 62, "luxury": 55,
+        "familyFriendly": 42, "seniors": 45, "soloTravel": 72, "romance": 52,
+        "scenery": 32, "wilderness": 5, "mountains": 2, "forests": 5, "coast": 22,
+        "swimming": 2, "stargazing": 15, "dragons": 45
+      },
+      "photos": ["Medieval city rooftops crowded", "Prague old town aerial", "Narrow medieval alley night", "Tannery river medieval city", "Guildhall facade ornate", "Foggy river city bridge"]
+    },
+    {
+      "id": "unseen-university", "name": "Unseen University", "country": "DISC", "region": "Ankh-Morpork", "continent": "High Fantasy",
+      "type": "campus", "arch": "school-of-magic",
+      "blurb": "The Discworld's premier college of magic, whose faculty long ago worked out that the surest way to avoid magical catastrophe is an enormous lunch. The Library is not shelved in three dimensions.",
+      "about": "Wizards here are not adventurers; they are academics with very large hats and a serious interest in the dinner rota. The Librarian was turned into an orangutan and declined to be turned back, since it improved his reach. L-space — the principle that all libraries are connected because sufficient books warp reality — is the university's one genuinely dangerous idea, and it is guarded by an ape with a banana.",
+      "tags": ["wizards", "l-space", "enormous lunches", "the librarian"],
+      "climate": {
+        "tempHigh": [8, 9, 12, 16, 20, 23, 25, 25, 21, 17, 12, 9],
+        "tempLow":  [2, 2, 4, 6, 10, 13, 15, 15, 13, 9, 5, 3],
+        "rainDays": [14, 12, 12, 11, 10, 9, 8, 9, 10, 13, 14, 15],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [84, 83, 81, 78, 75, 72, 70, 72, 76, 81, 84, 85]
+      },
+      "crowd":      [55, 55, 58, 60, 62, 45, 30, 30, 58, 62, 60, 55],
+      "costTier": 2,
+      "r": {
+        "libraries": 100, "wizards": 100, "magic": 96, "architecture": 92,
+        "history": 88, "artefacts": 92, "temples": 45, "cities": 78,
+        "feasting": 100, "foodScene": 88, "ale": 92, "wine": 78, "vegetarian": 32,
+        "timeStrange": 82, "prophecy": 62, "intrigue": 82, "undead": 55,
+        "monsters": 62, "scenery": 62, "peoples": 68, "localCulture": 92,
+        "comfort": 82, "hospitality": 68, "safety": 55, "lawAndOrder": 62,
+        "healing": 55, "seniors": 88, "soloTravel": 62, "familyFriendly": 32,
+        "wilderness": 0, "mountains": 0, "forests": 5, "coast": 0, "swimming": 12,
+        "combat": 15, "adrenaline": 32, "questing": 45, "wandering": 22
+      },
+      "photos": ["Oxford college quadrangle", "Bodleian library interior Oxford", "Cambridge dining hall long tables", "Gothic university tower", "Ancient library ladders books", "Cloister arches stone college"]
+    },
+    {
+      "id": "lancre", "name": "The Kingdom of Lancre", "country": "DISC", "region": "The Ramtops", "continent": "High Fantasy",
+      "type": "highland", "arch": "pastoral-idyll",
+      "blurb": "A small mountain kingdom you could walk across in a day, mostly vertical, held together by three witches who would strongly prefer you did not need them.",
+      "about": "Lancre sits on a magical fault line, which is why the local witches — Granny Weatherwax, Nanny Ogg and whoever is currently third — spend most of their time keeping things out rather than letting things in. Witchcraft here is not spells but headology: knowing exactly what people already believe and using it on them. Excellent cheese. Do not accept a drink from Nanny Ogg.",
+      "tags": ["witches", "headology", "vertical farming", "the fault line"],
+      "climate": {
+        "tempHigh": [3, 4, 7, 11, 15, 18, 20, 20, 16, 12, 7, 4],
+        "tempLow":  [-3, -3, -1, 2, 6, 9, 11, 11, 8, 5, 1, -2],
+        "rainDays": [16, 14, 14, 13, 12, 11, 10, 11, 13, 15, 16, 17],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [88, 87, 85, 83, 81, 79, 78, 79, 82, 86, 88, 89],
+        "snowDepth": [45, 42, 25, 8, 0, 0, 0, 0, 0, 4, 20, 40]
+      },
+      "crowd":      [12, 12, 14, 18, 24, 30, 34, 32, 26, 20, 15, 12],
+      "costTier": 1,
+      "r": {
+        "mountains": 92, "forests": 82, "scenery": 92, "wilderness": 78,
+        "hiking": 88, "climbing": 78, "rivers": 72, "wandering": 82,
+        "magic": 88, "wizards": 68, "monsters": 55, "beasts": 62, "undead": 45,
+        "localCulture": 92, "festivals": 78, "ale": 78, "taverns": 72,
+        "feasting": 68, "foodScene": 55, "music": 72, "history": 62,
+        "temples": 42, "stargazing": 82, "prophecy": 55,
+        "hospitality": 82, "comfort": 45, "safety": 62, "lawAndOrder": 72,
+        "healing": 78, "seniors": 62, "familyFriendly": 62, "soloTravel": 68,
+        "cities": 8, "markets": 32, "shopping": 15, "luxury": 15, "gambling": 22,
+        "technology": 8, "coast": 0, "swimming": 22, "dragons": 55
+      },
+      "photos": ["Carpathian mountain village", "Steep alpine hamlet mist", "Stone cottage moorland", "Mountain pasture wildflowers", "Highland stone circle", "Misty forested mountain valley"]
+    },
+    {
+      "id": "uberwald", "name": "Überwald", "country": "DISC", "region": "The far continent", "continent": "High Fantasy",
+      "type": "forest", "arch": "dark-realm",
+      "blurb": "Dark forests, castles on crags and a vampire aristocracy going through a difficult modernisation. The werewolves are the reasonable ones. Mind the dwarf mines.",
+      "about": "Every Central European gothic cliché, gathered in one place and then quietly interrogated. The vampires have formed a temperance league and wear black ribbons; the werewolves have a monarchy; the dwarfs are having an argument about whether female dwarfs are allowed to admit they exist. Pratchett's point is always that the monsters are managing, and the trouble comes from anyone insisting they go back to being monsters.",
+      "tags": ["vampires", "werewolves", "black ribboners", "dwarf mines"],
+      "climate": {
+        "tempHigh": [-1, 1, 6, 12, 17, 20, 22, 22, 17, 11, 5, 1],
+        "tempLow":  [-9, -8, -4, 1, 6, 9, 11, 11, 7, 3, -2, -7],
+        "rainDays": [13, 12, 12, 12, 12, 12, 11, 11, 11, 12, 14, 14],
+        "sunHours": [1, 2, 4, 5, 6, 7, 7, 6, 5, 3, 1, 1],
+        "humidity": [88, 86, 82, 78, 76, 76, 75, 77, 81, 85, 88, 89],
+        "snowDepth": [65, 62, 40, 12, 0, 0, 0, 0, 0, 5, 30, 58]
+      },
+      "crowd":      [15, 15, 16, 18, 22, 26, 28, 28, 24, 20, 17, 15],
+      "costTier": 2,
+      "r": {
+        "forests": 96, "mountains": 88, "underground": 92, "scenery": 88,
+        "wilderness": 88, "ruins": 82, "architecture": 82, "history": 82,
+        "undead": 100, "monsters": 88, "beasts": 82, "magic": 78, "intrigue": 88,
+        "combat": 72, "questing": 78, "artefacts": 78, "hiking": 72,
+        "temples": 62, "localCulture": 82, "ale": 72, "taverns": 68,
+        "markets": 45, "luxury": 62, "wine": 68, "stargazing": 68,
+        "safety": 28, "lawAndOrder": 38, "hospitality": 45, "comfort": 42,
+        "healing": 38, "familyFriendly": 15, "seniors": 25, "romance": 62,
+        "coast": 0, "swimming": 8, "cities": 32, "technology": 22, "dragons": 55
+      },
+      "photos": ["Gothic castle crag forest", "Bran Castle Transylvania", "Dark pine forest fog", "Carpathian mountains mist", "Gothic castle courtyard night", "Snowy forest track dusk"]
+    },
+    {
+      "id": "deaths-domain", "name": "Death's Domain", "country": "DISC", "region": "Outside the world", "continent": "High Fantasy",
+      "type": "garden", "arch": "underworld",
+      "blurb": "A black garden with black flowers and a very large house, kept by an anthropomorphic personification who is trying hard to understand people and getting closer than most people manage.",
+      "about": "Death built it himself, working from descriptions, which is why the perspective is slightly wrong everywhere and the fish in the pond are made of bone. He keeps a white horse called Binky, an adopted daughter, a granddaughter and an increasingly complicated interest in humanity. He is not cruel. He is simply the last thing you see, and he takes the job seriously. THERE IS NO JUSTICE. THERE IS JUST ME.",
+      "tags": ["black garden", "binky", "hourglasses", "no justice"],
+      "climate": {
+        "tempHigh": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "tempLow":  [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
+      },
+      "crowd":      [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+      "costTier": 1,
+      "r": {
+        "magic": 96, "timeStrange": 100, "undead": 92, "scenery": 78,
+        "architecture": 78, "artefacts": 88, "prophecy": 82, "libraries": 88,
+        "stargazing": 62, "wandering": 55, "history": 68, "beasts": 42,
+        "hospitality": 78, "comfort": 68, "safety": 88, "lawAndOrder": 100,
+        "soloTravel": 92, "seniors": 82, "healing": 8, "gettingBack": 32,
+        "cities": 0, "markets": 0, "shopping": 0, "taverns": 0, "ale": 5,
+        "wine": 5, "revels": 0, "festivals": 0, "gambling": 32, "music": 15,
+        "foodScene": 22, "feasting": 25, "vegetarian": 55, "romance": 22,
+        "familyFriendly": 22, "combat": 5, "monsters": 15, "adrenaline": 5,
+        "forests": 12, "mountains": 0, "coast": 0, "swimming": 5, "rivers": 12,
+        "wilderness": 15, "luxury": 45, "fellowship": 15
+      },
+      "photos": ["Black garden topiary night", "Formal garden monochrome", "Grandfather clocks collection", "Dark manor house interior", "Wheat field scythe", "White horse dark stable"]
+    },
+
+    {
+      "id": "cair-paravel", "name": "Cair Paravel", "country": "NAR", "region": "The eastern shore", "continent": "High Fantasy",
+      "type": "castle", "arch": "island-kingdom",
+      "blurb": "The seat of Narnia's kings and queens, on a headland above the eastern sea, with four thrones that stay empty until the right four people arrive.",
+      "about": "The castle stands where the Great River meets the ocean, and by the later books it is a ruin on an island, because Narnian time runs at a speed nobody in England can predict. Its throne room is the point of the whole country: Narnia is repeatedly saved by children who are told, and eventually believe, that they were always meant to be royalty. Feasts here are described at length and are the best argument for going.",
+      "tags": ["four thrones", "the eastern sea", "feasts", "talking animals"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 15, 19, 22, 24, 24, 21, 16, 11, 8],
+        "tempLow":  [2, 2, 4, 7, 11, 14, 16, 16, 13, 9, 5, 3],
+        "rainDays": [12, 10, 10, 9, 8, 7, 6, 7, 8, 11, 12, 13],
+        "sunHours": [3, 4, 5, 7, 8, 9, 9, 8, 7, 5, 3, 3],
+        "humidity": [80, 78, 76, 73, 71, 69, 68, 69, 72, 76, 79, 81],
+        "seaTemp":  [9, 8, 9, 11, 14, 17, 19, 20, 18, 15, 12, 10]
+      },
+      "crowd":      [22, 22, 26, 32, 40, 48, 52, 50, 42, 34, 26, 22],
+      "costTier": 2,
+      "r": {
+        "coast": 92, "sailing": 88, "islands": 78, "scenery": 92, "swimming": 55,
+        "architecture": 88, "history": 88, "ruins": 62, "temples": 45,
+        "feasting": 96, "foodScene": 82, "wine": 78, "ale": 72, "music": 88,
+        "festivals": 88, "revels": 82, "beasts": 96, "peoples": 88, "magic": 88,
+        "prophecy": 92, "timeStrange": 96, "questing": 82, "artefacts": 82,
+        "combat": 62, "fellowship": 92, "romance": 72, "localCulture": 88,
+        "hospitality": 92, "comfort": 78, "safety": 78, "lawAndOrder": 88,
+        "healing": 72, "familyFriendly": 92, "seniors": 72, "luxury": 78,
+        "cities": 42, "markets": 55, "technology": 5, "dragons": 45, "wandering": 72
+      },
+      "photos": ["Castle headland sea cliff", "Dunluce Castle Antrim coast", "Medieval great hall feast table", "Sea castle sunrise", "Coastal ruins grass cliff", "Throne room stone castle"]
+    },
+    {
+      "id": "lantern-waste", "name": "The Lantern Waste", "country": "NAR", "region": "Western Narnia", "continent": "High Fantasy",
+      "type": "forest", "arch": "pastoral-idyll",
+      "blurb": "A snow-covered wood where a working iron lamp-post stands in the middle of nowhere, marking the place where a wardrobe lets out. Always winter here, until it isn't.",
+      "about": "The lamp-post grew from a fragment of London street furniture dropped into new-made soil at the creation of the world, which is the sort of joke Lewis enjoyed. This is the first Narnia anyone sees, and for a hundred years it was held under the White Witch's permanent winter with no Christmas. The thaw, when it comes, is described more vividly than any battle in the series.",
+      "tags": ["lamp-post", "always winter", "the wardrobe", "fauns"],
+      "climate": {
+        "tempHigh": [-2, -1, 2, 6, 12, 17, 19, 19, 14, 8, 2, -1],
+        "tempLow":  [-11, -10, -7, -2, 3, 7, 9, 9, 5, 0, -5, -9],
+        "rainDays": [13, 12, 12, 11, 10, 9, 9, 9, 10, 12, 13, 14],
+        "sunHours": [1, 2, 4, 5, 7, 8, 8, 7, 5, 3, 1, 1],
+        "humidity": [88, 87, 85, 82, 78, 75, 74, 76, 80, 85, 88, 89],
+        "snowDepth": [80, 78, 60, 30, 5, 0, 0, 0, 0, 10, 45, 72]
+      },
+      "crowd":      [8, 8, 10, 12, 16, 20, 22, 22, 18, 14, 10, 8],
+      "costTier": 1,
+      "r": {
+        "forests": 96, "wilderness": 88, "scenery": 92, "hiking": 82,
+        "wandering": 92, "beasts": 92, "magic": 92, "timeStrange": 96,
+        "prophecy": 82, "stargazing": 78, "questing": 82, "artefacts": 55,
+        "monsters": 45, "combat": 45, "fellowship": 78, "localCulture": 68,
+        "hospitality": 72, "comfort": 42, "safety": 55, "healing": 55,
+        "familyFriendly": 88, "soloTravel": 62, "seniors": 42, "romance": 68,
+        "cities": 0, "markets": 5, "shopping": 0, "taverns": 12, "ale": 22,
+        "wine": 22, "gambling": 0, "luxury": 12, "technology": 2, "coast": 12,
+        "swimming": 12, "mountains": 45, "rivers": 62, "temples": 22
+      },
+      "photos": ["Snowy forest lamp post", "Winter woodland snow path", "Victorian lamppost snow", "Frozen forest sunbeams", "Snow covered fir trees", "Winter forest clearing light"]
+    },
+    {
+      "id": "charn", "name": "Charn", "country": "NAR", "region": "A dead world", "continent": "High Fantasy",
+      "type": "ruins", "arch": "dark-realm",
+      "blurb": "A vast dead city under a swollen red sun, where a queen spoke one word and every living thing but herself stopped. There is a bell in the hall, and a sign inviting you to ring it.",
+      "about": "Lewis's coldest invention: an entire world killed by a single act of spite, preserved as an empty museum of its own greatness. The temptation of the bell — a hand-lettered verse daring the reader to strike it — is one of children's literature's best traps, because you already know the child will, and so would you. Jadis leaves Charn and becomes the White Witch of Narnia.",
+      "tags": ["the deplorable word", "dead sun", "the bell", "jadis"],
+      "climate": {
+        "tempHigh": [4, 4, 5, 5, 6, 6, 6, 6, 5, 5, 4, 4],
+        "tempLow":  [-14, -14, -13, -12, -11, -11, -11, -11, -12, -13, -14, -14],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "humidity": [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+      },
+      "crowd":      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "costTier": 1,
+      "r": {
+        "ruins": 100, "architecture": 96, "history": 96, "cities": 78,
+        "artefacts": 88, "magic": 88, "undead": 78, "scenery": 78,
+        "wilderness": 82, "stargazing": 68, "libraries": 55, "timeStrange": 82,
+        "prophecy": 62, "soloTravel": 55, "wandering": 68, "intrigue": 45,
+        "safety": 15, "survivability": 12, "hospitality": 0, "comfort": 8,
+        "healing": 0, "foodScene": 0, "vegetarian": 0, "feasting": 0,
+        "ale": 0, "wine": 0, "taverns": 0, "markets": 0, "shopping": 0,
+        "festivals": 0, "revels": 0, "music": 0, "gambling": 0, "fellowship": 0,
+        "familyFriendly": 2, "seniors": 8, "romance": 5, "peoples": 0,
+        "forests": 0, "coast": 0, "swimming": 0, "rivers": 2, "beasts": 0,
+        "localCulture": 25, "gettingBack": 45, "luxury": 22
+      },
+      "photos": ["Abandoned palace hall ruins", "Red sun dead landscape", "Ruined colonnade desert", "Empty throne room decay", "Persepolis ruins columns", "Silent stone courtyard dusk"]
+    },
+
+    {
+      "id": "hogwarts", "name": "Hogwarts", "country": "HP", "region": "The Scottish Highlands", "continent": "High Fantasy",
+      "type": "castle", "arch": "school-of-magic",
+      "blurb": "A thousand-year-old castle of moving staircases, portraits with opinions and a lake with a squid in it. Muggles see a ruin with warning signs. Term begins on 1 September.",
+      "about": "Four founders, four houses, and a building that actively resists mapping — 142 staircases, some of which go somewhere different on Fridays. The teaching is uneven, the safety record is appalling and the food is superb. The Room of Requirement appears only when you need it; the Forbidden Forest is forbidden for good reasons that nobody enforces. Filming used Alnwick Castle, Durham and Gloucester Cathedrals and Glenfinnan Viaduct, all of which you can actually visit.",
+      "tags": ["four houses", "moving staircases", "quidditch", "term time only"],
+      "climate": {
+        "tempHigh": [6, 7, 9, 12, 15, 18, 19, 19, 17, 13, 9, 6],
+        "tempLow":  [0, 0, 2, 3, 6, 9, 11, 11, 9, 6, 3, 1],
+        "rainDays": [18, 15, 16, 14, 13, 13, 14, 15, 16, 18, 19, 19],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 2, 1, 1],
+        "humidity": [88, 86, 84, 81, 79, 79, 80, 81, 84, 87, 89, 89],
+        "snowDepth": [22, 20, 12, 3, 0, 0, 0, 0, 0, 1, 8, 18]
+      },
+      "crowd":      [72, 72, 74, 74, 76, 20, 8, 8, 74, 76, 74, 45],
+      "costTier": 2,
+      "r": {
+        "magic": 100, "wizards": 100, "libraries": 96, "architecture": 96,
+        "history": 92, "artefacts": 96, "prophecy": 82, "timeStrange": 78,
+        "forests": 82, "wilderness": 68, "mountains": 78, "rivers": 68,
+        "scenery": 92, "underground": 82, "monsters": 82, "beasts": 88,
+        "undead": 72, "dragons": 62, "combat": 62, "questing": 82,
+        "feasting": 96, "foodScene": 78, "festivals": 78, "music": 62,
+        "fellowship": 96, "localCulture": 88, "temples": 22, "intrigue": 88,
+        "hospitality": 82, "comfort": 68, "safety": 32, "lawAndOrder": 55,
+        "healing": 82, "familyFriendly": 78, "seniors": 42, "adrenaline": 78,
+        "cities": 5, "markets": 12, "shopping": 15, "taverns": 22, "ale": 32,
+        "wine": 25, "gambling": 32, "luxury": 45, "technology": 5, "coast": 5,
+        "swimming": 32, "stargazing": 78, "romance": 55, "wandering": 45
+      },
+      "photos": ["Alnwick Castle Northumberland", "Glenfinnan Viaduct steam train", "Durham Cathedral cloisters", "Gothic castle Scottish loch", "Great hall long tables candles", "Highland loch castle mist"]
+    },
+    {
+      "id": "diagon-alley", "name": "Diagon Alley", "country": "HP", "region": "Hidden London", "continent": "High Fantasy",
+      "type": "market", "arch": "high-city",
+      "blurb": "A crooked shopping street reached by tapping the right brick behind a Charing Cross Road pub. Wands, owls, cauldrons, and a bank staffed by goblins who do not care for you.",
+      "about": "The best single piece of world-building in the books: an entire economy rendered as a shopping trip, with prices, brand names and a queue. Gringotts runs on carts and dragons; Ollivanders has been making wands since 382 BC and the wand chooses the wizard. Knockturn Alley branches off it and is where the plot goes when it needs to get unpleasant.",
+      "tags": ["gringotts", "ollivanders", "leaky cauldron", "tap the brick"],
+      "climate": {
+        "tempHigh": [8, 9, 11, 14, 18, 21, 23, 23, 20, 15, 11, 9],
+        "tempLow":  [3, 3, 4, 6, 9, 12, 14, 14, 12, 9, 5, 4],
+        "rainDays": [15, 12, 13, 12, 11, 10, 10, 10, 11, 13, 14, 15],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 2],
+        "humidity": [86, 83, 80, 75, 73, 72, 71, 73, 77, 82, 85, 87]
+      },
+      "crowd":      [55, 55, 58, 62, 66, 70, 82, 96, 74, 62, 60, 78],
+      "costTier": 2,
+      "r": {
+        "markets": 100, "shopping": 100, "cities": 88, "architecture": 88,
+        "magic": 96, "wizards": 96, "artefacts": 96, "history": 78,
+        "intrigue": 82, "peoples": 78, "taverns": 82, "ale": 78, "foodScene": 68,
+        "feasting": 62, "beasts": 72, "underground": 72, "dragons": 55,
+        "libraries": 72, "festivals": 55, "localCulture": 92, "technology": 8,
+        "hospitality": 68, "comfort": 62, "safety": 55, "lawAndOrder": 62,
+        "healing": 72, "familyFriendly": 82, "seniors": 55, "luxury": 55,
+        "wilderness": 0, "forests": 0, "mountains": 0, "coast": 0, "swimming": 0,
+        "rivers": 5, "scenery": 42, "stargazing": 15, "hiking": 0, "climbing": 0
+      },
+      "photos": ["Shambles York narrow street", "Victorian shopfront bow window", "Leadenhall Market London", "Cobbled alley overhanging buildings", "Antique apothecary shop interior", "Cluttered curiosity shop window"]
+    },
+    {
+      "id": "hogsmeade", "name": "Hogsmeade", "country": "HP", "region": "The Scottish Highlands", "continent": "High Fantasy",
+      "type": "village", "arch": "pastoral-idyll",
+      "blurb": "Britain's only entirely wizarding village: thatched cottages under snow, butterbeer at the Three Broomsticks, and a pub down the road that nobody sensible drinks in.",
+      "about": "Third-years and above may visit on scheduled weekends, which makes it the closest thing the books have to a holiday destination. Honeydukes has a secret passage in its cellar; the Shrieking Shack is the most haunted building in Britain and is not haunted at all. Butterbeer, invented for the page and later made real by a theme park, is somewhere between cream soda and a hot toddy.",
+      "tags": ["butterbeer", "honeydukes", "shrieking shack", "always snowing"],
+      "climate": {
+        "tempHigh": [5, 6, 8, 11, 14, 17, 18, 18, 16, 12, 8, 5],
+        "tempLow":  [-1, -1, 1, 3, 6, 9, 10, 10, 8, 5, 2, 0],
+        "rainDays": [18, 16, 16, 14, 13, 13, 14, 15, 16, 18, 19, 19],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 2, 1, 1],
+        "humidity": [89, 87, 85, 82, 80, 80, 81, 82, 85, 88, 90, 90],
+        "snowDepth": [35, 32, 20, 6, 0, 0, 0, 0, 0, 2, 14, 30]
+      },
+      "crowd":      [48, 48, 52, 56, 58, 32, 18, 18, 55, 58, 56, 62],
+      "costTier": 1,
+      "r": {
+        "taverns": 96, "ale": 92, "foodScene": 78, "feasting": 78, "shopping": 82,
+        "markets": 72, "festivals": 82, "music": 62, "revels": 68,
+        "magic": 88, "wizards": 88, "undead": 68, "artefacts": 72,
+        "architecture": 78, "history": 68, "localCulture": 92, "fellowship": 88,
+        "mountains": 78, "forests": 72, "scenery": 88, "wilderness": 55,
+        "hiking": 62, "wandering": 68, "stargazing": 72, "underground": 55,
+        "hospitality": 88, "comfort": 68, "safety": 68, "lawAndOrder": 68,
+        "healing": 62, "familyFriendly": 88, "seniors": 62, "romance": 68,
+        "cities": 5, "technology": 2, "coast": 0, "swimming": 8, "luxury": 32,
+        "gambling": 22, "combat": 25, "monsters": 45, "intrigue": 62
+      },
+      "photos": ["Snowy Highland village cottages", "Thatched village winter snow", "Cosy pub interior fire", "Snow covered high street lamps", "Sweet shop window jars", "Scottish village stone bridge"]
+    },
+    {
+      "id": "forbidden-forest", "name": "The Forbidden Forest", "country": "HP", "region": "Hogwarts grounds", "continent": "High Fantasy",
+      "type": "forest", "arch": "dark-realm",
+      "blurb": "Out of bounds to all pupils, which is why so much of every book happens there. Centaurs who read the stars and will not explain, acromantulas who will, and unicorns.",
+      "about": "The forest is where the school's rules stop, and the series uses it as its consistent boundary between childhood and everything else — the first book's climax, the fifth book's escape, the seventh book's walk to the clearing. The centaurs refuse to intervene in human affairs on principle and resent being asked. Hagrid keeps things in there that he should not.",
+      "tags": ["out of bounds", "centaurs", "acromantulas", "unicorns"],
+      "climate": {
+        "tempHigh": [5, 6, 8, 11, 14, 17, 18, 18, 16, 12, 8, 5],
+        "tempLow":  [-1, -1, 1, 3, 6, 9, 10, 10, 8, 5, 2, 0],
+        "rainDays": [19, 17, 17, 15, 14, 14, 15, 16, 17, 19, 20, 20],
+        "sunHours": [1, 1, 2, 3, 4, 5, 4, 4, 3, 2, 1, 1],
+        "humidity": [92, 91, 89, 87, 85, 85, 86, 87, 89, 91, 93, 93],
+        "snowDepth": [28, 26, 15, 4, 0, 0, 0, 0, 0, 1, 10, 24]
+      },
+      "crowd":      [4, 4, 5, 6, 8, 6, 4, 4, 7, 8, 6, 4],
+      "costTier": 1,
+      "r": {
+        "forests": 100, "wilderness": 96, "beasts": 96, "monsters": 92,
+        "scenery": 82, "hiking": 68, "wandering": 78, "stargazing": 82,
+        "magic": 92, "prophecy": 88, "undead": 62, "dragons": 45,
+        "adrenaline": 88, "questing": 82, "combat": 68, "artefacts": 55,
+        "rivers": 55, "underground": 45, "soloTravel": 32, "peoples": 55,
+        "safety": 8, "survivability": 32, "hospitality": 15, "comfort": 12,
+        "healing": 32, "lawAndOrder": 12, "familyFriendly": 3, "seniors": 8,
+        "cities": 0, "markets": 0, "shopping": 0, "taverns": 0, "ale": 0,
+        "wine": 0, "foodScene": 5, "feasting": 2, "festivals": 0, "revels": 0,
+        "gambling": 0, "luxury": 2, "technology": 0, "coast": 0, "swimming": 12,
+        "music": 12, "romance": 22, "localCulture": 42
+      },
+      "photos": ["Dark ancient forest twisted trees", "Misty woodland dawn", "Moss covered forest floor", "Forest path shafts of light", "Gnarled oak forest fog", "Deep woods night moonlight"]
+    },
+
+    {
+      "id": "roke", "name": "Roke Island", "country": "ESEA", "region": "The Inmost Sea", "continent": "High Fantasy",
+      "type": "island", "arch": "school-of-magic",
+      "blurb": "The school of wizardry at the centre of the Archipelago, hidden behind a wind that turns away anyone who should not find it. Nine masters, one Great House, and the Immanent Grove.",
+      "about": "Le Guin's wizards learn names, not spells — the true name of a thing gives you power over it and responsibility for it, and every act of magic tips the world's balance somewhere else. The Master Namer teaches lists that take years; the Master Patterner lives in a grove of trees that are older than the island and does not teach at all. Ged arrives here as an arrogant boy and lets something out.",
+      "tags": ["true names", "the nine masters", "the immanent grove", "the balance"],
+      "climate": {
+        "tempHigh": [11, 11, 13, 15, 18, 21, 23, 24, 22, 18, 14, 12],
+        "tempLow":  [6, 6, 7, 9, 12, 15, 17, 18, 16, 13, 9, 7],
+        "rainDays": [14, 12, 12, 10, 8, 6, 4, 5, 7, 11, 14, 15],
+        "sunHours": [3, 4, 5, 7, 9, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [82, 81, 79, 77, 75, 73, 71, 72, 75, 78, 81, 83],
+        "seaTemp":  [14, 13, 14, 15, 17, 20, 22, 23, 22, 19, 17, 15]
+      },
+      "crowd":      [25, 25, 28, 32, 36, 38, 40, 40, 38, 34, 30, 26],
+      "costTier": 1,
+      "r": {
+        "islands": 92, "coast": 88, "sailing": 92, "scenery": 88, "swimming": 55,
+        "magic": 96, "wizards": 100, "libraries": 96, "prophecy": 78,
+        "artefacts": 78, "history": 82, "architecture": 78, "temples": 55,
+        "forests": 82, "wilderness": 62, "hiking": 62, "stargazing": 82,
+        "dragons": 78, "undead": 55, "questing": 82, "localCulture": 82,
+        "fellowship": 82, "soloTravel": 72, "timeStrange": 62,
+        "hospitality": 68, "comfort": 55, "safety": 72, "lawAndOrder": 78,
+        "healing": 78, "seniors": 62, "familyFriendly": 45, "vegetarian": 62,
+        "cities": 32, "markets": 45, "shopping": 22, "luxury": 15, "gambling": 5,
+        "revels": 32, "feasting": 55, "technology": 8, "combat": 32
+      },
+      "photos": ["Green island cliffs Atlantic", "Azores island coast", "Ancient oak grove sunlight", "Stone tower island headland", "Harbour village stone island", "Sea mist island approach"]
+    },
+    {
+      "id": "gont", "name": "Gont", "country": "ESEA", "region": "The Northeast Reach", "continent": "High Fantasy",
+      "type": "highland", "arch": "pastoral-idyll",
+      "blurb": "A single mountain rising out of the sea, known for goats, goatherds, pirates and wizards. Ged was born on it, and came back to it when everything else was finished.",
+      "about": "Le Guin opens the first book with Gont and closes the cycle there, which tells you what she thought mattered. The island is poor, steep and cold, and its people are famously taciturn. The mountain is high enough that the villages on its flanks are above the weather; Ogion the Silent walked its paths for years and taught by not speaking, which is the best lesson in the book.",
+      "tags": ["one mountain", "goats", "ogion", "silence"],
+      "climate": {
+        "tempHigh": [4, 5, 8, 12, 16, 19, 22, 22, 19, 14, 9, 5],
+        "tempLow":  [-2, -1, 1, 4, 8, 11, 14, 14, 11, 7, 3, 0],
+        "rainDays": [16, 14, 14, 12, 10, 8, 6, 7, 9, 13, 16, 17],
+        "sunHours": [2, 3, 4, 6, 8, 9, 10, 9, 7, 5, 3, 2],
+        "humidity": [84, 83, 81, 78, 75, 72, 70, 71, 75, 79, 83, 85],
+        "seaTemp":  [10, 9, 10, 11, 14, 17, 19, 20, 19, 16, 13, 11],
+        "snowDepth": [30, 28, 18, 6, 0, 0, 0, 0, 0, 2, 12, 26]
+      },
+      "crowd":      [10, 10, 12, 16, 20, 24, 28, 28, 22, 17, 13, 10],
+      "costTier": 1,
+      "r": {
+        "mountains": 96, "islands": 88, "coast": 82, "scenery": 92,
+        "wilderness": 88, "hiking": 92, "climbing": 82, "sailing": 68,
+        "wandering": 88, "stargazing": 88, "beasts": 62, "magic": 78,
+        "wizards": 82, "localCulture": 82, "history": 62, "soloTravel": 92,
+        "fellowship": 45, "temples": 32, "artefacts": 45, "questing": 68,
+        "hospitality": 55, "comfort": 32, "safety": 62, "lawAndOrder": 45,
+        "healing": 55, "seniors": 32, "familyFriendly": 42, "vegetarian": 45,
+        "cities": 5, "markets": 25, "shopping": 8, "luxury": 5, "gambling": 8,
+        "taverns": 32, "ale": 42, "wine": 25, "revels": 22, "festivals": 42,
+        "technology": 5, "swimming": 32, "dragons": 55, "combat": 42
+      },
+      "photos": ["Steep island mountain sea", "Madeira mountain coast", "Goat herd mountainside", "Stone village steep hillside", "Mountain rising from ocean", "Cliff path above sea"]
+    },
+    {
+      "id": "selidor", "name": "Selidor", "country": "ESEA", "region": "The uttermost West", "continent": "High Fantasy",
+      "type": "island", "arch": "lost-world",
+      "blurb": "The last island before the open sea, where the dragons come to die and the land of the dead can be walked into if you are foolish enough to try.",
+      "about": "Selidor is the westernmost land in Earthsea, and past it there is only water and then the dry stone wall that separates the living from the dead. The Farthest Shore ends here with an old dragon, a dying king and a long walk back that should not be survivable. Le Guin's dead are not tormented — they simply stand about in a grey country with no thirst and no love, which is far worse.",
+      "tags": ["dragons' bones", "the westernmost land", "the dry land", "the last shore"],
+      "climate": {
+        "tempHigh": [8, 8, 9, 11, 14, 17, 19, 19, 17, 14, 11, 9],
+        "tempLow":  [3, 3, 4, 6, 9, 12, 14, 14, 12, 9, 6, 4],
+        "rainDays": [17, 15, 15, 13, 11, 9, 8, 9, 11, 14, 17, 18],
+        "sunHours": [2, 3, 4, 6, 7, 8, 9, 8, 6, 4, 2, 2],
+        "humidity": [86, 85, 84, 82, 80, 78, 76, 77, 80, 83, 86, 87],
+        "seaTemp":  [11, 10, 11, 12, 14, 16, 18, 19, 18, 16, 14, 12]
+      },
+      "crowd":      [1, 1, 1, 2, 2, 3, 3, 3, 2, 2, 1, 1],
+      "costTier": 2,
+      "r": {
+        "islands": 92, "coast": 96, "sailing": 92, "wilderness": 96,
+        "scenery": 92, "plains": 72, "stargazing": 88, "wandering": 82,
+        "dragons": 100, "magic": 88, "undead": 82, "prophecy": 78,
+        "questing": 92, "artefacts": 55, "timeStrange": 72, "soloTravel": 78,
+        "survivability": 32, "safety": 25, "gettingThere": 12, "gettingBack": 32,
+        "hospitality": 12, "comfort": 15, "healing": 22, "lawAndOrder": 15,
+        "cities": 0, "markets": 0, "shopping": 0, "taverns": 0, "ale": 0,
+        "wine": 0, "foodScene": 8, "feasting": 5, "festivals": 0, "revels": 0,
+        "gambling": 0, "luxury": 5, "technology": 2, "familyFriendly": 3,
+        "seniors": 8, "romance": 22, "peoples": 12, "swimming": 22, "combat": 45
+      },
+      "photos": ["Empty beach endless dunes", "Whale bones on shore", "Grey ocean horizon shore", "Windswept grass headland", "Bleached bones sand", "Lonely coast storm light"]
+    },
+
+    {
+      "id": "cimmeria", "name": "Cimmeria", "country": "HYB", "region": "The northern hills", "continent": "High Fantasy",
+      "type": "highland", "arch": "frozen-waste",
+      "blurb": "A grey land of cloud, crag and gloom that produces nothing but iron-hard people and a marked disinclination to stay in it. Conan left as soon as he could.",
+      "about": "Howard wrote a poem about Cimmeria before he wrote a story set there, and the poem is better: 'a gloomy land that seems to hold all winds and clouds and dreams'. The Cimmerians are barbarians in the technical sense — no cities, no writing, no kings — and Howard's whole argument is that this makes them more honest than the civilisations they raid. The gods here are not worth praying to and everybody knows it.",
+      "tags": ["barbarians", "grey hills", "crom", "no cities"],
+      "climate": {
+        "tempHigh": [-1, 0, 4, 9, 14, 18, 20, 19, 15, 9, 4, 1],
+        "tempLow":  [-9, -8, -5, -1, 4, 8, 10, 10, 6, 2, -3, -7],
+        "rainDays": [17, 15, 16, 15, 14, 13, 13, 14, 15, 17, 18, 18],
+        "sunHours": [1, 1, 2, 4, 5, 6, 6, 5, 4, 2, 1, 1],
+        "humidity": [90, 89, 87, 85, 83, 82, 82, 83, 86, 89, 91, 91],
+        "snowDepth": [55, 52, 35, 12, 0, 0, 0, 0, 0, 4, 24, 48]
+      },
+      "crowd":      [8, 8, 9, 11, 14, 17, 19, 19, 15, 12, 9, 8],
+      "costTier": 1,
+      "r": {
+        "mountains": 92, "wilderness": 96, "forests": 78, "scenery": 78,
+        "hiking": 88, "climbing": 82, "wandering": 92, "soloTravel": 78,
+        "combat": 96, "beasts": 78, "monsters": 68, "adrenaline": 82,
+        "questing": 82, "localCulture": 78, "ale": 72, "feasting": 62,
+        "history": 55, "stargazing": 62, "rivers": 62, "undead": 55,
+        "survivability": 42, "safety": 32, "hospitality": 45, "comfort": 15,
+        "healing": 22, "lawAndOrder": 22, "vegetarian": 12, "familyFriendly": 12,
+        "seniors": 15, "luxury": 2, "cities": 0, "markets": 8, "shopping": 2,
+        "taverns": 25, "wine": 8, "revels": 45, "festivals": 32, "gambling": 22,
+        "music": 45, "technology": 5, "magic": 42, "coast": 12, "swimming": 12,
+        "temples": 15, "libraries": 5, "artefacts": 32
+      },
+      "photos": ["Grey highland crags cloud", "Scottish moorland storm", "Bleak mountain ridge fog", "Heather hills grey sky", "Rocky outcrop wind", "Cloud shrouded hills"]
+    },
+    {
+      "id": "shadizar", "name": "Shadizar", "country": "HYB", "region": "Zamora", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "Shadizar the Wicked, city of thieves and moneylenders, where the temples are richer than the palaces and both are worth robbing. Conan started here, badly.",
+      "about": "Howard's sin-city archetype: everything is for sale, the priests are running a racket, and the Tower of the Elephant on the hill contains a wizard and something much stranger. Zamora as a whole is a country of ancient, decadent evil, which in pulp means that the architecture is spectacular and the alleys are lethal. Sword and sorcery's template for every thieves' quarter written since.",
+      "tags": ["thieves", "the tower of the elephant", "decadence", "moneylenders"],
+      "climate": {
+        "tempHigh": [13, 15, 20, 26, 32, 37, 40, 40, 35, 28, 20, 14],
+        "tempLow":  [3, 4, 8, 13, 18, 22, 25, 25, 21, 15, 9, 5],
+        "rainDays": [5, 5, 5, 4, 2, 0, 0, 0, 1, 3, 4, 5],
+        "sunHours": [5, 6, 7, 9, 11, 12, 12, 12, 11, 8, 6, 5],
+        "humidity": [58, 55, 48, 42, 34, 26, 22, 24, 30, 40, 50, 58]
+      },
+      "crowd":      [62, 62, 66, 70, 74, 76, 72, 72, 74, 72, 68, 64],
+      "costTier": 2,
+      "r": {
+        "cities": 92, "markets": 96, "architecture": 88, "temples": 92,
+        "intrigue": 100, "history": 78, "ruins": 72, "artefacts": 88,
+        "magic": 78, "wizards": 78, "undead": 68, "monsters": 72,
+        "combat": 88, "gambling": 92, "revels": 88, "taverns": 92, "wine": 88,
+        "ale": 72, "foodScene": 72, "feasting": 72, "shopping": 78,
+        "music": 72, "festivals": 68, "romance": 72, "peoples": 78,
+        "desert": 55, "underground": 68, "questing": 78, "localCulture": 88,
+        "safety": 15, "lawAndOrder": 18, "hospitality": 42, "comfort": 45,
+        "healing": 35, "familyFriendly": 5, "seniors": 18, "luxury": 68,
+        "vegetarian": 42, "technology": 12, "coast": 0, "swimming": 12,
+        "forests": 2, "mountains": 25, "wilderness": 15, "stargazing": 62
+      },
+      "photos": ["Desert city domes minarets", "Ancient bazaar covered market", "Sandstone city walls sunset", "Narrow desert alley shadows", "Ornate temple carved stone", "Old city rooftops arid"]
+    },
+    {
+      "id": "stygia", "name": "Stygia", "country": "HYB", "region": "The southern river", "continent": "High Fantasy",
+      "type": "desert", "arch": "dark-realm",
+      "blurb": "A black-walled kingdom along a great river, ruled by a priesthood of serpent-worshippers with an interest in what happens to bodies after death, and before it.",
+      "about": "Howard's Stygia is Egypt with the sun removed and the snakes turned up. Set is worshipped in temples that go further down than up, the sorcerers are the aristocracy, and the whole country is treated by its neighbours as a source of very bad news drifting north. The tone is unmistakably the 1930s pulps' anxiety about the ancient world, and it has furnished every 'evil desert empire' since.",
+      "tags": ["serpent priests", "black pyramids", "the river", "sorcery"],
+      "climate": {
+        "tempHigh": [21, 24, 28, 34, 38, 41, 41, 41, 39, 34, 27, 22],
+        "tempLow":  [8, 9, 13, 17, 21, 24, 25, 25, 23, 19, 14, 10],
+        "rainDays": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        "sunHours": [8, 9, 10, 11, 12, 13, 13, 12, 11, 10, 9, 8],
+        "humidity": [48, 42, 36, 28, 24, 22, 24, 26, 32, 38, 45, 50]
+      },
+      "crowd":      [42, 45, 45, 42, 38, 32, 30, 30, 34, 42, 45, 45],
+      "costTier": 2,
+      "r": {
+        "desert": 92, "rivers": 88, "architecture": 96, "temples": 100,
+        "ruins": 92, "history": 96, "underground": 96, "artefacts": 96,
+        "magic": 92, "wizards": 92, "undead": 96, "monsters": 82,
+        "prophecy": 78, "intrigue": 92, "libraries": 78, "cities": 72,
+        "markets": 68, "combat": 72, "questing": 82, "stargazing": 88,
+        "localCulture": 82, "sailing": 55, "scenery": 78,
+        "safety": 12, "lawAndOrder": 32, "hospitality": 22, "comfort": 38,
+        "healing": 32, "familyFriendly": 2, "seniors": 15, "luxury": 62,
+        "vegetarian": 45, "foodScene": 55, "wine": 62, "ale": 32, "taverns": 45,
+        "revels": 42, "festivals": 55, "gambling": 45, "technology": 12,
+        "forests": 2, "mountains": 15, "coast": 25, "swimming": 22, "beasts": 55
+      },
+      "photos": ["Black pyramid desert", "Egyptian temple columns hypostyle", "Nile river dusk feluccas", "Carved serpent stone relief", "Underground tomb passage torchlight", "Desert river green strip aerial"]
+    }
+  ]
+}

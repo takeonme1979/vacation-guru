@@ -1,0 +1,344 @@
+{
+  "_doc": "Where each universe comes from — shown behind the ⓘ button on a destination. One entry per country/universe code in countries.json. `work` is the title, `creator` the author or studio, `year` first publication or release, `medium` the form it first took, `text` a short plain-English note in our own words. Optional `also` lists notable adaptations.",
+  "schemaVersion": 1,
+
+  "sources": {
+    "ME": {
+      "work": "The Hobbit and The Lord of the Rings",
+      "creator": "J. R. R. Tolkien",
+      "year": 1937,
+      "medium": "Novels",
+      "also": "Films by Peter Jackson, 2001–2003 and 2012–2014",
+      "text": "An Oxford philologist invented the languages first and the world afterwards, which is why the place names all mean something. Middle-earth is the north-west of a much larger invented history running back thousands of years; the books cover its last few decades before the magic drains out of it. Nearly every fantasy map with mountains in the north and evil in the east is descended from this one."
+    },
+    "WES": {
+      "work": "A Song of Ice and Fire",
+      "creator": "George R. R. Martin",
+      "year": 1996,
+      "medium": "Novels",
+      "also": "HBO's Game of Thrones, 2011–2019",
+      "text": "A deliberate answer to comfortable fantasy: the seasons last years, the heroes die at the wrong moments, and most of the trouble is caused by ordinary politics rather than dark lords. Martin borrowed heavily from the Wars of the Roses, then added dragons and an ice age creeping down from the north."
+    },
+    "SW": {
+      "work": "Star Wars",
+      "creator": "George Lucas",
+      "year": 1977,
+      "medium": "Film",
+      "text": "Space opera assembled out of Kurosawa, Flash Gordon serials and Joseph Campbell's monomyth, set in a galaxy that is deliberately old, dusty and second-hand. The technology is filthy and lived-in, which was the innovation; before this, film spacecraft were clean."
+    },
+    "TREK": {
+      "work": "Star Trek",
+      "creator": "Gene Roddenberry",
+      "year": 1966,
+      "medium": "Television",
+      "text": "A post-scarcity Earth sends explorers out under a rule against interfering with anyone they find, and then spends six decades of television arguing about that rule. Optimistic almost to a fault: humanity has fixed poverty, money and war, and the drama comes from meeting people who haven't."
+    },
+    "DUNE": {
+      "work": "Dune",
+      "creator": "Frank Herbert",
+      "year": 1965,
+      "medium": "Novel",
+      "also": "Films by David Lynch (1984) and Denis Villeneuve (2021–2024)",
+      "text": "An ecological thriller wearing the clothes of a feudal space epic. Herbert spent years studying desert ecology and messianic politics, and the book is at heart a warning about following charismatic leaders — a point most readers cheerfully miss. Computers are banned, so everything runs on trained human minds and a spice that only one planet produces."
+    },
+    "DISC": {
+      "work": "Discworld",
+      "creator": "Terry Pratchett",
+      "year": 1983,
+      "medium": "Novels",
+      "text": "A flat world on the backs of four elephants standing on a turtle swimming through space, which started as a parody of fantasy and became one of the sharpest bodies of satire in English. Forty-one novels about policing, journalism, banking, war and belief, all set somewhere with dragons in it."
+    },
+    "NAR": {
+      "work": "The Chronicles of Narnia",
+      "creator": "C. S. Lewis",
+      "year": 1950,
+      "medium": "Novels",
+      "text": "A country reachable through a wardrobe, where the animals talk and time runs at its own pace — a year here can be a century there. Lewis wrote it as Christian allegory and also, plainly, because he liked fauns, talking beavers and battles."
+    },
+    "HP": {
+      "work": "Harry Potter",
+      "creator": "J. K. Rowling",
+      "year": 1997,
+      "medium": "Novels",
+      "also": "Eight films, 2001–2011",
+      "text": "A hidden magical Britain running in parallel with the ordinary one, organised around a boarding school in Scotland. The structure is school story plus detective plot: each book is a mystery solved by children who should have told a teacher."
+    },
+    "WON": {
+      "work": "Alice's Adventures in Wonderland and Through the Looking-Glass",
+      "creator": "Lewis Carroll",
+      "year": 1865,
+      "medium": "Novels",
+      "text": "An Oxford mathematician's nonsense, invented for a real child on a boat trip. Wonderland runs on logic taken absolutely literally, which is what makes it frightening as well as funny. Public domain, and John Tenniel's original engravings are among the most reproduced illustrations ever made."
+    },
+    "OZ": {
+      "work": "The Wonderful Wizard of Oz",
+      "creator": "L. Frank Baum",
+      "year": 1900,
+      "medium": "Novel",
+      "also": "The 1939 MGM film",
+      "text": "Baum set out to write an American fairy tale without the European moralising, and produced a country of four coloured quadrants around a green capital. He wrote thirteen sequels and never entirely escaped it. The books are public domain; the ruby slippers, being an invention of the film, are not."
+    },
+    "GUL": {
+      "work": "Gulliver's Travels",
+      "creator": "Jonathan Swift",
+      "year": 1726,
+      "medium": "Novel",
+      "text": "Four voyages to four impossible countries, each one a knife aimed at something in Swift's own England — party politics, scientific vanity, colonial conquest, human nature itself. It survives as a children's story because the first voyage is funny and the rest are rarely printed in full."
+    },
+    "VER": {
+      "work": "The Voyages Extraordinaires",
+      "creator": "Jules Verne",
+      "year": 1864,
+      "medium": "Novels",
+      "text": "Fifty-four novels of geography as adventure, written by a man who researched obsessively and travelled little. Verne's method was to take the science of 1870 and push it exactly one step further, which is why so much of it came true. All public domain, engravings included."
+    },
+    "ESEA": {
+      "work": "The Earthsea Cycle",
+      "creator": "Ursula K. Le Guin",
+      "year": 1968,
+      "medium": "Novels",
+      "text": "An archipelago where magic works by knowing the true name of a thing, and where the cost of every spell is paid somewhere in the world's balance. Quiet, spare and morally serious; Le Guin also deliberately made her protagonists dark-skinned, and spent decades correcting cover artists about it."
+    },
+    "HYB": {
+      "work": "The Conan stories",
+      "creator": "Robert E. Howard",
+      "year": 1932,
+      "medium": "Pulp short stories",
+      "text": "A pre-history invented to sit between the fall of Atlantis and recorded time, so Howard could write about any culture he liked without a map to answer to. Sword and sorcery begins here: cities are corrupt, wizards are wicked, and the barbarian is the honest one."
+    },
+    "CUL": {
+      "work": "The Culture novels",
+      "creator": "Iain M. Banks",
+      "year": 1987,
+      "medium": "Novels",
+      "text": "A galactic civilisation with no money, no laws, no work and no death, run by benevolent machine intelligences with silly names. Banks's interest is in what such a society does at its edges — the ethics of interfering with everyone else — because there is no drama available at the centre."
+    },
+    "HHG": {
+      "work": "The Hitchhiker's Guide to the Galaxy",
+      "creator": "Douglas Adams",
+      "year": 1978,
+      "medium": "Radio series",
+      "also": "Novels, TV, and a 2005 film",
+      "text": "Began as BBC radio, became five novels of increasing bleakness disguised as jokes. The universe is enormous, indifferent and administratively incompetent, and the only sensible response is a towel."
+    },
+    "FOUN": {
+      "work": "The Foundation series",
+      "creator": "Isaac Asimov",
+      "year": 1942,
+      "medium": "Short stories, later novels",
+      "text": "The fall of the Roman Empire replayed across a galaxy, with a mathematician who can predict history in bulk but not in detail. Asimov was 21 when he started it. Almost no action, almost no scenery, and it shaped science fiction anyway."
+    },
+    "PAN": {
+      "work": "Avatar",
+      "creator": "James Cameron",
+      "year": 2009,
+      "medium": "Film",
+      "text": "A moon whose entire biosphere is one connected network, filmed with performance capture that took a decade to build. The floating mountains were modelled on the sandstone pillars of Zhangjiajie in Hunan, which now has a peak named after the film."
+    },
+    "TAM": {
+      "work": "The Elder Scrolls",
+      "creator": "Bethesda Softworks",
+      "year": 1994,
+      "medium": "Video games",
+      "text": "A continent of nine provinces documented in obsessive, contradictory in-world detail — thousands of readable books, most of them unreliable. Morrowind, Oblivion and Skyrim each open a different province, and the lore fans argue about is mostly written by fictional historians disagreeing with each other."
+    },
+    "HYR": {
+      "work": "The Legend of Zelda",
+      "creator": "Nintendo",
+      "year": 1986,
+      "medium": "Video games",
+      "text": "A kingdom rebuilt from scratch in almost every instalment, always with a princess, a sword, a triangle and a boy who doesn't speak. Miyamoto said he was trying to recreate the feeling of exploring the caves and hillsides near his childhood home."
+    },
+    "W40K": {
+      "work": "Warhammer 40,000",
+      "creator": "Games Workshop",
+      "year": 1987,
+      "medium": "Tabletop wargame",
+      "text": "A galaxy 38,000 years from now in which humanity's empire is a theocratic, superstitious, decaying horror — and is still the best option available. Started as knowing parody and has been played straight for so long that the parody is now load-bearing."
+    },
+    "ME3": {
+      "work": "Mass Effect",
+      "creator": "BioWare",
+      "year": 2007,
+      "medium": "Video games",
+      "text": "A trilogy built on the idea that your choices carry across three games, in a galaxy where faster-than-light travel runs on relics nobody built. The politics are unusually good for a shooter: most of the trouble is caused by species who each have entirely reasonable positions."
+    },
+    "MRVL": {
+      "work": "The Marvel Universe",
+      "creator": "Stan Lee, Jack Kirby and many others",
+      "year": 1961,
+      "medium": "Comics",
+      "text": "Superheroes moved out of invented cities and into a recognisable New York with rent problems. Sixty years of continuity, several thousand creators, and a film series that made its imaginary countries — Wakanda, Latveria, Asgard — better known than most real ones."
+    },
+    "WHO": {
+      "work": "Doctor Who",
+      "creator": "Sydney Newman, Verity Lambert and others at the BBC",
+      "year": 1963,
+      "medium": "Television",
+      "text": "The longest-running science fiction series on television, kept alive by a plot device that lets the lead actor be replaced entirely. Anywhere and any time is reachable, which is either the format's genius or the reason nothing is ever consistent."
+    },
+    "NEV": {
+      "work": "Peter Pan",
+      "creator": "J. M. Barrie",
+      "year": 1904,
+      "medium": "Play, later a novel",
+      "text": "An island that children dream and then arrive at, where nobody grows older and the consequences are darker than the pantomime suggests. Barrie gave the copyright to Great Ormond Street Hospital, which still benefits from it in the UK."
+    },
+    "HAW": {
+      "work": "Winnie-the-Pooh",
+      "creator": "A. A. Milne",
+      "year": 1926,
+      "medium": "Stories",
+      "text": "A small wood based on Ashdown Forest in Sussex, where Milne's son played with his actual toys. Nothing much happens, deliberately. The original books entered the public domain in 2022; the red shirt did not, being Disney's."
+    },
+    "GRK": {
+      "work": "Greek myth",
+      "creator": "Anonymous, then Homer, Hesiod and the tragedians",
+      "year": -750,
+      "medium": "Oral tradition and epic poetry",
+      "text": "Not one work but a contested body of stories, retold with different endings by every city that told them. The geography is half real: Mycenae, Ithaca and Troy can be visited, while the underworld's entrance is a matter of local opinion."
+    },
+    "ART": {
+      "work": "The Matter of Britain",
+      "creator": "Geoffrey of Monmouth, Chrétien de Troyes, Thomas Malory and others",
+      "year": 1136,
+      "medium": "Chronicles and romances",
+      "text": "A legendary British king assembled over a thousand years from Welsh poetry, Norman propaganda and French romance. The Round Table, Lancelot and the Grail were all later additions by writers who fancied improving it — a shared universe long before the phrase existed."
+    },
+    "ATL": {
+      "work": "Timaeus and Critias",
+      "creator": "Plato",
+      "year": -360,
+      "medium": "Philosophical dialogues",
+      "text": "Invented by Plato as a cautionary example of a powerful state overreaching, and mistaken for history almost immediately afterwards. Every submerged-civilisation story since is a footnote to two unfinished dialogues."
+    },
+    "DANT": {
+      "work": "The Divine Comedy",
+      "creator": "Dante Alighieri",
+      "year": 1320,
+      "medium": "Epic poem",
+      "text": "A guided descent through nine circles of Hell, up the mountain of Purgatory and into the spheres of Heaven, with the poet's political enemies carefully placed at the appropriate depths. The architecture of the Christian afterlife in popular imagination is essentially Dante's invention."
+    },
+    "UTO": {
+      "work": "Utopia",
+      "creator": "Thomas More",
+      "year": 1516,
+      "medium": "Political satire",
+      "text": "More coined the word from Greek for 'no place', and it is still argued whether he meant the island as an ideal or a joke — the narrator is named Hythloday, roughly 'expert in nonsense'. Either way, every planned society since has been measured against it."
+    },
+    "RING": {
+      "work": "Ringworld",
+      "creator": "Larry Niven",
+      "year": 1970,
+      "medium": "Novel",
+      "text": "An artificial band of land encircling a star, with three million times the surface area of Earth. Readers wrote in to point out the ring was dynamically unstable, so Niven wrote a sequel about it falling out of position. It gave engineering-minded science fiction its favourite object."
+    },
+    "JP": {
+      "work": "Jurassic Park",
+      "creator": "Michael Crichton",
+      "year": 1990,
+      "medium": "Novel",
+      "also": "Steven Spielberg's film, 1993",
+      "text": "A techno-thriller about chaos theory that happens to contain dinosaurs. The film's animatronics and early CGI changed what audiences believed a screen could show, and dragged palaeontology into a decade of public argument about feathers."
+    },
+    "PAN2": {
+      "work": "The Hunger Games",
+      "creator": "Suzanne Collins",
+      "year": 2008,
+      "medium": "Novels",
+      "text": "A nation built on the ruins of North America, where twelve districts feed one Capitol and are made to send children to fight on television. Collins has said it came from channel-hopping between reality shows and war coverage."
+    },
+    "OCE": {
+      "work": "Nineteen Eighty-Four",
+      "creator": "George Orwell",
+      "year": 1949,
+      "medium": "Novel",
+      "text": "Britain as a province of a superstate at permanent war, where the past is rewritten daily and the language is being shrunk to make dissent unthinkable. Written on Jura while Orwell was dying; almost every term for surveillance in English now comes from it."
+    },
+    "WOT": {
+      "work": "The Wheel of Time",
+      "creator": "Robert Jordan",
+      "year": 1990,
+      "medium": "Novels",
+      "text": "Fourteen enormous volumes of cyclical history in which the same events recur across ages, drawing on Norse, Arthurian and Hindu material. Jordan died before finishing it; Brandon Sanderson completed the last three books from his notes."
+    },
+    "ROS": {
+      "work": "The Stormlight Archive",
+      "creator": "Brandon Sanderson",
+      "year": 2010,
+      "medium": "Novels",
+      "text": "A world scoured by hurricane-force storms every few days, so the plants retract, the animals are crustaceans and the cities hide in the lee of cliffs. Sanderson builds magic like an engineer builds bridges — with rules, costs and load limits stated up front."
+    },
+    "WIT": {
+      "work": "The Witcher",
+      "creator": "Andrzej Sapkowski",
+      "year": 1986,
+      "medium": "Short stories, later novels",
+      "also": "Games by CD Projekt Red, 2007–2015",
+      "text": "Slavic folklore rewritten as hard-bitten short fiction, in which the monster-hunter's real problem is always the people who hired him. The Polish books came first by twenty years; the games made it global."
+    },
+    "FAE": {
+      "work": "Forgotten Realms",
+      "creator": "Ed Greenwood, for Dungeons & Dragons",
+      "year": 1987,
+      "medium": "Tabletop role-playing setting",
+      "text": "Greenwood invented it as a boy for his own stories and later sold it to TSR as a shared campaign world. Now the default setting of D&D, the home of Baldur's Gate and Waterdeep, and shaped by tens of thousands of gaming tables improvising on it."
+    },
+    "AZE": {
+      "work": "Warcraft and World of Warcraft",
+      "creator": "Blizzard Entertainment",
+      "year": 1994,
+      "medium": "Strategy games, later an MMO",
+      "text": "A war between orcs and humans that became a shared world several million people lived in at once. Its zones are designed as sequential tourism — every region is a colour, a climate and a mood you level through."
+    },
+    "HDM": {
+      "work": "His Dark Materials",
+      "creator": "Philip Pullman",
+      "year": 1995,
+      "medium": "Novels",
+      "text": "Parallel worlds where the soul walks alongside you as an animal, deliberately written as an answer to Lewis's Narnia and arguing the other way. The Oxford of the first book is a version of the real one, with airships."
+    },
+    "BAR": {
+      "work": "A Princess of Mars and the Barsoom series",
+      "creator": "Edgar Rice Burroughs",
+      "year": 1912,
+      "medium": "Pulp novels",
+      "text": "A dying Mars of dead sea bottoms, flying ships and endless swordfights, written when astronomers still argued about canals. Burroughs's Mars is the ancestor of most planetary adventure; the early books are public domain."
+    },
+    "GORM": {
+      "work": "Gormenghast",
+      "creator": "Mervyn Peake",
+      "year": 1946,
+      "medium": "Novels",
+      "text": "A castle so vast and so bound by meaningless ritual that it functions as a character. There is no magic in it at all — the strangeness is entirely architectural and psychological. Peake was an illustrator first, and it shows in every sentence."
+    },
+    "RED": {
+      "work": "Redwall",
+      "creator": "Brian Jacques",
+      "year": 1986,
+      "medium": "Novels",
+      "text": "An abbey of mice defended against vermin, written originally to be read aloud to children at a school for the blind — which is why the feasts are described in such punishing, glorious detail."
+    },
+    "FANT": {
+      "work": "The Neverending Story",
+      "creator": "Michael Ende",
+      "year": 1979,
+      "medium": "Novel",
+      "text": "A land that is literally made of human imagination and is being eaten by the Nothing as people stop believing in it. Ende hated the 1984 film and sued; the book's second half, which the film omits, is the part about what wishing costs you."
+    },
+    "MUSH": {
+      "work": "Super Mario",
+      "creator": "Nintendo",
+      "year": 1985,
+      "medium": "Video games",
+      "text": "A kingdom of pipes, blocks and cheerful physics whose geography exists purely to be jumped through. No consistent map, no coherent history, and one of the most recognisable places ever designed."
+    },
+    "SOL": {
+      "work": "Solaris",
+      "creator": "Stanisław Lem",
+      "year": 1961,
+      "medium": "Novel",
+      "text": "A planet-wide ocean that is a single intelligence, and a century of human science that has learned nothing about it. Lem's point is that a genuinely alien mind would be unreachable, and that our attempts to understand it would only reflect us back at ourselves."
+    }
+  }
+}

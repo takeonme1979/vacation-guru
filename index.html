@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f172a">
+<meta name="description" content="Find the holiday destination that actually fits what you want — scored across 88 criteria for the month you're travelling.">
+<title>Vacation Guru</title>
+<link rel="manifest" href="app.webmanifest">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="app">
+  <header id="topbar">
+    <a class="brand" href="#/setup">
+      <span class="brand__mark" aria-hidden="true">🧭</span>
+      <span class="brand__name">Vacation&nbsp;Guru</span>
+    </a>
+    <div class="topbar__right">
+      <div id="worldSwitch" class="worlds"></div>
+      <button id="themeToggle" class="icon-btn" aria-label="Switch colour theme" title="Switch theme">◐</button>
+    </div>
+  </header>
+
+  <main id="screen" tabindex="-1">
+    <div class="boot" id="bootMsg">Loading destinations…</div>
+  </main>
+
+  <nav id="tabbar" aria-label="Main"></nav>
+</div>
+
+<script>
+  // Theme: applied before the app renders so there is no flash.
+  (function () {
+    var KEY = 'vacationguru:theme';
+    var saved = null;
+    try { saved = localStorage.getItem(KEY); } catch (e) {}
+    if (saved) document.documentElement.dataset.theme = saved;
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('#themeToggle')) return;
+      var cur = document.documentElement.dataset.theme;
+      var next = cur === 'dark' ? 'light' : cur === 'light' ? '' : 'dark';
+      if (next) document.documentElement.dataset.theme = next;
+      else delete document.documentElement.dataset.theme;
+      try { next ? localStorage.setItem(KEY, next) : localStorage.removeItem(KEY); } catch (e) {}
+    });
+  })();
+</script>
+
+<script>
+  /*
+   * Boot guard. A CLASSIC script, deliberately — this is the only code on the
+   * page that still runs when the module below never loads.
+   *
+   * Opened from disk, `<script type="module" src=...>` is blocked by CORS
+   * (origin "null"), so main.js never executes and the page would otherwise sit
+   * on "Loading destinations…" for ever with the explanation buried in the
+   * console. Say so on the page instead, and point at the file that does work.
+   */
+  (function () {
+    var el = document.getElementById('bootMsg');
+    if (!el) return;
+
+    function explain(title, lines, showBundle) {
+      var h = '<div class="empty"><div class="empty__icon">🧭</div><h2>' + title + '</h2>';
+      for (var i = 0; i < lines.length; i++) h += '<p>' + lines[i] + '</p>';
+      if (showBundle) {
+        h += '<p><strong>Quickest fix:</strong> open <code>vacation-guru.html</code> ' +
+             'in this folder instead — it is the same app in a single file and ' +
+             'needs no server.</p>';
+      }
+      h += '<pre class="empty__pre">cd "d:\\Claude\\Vacation Guru"\nnpm start\n\n' +
+           'then open http://localhost:5173</pre></div>';
+      el.className = '';
+      el.innerHTML = h;
+    }
+
+    if (location.protocol === 'file:') {
+      explain('This page needs to be served, not opened from disk', [
+        'Browsers block JavaScript modules on <code>file://</code> URLs, so the app ' +
+        'cannot start this way.'
+      ], true);
+      return;
+    }
+
+    // Served but still not booted after a few seconds — surface it rather than hang.
+    window.__vgBooted = false;
+    setTimeout(function () {
+      if (window.__vgBooted) return;
+      if (!document.getElementById('bootMsg')) return;
+      explain('The app did not start', [
+        'The page loaded but the app script did not finish. Your browser console ' +
+        'will have the reason.'
+      ], true);
+    }, 5000);
+  })();
+</script>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,389 @@
+{
+  "_doc": "Westeros and Essos. Photo topics point at the real filming locations — Dubrovnik, Northern Ireland, Iceland, Andalusia and Malta.",
+  "destinations": [
+    {
+      "id": "kings-landing", "name": "King's Landing", "country": "WES", "region": "The Crownlands", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "A million people, a Red Keep, and a smell you never fully stop noticing. The politics are magnificent and the life expectancy of anyone interesting is short.",
+      "tags": ["intrigue", "capital", "court", "smells"],
+      "climate": {
+        "tempHigh": [12, 13, 16, 20, 25, 29, 32, 32, 28, 22, 17, 13],
+        "tempLow":  [6, 6, 8, 11, 15, 19, 22, 22, 19, 15, 11, 7],
+        "rainDays": [11, 10, 10, 9, 6, 4, 2, 3, 6, 10, 12, 12],
+        "sunHours": [4, 5, 6, 7, 9, 11, 12, 11, 8, 6, 4, 3],
+        "humidity": [72, 71, 70, 69, 66, 62, 58, 60, 66, 71, 73, 73],
+        "seaTemp":  [14, 13, 14, 16, 19, 23, 25, 26, 24, 21, 18, 15]
+      },
+      "crowd":      [62, 62, 68, 75, 80, 85, 88, 88, 82, 72, 65, 68],
+      "costTier": 2,
+      "r": {
+        "cities": 96, "intrigue": 100, "architecture": 82, "history": 82, "markets": 88,
+        "coast": 68, "sailing": 72, "festivals": 78, "combat": 78, "temples": 68,
+        "feasting": 88, "wine": 88, "taverns": 82, "revels": 78, "gambling": 72,
+        "libraries": 55, "artefacts": 55, "shopping": 78, "peoples": 52,
+        "safety": 18, "lawAndOrder": 25, "warRisk": 18, "hospitality": 32,
+        "comfort": 55, "healing": 38, "familyFriendly": 12, "seniors": 25,
+        "magic": 25, "dragons": 45, "luxury": 82
+      },
+      "photos": ["Dubrovnik old city walls aerial", "Dubrovnik Jesuit stairs", "Fort Lovrijenac Dubrovnik", "Medieval city harbour Croatia", "Mdina Malta gate", "Dubrovnik rooftops Adriatic"]
+    },
+    {
+      "id": "winterfell", "name": "Winterfell", "country": "WES", "region": "The North", "continent": "High Fantasy",
+      "type": "fortress", "arch": "high-city",
+      "blurb": "A granite castle built over hot springs, so the walls stay warm while everything outside freezes. Excellent hosts, if you survive the feast.",
+      "tags": ["north", "castle", "hot springs", "godswood"],
+      "climate": {
+        "tempHigh": [-2, -1, 3, 8, 13, 17, 19, 18, 14, 8, 2, -1],
+        "tempLow":  [-9, -8, -5, -1, 3, 7, 9, 9, 6, 1, -4, -8],
+        "rainDays": [12, 11, 11, 10, 10, 10, 11, 11, 11, 13, 13, 13],
+        "sunHours": [1, 2, 3, 5, 6, 6, 6, 5, 4, 2, 1, 1],
+        "humidity": [86, 84, 82, 79, 77, 78, 80, 81, 83, 85, 86, 87],
+        "snowDepth": [48, 52, 42, 22, 5, 0, 0, 0, 2, 15, 35, 46]
+      },
+      "crowd":      [32, 32, 38, 45, 52, 58, 60, 58, 55, 45, 35, 38],
+      "costTier": 1,
+      "r": {
+        "cities": 62, "architecture": 78, "history": 88, "temples": 78, "forests": 68,
+        "wilderness": 72, "beasts": 78, "feasting": 88, "ale": 88, "hospitality": 82,
+        "combat": 72, "localCulture": 88, "prophecy": 72, "magic": 45,
+        "comfort": 62, "safety": 48, "lawAndOrder": 62, "warRisk": 32,
+        "familyFriendly": 45, "fellowship": 82, "wandering": 62,
+        "libraries": 52, "markets": 42, "shopping": 32, "revels": 45, "gambling": 25,
+        "luxury": 42, "wine": 32, "vegetarian": 25, "scenery": 72
+      },
+      "photos": ["Castle Ward Northern Ireland", "Doune Castle Scotland", "Norman castle courtyard winter", "Dark Hedges Northern Ireland", "Snowy castle walls", "Godswood weirwood ancient tree"]
+    },
+    {
+      "id": "the-wall", "name": "The Wall", "country": "WES", "region": "The Gift", "continent": "High Fantasy",
+      "type": "fortress", "arch": "frozen-waste",
+      "blurb": "Seven hundred feet of ice running three hundred miles, manned by an order of convicts and younger sons. The view from the top is unmatched and the posting is for life.",
+      "tags": ["ice", "night's watch", "frontier", "grim"],
+      "climate": {
+        "tempHigh": [-8, -7, -3, 2, 7, 11, 13, 12, 8, 2, -4, -7],
+        "tempLow":  [-17, -16, -12, -7, -2, 2, 5, 4, 1, -5, -11, -15],
+        "rainDays": [13, 12, 12, 11, 11, 11, 12, 12, 12, 13, 14, 14],
+        "sunHours": [1, 2, 3, 4, 5, 5, 5, 4, 3, 2, 1, 0],
+        "humidity": [84, 83, 82, 80, 79, 79, 80, 81, 82, 84, 85, 85],
+        "snowDepth": [88, 92, 82, 55, 25, 8, 3, 5, 18, 45, 72, 85]
+      },
+      "crowd":      [15, 15, 18, 22, 26, 30, 32, 30, 28, 22, 17, 15],
+      "costTier": 1,
+      "r": {
+        "scenery": 92, "climbing": 88, "wilderness": 88, "combat": 82, "undead": 82,
+        "history": 78, "architecture": 72, "fellowship": 88, "stargazing": 88,
+        "prophecy": 62, "magic": 55, "questing": 82, "wandering": 78,
+        "safety": 18, "comfort": 12, "hospitality": 32, "luxury": 3,
+        "feasting": 25, "ale": 62, "wine": 8, "foodScene": 18, "vegetarian": 8,
+        "familyFriendly": 2, "seniors": 3, "romance": 8, "revels": 15,
+        "markets": 8, "shopping": 5, "libraries": 42, "healing": 22, "warRisk": 22
+      },
+      "photos": ["Vatnajokull glacier ice wall Iceland", "Ice cliff face glacier", "Magheramorne quarry Northern Ireland", "Frozen tundra Iceland winter", "Ice cave blue glacier", "Snow covered pine forest north"]
+    },
+    {
+      "id": "beyond-the-wall", "name": "Beyond the Wall", "country": "WES", "region": "The Haunted Forest", "continent": "High Fantasy",
+      "type": "wilderness", "arch": "frozen-waste",
+      "blurb": "Free Folk, giants, mammoths and something much worse coming south. Genuinely unspoilt. Genuinely will kill you.",
+      "tags": ["wildlings", "giants", "white walkers", "frontier"],
+      "climate": {
+        "tempHigh": [-14, -13, -8, -2, 4, 9, 11, 10, 5, -2, -9, -13],
+        "tempLow":  [-25, -24, -19, -12, -5, 0, 3, 2, -2, -10, -18, -23],
+        "rainDays": [11, 10, 10, 9, 9, 9, 10, 10, 10, 11, 12, 12],
+        "sunHours": [0, 1, 3, 5, 6, 7, 6, 5, 3, 2, 1, 0],
+        "humidity": [82, 81, 80, 78, 76, 76, 78, 79, 80, 82, 83, 83],
+        "snowDepth": [100, 105, 95, 68, 35, 12, 5, 8, 28, 58, 85, 98]
+      },
+      "crowd":      [4, 4, 5, 7, 10, 14, 16, 15, 12, 8, 5, 4],
+      "costTier": 1,
+      "r": {
+        "wilderness": 100, "forests": 88, "mountains": 88, "scenery": 92, "stargazing": 96,
+        "beasts": 88, "monsters": 92, "undead": 92, "combat": 88, "hiking": 88,
+        "localCulture": 88, "wandering": 96, "fellowship": 92, "prophecy": 78,
+        "safety": 3, "survivability": 12, "comfort": 3, "healing": 8, "hospitality": 32,
+        "cities": 2, "markets": 5, "shopping": 2, "taverns": 3, "libraries": 2,
+        "foodScene": 12, "wine": 2, "luxury": 2, "familyFriendly": 1, "seniors": 1,
+        "lawAndOrder": 3, "warRisk": 12, "commonTongue": 62, "gettingBack": 18
+      },
+      "photos": ["Iceland winter tundra landscape", "Snowy boreal forest wilderness", "Icelandic highlands snow storm", "Frozen lake mountains Iceland", "Aurora over snow forest", "Svinafellsjokull glacier Iceland"]
+    },
+    {
+      "id": "dorne", "name": "Dorne", "country": "WES", "region": "Dorne", "continent": "High Fantasy",
+      "type": "region", "arch": "desert-world",
+      "blurb": "Sun, blood oranges and water gardens, run by the only kingdom the dragons never conquered. Relaxed about most things, unforgiving about the rest.",
+      "tags": ["desert", "gardens", "wine", "vengeance"],
+      "climate": {
+        "tempHigh": [17, 19, 22, 26, 31, 36, 39, 39, 34, 28, 22, 18],
+        "tempLow":  [7, 8, 10, 13, 18, 22, 25, 25, 21, 16, 11, 8],
+        "rainDays": [5, 4, 4, 3, 2, 1, 0, 0, 2, 4, 5, 5],
+        "sunHours": [6, 7, 8, 9, 11, 12, 13, 12, 10, 8, 6, 5],
+        "humidity": [66, 63, 60, 56, 50, 44, 40, 43, 52, 60, 65, 67],
+        "seaTemp":  [16, 15, 16, 18, 21, 24, 27, 28, 26, 23, 20, 17]
+      },
+      "crowd":      [42, 45, 55, 62, 65, 55, 45, 45, 58, 65, 52, 45],
+      "costTier": 2,
+      "r": {
+        "desert": 92, "coast": 82, "swimming": 82, "scenery": 82, "architecture": 92,
+        "cities": 72, "wine": 96, "foodScene": 88, "feasting": 82, "festivals": 82,
+        "localCulture": 92, "intrigue": 88, "romance": 88, "markets": 78,
+        "combat": 72, "temples": 55, "history": 82, "luxury": 82, "comfort": 78,
+        "hospitality": 72, "safety": 45, "warRisk": 55, "seniors": 62, "stargazing": 88, "magic": 22, "dragons": 32,
+        "familyFriendly": 45, "revels": 78, "libraries": 55
+      },
+      "photos": ["Real Alcazar Seville courtyard", "Alcazar Seville water gardens", "Andalusian palace arches", "Almeria desert Spain", "Moorish courtyard fountain", "Orange trees Seville patio"]
+    },
+    {
+      "id": "the-eyrie", "name": "The Eyrie", "country": "WES", "region": "The Vale", "continent": "High Fantasy",
+      "type": "fortress", "arch": "high-city",
+      "blurb": "A castle on a mountain spire reachable only by a mule track and three waystations. Impregnable, spectacular, and the sky cells have no fourth wall.",
+      "tags": ["mountains", "impregnable", "vale", "sky cells"],
+      "climate": {
+        "tempHigh": [-4, -3, 2, 8, 14, 18, 20, 19, 15, 8, 1, -3],
+        "tempLow":  [-13, -12, -8, -3, 2, 6, 8, 8, 4, -1, -7, -11],
+        "rainDays": [10, 9, 10, 10, 11, 11, 10, 10, 9, 10, 11, 11],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 7, 6, 4, 3, 2],
+        "humidity": [78, 76, 74, 72, 71, 71, 70, 72, 74, 77, 79, 79],
+        "snowDepth": [72, 78, 62, 32, 8, 0, 0, 0, 2, 18, 48, 68]
+      },
+      "crowd":      [18, 18, 22, 30, 40, 48, 52, 50, 42, 30, 22, 18],
+      "costTier": 3,
+      "r": {
+        "mountains": 98, "scenery": 96, "climbing": 92, "architecture": 88, "cities": 55,
+        "stargazing": 82, "hiking": 78, "history": 72, "intrigue": 82, "luxury": 88,
+        "comfort": 72, "safety": 55, "lawAndOrder": 68, "warRisk": 68,
+        "wilderness": 62, "combat": 52, "hospitality": 42,
+        "gettingThere": 12, "gettingBack": 62, "familyFriendly": 22, "seniors": 12,
+        "markets": 25, "shopping": 25, "taverns": 32, "revels": 32, "feasting": 68,
+        "libraries": 52, "magic": 15, "coast": 5, "swimming": 12
+      },
+      "photos": ["Mountain castle spire clouds", "Alpine fortress cliff", "Meteora monastery Greece", "Castle on rock pinnacle", "Snowy mountain peak valley", "Neuschwanstein castle mist"]
+    },
+    {
+      "id": "dragonstone", "name": "Dragonstone", "country": "WES", "region": "Blackwater Bay", "continent": "High Fantasy",
+      "type": "island", "arch": "island-kingdom",
+      "blurb": "A black volcanic island carved with dragons, sitting on a mountain of dragonglass. Bleak, dramatic, and the ancestral seat of people who marry their siblings.",
+      "tags": ["volcanic", "dragons", "targaryen", "obsidian"],
+      "climate": {
+        "tempHigh": [10, 11, 13, 16, 20, 24, 27, 27, 24, 19, 14, 11],
+        "tempLow":  [5, 5, 7, 9, 13, 17, 19, 20, 17, 13, 9, 6],
+        "rainDays": [13, 12, 12, 10, 8, 5, 3, 4, 7, 11, 13, 14],
+        "sunHours": [3, 4, 5, 6, 8, 10, 11, 10, 8, 5, 3, 3],
+        "humidity": [78, 77, 76, 74, 72, 69, 66, 68, 72, 76, 78, 79],
+        "seaTemp":  [12, 11, 12, 14, 17, 21, 24, 25, 23, 20, 16, 13]
+      },
+      "crowd":      [12, 12, 15, 20, 26, 32, 35, 34, 28, 20, 14, 12],
+      "costTier": 2,
+      "r": {
+        "volcanic": 92, "islands": 92, "coast": 88, "architecture": 92, "history": 88,
+        "dragons": 92, "artefacts": 88, "magic": 68, "prophecy": 82, "scenery": 88,
+        "sailing": 82, "ruins": 62, "underground": 72, "combat": 62, "intrigue": 78,
+        "safety": 42, "comfort": 45, "hospitality": 32, "luxury": 55,
+        "cities": 32, "markets": 22, "shopping": 18, "taverns": 25, "revels": 15,
+        "feasting": 48, "foodScene": 42, "familyFriendly": 18, "seniors": 25,
+        "stargazing": 72, "libraries": 62
+      },
+      "photos": ["Gaztelugatxe Basque Country Spain", "Volcanic black rock coast", "Itzurun beach Zumaia Spain", "Dragon carved stone gate", "Obsidian volcanic glass", "Stormy sea castle island"]
+    },
+    {
+      "id": "iron-islands", "name": "The Iron Islands", "country": "WES", "region": "Pyke", "continent": "High Fantasy",
+      "type": "island", "arch": "island-kingdom",
+      "blurb": "Wet rock in a cold sea, populated by people who consider farming beneath them and raiding a career. They do not sow. They also do not have much.",
+      "tags": ["raiders", "sea", "bleak", "longships"],
+      "climate": {
+        "tempHigh": [6, 6, 8, 11, 14, 17, 19, 19, 16, 12, 9, 7],
+        "tempLow":  [2, 2, 3, 5, 8, 11, 13, 13, 11, 8, 5, 3],
+        "rainDays": [18, 16, 17, 14, 13, 12, 13, 14, 15, 18, 19, 19],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 2, 1, 1],
+        "humidity": [88, 87, 86, 84, 83, 83, 84, 85, 86, 88, 89, 89],
+        "seaTemp":  [8, 7, 8, 9, 11, 13, 15, 16, 15, 13, 11, 9]
+      },
+      "crowd":      [10, 10, 12, 16, 20, 24, 26, 25, 22, 16, 12, 10],
+      "costTier": 1,
+      "r": {
+        "coast": 92, "sailing": 96, "islands": 92, "seaMonsters": 68, "scenery": 72,
+        "combat": 88, "localCulture": 88, "temples": 68, "history": 68, "wandering": 72,
+        "architecture": 55, "ale": 72, "feasting": 55, "fellowship": 78,
+        "safety": 22, "lawAndOrder": 18, "hospitality": 25, "comfort": 22,
+        "luxury": 12, "wine": 12, "foodScene": 32, "vegetarian": 12,
+        "familyFriendly": 8, "seniors": 12, "romance": 18, "revels": 45,
+        "markets": 32, "shopping": 18, "libraries": 15, "magic": 42, "swimming": 22
+      },
+      "photos": ["Ballintoy Harbour Northern Ireland", "Stormy sea cliffs grey", "Viking longship replica", "Rocky island north sea", "Causeway coast Northern Ireland", "Fishing village stone harbour storm"]
+    },
+    {
+      "id": "highgarden", "name": "Highgarden", "country": "WES", "region": "The Reach", "continent": "High Fantasy",
+      "type": "region", "arch": "pastoral-idyll",
+      "blurb": "Terraced gardens, orchards and the richest farmland in the Seven Kingdoms. The food is the best in the world and so is the poisoning.",
+      "tags": ["gardens", "food", "chivalry", "roses"],
+      "climate": {
+        "tempHigh": [11, 12, 15, 19, 23, 27, 30, 29, 26, 20, 15, 12],
+        "tempLow":  [4, 5, 7, 10, 13, 17, 19, 19, 16, 12, 8, 5],
+        "rainDays": [10, 9, 9, 8, 6, 4, 3, 3, 5, 9, 11, 11],
+        "sunHours": [4, 5, 6, 8, 9, 11, 12, 11, 9, 6, 5, 4],
+        "humidity": [76, 74, 71, 68, 66, 63, 60, 62, 67, 73, 76, 77]
+      },
+      "crowd":      [35, 38, 48, 58, 65, 68, 65, 62, 68, 58, 42, 38],
+      "costTier": 3,
+      "r": {
+        "foodScene": 96, "feasting": 96, "wine": 92, "plains": 88, "scenery": 88,
+        "architecture": 92, "festivals": 92, "combat": 68, "intrigue": 88,
+        "localCulture": 82, "music": 88, "romance": 88, "luxury": 92, "comfort": 88,
+        "hospitality": 88, "markets": 78, "shopping": 72, "libraries": 68,
+        "safety": 62, "lawAndOrder": 68, "warRisk": 62, "familyFriendly": 72,
+        "seniors": 78, "vegetarian": 82, "beasts": 62, "rivers": 72, "cities": 55
+      },
+      "photos": ["Formal terraced garden roses", "Renaissance garden fountain", "English country house gardens", "Orchard blossom spring", "Ornamental maze garden", "Golden wheat field harvest"]
+    },
+    {
+      "id": "oldtown", "name": "Oldtown & the Citadel", "country": "WES", "region": "The Reach", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "The oldest city in Westeros, and the Citadel where maesters forge their chains. The library is the best in the known world, and they will not let you take anything out.",
+      "tags": ["scholars", "library", "hightower", "ancient"],
+      "climate": {
+        "tempHigh": [13, 14, 16, 19, 23, 27, 30, 30, 26, 21, 16, 13],
+        "tempLow":  [6, 7, 8, 11, 14, 18, 21, 21, 18, 14, 10, 7],
+        "rainDays": [12, 11, 11, 9, 7, 4, 2, 3, 6, 10, 12, 13],
+        "sunHours": [4, 5, 6, 7, 9, 11, 12, 11, 9, 6, 4, 3],
+        "humidity": [78, 76, 74, 72, 70, 66, 62, 64, 70, 75, 78, 79],
+        "seaTemp":  [14, 13, 14, 16, 18, 22, 24, 25, 24, 21, 18, 15]
+      },
+      "crowd":      [45, 45, 52, 58, 62, 65, 65, 62, 65, 58, 48, 48],
+      "costTier": 2,
+      "r": {
+        "libraries": 100, "history": 96, "architecture": 94, "cities": 88, "temples": 82,
+        "coast": 68, "sailing": 72, "markets": 78, "healing": 88, "peoples": 55,
+        "artefacts": 68, "magic": 45, "prophecy": 68, "intrigue": 72,
+        "wine": 78, "foodScene": 72, "taverns": 72, "comfort": 68, "safety": 55,
+        "lawAndOrder": 62, "warRisk": 72, "hospitality": 55, "seniors": 72,
+        "soloTravel": 78, "familyFriendly": 42, "combat": 32, "luxury": 62
+      },
+      "photos": ["Girona cathedral steps Spain", "Medieval library manuscripts", "Lighthouse tower ancient", "Old town stone streets Spain", "Bodleian library Oxford interior", "Cordoba mezquita arches"]
+    },
+    {
+      "id": "braavos", "name": "Braavos", "country": "WES", "region": "The Free Cities", "continent": "High Fantasy",
+      "type": "city", "arch": "island-kingdom",
+      "blurb": "A city of canals in a lagoon, founded by escaped slaves, run by banks, and guarded by a colossus. Superb food, water-dancing, and a temple you should not visit twice.",
+      "tags": ["canals", "banking", "faceless men", "colossus"],
+      "climate": {
+        "tempHigh": [7, 8, 12, 16, 21, 25, 28, 27, 23, 17, 12, 8],
+        "tempLow":  [1, 2, 4, 8, 12, 16, 18, 18, 15, 10, 6, 2],
+        "rainDays": [10, 9, 10, 11, 10, 9, 7, 8, 8, 10, 12, 11],
+        "sunHours": [3, 4, 5, 6, 7, 8, 9, 8, 6, 5, 3, 3],
+        "humidity": [82, 79, 76, 75, 74, 73, 72, 73, 76, 79, 82, 83],
+        "seaTemp":  [10, 10, 11, 14, 18, 22, 25, 25, 23, 19, 15, 12]
+      },
+      "crowd":      [48, 52, 58, 68, 72, 78, 80, 78, 78, 68, 55, 52],
+      "costTier": 3,
+      "r": {
+        "cities": 96, "architecture": 96, "coast": 78, "sailing": 88, "markets": 92,
+        "foodScene": 92, "wine": 82, "intrigue": 96, "history": 82, "temples": 78,
+        "peoples": 78, "combat": 78, "artefacts": 68, "shopping": 88, "luxury": 88,
+        "music": 82, "revels": 72, "gambling": 78, "libraries": 72,
+        "safety": 42, "lawAndOrder": 62, "comfort": 78, "hospitality": 55,
+        "romance": 82, "soloTravel": 68, "familyFriendly": 32, "magic": 55,
+        "warRisk": 78, "seniors": 55
+      },
+      "photos": ["Girona colourful riverside houses", "Venice canal bridge", "Colossus statue harbour", "Sibenik cathedral Croatia", "Canal city narrow street", "Venetian lagoon boats"]
+    },
+    {
+      "id": "meereen", "name": "Meereen", "country": "WES", "region": "Slaver's Bay", "continent": "High Fantasy",
+      "type": "city", "arch": "desert-world",
+      "blurb": "A pyramid city of coloured brick on a hot bay, mid-revolution and unsure how it feels about that. Fighting pits, harpies, and a queen with dragons.",
+      "tags": ["pyramids", "revolution", "dragons", "heat"],
+      "climate": {
+        "tempHigh": [21, 23, 27, 32, 36, 39, 40, 40, 36, 31, 25, 21],
+        "tempLow":  [11, 12, 15, 19, 23, 27, 29, 29, 25, 20, 15, 12],
+        "rainDays": [4, 3, 2, 1, 0, 0, 0, 0, 1, 2, 3, 4],
+        "sunHours": [6, 7, 8, 10, 11, 12, 12, 12, 10, 8, 7, 6],
+        "humidity": [58, 55, 50, 44, 40, 38, 40, 43, 48, 53, 57, 59],
+        "seaTemp":  [19, 18, 19, 22, 25, 28, 29, 30, 28, 25, 22, 20]
+      },
+      "crowd":      [55, 58, 62, 65, 62, 58, 55, 55, 60, 65, 58, 55],
+      "costTier": 2,
+      "r": {
+        "cities": 88, "architecture": 92, "desert": 78, "coast": 72, "markets": 88,
+        "history": 82, "temples": 68, "intrigue": 92, "combat": 88, "dragons": 88,
+        "festivals": 68, "peoples": 68, "localCulture": 82, "sailing": 68,
+        "safety": 15, "lawAndOrder": 15, "warRisk": 12, "hospitality": 35,
+        "comfort": 52, "healing": 32, "luxury": 68, "foodScene": 62,
+        "familyFriendly": 8, "seniors": 18, "libraries": 42, "magic": 45,
+        "wine": 55, "revels": 62, "gambling": 68
+      },
+      "photos": ["Ait Benhaddou kasbah Morocco", "Stepped pyramid ancient city", "Moroccan desert city walls", "Essaouira ramparts Morocco", "Ancient brick ziggurat", "Split Diocletian palace cellars"]
+    },
+    {
+      "id": "valyria", "name": "The Smoking Sea & Valyria", "country": "WES", "region": "The Doom", "continent": "High Fantasy",
+      "type": "ruins", "arch": "dark-realm",
+      "blurb": "The greatest empire that ever lived, destroyed in a single day and still burning four hundred years later. Nobody who sails in comes back healthy.",
+      "tags": ["ruins", "doom", "greyscale", "cursed"],
+      "climate": {
+        "tempHigh": [24, 26, 30, 34, 38, 41, 43, 43, 39, 33, 28, 25],
+        "tempLow":  [15, 16, 19, 23, 27, 30, 32, 32, 29, 24, 19, 16],
+        "rainDays": [5, 4, 3, 2, 1, 0, 0, 0, 1, 3, 4, 5],
+        "sunHours": [2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2],
+        "humidity": [72, 70, 68, 64, 60, 58, 58, 60, 64, 68, 71, 72],
+        "seaTemp":  [21, 21, 22, 25, 28, 30, 31, 32, 30, 27, 24, 22]
+      },
+      "crowd":      [2, 2, 2, 3, 4, 5, 5, 5, 4, 3, 2, 2],
+      "costTier": 2,
+      "r": {
+        "ruins": 100, "history": 100, "volcanic": 96, "architecture": 88, "artefacts": 96,
+        "magic": 92, "undead": 78, "monsters": 82, "dragons": 78, "questing": 92,
+        "libraries": 55, "sailing": 62, "scenery": 68, "prophecy": 72,
+        "safety": 2, "survivability": 8, "healing": 2, "gettingBack": 8, "gettingThere": 12,
+        "comfort": 2, "hospitality": 0, "foodScene": 2, "wine": 2, "taverns": 0,
+        "markets": 0, "shopping": 0, "revels": 0, "music": 2, "festivals": 0,
+        "familyFriendly": 0, "seniors": 0, "romance": 5, "luxury": 2, "lawAndOrder": 0
+      },
+      "photos": ["Volcanic ruins smoking landscape", "Ancient city ruins overgrown", "Lava field steam vents Iceland", "Ruined marble columns", "Sulphur fumarole volcanic", "Sunken ruins underwater"]
+    },
+    {
+      "id": "casterly-rock", "name": "Casterly Rock", "country": "WES", "region": "The Westerlands", "continent": "High Fantasy",
+      "type": "fortress", "arch": "high-city",
+      "blurb": "A castle carved into a mountain above a gold mine that has never run dry. Three times the height of the Wall, and every inch of it paid for.",
+      "tags": ["gold", "mines", "lannister", "wealth"],
+      "climate": {
+        "tempHigh": [11, 12, 14, 17, 21, 25, 28, 28, 24, 19, 14, 11],
+        "tempLow":  [5, 5, 7, 9, 13, 16, 19, 19, 16, 12, 8, 6],
+        "rainDays": [12, 11, 11, 10, 8, 5, 4, 4, 7, 11, 13, 13],
+        "sunHours": [3, 4, 5, 7, 8, 10, 11, 10, 8, 5, 3, 3],
+        "humidity": [80, 78, 76, 74, 72, 69, 66, 68, 72, 77, 80, 81],
+        "seaTemp":  [12, 11, 12, 14, 17, 20, 23, 24, 22, 19, 16, 13]
+      },
+      "crowd":      [38, 38, 42, 48, 55, 60, 62, 60, 58, 50, 42, 40],
+      "costTier": 3,
+      "r": {
+        "underground": 96, "architecture": 92, "cities": 82, "coast": 72, "luxury": 100,
+        "comfort": 88, "history": 78, "markets": 78, "shopping": 82, "intrigue": 92,
+        "artefacts": 72, "feasting": 88, "wine": 88, "sailing": 62,
+        "safety": 62, "lawAndOrder": 72, "warRisk": 58, "hospitality": 42,
+        "familyFriendly": 42, "seniors": 55, "libraries": 62, "combat": 62,
+        "scenery": 68, "magic": 12, "temples": 48, "revels": 62
+      },
+      "photos": ["Gold mine tunnel underground", "Cliff fortress sea Spain", "Golden treasure vault", "Rock carved city Petra", "Coastal cliff castle", "Marble hall columns gold"]
+    },
+    {
+      "id": "volantis", "name": "Volantis", "country": "WES", "region": "The Free Cities", "continent": "High Fantasy",
+      "type": "city", "arch": "desert-world",
+      "blurb": "The oldest daughter of Valyria, split by the Rhoyne and the Long Bridge, hot enough that the elephants move slowly. Five slaves to every free man, and a red temple that never sleeps.",
+      "tags": ["long bridge", "red temple", "river", "elephants"],
+      "climate": {
+        "tempHigh": [20, 22, 26, 31, 35, 38, 40, 40, 36, 30, 24, 20],
+        "tempLow":  [12, 13, 16, 20, 24, 27, 29, 29, 26, 21, 16, 13],
+        "rainDays": [6, 5, 4, 2, 1, 0, 0, 0, 2, 4, 5, 6],
+        "sunHours": [5, 6, 7, 9, 11, 12, 12, 11, 9, 7, 6, 5],
+        "humidity": [68, 65, 61, 56, 52, 50, 52, 55, 60, 65, 68, 69]
+      },
+      "crowd":      [62, 65, 70, 72, 68, 62, 58, 58, 65, 72, 68, 62],
+      "costTier": 2,
+      "r": {
+        "cities": 92, "architecture": 88, "markets": 96, "rivers": 88, "history": 88,
+        "temples": 92, "intrigue": 88, "peoples": 72, "localCulture": 88,
+        "foodScene": 78, "wine": 82, "feasting": 72, "revels": 78, "gambling": 78,
+        "beasts": 68, "sailing": 78, "magic": 62, "artefacts": 62,
+        "safety": 25, "lawAndOrder": 32, "hospitality": 42, "comfort": 55,
+        "luxury": 78, "familyFriendly": 18, "seniors": 32, "libraries": 55,
+        "shopping": 82, "combat": 62, "warRisk": 55
+      },
+      "photos": ["Ancient stone bridge river city", "Moroccan medina crowded souk", "Red temple fire ritual", "Roman bridge Cordoba Spain", "River city terracotta rooftops", "Elephant procession ancient city"]
+    }
+  ]
+}

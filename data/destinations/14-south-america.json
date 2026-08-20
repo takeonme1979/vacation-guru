@@ -1,0 +1,572 @@
+{
+  "_doc": "South America. Southern-hemisphere seasons — the crowd and price curves peak in the local summer, December to February.",
+  "destinations": [
+    {
+      "id": "cusco-pe", "name": "Cusco & Machu Picchu", "country": "PE", "region": "Cusco", "continent": "South America",
+      "lat": -13.532, "lon": -71.967, "type": "mountains", "arch": "historic-city",
+      "blurb": "The Inca capital at 3,400m — colonial churches built on Inca foundations, the Sacred Valley, and the four-day trail to Machu Picchu.",
+      "tags": ["inca", "machu picchu", "andes", "trekking"],
+      "climate": {
+        "tempHigh": [19, 19, 20, 21, 20, 20, 20, 21, 21, 22, 22, 20],
+        "tempLow":  [7, 7, 7, 5, 3, 1, 0, 2, 5, 7, 7, 7],
+        "rainDays": [18, 16, 14, 8, 3, 2, 2, 3, 7, 11, 13, 16],
+        "sunHours": [5, 5, 6, 7, 8, 8, 8, 8, 7, 7, 7, 5],
+        "humidity": [76, 76, 74, 68, 60, 55, 52, 54, 60, 66, 70, 74]
+      },
+      "crowd":      [42, 42, 45, 58, 72, 85, 92, 88, 72, 68, 58, 48],
+      "priceIndex": [55, 55, 58, 70, 82, 92, 100, 95, 82, 78, 70, 60],
+      "cost": { "budget": 30, "mid": 75, "luxury": 250 },
+      "r": {
+        "historicSites": 100, "architecture": 92, "localCulture": 96, "religiousSites": 84,
+        "mountains": 94, "hiking": 96, "scenery": 96, "markets": 90,
+        "museums": 76, "adrenaline": 82, "stargazing": 84, "festivals": 88,
+        "foodScene": 88, "streetFood": 86, "wildlife": 68, "climbing": 74,
+        "romance": 84, "valueForMoney": 92, "backpacker": 94,
+        "safety": 55, "healthHygiene": 45, "englishSpoken": 45,
+        "beaches": 0, "swimming": 10, "clubbing": 62, "publicTransport": 42,
+        "accessibility": 12, "seniors": 32
+      },
+      "photos": ["Machu Picchu Peru sunrise", "Cusco Plaza de Armas", "Rainbow Mountain Vinicunca Peru", "Sacred Valley Peru terraces", "Inca Trail hikers Peru", "Peruvian woman llama Cusco"]
+    },
+    {
+      "id": "lima-pe", "name": "Lima", "country": "PE", "region": "Lima", "continent": "South America",
+      "lat": -12.046, "lon": -77.043, "type": "city", "arch": "latin-city",
+      "blurb": "One of the world's great food cities — ceviche, Nikkei and several of the world's top 50 restaurants — on cliffs above the Pacific.",
+      "tags": ["food", "ceviche", "surfing", "colonial"],
+      "climate": {
+        "tempHigh": [26, 27, 27, 25, 23, 20, 19, 19, 20, 21, 23, 25],
+        "tempLow":  [19, 20, 19, 18, 16, 15, 14, 14, 14, 15, 16, 18],
+        "rainDays": [0, 0, 0, 0, 1, 2, 3, 3, 3, 1, 1, 0],
+        "sunHours": [7, 7, 7, 6, 4, 2, 2, 2, 3, 4, 5, 6],
+        "humidity": [80, 80, 81, 83, 85, 86, 86, 86, 85, 83, 81, 80],
+        "seaTemp":  [21, 22, 22, 21, 19, 18, 17, 16, 16, 17, 18, 20]
+      },
+      "crowd":      [72, 72, 68, 58, 48, 45, 52, 52, 48, 52, 58, 68],
+      "priceIndex": [82, 82, 78, 68, 58, 55, 62, 62, 58, 62, 68, 78],
+      "cost": { "budget": 30, "mid": 75, "luxury": 250 },
+      "r": {
+        "foodScene": 100, "fineDining": 98, "streetFood": 92, "markets": 88,
+        "museums": 86, "historicSites": 86, "architecture": 84, "artScene": 80,
+        "surfing": 86, "beaches": 62, "adrenaline": 78, "bars": 84,
+        "clubbing": 84, "localCulture": 88, "shopping": 76,
+        "valueForMoney": 90, "backpacker": 82, "digitalNomad": 74,
+        "safety": 48, "soloFemaleSafety": 42, "healthHygiene": 52,
+        "englishSpoken": 42, "swimming": 45,
+        "hiking": 32, "scenery": 55, "publicTransport": 50
+      },
+      "photos": ["Miraflores cliffs Lima Peru", "Lima Plaza Mayor colonial", "Peruvian ceviche Lima", "Barranco district Lima street art", "Huaca Pucllana Lima ruins", "Paragliding Miraflores Lima"]
+    },
+    {
+      "id": "amazon-pe", "name": "Peruvian Amazon", "country": "PE", "region": "Loreto", "continent": "South America",
+      "lat": -3.749, "lon": -73.253, "type": "region", "arch": "jungle-eco",
+      "blurb": "Riverboat and lodge country upstream of Iquitos — pink river dolphins, canopy walkways and the densest birdlife on the planet.",
+      "tags": ["amazon", "wildlife", "riverboat", "canopy"],
+      "climate": {
+        "tempHigh": [31, 31, 31, 31, 30, 30, 30, 31, 32, 32, 32, 31],
+        "tempLow":  [22, 22, 22, 22, 22, 21, 21, 21, 22, 22, 22, 22],
+        "rainDays": [19, 18, 20, 19, 17, 13, 12, 12, 14, 17, 18, 19],
+        "sunHours": [4, 4, 4, 5, 5, 5, 6, 6, 5, 5, 5, 4],
+        "humidity": [86, 86, 87, 87, 86, 85, 84, 82, 82, 84, 85, 86]
+      },
+      "crowd":      [52, 52, 48, 45, 48, 58, 72, 72, 58, 52, 48, 52],
+      "priceIndex": [62, 62, 58, 55, 58, 68, 82, 82, 68, 62, 58, 62],
+      "cost": { "budget": 45, "mid": 115, "luxury": 350 },
+      "r": {
+        "wildlife": 100, "forests": 100, "lakesRivers": 96, "nationalParks": 88,
+        "kayaking": 84, "fishing": 84, "stargazing": 76, "localCulture": 88,
+        "adrenaline": 68, "ecoFriendly": 82, "hiking": 74, "romance": 70,
+        "valueForMoney": 82, "backpacker": 74, "familyTeens": 76,
+        "englishSpoken": 40, "healthHygiene": 35, "wifi": 25,
+        "beaches": 0, "swimming": 45, "clubbing": 12, "shopping": 22,
+        "museums": 22, "publicTransport": 15, "accessibility": 8,
+        "safety": 55, "cleanliness": 42, "seniors": 32
+      },
+      "photos": ["Amazon river Peru aerial", "Pink river dolphin Amazon", "Amazon canopy walkway Peru", "Amazon rainforest lodge Peru", "Macaw clay lick Peru", "Iquitos Belen floating market"]
+    },
+    {
+      "id": "rio-br", "name": "Rio de Janeiro", "country": "BR", "region": "Rio de Janeiro", "continent": "South America",
+      "lat": -22.907, "lon": -43.173, "type": "city", "arch": "coastal-city",
+      "blurb": "Christ the Redeemer over Sugarloaf, Copacabana and Ipanema, and a Carnival that stops the country. The setting is genuinely without equal.",
+      "tags": ["carnival", "beaches", "samba", "mountains"],
+      "climate": {
+        "tempHigh": [30, 30, 30, 28, 27, 26, 25, 26, 26, 27, 28, 29],
+        "tempLow":  [23, 24, 23, 22, 21, 19, 19, 19, 20, 21, 22, 23],
+        "rainDays": [11, 8, 10, 9, 7, 5, 5, 5, 8, 10, 11, 13],
+        "sunHours": [7, 7, 6, 6, 6, 6, 6, 6, 5, 5, 6, 6],
+        "humidity": [79, 79, 80, 80, 80, 79, 77, 77, 79, 80, 79, 79],
+        "seaTemp":  [25, 26, 25, 25, 24, 23, 22, 22, 22, 23, 24, 25]
+      },
+      "crowd":      [92, 95, 78, 62, 52, 48, 55, 55, 55, 62, 68, 85],
+      "priceIndex": [98, 100, 85, 70, 60, 55, 62, 62, 62, 70, 78, 92],
+      "cost": { "budget": 35, "mid": 88, "luxury": 300 },
+      "r": {
+        "beaches": 92, "swimming": 84, "surfing": 82, "scenery": 100,
+        "mountains": 86, "hiking": 84, "forests": 82, "climbing": 84,
+        "adrenaline": 88, "liveMusic": 96, "festivals": 100, "localCulture": 94,
+        "bars": 92, "clubbing": 92, "groupParty": 94, "foodScene": 86,
+        "streetFood": 84, "museums": 74, "architecture": 78, "sports": 92,
+        "romance": 86, "valueForMoney": 82, "backpacker": 84,
+        "safety": 32, "soloFemaleSafety": 30, "cleanliness": 45, "publicTransport": 58
+      },
+      "photos": ["Christ the Redeemer Rio de Janeiro", "Sugarloaf Mountain Rio cable car", "Copacabana beach Rio aerial", "Rio Carnival samba parade", "Ipanema beach sunset Rio", "Selaron Steps Rio de Janeiro"]
+    },
+    {
+      "id": "salvador-br", "name": "Salvador da Bahia", "country": "BR", "region": "Bahia", "continent": "South America",
+      "lat": -12.977, "lon": -38.501, "type": "city", "arch": "historic-city",
+      "blurb": "The heart of Afro-Brazilian culture — Pelourinho's baroque colour, capoeira in the squares, candomblé, and the best street carnival in Brazil.",
+      "tags": ["afro-brazilian", "carnival", "capoeira", "colonial"],
+      "climate": {
+        "tempHigh": [30, 30, 30, 29, 28, 27, 26, 27, 27, 28, 29, 30],
+        "tempLow":  [24, 24, 24, 24, 23, 22, 21, 21, 22, 23, 23, 24],
+        "rainDays": [8, 9, 11, 15, 17, 16, 16, 12, 9, 9, 10, 9],
+        "sunHours": [8, 8, 7, 6, 6, 6, 6, 7, 7, 7, 8, 8],
+        "humidity": [79, 80, 81, 84, 84, 84, 83, 81, 80, 80, 80, 79],
+        "seaTemp":  [28, 28, 28, 28, 27, 26, 26, 25, 26, 26, 27, 27]
+      },
+      "crowd":      [88, 95, 72, 55, 48, 45, 52, 52, 52, 58, 62, 82],
+      "priceIndex": [95, 100, 80, 62, 55, 52, 60, 60, 60, 65, 72, 90],
+      "cost": { "budget": 28, "mid": 70, "luxury": 230 },
+      "r": {
+        "localCulture": 100, "liveMusic": 98, "festivals": 100, "historicSites": 92,
+        "architecture": 94, "religiousSites": 86, "artScene": 84, "museums": 72,
+        "foodScene": 88, "streetFood": 88, "markets": 86, "beaches": 84,
+        "swimming": 84, "surfing": 74, "bars": 88, "clubbing": 88,
+        "groupParty": 92, "walkability": 74, "valueForMoney": 92, "backpacker": 84,
+        "romance": 76, "safety": 30, "soloFemaleSafety": 28, "cleanliness": 42,
+        "englishSpoken": 30, "publicTransport": 45
+      },
+      "photos": ["Pelourinho Salvador Bahia colourful", "Capoeira Salvador Brazil", "Salvador Carnival street party", "Elevador Lacerda Salvador", "Bahian acaraje street food", "Igreja Sao Francisco Salvador gold"]
+    },
+    {
+      "id": "iguazu-br", "name": "Iguazú Falls", "country": "BR", "region": "Paraná", "continent": "South America",
+      "lat": -25.695, "lon": -54.437, "type": "region", "arch": "wilderness-park",
+      "blurb": "275 waterfalls across nearly 3km of jungle on the Brazil–Argentina border. The Devil's Throat is one of the loudest places on earth.",
+      "tags": ["waterfalls", "jungle", "wildlife", "unesco"],
+      "climate": {
+        "tempHigh": [33, 32, 31, 28, 25, 23, 23, 25, 26, 29, 31, 32],
+        "tempLow":  [21, 21, 20, 17, 14, 12, 12, 13, 14, 17, 19, 20],
+        "rainDays": [10, 9, 8, 8, 8, 8, 6, 6, 8, 11, 9, 10],
+        "sunHours": [7, 7, 7, 6, 5, 5, 5, 6, 5, 6, 7, 7],
+        "humidity": [76, 78, 80, 82, 84, 85, 82, 78, 76, 76, 74, 74]
+      },
+      "crowd":      [88, 82, 68, 58, 48, 45, 65, 62, 55, 58, 62, 78],
+      "priceIndex": [95, 90, 78, 68, 58, 55, 75, 72, 65, 68, 72, 88],
+      "cost": { "budget": 35, "mid": 88, "luxury": 280 },
+      "r": {
+        "scenery": 100, "lakesRivers": 100, "nationalParks": 94, "forests": 92,
+        "wildlife": 88, "hiking": 78, "adrenaline": 84, "kayaking": 74,
+        "stargazing": 70, "romance": 84, "familyYoungKids": 78, "familyTeens": 88,
+        "valueForMoney": 82, "englishSpoken": 45,
+        "beaches": 0, "swimming": 35, "clubbing": 25, "shopping": 42,
+        "museums": 25, "historicSites": 32, "publicTransport": 42, "safety": 62
+      },
+      "photos": ["Iguazu Falls Devils Throat", "Iguazu Falls rainbow aerial", "Iguazu Falls walkway Brazil", "Coati Iguazu National Park", "Iguazu boat ride under falls", "Toucan Iguazu jungle"]
+    },
+    {
+      "id": "florianopolis-br", "name": "Florianópolis", "country": "BR", "region": "Santa Catarina", "continent": "South America",
+      "lat": -27.595, "lon": -48.548, "type": "island", "arch": "beach-resort",
+      "blurb": "Forty-two beaches on one island — surf on the east, calm bays on the west, sand dunes and lagoons, and Brazil's best quality of life.",
+      "tags": ["surfing", "beaches", "lagoon", "nightlife"],
+      "climate": {
+        "tempHigh": [28, 28, 27, 25, 23, 21, 21, 21, 22, 23, 25, 27],
+        "tempLow":  [21, 21, 21, 18, 16, 14, 13, 14, 15, 17, 18, 20],
+        "rainDays": [13, 13, 13, 10, 9, 8, 8, 9, 11, 12, 11, 12],
+        "sunHours": [7, 7, 6, 6, 5, 5, 5, 5, 4, 5, 7, 7],
+        "humidity": [82, 83, 84, 84, 84, 85, 85, 84, 85, 84, 82, 81],
+        "seaTemp":  [25, 26, 25, 24, 22, 21, 20, 20, 20, 21, 22, 24]
+      },
+      "crowd":      [95, 88, 68, 48, 38, 35, 40, 40, 45, 52, 62, 85],
+      "priceIndex": [100, 92, 75, 58, 48, 45, 52, 52, 55, 62, 72, 92],
+      "cost": { "budget": 32, "mid": 80, "luxury": 260 },
+      "r": {
+        "beaches": 94, "surfing": 94, "swimming": 84, "waterSports": 86,
+        "kayaking": 78, "sailing": 74, "islands": 86, "scenery": 86,
+        "hiking": 80, "forests": 80, "lakesRivers": 80, "adrenaline": 82,
+        "bars": 88, "clubbing": 90, "groupParty": 90, "liveMusic": 84,
+        "foodScene": 84, "wellness": 78, "digitalNomad": 84, "backpacker": 86,
+        "valueForMoney": 84, "romance": 80, "safety": 62,
+        "englishSpoken": 38, "museums": 32, "publicTransport": 45
+      },
+      "photos": ["Florianopolis beach Santa Catarina", "Lagoa da Conceicao Florianopolis", "Praia Mole surfing Brazil", "Florianopolis Hercilio Luz bridge", "Joaquina dunes sandboarding", "Campeche island Brazil"]
+    },
+    {
+      "id": "buenos-aires-ar", "name": "Buenos Aires", "country": "AR", "region": "Buenos Aires", "continent": "South America",
+      "lat": -34.604, "lon": -58.382, "type": "city", "arch": "latin-city",
+      "blurb": "Paris with steak and tango — grand boulevards, the world's most beautiful bookshop, milongas until dawn and Malbec at every table.",
+      "tags": ["tango", "steak", "wine", "architecture"],
+      "climate": {
+        "tempHigh": [30, 29, 27, 23, 19, 16, 16, 18, 20, 23, 26, 29],
+        "tempLow":  [20, 20, 18, 14, 11, 8, 8, 9, 11, 14, 16, 19],
+        "rainDays": [8, 7, 8, 8, 7, 6, 6, 6, 7, 9, 9, 9],
+        "sunHours": [9, 8, 7, 6, 5, 4, 5, 6, 6, 7, 8, 9],
+        "humidity": [64, 68, 72, 76, 78, 80, 79, 74, 70, 70, 66, 63]
+      },
+      "crowd":      [72, 68, 68, 62, 52, 48, 55, 55, 58, 68, 72, 78],
+      "priceIndex": [82, 78, 78, 72, 62, 58, 65, 65, 68, 78, 82, 88],
+      "cost": { "budget": 30, "mid": 75, "luxury": 250 },
+      "r": {
+        "foodScene": 94, "fineDining": 88, "wine": 96, "markets": 84,
+        "architecture": 94, "museums": 86, "artScene": 90, "theatre": 92,
+        "liveMusic": 92, "localCulture": 94, "historicSites": 78,
+        "bars": 92, "clubbing": 94, "lgbtqScene": 90, "lgbtqSafety": 86,
+        "shopping": 84, "walkability": 88, "publicTransport": 78,
+        "sports": 92, "festivals": 82, "romance": 88,
+        "valueForMoney": 90, "backpacker": 86, "digitalNomad": 82,
+        "safety": 52, "beaches": 5, "swimming": 20, "englishSpoken": 48
+      },
+      "photos": ["Caminito La Boca Buenos Aires", "Teatro Colon Buenos Aires", "El Ateneo Grand Splendid bookshop", "Tango dancers Buenos Aires", "Recoleta Cemetery Buenos Aires", "Argentine asado steak"]
+    },
+    {
+      "id": "patagonia-ar", "name": "Argentine Patagonia", "country": "AR", "region": "Santa Cruz", "continent": "South America",
+      "lat": -50.337, "lon": -72.263, "type": "mountains", "arch": "wilderness-park",
+      "blurb": "The Perito Moreno glacier calving into a lake, and the granite spires of Fitz Roy above El Chaltén — Argentina's trekking capital.",
+      "tags": ["glaciers", "trekking", "fitz roy", "wild"],
+      "climate": {
+        "tempHigh": [19, 19, 16, 12, 8, 5, 5, 7, 11, 14, 17, 19],
+        "tempLow":  [7, 7, 5, 3, 0, -2, -2, -1, 1, 3, 5, 6],
+        "rainDays": [7, 6, 7, 7, 8, 8, 8, 7, 6, 7, 7, 8],
+        "sunHours": [9, 8, 6, 5, 3, 3, 3, 4, 6, 7, 9, 9],
+        "humidity": [50, 52, 58, 66, 74, 78, 76, 70, 60, 54, 50, 48],
+        "snowDepth": [0, 0, 2, 8, 20, 35, 40, 32, 18, 5, 0, 0]
+      },
+      "crowd":      [92, 88, 72, 45, 25, 18, 18, 22, 35, 58, 78, 88],
+      "priceIndex": [100, 95, 80, 55, 38, 30, 30, 34, 48, 68, 85, 95],
+      "cost": { "budget": 45, "mid": 115, "luxury": 340 },
+      "r": {
+        "scenery": 100, "mountains": 98, "hiking": 100, "nationalParks": 96,
+        "climbing": 92, "lakesRivers": 92, "stargazing": 90, "wildlife": 76,
+        "forests": 78, "adrenaline": 82, "kayaking": 78, "roadTrip": 88,
+        "romance": 82, "skiing": 30, "valueForMoney": 76, "backpacker": 86,
+        "familyTeens": 80, "englishSpoken": 52,
+        "beaches": 0, "swimming": 8, "clubbing": 8, "shopping": 25,
+        "museums": 28, "publicTransport": 25, "accessibility": 20, "seniors": 40
+      },
+      "photos": ["Perito Moreno glacier Argentina", "Mount Fitz Roy El Chalten", "Laguna de los Tres Patagonia", "Patagonia guanaco steppe", "El Calafate glacier ice trekking", "Patagonia autumn lenga forest"]
+    },
+    {
+      "id": "bariloche-ar", "name": "Bariloche & the Lake District", "country": "AR", "region": "Río Negro", "continent": "South America",
+      "lat": -41.135, "lon": -71.309, "type": "lake", "arch": "mountain-town",
+      "blurb": "Alpine-style chocolate-shop town on a huge glacial lake, with South America's best skiing at Cerro Catedral and seven lakes to drive between.",
+      "tags": ["lakes", "skiing", "chocolate", "andes"],
+      "climate": {
+        "tempHigh": [23, 23, 20, 15, 11, 8, 8, 9, 12, 16, 19, 22],
+        "tempLow":  [9, 9, 7, 5, 2, 0, 0, 1, 2, 4, 6, 8],
+        "rainDays": [5, 5, 6, 9, 13, 15, 14, 13, 10, 8, 6, 6],
+        "sunHours": [10, 9, 7, 5, 4, 3, 3, 4, 5, 7, 9, 10],
+        "humidity": [52, 54, 60, 68, 76, 80, 79, 74, 66, 60, 54, 52],
+        "snowDepth": [0, 0, 0, 3, 25, 55, 70, 65, 40, 12, 2, 0]
+      },
+      "crowd":      [88, 82, 62, 42, 38, 62, 82, 85, 55, 42, 55, 78],
+      "priceIndex": [95, 90, 72, 52, 48, 72, 90, 92, 65, 52, 65, 88],
+      "cost": { "budget": 38, "mid": 95, "luxury": 290 },
+      "r": {
+        "scenery": 96, "lakesRivers": 96, "mountains": 92, "hiking": 92,
+        "skiing": 88, "forests": 88, "kayaking": 84, "cycling": 84,
+        "fishing": 88, "climbing": 78, "adrenaline": 84, "nationalParks": 90,
+        "stargazing": 82, "wellness": 76, "foodScene": 82, "beer": 88,
+        "romance": 86, "roadTrip": 92, "valueForMoney": 84, "backpacker": 84,
+        "familyYoungKids": 76, "familyTeens": 86, "englishSpoken": 50,
+        "beaches": 32, "swimming": 55, "clubbing": 62, "publicTransport": 45
+      },
+      "photos": ["Bariloche Nahuel Huapi lake Argentina", "Cerro Catedral skiing Argentina", "Seven Lakes Route Patagonia", "Bariloche chocolate shop", "Cerro Campanario viewpoint Bariloche", "Villa La Angostura Argentina"]
+    },
+    {
+      "id": "mendoza-ar", "name": "Mendoza", "country": "AR", "region": "Mendoza", "continent": "South America",
+      "lat": -32.890, "lon": -68.844, "type": "region", "arch": "wine-country",
+      "blurb": "Malbec country in the rain shadow of Aconcagua — vineyards with 6,000m peaks behind them, long lunches, and rafting in the Andes.",
+      "tags": ["malbec", "vineyards", "andes", "asado"],
+      "climate": {
+        "tempHigh": [32, 30, 28, 23, 19, 15, 15, 18, 21, 25, 29, 31],
+        "tempLow":  [18, 17, 15, 11, 7, 4, 4, 5, 8, 12, 15, 17],
+        "rainDays": [6, 5, 5, 3, 3, 2, 2, 2, 3, 4, 5, 6],
+        "sunHours": [10, 9, 8, 7, 6, 5, 5, 6, 7, 9, 10, 10],
+        "humidity": [54, 58, 62, 66, 70, 72, 70, 64, 58, 54, 50, 50],
+        "snowDepth": [0, 0, 0, 2, 15, 45, 60, 55, 30, 8, 0, 0]
+      },
+      "crowd":      [72, 68, 78, 72, 52, 45, 48, 48, 52, 62, 68, 72],
+      "priceIndex": [82, 78, 88, 82, 62, 55, 58, 58, 62, 72, 78, 82],
+      "cost": { "budget": 32, "mid": 80, "luxury": 260 },
+      "r": {
+        "wine": 100, "fineDining": 92, "foodScene": 92, "scenery": 88,
+        "mountains": 92, "hiking": 84, "climbing": 86, "adrenaline": 86,
+        "cycling": 88, "roadTrip": 88, "skiing": 62, "kayaking": 78,
+        "wellness": 82, "romance": 90, "stargazing": 84, "luxury": 82,
+        "valueForMoney": 88, "seniors": 74, "englishSpoken": 48,
+        "beaches": 0, "swimming": 25, "clubbing": 52, "shopping": 58,
+        "museums": 42, "publicTransport": 45
+      },
+      "photos": ["Mendoza vineyard Andes Argentina", "Aconcagua mountain Argentina", "Malbec wine tasting Mendoza", "Mendoza wine harvest", "Puente del Inca Mendoza", "Argentine asado grill"]
+    },
+    {
+      "id": "santiago-cl", "name": "Santiago", "country": "CL", "region": "Santiago Metropolitan", "continent": "South America",
+      "lat": -33.449, "lon": -70.669, "type": "city", "arch": "latin-city",
+      "blurb": "A modern capital hemmed in by the snow-capped Andes — ski in the morning, Pacific coast at Valparaíso in the afternoon, wine valleys in between.",
+      "tags": ["andes", "wine", "ski access", "modern"],
+      "climate": {
+        "tempHigh": [30, 29, 27, 23, 18, 15, 15, 17, 19, 23, 26, 29],
+        "tempLow":  [12, 11, 10, 7, 5, 3, 3, 4, 6, 8, 10, 12],
+        "rainDays": [0, 0, 1, 2, 5, 6, 6, 5, 3, 2, 1, 1],
+        "sunHours": [11, 10, 9, 7, 5, 4, 4, 5, 6, 8, 10, 11],
+        "humidity": [52, 55, 60, 68, 76, 80, 80, 76, 70, 64, 56, 52],
+        "snowDepth": [0, 0, 0, 0, 2, 8, 12, 10, 5, 1, 0, 0]
+      },
+      "crowd":      [72, 68, 62, 55, 48, 52, 58, 58, 55, 62, 68, 72],
+      "priceIndex": [82, 78, 72, 65, 58, 62, 68, 68, 65, 72, 78, 82],
+      "cost": { "budget": 38, "mid": 95, "luxury": 300 },
+      "r": {
+        "wine": 96, "foodScene": 88, "fineDining": 84, "markets": 84,
+        "museums": 84, "artScene": 82, "architecture": 76, "historicSites": 72,
+        "mountains": 92, "skiing": 82, "hiking": 82, "cycling": 78,
+        "bars": 84, "clubbing": 82, "shopping": 82, "walkability": 78,
+        "publicTransport": 88, "roadTrip": 86, "valueForMoney": 74,
+        "backpacker": 78, "digitalNomad": 76, "safety": 58,
+        "beaches": 32, "swimming": 32, "englishSpoken": 42, "cleanliness": 62
+      },
+      "photos": ["Santiago Chile Andes skyline", "Cerro San Cristobal Santiago", "Valparaiso colourful houses Chile", "Chilean vineyard Colchagua", "Santiago Mercado Central", "Portillo ski resort Chile"]
+    },
+    {
+      "id": "atacama-cl", "name": "Atacama Desert", "country": "CL", "region": "Antofagasta", "continent": "South America",
+      "lat": -22.911, "lon": -68.200, "type": "region", "arch": "desert",
+      "blurb": "The driest non-polar desert on earth — salt flats with flamingos, geysers at dawn at 4,300m, and skies so clear the world's biggest telescopes live here.",
+      "tags": ["stargazing", "salt flats", "geysers", "altitude"],
+      "climate": {
+        "tempHigh": [26, 26, 25, 24, 23, 22, 22, 23, 24, 25, 26, 26],
+        "tempLow":  [7, 7, 6, 3, 0, -2, -3, -1, 1, 3, 5, 6],
+        "rainDays": [2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        "sunHours": [10, 10, 10, 11, 11, 10, 11, 11, 11, 11, 11, 10],
+        "humidity": [38, 40, 38, 32, 30, 30, 30, 30, 30, 30, 32, 36]
+      },
+      "crowd":      [72, 72, 62, 55, 52, 55, 68, 68, 62, 62, 62, 72],
+      "priceIndex": [82, 82, 72, 65, 62, 65, 78, 78, 72, 72, 72, 82],
+      "cost": { "budget": 45, "mid": 115, "luxury": 380 },
+      "r": {
+        "stargazing": 100, "desert": 100, "scenery": 98, "volcanic": 92,
+        "hiking": 84, "mountains": 88, "roadTrip": 92, "wildlife": 74,
+        "adrenaline": 78, "lakesRivers": 72, "localCulture": 82,
+        "wellness": 78, "romance": 88, "luxury": 84, "nationalParks": 84,
+        "valueForMoney": 68, "englishSpoken": 52, "cleanliness": 78,
+        "beaches": 0, "swimming": 32, "clubbing": 8, "shopping": 32,
+        "museums": 52, "publicTransport": 22, "safety": 82, "forests": 2
+      },
+      "photos": ["Valle de la Luna Atacama Chile", "El Tatio geysers Atacama", "Atacama night sky Milky Way", "Laguna Chaxa flamingos Atacama", "Salar de Atacama salt flat", "Atacama desert lagoon altiplano"]
+    },
+    {
+      "id": "torres-del-paine-cl", "name": "Torres del Paine", "country": "CL", "region": "Magallanes", "continent": "South America",
+      "lat": -50.942, "lon": -73.407, "type": "mountains", "arch": "wilderness-park",
+      "blurb": "Three granite towers over a turquoise lake, with the W and O circuits beneath them — arguably the finest trekking park on the planet. Ferocious wind.",
+      "tags": ["trekking", "granite towers", "guanacos", "wind"],
+      "climate": {
+        "tempHigh": [17, 17, 15, 11, 7, 5, 4, 6, 9, 13, 15, 16],
+        "tempLow":  [6, 6, 4, 2, 0, -2, -3, -2, 0, 2, 4, 5],
+        "rainDays": [10, 9, 9, 10, 11, 11, 11, 10, 9, 10, 10, 11],
+        "sunHours": [8, 7, 6, 4, 3, 2, 2, 3, 5, 6, 8, 8],
+        "humidity": [58, 60, 66, 74, 80, 84, 82, 76, 68, 62, 58, 56],
+        "snowDepth": [0, 0, 2, 10, 25, 40, 45, 38, 22, 8, 1, 0]
+      },
+      "crowd":      [92, 88, 68, 38, 18, 12, 12, 15, 28, 52, 75, 88],
+      "priceIndex": [100, 95, 78, 50, 32, 25, 25, 28, 42, 65, 85, 95],
+      "cost": { "budget": 50, "mid": 125, "luxury": 400 },
+      "r": {
+        "hiking": 100, "scenery": 100, "mountains": 98, "nationalParks": 100,
+        "wildlife": 88, "lakesRivers": 92, "climbing": 88, "stargazing": 86,
+        "kayaking": 76, "adrenaline": 78, "forests": 74, "roadTrip": 78,
+        "romance": 82, "luxury": 78, "ecoFriendly": 80, "familyTeens": 78,
+        "valueForMoney": 62, "englishSpoken": 55,
+        "beaches": 0, "swimming": 5, "clubbing": 2, "shopping": 12,
+        "museums": 12, "publicTransport": 15, "accessibility": 15,
+        "seniors": 35, "familyYoungKids": 25, "wifi": 30
+      },
+      "photos": ["Torres del Paine towers Chile", "Torres del Paine Cuernos lake", "Guanaco Torres del Paine", "Grey Glacier Patagonia Chile", "W trek Patagonia hiker", "Torres del Paine sunrise alpenglow"]
+    },
+    {
+      "id": "easter-island-cl", "name": "Easter Island", "country": "CL", "region": "Valparaíso", "continent": "South America",
+      "lat": -27.117, "lon": -109.350, "type": "island", "arch": "island-volcanic",
+      "blurb": "The most remote inhabited island on earth — 3,700km from anywhere — and 900 moai staring inland from the world's most enigmatic archaeological site.",
+      "tags": ["moai", "remote", "archaeology", "polynesian"],
+      "climate": {
+        "tempHigh": [27, 28, 27, 25, 23, 22, 21, 21, 22, 23, 24, 26],
+        "tempLow":  [19, 20, 19, 18, 17, 16, 15, 15, 15, 16, 17, 18],
+        "rainDays": [8, 7, 8, 10, 12, 11, 10, 9, 8, 9, 8, 9],
+        "sunHours": [8, 8, 7, 6, 5, 5, 5, 5, 6, 7, 8, 8],
+        "humidity": [78, 79, 80, 81, 82, 82, 81, 80, 79, 78, 78, 78],
+        "seaTemp":  [24, 25, 25, 24, 23, 22, 21, 21, 21, 22, 22, 23]
+      },
+      "crowd":      [82, 82, 68, 52, 42, 38, 45, 45, 45, 52, 62, 78],
+      "priceIndex": [92, 92, 78, 65, 55, 50, 58, 58, 58, 65, 72, 88],
+      "cost": { "budget": 65, "mid": 160, "luxury": 420 },
+      "r": {
+        "historicSites": 100, "localCulture": 96, "scenery": 90, "volcanic": 88,
+        "stargazing": 92, "hiking": 84, "beaches": 68, "swimming": 74,
+        "scuba": 84, "snorkelling": 78, "surfing": 76, "islands": 96,
+        "museums": 74, "romance": 84, "roadTrip": 74, "cycling": 76,
+        "englishSpoken": 55, "valueForMoney": 45, "safety": 88,
+        "clubbing": 20, "shopping": 25, "wifi": 42, "publicTransport": 25,
+        "foodScene": 58, "backpacker": 55
+      },
+      "photos": ["Moai statues Easter Island", "Rano Raraku quarry Easter Island", "Ahu Tongariki sunrise Easter Island", "Anakena beach Easter Island", "Orongo birdman village Rapa Nui", "Easter Island volcanic crater lake"]
+    },
+    {
+      "id": "cartagena-co", "name": "Cartagena", "country": "CO", "region": "Bolívar", "continent": "South America",
+      "lat": 10.391, "lon": -75.479, "type": "city", "arch": "historic-city",
+      "blurb": "A walled Spanish colonial port of bougainvillea and balconies on the Caribbean, with the Rosario Islands an hour offshore.",
+      "tags": ["walled city", "colonial", "caribbean", "salsa"],
+      "climate": {
+        "tempHigh": [31, 31, 31, 32, 32, 32, 32, 32, 32, 31, 31, 31],
+        "tempLow":  [24, 24, 25, 26, 26, 26, 26, 26, 26, 26, 26, 25],
+        "rainDays": [1, 1, 1, 4, 9, 10, 9, 10, 12, 14, 10, 4],
+        "sunHours": [9, 9, 8, 7, 7, 7, 8, 8, 6, 6, 7, 8],
+        "humidity": [79, 79, 79, 80, 82, 82, 80, 81, 83, 84, 83, 81],
+        "seaTemp":  [27, 27, 27, 28, 29, 29, 29, 29, 29, 29, 29, 28]
+      },
+      "crowd":      [88, 85, 78, 62, 52, 55, 65, 62, 52, 55, 62, 88],
+      "priceIndex": [95, 92, 85, 70, 62, 65, 75, 72, 62, 65, 72, 100],
+      "cost": { "budget": 32, "mid": 80, "luxury": 280 },
+      "r": {
+        "historicSites": 96, "architecture": 96, "localCulture": 92, "walkability": 90,
+        "liveMusic": 90, "festivals": 86, "foodScene": 88, "streetFood": 86,
+        "markets": 82, "bars": 90, "clubbing": 90, "groupParty": 88,
+        "beaches": 72, "swimming": 78, "islands": 82, "snorkelling": 74,
+        "scuba": 74, "sailing": 78, "romance": 92, "luxury": 84,
+        "valueForMoney": 84, "backpacker": 84, "wellness": 78,
+        "safety": 58, "englishSpoken": 42, "hiking": 25, "publicTransport": 42
+      },
+      "photos": ["Cartagena walled city Colombia", "Cartagena colourful balconies", "Getsemani street art Cartagena", "Rosario Islands Colombia", "Cartagena clock tower gate", "Colombian salsa dancing Cartagena"]
+    },
+    {
+      "id": "medellin-co", "name": "Medellín", "country": "CO", "region": "Antioquia", "continent": "South America",
+      "lat": 6.244, "lon": -75.581, "type": "city", "arch": "latin-city",
+      "blurb": "The City of Eternal Spring — 22°C every day of the year, cable cars up the hillsides, a remarkable turnaround story, and coffee country next door.",
+      "tags": ["eternal spring", "coffee", "nomad", "transformation"],
+      "climate": {
+        "tempHigh": [28, 28, 28, 28, 28, 28, 29, 29, 28, 27, 27, 27],
+        "tempLow":  [17, 17, 17, 18, 18, 18, 17, 17, 17, 17, 17, 17],
+        "rainDays": [8, 9, 13, 18, 20, 15, 13, 15, 18, 20, 18, 11],
+        "sunHours": [6, 6, 5, 4, 4, 5, 6, 6, 5, 4, 4, 5],
+        "humidity": [66, 65, 68, 72, 74, 70, 66, 66, 70, 74, 74, 70]
+      },
+      "crowd":      [72, 68, 62, 55, 52, 62, 68, 72, 58, 55, 58, 72],
+      "priceIndex": [82, 78, 72, 65, 62, 72, 78, 82, 68, 65, 68, 82],
+      "cost": { "budget": 28, "mid": 68, "luxury": 220 },
+      "r": {
+        "localCulture": 88, "artScene": 88, "museums": 80, "liveMusic": 88,
+        "festivals": 90, "foodScene": 86, "streetFood": 86, "markets": 84,
+        "coffee": 96, "bars": 90, "clubbing": 92, "groupParty": 88,
+        "publicTransport": 88, "mountains": 80, "hiking": 76, "forests": 74,
+        "adrenaline": 82, "wellness": 82, "digitalNomad": 94, "backpacker": 88,
+        "valueForMoney": 92, "romance": 76, "shopping": 78,
+        "safety": 48, "soloFemaleSafety": 42, "englishSpoken": 38,
+        "beaches": 0, "swimming": 30
+      },
+      "photos": ["Medellin Comuna 13 street art", "Medellin metrocable Colombia", "Guatape rock Colombia", "Medellin flower festival", "Colombian coffee farm Salento", "Cocora Valley wax palms Colombia"]
+    },
+    {
+      "id": "galapagos-ec", "name": "Galápagos Islands", "country": "EC", "region": "Galápagos", "continent": "South America",
+      "lat": -0.744, "lon": -90.313, "type": "island", "arch": "island-volcanic",
+      "blurb": "The islands that gave us evolution — and the only place on earth where the wildlife has no fear of you. Sea lions, marine iguanas, giant tortoises.",
+      "tags": ["wildlife", "darwin", "diving", "unique"],
+      "climate": {
+        "tempHigh": [30, 31, 31, 31, 29, 27, 26, 26, 26, 26, 27, 29],
+        "tempLow":  [22, 23, 24, 24, 23, 22, 21, 20, 20, 21, 21, 22],
+        "rainDays": [8, 10, 11, 8, 6, 5, 5, 4, 4, 4, 5, 6],
+        "sunHours": [7, 7, 8, 8, 7, 6, 5, 5, 6, 6, 7, 7],
+        "humidity": [82, 83, 83, 82, 82, 82, 82, 81, 80, 80, 80, 81],
+        "seaTemp":  [25, 26, 26, 26, 25, 24, 22, 21, 21, 22, 23, 24]
+      },
+      "crowd":      [72, 68, 62, 58, 55, 68, 82, 82, 62, 58, 62, 78],
+      "priceIndex": [82, 78, 72, 68, 65, 78, 92, 92, 72, 68, 72, 88],
+      "cost": { "budget": 90, "mid": 230, "luxury": 700 },
+      "r": {
+        "wildlife": 100, "snorkelling": 98, "scuba": 96, "islands": 96,
+        "swimming": 88, "beaches": 84, "kayaking": 84, "sailing": 88,
+        "volcanic": 90, "scenery": 90, "hiking": 82, "nationalParks": 100,
+        "stargazing": 84, "ecoFriendly": 88, "museums": 62, "localCulture": 62,
+        "romance": 84, "luxury": 80, "familyTeens": 90, "englishSpoken": 62,
+        "valueForMoney": 40, "backpacker": 45, "clubbing": 15,
+        "shopping": 22, "historicSites": 20, "publicTransport": 25
+      },
+      "photos": ["Galapagos marine iguana", "Galapagos giant tortoise", "Blue footed booby Galapagos", "Galapagos sea lion beach", "Galapagos snorkelling with turtle", "Bartolome Island Pinnacle Rock"]
+    },
+    {
+      "id": "quito-ec", "name": "Quito & the Andes", "country": "EC", "region": "Pichincha", "continent": "South America",
+      "lat": -0.181, "lon": -78.467, "type": "city", "arch": "historic-city",
+      "blurb": "The best-preserved colonial centre in the Americas at 2,850m, ringed by volcanoes — Cotopaxi, Quilotoa's crater lake and the equator itself.",
+      "tags": ["colonial", "volcanoes", "equator", "altitude"],
+      "climate": {
+        "tempHigh": [19, 19, 19, 19, 19, 19, 20, 20, 20, 19, 19, 19],
+        "tempLow":  [9, 10, 10, 10, 10, 9, 9, 9, 9, 10, 9, 9],
+        "rainDays": [15, 16, 19, 20, 17, 10, 6, 6, 12, 16, 17, 15],
+        "sunHours": [5, 5, 4, 4, 5, 6, 7, 7, 6, 5, 5, 5],
+        "humidity": [76, 78, 78, 79, 78, 74, 70, 68, 72, 76, 76, 76]
+      },
+      "crowd":      [58, 55, 52, 52, 52, 62, 72, 72, 58, 55, 55, 62],
+      "priceIndex": [68, 65, 62, 62, 62, 72, 82, 82, 68, 65, 65, 72],
+      "cost": { "budget": 28, "mid": 68, "luxury": 220 },
+      "r": {
+        "historicSites": 96, "architecture": 94, "religiousSites": 92,
+        "localCulture": 90, "museums": 80, "markets": 88, "artScene": 76,
+        "volcanic": 94, "mountains": 92, "hiking": 88, "scenery": 88,
+        "adrenaline": 82, "climbing": 84, "wildlife": 76, "forests": 78,
+        "nationalParks": 82, "roadTrip": 80, "coffee": 82,
+        "valueForMoney": 92, "backpacker": 88, "walkability": 78,
+        "safety": 48, "soloFemaleSafety": 42, "englishSpoken": 42,
+        "beaches": 0, "swimming": 20, "publicTransport": 55
+      },
+      "photos": ["Quito old town colonial Ecuador", "Cotopaxi volcano Ecuador", "Quilotoa crater lake Ecuador", "La Compania church Quito gold", "Mitad del Mundo equator Ecuador", "Otavalo market Ecuador textiles"]
+    },
+    {
+      "id": "uyuni-bo", "name": "Salar de Uyuni", "country": "BO", "region": "Potosí", "continent": "South America",
+      "lat": -20.133, "lon": -67.489, "type": "region", "arch": "desert",
+      "blurb": "The world's largest salt flat — 10,000km² of blinding white that becomes a perfect mirror of the sky when it floods between January and March.",
+      "tags": ["salt flat", "mirror", "altiplano", "flamingos"],
+      "climate": {
+        "tempHigh": [17, 17, 18, 18, 17, 15, 15, 17, 18, 20, 20, 19],
+        "tempLow":  [3, 3, 2, -1, -5, -8, -9, -7, -4, -1, 1, 2],
+        "rainDays": [12, 10, 7, 2, 1, 0, 0, 1, 1, 2, 4, 8],
+        "sunHours": [6, 6, 7, 9, 9, 9, 9, 9, 9, 9, 9, 7],
+        "humidity": [58, 58, 54, 42, 34, 30, 28, 30, 34, 36, 40, 50]
+      },
+      "crowd":      [72, 78, 68, 45, 42, 52, 68, 68, 55, 52, 55, 62],
+      "priceIndex": [82, 88, 78, 58, 55, 65, 78, 78, 68, 65, 68, 75],
+      "cost": { "budget": 30, "mid": 75, "luxury": 250 },
+      "r": {
+        "scenery": 100, "desert": 98, "stargazing": 98, "volcanic": 82,
+        "roadTrip": 92, "wildlife": 78, "lakesRivers": 74, "hiking": 68,
+        "mountains": 84, "localCulture": 84, "romance": 86,
+        "valueForMoney": 92, "backpacker": 88, "adrenaline": 62,
+        "englishSpoken": 35, "healthHygiene": 38, "safety": 62,
+        "beaches": 0, "swimming": 5, "clubbing": 3, "shopping": 25,
+        "museums": 22, "publicTransport": 18, "wifi": 25, "accessibility": 10,
+        "seniors": 30, "forests": 2
+      },
+      "photos": ["Salar de Uyuni mirror reflection", "Uyuni salt flat Bolivia", "Laguna Colorada flamingos Bolivia", "Train cemetery Uyuni", "Bolivian altiplano lagoon", "Isla Incahuasi cactus Uyuni"]
+    },
+    {
+      "id": "uruguay-uy", "name": "Uruguay Coast", "country": "UY", "region": "Maldonado", "continent": "South America",
+      "lat": -34.906, "lon": -54.958, "type": "coast", "arch": "beach-resort",
+      "blurb": "Montevideo's easy pace, José Ignacio's low-key glamour and Punta del Este's high season — plus the most progressive society in Latin America.",
+      "tags": ["beaches", "relaxed", "asado", "progressive"],
+      "climate": {
+        "tempHigh": [28, 27, 26, 22, 19, 16, 15, 17, 18, 21, 24, 27],
+        "tempLow":  [18, 18, 16, 13, 10, 8, 7, 8, 10, 12, 14, 17],
+        "rainDays": [6, 6, 7, 7, 7, 7, 7, 7, 7, 8, 7, 6],
+        "sunHours": [10, 9, 8, 6, 5, 4, 4, 5, 6, 7, 9, 10],
+        "humidity": [68, 72, 75, 78, 80, 82, 82, 80, 76, 74, 70, 67],
+        "seaTemp":  [22, 23, 22, 20, 17, 15, 13, 13, 14, 16, 18, 21]
+      },
+      "crowd":      [95, 85, 62, 42, 32, 28, 30, 32, 38, 48, 62, 85],
+      "priceIndex": [100, 92, 72, 52, 42, 38, 40, 42, 48, 58, 72, 92],
+      "cost": { "budget": 45, "mid": 110, "luxury": 340 },
+      "r": {
+        "beaches": 88, "swimming": 76, "surfing": 80, "waterSports": 74,
+        "foodScene": 88, "fineDining": 84, "wine": 88, "markets": 78,
+        "localCulture": 84, "liveMusic": 78, "bars": 82, "clubbing": 84,
+        "groupParty": 84, "lgbtqScene": 74, "lgbtqSafety": 92,
+        "romance": 86, "luxury": 84, "wellness": 78, "cycling": 76,
+        "safety": 78, "cleanliness": 74, "valueForMoney": 62,
+        "familyYoungKids": 78, "seniors": 74, "englishSpoken": 48,
+        "hiking": 42, "mountains": 15, "publicTransport": 58
+      },
+      "photos": ["Punta del Este La Mano sculpture", "Jose Ignacio lighthouse Uruguay", "Montevideo Rambla Uruguay", "Colonia del Sacramento Uruguay", "Uruguay asado parrilla", "Cabo Polonio dunes Uruguay"]
+    }
+  ]
+}

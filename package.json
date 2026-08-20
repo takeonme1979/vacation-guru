@@ -1,0 +1,25 @@
+{
+  "name": "vacation-guru",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline-first holiday destination matcher scored across 88 criteria.",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "build": "node tools/build-data.mjs && node tools/bundle.mjs",
+    "bundle": "node tools/bundle.mjs",
+    "test": "node tools/test-scoring.mjs && node tools/test-render.mjs && node tools/test-worlds.mjs && node tools/test-photos.mjs && node tools/test-bundle.mjs",
+    "check": "node tools/build-data.mjs --strict && node tools/bundle.mjs && npm test",
+    "preview": "node tools/preview-fiction.mjs",
+    "photos": "node tools/build-photos.mjs",
+    "photos:fiction": "node tools/build-photos.mjs --world fiction",
+    "photos:download": "node tools/build-photos.mjs --download",
+    "audit:photos": "node tools/audit-photos.mjs",
+    "audit:photos:fiction": "node tools/audit-photos.mjs --world fiction",
+    "verify:photos": "node tools/verify-photos.mjs",
+    "verify:photos:fiction": "node tools/verify-photos.mjs --world fiction"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

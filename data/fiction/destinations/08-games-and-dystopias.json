@@ -1,0 +1,576 @@
+{
+  "_doc": "Game worlds, comics and dystopias — Tamriel, Hyrule, Faerûn, Azeroth, the Mushroom Kingdom, Marvel, Panem and Airstrip One.",
+  "destinations": [
+    {
+      "id": "skyrim", "name": "Skyrim", "country": "TAM", "region": "Northern Tamriel", "continent": "High Fantasy",
+      "type": "highland", "arch": "frozen-waste",
+      "blurb": "A cold northern province of pine, snow and mead halls, currently having a civil war, a dragon crisis and an unresolved argument about which god you are allowed to worship.",
+      "about": "The Nords believe the afterlife is a hall where you fight all day and drink all night, which explains a great deal about their approach to the present one. Every barrow contains a draugr and a shout carved into a wall; every hillside contains a wandering merchant who will tell you they used to be an adventurer. The word-walls and dragon language were invented complete, with a working grammar, and fans sing in it.",
+      "tags": ["dragonborn", "mead halls", "barrows", "shouts"],
+      "climate": {
+        "tempHigh": [-3, -2, 3, 9, 15, 19, 21, 20, 15, 8, 2, -2],
+        "tempLow":  [-12, -11, -7, -2, 4, 8, 11, 10, 6, 1, -5, -10],
+        "rainDays": [14, 12, 12, 11, 11, 11, 11, 12, 12, 14, 15, 15],
+        "sunHours": [1, 2, 4, 6, 8, 9, 8, 7, 5, 3, 1, 1],
+        "humidity": [86, 84, 81, 77, 74, 74, 74, 76, 80, 84, 87, 88],
+        "snowDepth": [90, 88, 65, 28, 4, 0, 0, 0, 0, 8, 42, 80]
+      },
+      "crowd":      [20, 20, 24, 30, 38, 45, 50, 48, 40, 30, 24, 21],
+      "costTier": 1,
+      "r": {
+        "mountains": 100, "forests": 88, "wilderness": 96, "scenery": 96,
+        "hiking": 92, "climbing": 88, "rivers": 72, "underground": 92,
+        "ruins": 96, "stargazing": 92, "dragons": 96, "undead": 92,
+        "monsters": 92, "beasts": 88, "magic": 88, "wizards": 78,
+        "combat": 96, "questing": 100, "artefacts": 96, "adrenaline": 88,
+        "wandering": 96, "history": 88, "temples": 82, "libraries": 72,
+        "ale": 88, "taverns": 88, "feasting": 78, "music": 78, "localCulture": 88,
+        "markets": 62, "intrigue": 82, "soloTravel": 88, "fellowship": 68,
+        "survivability": 55, "safety": 32, "hospitality": 55, "comfort": 38,
+        "healing": 62, "lawAndOrder": 42, "warRisk": 25, "familyFriendly": 22,
+        "seniors": 22, "luxury": 25, "technology": 15, "coast": 45,
+        "swimming": 15, "cities": 45, "vegetarian": 32, "gambling": 25
+      },
+      "photos": ["Norwegian pine forest snow mountains", "Nordic stave church", "Snowy mountain pass cairn", "Longhouse turf roof snow", "Frozen waterfall cliff", "Aurora over pine forest"]
+    },
+    {
+      "id": "vvardenfell", "name": "Vvardenfell", "country": "TAM", "region": "Morrowind", "continent": "High Fantasy",
+      "type": "volcanic", "arch": "alien-world",
+      "blurb": "An ash-covered volcanic island of giant mushroom towers, insect transport and three living gods with a public relations problem. Nothing here looks like anywhere else.",
+      "about": "The most deliberately alien setting in mainstream fantasy: the houses are grown from fungus or carved from beetle shells, the taxi service is a giant flea, and the state religion is run by three people who made themselves divine and are now watching it wear off. The ash storms are genuinely dangerous and the local disease will turn you into something. Bethesda has never made anything this strange again.",
+      "tags": ["ash storms", "mushroom towers", "silt striders", "the tribunal"],
+      "climate": {
+        "tempHigh": [18, 19, 23, 27, 31, 35, 37, 37, 33, 28, 22, 18],
+        "tempLow":  [8, 9, 12, 15, 19, 22, 24, 24, 21, 17, 12, 9],
+        "rainDays": [7, 6, 5, 4, 3, 2, 1, 1, 3, 5, 7, 8],
+        "sunHours": [4, 5, 6, 7, 8, 9, 9, 9, 8, 6, 5, 4],
+        "humidity": [58, 55, 50, 45, 40, 35, 32, 33, 40, 48, 55, 59]
+      },
+      "crowd":      [30, 30, 32, 34, 36, 38, 40, 40, 38, 35, 32, 30],
+      "costTier": 2,
+      "r": {
+        "volcanic": 100, "desert": 68, "wilderness": 88, "scenery": 96,
+        "architecture": 100, "ruins": 92, "underground": 88, "islands": 78,
+        "coast": 62, "magic": 96, "wizards": 88, "undead": 88, "monsters": 92,
+        "beasts": 92, "temples": 96, "prophecy": 92, "artefacts": 96,
+        "history": 92, "libraries": 88, "intrigue": 96, "localCulture": 100,
+        "peoples": 82, "questing": 96, "combat": 82, "markets": 72,
+        "stargazing": 78, "wandering": 88, "soloTravel": 82, "cities": 62,
+        "survivability": 42, "safety": 25, "hospitality": 32, "comfort": 32,
+        "healing": 62, "lawAndOrder": 45, "commonTongue": 72, "familyFriendly": 12,
+        "seniors": 18, "luxury": 42, "technology": 22, "vegetarian": 45,
+        "forests": 22, "mountains": 82, "swimming": 32, "ale": 55, "taverns": 62
+      },
+      "photos": ["Volcanic ash landscape grey", "Giant puffball fungus field", "Lava field steam vents", "Ash storm desert dust", "Tall termite mound Australia", "Volcanic island crater lake"]
+    },
+    {
+      "id": "imperial-city", "name": "The Imperial City", "country": "TAM", "region": "Cyrodiil", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "A ring of districts around a white tower on an island in a lake, at the exact centre of the continent. The Empire is administered from here, when there is one.",
+      "about": "The White-Gold Tower was built by elves and taken by men, and the whole imperial project rests on it — which is why every crisis in the series involves something happening to it. The city's Arcane University, Arena and Market District are laid out as a wheel, an idea borrowed from Roman city planning and Dante alike. Cyrodiil is meant to be the boring province, and is: temperate, orderly, and full of paperwork.",
+      "tags": ["white-gold tower", "the arena", "arcane university", "the elder scrolls"],
+      "climate": {
+        "tempHigh": [9, 11, 15, 19, 24, 28, 31, 30, 26, 20, 14, 10],
+        "tempLow":  [1, 2, 5, 8, 12, 16, 18, 18, 15, 10, 5, 2],
+        "rainDays": [10, 9, 10, 10, 9, 7, 5, 6, 8, 11, 12, 11],
+        "sunHours": [3, 4, 5, 7, 9, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [80, 77, 73, 70, 67, 63, 60, 62, 68, 74, 79, 81]
+      },
+      "crowd":      [62, 62, 66, 72, 78, 82, 84, 84, 78, 72, 66, 64],
+      "costTier": 2,
+      "r": {
+        "cities": 96, "architecture": 96, "libraries": 96, "history": 92,
+        "markets": 88, "shopping": 82, "intrigue": 96, "temples": 82,
+        "magic": 88, "wizards": 92, "artefacts": 92, "prophecy": 88,
+        "underground": 82, "peoples": 88, "foodScene": 72, "feasting": 72,
+        "taverns": 82, "ale": 78, "wine": 78, "music": 68, "festivals": 72,
+        "combat": 78, "gambling": 72, "rivers": 62, "scenery": 68,
+        "hospitality": 62, "comfort": 72, "safety": 62, "lawAndOrder": 78,
+        "healing": 72, "familyFriendly": 52, "seniors": 55, "luxury": 72,
+        "wilderness": 8, "forests": 32, "mountains": 15, "coast": 0,
+        "swimming": 25, "technology": 18, "dragons": 32, "undead": 55
+      },
+      "photos": ["White tower city lake island", "Roman forum ruins columns", "Domed marble palace", "Medieval city walls circular", "Arena amphitheatre stone", "Cathedral spire white marble"]
+    },
+
+    {
+      "id": "hyrule-field", "name": "Hyrule", "country": "HYR", "region": "The central kingdom", "continent": "High Fantasy",
+      "type": "plains", "arch": "pastoral-idyll",
+      "blurb": "Green fields and a ruined castle in the middle distance, with a shrine on every horizon and something worth climbing behind it. Bring a paraglider and a great many apples.",
+      "about": "Hyrule is rebuilt from scratch almost every game — the same kingdom, the same princess, the same sword, a different map. Breath of the Wild's version put the whole thing on one continuous terrain with no loading and a rule that anything you can see, you can walk to, which is the clearest statement of intent in the medium. Miyamoto has said the original came from remembering exploring hillsides and caves as a boy near Kyoto.",
+      "tags": ["the master sword", "shrines", "climb anything", "cooking"],
+      "climate": {
+        "tempHigh": [8, 10, 14, 19, 23, 26, 28, 28, 25, 19, 14, 10],
+        "tempLow":  [1, 2, 5, 9, 13, 17, 20, 20, 17, 11, 6, 3],
+        "rainDays": [8, 8, 9, 9, 9, 10, 9, 8, 9, 9, 8, 8],
+        "sunHours": [4, 5, 6, 7, 8, 8, 9, 9, 7, 6, 5, 4],
+        "humidity": [72, 70, 68, 67, 68, 72, 74, 73, 72, 70, 71, 72],
+        "snowDepth": [15, 12, 5, 0, 0, 0, 0, 0, 0, 0, 3, 12]
+      },
+      "crowd":      [30, 30, 36, 44, 52, 58, 60, 58, 52, 44, 36, 32],
+      "costTier": 1,
+      "r": {
+        "plains": 96, "mountains": 92, "forests": 88, "rivers": 82,
+        "scenery": 96, "wilderness": 92, "hiking": 96, "climbing": 100,
+        "wandering": 100, "adrenaline": 88, "stargazing": 88, "ruins": 92,
+        "underground": 78, "beasts": 88, "monsters": 88, "dragons": 78,
+        "magic": 92, "artefacts": 96, "prophecy": 92, "timeStrange": 88,
+        "questing": 100, "combat": 82, "foodScene": 78, "feasting": 72,
+        "markets": 68, "festivals": 62, "music": 82, "localCulture": 82,
+        "peoples": 82, "soloTravel": 92, "history": 82, "temples": 78,
+        "safety": 55, "survivability": 68, "hospitality": 78, "comfort": 45,
+        "healing": 72, "lawAndOrder": 55, "familyFriendly": 88, "seniors": 42,
+        "cities": 25, "shopping": 55, "luxury": 22, "gambling": 32,
+        "technology": 42, "coast": 55, "swimming": 62, "desert": 62,
+        "ale": 32, "wine": 32, "taverns": 45, "vegetarian": 78, "libraries": 45
+      },
+      "photos": ["Green rolling plains ruined castle", "Grassland horizon lone tree", "Japanese countryside hills spring", "Ancient stone shrine grass", "Mountain lake reflection wide", "Wildflower meadow mountain distance"]
+    },
+    {
+      "id": "gerudo-desert", "name": "The Gerudo Desert", "country": "HYR", "region": "Southwest Hyrule", "continent": "High Fantasy",
+      "type": "desert", "arch": "desert-world",
+      "blurb": "Burning sand by day, freezing by night, and a walled town of warriors who bar men at the gate. The nearest thing Hyrule has to a city with an actual culture.",
+      "about": "The Gerudo are a nation of women who produce one male child a century, and that child has an unfortunate track record. Gerudo Town enforces its no-men rule strictly enough that the games have made a running joke of the workarounds. The desert around it has sandstorms that disable your map, sinkholes with molduga in them, and a set of ruins that predate the kingdom.",
+      "tags": ["gerudo town", "sandstorms", "no men allowed", "molduga"],
+      "climate": {
+        "tempHigh": [30, 33, 37, 41, 44, 46, 46, 45, 43, 39, 34, 30],
+        "tempLow":  [2, 4, 7, 11, 15, 18, 20, 20, 16, 11, 6, 3],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [10, 11, 12, 12, 13, 13, 13, 13, 12, 11, 10, 10],
+        "humidity": [18, 16, 13, 11, 9, 8, 8, 9, 11, 13, 16, 18]
+      },
+      "crowd":      [40, 40, 42, 44, 42, 38, 36, 36, 40, 44, 44, 42],
+      "costTier": 1,
+      "r": {
+        "desert": 100, "wilderness": 88, "scenery": 88, "stargazing": 96,
+        "ruins": 82, "underground": 72, "mountains": 55, "hiking": 78,
+        "climbing": 72, "adrenaline": 82, "monsters": 88, "beasts": 72,
+        "combat": 92, "questing": 92, "artefacts": 88, "magic": 82,
+        "markets": 88, "shopping": 78, "cities": 55, "localCulture": 96,
+        "music": 78, "festivals": 68, "foodScene": 72, "peoples": 68,
+        "temples": 68, "history": 78, "intrigue": 68, "soloTravel": 68,
+        "survivability": 42, "safety": 45, "hospitality": 55, "comfort": 38,
+        "healing": 62, "lawAndOrder": 68, "familyFriendly": 55, "seniors": 22,
+        "forests": 0, "coast": 5, "swimming": 8, "rivers": 5, "luxury": 42,
+        "technology": 35, "ale": 42, "taverns": 62, "vegetarian": 68, "prophecy": 68
+      },
+      "photos": ["Sand dunes desert town walls", "Desert oasis palms walls", "Sandstorm desert horizon", "Morocco kasbah walls sunset", "Desert night stars dunes", "Carved sandstone ruins desert"]
+    },
+
+    {
+      "id": "waterdeep", "name": "Waterdeep", "country": "FAE", "region": "The Sword Coast", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "The City of Splendours: a huge, wealthy port run by masked Lords nobody can identify, sitting on top of the largest dungeon in the world.",
+      "about": "Waterdeep is where every Forgotten Realms campaign starts, because it has a guild for everything, a tavern for every kind of trouble and Undermountain directly beneath it — a dungeon of more than twenty levels built by a mad wizard who is still down there and still redecorating. The Lords wear enchanted masks in public so that assassinating them achieves nothing. Baldur's Gate is a few weeks' ride south and considerably less pleasant.",
+      "tags": ["the masked lords", "undermountain", "guilds", "the sword coast"],
+      "climate": {
+        "tempHigh": [8, 8, 11, 14, 18, 21, 23, 23, 20, 16, 11, 9],
+        "tempLow":  [3, 3, 5, 7, 11, 14, 16, 16, 14, 10, 6, 4],
+        "rainDays": [16, 14, 14, 12, 11, 10, 9, 10, 11, 14, 16, 17],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 2],
+        "humidity": [85, 84, 82, 79, 77, 76, 75, 76, 79, 82, 85, 86],
+        "seaTemp":  [9, 9, 9, 11, 13, 16, 18, 19, 18, 15, 12, 10]
+      },
+      "crowd":      [68, 68, 72, 78, 84, 88, 90, 90, 84, 78, 72, 70],
+      "costTier": 2,
+      "r": {
+        "cities": 100, "markets": 96, "architecture": 88, "history": 88,
+        "intrigue": 100, "underground": 100, "ruins": 82, "temples": 88,
+        "libraries": 88, "magic": 92, "wizards": 92, "artefacts": 96,
+        "monsters": 88, "undead": 82, "dragons": 72, "combat": 88,
+        "questing": 100, "taverns": 96, "ale": 92, "wine": 82, "gambling": 88,
+        "revels": 82, "foodScene": 82, "feasting": 78, "music": 82,
+        "festivals": 82, "shopping": 88, "peoples": 96, "coast": 78,
+        "sailing": 82, "fellowship": 92, "localCulture": 88, "prophecy": 68,
+        "hospitality": 68, "comfort": 62, "safety": 45, "lawAndOrder": 62,
+        "healing": 78, "familyFriendly": 42, "seniors": 45, "luxury": 78,
+        "wilderness": 5, "forests": 12, "mountains": 42, "swimming": 25,
+        "technology": 18, "stargazing": 32, "vegetarian": 55
+      },
+      "photos": ["Medieval harbour city cliffs", "Medieval city gate towers", "Tavern interior crowded medieval", "Dungeon staircase torchlit", "Port city stone quays", "Guild hall street medieval"]
+    },
+    {
+      "id": "menzoberranzan", "name": "Menzoberranzan", "country": "FAE", "region": "The Underdark", "continent": "High Fantasy",
+      "type": "underground", "arch": "dark-realm",
+      "blurb": "A drow city carved into stalagmites two miles below the surface, lit by faerie fire, ruled by matriarchs, and organised entirely around murdering your way up the house rankings.",
+      "about": "The Underdark is a lightless continent under the continent, and Menzoberranzan is its most famous city: eight noble houses in permanent lethal competition, held in check by a goddess who approves of the competition. Salvatore's Drizzt Do'Urden left it, which is the whole point of the character. The architecture — spun stone, glowing sculpture, cathedral-scale caverns — is the most striking thing in the setting.",
+      "tags": ["drow", "the underdark", "house wars", "lolth"],
+      "climate": {
+        "tempHigh": [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "tempLow":  [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+      },
+      "crowd":      [58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58],
+      "costTier": 2,
+      "r": {
+        "underground": 100, "cities": 88, "architecture": 96, "scenery": 82,
+        "magic": 96, "wizards": 92, "temples": 92, "intrigue": 100,
+        "artefacts": 92, "monsters": 92, "undead": 82, "beasts": 78,
+        "combat": 96, "questing": 88, "markets": 82, "history": 82,
+        "libraries": 78, "localCulture": 92, "peoples": 68, "shopping": 62,
+        "gambling": 62, "luxury": 78, "wine": 72, "foodScene": 55,
+        "safety": 5, "lawAndOrder": 25, "hospitality": 8, "comfort": 42,
+        "healing": 55, "survivability": 18, "commonTongue": 42,
+        "familyFriendly": 0, "seniors": 8, "romance": 22, "fellowship": 25,
+        "wilderness": 22, "forests": 0, "mountains": 12, "coast": 0,
+        "swimming": 8, "rivers": 25, "stargazing": 0, "hiking": 15,
+        "climbing": 62, "technology": 12, "vegetarian": 25, "prophecy": 62
+      },
+      "photos": ["Vast cavern stalagmites lit", "Postojna cave formations Slovenia", "Glowing cave formations blue", "Underground cathedral cavern", "Stalactite cavern lake", "Carved stone spire cave"]
+    },
+    {
+      "id": "candlekeep", "name": "Candlekeep", "country": "FAE", "region": "The Sword Coast", "continent": "High Fantasy",
+      "type": "library", "arch": "school-of-magic",
+      "blurb": "A fortress library on a crag above the sea, holding every book worth keeping. The entry fee is one book they do not already have, and they usually already have it.",
+      "about": "The monks of the Binder keep the largest collection in Faerûn, and the admission price — a written work of genuine value — is the most elegant gate in fantasy. You get a month inside. Nobody may remove a book, copy is permitted, and the wards are unpleasant about theft. Baldur's Gate opens here, which means an entire generation's first D&D memory is a library.",
+      "tags": ["one book to enter", "the binder", "no borrowing", "the great library"],
+      "climate": {
+        "tempHigh": [9, 9, 11, 14, 18, 21, 23, 23, 20, 16, 12, 10],
+        "tempLow":  [4, 4, 5, 8, 11, 14, 16, 17, 15, 11, 7, 5],
+        "rainDays": [15, 13, 13, 11, 10, 8, 7, 8, 10, 13, 15, 16],
+        "sunHours": [3, 4, 5, 6, 8, 9, 9, 8, 7, 5, 3, 3],
+        "humidity": [84, 83, 81, 78, 76, 74, 73, 74, 77, 80, 83, 85],
+        "seaTemp":  [10, 10, 10, 12, 14, 17, 19, 20, 19, 16, 13, 11]
+      },
+      "crowd":      [22, 22, 24, 26, 30, 32, 34, 34, 32, 28, 25, 23],
+      "costTier": 2,
+      "r": {
+        "libraries": 100, "history": 96, "architecture": 88, "artefacts": 88,
+        "magic": 88, "wizards": 88, "prophecy": 92, "temples": 62,
+        "coast": 82, "scenery": 82, "intrigue": 78,
+        "localCulture": 78, "peoples": 55, "soloTravel": 88, "questing": 72,
+        "hospitality": 55, "comfort": 62, "safety": 78, "lawAndOrder": 88,
+        "healing": 68, "seniors": 88, "familyFriendly": 42, "vegetarian": 72,
+        "foodScene": 55, "feasting": 55, "ale": 55, "wine": 62, "taverns": 45,
+        "markets": 25, "shopping": 32, "festivals": 32, "music": 42,
+        "revels": 15, "gambling": 8, "luxury": 45, "technology": 12,
+        "wilderness": 32, "forests": 22, "mountains": 45, "swimming": 22,
+        "rivers": 15, "combat": 32, "monsters": 42, "undead": 45, "stargazing": 78
+      },
+      "photos": ["Cliff top fortress sea", "Ancient library shelves ladders", "Monastery on crag ocean", "Illuminated manuscript scriptorium", "Stone tower library window", "Sea cliffs fortress walls"]
+    },
+
+    {
+      "id": "stormwind", "name": "Stormwind", "country": "AZE", "region": "The Eastern Kingdoms", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "The Alliance's capital: canals, cathedral, a park full of druids and a trade district you will pass through four thousand times. Rebuilt after the orcs razed it, by stonemasons who were never paid.",
+      "about": "Warcraft's human capital, and the busiest crossroads in the setting — for most of a decade, several hundred thousand people stood in its trade district at once. The unpaid-stonemasons grievance turned the builders into the Defias Brotherhood, which is a rare case of an MMO starting-zone quest chain being about labour relations. The cathedral district's organ music is the most recognisable ambient track in the genre.",
+      "tags": ["the alliance", "canals", "trade district", "the defias"],
+      "climate": {
+        "tempHigh": [11, 12, 15, 18, 22, 25, 27, 27, 24, 19, 14, 12],
+        "tempLow":  [4, 5, 7, 9, 13, 16, 18, 18, 16, 12, 8, 5],
+        "rainDays": [12, 11, 11, 10, 9, 7, 6, 7, 8, 11, 12, 13],
+        "sunHours": [3, 4, 5, 7, 8, 9, 10, 9, 8, 5, 3, 3],
+        "humidity": [82, 80, 77, 74, 71, 68, 66, 68, 72, 77, 81, 83],
+        "seaTemp":  [12, 12, 12, 14, 16, 19, 21, 22, 21, 18, 15, 13]
+      },
+      "crowd":      [90, 90, 92, 94, 96, 96, 96, 96, 94, 92, 92, 92],
+      "costTier": 2,
+      "r": {
+        "cities": 96, "architecture": 92, "markets": 96, "shopping": 88,
+        "history": 82, "temples": 88, "libraries": 78, "magic": 88,
+        "wizards": 88, "artefacts": 88, "intrigue": 78, "peoples": 92,
+        "combat": 88, "questing": 96, "fellowship": 100, "taverns": 88,
+        "ale": 88, "foodScene": 72, "feasting": 72, "festivals": 92,
+        "music": 82, "revels": 78, "gambling": 55, "coast": 68, "sailing": 62,
+        "rivers": 72, "localCulture": 82, "dragons": 68, "undead": 62,
+        "hospitality": 78, "comfort": 72, "safety": 78, "lawAndOrder": 82,
+        "healing": 92, "familyFriendly": 82, "seniors": 55, "luxury": 62,
+        "wilderness": 12, "forests": 42, "mountains": 45, "swimming": 32,
+        "technology": 45, "stargazing": 32, "vegetarian": 62, "soloTravel": 72
+      },
+      "photos": ["Fantasy city canals bridges", "Cathedral gothic spires city", "Medieval city gates stone lions", "Canal city stone bridges", "Castle keep towers banners", "Bustling market square medieval"]
+    },
+    {
+      "id": "the-barrens", "name": "The Barrens", "country": "AZE", "region": "Kalimdor", "continent": "High Fantasy",
+      "type": "savanna", "arch": "desert-world",
+      "blurb": "A vast yellow savanna of thorns, zhevras and one very long road, which takes an extremely long time to cross and is famous chiefly for the conversations people had while crossing it.",
+      "about": "Barrens Chat is a genuine piece of internet folklore: a zone-wide chat channel in which a million players spent 2005 asking each other where Mankrik's wife was. The zone itself is deliberately empty and slow, and the Crossroads is a small outpost that becomes the emotional centre of anyone's first Horde character. Nostalgia for it is entirely disproportionate to its content, which is the point.",
+      "tags": ["barrens chat", "the crossroads", "zhevras", "mankrik's wife"],
+      "climate": {
+        "tempHigh": [31, 32, 33, 33, 32, 30, 29, 30, 32, 33, 32, 31],
+        "tempLow":  [18, 19, 19, 18, 16, 13, 12, 13, 16, 18, 19, 19],
+        "rainDays": [4, 4, 3, 2, 1, 0, 0, 0, 1, 2, 3, 4],
+        "sunHours": [9, 9, 10, 10, 10, 10, 10, 11, 11, 10, 9, 9],
+        "humidity": [45, 44, 40, 34, 28, 24, 22, 23, 27, 33, 40, 45]
+      },
+      "crowd":      [48, 48, 50, 52, 52, 52, 52, 52, 52, 50, 50, 48],
+      "costTier": 1,
+      "r": {
+        "plains": 96, "desert": 72, "wilderness": 88, "scenery": 68,
+        "beasts": 92, "monsters": 78, "hiking": 72, "wandering": 96,
+        "stargazing": 88, "questing": 88, "combat": 78, "adrenaline": 62,
+        "fellowship": 96, "peoples": 78, "localCulture": 78, "markets": 45,
+        "ruins": 55, "temples": 45, "magic": 62, "artefacts": 55,
+        "survivability": 62, "safety": 45, "hospitality": 62, "comfort": 35,
+        "healing": 62, "lawAndOrder": 42, "familyFriendly": 62, "seniors": 25,
+        "cities": 12, "shopping": 25, "luxury": 8, "gambling": 22,
+        "taverns": 42, "ale": 55, "wine": 22, "foodScene": 42, "feasting": 45,
+        "festivals": 42, "music": 55, "technology": 32, "forests": 12,
+        "coast": 25, "swimming": 22, "rivers": 25, "mountains": 22, "libraries": 12
+      },
+      "photos": ["African savanna acacia thorns", "Dry grassland dirt road", "Savanna sunset silhouette trees", "Zebra herd grassland", "Dusty plains crossroads outpost", "Thornbush scrubland wide"]
+    },
+    {
+      "id": "grizzly-hills", "name": "The Grizzly Hills", "country": "AZE", "region": "Northrend", "continent": "High Fantasy",
+      "type": "forest", "arch": "pastoral-idyll",
+      "blurb": "Autumn forest and log lodges on the edge of a frozen continent, with bears, lumber mills and the single most beloved piece of music anyone has written for a video game zone.",
+      "about": "Northrend is otherwise an ice continent full of undead, and the Grizzly Hills is the warm exception — permanently in autumn, with woodsmoke and a fiddle-and-flute theme by Russell Brower that people put on to work to fifteen years later. The furbolg have a problem, the worgen have a worse one, and none of that is why anyone remembers the place.",
+      "tags": ["permanent autumn", "log lodges", "that music", "furbolg"],
+      "climate": {
+        "tempHigh": [1, 2, 5, 9, 13, 16, 18, 18, 14, 9, 4, 2],
+        "tempLow":  [-8, -7, -4, 0, 4, 8, 10, 10, 6, 2, -3, -6],
+        "rainDays": [13, 12, 12, 11, 11, 11, 11, 11, 12, 13, 14, 14],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [86, 85, 83, 80, 78, 77, 77, 78, 81, 84, 86, 87],
+        "snowDepth": [55, 52, 35, 12, 0, 0, 0, 0, 0, 5, 25, 48]
+      },
+      "crowd":      [22, 22, 24, 28, 32, 36, 38, 38, 34, 30, 26, 23],
+      "costTier": 1,
+      "r": {
+        "forests": 100, "wilderness": 88, "scenery": 96, "mountains": 72,
+        "rivers": 82, "hiking": 88, "wandering": 88, "climbing": 55,
+        "beasts": 92, "monsters": 72, "stargazing": 82, "music": 96,
+        "questing": 82, "combat": 68, "fellowship": 82, "localCulture": 72,
+        "taverns": 68, "ale": 78, "feasting": 68, "foodScene": 55,
+        "hospitality": 78, "comfort": 55, "safety": 55, "lawAndOrder": 55,
+        "healing": 62, "familyFriendly": 78, "seniors": 45, "romance": 68,
+        "soloTravel": 78, "undead": 55, "magic": 62, "artefacts": 55,
+        "cities": 5, "markets": 25, "shopping": 15, "luxury": 25, "gambling": 12,
+        "technology": 32, "coast": 22, "swimming": 25, "history": 55,
+        "libraries": 15, "temples": 32, "vegetarian": 45
+      },
+      "photos": ["Autumn forest golden larches", "Log cabin lodge woods autumn", "Misty autumn river forest", "Golden aspen forest mountain", "Woodsmoke cabin evening forest", "Bear in autumn woodland"]
+    },
+
+    {
+      "id": "mushroom-kingdom", "name": "The Mushroom Kingdom", "country": "MUSH", "region": "Somewhere with pipes", "continent": "High Fantasy",
+      "type": "kingdom", "arch": "wonderland",
+      "blurb": "Cheerful hills, floating brick blocks, warp pipes to everywhere and physics that reward jumping. The princess is in another castle, but the castle is very nice.",
+      "about": "There is no consistent map, no real history and no explanation for the pipes, and none of that has ever mattered — the kingdom exists to be moved through, and its geography is designed around the arc of a jump. Miyamoto's rule was that the first eight seconds should teach you everything; those eight seconds are World 1-1, which is probably the most studied level design in the world.",
+      "tags": ["warp pipes", "coins", "another castle", "world 1-1"],
+      "climate": {
+        "tempHigh": [20, 21, 22, 24, 25, 26, 27, 27, 26, 24, 22, 20],
+        "tempLow":  [12, 13, 14, 15, 16, 18, 19, 19, 18, 16, 14, 12],
+        "rainDays": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "sunHours": [9, 9, 10, 10, 11, 11, 11, 11, 10, 10, 9, 9],
+        "humidity": [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60]
+      },
+      "crowd":      [58, 58, 60, 62, 64, 66, 68, 68, 64, 62, 60, 58],
+      "costTier": 1,
+      "r": {
+        "plains": 88, "scenery": 82, "adrenaline": 88, "climbing": 82,
+        "hiking": 62, "wandering": 88, "underground": 88, "beasts": 78,
+        "monsters": 82, "dragons": 72, "magic": 82, "artefacts": 78,
+        "questing": 92, "timeStrange": 62, "festivals": 88, "music": 96,
+        "revels": 78, "gambling": 62, "markets": 55, "foodScene": 62,
+        "feasting": 68, "fellowship": 88, "peoples": 78, "localCulture": 78,
+        "familyFriendly": 100, "safety": 72, "survivability": 78,
+        "hospitality": 88, "comfort": 72, "healing": 88, "lawAndOrder": 62,
+        "seniors": 62, "technology": 55, "vegetarian": 88,
+        "cities": 32, "shopping": 45, "luxury": 45, "ale": 12, "wine": 12,
+        "taverns": 22, "libraries": 12, "temples": 12, "history": 22,
+        "wilderness": 32, "forests": 55, "mountains": 62, "desert": 45,
+        "coast": 55, "swimming": 68, "rivers": 42, "volcanic": 55,
+        "stargazing": 62, "combat": 55, "undead": 45, "intrigue": 22, "romance": 42
+      },
+      "photos": ["Rolling green hills blue sky clouds", "Red toadstool mushrooms grass", "Colourful theme park castle", "Large green industrial pipes", "Bright cartoon landscape hills", "Fairytale castle pastel"]
+    },
+
+    {
+      "id": "wakanda", "name": "Wakanda", "country": "MRVL", "region": "East Africa", "continent": "Modern & Comics",
+      "type": "city", "arch": "utopia",
+      "blurb": "A nation that hid itself for centuries behind a projection of farmland while building the most advanced city on Earth on top of the world's only vibranium deposit.",
+      "about": "Created by Lee and Kirby in 1966 as a direct rebuttal to how Africa was drawn in comics, and rebuilt by Ta-Nehisi Coates and the 2018 film into something with a working political argument: what a country owes the world when it has never been colonised and could help. The tribal council, the Dora Milaje and the herb-granted throne are all bound up in the succession, which is settled by ritual combat at a waterfall.",
+      "tags": ["vibranium", "dora milaje", "hidden nation", "the black panther"],
+      "climate": {
+        "tempHigh": [26, 27, 27, 26, 25, 24, 24, 25, 26, 26, 26, 26],
+        "tempLow":  [15, 15, 16, 16, 15, 13, 13, 13, 14, 15, 15, 15],
+        "rainDays": [9, 10, 14, 18, 13, 5, 3, 4, 8, 13, 15, 11],
+        "sunHours": [8, 8, 7, 6, 7, 8, 8, 8, 8, 7, 6, 7],
+        "humidity": [66, 66, 70, 74, 72, 66, 62, 61, 64, 70, 73, 70]
+      },
+      "crowd":      [45, 45, 48, 50, 52, 55, 58, 58, 55, 50, 48, 46],
+      "costTier": 3,
+      "r": {
+        "cities": 96, "architecture": 96, "technology": 100, "healing": 100,
+        "mountains": 88, "forests": 82, "rivers": 82, "scenery": 96,
+        "wilderness": 78, "beasts": 88, "plains": 72, "hiking": 78,
+        "localCulture": 100, "history": 88, "libraries": 82,
+        "markets": 88, "shopping": 78, "foodScene": 88, "feasting": 82,
+        "festivals": 92, "music": 92, "peoples": 78, "temples": 72,
+        "artefacts": 88, "combat": 88, "intrigue": 88, "spaceTravel": 62,
+        "safety": 88, "lawAndOrder": 88, "hospitality": 72, "comfort": 88,
+        "familyFriendly": 78, "seniors": 72, "luxury": 88, "commonTongue": 82,
+        "gettingThere": 12, "coast": 5, "swimming": 42, "stargazing": 78,
+        "magic": 42, "undead": 15, "dragons": 5, "vegetarian": 78
+      },
+      "photos": ["Nairobi skyline modern", "Rift valley waterfall Africa", "Modern architecture tribal patterns", "East African highlands green", "Singapore skyline dusk", "Colourful textile market Africa"]
+    },
+    {
+      "id": "asgard", "name": "Asgard", "country": "MRVL", "region": "The Nine Realms", "continent": "Modern & Comics",
+      "type": "city", "arch": "high-city",
+      "blurb": "A golden city on a floating disc at the end of a rainbow bridge, full of immortals who consider a thousand years a reasonable length of time to hold a grudge.",
+      "about": "Norse myth reworked by Kirby into something closer to space opera — the Aesir are aliens, the Bifrost is a transit system, and Odin's throne room is drawn like a cathedral built by someone who has never heard of restraint. Heimdall stands at the bridge and sees everything in all nine realms, which makes him both the setting's best character and its biggest plot problem. Ragnarök is not avoidable; it is scheduled.",
+      "tags": ["the bifrost", "the aesir", "odin's hall", "ragnarök"],
+      "climate": {
+        "tempHigh": [16, 16, 17, 18, 19, 20, 21, 21, 20, 18, 17, 16],
+        "tempLow":  [8, 8, 9, 10, 11, 12, 13, 13, 12, 10, 9, 8],
+        "rainDays": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "sunHours": [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11],
+        "humidity": [48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48]
+      },
+      "crowd":      [50, 50, 52, 55, 58, 60, 62, 62, 58, 55, 52, 50],
+      "costTier": 3,
+      "r": {
+        "architecture": 100, "cities": 88, "scenery": 96, "stargazing": 96,
+        "history": 92, "temples": 82, "libraries": 82, "artefacts": 96,
+        "magic": 92, "wizards": 78, "prophecy": 88, "timeStrange": 78,
+        "spaceTravel": 88, "technology": 78, "combat": 92, "monsters": 78,
+        "dragons": 68, "undead": 55, "questing": 88, "intrigue": 92,
+        "feasting": 96, "ale": 96, "wine": 82, "revels": 92, "music": 82,
+        "festivals": 88, "fellowship": 88, "peoples": 78, "localCulture": 88,
+        "healing": 88, "hospitality": 72, "comfort": 82, "safety": 62,
+        "lawAndOrder": 72, "luxury": 96, "seniors": 68, "familyFriendly": 55,
+        "warRisk": 32, "wilderness": 25, "forests": 32, "mountains": 62,
+        "coast": 15, "swimming": 25, "rivers": 42, "vegetarian": 32
+      },
+      "photos": ["Gilded palace domes sunset", "Rainbow over fjord Norway", "Norse great hall interior", "Golden palace spires sunset", "Mountain peaks above cloud inversion", "Viking hall carved timber"]
+    },
+    {
+      "id": "new-york-616", "name": "New York City", "country": "MRVL", "region": "Earth-616", "continent": "Modern & Comics",
+      "type": "city", "arch": "high-city",
+      "blurb": "The real New York, plus a mansion school in Westchester, a sanctum on Bleecker Street, a tower with an A on it, and property damage nobody's insurance covers.",
+      "about": "Marvel's founding decision was to put superheroes in a real city with real streets rather than an invented Gotham or Metropolis, so that Peter Parker could worry about rent in Queens. The consequence is that Manhattan has been destroyed and rebuilt dozens of times, is under regular alien invasion, and remains the most desirable real estate in fiction. The Sanctum Sanctorum's address, 177A Bleecker Street, is a real corner.",
+      "tags": ["bleecker street", "queens", "avengers tower", "alien invasion"],
+      "climate": {
+        "tempHigh": [4, 6, 11, 17, 22, 27, 29, 28, 25, 18, 12, 6],
+        "tempLow":  [-3, -2, 2, 7, 13, 18, 21, 20, 17, 10, 5, 0],
+        "rainDays": [10, 9, 11, 11, 11, 10, 10, 10, 8, 8, 9, 10],
+        "sunHours": [5, 6, 7, 8, 9, 10, 10, 9, 8, 7, 5, 5],
+        "humidity": [64, 62, 60, 58, 63, 65, 65, 67, 68, 66, 66, 66],
+        "seaTemp":  [6, 4, 5, 9, 14, 19, 22, 23, 22, 18, 13, 9]
+      },
+      "crowd":      [80, 80, 84, 88, 92, 94, 94, 92, 90, 88, 86, 88],
+      "costTier": 3,
+      "r": {
+        "cities": 100, "architecture": 92, "markets": 88, "shopping": 96,
+        "foodScene": 96, "feasting": 88, "music": 96, "festivals": 88,
+        "revels": 92, "taverns": 88, "ale": 82, "wine": 88, "gambling": 55,
+        "libraries": 88, "history": 82, "temples": 55, "peoples": 100,
+        "intrigue": 88, "technology": 92, "magic": 78, "wizards": 72,
+        "artefacts": 82, "monsters": 78, "undead": 62, "combat": 88,
+        "adrenaline": 82, "questing": 78, "spaceTravel": 62, "timeStrange": 72,
+        "healing": 82, "commonTongue": 100, "localCulture": 92,
+        "safety": 45, "lawAndOrder": 55, "warRisk": 32, "hospitality": 55,
+        "comfort": 78, "luxury": 92, "familyFriendly": 68, "seniors": 62,
+        "romance": 82, "soloTravel": 82, "coast": 42, "swimming": 32,
+        "wilderness": 2, "forests": 12, "mountains": 0, "rivers": 45,
+        "stargazing": 5, "hiking": 12, "vegetarian": 92, "dragons": 25
+      },
+      "photos": ["Manhattan skyline dusk", "New York brownstone street", "Times Square neon crowds", "Central Park autumn skyline", "Brooklyn Bridge cables", "Greenwich Village corner townhouse"]
+    },
+
+    {
+      "id": "the-capitol", "name": "The Capitol", "country": "PAN2", "region": "The Rockies", "continent": "Modern & Comics",
+      "type": "city", "arch": "dystopia",
+      "blurb": "A mountain-ringed city of astonishing wealth, cosmetic surgery and televised child murder, whose residents are genuinely puzzled that anyone resents them.",
+      "about": "Collins built the Capitol out of imperial Rome — the names, the bread and circuses, the tribute system — and dressed it in reality-television gloss. The cruelty is not sadism so much as insulation: its citizens experience the Games as a sporting season and the districts as a supply chain. The food, the fashion and the parties are described in loving, nauseated detail, which is the book's real argument.",
+      "tags": ["the games", "tributes", "bread and circuses", "panem et circenses"],
+      "climate": {
+        "tempHigh": [3, 5, 9, 13, 18, 24, 28, 27, 22, 15, 8, 3],
+        "tempLow":  [-9, -8, -5, -1, 4, 9, 13, 12, 7, 1, -4, -9],
+        "rainDays": [7, 8, 9, 9, 11, 9, 9, 9, 7, 7, 7, 7],
+        "sunHours": [6, 7, 8, 9, 9, 11, 11, 10, 9, 8, 6, 6],
+        "humidity": [55, 55, 52, 48, 50, 48, 45, 46, 47, 48, 54, 56],
+        "snowDepth": [30, 32, 28, 15, 3, 0, 0, 0, 0, 4, 18, 28]
+      },
+      "crowd":      [72, 72, 74, 76, 78, 88, 96, 90, 78, 74, 72, 74],
+      "costTier": 3,
+      "r": {
+        "cities": 92, "architecture": 88, "technology": 92, "luxury": 100,
+        "foodScene": 100, "feasting": 100, "wine": 96, "shopping": 96,
+        "markets": 78, "festivals": 96, "revels": 96, "music": 82,
+        "gambling": 88, "intrigue": 96, "healing": 92, "comfort": 92,
+        "mountains": 88, "scenery": 82, "stargazing": 55, "history": 62,
+        "libraries": 62, "peoples": 55, "combat": 68, "adrenaline": 72,
+        "safety": 62, "lawAndOrder": 78, "hospitality": 42, "commonTongue": 96,
+        "familyFriendly": 12, "seniors": 62, "romance": 45, "vegetarian": 88,
+        "wilderness": 22, "forests": 45, "coast": 0, "swimming": 55,
+        "rivers": 32, "magic": 0, "wizards": 0, "dragons": 0, "undead": 0,
+        "spaceTravel": 0, "prophecy": 5, "artefacts": 25, "temples": 8
+      },
+      "photos": ["Futuristic city mountains ringed", "Extravagant banquet table", "Neon fashion runway crowd", "Modern architecture glass mountain", "Rocky mountain city aerial", "Opulent ballroom chandeliers"]
+    },
+    {
+      "id": "district-12", "name": "District 12", "country": "PAN2", "region": "Appalachia", "continent": "Modern & Comics",
+      "type": "town", "arch": "dystopia",
+      "blurb": "A coal-mining district at the edge of the map, fenced off, half-starved and largely ignored — which turns out to be the only useful thing about it.",
+      "about": "The Seam, the Hob black market, the woods beyond an electric fence that is usually switched off for want of power. Collins based it on Appalachian mining towns, and the detail that matters is that hunting outside the fence is illegal but tolerated, because the Peacekeepers also want to eat. The bakery, the meadow and the mockingjays all pay off later, which is why the place is worth walking around.",
+      "tags": ["the seam", "the hob", "coal", "mockingjays"],
+      "climate": {
+        "tempHigh": [6, 8, 13, 19, 23, 27, 29, 28, 25, 19, 13, 7],
+        "tempLow":  [-4, -3, 1, 6, 11, 16, 18, 17, 13, 6, 1, -3],
+        "rainDays": [11, 10, 12, 11, 12, 11, 12, 10, 8, 8, 10, 11],
+        "sunHours": [4, 5, 6, 8, 8, 9, 9, 8, 7, 7, 5, 4],
+        "humidity": [72, 70, 68, 66, 72, 76, 78, 79, 78, 74, 72, 73],
+        "snowDepth": [12, 12, 6, 1, 0, 0, 0, 0, 0, 0, 3, 10]
+      },
+      "crowd":      [22, 22, 24, 26, 28, 30, 30, 30, 28, 26, 24, 22],
+      "costTier": 1,
+      "r": {
+        "forests": 88, "mountains": 78, "wilderness": 82, "scenery": 78,
+        "hiking": 78, "wandering": 68, "rivers": 62, "beasts": 72,
+        "underground": 78, "markets": 62, "localCulture": 82, "music": 88,
+        "fellowship": 88, "history": 45, "stargazing": 78, "soloTravel": 55,
+        "survivability": 55, "hospitality": 68, "comfort": 22, "safety": 42,
+        "lawAndOrder": 32, "healing": 25, "foodScene": 25, "feasting": 22,
+        "vegetarian": 32, "familyFriendly": 42, "seniors": 32, "romance": 55,
+        "cities": 8, "shopping": 15, "luxury": 2, "gambling": 25, "taverns": 32,
+        "ale": 45, "wine": 12, "festivals": 32, "revels": 22, "technology": 32,
+        "magic": 0, "wizards": 0, "dragons": 0, "undead": 0, "spaceTravel": 0,
+        "prophecy": 5, "artefacts": 12, "temples": 5, "libraries": 15,
+        "coast": 0, "swimming": 42, "combat": 55, "monsters": 22, "intrigue": 62
+      },
+      "photos": ["Appalachian mining town valley", "Coal town wooden houses", "Misty forested mountains Appalachia", "Old mine headframe rust", "Woodland meadow fence", "Rural market stalls worn"]
+    },
+
+    {
+      "id": "airstrip-one", "name": "Airstrip One", "country": "OCE", "region": "Formerly Britain", "continent": "Modern & Comics",
+      "type": "city", "arch": "dystopia",
+      "blurb": "London as a province of Oceania: rationed, bombed, watched from every wall, and at war with a power whose identity has always been the one it is at war with now.",
+      "about": "Orwell wrote it on Jura while dying of tuberculosis, and set it in a Britain of post-war shortages he had actually lived through — the gin is bad, the razor blades have run out, the lift doesn't work. The Ministry of Truth rewrites yesterday's papers daily; Newspeak is designed so that certain thoughts become unsayable and therefore unthinkable. Almost every English word for surveillance now comes from this book.",
+      "tags": ["the ministry of truth", "newspeak", "victory gin", "the telescreen"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 14, 18, 21, 23, 22, 19, 15, 10, 8],
+        "tempLow":  [3, 3, 4, 6, 10, 13, 15, 15, 12, 9, 5, 3],
+        "rainDays": [16, 13, 14, 13, 12, 11, 11, 11, 12, 14, 16, 16],
+        "sunHours": [1, 2, 3, 5, 6, 6, 6, 6, 4, 3, 2, 1],
+        "humidity": [88, 86, 82, 78, 76, 75, 74, 76, 80, 85, 88, 89]
+      },
+      "crowd":      [68, 68, 68, 70, 70, 72, 72, 72, 70, 70, 68, 68],
+      "costTier": 1,
+      "r": {
+        "cities": 82, "architecture": 62, "history": 68, "libraries": 42,
+        "intrigue": 100, "technology": 55, "timeStrange": 62, "peoples": 32,
+        "markets": 45, "underground": 55, "rivers": 45, "combat": 42,
+        "warRisk": 8, "lawAndOrder": 32, "safety": 15, "survivability": 55,
+        "hospitality": 12, "comfort": 12, "healing": 32, "commonTongue": 100,
+        "foodScene": 5, "feasting": 2, "ale": 25, "wine": 5, "taverns": 42,
+        "revels": 8, "festivals": 22, "music": 25, "gambling": 32, "shopping": 8,
+        "luxury": 2, "familyFriendly": 5, "seniors": 15, "romance": 25,
+        "soloTravel": 22, "fellowship": 12, "vegetarian": 25,
+        "magic": 0, "wizards": 0, "dragons": 0, "undead": 0, "spaceTravel": 0,
+        "prophecy": 0, "artefacts": 15, "temples": 5, "monsters": 12,
+        "wilderness": 5, "forests": 12, "mountains": 0, "coast": 8,
+        "swimming": 8, "scenery": 22, "stargazing": 12, "hiking": 15,
+        "beasts": 8, "questing": 25, "adrenaline": 45, "localCulture": 42,
+        "wandering": 12, "ruins": 45, "climbing": 5, "sailing": 5,
+        "seaMonsters": 0, "desert": 0, "plains": 5, "islands": 5, "volcanic": 0
+      },
+      "photos": ["Bombed London terraced street", "Brutalist ministry building", "Post war austerity queue", "Grey concrete tower block", "Foggy London street lamps", "Propaganda poster wall peeling"]
+    }
+  ]
+}

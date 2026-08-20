@@ -1,0 +1,45 @@
+name: check
+
+# Runs on GitHub's minutes, not Netlify's. Netlify never builds this project,
+# so nothing here costs anything on that side of the fence.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # There are no dependencies to install. That is not an oversight.
+
+      - name: Build data and bundle, strictly
+        run: node tools/build-data.mjs --strict && node tools/bundle.mjs
+
+      - name: Tests
+        run: npm test
+
+      # The whole deployment model rests on the committed artefacts being the
+      # real ones. If someone edits a destination shard and forgets to rebuild,
+      # Netlify would happily serve the stale data forever, because it never
+      # builds anything itself. So: rebuild here and fail if the result differs
+      # from what was committed.
+      - name: Committed build output is up to date
+        run: |
+          # The build stamps a timestamp into meta.json and sw.js on every run,
+          # so compare everything except those two.
+          if ! git diff --quiet -- . ':(exclude)data/meta.json' ':(exclude)data/fiction/meta.json' ':(exclude)sw.js'; then
+            echo "::error::Committed build output does not match the source data."
+            echo "Run 'npm run build' and commit the result."
+            git diff --stat -- . ':(exclude)data/meta.json' ':(exclude)data/fiction/meta.json' ':(exclude)sw.js'
+            exit 1
+          fi
+          echo "Build output matches the committed files."

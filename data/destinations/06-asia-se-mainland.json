@@ -1,0 +1,340 @@
+{
+  "_doc": "Mainland Southeast Asia — Thailand, Vietnam, Cambodia, Laos.",
+  "destinations": [
+    {
+      "id": "bangkok-th", "name": "Bangkok", "country": "TH", "region": "Central Thailand", "continent": "Asia",
+      "lat": 13.756, "lon": 100.502, "type": "city", "arch": "asian-megacity",
+      "blurb": "Golden temples, canal markets and rooftop bars, wrapped around the best street food on earth. Relentless, humid and completely addictive.",
+      "tags": ["street food", "temples", "nightlife", "value"],
+      "climate": {
+        "tempHigh": [32, 33, 34, 35, 34, 33, 33, 33, 32, 32, 31, 31],
+        "tempLow":  [22, 24, 25, 26, 26, 25, 25, 25, 24, 24, 23, 21],
+        "rainDays": [1, 2, 4, 7, 15, 16, 17, 19, 21, 17, 6, 1],
+        "sunHours": [8, 8, 8, 8, 7, 6, 5, 5, 5, 6, 7, 8],
+        "humidity": [65, 70, 72, 74, 75, 74, 75, 75, 78, 76, 70, 64]
+      },
+      "crowd":      [82, 78, 68, 58, 48, 45, 52, 55, 52, 58, 78, 88],
+      "priceIndex": [92, 88, 78, 68, 58, 55, 62, 65, 62, 68, 88, 100],
+      "cost": { "budget": 28, "mid": 68, "luxury": 200 },
+      "r": {
+        "streetFood": 100, "foodScene": 96, "markets": 98, "religiousSites": 94,
+        "historicSites": 82, "architecture": 78, "shopping": 92, "bars": 92, "clubbing": 90,
+        "groupParty": 90, "lgbtqScene": 92, "wellness": 92, "museums": 66,
+        "publicTransport": 80, "walkability": 58, "valueForMoney": 96, "backpacker": 94,
+        "soloTravel": 86, "digitalNomad": 86, "familyTeens": 74, "vegetarian": 88,
+        "cleanliness": 42, "safety": 70, "beaches": 0, "swimming": 20, "scenery": 35,
+        "englishSpoken": 55, "accessibility": 28
+      },
+      "photos": ["Wat Arun Bangkok at sunset", "Grand Palace Bangkok", "Bangkok street food night market", "Chao Phraya river boats Bangkok", "Damnoen Saduak floating market", "Bangkok rooftop bar skyline"]
+    },
+    {
+      "id": "chiang-mai-th", "name": "Chiang Mai", "country": "TH", "region": "Northern Thailand", "continent": "Asia",
+      "lat": 18.788, "lon": 98.985, "type": "city", "arch": "historic-city",
+      "blurb": "A moated old city of 300 temples in the northern hills — cooking schools, ethical elephant sanctuaries and the world's biggest digital-nomad scene. Avoid March–April burning season.",
+      "tags": ["temples", "nomad", "elephants", "value"],
+      "climate": {
+        "tempHigh": [29, 32, 34, 36, 34, 32, 32, 31, 31, 31, 30, 28],
+        "tempLow":  [14, 15, 19, 22, 23, 23, 23, 23, 23, 22, 19, 15],
+        "rainDays": [1, 1, 2, 5, 13, 15, 17, 19, 17, 11, 4, 1],
+        "sunHours": [9, 9, 9, 8, 7, 5, 4, 4, 5, 7, 8, 8],
+        "humidity": [70, 62, 58, 62, 72, 78, 80, 82, 84, 82, 78, 74]
+      },
+      "crowd":      [78, 72, 55, 45, 42, 40, 48, 52, 50, 58, 80, 85],
+      "priceIndex": [88, 82, 65, 55, 52, 50, 58, 62, 60, 68, 90, 95],
+      "cost": { "budget": 22, "mid": 55, "luxury": 165 },
+      "r": {
+        "religiousSites": 96, "historicSites": 86, "localCulture": 90, "markets": 92,
+        "streetFood": 94, "foodScene": 92, "wellness": 92, "mountains": 76, "hiking": 80,
+        "forests": 82, "wildlife": 76, "adrenaline": 74, "cycling": 74, "festivals": 90,
+        "valueForMoney": 98, "backpacker": 96, "digitalNomad": 96, "soloTravel": 88,
+        "vegetarian": 92, "vegan": 88, "walkability": 78, "safety": 82,
+        "cleanliness": 48, "beaches": 0, "swimming": 25, "clubbing": 62, "englishSpoken": 55
+      },
+      "photos": ["Wat Phra That Doi Suthep Chiang Mai", "Chiang Mai old city temple", "Elephant sanctuary Chiang Mai", "Yi Peng lantern festival Chiang Mai", "Chiang Mai night bazaar", "Doi Inthanon national park Thailand"]
+    },
+    {
+      "id": "phuket-th", "name": "Phuket", "country": "TH", "region": "Southern Thailand", "continent": "Asia",
+      "lat": 7.880, "lon": 98.392, "type": "island", "arch": "beach-resort",
+      "blurb": "Thailand's biggest island: everything from Patong's full-volume strip to quiet northern bays, and the launch point for Phang Nga Bay.",
+      "tags": ["beach", "nightlife", "diving", "family"],
+      "climate": {
+        "tempHigh": [32, 33, 33, 33, 32, 32, 31, 31, 31, 31, 31, 31],
+        "tempLow":  [23, 24, 25, 25, 25, 25, 25, 25, 24, 24, 24, 23],
+        "rainDays": [4, 3, 6, 12, 18, 17, 17, 18, 20, 20, 15, 8],
+        "sunHours": [9, 9, 8, 8, 6, 5, 5, 5, 4, 5, 7, 8],
+        "humidity": [72, 73, 74, 76, 80, 80, 80, 80, 83, 83, 79, 75],
+        "seaTemp":  [28, 28, 29, 30, 30, 29, 29, 29, 29, 29, 29, 28]
+      },
+      "crowd":      [88, 85, 72, 58, 42, 40, 45, 48, 42, 45, 62, 88],
+      "priceIndex": [95, 92, 78, 62, 48, 45, 52, 55, 48, 52, 68, 100],
+      "cost": { "budget": 30, "mid": 72, "luxury": 230 },
+      "r": {
+        "beaches": 88, "swimming": 84, "scuba": 84, "snorkelling": 84, "waterSports": 86,
+        "sailing": 82, "kayaking": 80, "islands": 90, "scenery": 82, "wellness": 90,
+        "bars": 88, "clubbing": 88, "groupParty": 92, "streetFood": 88, "foodScene": 86,
+        "markets": 80, "familyYoungKids": 84, "luxury": 88, "valueForMoney": 84,
+        "backpacker": 82, "religiousSites": 70, "englishSpoken": 62,
+        "cleanliness": 48, "publicTransport": 32, "museums": 28, "safety": 68
+      },
+      "photos": ["Phang Nga Bay James Bond island", "Phuket Kata beach", "Big Buddha Phuket", "Phuket old town shophouses", "Longtail boat Thailand island", "Similan Islands diving Thailand"]
+    },
+    {
+      "id": "krabi-th", "name": "Krabi & Railay", "country": "TH", "region": "Southern Thailand", "continent": "Asia",
+      "lat": 8.087, "lon": 98.906, "type": "coast", "arch": "beach-resort",
+      "blurb": "Vertical limestone karsts straight out of the Andaman Sea — world-class rock climbing on Railay, and beaches only reachable by longtail.",
+      "tags": ["climbing", "karst", "beach", "islands"],
+      "climate": {
+        "tempHigh": [32, 33, 33, 33, 32, 32, 31, 31, 31, 31, 31, 31],
+        "tempLow":  [22, 23, 24, 25, 25, 25, 25, 25, 24, 24, 24, 23],
+        "rainDays": [3, 3, 6, 11, 17, 16, 16, 17, 20, 20, 14, 7],
+        "sunHours": [9, 9, 8, 8, 6, 5, 5, 5, 4, 5, 7, 8],
+        "humidity": [72, 73, 75, 77, 81, 81, 81, 81, 84, 84, 80, 76],
+        "seaTemp":  [28, 28, 29, 30, 30, 29, 29, 29, 29, 29, 29, 28]
+      },
+      "crowd":      [85, 82, 68, 55, 40, 38, 45, 48, 40, 42, 58, 85],
+      "priceIndex": [92, 90, 75, 60, 45, 42, 52, 55, 45, 48, 65, 98],
+      "cost": { "budget": 26, "mid": 62, "luxury": 195 },
+      "r": {
+        "climbing": 100, "scenery": 92, "beaches": 90, "swimming": 86, "islands": 92,
+        "kayaking": 90, "snorkelling": 84, "scuba": 80, "sailing": 76, "hiking": 74,
+        "adrenaline": 82, "wellness": 82, "romance": 84, "backpacker": 90,
+        "valueForMoney": 92, "streetFood": 84, "foodScene": 82, "bars": 78,
+        "familyYoungKids": 72, "englishSpoken": 58, "publicTransport": 25,
+        "museums": 15, "shopping": 42, "clubbing": 62, "cleanliness": 55
+      },
+      "photos": ["Railay Beach Krabi limestone cliffs", "Rock climbing Railay Thailand", "Phra Nang Cave beach Krabi", "Four Islands Krabi longtail", "Emerald Pool Krabi", "Tiger Cave Temple Krabi"]
+    },
+    {
+      "id": "koh-samui-th", "name": "Koh Samui", "country": "TH", "region": "Gulf of Thailand", "continent": "Asia",
+      "lat": 9.512, "lon": 100.014, "type": "island", "arch": "beach-resort",
+      "blurb": "Coconut-palm island on the Gulf side, so it stays dry when the Andaman coast is drowning — and it's the ferry hop to the Full Moon Party.",
+      "tags": ["beach", "wellness", "resorts", "party"],
+      "climate": {
+        "tempHigh": [29, 30, 31, 32, 32, 32, 32, 32, 32, 31, 29, 28],
+        "tempLow":  [24, 24, 25, 25, 26, 26, 25, 25, 25, 24, 24, 23],
+        "rainDays": [5, 3, 4, 6, 12, 10, 11, 11, 13, 17, 20, 14],
+        "sunHours": [8, 9, 9, 9, 7, 6, 6, 6, 6, 5, 5, 6],
+        "humidity": [78, 77, 77, 77, 78, 77, 77, 77, 79, 82, 84, 82],
+        "seaTemp":  [28, 28, 29, 30, 30, 29, 29, 29, 29, 29, 28, 28]
+      },
+      "crowd":      [72, 75, 72, 62, 52, 58, 72, 75, 58, 45, 42, 68],
+      "priceIndex": [82, 85, 82, 72, 60, 65, 80, 82, 65, 52, 50, 78],
+      "cost": { "budget": 28, "mid": 68, "luxury": 215 },
+      "r": {
+        "beaches": 86, "swimming": 86, "wellness": 96, "snorkelling": 76, "scuba": 78,
+        "sailing": 76, "kayaking": 74, "waterSports": 78, "islands": 84, "scenery": 78,
+        "bars": 84, "clubbing": 82, "groupParty": 88, "luxury": 88, "romance": 84,
+        "foodScene": 82, "streetFood": 82, "familyYoungKids": 82, "valueForMoney": 82,
+        "backpacker": 80, "englishSpoken": 62, "publicTransport": 25,
+        "museums": 18, "hiking": 58, "cleanliness": 55
+      },
+      "photos": ["Koh Samui beach palm trees", "Big Buddha Koh Samui", "Ang Thong Marine Park Thailand", "Full Moon Party Koh Phangan", "Na Muang waterfall Koh Samui", "Fisherman's Village Bophut Samui"]
+    },
+    {
+      "id": "koh-lanta-th", "name": "Koh Lanta", "country": "TH", "region": "Southern Thailand", "continent": "Asia",
+      "lat": 7.630, "lon": 99.048, "type": "island", "arch": "beach-resort",
+      "blurb": "The antidote to Phuket: long quiet west-facing beaches, sunset bars with no bass, and easy diving on Hin Daeng. Half of it shuts in low season.",
+      "tags": ["quiet beach", "diving", "sunsets", "value"],
+      "climate": {
+        "tempHigh": [32, 33, 33, 33, 32, 32, 31, 31, 31, 31, 31, 31],
+        "tempLow":  [23, 23, 24, 25, 25, 25, 25, 25, 24, 24, 24, 23],
+        "rainDays": [2, 2, 5, 10, 17, 16, 16, 17, 20, 20, 13, 6],
+        "sunHours": [9, 9, 9, 8, 6, 5, 5, 5, 4, 5, 7, 8],
+        "humidity": [73, 74, 76, 78, 82, 82, 82, 82, 85, 85, 81, 77],
+        "seaTemp":  [28, 28, 29, 30, 30, 29, 29, 29, 29, 29, 29, 28]
+      },
+      "crowd":      [78, 75, 62, 48, 32, 28, 35, 38, 30, 32, 48, 75],
+      "priceIndex": [88, 85, 70, 55, 38, 35, 45, 48, 38, 40, 58, 92],
+      "cost": { "budget": 24, "mid": 58, "luxury": 180 },
+      "r": {
+        "beaches": 90, "swimming": 88, "scuba": 88, "snorkelling": 84, "kayaking": 78,
+        "islands": 86, "scenery": 78, "wellness": 80, "romance": 84, "foodScene": 80,
+        "streetFood": 80, "valueForMoney": 92, "backpacker": 84, "familyYoungKids": 84,
+        "digitalNomad": 76, "bars": 70, "englishSpoken": 58, "publicTransport": 20,
+        "clubbing": 35, "groupParty": 48, "shopping": 30, "museums": 12,
+        "hiking": 55, "nationalParks": 68, "cleanliness": 58
+      },
+      "photos": ["Koh Lanta beach sunset Thailand", "Koh Lanta long beach", "Mu Ko Lanta national park lighthouse", "Diving Hin Daeng Thailand", "Koh Lanta old town pier", "Andaman sea longtail boat"]
+    },
+
+    {
+      "id": "hanoi-vn", "name": "Hanoi", "country": "VN", "region": "Red River Delta", "continent": "Asia",
+      "lat": 21.028, "lon": 105.854, "type": "city", "arch": "asian-megacity",
+      "blurb": "A thousand-year-old capital of lakes, French villas and a motorbike-choked Old Quarter where the best food comes off a plastic stool.",
+      "tags": ["street food", "old quarter", "coffee", "history"],
+      "climate": {
+        "tempHigh": [20, 20, 23, 28, 32, 33, 33, 32, 31, 29, 26, 22],
+        "tempLow":  [14, 16, 18, 22, 25, 27, 27, 26, 25, 23, 19, 15],
+        "rainDays": [8, 11, 15, 13, 14, 15, 15, 17, 14, 9, 6, 6],
+        "sunHours": [2, 2, 2, 4, 6, 6, 6, 6, 6, 5, 5, 4],
+        "humidity": [80, 84, 86, 86, 81, 80, 81, 84, 82, 79, 77, 76]
+      },
+      "crowd":      [55, 58, 62, 62, 55, 50, 52, 55, 62, 68, 70, 58],
+      "priceIndex": [65, 68, 72, 72, 65, 60, 62, 65, 72, 78, 80, 68],
+      "cost": { "budget": 24, "mid": 58, "luxury": 175 },
+      "r": {
+        "streetFood": 100, "foodScene": 94, "coffee": 96, "markets": 90, "historicSites": 86,
+        "architecture": 80, "museums": 76, "localCulture": 92, "religiousSites": 76,
+        "lakesRivers": 72, "bars": 82, "valueForMoney": 96, "backpacker": 94,
+        "soloTravel": 82, "digitalNomad": 82, "walkability": 66, "theatre": 68,
+        "cleanliness": 40, "safety": 76, "englishSpoken": 42, "publicTransport": 45,
+        "beaches": 0, "swimming": 15, "scenery": 40, "accessibility": 22
+      },
+      "photos": ["Hanoi Old Quarter street", "Hoan Kiem Lake Ngoc Son temple", "Vietnamese pho street food Hanoi", "Hanoi train street", "Temple of Literature Hanoi", "Vietnamese egg coffee Hanoi"]
+    },
+    {
+      "id": "ho-chi-minh-vn", "name": "Ho Chi Minh City", "country": "VN", "region": "Southeast Vietnam", "continent": "Asia",
+      "lat": 10.823, "lon": 106.630, "type": "city", "arch": "asian-megacity",
+      "blurb": "Vietnam's engine room — French colonial boulevards, sobering war history, rooftop bars and a street-food culture that never sleeps.",
+      "tags": ["street food", "history", "nightlife", "energy"],
+      "climate": {
+        "tempHigh": [32, 33, 34, 35, 34, 32, 32, 32, 31, 31, 31, 31],
+        "tempLow":  [21, 22, 24, 25, 25, 25, 25, 24, 24, 24, 23, 22],
+        "rainDays": [2, 1, 2, 5, 18, 21, 23, 22, 23, 21, 12, 6],
+        "sunHours": [8, 9, 9, 8, 6, 5, 5, 5, 5, 6, 7, 7],
+        "humidity": [72, 70, 70, 72, 79, 82, 83, 83, 85, 84, 80, 77]
+      },
+      "crowd":      [62, 65, 62, 58, 52, 50, 55, 58, 55, 58, 65, 70],
+      "priceIndex": [72, 75, 72, 68, 62, 58, 65, 68, 65, 68, 75, 80],
+      "cost": { "budget": 26, "mid": 62, "luxury": 190 },
+      "r": {
+        "streetFood": 98, "foodScene": 92, "coffee": 94, "markets": 88, "museums": 86,
+        "historicSites": 80, "architecture": 76, "bars": 88, "clubbing": 84,
+        "groupParty": 84, "shopping": 80, "localCulture": 86, "wellness": 80,
+        "valueForMoney": 94, "backpacker": 90, "soloTravel": 80, "digitalNomad": 84,
+        "walkability": 62, "cleanliness": 42, "safety": 70, "englishSpoken": 48,
+        "beaches": 0, "swimming": 18, "scenery": 32, "publicTransport": 45
+      },
+      "photos": ["Ho Chi Minh City skyline Saigon river", "Ben Thanh Market Saigon", "War Remnants Museum Ho Chi Minh City", "Notre Dame Cathedral Saigon", "Cu Chi tunnels Vietnam", "Banh mi street food Vietnam"]
+    },
+    {
+      "id": "ha-long-bay-vn", "name": "Ha Long Bay", "country": "VN", "region": "Quảng Ninh", "continent": "Asia",
+      "lat": 20.910, "lon": 107.184, "type": "coast", "arch": "wilderness-park",
+      "blurb": "Nearly 2,000 limestone islands rising from jade water, seen from an overnight junk. Go to quieter Lan Ha Bay if you can.",
+      "tags": ["karst", "cruise", "kayaking", "unesco"],
+      "climate": {
+        "tempHigh": [19, 20, 22, 27, 31, 32, 32, 32, 31, 28, 25, 21],
+        "tempLow":  [14, 16, 18, 22, 25, 26, 26, 26, 25, 22, 19, 15],
+        "rainDays": [8, 11, 15, 13, 14, 15, 16, 17, 14, 9, 6, 5],
+        "sunHours": [2, 2, 2, 4, 6, 6, 6, 6, 6, 5, 5, 4],
+        "humidity": [82, 86, 88, 88, 83, 82, 83, 86, 83, 80, 78, 77],
+        "seaTemp":  [19, 19, 21, 24, 27, 29, 29, 29, 28, 26, 24, 21]
+      },
+      "crowd":      [48, 52, 58, 62, 58, 58, 65, 68, 62, 62, 58, 50],
+      "priceIndex": [60, 62, 68, 72, 68, 68, 75, 78, 72, 72, 68, 62],
+      "cost": { "budget": 35, "mid": 85, "luxury": 260 },
+      "r": {
+        "scenery": 96, "islands": 94, "kayaking": 90, "sailing": 88, "swimming": 70,
+        "beaches": 62, "climbing": 74, "hiking": 68, "nationalParks": 78, "wildlife": 58,
+        "romance": 86, "foodScene": 76, "localCulture": 70, "valueForMoney": 80,
+        "backpacker": 78, "familyYoungKids": 68, "seniors": 62, "englishSpoken": 45,
+        "publicTransport": 25, "cleanliness": 45, "ecoFriendly": 35,
+        "museums": 15, "clubbing": 25, "shopping": 32
+      },
+      "photos": ["Ha Long Bay limestone islands", "Junk boat Ha Long Bay Vietnam", "Kayaking Lan Ha Bay Vietnam", "Sung Sot cave Ha Long", "Cat Ba island Vietnam", "Ha Long Bay sunset"]
+    },
+    {
+      "id": "hoi-an-vn", "name": "Hội An", "country": "VN", "region": "Central Vietnam", "continent": "Asia",
+      "lat": 15.880, "lon": 108.338, "type": "city", "arch": "historic-city",
+      "blurb": "A perfectly preserved trading port of tailors, lantern-lit lanes and riverside cafés, with a good beach and My Son's Cham ruins nearby.",
+      "tags": ["lanterns", "tailoring", "food", "beach"],
+      "climate": {
+        "tempHigh": [24, 26, 28, 31, 33, 34, 34, 33, 31, 29, 27, 24],
+        "tempLow":  [19, 20, 21, 23, 25, 26, 26, 25, 24, 23, 22, 19],
+        "rainDays": [10, 5, 4, 5, 8, 7, 7, 10, 15, 20, 22, 19],
+        "sunHours": [4, 5, 6, 7, 8, 8, 8, 7, 6, 5, 4, 3],
+        "humidity": [83, 83, 83, 81, 77, 74, 73, 76, 82, 85, 85, 85],
+        "seaTemp":  [23, 23, 24, 27, 29, 30, 30, 30, 29, 27, 25, 24]
+      },
+      "crowd":      [55, 58, 62, 68, 68, 62, 65, 68, 58, 48, 45, 50],
+      "priceIndex": [65, 68, 72, 78, 78, 72, 75, 78, 68, 58, 55, 62],
+      "cost": { "budget": 22, "mid": 55, "luxury": 170 },
+      "r": {
+        "historicSites": 92, "architecture": 90, "localCulture": 90, "foodScene": 94,
+        "streetFood": 92, "markets": 86, "shopping": 88, "walkability": 92,
+        "romance": 90, "cycling": 86, "beaches": 72, "swimming": 74, "festivals": 84,
+        "coffee": 88, "wellness": 82, "valueForMoney": 96, "backpacker": 88,
+        "familyYoungKids": 76, "seniors": 72, "englishSpoken": 52,
+        "clubbing": 42, "museums": 55, "cleanliness": 58, "publicTransport": 30
+      },
+      "photos": ["Hoi An lanterns at night", "Hoi An Japanese covered bridge", "Hoi An old town yellow walls", "Thu Bon river boats Hoi An", "My Son Cham ruins Vietnam", "Hoi An tailor shop"]
+    },
+    {
+      "id": "sapa-vn", "name": "Sa Pa", "country": "VN", "region": "Lào Cai", "continent": "Asia",
+      "lat": 22.336, "lon": 103.844, "type": "mountains", "arch": "mountain-town",
+      "blurb": "Terraced rice valleys in the far north, trekked between homestays in Hmong and Dao villages, under Vietnam's highest peak.",
+      "tags": ["trekking", "rice terraces", "hill tribes", "homestay"],
+      "climate": {
+        "tempHigh": [15, 17, 20, 24, 26, 27, 27, 27, 25, 22, 19, 16],
+        "tempLow":  [8, 10, 13, 16, 18, 20, 20, 20, 18, 15, 12, 9],
+        "rainDays": [8, 9, 12, 14, 20, 23, 25, 24, 17, 12, 8, 6],
+        "sunHours": [3, 3, 4, 5, 6, 5, 5, 5, 5, 4, 4, 4],
+        "humidity": [86, 86, 85, 84, 84, 86, 88, 88, 86, 85, 84, 84]
+      },
+      "crowd":      [42, 45, 52, 58, 55, 50, 55, 58, 62, 62, 52, 45],
+      "priceIndex": [55, 58, 65, 70, 68, 62, 65, 68, 72, 72, 65, 58],
+      "cost": { "budget": 22, "mid": 52, "luxury": 150 },
+      "r": {
+        "hiking": 94, "scenery": 94, "mountains": 90, "localCulture": 96, "forests": 78, "skiing": 0,
+        "climbing": 66, "cycling": 68, "stargazing": 66, "wildlife": 55,
+        "valueForMoney": 94, "backpacker": 90, "markets": 84, "romance": 74,
+        "foodScene": 74, "englishSpoken": 38, "publicTransport": 25,
+        "beaches": 0, "swimming": 15, "clubbing": 15, "shopping": 55,
+        "museums": 25, "accessibility": 15, "seniors": 38, "cleanliness": 52
+      },
+      "photos": ["Sapa rice terraces Vietnam", "Hmong woman Sapa Vietnam", "Fansipan mountain Vietnam", "Muong Hoa valley Sapa", "Sapa trekking homestay", "Vietnam terraced fields harvest"]
+    },
+
+    {
+      "id": "siem-reap-kh", "name": "Siem Reap & Angkor", "country": "KH", "region": "Siem Reap", "continent": "Asia",
+      "lat": 13.362, "lon": 103.860, "type": "city", "arch": "historic-city",
+      "blurb": "The largest religious monument on earth, plus a thousand more temples swallowed by jungle — and a town that has learned how to feed and water you.",
+      "tags": ["angkor", "temples", "history", "value"],
+      "climate": {
+        "tempHigh": [32, 34, 35, 35, 35, 34, 33, 33, 32, 31, 31, 31],
+        "tempLow":  [21, 22, 24, 25, 26, 26, 25, 25, 25, 24, 23, 21],
+        "rainDays": [1, 1, 3, 7, 15, 16, 17, 18, 19, 17, 8, 2],
+        "sunHours": [9, 9, 9, 8, 7, 6, 5, 5, 5, 6, 8, 8],
+        "humidity": [68, 66, 68, 72, 79, 82, 83, 84, 86, 85, 79, 73]
+      },
+      "crowd":      [72, 75, 62, 55, 45, 42, 45, 48, 48, 58, 72, 82],
+      "priceIndex": [82, 85, 72, 65, 55, 52, 55, 58, 58, 68, 82, 92],
+      "cost": { "budget": 22, "mid": 55, "luxury": 180 },
+      "r": {
+        "historicSites": 100, "religiousSites": 96, "architecture": 96, "localCulture": 82,
+        "museums": 74, "markets": 82, "streetFood": 84, "foodScene": 80, "bars": 80,
+        "wellness": 84, "cycling": 78, "adrenaline": 58, "valueForMoney": 96,
+        "backpacker": 92, "soloTravel": 78, "familyTeens": 76, "englishSpoken": 55,
+        "beaches": 0, "swimming": 22, "scenery": 62, "wildlife": 52,
+        "publicTransport": 25, "cleanliness": 45, "safety": 68, "healthHygiene": 45
+      },
+      "photos": ["Angkor Wat sunrise Cambodia", "Ta Prohm tree roots Angkor", "Bayon temple faces Angkor Thom", "Banteay Srei carvings Cambodia", "Tonle Sap floating village", "Siem Reap night market"]
+    },
+    {
+      "id": "luang-prabang-la", "name": "Luang Prabang", "country": "LA", "region": "Luang Prabang", "continent": "Asia",
+      "lat": 19.885, "lon": 102.135, "type": "city", "arch": "historic-city",
+      "blurb": "A UNESCO town of gilded temples and French shophouses between two rivers — dawn alms-giving, turquoise waterfalls, and a very slow pulse.",
+      "tags": ["temples", "waterfalls", "slow", "value"],
+      "climate": {
+        "tempHigh": [28, 31, 33, 34, 34, 33, 32, 32, 32, 31, 29, 27],
+        "tempLow":  [14, 16, 19, 22, 24, 25, 24, 24, 24, 22, 18, 15],
+        "rainDays": [2, 2, 4, 8, 15, 17, 19, 19, 15, 9, 4, 2],
+        "sunHours": [8, 8, 8, 8, 7, 5, 4, 4, 6, 7, 7, 7],
+        "humidity": [78, 73, 68, 69, 75, 80, 82, 83, 83, 82, 81, 80]
+      },
+      "crowd":      [58, 60, 52, 45, 42, 40, 45, 48, 48, 55, 62, 62],
+      "priceIndex": [68, 70, 62, 55, 52, 50, 55, 58, 58, 65, 72, 72],
+      "cost": { "budget": 20, "mid": 48, "luxury": 150 },
+      "r": {
+        "religiousSites": 96, "historicSites": 88, "architecture": 88, "localCulture": 94,
+        "walkability": 90, "markets": 86, "foodScene": 80, "coffee": 84,
+        "lakesRivers": 84, "scenery": 82, "forests": 78, "hiking": 74, "kayaking": 72,
+        "wellness": 82, "romance": 84, "valueForMoney": 96, "backpacker": 90,
+        "soloTravel": 78, "seniors": 66, "englishSpoken": 45,
+        "beaches": 0, "swimming": 62, "clubbing": 18, "shopping": 55,
+        "publicTransport": 22, "healthHygiene": 42, "cleanliness": 60
+      },
+      "photos": ["Kuang Si waterfall Laos", "Luang Prabang monks alms giving", "Wat Xieng Thong Luang Prabang", "Mekong river sunset Laos", "Luang Prabang night market", "Mount Phousi view Luang Prabang"]
+    }
+  ]
+}

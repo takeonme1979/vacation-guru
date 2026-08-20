@@ -1,0 +1,787 @@
+{
+  "_doc": "Italy, Greece, the Adriatic, Turkey and the Mediterranean islands.",
+  "destinations": [
+    {
+      "id": "rome-it", "name": "Rome", "country": "IT", "region": "Lazio", "continent": "Europe",
+      "lat": 41.903, "lon": 12.496, "type": "city", "arch": "capital-city",
+      "blurb": "Three thousand years of ruins, basilicas and Baroque fountains stacked on top of each other, with the food to match. Relentless in August.",
+      "tags": ["history", "art", "food", "architecture"],
+      "climate": {
+        "tempHigh": [13, 14, 17, 19, 24, 28, 31, 31, 27, 22, 17, 13],
+        "tempLow":  [3, 4, 6, 8, 12, 16, 18, 19, 16, 12, 8, 4],
+        "rainDays": [7, 7, 7, 8, 5, 4, 2, 3, 5, 8, 9, 8],
+        "sunHours": [4, 5, 6, 7, 8, 10, 11, 10, 8, 6, 4, 4],
+        "humidity": [77, 74, 70, 70, 69, 66, 63, 65, 70, 75, 79, 79],
+        "seaTemp":  [14, 13, 14, 15, 18, 21, 24, 25, 23, 21, 18, 16]
+      },
+      "crowd":      [42, 45, 58, 78, 85, 88, 85, 78, 88, 78, 52, 58],
+      "priceIndex": [52, 55, 68, 85, 92, 95, 92, 85, 95, 85, 58, 68],
+      "cost": { "budget": 58, "mid": 130, "luxury": 340 },
+      "r": {
+        "historicSites": 100, "architecture": 96, "museums": 94, "religiousSites": 98, "artScene": 82,
+        "foodScene": 94, "fineDining": 82, "markets": 78, "walkability": 82, "publicTransport": 62,
+        "bars": 78, "clubbing": 62, "shopping": 80, "romance": 86, "festivals": 70, "theatre": 58,
+        "safety": 62, "cleanliness": 45, "soloTravel": 76, "seniors": 62, "familyYoungKids": 58,
+        "accessibility": 42, "beaches": 25, "swimming": 35, "coffee": 92, "wine": 90, "valueForMoney": 52
+      },
+      "photos": ["Colosseum Rome exterior", "Trevi Fountain Rome", "St Peters Basilica dome Vatican", "Roman Forum ruins", "Pantheon Rome interior", "Trastevere street Rome evening"]
+    },
+    {
+      "id": "venice-it", "name": "Venice", "country": "IT", "region": "Veneto", "continent": "Europe",
+      "lat": 45.440, "lon": 12.316, "type": "city", "arch": "historic-city",
+      "blurb": "There is nowhere else like it, and everyone knows — which is the problem. Astonishing in February fog, overwhelming in July.",
+      "tags": ["architecture", "romance", "art", "canals"],
+      "climate": {
+        "tempHigh": [7, 9, 13, 17, 22, 26, 28, 28, 24, 18, 12, 8],
+        "tempLow":  [0, 1, 4, 8, 12, 16, 18, 18, 15, 10, 5, 1],
+        "rainDays": [6, 6, 7, 9, 8, 8, 6, 6, 6, 7, 8, 7],
+        "sunHours": [3, 4, 5, 6, 7, 8, 9, 8, 6, 5, 3, 3],
+        "humidity": [80, 76, 72, 73, 72, 71, 70, 71, 73, 77, 80, 81],
+        "seaTemp":  [9, 9, 11, 14, 19, 23, 26, 26, 23, 19, 15, 11]
+      },
+      "crowd":      [38, 48, 58, 78, 88, 90, 88, 85, 88, 75, 52, 58],
+      "priceIndex": [48, 58, 68, 88, 95, 98, 95, 92, 95, 82, 58, 68],
+      "cost": { "budget": 70, "mid": 165, "luxury": 450 },
+      "r": {
+        "architecture": 100, "historicSites": 94, "museums": 86, "artScene": 88, "religiousSites": 86,
+        "romance": 96, "walkability": 90, "scenery": 88, "festivals": 82, "theatre": 68, "fineDining": 72,
+        "foodScene": 74, "markets": 68, "sailing": 68, "publicTransport": 55, "accessibility": 20,
+        "cleanliness": 55, "valueForMoney": 32, "familyYoungKids": 48, "clubbing": 25, "bars": 62,
+        "backpacker": 42, "cycling": 5, "beaches": 45, "swimming": 42, "seniors": 58, "ecoFriendly": 35
+      },
+      "photos": ["Grand Canal Venice gondola", "St Marks Square Venice", "Rialto Bridge Venice", "Burano colourful houses Venice", "Doges Palace Venice interior", "Venice carnival mask"]
+    },
+    {
+      "id": "florence-it", "name": "Florence", "country": "IT", "region": "Tuscany", "continent": "Europe",
+      "lat": 43.770, "lon": 11.256, "type": "city", "arch": "historic-city",
+      "blurb": "The Renaissance in one walkable square mile — and the gateway to Tuscany's vineyards and hill towns when the queues get too much.",
+      "tags": ["art", "architecture", "wine", "food"],
+      "climate": {
+        "tempHigh": [10, 12, 15, 19, 24, 28, 31, 31, 26, 20, 14, 11],
+        "tempLow":  [1, 2, 4, 7, 11, 15, 17, 17, 14, 10, 5, 2],
+        "rainDays": [7, 7, 7, 8, 7, 5, 3, 4, 5, 7, 9, 8],
+        "sunHours": [4, 4, 5, 6, 8, 9, 10, 9, 7, 5, 3, 3],
+        "humidity": [78, 75, 70, 70, 68, 65, 62, 64, 69, 75, 79, 79]
+      },
+      "crowd":      [40, 45, 58, 78, 85, 85, 82, 75, 85, 75, 52, 55],
+      "priceIndex": [50, 55, 68, 85, 90, 90, 88, 82, 90, 80, 58, 65],
+      "cost": { "budget": 58, "mid": 130, "luxury": 330 },
+      "r": {
+        "museums": 98, "artScene": 94, "architecture": 96, "historicSites": 92, "religiousSites": 84,
+        "foodScene": 88, "fineDining": 78, "wine": 96, "markets": 76, "walkability": 94, "shopping": 82,
+        "romance": 88, "roadTrip": 82, "scenery": 72, "cycling": 62, "publicTransport": 55,
+        "safety": 72, "seniors": 72, "clubbing": 45, "valueForMoney": 50, "beaches": 0, "swimming": 15,
+        "familyYoungKids": 52, "accessibility": 45, "hiking": 48
+      },
+      "photos": ["Florence Duomo Brunelleschi dome", "Ponte Vecchio Florence", "Uffizi Gallery Florence interior", "Piazzale Michelangelo view Florence", "David Michelangelo Accademia", "Tuscany rolling hills cypress"]
+    },
+    {
+      "id": "milan-it", "name": "Milan", "country": "IT", "region": "Lombardy", "continent": "Europe",
+      "lat": 45.464, "lon": 9.190, "type": "city", "arch": "capital-city",
+      "blurb": "Italy's business and fashion capital: less obviously pretty than its rivals, but unbeatable for design, aperitivo and opera.",
+      "tags": ["fashion", "design", "opera", "food"],
+      "climate": {
+        "tempHigh": [7, 10, 15, 18, 23, 27, 30, 29, 25, 18, 12, 8],
+        "tempLow":  [0, 2, 5, 9, 13, 17, 19, 19, 15, 11, 5, 1],
+        "rainDays": [6, 6, 7, 9, 9, 7, 6, 6, 5, 7, 8, 6],
+        "sunHours": [2, 4, 5, 6, 7, 8, 9, 8, 6, 4, 2, 2],
+        "humidity": [82, 76, 69, 70, 68, 67, 66, 68, 71, 77, 82, 83]
+      },
+      "crowd":      [45, 48, 55, 62, 68, 62, 55, 45, 72, 62, 48, 58],
+      "priceIndex": [55, 58, 65, 72, 75, 72, 62, 52, 80, 70, 55, 68],
+      "cost": { "budget": 62, "mid": 140, "luxury": 360 },
+      "r": {
+        "shopping": 96, "artScene": 86, "architecture": 82, "museums": 80, "theatre": 92, "fineDining": 88,
+        "foodScene": 82, "bars": 86, "clubbing": 82, "publicTransport": 90, "walkability": 76,
+        "historicSites": 66, "sports": 92, "luxury": 92, "digitalNomad": 74, "lgbtqScene": 82,
+        "festivals": 62, "safety": 62, "valueForMoney": 45, "beaches": 0, "swimming": 12,
+        "familyYoungKids": 48, "scenery": 32, "mountains": 35, "skiing": 32, "lakesRivers": 55
+      },
+      "photos": ["Milan Cathedral Duomo facade", "Galleria Vittorio Emanuele II Milan", "Navigli canals Milan evening", "Teatro alla Scala Milan interior", "Bosco Verticale Milan", "Sforza Castle Milan"]
+    },
+    {
+      "id": "naples-it", "name": "Naples", "country": "IT", "region": "Campania", "continent": "Europe",
+      "lat": 40.852, "lon": 14.268, "type": "city", "arch": "coastal-city",
+      "blurb": "Chaotic, operatic and gloriously unpolished — the best pizza on earth, Pompeii and Vesuvius on the doorstep, and prices half of Rome's.",
+      "tags": ["food", "history", "volcano", "gritty"],
+      "climate": {
+        "tempHigh": [13, 14, 16, 19, 23, 27, 30, 30, 27, 22, 17, 14],
+        "tempLow":  [5, 5, 7, 9, 13, 17, 19, 20, 17, 14, 9, 6],
+        "rainDays": [9, 8, 8, 8, 5, 4, 2, 3, 5, 8, 10, 10],
+        "sunHours": [4, 5, 5, 7, 8, 9, 10, 9, 7, 5, 4, 3],
+        "humidity": [74, 72, 70, 70, 69, 67, 64, 66, 69, 73, 76, 76],
+        "seaTemp":  [15, 14, 14, 16, 19, 22, 25, 26, 24, 21, 19, 16]
+      },
+      "crowd":      [38, 40, 50, 68, 75, 82, 88, 92, 80, 62, 45, 50],
+      "priceIndex": [45, 48, 58, 75, 82, 88, 92, 95, 85, 68, 50, 58],
+      "cost": { "budget": 45, "mid": 100, "luxury": 250 },
+      "r": {
+        "foodScene": 96, "streetFood": 94, "historicSites": 92, "museums": 84, "religiousSites": 82,
+        "volcanic": 88, "localCulture": 94, "markets": 88, "architecture": 74, "liveMusic": 68,
+        "bars": 72, "sports": 88, "valueForMoney": 92, "walkability": 68, "publicTransport": 58,
+        "safety": 42, "cleanliness": 30, "soloFemaleSafety": 48, "beaches": 42, "swimming": 52,
+        "sailing": 62, "hiking": 62, "backpacker": 78, "familyYoungKids": 48, "seniors": 40, "accessibility": 25
+      },
+      "photos": ["Naples Spaccanapoli street", "Pompeii ruins with Vesuvius", "Neapolitan pizza margherita", "Naples Gulf view Castel dell Ovo", "Naples National Archaeological Museum mosaic", "Mount Vesuvius crater"]
+    },
+    {
+      "id": "amalfi-it", "name": "Amalfi Coast", "country": "IT", "region": "Campania", "continent": "Europe",
+      "lat": 40.634, "lon": 14.602, "type": "coast", "arch": "beach-resort",
+      "blurb": "Pastel villages glued to vertical cliffs above impossibly blue water. Peerless in May and September; gridlocked and eye-watering in August.",
+      "tags": ["scenery", "romance", "luxury", "coast"],
+      "climate": {
+        "tempHigh": [13, 14, 15, 18, 22, 26, 29, 29, 26, 22, 17, 14],
+        "tempLow":  [6, 6, 8, 10, 14, 18, 21, 21, 18, 15, 10, 7],
+        "rainDays": [9, 8, 8, 7, 5, 3, 1, 2, 4, 8, 10, 10],
+        "sunHours": [4, 5, 5, 7, 8, 10, 11, 10, 7, 5, 4, 3],
+        "humidity": [72, 71, 70, 70, 69, 67, 64, 66, 69, 72, 74, 74],
+        "seaTemp":  [15, 14, 14, 16, 19, 22, 25, 26, 24, 22, 19, 16]
+      },
+      "crowd":      [12, 14, 25, 52, 72, 88, 95, 98, 80, 52, 20, 14],
+      "priceIndex": [30, 32, 45, 70, 85, 95, 100, 100, 88, 62, 35, 30],
+      "cost": { "budget": 75, "mid": 180, "luxury": 480 },
+      "r": {
+        "scenery": 98, "romance": 96, "luxury": 92, "beaches": 68, "swimming": 78, "sailing": 86,
+        "kayaking": 72, "hiking": 84, "foodScene": 88, "fineDining": 88, "wine": 82, "historicSites": 62,
+        "architecture": 76, "wellness": 78, "roadTrip": 72, "valueForMoney": 28, "seniors": 48,
+        "accessibility": 12, "publicTransport": 32, "familyYoungKids": 45, "clubbing": 28, "backpacker": 25,
+        "walkability": 40, "cycling": 20, "ecoFriendly": 35
+      },
+      "photos": ["Positano cliffside village Amalfi", "Amalfi Coast road cliffs", "Ravello Villa Rufolo terrace", "Path of the Gods Amalfi hike", "Amalfi Cathedral steps", "Capri Faraglioni rocks"]
+    },
+    {
+      "id": "sicily-it", "name": "Sicily", "country": "IT", "region": "Sicily", "continent": "Europe",
+      "lat": 37.599, "lon": 14.015, "type": "island", "arch": "island-volcanic",
+      "blurb": "Greek temples, Arab-Norman churches, Europe's most active volcano and arguably Italy's best food — on an island big enough to need two weeks.",
+      "tags": ["history", "volcano", "food", "beach"],
+      "climate": {
+        "tempHigh": [15, 15, 17, 19, 23, 27, 30, 31, 27, 24, 20, 16],
+        "tempLow":  [8, 8, 9, 11, 15, 19, 22, 22, 20, 17, 13, 10],
+        "rainDays": [8, 7, 6, 5, 3, 1, 1, 1, 4, 8, 8, 9],
+        "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 8, 6, 4, 4],
+        "humidity": [73, 72, 71, 70, 69, 66, 63, 65, 69, 73, 74, 74],
+        "seaTemp":  [16, 15, 15, 17, 20, 24, 26, 27, 25, 23, 20, 17]
+      },
+      "crowd":      [22, 24, 32, 52, 68, 82, 92, 98, 75, 52, 30, 28],
+      "priceIndex": [38, 40, 50, 68, 80, 90, 98, 100, 82, 60, 42, 42],
+      "cost": { "budget": 52, "mid": 120, "luxury": 320 },
+      "r": {
+        "historicSites": 94, "volcanic": 96, "foodScene": 92, "streetFood": 90, "markets": 88,
+        "architecture": 84, "localCulture": 90, "scenery": 88, "beaches": 82, "swimming": 82,
+        "hiking": 82, "scuba": 62, "sailing": 68, "wine": 88, "roadTrip": 88, "religiousSites": 78,
+        "valueForMoney": 84, "romance": 78, "safety": 62, "publicTransport": 30, "englishSpoken": 35,
+        "familyYoungKids": 62, "backpacker": 62, "cleanliness": 42, "accessibility": 28
+      },
+      "photos": ["Mount Etna eruption Sicily", "Valley of the Temples Agrigento", "Taormina Greek Theatre Sicily", "Palermo street market Ballaro", "Scala dei Turchi Sicily", "Cefalu cathedral and beach"]
+    },
+    {
+      "id": "sardinia-it", "name": "Sardinia", "country": "IT", "region": "Sardinia", "continent": "Europe",
+      "lat": 40.121, "lon": 9.013, "type": "island", "arch": "beach-resort",
+      "blurb": "Caribbean-grade water on a Mediterranean island, with a fiercely distinct interior of Bronze Age towers, shepherds and mountains.",
+      "tags": ["beach", "sailing", "hiking", "luxury"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 18, 22, 26, 29, 30, 26, 22, 18, 15],
+        "tempLow":  [7, 7, 8, 10, 13, 17, 20, 20, 18, 15, 11, 8],
+        "rainDays": [7, 7, 6, 6, 4, 2, 1, 1, 3, 7, 8, 8],
+        "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 8, 6, 4, 4],
+        "humidity": [76, 75, 73, 72, 71, 68, 66, 68, 71, 75, 77, 77],
+        "seaTemp":  [14, 13, 14, 15, 19, 23, 25, 26, 24, 22, 18, 16]
+      },
+      "crowd":      [10, 12, 20, 42, 62, 85, 98, 100, 72, 45, 18, 12],
+      "priceIndex": [28, 30, 42, 65, 82, 95, 100, 100, 85, 58, 32, 28],
+      "cost": { "budget": 70, "mid": 170, "luxury": 520 },
+      "r": {
+        "beaches": 96, "swimming": 92, "snorkelling": 78, "scuba": 76, "sailing": 92, "kayaking": 80,
+        "waterSports": 82, "scenery": 88, "hiking": 82, "climbing": 78, "mountains": 72,
+        "historicSites": 76, "localCulture": 82, "foodScene": 82, "wine": 80, "luxury": 92, "romance": 86,
+        "roadTrip": 88, "valueForMoney": 48, "publicTransport": 25, "familyYoungKids": 78,
+        "clubbing": 62, "museums": 42, "backpacker": 42
+      },
+      "photos": ["La Pelosa beach Stintino Sardinia", "Costa Smeralda Porto Cervo", "Cala Goloritze Sardinia", "Nuraghe Su Nuraxi Barumini", "Bosa colourful houses Sardinia", "Neptunes Grotto Alghero"]
+    },
+    {
+      "id": "dolomites-it", "name": "The Dolomites", "country": "IT", "region": "Trentino-Alto Adige", "continent": "Europe",
+      "lat": 46.539, "lon": 12.136, "type": "mountains", "arch": "ski-resort",
+      "blurb": "Pale limestone towers that turn pink at sunset, linked by the world's best ski circuit in winter and via ferrata in summer.",
+      "tags": ["skiing", "hiking", "mountains", "scenery"],
+      "climate": {
+        "tempHigh": [3, 5, 9, 13, 18, 21, 24, 23, 19, 14, 8, 4],
+        "tempLow":  [-8, -7, -4, 0, 5, 8, 11, 10, 7, 3, -2, -6],
+        "rainDays": [6, 6, 8, 10, 12, 13, 11, 11, 8, 8, 8, 7],
+        "sunHours": [4, 5, 5, 5, 6, 7, 8, 7, 6, 5, 4, 4],
+        "humidity": [72, 70, 68, 70, 72, 74, 74, 75, 76, 76, 75, 74],
+        "snowDepth": [65, 80, 70, 35, 3, 0, 0, 0, 0, 2, 25, 55]
+      },
+      "crowd":      [78, 82, 62, 32, 25, 45, 72, 88, 52, 32, 32, 72],
+      "priceIndex": [88, 92, 72, 45, 38, 55, 78, 95, 58, 42, 42, 85],
+      "cost": { "budget": 70, "mid": 165, "luxury": 420 },
+      "r": {
+        "skiing": 98, "mountains": 98, "scenery": 98, "hiking": 96, "climbing": 96, "cycling": 92,
+        "nationalParks": 88, "lakesRivers": 78, "stargazing": 80, "adrenaline": 82, "wellness": 86,
+        "foodScene": 80, "wine": 78, "fineDining": 78, "localCulture": 74, "romance": 84,
+        "familyTeens": 84, "familyYoungKids": 70, "luxury": 84, "roadTrip": 92, "publicTransport": 52,
+        "cleanliness": 92, "safety": 90, "beaches": 0, "swimming": 22, "backpacker": 35, "clubbing": 30
+      },
+      "photos": ["Tre Cime di Lavaredo Dolomites", "Lago di Braies Dolomites", "Seceda ridgeline Dolomites", "Alta Badia ski slopes", "Via ferrata Dolomites climber", "Alpe di Siusi meadows"]
+    },
+    {
+      "id": "lake-como-it", "name": "Lake Como", "country": "IT", "region": "Lombardy", "continent": "Europe",
+      "lat": 45.983, "lon": 9.257, "type": "lake", "arch": "wine-country",
+      "blurb": "Villas, gardens and steep wooded mountains dropping straight into deep blue water — the most theatrical of the Italian lakes.",
+      "tags": ["scenery", "romance", "luxury", "lake"],
+      "climate": {
+        "tempHigh": [6, 9, 13, 17, 22, 25, 28, 27, 23, 17, 11, 7],
+        "tempLow":  [-1, 0, 4, 7, 11, 15, 17, 17, 13, 9, 4, 0],
+        "rainDays": [6, 6, 8, 11, 12, 11, 9, 9, 7, 9, 9, 7],
+        "sunHours": [3, 4, 5, 6, 7, 8, 9, 8, 6, 4, 3, 3],
+        "humidity": [80, 75, 70, 72, 72, 72, 71, 73, 75, 78, 81, 81]
+      },
+      "crowd":      [18, 20, 32, 52, 72, 82, 88, 92, 72, 48, 25, 25],
+      "priceIndex": [35, 38, 50, 68, 82, 90, 95, 98, 82, 58, 38, 40],
+      "cost": { "budget": 62, "mid": 150, "luxury": 420 },
+      "r": {
+        "scenery": 96, "lakesRivers": 98, "romance": 94, "luxury": 92, "architecture": 80, "hiking": 82,
+        "mountains": 82, "kayaking": 78, "sailing": 78, "swimming": 62, "cycling": 78, "wellness": 82,
+        "fineDining": 84, "foodScene": 80, "wine": 80, "seniors": 80, "roadTrip": 78, "valueForMoney": 42,
+        "publicTransport": 55, "familyYoungKids": 58, "clubbing": 20, "backpacker": 32, "museums": 45
+      },
+      "photos": ["Bellagio Lake Como waterfront", "Villa del Balbianello Lake Como", "Varenna colourful houses Lake Como", "Lake Como from Brunate funicular", "Villa Carlotta gardens Lake Como", "Lake Como ferry boat"]
+    },
+    {
+      "id": "cinque-terre-it", "name": "Cinque Terre", "country": "IT", "region": "Liguria", "continent": "Europe",
+      "lat": 44.128, "lon": 9.710, "type": "coast", "arch": "historic-city",
+      "blurb": "Five stacked fishing villages on a vertiginous coast, linked by cliff paths and a train — tiny, gorgeous, and utterly swamped in summer.",
+      "tags": ["hiking", "coast", "villages", "scenery"],
+      "climate": {
+        "tempHigh": [11, 12, 14, 17, 21, 25, 28, 28, 24, 20, 15, 12],
+        "tempLow":  [4, 4, 6, 9, 13, 16, 19, 19, 16, 12, 8, 5],
+        "rainDays": [8, 8, 8, 9, 7, 5, 3, 4, 6, 9, 10, 9],
+        "sunHours": [4, 5, 5, 6, 8, 9, 10, 9, 7, 5, 4, 3],
+        "humidity": [74, 73, 72, 73, 73, 71, 69, 71, 73, 76, 77, 76],
+        "seaTemp":  [14, 13, 13, 15, 18, 22, 25, 26, 23, 20, 17, 15]
+      },
+      "crowd":      [15, 18, 32, 58, 78, 88, 95, 98, 82, 55, 25, 18],
+      "priceIndex": [32, 35, 48, 72, 88, 95, 100, 100, 88, 62, 35, 32],
+      "cost": { "budget": 60, "mid": 145, "luxury": 380 },
+      "r": {
+        "scenery": 94, "hiking": 90, "beaches": 55, "swimming": 68, "kayaking": 74, "romance": 86,
+        "foodScene": 84, "wine": 84, "architecture": 78, "localCulture": 72, "walkability": 72,
+        "publicTransport": 62, "valueForMoney": 42, "accessibility": 15, "familyYoungKids": 45,
+        "clubbing": 12, "museums": 20, "shopping": 30, "backpacker": 55, "ecoFriendly": 32, "seniors": 42
+      },
+      "photos": ["Manarola Cinque Terre at dusk", "Vernazza harbour Cinque Terre", "Riomaggiore Cinque Terre houses", "Cinque Terre coastal hiking path", "Monterosso al Mare beach", "Corniglia terraced vineyards"]
+    },
+    {
+      "id": "puglia-it", "name": "Puglia", "country": "IT", "region": "Apulia", "continent": "Europe",
+      "lat": 40.729, "lon": 17.575, "type": "region", "arch": "wine-country",
+      "blurb": "Italy's heel: whitewashed hill towns, conical trulli houses, olive groves to the horizon and two coastlines with barely a high-rise.",
+      "tags": ["food", "beach", "villages", "value"],
+      "climate": {
+        "tempHigh": [13, 13, 15, 18, 23, 27, 30, 30, 26, 22, 18, 14],
+        "tempLow":  [5, 5, 7, 9, 13, 17, 20, 20, 17, 14, 10, 7],
+        "rainDays": [8, 7, 7, 6, 4, 3, 2, 2, 4, 7, 9, 9],
+        "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 7, 6, 4, 4],
+        "humidity": [74, 73, 72, 71, 69, 66, 63, 66, 70, 74, 76, 76],
+        "seaTemp":  [15, 14, 14, 16, 19, 23, 25, 27, 25, 22, 19, 16]
+      },
+      "crowd":      [15, 18, 28, 45, 62, 80, 92, 98, 72, 45, 25, 20],
+      "priceIndex": [32, 35, 45, 62, 78, 90, 98, 100, 80, 55, 35, 32],
+      "cost": { "budget": 48, "mid": 110, "luxury": 290 },
+      "r": {
+        "foodScene": 92, "wine": 86, "beaches": 84, "swimming": 84, "architecture": 84, "historicSites": 78,
+        "localCulture": 86, "scenery": 78, "roadTrip": 90, "cycling": 78, "markets": 76, "romance": 84,
+        "valueForMoney": 90, "fineDining": 72, "snorkelling": 62, "sailing": 62, "familyYoungKids": 72,
+        "publicTransport": 28, "englishSpoken": 35, "clubbing": 42, "museums": 42, "seniors": 68, "luxury": 72
+      },
+      "photos": ["Alberobello trulli houses Puglia", "Polignano a Mare cliff town", "Ostuni white city Puglia", "Lecce baroque cathedral", "Puglia olive groves ancient trees", "Gargano coast Baia delle Zagare"]
+    },
+
+    {
+      "id": "athens-gr", "name": "Athens", "country": "GR", "region": "Attica", "continent": "Europe",
+      "lat": 37.984, "lon": 23.728, "type": "city", "arch": "capital-city",
+      "blurb": "The Acropolis floating above a scruffy, energetic, brilliantly cheap city that has become one of Europe's best nights out.",
+      "tags": ["history", "food", "nightlife", "value"],
+      "climate": {
+        "tempHigh": [13, 14, 16, 20, 25, 30, 33, 33, 29, 23, 18, 14],
+        "tempLow":  [7, 7, 8, 11, 16, 20, 23, 23, 19, 16, 12, 9],
+        "rainDays": [8, 7, 7, 6, 4, 2, 1, 1, 3, 6, 8, 9],
+        "sunHours": [4, 5, 6, 8, 9, 11, 12, 11, 9, 6, 4, 4],
+        "humidity": [70, 68, 65, 62, 58, 52, 47, 50, 57, 66, 72, 73],
+        "seaTemp":  [15, 14, 15, 17, 20, 24, 26, 27, 25, 23, 20, 17]
+      },
+      "crowd":      [35, 38, 48, 68, 78, 85, 88, 88, 80, 62, 42, 42],
+      "priceIndex": [45, 48, 58, 75, 85, 92, 95, 95, 88, 68, 48, 52],
+      "cost": { "budget": 48, "mid": 105, "luxury": 270 },
+      "r": {
+        "historicSites": 100, "museums": 90, "architecture": 78, "religiousSites": 72, "foodScene": 84,
+        "streetFood": 82, "markets": 82, "bars": 90, "clubbing": 82, "liveMusic": 76, "artScene": 78,
+        "walkability": 76, "publicTransport": 78, "valueForMoney": 88, "backpacker": 84, "soloTravel": 80,
+        "beaches": 58, "swimming": 62, "sailing": 72, "hiking": 55, "safety": 66, "cleanliness": 48,
+        "familyYoungKids": 52, "lgbtqScene": 72, "digitalNomad": 78, "shopping": 68
+      },
+      "photos": ["Acropolis Parthenon Athens", "Acropolis Museum Athens interior", "Plaka neighbourhood Athens", "Monastiraki flea market Athens", "Temple of Olympian Zeus Athens", "Athens rooftop bar Acropolis view"]
+    },
+    {
+      "id": "santorini-gr", "name": "Santorini", "country": "GR", "region": "Cyclades", "continent": "Europe",
+      "lat": 36.393, "lon": 25.462, "type": "island", "arch": "island-volcanic",
+      "blurb": "A drowned volcanic caldera ringed with white-and-blue villages. The most photographed sunset in Europe, and priced accordingly.",
+      "tags": ["scenery", "romance", "volcano", "luxury"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 19, 23, 27, 29, 29, 26, 22, 19, 16],
+        "tempLow":  [10, 10, 11, 13, 17, 21, 23, 23, 21, 18, 15, 12],
+        "rainDays": [8, 6, 5, 3, 2, 1, 0, 0, 2, 5, 7, 9],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [72, 71, 70, 68, 64, 59, 56, 58, 64, 70, 73, 73],
+        "seaTemp":  [16, 15, 16, 18, 20, 23, 25, 26, 25, 23, 20, 18]
+      },
+      "crowd":      [8, 10, 18, 42, 68, 88, 98, 100, 85, 52, 18, 10],
+      "priceIndex": [25, 28, 38, 65, 85, 95, 100, 100, 90, 58, 30, 25],
+      "cost": { "budget": 70, "mid": 180, "luxury": 520 },
+      "r": {
+        "scenery": 98, "romance": 98, "volcanic": 92, "luxury": 94, "architecture": 84, "wine": 84,
+        "fineDining": 84, "sailing": 82, "swimming": 72, "beaches": 62, "snorkelling": 55, "hiking": 74,
+        "wellness": 80, "stargazing": 72, "historicSites": 68, "valueForMoney": 25, "accessibility": 18,
+        "publicTransport": 38, "familyYoungKids": 42, "backpacker": 32, "clubbing": 48, "ecoFriendly": 28
+      },
+      "photos": ["Oia Santorini blue domes", "Santorini caldera sunset", "Red Beach Santorini", "Fira town Santorini cliffside", "Santorini vineyard assyrtiko", "Akrotiri archaeological site Santorini"]
+    },
+    {
+      "id": "mykonos-gr", "name": "Mykonos", "country": "GR", "region": "Cyclades", "continent": "Europe",
+      "lat": 37.446, "lon": 25.329, "type": "island", "arch": "beach-resort",
+      "blurb": "Whitewashed cubist alleys by day, one of the Mediterranean's most glamorous and expensive party scenes by night.",
+      "tags": ["nightlife", "beach", "lgbtq", "luxury"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 19, 23, 27, 29, 29, 26, 22, 19, 16],
+        "tempLow":  [9, 9, 10, 12, 16, 20, 22, 23, 20, 17, 14, 11],
+        "rainDays": [8, 6, 5, 3, 2, 1, 0, 0, 2, 5, 8, 10],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [73, 72, 71, 69, 66, 60, 58, 60, 65, 71, 74, 75],
+        "seaTemp":  [16, 15, 16, 18, 20, 23, 25, 26, 25, 23, 20, 18]
+      },
+      "crowd":      [5, 6, 12, 32, 60, 88, 100, 100, 82, 45, 12, 6],
+      "priceIndex": [22, 24, 32, 58, 82, 95, 100, 100, 88, 52, 26, 22],
+      "cost": { "budget": 75, "mid": 195, "luxury": 580 },
+      "r": {
+        "clubbing": 96, "bars": 94, "groupParty": 94, "lgbtqScene": 96, "beaches": 86, "swimming": 84,
+        "luxury": 96, "fineDining": 88, "sailing": 84, "waterSports": 78, "shopping": 84, "romance": 78,
+        "scenery": 80, "architecture": 78, "historicSites": 62, "wellness": 78, "valueForMoney": 18,
+        "familyYoungKids": 38, "seniors": 38, "backpacker": 25, "museums": 30, "hiking": 42, "publicTransport": 42
+      },
+      "photos": ["Mykonos windmills", "Little Venice Mykonos waterfront", "Mykonos Chora white alleys", "Psarou beach Mykonos", "Delos archaeological site", "Mykonos beach club party"]
+    },
+    {
+      "id": "crete-gr", "name": "Crete", "country": "GR", "region": "Crete", "continent": "Europe",
+      "lat": 35.240, "lon": 24.809, "type": "island", "arch": "island-volcanic",
+      "blurb": "Greece's biggest island is really a small country: Minoan palaces, a 16km gorge, mountain villages and beaches you can still have to yourself.",
+      "tags": ["beach", "hiking", "history", "food"],
+      "climate": {
+        "tempHigh": [16, 16, 18, 20, 24, 28, 29, 29, 27, 24, 21, 17],
+        "tempLow":  [9, 9, 10, 12, 15, 19, 22, 22, 20, 17, 14, 11],
+        "rainDays": [12, 10, 8, 5, 3, 1, 0, 0, 2, 6, 9, 13],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [72, 71, 70, 68, 66, 62, 60, 63, 66, 70, 73, 73],
+        "seaTemp":  [16, 16, 16, 18, 20, 23, 25, 26, 25, 23, 21, 18]
+      },
+      "crowd":      [12, 14, 22, 42, 62, 80, 92, 98, 78, 52, 25, 15],
+      "priceIndex": [28, 30, 40, 58, 75, 88, 95, 100, 82, 58, 35, 28],
+      "cost": { "budget": 45, "mid": 100, "luxury": 260 },
+      "r": {
+        "beaches": 92, "swimming": 88, "hiking": 88, "mountains": 84, "scenery": 88, "historicSites": 88,
+        "foodScene": 88, "localCulture": 88, "wine": 76, "snorkelling": 68, "scuba": 62, "sailing": 68,
+        "roadTrip": 88, "climbing": 68, "valueForMoney": 90, "familyYoungKids": 82, "backpacker": 68,
+        "romance": 74, "markets": 70, "publicTransport": 42, "clubbing": 58, "wellness": 55, "museums": 62
+      },
+      "photos": ["Balos lagoon Crete", "Samaria Gorge Crete", "Knossos palace Crete frescoes", "Elafonisi pink sand beach Crete", "Chania old Venetian harbour", "Cretan mountain village taverna"]
+    },
+    {
+      "id": "rhodes-gr", "name": "Rhodes", "country": "GR", "region": "Dodecanese", "continent": "Europe",
+      "lat": 36.434, "lon": 28.218, "type": "island", "arch": "beach-resort",
+      "blurb": "A complete medieval walled city you can sleep inside, plus a long sunny season and beaches on both a calm and a windy coast.",
+      "tags": ["history", "beach", "family", "windsurfing"],
+      "climate": {
+        "tempHigh": [15, 16, 17, 20, 25, 29, 31, 31, 28, 24, 20, 17],
+        "tempLow":  [9, 9, 10, 12, 16, 20, 23, 23, 21, 17, 14, 11],
+        "rainDays": [12, 9, 7, 4, 2, 1, 0, 0, 2, 6, 9, 13],
+        "sunHours": [4, 5, 7, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [72, 71, 70, 68, 65, 60, 58, 60, 64, 70, 72, 73],
+        "seaTemp":  [17, 16, 16, 18, 21, 24, 26, 27, 26, 24, 21, 19]
+      },
+      "crowd":      [10, 12, 20, 42, 65, 85, 95, 100, 80, 55, 22, 12],
+      "priceIndex": [25, 28, 38, 58, 78, 90, 98, 100, 85, 58, 30, 25],
+      "cost": { "budget": 45, "mid": 100, "luxury": 270 },
+      "r": {
+        "historicSites": 92, "architecture": 86, "beaches": 86, "swimming": 86, "waterSports": 88,
+        "scuba": 62, "snorkelling": 62, "familyYoungKids": 86, "seniors": 78,
+        "valueForMoney": 86, "foodScene": 76, "bars": 74, "clubbing": 68, "groupParty": 74,
+        "scenery": 72, "hiking": 62, "roadTrip": 72, "museums": 62, "shopping": 62, "publicTransport": 45
+      },
+      "photos": ["Rhodes medieval old town street", "Palace of the Grand Master Rhodes", "Lindos Acropolis Rhodes", "Anthony Quinn Bay Rhodes", "Prasonisi windsurfing Rhodes", "Rhodes harbour deer columns"]
+    },
+    {
+      "id": "corfu-gr", "name": "Corfu", "country": "GR", "region": "Ionian Islands", "continent": "Europe",
+      "lat": 39.624, "lon": 19.922, "type": "island", "arch": "beach-resort",
+      "blurb": "The greenest Greek island, with Venetian and British architecture in the old town and olive groves running down to sheltered bays.",
+      "tags": ["beach", "green", "family", "history"],
+      "climate": {
+        "tempHigh": [14, 15, 17, 20, 24, 28, 31, 31, 27, 23, 19, 15],
+        "tempLow":  [6, 6, 8, 10, 14, 18, 20, 20, 17, 14, 11, 8],
+        "rainDays": [13, 12, 11, 10, 6, 4, 2, 2, 5, 10, 14, 15],
+        "sunHours": [4, 5, 5, 7, 9, 10, 12, 11, 8, 6, 4, 3],
+        "humidity": [76, 75, 73, 72, 70, 66, 62, 64, 70, 76, 78, 78],
+        "seaTemp":  [15, 15, 15, 17, 20, 23, 25, 26, 25, 22, 19, 17]
+      },
+      "crowd":      [10, 12, 20, 42, 62, 82, 95, 98, 78, 50, 20, 12],
+      "priceIndex": [25, 28, 38, 58, 75, 88, 98, 100, 82, 55, 30, 25],
+      "cost": { "budget": 45, "mid": 100, "luxury": 260 },
+      "r": {
+        "beaches": 84, "swimming": 86, "forests": 68, "scenery": 80, "architecture": 82, "historicSites": 76,
+        "sailing": 76, "kayaking": 68, "snorkelling": 62, "familyYoungKids": 86, "seniors": 76,
+        "foodScene": 74, "valueForMoney": 84, "bars": 72, "clubbing": 68, "groupParty": 76,
+        "hiking": 66, "cycling": 58, "romance": 74, "museums": 52, "publicTransport": 42, "roadTrip": 68
+      },
+      "photos": ["Corfu old town Liston arcade", "Paleokastritsa bay Corfu", "Achilleion palace Corfu", "Canal d Amour Sidari Corfu", "Corfu old fortress", "Corfu olive grove countryside"]
+    },
+    {
+      "id": "naxos-gr", "name": "Naxos", "country": "GR", "region": "Cyclades", "continent": "Europe",
+      "lat": 37.104, "lon": 25.377, "type": "island", "arch": "beach-resort",
+      "blurb": "The Cyclades without the price tag: enormous sandy beaches, a mountainous interior of marble villages, and a working island economy.",
+      "tags": ["beach", "value", "hiking", "family"],
+      "climate": {
+        "tempHigh": [15, 15, 16, 19, 23, 27, 28, 29, 26, 22, 19, 16],
+        "tempLow":  [10, 10, 11, 13, 16, 20, 22, 23, 20, 18, 15, 12],
+        "rainDays": [9, 7, 5, 3, 2, 1, 0, 0, 2, 5, 8, 10],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [73, 72, 71, 69, 66, 61, 58, 60, 65, 71, 74, 75],
+        "seaTemp":  [16, 15, 16, 18, 20, 23, 25, 26, 25, 23, 20, 18]
+      },
+      "crowd":      [6, 8, 14, 32, 52, 75, 90, 95, 70, 42, 15, 8],
+      "priceIndex": [22, 24, 32, 52, 70, 85, 95, 100, 78, 48, 26, 22],
+      "cost": { "budget": 45, "mid": 100, "luxury": 250 },
+      "r": {
+        "beaches": 92, "swimming": 90, "waterSports": 84, "hiking": 78, "mountains": 68, "scenery": 78,
+        "historicSites": 72, "localCulture": 82, "foodScene": 80, "valueForMoney": 90, "familyYoungKids": 86,
+        "romance": 76, "backpacker": 68, "snorkelling": 62, "sailing": 72, "roadTrip": 68,
+        "clubbing": 42, "luxury": 55, "shopping": 42, "publicTransport": 40, "museums": 45
+      },
+      "photos": ["Portara Naxos temple gate", "Plaka beach Naxos", "Naxos Chora old town", "Apeiranthos marble village Naxos", "Mount Zas hiking Naxos", "Kouros of Apollonas Naxos"]
+    },
+
+    {
+      "id": "dubrovnik-hr", "name": "Dubrovnik", "country": "HR", "region": "Dalmatia", "continent": "Europe",
+      "lat": 42.650, "lon": 18.094, "type": "city", "arch": "historic-city",
+      "blurb": "A perfectly preserved walled city rising out of the Adriatic. Walk the walls at dawn, before the cruise ships and the heat arrive.",
+      "tags": ["history", "coast", "walls", "scenery"],
+      "climate": {
+        "tempHigh": [12, 13, 15, 18, 23, 27, 30, 30, 26, 21, 17, 13],
+        "tempLow":  [6, 6, 8, 10, 14, 18, 21, 21, 18, 14, 10, 7],
+        "rainDays": [11, 10, 10, 10, 8, 6, 4, 4, 6, 10, 13, 13],
+        "sunHours": [4, 5, 6, 7, 9, 10, 12, 11, 8, 6, 4, 3],
+        "humidity": [66, 65, 66, 68, 68, 66, 62, 63, 67, 70, 70, 68],
+        "seaTemp":  [15, 14, 14, 16, 19, 23, 25, 26, 24, 21, 19, 16]
+      },
+      "crowd":      [12, 14, 25, 48, 68, 85, 95, 98, 80, 52, 22, 15],
+      "priceIndex": [28, 30, 42, 65, 82, 92, 100, 100, 85, 58, 32, 28],
+      "cost": { "budget": 58, "mid": 135, "luxury": 350 },
+      "r": {
+        "historicSites": 94, "architecture": 92, "scenery": 90, "walkability": 84, "swimming": 78,
+        "beaches": 62, "sailing": 84, "kayaking": 82, "scuba": 58, "romance": 86, "foodScene": 74,
+        "wine": 74, "bars": 70, "valueForMoney": 42, "familyYoungKids": 58, "accessibility": 25,
+        "publicTransport": 52, "museums": 58, "hiking": 58, "clubbing": 48, "seniors": 55, "ecoFriendly": 32
+      },
+      "photos": ["Dubrovnik city walls aerial", "Stradun Dubrovnik main street", "Dubrovnik old harbour", "Lokrum island Dubrovnik", "Mount Srd cable car Dubrovnik view", "Dubrovnik Rector's Palace"]
+    },
+    {
+      "id": "split-hr", "name": "Split", "country": "HR", "region": "Dalmatia", "continent": "Europe",
+      "lat": 43.508, "lon": 16.440, "type": "city", "arch": "coastal-city",
+      "blurb": "A living Roman palace with bars and flats built into its walls, and the best ferry connections to the Dalmatian islands.",
+      "tags": ["history", "islands", "nightlife", "sailing"],
+      "climate": {
+        "tempHigh": [11, 12, 15, 18, 23, 27, 30, 30, 26, 21, 16, 12],
+        "tempLow":  [5, 5, 7, 10, 14, 18, 21, 21, 17, 13, 9, 6],
+        "rainDays": [10, 9, 10, 10, 9, 7, 4, 5, 7, 10, 12, 12],
+        "sunHours": [4, 5, 6, 7, 9, 10, 12, 11, 8, 5, 4, 3],
+        "humidity": [68, 67, 67, 68, 68, 65, 61, 63, 67, 70, 72, 70],
+        "seaTemp":  [14, 13, 14, 16, 19, 23, 25, 26, 24, 21, 18, 15]
+      },
+      "crowd":      [15, 18, 28, 48, 65, 82, 92, 95, 75, 50, 25, 18],
+      "priceIndex": [30, 32, 42, 62, 78, 90, 98, 100, 82, 55, 32, 30],
+      "cost": { "budget": 48, "mid": 115, "luxury": 290 },
+      "r": {
+        "historicSites": 90, "architecture": 86, "sailing": 90, "islands": 88, "beaches": 68, "swimming": 82,
+        "bars": 82, "clubbing": 74, "groupParty": 80, "foodScene": 76, "walkability": 82, "scenery": 78,
+        "kayaking": 74, "hiking": 62, "valueForMoney": 70, "backpacker": 78, "soloTravel": 76,
+        "familyYoungKids": 66, "publicTransport": 55, "museums": 55, "romance": 72, "roadTrip": 74
+      },
+      "photos": ["Diocletian's Palace Split", "Split Riva waterfront promenade", "Marjan hill view over Split", "Bacvice beach Split", "Split peristyle square", "Krka waterfalls near Split"]
+    },
+    {
+      "id": "hvar-hr", "name": "Hvar", "country": "HR", "region": "Dalmatia", "continent": "Europe",
+      "lat": 43.172, "lon": 16.442, "type": "island", "arch": "beach-resort",
+      "blurb": "Lavender fields and hidden pebble coves by day, superyachts and famously messy bars by night — Croatia's most glamorous island.",
+      "tags": ["nightlife", "sailing", "beach", "lavender"],
+      "climate": {
+        "tempHigh": [12, 12, 15, 18, 22, 26, 30, 30, 26, 21, 17, 13],
+        "tempLow":  [6, 6, 8, 10, 14, 18, 21, 21, 18, 14, 10, 7],
+        "rainDays": [9, 8, 9, 9, 7, 5, 3, 3, 6, 9, 11, 11],
+        "sunHours": [4, 5, 6, 7, 10, 11, 12, 11, 8, 6, 4, 3],
+        "humidity": [70, 69, 68, 69, 68, 65, 60, 62, 67, 71, 73, 72],
+        "seaTemp":  [14, 13, 14, 16, 19, 23, 25, 26, 24, 21, 18, 15]
+      },
+      "crowd":      [6, 8, 15, 35, 58, 82, 95, 98, 72, 42, 15, 8],
+      "priceIndex": [22, 24, 35, 58, 78, 92, 100, 100, 80, 50, 26, 22],
+      "cost": { "budget": 55, "mid": 130, "luxury": 340 },
+      "r": {
+        "clubbing": 88, "bars": 90, "groupParty": 88, "sailing": 92, "beaches": 76, "swimming": 86,
+        "snorkelling": 68, "kayaking": 76, "scenery": 84, "wine": 82, "luxury": 84, "romance": 82,
+        "historicSites": 68, "hiking": 66, "cycling": 62, "foodScene": 76, "valueForMoney": 48,
+        "familyYoungKids": 52, "seniors": 45, "publicTransport": 32, "museums": 38, "backpacker": 55
+      },
+      "photos": ["Hvar town harbour from fortress", "Pakleni Islands Hvar", "Hvar lavender field", "Stari Grad Plain Hvar", "Hvar Spanish Fortress view", "Hvar beach club"]
+    },
+    {
+      "id": "istria-hr", "name": "Istria", "country": "HR", "region": "Istria", "continent": "Europe",
+      "lat": 45.081, "lon": 13.639, "type": "region", "arch": "wine-country",
+      "blurb": "Croatia's Tuscany: hilltop towns, truffles, olive oil and Venetian harbours, with none of the Dalmatian crush.",
+      "tags": ["food", "wine", "truffles", "coast"],
+      "climate": {
+        "tempHigh": [9, 10, 13, 17, 22, 26, 29, 29, 24, 19, 14, 10],
+        "tempLow":  [2, 3, 5, 8, 13, 17, 19, 19, 16, 11, 7, 3],
+        "rainDays": [7, 7, 8, 9, 9, 8, 6, 7, 7, 9, 11, 9],
+        "sunHours": [3, 4, 5, 6, 8, 9, 10, 9, 7, 5, 3, 3],
+        "humidity": [74, 72, 71, 72, 72, 70, 68, 70, 73, 76, 77, 76],
+        "seaTemp":  [11, 10, 11, 14, 18, 22, 24, 25, 22, 19, 16, 13]
+      },
+      "crowd":      [12, 15, 25, 45, 62, 80, 92, 95, 72, 48, 22, 18],
+      "priceIndex": [28, 30, 42, 58, 75, 88, 98, 100, 80, 52, 30, 28],
+      "cost": { "budget": 48, "mid": 112, "luxury": 285 },
+      "r": {
+        "foodScene": 90, "wine": 88, "fineDining": 82, "markets": 72, "architecture": 82, "historicSites": 80,
+        "scenery": 80, "cycling": 84, "roadTrip": 84, "beaches": 62, "swimming": 76, "sailing": 74,
+        "romance": 84, "valueForMoney": 76, "hiking": 66, "localCulture": 78, "familyYoungKids": 70,
+        "seniors": 74, "clubbing": 42, "publicTransport": 38, "museums": 52, "wellness": 68
+      },
+      "photos": ["Rovinj old town waterfront Istria", "Motovun hilltop town Istria", "Istrian truffle hunting", "Pula Roman amphitheatre", "Istria vineyard landscape", "Cape Kamenjak coast Istria"]
+    },
+    {
+      "id": "kotor-me", "name": "Kotor & the Bay", "country": "ME", "region": "Bay of Kotor", "continent": "Europe",
+      "lat": 42.424, "lon": 18.771, "type": "coast", "arch": "historic-city",
+      "blurb": "A fjord-like bay ringed by mountains, with a walled medieval town and a fortress staircase that earns you the view.",
+      "tags": ["scenery", "history", "hiking", "value"],
+      "climate": {
+        "tempHigh": [10, 11, 14, 17, 22, 26, 29, 29, 25, 20, 15, 11],
+        "tempLow":  [3, 4, 6, 9, 13, 17, 20, 20, 16, 12, 8, 5],
+        "rainDays": [13, 12, 12, 12, 10, 8, 5, 5, 8, 12, 14, 14],
+        "sunHours": [3, 4, 5, 6, 8, 10, 11, 10, 7, 5, 3, 3],
+        "humidity": [70, 69, 69, 70, 70, 67, 63, 65, 69, 72, 73, 72],
+        "seaTemp":  [14, 13, 14, 16, 19, 23, 25, 26, 24, 21, 18, 15]
+      },
+      "crowd":      [10, 12, 22, 42, 62, 82, 95, 98, 75, 48, 20, 12],
+      "priceIndex": [26, 28, 40, 58, 75, 88, 98, 100, 80, 52, 30, 26],
+      "cost": { "budget": 42, "mid": 98, "luxury": 250 },
+      "r": {
+        "scenery": 92, "historicSites": 82, "architecture": 80, "mountains": 84, "hiking": 82,
+        "kayaking": 78, "sailing": 78, "swimming": 74, "beaches": 58, "walkability": 78,
+        "valueForMoney": 86, "romance": 80, "backpacker": 72, "roadTrip": 82, "nationalParks": 72,
+        "foodScene": 68, "clubbing": 45, "publicTransport": 35, "familyYoungKids": 58, "accessibility": 22
+      },
+      "photos": ["Bay of Kotor aerial view", "Kotor fortress staircase view", "Perast and Our Lady of the Rocks", "Kotor old town square", "Lovcen National Park Montenegro", "Sveti Stefan Montenegro"]
+    },
+    {
+      "id": "albanian-riviera-al", "name": "Albanian Riviera", "country": "AL", "region": "Vlorë", "continent": "Europe",
+      "lat": 39.874, "lon": 20.007, "type": "coast", "arch": "beach-resort",
+      "blurb": "The Ionian coast Greece and Italy already sold: turquoise coves, Ottoman-era Gjirokastër inland, and Europe's last genuinely cheap beach.",
+      "tags": ["beach", "value", "emerging", "history"],
+      "climate": {
+        "tempHigh": [13, 14, 16, 19, 24, 28, 31, 31, 27, 23, 18, 14],
+        "tempLow":  [6, 6, 8, 10, 14, 18, 20, 21, 18, 14, 11, 8],
+        "rainDays": [12, 11, 11, 10, 7, 4, 2, 2, 5, 10, 14, 14],
+        "sunHours": [4, 5, 5, 7, 9, 11, 12, 11, 8, 6, 4, 3],
+        "humidity": [72, 71, 70, 70, 68, 64, 61, 63, 68, 73, 75, 74],
+        "seaTemp":  [15, 14, 15, 17, 20, 23, 26, 27, 25, 22, 19, 16]
+      },
+      "crowd":      [8, 10, 18, 32, 52, 75, 92, 98, 70, 42, 15, 10],
+      "priceIndex": [22, 24, 32, 48, 68, 85, 95, 100, 75, 45, 26, 22],
+      "cost": { "budget": 32, "mid": 72, "luxury": 180 },
+      "r": {
+        "beaches": 88, "swimming": 86, "scenery": 84, "valueForMoney": 96, "historicSites": 78,
+        "snorkelling": 66, "kayaking": 68, "hiking": 74, "mountains": 76, "localCulture": 80,
+        "foodScene": 72, "backpacker": 82, "romance": 68, "roadTrip": 76, "bars": 62, "clubbing": 55,
+        "publicTransport": 30, "accessibility": 20, "familyYoungKids": 58, "luxury": 42, "cleanliness": 45
+      },
+      "photos": ["Ksamil beach Albania", "Gjipe beach Albanian Riviera", "Butrint archaeological site Albania", "Gjirokaster Ottoman old town", "Llogara Pass Albania", "Berat white houses Albania"]
+    },
+    {
+      "id": "lake-bled-si", "name": "Lake Bled & the Julian Alps", "country": "SI", "region": "Upper Carniola", "continent": "Europe",
+      "lat": 46.363, "lon": 14.094, "type": "lake", "arch": "mountain-town",
+      "blurb": "A church on an island in an emerald lake below a cliff-top castle, with Triglav National Park and the Soča valley behind it.",
+      "tags": ["lake", "hiking", "scenery", "family"],
+      "climate": {
+        "tempHigh": [3, 6, 11, 15, 21, 24, 26, 26, 21, 15, 8, 4],
+        "tempLow":  [-4, -3, 0, 4, 9, 12, 14, 14, 10, 6, 1, -2],
+        "rainDays": [9, 8, 10, 12, 13, 14, 12, 11, 10, 11, 12, 10],
+        "sunHours": [2, 3, 4, 5, 6, 7, 8, 7, 6, 4, 2, 2],
+        "humidity": [80, 76, 72, 73, 74, 75, 74, 76, 79, 81, 82, 82],
+        "snowDepth": [25, 20, 8, 1, 0, 0, 0, 0, 0, 0, 5, 18]
+      },
+      "crowd":      [22, 25, 32, 48, 62, 78, 90, 92, 72, 48, 28, 32],
+      "priceIndex": [38, 40, 48, 62, 72, 85, 95, 98, 78, 55, 40, 45],
+      "cost": { "budget": 48, "mid": 105, "luxury": 250 },
+      "r": {
+        "lakesRivers": 96, "scenery": 94, "mountains": 90, "hiking": 92, "nationalParks": 88,
+        "kayaking": 82, "cycling": 82, "climbing": 82, "adrenaline": 84, "swimming": 62, "skiing": 68,
+        "forests": 84, "romance": 86, "familyYoungKids": 78, "wellness": 74, "cleanliness": 90,
+        "safety": 90, "valueForMoney": 74, "roadTrip": 84, "foodScene": 68, "clubbing": 20, "publicTransport": 48
+      },
+      "photos": ["Lake Bled island church", "Bled Castle above lake", "Vintgar Gorge Slovenia", "Lake Bohinj Slovenia", "Soca river emerald water", "Triglav National Park peaks"]
+    },
+    {
+      "id": "malta-mt", "name": "Malta", "country": "MT", "region": "Malta", "continent": "Europe",
+      "lat": 35.899, "lon": 14.514, "type": "island", "arch": "island-volcanic",
+      "blurb": "7,000 years of history on a limestone rock — megalithic temples, a Baroque capital and world-class diving, all in English.",
+      "tags": ["history", "diving", "english", "sun"],
+      "climate": {
+        "tempHigh": [16, 16, 18, 21, 25, 29, 32, 32, 29, 26, 21, 18],
+        "tempLow":  [10, 10, 11, 13, 16, 20, 23, 24, 22, 19, 15, 12],
+        "rainDays": [10, 7, 5, 3, 1, 0, 0, 1, 3, 7, 9, 11],
+        "sunHours": [5, 6, 7, 8, 10, 11, 12, 11, 8, 6, 5, 5],
+        "humidity": [76, 76, 75, 73, 71, 68, 66, 70, 73, 76, 76, 77],
+        "seaTemp":  [16, 15, 15, 17, 19, 23, 26, 27, 26, 24, 21, 18]
+      },
+      "crowd":      [25, 28, 38, 52, 68, 82, 92, 98, 78, 55, 32, 30],
+      "priceIndex": [38, 40, 50, 65, 80, 90, 98, 100, 82, 58, 42, 42],
+      "cost": { "budget": 45, "mid": 100, "luxury": 250 },
+      "r": {
+        "historicSites": 94, "architecture": 88, "religiousSites": 82, "scuba": 90, "snorkelling": 82,
+        "swimming": 82, "beaches": 62, "sailing": 78, "kayaking": 70, "museums": 68, "walkability": 76,
+        "englishSpoken": 96, "valueForMoney": 72, "bars": 74, "clubbing": 76, "groupParty": 80,
+        "familyYoungKids": 74, "seniors": 74, "scenery": 72, "hiking": 58, "publicTransport": 62,
+        "cleanliness": 58, "foodScene": 70
+      },
+      "photos": ["Valletta Grand Harbour Malta", "Blue Lagoon Comino Malta", "Mdina silent city Malta", "St John's Co-Cathedral Valletta interior", "Ggantija temples Gozo", "Blue Grotto Malta"]
+    },
+    {
+      "id": "cyprus-cy", "name": "Cyprus", "country": "CY", "region": "Cyprus", "continent": "Europe",
+      "lat": 34.916, "lon": 33.000, "type": "island", "arch": "beach-resort",
+      "blurb": "The Med's warmest, longest season — swim into November — with Byzantine mountain churches and Roman mosaics inland.",
+      "tags": ["beach", "sun", "history", "family"],
+      "climate": {
+        "tempHigh": [17, 17, 19, 22, 26, 30, 32, 33, 30, 27, 22, 18],
+        "tempLow":  [8, 8, 9, 11, 15, 19, 22, 22, 20, 16, 13, 10],
+        "rainDays": [9, 7, 5, 2, 1, 0, 0, 0, 1, 4, 6, 9],
+        "sunHours": [5, 6, 7, 9, 11, 12, 13, 12, 10, 8, 6, 5],
+        "humidity": [70, 69, 68, 66, 65, 62, 60, 63, 64, 66, 68, 70],
+        "seaTemp":  [18, 17, 17, 19, 22, 25, 27, 28, 27, 25, 22, 20],
+        "snowDepth": [25, 35, 30, 8, 0, 0, 0, 0, 0, 0, 2, 12]
+      },
+      "crowd":      [22, 25, 35, 55, 68, 80, 92, 95, 78, 58, 32, 28],
+      "priceIndex": [35, 38, 48, 65, 78, 88, 96, 100, 82, 58, 40, 38],
+      "cost": { "budget": 42, "mid": 95, "luxury": 240 },
+      "r": {
+        "beaches": 88, "swimming": 90, "historicSites": 84, "scuba": 74, "waterSports": 78, "sailing": 68,
+        "hiking": 72, "mountains": 70, "skiing": 42, "wine": 72, "englishSpoken": 92, "valueForMoney": 74,
+        "familyYoungKids": 88, "seniors": 84, "bars": 76, "clubbing": 78, "groupParty": 82,
+        "foodScene": 76, "religiousSites": 78, "roadTrip": 76, "golf": 68, "publicTransport": 35
+      },
+      "photos": ["Aphrodite's Rock Cyprus", "Paphos Roman mosaics", "Troodos mountains painted church Cyprus", "Blue Lagoon Akamas Cyprus", "Kyrenia harbour Cyprus", "Nissi Beach Ayia Napa"]
+    },
+
+    {
+      "id": "istanbul-tr", "name": "Istanbul", "country": "TR", "region": "Marmara", "continent": "Europe",
+      "lat": 41.008, "lon": 28.978, "type": "city", "arch": "capital-city",
+      "blurb": "The only city on two continents: Byzantine and Ottoman monuments, a vast bazaar, and ferries criss-crossing the Bosphorus at dusk.",
+      "tags": ["history", "food", "bazaar", "mosques"],
+      "climate": {
+        "tempHigh": [9, 9, 12, 17, 21, 26, 29, 29, 25, 20, 15, 11],
+        "tempLow":  [3, 3, 5, 8, 13, 17, 20, 20, 17, 13, 9, 5],
+        "rainDays": [12, 11, 10, 8, 6, 5, 3, 4, 6, 9, 10, 13],
+        "sunHours": [3, 3, 4, 6, 8, 10, 11, 10, 7, 5, 3, 2],
+        "humidity": [78, 76, 73, 71, 70, 67, 66, 68, 71, 75, 77, 79],
+        "seaTemp":  [9, 8, 9, 12, 17, 21, 24, 25, 23, 19, 15, 12]
+      },
+      "crowd":      [35, 38, 50, 68, 78, 82, 80, 78, 82, 68, 45, 45],
+      "priceIndex": [42, 45, 58, 75, 85, 88, 85, 82, 88, 72, 50, 52],
+      "cost": { "budget": 32, "mid": 75, "luxury": 200 },
+      "r": {
+        "historicSites": 98, "religiousSites": 96, "architecture": 94, "museums": 84, "markets": 98,
+        "foodScene": 94, "streetFood": 94, "localCulture": 92, "shopping": 90, "wellness": 88,
+        "bars": 74, "clubbing": 72, "liveMusic": 76, "walkability": 68, "publicTransport": 76,
+        "valueForMoney": 92, "backpacker": 82, "soloTravel": 72, "safety": 62, "cleanliness": 48,
+        "beaches": 22, "swimming": 32, "familyYoungKids": 52, "accessibility": 28, "coffee": 88
+      },
+      "photos": ["Hagia Sophia Istanbul interior", "Blue Mosque Istanbul at dusk", "Grand Bazaar Istanbul", "Bosphorus ferry Istanbul", "Basilica Cistern Istanbul", "Turkish meze spread Istanbul"]
+    },
+    {
+      "id": "cappadocia-tr", "name": "Cappadocia", "country": "TR", "region": "Central Anatolia", "continent": "Asia",
+      "lat": 38.643, "lon": 34.828, "type": "region", "arch": "desert",
+      "blurb": "Volcanic 'fairy chimneys', rock-cut churches and underground cities — and a dawn sky filled with a hundred balloons.",
+      "tags": ["scenery", "balloons", "history", "unique"],
+      "climate": {
+        "tempHigh": [4, 6, 12, 17, 22, 26, 30, 30, 26, 20, 12, 6],
+        "tempLow":  [-4, -3, 0, 5, 9, 13, 16, 16, 12, 7, 2, -2],
+        "rainDays": [10, 9, 10, 10, 10, 7, 3, 3, 4, 7, 8, 11],
+        "sunHours": [3, 4, 5, 7, 9, 11, 12, 11, 9, 6, 4, 3],
+        "humidity": [76, 72, 64, 58, 56, 50, 44, 45, 50, 60, 70, 77],
+        "snowDepth": [20, 15, 5, 0, 0, 0, 0, 0, 0, 0, 3, 12]
+      },
+      "crowd":      [28, 30, 45, 62, 72, 78, 82, 85, 80, 68, 38, 32],
+      "priceIndex": [38, 40, 55, 72, 80, 85, 88, 90, 88, 75, 45, 42],
+      "cost": { "budget": 30, "mid": 70, "luxury": 190 },
+      "r": {
+        "scenery": 96, "historicSites": 90, "religiousSites": 82, "adrenaline": 92, "hiking": 84,
+        "stargazing": 86, "localCulture": 82, "romance": 90, "roadTrip": 74, 
+        "cycling": 68, "wellness": 68, "valueForMoney": 92, "markets": 68,
+        "familyTeens": 78, "familyYoungKids": 55, "beaches": 0, "swimming": 12, "publicTransport": 32,
+        "clubbing": 22, "foodScene": 74, "backpacker": 80
+      },
+      "photos": ["Cappadocia hot air balloons sunrise", "Fairy chimneys Goreme Cappadocia", "Goreme Open Air Museum rock church", "Derinkuyu underground city", "Cave hotel room Cappadocia", "Uchisar castle Cappadocia"]
+    },
+    {
+      "id": "antalya-tr", "name": "Antalya & the Turquoise Coast", "country": "TR", "region": "Mediterranean", "continent": "Asia",
+      "lat": 36.897, "lon": 30.713, "type": "coast", "arch": "beach-resort",
+      "blurb": "Roman ruins right on the beach, pine-covered mountains behind, and all-inclusive resorts at prices Western Europe cannot touch.",
+      "tags": ["beach", "value", "ruins", "family"],
+      "climate": {
+        "tempHigh": [15, 16, 18, 21, 26, 31, 34, 34, 31, 26, 21, 17],
+        "tempLow":  [6, 6, 8, 11, 15, 20, 23, 23, 20, 15, 11, 8],
+        "rainDays": [11, 9, 7, 6, 4, 2, 1, 1, 2, 6, 7, 11],
+        "sunHours": [5, 6, 7, 8, 10, 12, 12, 12, 10, 7, 6, 5],
+        "humidity": [70, 69, 68, 68, 68, 65, 64, 66, 66, 68, 69, 70],
+        "seaTemp":  [17, 17, 17, 19, 22, 25, 28, 28, 27, 25, 22, 19]
+      },
+      "crowd":      [22, 25, 35, 55, 72, 88, 95, 98, 82, 58, 32, 28],
+      "priceIndex": [32, 35, 45, 62, 80, 92, 98, 100, 85, 58, 38, 35],
+      "cost": { "budget": 32, "mid": 75, "luxury": 210 },
+      "r": {
+        "beaches": 86, "swimming": 88, "historicSites": 90, "scenery": 82, "mountains": 78, "hiking": 80,
+        "waterSports": 82, "sailing": 82, "scuba": 68, "adrenaline": 78, "valueForMoney": 94,
+        "familyYoungKids": 90, "themeParks": 76, "wellness": 84, "golf": 82, "markets": 78,
+        "foodScene": 80, "bars": 72, "clubbing": 74, "groupParty": 78, "roadTrip": 80, "publicTransport": 45
+      },
+      "photos": ["Kaleici old town Antalya harbour", "Duden waterfalls Antalya", "Aspendos Roman theatre", "Oludeniz blue lagoon Turkey", "Lycian Way coastal trail", "Patara beach Turkey"]
+    },
+    {
+      "id": "bodrum-tr", "name": "Bodrum", "country": "TR", "region": "Aegean", "continent": "Asia",
+      "lat": 37.035, "lon": 27.430, "type": "coast", "arch": "beach-resort",
+      "blurb": "Turkey's smartest resort town — a Crusader castle, whitewashed streets, gulet cruises and a nightlife scene that runs till dawn.",
+      "tags": ["beach", "sailing", "nightlife", "luxury"],
+      "climate": {
+        "tempHigh": [15, 15, 17, 21, 25, 30, 33, 33, 29, 25, 20, 16],
+        "tempLow":  [7, 7, 8, 11, 15, 19, 22, 22, 19, 15, 11, 9],
+        "rainDays": [12, 10, 8, 5, 3, 1, 0, 0, 2, 6, 9, 13],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [70, 69, 68, 66, 64, 60, 58, 60, 62, 66, 69, 71],
+        "seaTemp":  [17, 16, 16, 18, 21, 24, 26, 27, 26, 24, 21, 18]
+      },
+      "crowd":      [8, 10, 18, 38, 62, 85, 95, 98, 78, 48, 18, 10],
+      "priceIndex": [22, 25, 35, 58, 78, 90, 98, 100, 82, 52, 28, 24],
+      "cost": { "budget": 35, "mid": 85, "luxury": 240 },
+      "r": {
+        "beaches": 82, "swimming": 88, "sailing": 92, "clubbing": 86, "bars": 86, "groupParty": 86,
+        "luxury": 84, "fineDining": 78, "waterSports": 82, "scuba": 68, "historicSites": 74,
+        "scenery": 76, "shopping": 74, "wellness": 80, "valueForMoney": 78, "romance": 78,
+        "familyYoungKids": 68, "hiking": 55, "museums": 55, "publicTransport": 42, "backpacker": 58
+      },
+      "photos": ["Bodrum Castle harbour", "Bodrum marina gulet boats", "Bodrum white houses bougainvillea", "Bitez beach Bodrum", "Mausoleum at Halicarnassus site", "Bodrum sunset beach club"]
+    }
+  ]
+}

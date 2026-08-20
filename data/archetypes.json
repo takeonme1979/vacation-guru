@@ -1,0 +1,329 @@
+{
+  "_doc": "Place-SHAPE baselines. What a destination is like by virtue of its form, before country context or its own character. Merge order is archetype -> country -> destination overrides, so every number here is a starting point that individual destinations are expected to move.",
+  "schemaVersion": 1,
+
+  "archetypes": {
+    "capital-city": {
+      "label": "Major capital city",
+      "r": {
+        "beaches": 5, "mountains": 8, "lakesRivers": 40, "forests": 20, "desert": 0, "islands": 0,
+        "volcanic": 0, "wildlife": 15, "scenery": 45, "nationalParks": 15, "northernLights": 0, "stargazing": 8,
+        "scuba": 0, "snorkelling": 0, "surfing": 0, "sailing": 15, "kayaking": 20, "swimming": 25,
+        "waterSports": 10, "fishing": 15,
+        "hiking": 25, "skiing": 5, "cycling": 60, "climbing": 25, "golf": 50, "adrenaline": 25,
+        "wellness": 55, "roadTrip": 30,
+        "museums": 88, "historicSites": 78, "architecture": 82, "religiousSites": 65, "theatre": 82,
+        "liveMusic": 78, "festivals": 75, "localCulture": 60, "artScene": 80, "markets": 70,
+        "fineDining": 82,
+        "bars": 82, "clubbing": 78, "casinos": 40, "shopping": 85, "themeParks": 30, "sports": 75,
+        "publicTransport": 85, "walkability": 78,
+        "familyYoungKids": 55, "familyTeens": 72, "romance": 62, "soloTravel": 80, "groupParty": 72,
+        "backpacker": 65, "luxury": 80, "seniors": 62, "digitalNomad": 72
+      }
+    },
+
+    "historic-city": {
+      "label": "Small heritage city or old town",
+      "r": {
+        "beaches": 3, "mountains": 20, "lakesRivers": 40, "forests": 30, "desert": 0, "islands": 0,
+        "volcanic": 0, "wildlife": 15, "scenery": 55, "nationalParks": 20, "northernLights": 0, "stargazing": 20,
+        "scuba": 0, "snorkelling": 0, "surfing": 0, "sailing": 10, "kayaking": 25, "swimming": 20,
+        "waterSports": 8, "fishing": 20,
+        "hiking": 35, "skiing": 5, "cycling": 58, "climbing": 20, "golf": 35, "adrenaline": 18,
+        "wellness": 48, "roadTrip": 55,
+        "museums": 68, "historicSites": 90, "architecture": 88, "religiousSites": 78, "theatre": 52,
+        "liveMusic": 50, "festivals": 60, "localCulture": 72, "artScene": 55, "markets": 62,
+        "fineDining": 60,
+        "bars": 58, "clubbing": 40, "casinos": 20, "shopping": 52, "themeParks": 12, "sports": 35,
+        "publicTransport": 55, "walkability": 88,
+        "familyYoungKids": 50, "familyTeens": 52, "romance": 82, "soloTravel": 65, "groupParty": 42,
+        "backpacker": 55, "luxury": 60, "seniors": 78, "digitalNomad": 52
+      }
+    },
+
+    "coastal-city": {
+      "label": "City on the sea",
+      "r": {
+        "beaches": 68, "mountains": 25, "lakesRivers": 25, "forests": 22, "desert": 0, "islands": 30,
+        "volcanic": 0, "wildlife": 22, "scenery": 62, "nationalParks": 22, "northernLights": 0, "stargazing": 12,
+        "scuba": 40, "snorkelling": 42, "surfing": 40, "sailing": 68, "kayaking": 52, "swimming": 68,
+        "waterSports": 60, "fishing": 50,
+        "hiking": 40, "skiing": 3, "cycling": 55, "climbing": 30, "golf": 55, "adrenaline": 35,
+        "wellness": 55, "roadTrip": 55,
+        "museums": 62, "historicSites": 68, "architecture": 70, "religiousSites": 52, "theatre": 55,
+        "liveMusic": 62, "festivals": 65, "localCulture": 62, "artScene": 58, "markets": 65,
+        "fineDining": 68,
+        "bars": 75, "clubbing": 68, "casinos": 35, "shopping": 65, "themeParks": 28, "sports": 55,
+        "publicTransport": 62, "walkability": 72,
+        "familyYoungKids": 70, "familyTeens": 72, "romance": 72, "soloTravel": 68, "groupParty": 68,
+        "backpacker": 60, "luxury": 68, "seniors": 65, "digitalNomad": 65
+      }
+    },
+
+    "beach-resort": {
+      "label": "Sun, sea and sand resort",
+      "r": {
+        "beaches": 88, "mountains": 15, "lakesRivers": 10, "forests": 15, "desert": 0, "islands": 25,
+        "volcanic": 0, "wildlife": 20, "scenery": 62, "nationalParks": 15, "northernLights": 0, "stargazing": 25,
+        "scuba": 55, "snorkelling": 58, "surfing": 42, "sailing": 60, "kayaking": 58, "swimming": 85,
+        "waterSports": 78, "fishing": 48,
+        "hiking": 28, "skiing": 0, "cycling": 40, "climbing": 12, "golf": 62, "adrenaline": 40,
+        "wellness": 70, "roadTrip": 40,
+        "museums": 25, "historicSites": 30, "architecture": 30, "religiousSites": 25, "theatre": 22,
+        "liveMusic": 45, "festivals": 40, "localCulture": 35, "artScene": 25, "markets": 45,
+        "fineDining": 55,
+        "bars": 72, "clubbing": 62, "casinos": 35, "shopping": 48, "themeParks": 45, "sports": 25,
+        "publicTransport": 35, "walkability": 55,
+        "familyYoungKids": 85, "familyTeens": 72, "romance": 72, "soloTravel": 45, "groupParty": 70,
+        "backpacker": 45, "luxury": 72, "seniors": 72, "digitalNomad": 45
+      }
+    },
+
+    "tropical-island": {
+      "label": "Tropical island paradise",
+      "r": {
+        "beaches": 95, "mountains": 25, "lakesRivers": 15, "forests": 55, "desert": 0, "islands": 98,
+        "volcanic": 25, "wildlife": 48, "scenery": 88, "nationalParks": 35, "northernLights": 0, "stargazing": 75,
+        "scuba": 85, "snorkelling": 90, "surfing": 55, "sailing": 78, "kayaking": 72, "swimming": 92,
+        "waterSports": 78, "fishing": 70,
+        "hiking": 40, "skiing": 0, "cycling": 35, "climbing": 15, "golf": 40, "adrenaline": 40,
+        "wellness": 78, "roadTrip": 25,
+        "museums": 15, "historicSites": 22, "architecture": 22, "religiousSites": 30, "theatre": 12,
+        "liveMusic": 40, "festivals": 38, "localCulture": 55, "artScene": 25, "markets": 42,
+        "fineDining": 58,
+        "bars": 55, "clubbing": 38, "casinos": 12, "shopping": 28, "themeParks": 10, "sports": 12,
+        "publicTransport": 22, "walkability": 45,
+        "familyYoungKids": 72, "familyTeens": 62, "romance": 92, "soloTravel": 42, "groupParty": 45,
+        "backpacker": 45, "luxury": 82, "seniors": 62, "digitalNomad": 48
+      }
+    },
+
+    "island-volcanic": {
+      "label": "Rugged volcanic island",
+      "r": {
+        "beaches": 70, "mountains": 72, "lakesRivers": 30, "forests": 58, "desert": 15, "islands": 95,
+        "volcanic": 88, "wildlife": 50, "scenery": 90, "nationalParks": 70, "northernLights": 0, "stargazing": 78,
+        "scuba": 65, "snorkelling": 62, "surfing": 62, "sailing": 58, "kayaking": 60, "swimming": 70,
+        "waterSports": 62, "fishing": 60,
+        "hiking": 85, "skiing": 5, "cycling": 58, "climbing": 55, "golf": 40, "adrenaline": 65,
+        "wellness": 62, "roadTrip": 82,
+        "museums": 25, "historicSites": 35, "architecture": 32, "religiousSites": 30, "theatre": 18,
+        "liveMusic": 38, "festivals": 42, "localCulture": 58, "artScene": 30, "markets": 45,
+        "fineDining": 50,
+        "bars": 52, "clubbing": 35, "casinos": 12, "shopping": 30, "themeParks": 15, "sports": 15,
+        "publicTransport": 30, "walkability": 42,
+        "familyYoungKids": 60, "familyTeens": 68, "romance": 78, "soloTravel": 55, "groupParty": 40,
+        "backpacker": 55, "luxury": 62, "seniors": 55, "digitalNomad": 52
+      }
+    },
+
+    "ski-resort": {
+      "label": "Alpine ski resort",
+      "r": {
+        "beaches": 0, "mountains": 95, "lakesRivers": 40, "forests": 65, "desert": 0, "islands": 0,
+        "volcanic": 0, "wildlife": 32, "scenery": 90, "nationalParks": 55, "northernLights": 5, "stargazing": 72,
+        "scuba": 0, "snorkelling": 0, "surfing": 0, "sailing": 8, "kayaking": 30, "swimming": 20,
+        "waterSports": 15, "fishing": 35,
+        "hiking": 82, "skiing": 95, "cycling": 70, "climbing": 75, "golf": 35, "adrenaline": 75,
+        "wellness": 78, "roadTrip": 60,
+        "museums": 18, "historicSites": 25, "architecture": 42, "religiousSites": 25, "theatre": 15,
+        "liveMusic": 38, "festivals": 35, "localCulture": 52, "artScene": 22, "markets": 32,
+        "fineDining": 62,
+        "bars": 68, "clubbing": 52, "casinos": 20, "shopping": 42, "themeParks": 10, "sports": 45,
+        "publicTransport": 45, "walkability": 62,
+        "familyYoungKids": 68, "familyTeens": 78, "romance": 75, "soloTravel": 45, "groupParty": 68,
+        "backpacker": 30, "luxury": 78, "seniors": 50, "digitalNomad": 42
+      }
+    },
+
+    "mountain-town": {
+      "label": "Year-round mountain base",
+      "r": {
+        "beaches": 0, "mountains": 92, "lakesRivers": 62, "forests": 75, "desert": 0, "islands": 0,
+        "volcanic": 10, "wildlife": 48, "scenery": 90, "nationalParks": 75, "northernLights": 0, "stargazing": 75,
+        "scuba": 0, "snorkelling": 0, "surfing": 0, "sailing": 15, "kayaking": 55, "swimming": 30,
+        "waterSports": 25, "fishing": 55,
+        "hiking": 92, "skiing": 55, "cycling": 78, "climbing": 80, "golf": 30, "adrenaline": 78,
+        "wellness": 62, "roadTrip": 78,
+        "museums": 25, "historicSites": 35, "architecture": 40, "religiousSites": 30, "theatre": 20,
+        "liveMusic": 40, "festivals": 40, "localCulture": 60, "artScene": 32, "markets": 40,
+        "fineDining": 48,
+        "bars": 55, "clubbing": 30, "casinos": 8, "shopping": 32, "themeParks": 8, "sports": 30,
+        "publicTransport": 38, "walkability": 62,
+        "familyYoungKids": 58, "familyTeens": 72, "romance": 72, "soloTravel": 62, "groupParty": 42,
+        "backpacker": 62, "luxury": 55, "seniors": 48, "digitalNomad": 55
+      }
+    },
+
+    "safari": {
+      "label": "Wildlife and safari country",
+      "r": {
+        "beaches": 5, "mountains": 40, "lakesRivers": 50, "forests": 45, "desert": 30, "islands": 0,
+        "volcanic": 20, "wildlife": 97, "scenery": 88, "nationalParks": 95, "northernLights": 0, "stargazing": 92,
+        "scuba": 0, "snorkelling": 0, "surfing": 0, "sailing": 10, "kayaking": 30, "swimming": 15,
+        "waterSports": 8, "fishing": 35,
+        "hiking": 55, "skiing": 0, "cycling": 25, "climbing": 25, "golf": 20, "adrenaline": 45,
+        "wellness": 45, "roadTrip": 65,
+        "museums": 15, "historicSites": 25, "architecture": 15, "religiousSites": 15, "theatre": 8,
+        "liveMusic": 25, "festivals": 25, "localCulture": 72, "artScene": 20, "markets": 42,
+        "fineDining": 45,
+        "bars": 25, "clubbing": 8, "casinos": 5, "shopping": 18, "themeParks": 3, "sports": 8,
+        "publicTransport": 12, "walkability": 15,
+        "familyYoungKids": 45, "familyTeens": 78, "romance": 80, "soloTravel": 40, "groupParty": 15,
+        "backpacker": 35, "luxury": 82, "seniors": 55, "digitalNomad": 20
+      }
+    },
+
+    "wilderness-park": {
+      "label": "National park / wilderness",
+      "r": {
+        "beaches": 10, "mountains": 78, "lakesRivers": 72, "forests": 82, "desert": 20, "islands": 5,
+        "volcanic": 25, "wildlife": 78, "scenery": 93, "nationalParks": 97, "northernLights": 10, "stargazing": 90,
+        "scuba": 0, "snorkelling": 5, "surfing": 0, "sailing": 20, "kayaking": 68, "swimming": 32,
+        "waterSports": 25, "fishing": 65,
+        "hiking": 95, "skiing": 25, "cycling": 68, "climbing": 68, "golf": 12, "adrenaline": 68,
+        "wellness": 40, "roadTrip": 85,
+        "museums": 12, "historicSites": 22, "architecture": 12, "religiousSites": 12, "theatre": 5,
+        "liveMusic": 18, "festivals": 20, "localCulture": 48, "artScene": 15, "markets": 25,
+        "fineDining": 32,
+        "bars": 30, "clubbing": 5, "casinos": 3, "shopping": 15, "themeParks": 3, "sports": 10,
+        "publicTransport": 18, "walkability": 25,
+        "familyYoungKids": 55, "familyTeens": 75, "romance": 70, "soloTravel": 58, "groupParty": 18,
+        "backpacker": 62, "luxury": 48, "seniors": 45, "digitalNomad": 25
+      }
+    },
+
+    "desert": {
+      "label": "Desert destination",
+      "r": {
+        "beaches": 5, "mountains": 45, "lakesRivers": 12, "forests": 5, "desert": 95, "islands": 0,
+        "volcanic": 15, "wildlife": 38, "scenery": 88, "nationalParks": 62, "northernLights": 0, "stargazing": 95,
+        "scuba": 0, "snorkelling": 0, "surfing": 0, "sailing": 5, "kayaking": 12, "swimming": 15,
+        "waterSports": 8, "fishing": 8,
+        "hiking": 65, "skiing": 0, "cycling": 35, "climbing": 55, "golf": 25, "adrenaline": 68,
+        "wellness": 55, "roadTrip": 78,
+        "museums": 20, "historicSites": 55, "architecture": 45, "religiousSites": 45, "theatre": 10,
+        "liveMusic": 28, "festivals": 35, "localCulture": 75, "artScene": 25, "markets": 62,
+        "fineDining": 42,
+        "bars": 25, "clubbing": 10, "casinos": 5, "shopping": 35, "themeParks": 5, "sports": 10,
+        "publicTransport": 15, "walkability": 25,
+        "familyYoungKids": 40, "familyTeens": 68, "romance": 78, "soloTravel": 48, "groupParty": 20,
+        "backpacker": 50, "luxury": 70, "seniors": 45, "digitalNomad": 25
+      }
+    },
+
+    "asian-megacity": {
+      "label": "Asian megacity",
+      "r": {
+        "beaches": 12, "mountains": 20, "lakesRivers": 35, "forests": 18, "desert": 0, "islands": 10,
+        "volcanic": 0, "wildlife": 15, "scenery": 45, "nationalParks": 15, "northernLights": 0, "stargazing": 5,
+        "scuba": 5, "snorkelling": 8, "surfing": 10, "sailing": 20, "kayaking": 18, "swimming": 30,
+        "waterSports": 20, "fishing": 20,
+        "hiking": 30, "skiing": 5, "cycling": 35, "climbing": 30, "golf": 55, "adrenaline": 30,
+        "wellness": 75, "roadTrip": 25,
+        "museums": 65, "historicSites": 68, "architecture": 78, "religiousSites": 80, "theatre": 58,
+        "liveMusic": 62, "festivals": 72, "localCulture": 82, "artScene": 65, "markets": 92,
+        "fineDining": 78,
+        "bars": 78, "clubbing": 75, "casinos": 30, "shopping": 92, "themeParks": 55, "sports": 55,
+        "publicTransport": 82, "walkability": 62,
+        "familyYoungKids": 58, "familyTeens": 78, "romance": 58, "soloTravel": 75, "groupParty": 72,
+        "backpacker": 82, "luxury": 72, "seniors": 50, "digitalNomad": 78
+      }
+    },
+
+    "latin-city": {
+      "label": "Latin American city",
+      "r": {
+        "beaches": 20, "mountains": 45, "lakesRivers": 30, "forests": 30, "desert": 10, "islands": 5,
+        "volcanic": 25, "wildlife": 30, "scenery": 60, "nationalParks": 35, "northernLights": 0, "stargazing": 20,
+        "scuba": 10, "snorkelling": 12, "surfing": 20, "sailing": 20, "kayaking": 25, "swimming": 30,
+        "waterSports": 22, "fishing": 25,
+        "hiking": 45, "skiing": 5, "cycling": 45, "climbing": 35, "golf": 35, "adrenaline": 45,
+        "wellness": 50, "roadTrip": 45,
+        "museums": 62, "historicSites": 72, "architecture": 70, "religiousSites": 68, "theatre": 52,
+        "liveMusic": 82, "festivals": 82, "localCulture": 85, "artScene": 70, "markets": 82,
+        "fineDining": 62,
+        "bars": 78, "clubbing": 82, "casinos": 25, "shopping": 58, "themeParks": 20, "sports": 72,
+        "publicTransport": 55, "walkability": 62,
+        "familyYoungKids": 48, "familyTeens": 62, "romance": 68, "soloTravel": 62, "groupParty": 78,
+        "backpacker": 78, "luxury": 55, "seniors": 45, "digitalNomad": 68
+      }
+    },
+
+    "nordic-city": {
+      "label": "Nordic / northern city",
+      "r": {
+        "beaches": 15, "mountains": 30, "lakesRivers": 62, "forests": 62, "desert": 0, "islands": 35,
+        "volcanic": 5, "wildlife": 35, "scenery": 68, "nationalParks": 45, "northernLights": 30, "stargazing": 45,
+        "scuba": 5, "snorkelling": 5, "surfing": 8, "sailing": 55, "kayaking": 68, "swimming": 30,
+        "waterSports": 30, "fishing": 55,
+        "hiking": 60, "skiing": 45, "cycling": 82, "climbing": 30, "golf": 40, "adrenaline": 35,
+        "wellness": 78, "roadTrip": 55,
+        "museums": 75, "historicSites": 62, "architecture": 72, "religiousSites": 45, "theatre": 62,
+        "liveMusic": 68, "festivals": 62, "localCulture": 58, "artScene": 75, "markets": 55,
+        "fineDining": 75,
+        "bars": 68, "clubbing": 58, "casinos": 20, "shopping": 65, "themeParks": 25, "sports": 45,
+        "publicTransport": 85, "walkability": 82,
+        "familyYoungKids": 72, "familyTeens": 65, "romance": 65, "soloTravel": 75, "groupParty": 52,
+        "backpacker": 48, "luxury": 70, "seniors": 68, "digitalNomad": 75
+      }
+    },
+
+    "wine-country": {
+      "label": "Rural wine or farm country",
+      "r": {
+        "beaches": 8, "mountains": 40, "lakesRivers": 45, "forests": 45, "desert": 5, "islands": 0,
+        "volcanic": 5, "wildlife": 30, "scenery": 80, "nationalParks": 30, "northernLights": 0, "stargazing": 70,
+        "scuba": 0, "snorkelling": 0, "surfing": 0, "sailing": 12, "kayaking": 35, "swimming": 30,
+        "waterSports": 15, "fishing": 40,
+        "hiking": 62, "skiing": 5, "cycling": 82, "climbing": 25, "golf": 48, "adrenaline": 30,
+        "wellness": 70, "roadTrip": 88,
+        "museums": 35, "historicSites": 62, "architecture": 62, "religiousSites": 48, "theatre": 25,
+        "liveMusic": 35, "festivals": 55, "localCulture": 75, "artScene": 40, "markets": 68,
+        "fineDining": 78,
+        "bars": 45, "clubbing": 12, "casinos": 8, "shopping": 35, "themeParks": 8, "sports": 20,
+        "publicTransport": 25, "walkability": 40,
+        "familyYoungKids": 48, "familyTeens": 42, "romance": 88, "soloTravel": 45, "groupParty": 30,
+        "backpacker": 35, "luxury": 75, "seniors": 78, "digitalNomad": 40
+      }
+    },
+
+    "jungle-eco": {
+      "label": "Rainforest and eco-lodge country",
+      "r": {
+        "beaches": 30, "mountains": 55, "lakesRivers": 72, "forests": 95, "desert": 0, "islands": 15,
+        "volcanic": 45, "wildlife": 90, "scenery": 88, "nationalParks": 90, "northernLights": 0, "stargazing": 68,
+        "scuba": 25, "snorkelling": 35, "surfing": 35, "sailing": 20, "kayaking": 78, "swimming": 45,
+        "waterSports": 35, "fishing": 50,
+        "hiking": 85, "skiing": 0, "cycling": 40, "climbing": 40, "golf": 12, "adrenaline": 85,
+        "wellness": 65, "roadTrip": 55,
+        "museums": 12, "historicSites": 30, "architecture": 15, "religiousSites": 20, "theatre": 8,
+        "liveMusic": 30, "festivals": 30, "localCulture": 75, "artScene": 20, "markets": 45,
+        "fineDining": 35,
+        "bars": 32, "clubbing": 12, "casinos": 3, "shopping": 18, "themeParks": 5, "sports": 8,
+        "publicTransport": 20, "walkability": 25,
+        "familyYoungKids": 45, "familyTeens": 78, "romance": 75, "soloTravel": 58, "groupParty": 25,
+        "backpacker": 72, "luxury": 60, "seniors": 35, "digitalNomad": 30
+      }
+    },
+
+    "resort-city": {
+      "label": "Purpose-built entertainment city",
+      "r": {
+        "beaches": 45, "mountains": 15, "lakesRivers": 15, "forests": 8, "desert": 30, "islands": 5,
+        "volcanic": 0, "wildlife": 12, "scenery": 35, "nationalParks": 15, "northernLights": 0, "stargazing": 8,
+        "scuba": 20, "snorkelling": 22, "surfing": 15, "sailing": 40, "kayaking": 25, "swimming": 62,
+        "waterSports": 55, "fishing": 25,
+        "hiking": 20, "skiing": 3, "cycling": 25, "climbing": 20, "golf": 78, "adrenaline": 55,
+        "wellness": 78, "roadTrip": 30,
+        "museums": 35, "historicSites": 20, "architecture": 65, "religiousSites": 25, "theatre": 68,
+        "liveMusic": 72, "festivals": 55, "localCulture": 25, "artScene": 40, "markets": 40,
+        "fineDining": 82,
+        "bars": 85, "clubbing": 88, "casinos": 88, "shopping": 92, "themeParks": 78, "sports": 62,
+        "publicTransport": 45, "walkability": 55,
+        "familyYoungKids": 68, "familyTeens": 80, "romance": 62, "soloTravel": 50, "groupParty": 92,
+        "backpacker": 30, "luxury": 90, "seniors": 58, "digitalNomad": 45
+      }
+    }
+  }
+}
