@@ -47,7 +47,14 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     # Photos come from Wikimedia; nothing else is fetched from anywhere.
-    Content-Security-Policy = "default-src 'self'; img-src 'self' data: https://upload.wikimedia.org; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none'"
+    #
+    # connect-src MUST include Wikimedia, not just img-src. The service worker
+    # intercepts every cross-origin request and re-fetches it itself, and a
+    # fetch made from inside a worker is governed by the CSP delivered with the
+    # worker script — so `connect-src 'self'` silently forbade it and killed
+    # every photograph on the deployed site while local development, which
+    # sends no CSP at all, looked perfect.
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data: https://upload.wikimedia.org; connect-src 'self' https://upload.wikimedia.org; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
 
 # Routing is entirely hash-based (#/setup, #/place/rivendell), so every URL is
 # served by index.html as it stands. No SPA fallback is needed or wanted.
