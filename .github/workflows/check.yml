@@ -29,17 +29,18 @@ jobs:
 
       # The whole deployment model rests on the committed artefacts being the
       # real ones. If someone edits a destination shard and forgets to rebuild,
-      # Netlify would happily serve the stale data forever, because it never
-      # builds anything itself. So: rebuild here and fail if the result differs
-      # from what was committed.
+      # Netlify would serve the stale data forever, because it never builds
+      # anything itself. So: rebuild here and fail if anything differs.
+      #
+      # This is only possible because the build is reproducible — the cache
+      # version and meta ids are content hashes, not timestamps — so identical
+      # sources give byte-identical output on any machine.
       - name: Committed build output is up to date
         run: |
-          # The build stamps a timestamp into meta.json and sw.js on every run,
-          # so compare everything except those two.
-          if ! git diff --quiet -- . ':(exclude)data/meta.json' ':(exclude)data/fiction/meta.json' ':(exclude)sw.js'; then
+          if ! git diff --quiet; then
             echo "::error::Committed build output does not match the source data."
             echo "Run 'npm run build' and commit the result."
-            git diff --stat -- . ':(exclude)data/meta.json' ':(exclude)data/fiction/meta.json' ':(exclude)sw.js'
+            git diff --stat
             exit 1
           fi
-          echo "Build output matches the committed files."
+          echo "Rebuild reproduced the committed files exactly."

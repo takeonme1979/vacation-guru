@@ -9,7 +9,7 @@
  * build, so a rebuild always invalidates stale caches.
  */
 
-const CACHE_VERSION = 'vg-20260820125333';
+const CACHE_VERSION = 'vg-85495a9eccbb';
 const SHELL_CACHE = CACHE_VERSION + '-shell';
 const PHOTO_CACHE = CACHE_VERSION + '-photos';
 const PHOTO_LIMIT = 600;

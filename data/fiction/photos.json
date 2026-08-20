@@ -4227,7 +4227,12 @@
   ],
   "the-citadel": [
    {
-    "topic": "International Space Station orbit"
+    "topic": "International Space Station orbit",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/STS-135_final_flyaround_of_ISS_1.jpg/1280px-STS-135_final_flyaround_of_ISS_1.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/STS-135_final_flyaround_of_ISS_1.jpg/500px-STS-135_final_flyaround_of_ISS_1.jpg",
+    "credit": "NASA",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:STS-135_final_flyaround_of_ISS_1.jpg"
    },
    {
     "topic": "Futuristic station interior atrium",
@@ -4249,7 +4254,13 @@
     "source": "https://commons.wikimedia.org/wiki/File:Norwegian_Star_glass_elevator_shaft.jpg"
    },
    {
-    "topic": "Modern parliament chamber circular"
+    "topic": "Modern parliament chamber",
+    "wanted": "Modern parliament chamber circular",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Parliament_Hill%2C_Ottawa%2C_Ontario_%2830035084016%29.jpg/1280px-Parliament_Hill%2C_Ottawa%2C_Ontario_%2830035084016%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Parliament_Hill%2C_Ottawa%2C_Ontario_%2830035084016%29.jpg/500px-Parliament_Hill%2C_Ottawa%2C_Ontario_%2830035084016%29.jpg",
+    "credit": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parliament_Hill,_Ottawa,_Ontario_(30035084016).jpg"
    },
    {
     "topic": "Shinjuku neon street night",
@@ -4262,10 +4273,21 @@
   ],
   "dead-marshes": [
    {
-    "topic": "Misty marsh wetland dawn"
+    "topic": "Misty marsh wetland",
+    "wanted": "Misty marsh wetland dawn",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Longdon_Marsh_-_geograph.org.uk_-_501376.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Longdon_Marsh_-_geograph.org.uk_-_501376.jpg",
+    "credit": "Bob Embleton",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Longdon_Marsh_-_geograph.org.uk_-_501376.jpg"
    },
    {
-    "topic": "Peat bog reflection sky"
+    "topic": "Peat bog reflection sky",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bargerveen_23-08-2019._%28actm.%29._24.jpg/1280px-Bargerveen_23-08-2019._%28actm.%29._24.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bargerveen_23-08-2019._%28actm.%29._24.jpg/500px-Bargerveen_23-08-2019._%28actm.%29._24.jpg",
+    "credit": "Agnes Monkelbaan",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bargerveen_23-08-2019._(actm.)._24.jpg"
    },
    {
     "topic": "Swamp fog dead trees"
@@ -4274,7 +4296,13 @@
     "topic": "Will o wisp marsh light"
    },
    {
-    "topic": "Flooded fenland grey"
+    "topic": "Flooded fenland",
+    "wanted": "Flooded fenland grey",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flooded_Fenland_-_geograph.org.uk_-_309749.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flooded_Fenland_-_geograph.org.uk_-_309749.jpg",
+    "credit": "Bob Jones",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flooded_Fenland_-_geograph.org.uk_-_309749.jpg"
    },
    {
     "topic": "Bog pool still water"

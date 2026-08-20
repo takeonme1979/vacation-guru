@@ -18,10 +18,27 @@
  */
 
 import { readFile, writeFile, readdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+/**
+ * A short fingerprint of some content.
+ *
+ * The build used to stamp `new Date()` into meta.json and into the service
+ * worker's cache version. That made every build produce different bytes from
+ * identical sources, which had two costs: CI could not verify that the
+ * committed artefacts actually match the source, and every rebuild invalidated
+ * every returning visitor's cache whether or not anything had changed.
+ *
+ * A content hash fixes both. The cache busts when the content differs, which is
+ * the only time it should.
+ */
+function contentId(text) {
+  return createHash('sha256').update(text).digest('hex').slice(0, 12);
+}
 const DATA = join(ROOT, 'data');
 const STRICT = process.argv.includes('--strict');
 
@@ -246,7 +263,9 @@ async function buildWorld(world) {
   }
 
   const meta = {
-    builtAt: new Date().toISOString(),
+    // Deliberately NOT a timestamp. See contentId() below: identical sources
+    // must produce identical output, or nothing downstream can be checked.
+    builtId: null,
     schemaVersion: 1,
     destinations: out.length,
     countries: Object.keys(byCountry).length,
@@ -257,6 +276,15 @@ async function buildWorld(world) {
     byContinent,
     byType
   };
+
+  // The id is a fingerprint of everything that went into this world, so a
+  // rebuild with no source changes produces byte-identical files.
+  meta.builtId = contentId([
+    JSON.stringify(out),
+    JSON.stringify(criteria),
+    JSON.stringify(archetypes),
+    JSON.stringify(countries)
+  ].join(' '));
 
   await writeFile(join(DIR, 'destinations.json'), JSON.stringify(out), 'utf8');
   await writeFile(join(DIR, 'meta.json'), JSON.stringify(meta, null, 2), 'utf8');
@@ -272,11 +300,11 @@ async function buildWorld(world) {
 
 async function main() {
   const registry = await readJson(join(DATA, 'worlds.json'));
-  let stampMeta = null;
+  const ids = [];
 
   for (const world of registry.worlds) {
     const meta = await buildWorld(world);
-    if (world.id === 'real') stampMeta = meta;
+    ids.push(world.id + ':' + meta.builtId);
   }
 
   for (const w of warnings) console.warn('  warn  ' + w);
@@ -293,7 +321,12 @@ Build failed: ${errors.length} error(s), ${warnings.length} warning(s).`);
   // visitors kept being served whatever data was cached on their first visit,
   // no matter how many times the catalogue was rebuilt.
   const swPath = join(ROOT, 'sw.js');
-  const buildId = 'vg-' + (stampMeta || { builtAt: new Date().toISOString() }).builtAt.replace(/[^0-9]/g, '').slice(0, 14);
+  // Every world's fingerprint, plus the shell files the worker precaches.
+  const shell = await Promise.all(
+    ['index.html', 'css/styles.css', 'js/main.js', 'js/scoring.js']
+      .map((f) => readFile(join(ROOT, f), 'utf8').catch(() => ''))
+  );
+  const buildId = 'vg-' + contentId([...ids, ...shell].join(' '));
   const sw = await readFile(swPath, 'utf8');
   const stamped = sw.replace(/const CACHE_VERSION = '[^']*';/,
     `const CACHE_VERSION = '${buildId}';`);
