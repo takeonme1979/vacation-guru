@@ -62,9 +62,14 @@ export function seasonOf(month) {
 
 /**
  * What to call the time you are travelling, in this world's terms.
- * `timeModel` is 'months' (the default) or 'seasons'.
+ *
+ * 'months'  a calendar month — the real world
+ * 'seasons' Spring/Summer/Autumn/Winter
+ * 'none'    there is no answer, because the question does not apply. Callers
+ *           must omit the phrase entirely rather than printing anything.
  */
 export function periodLabel(month, timeModel = 'months') {
+  if (timeModel === 'none' || month == null) return null;
   return timeModel === 'seasons' ? seasonOf(month).label : MONTHS[month];
 }
 
@@ -173,9 +178,25 @@ export function budgetSpread(destinations, style = 'mid', month = 6) {
   };
 }
 
+/** The mean of a twelve-month series. */
+function annualMean(arr) {
+  const nums = arr.filter(isNum);
+  if (!nums.length) return null;
+  return nums.reduce((a, b) => a + b, 0) / nums.length;
+}
+
+/**
+ * Read a climate series.
+ *
+ * A null month means the world has no calendar — nobody sets out for Mordor in
+ * June — so the series is read as its annual mean instead of at one point.
+ * Every seasonal criterion then answers "what is this place like, generally",
+ * which is the only question that can honestly be asked there.
+ */
 function monthValue(dest, key, month) {
   const arr = dest.climate && dest.climate[key];
   if (!Array.isArray(arr) || arr.length !== 12) return null;
+  if (month == null) return annualMean(arr);
   const v = arr[month];
   return isNum(v) ? v : null;
 }
@@ -190,7 +211,9 @@ function monthValue(dest, key, month) {
  *          when the criterion cannot be judged and should be dropped from the mix.
  */
 export function scoreCriterion(criterion, dest, prefs) {
-  const month = prefs.month ?? 6;
+  // Deliberately NOT defaulted: null means "read the whole year".
+  const month = prefs.month === undefined ? 6 : prefs.month;
+  const timeless = month == null;
 
   switch (criterion.kind) {
     case 'max': {
@@ -209,10 +232,20 @@ export function scoreCriterion(criterion, dest, prefs) {
           : clamp01(normaliseScale(raw, criterion.gate.scale));
         const score = base * factor;
         if (factor < 0.15) {
-          return { score, detail: criterion.gate.closed || 'Out of season this month', value: r };
+          return {
+            score,
+            detail: timeless ? 'Conditions rarely allow it' : (criterion.gate.closed || 'Out of season this month'),
+            value: r
+          };
         }
         if (factor < 0.85) {
-          return { score, detail: `${ratingWord(r)}, but ${criterion.gate.limited || 'marginal conditions'} in ${MONTHS[month]}`, value: r };
+          const why = criterion.gate.limited || 'marginal conditions';
+          return {
+            score,
+            detail: timeless ? `${ratingWord(r)}, but ${why} much of the year`
+                             : `${ratingWord(r)}, but ${why} in ${MONTHS[month]}`,
+            value: r
+          };
         }
         return { score, detail: ratingWord(r), value: r };
       }
@@ -245,11 +278,16 @@ export function scoreCriterion(criterion, dest, prefs) {
     }
 
     case 'crowd': {
-      const busy = Array.isArray(dest.crowd) && dest.crowd.length === 12 ? dest.crowd[month] : null;
+      const series = Array.isArray(dest.crowd) && dest.crowd.length === 12 ? dest.crowd : null;
+      const busy = series ? (timeless ? annualMean(series) : series[month]) : null;
       if (!isNum(busy)) return { score: null, detail: 'No data', value: null };
       const target = prefs.targets?.peacefulness ?? 50;
       const score = clamp01(1 - Math.abs(busy - target) / CROWD_TOLERANCE);
-      return { score, detail: `${crowdWord(busy)} in ${MONTHS[month]}`, value: busy };
+      return {
+        score,
+        detail: timeless ? `${crowdWord(busy)}` : `${crowdWord(busy)} in ${MONTHS[month]}`,
+        value: busy
+      };
     }
 
     case 'budget': {

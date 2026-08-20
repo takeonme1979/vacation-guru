@@ -51,7 +51,7 @@
         ]
       },
       "photoPolicy": "any",
-      "timeModel": "seasons"
+      "timeModel": "none"
     }
   ]
 }

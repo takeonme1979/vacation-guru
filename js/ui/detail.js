@@ -4,7 +4,7 @@ import * as store from '../state.js';
 import { photosFor, imgEl } from '../images.js';
 import {
   scoreDestination, monthCurve, MONTHS, MONTHS_SHORT, estimateFlightHours, dailyCost, crowdWord,
-  COST_TIERS, costTierLabel, SEASONS, seasonCurve, periodLabel
+  COST_TIERS, costTierLabel, periodLabel
 } from '../scoring.js';
 import { scoreRing, breakdownTable, ragChip, toggleButton, infoButton, hasInfo, openInfo } from './components.js';
 
@@ -23,18 +23,17 @@ export function renderDetail(root, id, { go }) {
   const result = scoreDestination(dest, prefs, criteriaById);
   const { curve, best, worst } = monthCurve(dest, prefs, criteriaById);
 
-  // Twelve months where the world has a calendar, four seasons where it does
-  // not. The underlying curve is the same 12 points either way; the seasonal
-  // view just averages each three.
+  // A world with no calendar gets no month picker and no month chart. Its
+  // climate is still real and still varies, so it is reported as a range
+  // instead of at a point you were never able to choose.
   const timeModel = data().world.timeModel;
-  const seasonal = timeModel === 'seasons';
+  const timeless = timeModel === 'none';
   const when = periodLabel(prefs.month, timeModel);
-  const bars = seasonal ? seasonCurve(curve) : curve;
-  const barLabels = seasonal ? SEASONS.map((x) => x.label) : MONTHS_SHORT;
-  const barMonths = seasonal ? SEASONS.map((x) => x.month) : curve.map((_, i) => i);
-  const currentBar = seasonal ? SEASONS.findIndex((x) => x.months.includes(prefs.month)) : prefs.month;
-  const bestBar = bars.indexOf(Math.max(...bars));
-  const worstBar = bars.indexOf(Math.min(...bars));
+
+  /** Mean of a twelve-month series — what "typical" means with no month. */
+  const mean = (a) => (Array.isArray(a) ? Math.round(a.reduce((x, y) => x + y, 0) / a.length) : null);
+  /** The value to print: this month's, or the year's average. */
+  const at = (a) => (Array.isArray(a) ? (timeless ? mean(a) : Math.round(a[m])) : null);
   const photos = photosFor(dest);
   const m = prefs.month;
   const rerender = () => renderDetail(root, id, { go });
@@ -111,14 +110,15 @@ export function renderDetail(root, id, { go }) {
 
       // ---- headline verdict ----------------------------------------------
       h('div', { class: 'panel' },
-        h('h2', null, `In ${when}`),
+        h('h2', null, timeless ? 'What it is like' : `In ${when}`),
         h('div', { class: 'facts' },
-          fact('🌡️', 'Daytime high', `${Math.round(dest.climate.tempHigh[m])}°C`),
-          fact('☀️', 'Sunshine', `${dest.climate.sunHours[m]}h a day`),
-          fact('☂️', 'Rainy days', `${dest.climate.rainDays[m]} a month`),
-          dest.climate.seaTemp ? fact('🌊', 'Sea', `${dest.climate.seaTemp[m]}°C`) : null,
-          dest.climate.snowDepth ? fact('❄️', 'Snow', dest.climate.snowDepth[m] > 0 ? `~${dest.climate.snowDepth[m]}cm` : 'None') : null,
-          fact('👥', 'Busy-ness', crowdWord(dest.crowd[m])),
+          fact('🌡️', timeless ? 'Typical high' : 'Daytime high', `${at(dest.climate.tempHigh)}°C`,
+            timeless ? `${Math.min(...dest.climate.tempHigh)}° to ${Math.max(...dest.climate.tempHigh)}° across the year` : null),
+          fact('☀️', 'Sunshine', `${at(dest.climate.sunHours)}h a day`),
+          fact('☂️', 'Rainy days', `${at(dest.climate.rainDays)} a month`),
+          dest.climate.seaTemp ? fact('🌊', 'Sea', `${at(dest.climate.seaTemp)}°C`) : null,
+          dest.climate.snowDepth ? fact('❄️', 'Snow', at(dest.climate.snowDepth) > 0 ? `~${at(dest.climate.snowDepth)}cm` : 'None') : null,
+          fact('👥', 'Busy-ness', crowdWord(at(dest.crowd))),
           dest.costTier
             ? fact('💰', 'Cost', costTierLabel(dest.costTier), 'to visit')
             : fact('💷', 'Cost a day', `£${dayCost}`, `${style} travel`),
@@ -142,24 +142,23 @@ export function renderDetail(root, id, { go }) {
         : null,
 
       // ---- when to go -----------------------------------------------------
-      h('div', { class: 'panel' },
-        h('h2', null, seasonal ? 'When to set out' : 'When to go'),
+      // A chart of twelve months you cannot pick between would only invite a
+      // choice that does not exist here.
+      timeless ? null : h('div', { class: 'panel' },
+        h('h2', null, 'When to go'),
         h('p', { class: 'panel__hint' },
-          seasonal
-            ? `Your criteria scored across the year. Best: ${SEASONS[bestBar].label} `
-              + `(${bars[bestBar]}%). Worst: ${SEASONS[worstBar].label} (${bars[worstBar]}%).`
-            : `Your criteria scored against every month. Best: ${MONTHS[best]} (${curve[best]}%). `
-              + `Worst: ${MONTHS[worst]} (${curve[worst]}%).`),
-        h('div', { class: 'curve' + (seasonal ? ' curve--seasons' : '') },
-          bars.map((v, i) =>
+          `Your criteria scored against every month. Best: ${MONTHS[best]} (${curve[best]}%). `
+          + `Worst: ${MONTHS[worst]} (${curve[worst]}%).`),
+        h('div', { class: 'curve' },
+          curve.map((v, i) =>
             h('button', {
-              class: 'curve__bar' + (i === currentBar ? ' is-current' : '') + (i === bestBar ? ' is-best' : ''),
-              title: `${barLabels[i]}: ${v}%`,
-              onclick: () => { store.setMonth(barMonths[i]); rerender(); }
+              class: 'curve__bar' + (i === m ? ' is-current' : '') + (i === best ? ' is-best' : ''),
+              title: `${MONTHS[i]}: ${v}%`,
+              onclick: () => { store.setMonth(i); rerender(); }
             },
               h('span', { class: 'curve__fill', style: { height: Math.max(4, v) + '%' } }),
               h('span', { class: 'curve__val' }, v),
-              h('span', { class: 'curve__month' }, barLabels[i])
+              h('span', { class: 'curve__month' }, MONTHS_SHORT[i])
             )
           )
         )

@@ -38,7 +38,9 @@ export function renderCompare(root, { go }) {
       h('header', { class: 'results__head' },
         h('div', null,
           h('h1', null, 'Head to head'),
-          h('p', { class: 'results__sub' }, `Scored for ${when(prefs)}`)),
+          when(prefs)
+            ? h('p', { class: 'results__sub' }, `Scored for ${when(prefs)}`)
+            : null),
         h('button', {
           class: 'btn btn--ghost',
           onclick: () => { store.update((s) => { s.compare = []; }, { persist: false }); rerender(); }

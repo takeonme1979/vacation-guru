@@ -28,7 +28,7 @@ export function renderSetup(root, { go }) {
   const summary = prefsSummary(prefs);
   const rerender = () => renderSetup(root, { go });
 
-  const seasonal = world.timeModel === 'seasons';
+  const timeless = world.timeModel === 'none';
   const when = periodLabel(prefs.month, world.timeModel);
   const spread = usesMoney ? budgetSpread(destinations, prefs.targets.budgetStyle, prefs.month) : null;
   const styleMeta = BUDGET_STYLES.find((b) => b.id === prefs.targets.budgetStyle) || {};
@@ -42,7 +42,7 @@ export function renderSetup(root, { go }) {
         h('p', null,
           (usesMoney
             ? 'When you can go, how long for, how you travel — and the handful of things that are a '
-            : 'What season you set out in, and the handful of things that are a ')
+            : 'The handful of things that are a ')
           + `question of degree rather than yes-or-no. Everything else is under Criteria. `
           + `We score ${data().meta.destinations} destinations against ${data().meta.totalCriteria} of them.`)
       ),
@@ -54,7 +54,7 @@ export function renderSetup(root, { go }) {
           'Optional shortcut that fills in a sensible set of criteria. Finish this page first — '
           + (usesMoney
               ? 'the month and travel style change the answers as much as the criteria do.'
-              : 'the season you travel changes the answers as much as the criteria do.')),
+              : 'what you are prepared to spend changes the answers as much as the criteria do.')),
         h('div', { class: 'presets' },
           presets.map((p) =>
             h('button', {
@@ -79,18 +79,16 @@ export function renderSetup(root, { go }) {
           : null
       ),
 
-      // ---- when ------------------------------------------------------------
-      // A calendar month means nothing in Middle-earth, so fiction asks for a
-      // season instead and the engine scores the month in the middle of it.
-      // Trip length only ever fed the total-cost sum, so a world that prices in
-      // tiers has no use for it at all.
-      h('div', { class: 'block' },
-        h('h2', { class: 'block__title' },
-          seasonal ? 'When do you set out?' : 'When are you going?'),
+      // ---- when --------------------------------------------------------
+      // Only where there is a calendar to ask about. Middle-earth has no June,
+      // and pretending otherwise put a control on the page whose answer meant
+      // nothing; the engine reads those places across the whole year instead.
+      // Trip length goes with it — it only ever fed the total-cost sum, and a
+      // world that prices in tiers has no use for it either.
+      timeless ? null : h('div', { class: 'block' },
+        h('h2', { class: 'block__title' }, 'When are you going?'),
         h('p', { class: 'block__hint' },
-          seasonal
-            ? 'Weather, snow and how busy a place gets are all scored against this season.'
-            : 'Everything weather-related, plus crowds and prices, is scored against this month.'),
+          'Everything weather-related, plus crowds and prices, is scored against this month.'),
         timePicker(world.timeModel, prefs.month, (m) => { store.setMonth(m); rerender(); }),
 
         usesMoney

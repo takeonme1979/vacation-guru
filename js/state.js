@@ -109,12 +109,32 @@ export async function restore() {
   if (!state.byWorld[state.world]) state.byWorld[state.world] = blankWorld();
 }
 
-export function setWorld(id) {
-  update((s) => { s.world = id; });
+/**
+ * Make a world active, and bring its preferences into line with what that world
+ * can actually be asked.
+ *
+ * The world's own metadata is a required argument rather than something a
+ * caller may optionally apply afterwards, because forgetting it fails silently
+ * and expensively: a world with no calendar must carry `month: null`, since
+ * that is what tells the engine to read every climate series across the whole
+ * year. A stale month left behind would score every fictional realm as if it
+ * were June, with nothing on screen to say so.
+ */
+export function setWorld(id, world) {
+  update((s) => {
+    s.world = id;
+    if (!world) return;
+    if (world.timeModel === 'none') s.prefs.month = null;
+    else if (s.prefs.month == null) s.prefs.month = new Date().getMonth();
+  });
 }
 
 export async function resetAll() {
+  // Starting over must not resurrect a month in a world that has no calendar —
+  // blankWorld() cannot know which world it is being made for.
+  const month = state.prefs.month;
   state.byWorld = { [state.world]: blankWorld() };
+  state.prefs.month = month;
   await storage.remove(KEY);
   emit();
 }

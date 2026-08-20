@@ -118,8 +118,8 @@ function paintWorldSwitch() {
 /** Swap datasets. Each world keeps its own answers, so nothing is lost. */
 async function switchWorld(id) {
   if (id === activeWorld()) return;
-  await loadAll(id);
-  store.setWorld(id);
+  const loaded = await loadAll(id);
+  store.setWorld(id, loaded.world);
   applyWorldTheme(id);
   paintWorldSwitch();
   resetPaging();
@@ -131,7 +131,8 @@ async function boot() {
   try {
     await loadWorlds();
     await store.restore();
-    await loadAll(store.state.world);
+    const loaded = await loadAll(store.state.world);
+    store.setWorld(store.state.world, loaded.world);
   } catch (e) {
     fatal('Could not load the destination data',
       e.message || 'Vacation Guru uses ES modules and fetch(), which browsers block on file:// URLs. Serve the folder over HTTP instead:');

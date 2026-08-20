@@ -287,12 +287,16 @@ export function seasonPicker(current, onChange) {
   );
 }
 
-/** Whichever of the two this world asks for. */
+/**
+ * Whichever of these the world asks for — or nothing at all, for a world with
+ * no calendar. Nobody sets out for Mordor in June.
+ */
 export function timePicker(timeModel, current, onChange) {
+  if (timeModel === 'none') return null;
   return timeModel === 'seasons' ? seasonPicker(current, onChange) : monthPicker(current, onChange);
 }
 
-/** "June" or "Winter", depending on the world we are in. */
+/** "June", "Winter", or null where the question does not apply. */
 export const when = (prefs) => periodLabel(prefs.month, data().world.timeModel);
 
 export function segmented(options, current, onChange, { label = '' } = {}) {
@@ -368,7 +372,9 @@ export function targetControl(criterion, prefs, go) {
           format: crowdWord,
           leftLabel: '← Deserted',
           rightLabel: 'Buzzing →',
-          hint: `Scored against how busy each place actually gets in ${when(prefs)}.`,
+          hint: when(prefs)
+            ? `Scored against how busy each place actually gets in ${when(prefs)}.`
+            : 'Scored against how busy each place usually is.',
           onInput: (v) => store.setTarget('peacefulness', v)
         })
       );
@@ -382,7 +388,9 @@ export function targetControl(criterion, prefs, go) {
           format: (v) => `${v}°C`,
           leftLabel: '← Cold',
           rightLabel: 'Very hot →',
-          hint: `Compared with each destination's average high in ${when(prefs)}.`,
+          hint: when(prefs)
+            ? `Compared with each destination's average high in ${when(prefs)}.`
+            : "Compared with each destination's typical daytime high.",
           onInput: (v) => store.setTarget('temperature', v)
         })
       );

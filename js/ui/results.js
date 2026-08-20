@@ -54,9 +54,12 @@ export function renderResults(root, { go }) {
         h('div', null,
           h('h1', null, 'Your matches'),
           h('p', { class: 'results__sub' },
-            `${results.length} destination${results.length === 1 ? '' : 's'} scored for `
-            + `${when(prefs)} · ${summary.chosen} criteria`
-            + (strictDropped ? ` · ${strictDropped} hidden by strict mode` : ''))
+            [
+              `${results.length} destination${results.length === 1 ? '' : 's'}`,
+              when(prefs) ? `scored for ${when(prefs)}` : null,
+              `${summary.chosen} criteria`,
+              strictDropped ? `${strictDropped} hidden by strict mode` : null
+            ].filter(Boolean).join(' · '))
         ),
         h('div', { class: 'results__headActions' },
           h('button', { class: 'btn btn--ghost', onclick: () => go('#/criteria') }, 'Edit criteria'),
@@ -124,7 +127,7 @@ export function renderShortlist(root, { go }) {
       h('header', { class: 'results__head' },
         h('div', null,
           h('h1', null, 'Saved'),
-          h('p', { class: 'results__sub' }, `${results.length} saved · scored for ${when(prefs)}`)),
+          h('p', { class: 'results__sub' }, when(prefs) ? `${results.length} saved · scored for ${when(prefs)}` : `${results.length} saved`)),
         store.state.compare.length >= 2
           ? h('button', { class: 'btn btn--primary', onclick: () => go('#/compare') },
               `Compare ${store.state.compare.length}`)

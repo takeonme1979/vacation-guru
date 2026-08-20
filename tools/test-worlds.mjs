@@ -233,8 +233,8 @@ console.log('\nBrowse lists the whole catalogue');
 const browse = await import('../js/ui/browse.js');
 
 const browseScreen = async (worldId) => {
-  await loadAll(worldId);
-  store.update((s) => { s.world = worldId; }, { persist: false });
+  const loaded = await loadAll(worldId);
+  store.setWorld(worldId, loaded.world);
   const r = root();
   browse.renderBrowse(r, { go });
   return r;
@@ -299,10 +299,12 @@ await checkAsync('a filter chip narrows the list, and clearing restores it', asy
 });
 
 await checkAsync('browsing never rewrites your trip preferences', async () => {
-  store.update((s) => { s.world = 'fiction'; s.prefs = S.applyPreset(S.emptyPrefs(), fic.presets[0]); }, { persist: false });
-  const before = JSON.stringify(store.state.prefs);
+  store.update((s) => { s.prefs = S.applyPreset(S.emptyPrefs(), fic.presets[0]); }, { persist: false });
   browse.resetBrowse();
   const r = await browseScreen('fiction');
+  // Snapshot once the screen is up, so that switching worlds — which is allowed
+  // to normalise prefs — is not mistaken for a leak from the filters below.
+  const before = JSON.stringify(store.state.prefs);
   r.querySelectorAll('.browse__chip')[0].click();
   await type(r, 'sea');
   assert(JSON.stringify(store.state.prefs) === before, 'browse filters leaked into the saved preferences');
@@ -318,19 +320,24 @@ await checkAsync('scores appear once criteria are rated', async () => {
   return `${pcts.length} scored`;
 });
 
-console.log('\nFiction keeps seasons, not a calendar');
+console.log('\nFiction has no calendar at all');
 const { renderCompare } = await import('../js/ui/compare.js');
 
-await checkAsync('the trip screen asks for a season, not a month', async () => {
-  await loadAll('fiction');
-  store.update((s) => { s.world = 'fiction'; }, { persist: false });
+await checkAsync('the trip screen asks nothing about time', async () => {
+  const loaded = await loadAll('fiction');
+  store.setWorld('fiction', loaded.world);
   const r = root();
   renderSetup(r, { go });
-  const seasons = r.querySelectorAll('.seasons__btn').map((b) => b.querySelector('.seasons__label').textContent);
-  assert(seasons.length === 4, `${seasons.length} seasons offered`);
-  assert(r.querySelectorAll('.months__btn').length === 0, 'a month picker is still on the fiction trip screen');
-  assert(seasons.join(' ') === 'Spring Summer Autumn Winter', seasons.join(' '));
-  return seasons.join(' · ');
+  assert(r.querySelectorAll('.months__btn').length === 0, 'a month picker is on the fiction trip screen');
+  assert(r.querySelectorAll('.seasons__btn').length === 0, 'a season picker is on the fiction trip screen');
+  assert(!/When are you going|When do you set out/i.test(r.textContent), 'it still asks when');
+
+  const back = await loadAll('real');
+  store.setWorld('real', back.world);
+  const r2 = root();
+  renderSetup(r2, { go });
+  assert(r2.querySelectorAll('.months__btn').length === 12, 'the real world lost its month picker');
+  return 'nothing in fiction, twelve months in the real world';
 });
 
 await checkAsync('trip length is gone where it does nothing', async () => {
@@ -349,15 +356,16 @@ await checkAsync('trip length is gone where it does nothing', async () => {
   return 'hidden in fiction, kept in the real world';
 });
 
-await checkAsync('no screen names a calendar month in fiction', async () => {
-  await loadAll('fiction');
+await checkAsync('no screen names a month or a season in fiction', async () => {
+  const loaded = await loadAll('fiction');
+  store.setWorld('fiction', loaded.world);
   store.update((s) => {
-    s.world = 'fiction';
     s.prefs = S.applyPreset(S.emptyPrefs(), fic.presets[0]);
+    s.prefs.month = null;
     s.compare = fic.destinations.slice(0, 3).map((d) => d.id);
   }, { persist: false });
 
-  const months = /\b(January|February|March|April|May|June|July|August|September|October|November|December)\b/;
+  const months = /\b(January|February|March|April|May|June|July|August|September|October|November|December|Spring|Summer|Autumn|Winter)\b/;
   const screens = [
     ['trip', renderSetup], ['matches', renderResults],
     ['compare', (r, c) => renderCompare(r, c)]
@@ -375,31 +383,69 @@ await checkAsync('no screen names a calendar month in fiction', async () => {
   return 'trip, matches, compare and detail all clean';
 });
 
-await checkAsync('the year curve collapses to four seasons', async () => {
-  await loadAll('fiction');
-  store.update((s) => { s.world = 'fiction'; s.prefs = S.applyPreset(S.emptyPrefs(), fic.presets[0]); }, { persist: false });
+await checkAsync('there is no month chart to pick from', async () => {
+  const loaded = await loadAll('fiction');
+  store.setWorld('fiction', loaded.world);
+  store.update((s) => { s.prefs = S.applyPreset(S.emptyPrefs(), fic.presets[0]); s.prefs.month = null; }, { persist: false });
   const r = root();
   renderDetail(r, fic.destinations[0].id, { go });
-  const labels = r.querySelectorAll('.curve__month').map((n) => n.textContent);
-  assert(labels.length === 4, `${labels.length} bars, expected 4`);
-  assert(labels.join(' ') === 'Spring Summer Autumn Winter', labels.join(' '));
+  assert(r.querySelectorAll('.curve__bar').length === 0, 'a month chart is on a fiction detail page');
+  assert(/What it is like/.test(r.textContent), 'the timeless heading is missing');
 
-  await loadAll('real');
-  store.update((s) => { s.world = 'real'; s.prefs = S.applyPreset(S.emptyPrefs(), real.presets[0]); }, { persist: false });
+  const back = await loadAll('real');
+  store.setWorld('real', back.world);
+  store.update((s) => { s.prefs = S.applyPreset(S.emptyPrefs(), real.presets[0]); }, { persist: false });
   const r2 = root();
   renderDetail(r2, real.destinations[0].id, { go });
   assert(r2.querySelectorAll('.curve__month').length === 12, 'the real world lost its twelve months');
-  return '4 bars in fiction, 12 in the real world';
+  return 'no chart in fiction, 12 months in the real world';
 });
 
-check('a season maps to a month the engine can score', () => {
-  for (const s of S.SEASONS) {
-    assert(s.months.includes(s.month), `${s.label} points outside its own months`);
-    assert(S.seasonOf(s.month).id === s.id, `${s.label} does not round-trip`);
+await checkAsync('a world with no calendar is scored across the whole year', async () => {
+  const loaded = await loadAll('fiction');
+  store.setWorld('fiction', loaded.world);
+  assert(store.state.prefs.month === null,
+    `switching to fiction left month = ${store.state.prefs.month}`);
+
+  // The proof it is not silently scoring one arbitrary month. Ask for something
+  // explicitly seasonal — warmth, snow, quiet — so the month genuinely matters,
+  // then check that scoring with no month lands inside the year's range rather
+  // than on top of any single month of it.
+  const prefs = S.emptyPrefs();
+  prefs.weights = { temperature: 3, snowfall: 3, crowding: 3 };
+  prefs.targets = { ...prefs.targets, temperature: 24, peacefulness: 25 };
+
+  const at = (d, month) => S.scoreDestination(d, { ...prefs, month }, fic.criteriaById).overall;
+
+  let swing = null;
+  let spread = 0;
+  for (const d of fic.destinations) {
+    const byMonth = [...Array(12).keys()].map((i) => at(d, i));
+    const range = Math.max(...byMonth) - Math.min(...byMonth);
+    if (range > spread) { spread = range; swing = d; }
   }
-  const all = S.SEASONS.flatMap((s) => s.months).sort((a, b) => a - b);
-  assert(all.join() === [...Array(12).keys()].join(), 'the seasons do not cover the year exactly once');
-  return 'all twelve months covered exactly once';
+  assert(swing && spread >= 5, `nothing varies by month even when asked (widest spread ${spread})`);
+
+  const byMonth = [...Array(12).keys()].map((i) => at(swing, i));
+  const lo = Math.min(...byMonth);
+  const hi = Math.max(...byMonth);
+  const across = at(swing, null);
+  assert(across > lo && across < hi,
+    `${swing.name} scores ${across}% across the year, not inside its own range of ${lo}-${hi}%`);
+  return `${swing.name}: ${across}% across the year, inside its ${lo}-${hi}% monthly range`;
+});
+
+check('setWorld cannot leave a stale month behind', () => {
+  // Applying the world's rules is not an optional second call a caller might
+  // forget — it happens inside setWorld, because forgetting it fails silently
+  // and every fictional realm would quietly be scored as if it were June.
+  store.setWorld('real', { id: 'real', timeModel: 'months' });
+  store.update((s) => { s.prefs.month = 6; }, { persist: false });
+  store.setWorld('fiction', { id: 'fiction', timeModel: 'none' });
+  assert(store.state.prefs.month === null, 'a month survived into a world with no calendar');
+  store.setWorld('real', { id: 'real', timeModel: 'months' });
+  assert(typeof store.state.prefs.month === 'number', 'the real world came back without a month');
+  return 'null in fiction, a real month in the real world';
 });
 
 console.log(`\n${passed} passed, ${failures.length} failed\n`);

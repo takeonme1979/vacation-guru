@@ -265,21 +265,31 @@ tools/
 
 ### Time, where there isn't a calendar
 
-"Are you going to Mordor in June?" is a silly question. "In winter" is not.
+"Are you going to Mordor in June?" is a silly question, and so is "for how many
+nights?". Fiction asks neither.
 
-Worlds declare a `timeModel` in `data/worlds.json`. The real world keeps `months`
-and a twelve-tile picker. Fiction uses `seasons`: four choices, each mapping to the
-month at the middle of it, so **the scoring engine is completely unchanged** — the
-same 12-point climate and crowd curves are read exactly as before. Only the question
-is different. The detail page's year chart follows suit, averaging the twelve months
-down to four bars.
+Worlds declare a `timeModel` in `data/worlds.json`. The real world keeps
+`months` and its twelve-tile picker. Fiction is `none`: no month, no season, no
+trip length, and no month chart on a destination page — a chart you cannot pick
+from only invites a choice that does not exist.
 
-Trip length is gone from fiction entirely. It only ever fed the total-cost sum, and
-a world that prices in tiers has no use for it, so showing a nights slider there was
-asking a question whose answer changed nothing.
+The climate data is unchanged and still varies across the year; **a null month
+tells the engine to read every series as its annual mean** instead of at a
+point. So a fictional realm answers "what is this place like, generally", which
+is the only question that can honestly be asked of it. Detail pages report a
+range alongside the average — Winterfell reads *Typical high 8°C, -2° to 19°
+across the year*.
 
-A test renders the trip, matches, compare and detail screens in fiction and fails if
-any of them prints the name of a calendar month.
+Enforcing this is `setWorld(id, world)`, which takes the world's metadata as a
+**required** argument rather than leaving it to a separate call a caller might
+forget. Forgetting would fail silently and expensively: every fictional realm
+would quietly be scored as if it were June, with nothing on screen to say so.
+
+Two tests guard it. One renders the trip, matches, compare and detail screens in
+fiction and fails if any of them prints the name of a month or a season. The
+other finds the destination whose score varies most across the year and checks
+that the timeless score lands *inside* that range rather than on top of any
+single month of it.
 
 ### Browsing the catalogue
 
@@ -327,7 +337,7 @@ CSS custom property silently dropped by `Object.assign`, which collapsed the who
 compare grid into one column, and a `replaceChildren(x, null)` that would have
 rendered the literal text "null" on a button.
 
-**`test-worlds.mjs` (24 checks)** proves fiction runs through the same code path as
+**`test-worlds.mjs` (25 checks)** proves fiction runs through the same code path as
 the real world, that switching worlds keeps both sets of answers, that a world with
 no money, no aeroplanes and no calendar renders controls for none of them, that every universe is
 credited, and that browsing never rewrites your saved preferences.
