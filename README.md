@@ -291,6 +291,32 @@ other finds the destination whose score varies most across the year and checks
 that the timeless score lands *inside* that range rather than on top of any
 single month of it.
 
+### Sharing a link
+
+The world is part of the address, not just localStorage — otherwise a link to a
+fictional realm opened whichever world the recipient happened to look at last.
+
+```
+/fiction                      the fictional catalogue
+/real                         the real one
+/?world=fiction#/place/rivendell     one realm, directly
+```
+
+`/fiction` and `/real` are 302 redirects to the query form (see `netlify.toml`).
+A 200 rewrite would look tidier in the address bar and would break the moment
+somebody typed a trailing slash, since every relative path would then resolve
+one directory too deep.
+
+Switching worlds rewrites the address with `replaceState`, so the address bar
+always describes what is on screen and copying it always shares the right thing.
+The 🔗 button in the top bar does the same in one tap, using the native share
+sheet where there is one.
+
+That rewrite is guarded, and deliberately skipped on `file://`. Some browsers
+refuse `replaceState` there, and `vacation-guru.html` is meant to be opened
+straight off a disk — an app that would not start because it could not tidy its
+own address bar is a bad trade.
+
 ### Browsing the catalogue
 
 Matches shows the top of a ranked list, which is right for choosing and useless for
@@ -349,7 +375,7 @@ shipped — a mountain bike for "Giant hand", Lambeau Field for "Frozen tundra",
 Crimean War photograph for "Empty Italian", an arena for "Viking hall" — and each is
 pinned here so it cannot come back.
 
-**`test-bundle.mjs` (9 checks)** executes `vacation-guru.html` with `fetch`
+**`test-bundle.mjs` (12 checks)** executes `vacation-guru.html` with `fetch`
 **deleted**, proving the single file really is self-sufficient — it boots, renders,
 and scores a preset with no network whatsoever.
 

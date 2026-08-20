@@ -1,5 +1,5 @@
 import { h, mount, $ } from './util/dom.js';
-import { loadAll, loadWorlds, worlds, activeWorld } from './data.js';
+import { loadAll, loadWorlds, worlds, worldMeta, activeWorld } from './data.js';
 import * as store from './state.js';
 import { renderSetup } from './ui/setup.js';
 import { renderCriteria } from './ui/criteria.js';
@@ -115,11 +115,92 @@ function paintWorldSwitch() {
   );
 }
 
+/**
+ * Which world a link is asking for.
+ *
+ * The world used to live only in localStorage, which made it impossible to
+ * share: a link to a fictional realm opened whichever world the recipient last
+ * looked at. It is now part of the address, so a URL means the same thing to
+ * everybody. `/fiction` is redirected to `?world=fiction` by netlify.toml.
+ */
+function worldFromUrl() {
+  try {
+    const q = new URLSearchParams(location.search || '').get('world');
+    if (q) return q;
+    const seg = String(location.pathname || '').replace(/\/+$/, '').split('/').pop();
+    return worlds().some((w) => w.id === seg) ? seg : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Keep the address bar honest, so copying it always shares what you see.
+ *
+ * Guarded because this is a nicety, not a mechanism. Opening
+ * vacation-guru.html straight off the disk gives a file:// URL, where some
+ * browsers refuse replaceState outright — and an app that will not start
+ * because it could not tidy its own address bar would be a poor trade.
+ */
+function writeWorldToUrl(id) {
+  if (typeof history === 'undefined' || typeof history.replaceState !== 'function') return;
+  if (String(location.protocol) === 'file:') return;
+  try {
+    const url = new URL(location.href);
+    const isDefault = id === (worlds()[0] && worlds()[0].id);
+    if (isDefault) url.searchParams.delete('world');
+    else url.searchParams.set('world', id);
+    // replaceState, not pushState: switching worlds should not fill the back
+    // button with entries that look identical.
+    history.replaceState(null, '', url.toString());
+  } catch {
+    /* Not being able to rewrite the URL changes nothing about the app. */
+  }
+}
+
+/**
+ * Copy a link to exactly what is on screen — the world and the hash route.
+ *
+ * Everything needed is already in the address bar, so this is a convenience
+ * rather than a mechanism: it saves reaching for the URL, and on a phone it
+ * hands off to the native share sheet.
+ */
+async function shareCurrentView() {
+  const btn = $('#shareBtn');
+  const url = location.href;
+  const say = (text) => {
+    if (!btn) return;
+    const before = btn.textContent;
+    btn.textContent = text;
+    setTimeout(() => { btn.textContent = before; }, 1600);
+  };
+
+  const meta = worldMeta();
+  const title = meta ? `Vacation Guru — ${meta.label}` : 'Vacation Guru';
+
+  if (typeof navigator !== 'undefined' && navigator.share) {
+    try {
+      await navigator.share({ title, url });
+      return;
+    } catch {
+      // Cancelled, or unavailable in this context — fall through to copying.
+    }
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    say('✓');
+  } catch {
+    // Clipboard access can be refused; showing the link beats silence.
+    if (typeof window !== 'undefined' && window.prompt) window.prompt('Copy this link:', url);
+  }
+}
+
 /** Swap datasets. Each world keeps its own answers, so nothing is lost. */
 async function switchWorld(id) {
   if (id === activeWorld()) return;
   const loaded = await loadAll(id);
   store.setWorld(id, loaded.world);
+  writeWorldToUrl(id);
   applyWorldTheme(id);
   paintWorldSwitch();
   resetPaging();
@@ -131,8 +212,15 @@ async function boot() {
   try {
     await loadWorlds();
     await store.restore();
-    const loaded = await loadAll(store.state.world);
-    store.setWorld(store.state.world, loaded.world);
+
+    // A world named in the link wins over the one remembered from last time —
+    // that is the whole point of being able to send somebody a link.
+    const asked = worldFromUrl();
+    const wanted = worlds().some((w) => w.id === asked) ? asked : store.state.world;
+
+    const loaded = await loadAll(wanted);
+    store.setWorld(wanted, loaded.world);
+    writeWorldToUrl(wanted);
   } catch (e) {
     fatal('Could not load the destination data',
       e.message || 'Vacation Guru uses ES modules and fetch(), which browsers block on file:// URLs. Serve the folder over HTTP instead:');
@@ -161,6 +249,9 @@ async function bootApp() {
     pending = true;
     queueMicrotask(() => { pending = false; paintTabs(); });
   });
+
+  const shareBtn = $('#shareBtn');
+  if (shareBtn) shareBtn.addEventListener('click', shareCurrentView);
 
   window.addEventListener('hashchange', () => {
     if ((location.hash || '').startsWith('#/results')) resetPaging();

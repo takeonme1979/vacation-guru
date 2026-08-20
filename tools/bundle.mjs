@@ -208,6 +208,7 @@ ${css}
     </a>
     <div class="topbar__right">
       <div id="worldSwitch" class="worlds"></div>
+      <button id="shareBtn" class="icon-btn" aria-label="Copy a link to this view" title="Copy link">🔗</button>
       <button id="themeToggle" class="icon-btn" aria-label="Switch colour theme" title="Switch theme">◐</button>
     </div>
   </header>

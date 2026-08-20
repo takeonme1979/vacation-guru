@@ -77,10 +77,28 @@ class Txt {
   get textContent() { return this._t; }
 }
 
+/**
+ * Selector matching: an optional tag, an optional #id, and any number of
+ * .classes.
+ *
+ * Compound class selectors are supported because not supporting them failed
+ * silently: `.worlds__btn.is-on` was read as one class name called
+ * "worlds__btn.is-on", matched nothing, and a test asserting that exactly one
+ * world was marked active could never have passed no matter what the app did.
+ * A shim that quietly answers "no" is worse than one that throws.
+ */
 function matches(node, sel) {
-  if (sel.startsWith('.')) return String(node.className).split(/\s+/).includes(sel.slice(1));
-  if (sel.startsWith('#')) return node.attributes.id === sel.slice(1);
-  return node.tagName === sel.toUpperCase();
+  const m = /^([a-zA-Z][\w-]*)?(#[\w-]+)?((?:\.[\w-]+)*)$/.exec(String(sel).trim());
+  if (!m) throw new Error(`dom-shim: unsupported selector "${sel}"`);
+  const [, tag, id, classes] = m;
+  if (!tag && !id && !classes) return false;
+  if (tag && node.tagName !== tag.toUpperCase()) return false;
+  if (id && node.attributes.id !== id.slice(1)) return false;
+  if (classes) {
+    const have = String(node.className || '').split(/\s+/);
+    for (const c of classes.split('.').filter(Boolean)) if (!have.includes(c)) return false;
+  }
+  return true;
 }
 
 /**
@@ -89,7 +107,7 @@ function matches(node, sel) {
  * @param {(url:string)=>Promise<any>} [opts.fetchFile] resolves a URL to text
  * @returns {{body:Nd, screen:Nd, storage:Map}}
  */
-export function installDom({ fetchFile = null, hash = '#/setup' } = {}) {
+export function installDom({ fetchFile = null, hash = '#/setup', search = '' } = {}) {
   // Mirror the real shell in index.html, or code that looks up #tabbar / #topbar
   // silently no-ops and the tests pass for the wrong reason.
   const body = new Nd('body');
@@ -98,6 +116,25 @@ export function installDom({ fetchFile = null, hash = '#/setup' } = {}) {
 
   const topbar = new Nd('header');
   topbar.attributes.id = 'topbar';
+
+  // The top bar's own controls. Without these, paintWorldSwitch() looked up a
+  // node that was not there, returned early, and every test passed while the
+  // world switch rendered nothing at all.
+  const worldSwitch = new Nd('div');
+  worldSwitch.attributes.id = 'worldSwitch';
+  worldSwitch.className = 'worlds';
+
+  const shareBtn = new Nd('button');
+  shareBtn.attributes.id = 'shareBtn';
+  shareBtn.className = 'icon-btn';
+
+  const themeToggle = new Nd('button');
+  themeToggle.attributes.id = 'themeToggle';
+  themeToggle.className = 'icon-btn';
+
+  topbar.appendChild(worldSwitch);
+  topbar.appendChild(shareBtn);
+  topbar.appendChild(themeToggle);
 
   const screen = new Nd('main');
   screen.attributes.id = 'screen';
@@ -135,8 +172,28 @@ export function installDom({ fetchFile = null, hash = '#/setup' } = {}) {
     removeItem: (k) => storage.delete(k)
   };
 
-  global.location = { hash, protocol: 'http:', href: 'http://localhost/' };
-  global.history = { back() {}, pushState() {} };
+  // A realistic-enough Location and History. These exist because the app reads
+  // the world out of the address (?world=fiction) and writes it back, and a
+  // shim missing pathname/search/replaceState hid that from every test.
+  global.location = {
+    hash,
+    protocol: 'http:',
+    href: 'http://localhost/' + search,
+    origin: 'http://localhost',
+    pathname: '/',
+    search
+  };
+  global.history = {
+    back() {},
+    pushState() {},
+    replaceState(_state, _title, url) {
+      if (!url) return;
+      const next = new URL(String(url), global.location.href);
+      global.location.href = next.href;
+      global.location.pathname = next.pathname;
+      global.location.search = next.search;
+    }
+  };
   // Node 24 defines `navigator` as a getter-only global, so plain assignment throws.
   Object.defineProperty(global, 'navigator', {
     value: { userAgent: 'node' }, configurable: true, writable: true
@@ -153,7 +210,7 @@ export function installDom({ fetchFile = null, hash = '#/setup' } = {}) {
 
   if (fetchFile) global.fetch = fetchFile;
 
-  return { body, screen, tabbar, topbar, storage, Nd };
+  return { body, screen, tabbar, topbar, worldSwitch, shareBtn, storage, Nd };
 }
 
 export const countNodes = (n) => [...n.walk()].length;

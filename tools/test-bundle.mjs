@@ -116,5 +116,43 @@ check('no NaN or undefined leaked into the page', () => {
   return 'clean';
 });
 
+// ---------------------------------------------------------------------------
+// A second boot, from a link that names a world.
+//
+// The world used to live only in localStorage, so a link to a fictional realm
+// opened whichever world the recipient last looked at. Re-running the bundle
+// against a fresh DOM proves the address is now what decides.
+
+console.log('\nA shared link opens the world it names');
+
+const second = installDom({ search: '?world=fiction' });
+delete global.fetch;
+
+check('?world=fiction boots straight into fiction', () => {
+  runInThisContext(appScript, { filename: 'vacation-guru.html#fiction' });
+  return 'bundle re-executed against a fiction link';
+});
+
+await new Promise((r) => setTimeout(r, 60));
+
+check('it is really the fictional catalogue, not the real one', () => {
+  const t = second.screen.textContent;
+  assert(!/Loading destinations/.test(t), 'still on the loading message');
+  // Fiction has no calendar, so the month picker must be absent; the real
+  // world's setup screen always has twelve of them.
+  assert(second.screen.querySelectorAll('.months__btn').length === 0,
+    'a month picker rendered — this is the real world, not fiction');
+  assert(/expedition|realm/i.test(t) || /Shoestring|Lavish/.test(t),
+    'nothing on screen identifies this as the fictional world');
+  return 'fiction, with no calendar';
+});
+
+check('the world switch shows fiction as the active one', () => {
+  const on = second.body.querySelectorAll('.worlds__btn.is-on').map((b) => b.textContent);
+  assert(on.length === 1, `${on.length} worlds marked active`);
+  assert(/Fiction/i.test(on[0]), `active world reads "${on[0]}"`);
+  return on[0];
+});
+
 console.log(`\n${passed} passed, ${failures.length} failed\n`);
 if (failures.length) { for (const f of failures) console.error('  FAIL ' + f); process.exit(1); }

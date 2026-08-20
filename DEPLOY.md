@@ -102,6 +102,25 @@ differences:
 
 ---
 
+## Share links
+
+Once the site is up:
+
+| Link | Opens |
+| --- | --- |
+| `https://<site>/` | the real world |
+| `https://<site>/fiction` | the fictional catalogue |
+| `https://<site>/real` | the real one, explicitly |
+| `https://<site>/?world=fiction#/place/rivendell` | Rivendell, directly |
+
+`/fiction` and `/real` are redirects declared in `netlify.toml`, so they work
+the moment the site deploys — no configuration in the Netlify UI.
+
+The 🔗 button in the top bar copies a link to whatever is currently on screen,
+world included.
+
+---
+
 ## If you want *zero* deploys for data updates
 
 You almost certainly do not need this, but it exists.
