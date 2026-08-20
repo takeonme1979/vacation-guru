@@ -1685,19 +1685,34 @@ function scoreCriterion(criterion, dest, prefs) {
       const want = prefs.targets?.costTier ?? 2;
       const label = costTierLabel(tier);
 
-      if (tier <= want) {
-        // Cheaper than you're prepared for is mildly better than exactly right.
-        const headroom = (want - tier) / (COST_TIERS.length - 1);
+      // A three-way choice of trip is a TARGET, not a ceiling.
+      //
+      // This used to mirror the money model — "I can spend up to X", with a
+      // bonus for coming in under. Over three steps that had a bad property:
+      // raising the tier lifted every score without changing their order, so
+      // the cheapest realms sat at the top whichever tier you picked and the
+      // control appeared to do nothing at all. Asking for Lavish has to favour
+      // lavish places.
+      //
+      // The distance is asymmetric, because the two mismatches are not alike.
+      // Somewhere beyond your means is a hard problem; somewhere grander than
+      // you asked for is merely not what you had in mind.
+      const steps = COST_TIERS.length - 1;
+      if (tier === want) {
+        return { score: 1, detail: `${label} — exactly the sort of trip you asked for`, value: tier };
+      }
+      if (tier > want) {
+        const over = (tier - want) / steps;
         return {
-          score: clamp01(0.85 + 0.15 * headroom),
-          detail: `${label} — within what you're prepared to spend`,
+          score: clamp01(0.85 * (1 - over / 0.9)),
+          detail: `${label} — beyond what you're prepared to spend`,
           value: tier
         };
       }
-      const over = (tier - want) / (COST_TIERS.length - 1);
+      const under = (want - tier) / steps;
       return {
-        score: clamp01(0.85 * (1 - over / 0.9)),
-        detail: `${label} — beyond what you're prepared to spend`,
+        score: clamp01(1 - 0.32 * under),
+        detail: `${label} — cheaper than the trip you described`,
         value: tier
       };
     }
@@ -2440,7 +2455,7 @@ const isComparing = (id) => state.compare.includes(id);
 };
 
 __mods["ui/components.js"] = function (__x) {
-const { h, svg } = __req("util/dom.js");
+const { h, svg, mount } = __req("util/dom.js");
 const { imgEl, heroPhoto } = __req("images.js");
 const { MONTHS, MONTHS_SHORT, IMPORTANCE_LABELS, crowdWord, BUDGET_STYLES, budgetSpread, COST_TIERS, costTierLabel, SEASONS, seasonOf, periodLabel } = __req("scoring.js");
 const { data } = __req("data.js");
@@ -2857,24 +2872,40 @@ function targetControl(criterion, prefs, go) {
       return block;
     }
 
-    case 'tier':
+    case 'tier': {
+      // Repaints itself. segmented() renders its highlight once, so without
+      // this the selection stored fine and nothing on screen moved: the tick
+      // stayed put, the readout kept the old label, and the control looked
+      // broken even though the scoring behind it had changed.
+      const readout = h('span', { class: 'range__readout' });
+      const segEl = h('div', { class: 'seg-slot' });
+      const hint = h('p', { class: 'range__hint' });
+
+      const paint = () => {
+        const cur = store.state.prefs.targets.costTier ?? 2;
+        readout.textContent = costTierLabel(cur);
+        hint.textContent = (COST_TIERS.find((t) => t.id === cur) || {}).help
+          + '. Grander places score lower, and anything beyond it scores much lower.';
+        mount(segEl, segmented(
+          COST_TIERS.map((t) => ({ id: t.id, label: t.label, help: t.help })),
+          cur,
+          (id) => { store.setTarget('costTier', id); paint(); },
+          { label: 'Kind of trip' }
+        ));
+      };
+      paint();
+
       return h('div', { class: 'crit__target' },
         h('div', { class: 'range' },
           h('div', { class: 'range__head' },
-            h('span', { class: 'range__label' }, 'How much are you prepared to spend?'),
-            h('span', { class: 'range__readout' }, costTierLabel(prefs.targets.costTier ?? 2))
+            h('span', { class: 'range__label' }, 'What sort of trip do you want?'),
+            readout
           ),
-          segmented(
-            COST_TIERS.map((t) => ({ id: t.id, label: t.label, help: t.help })),
-            prefs.targets.costTier ?? 2,
-            (id) => store.setTarget('costTier', id),
-            { label: 'Spending level' }
-          ),
-          h('p', { class: 'range__hint' },
-            (COST_TIERS.find((t) => t.id === (prefs.targets.costTier ?? 2)) || {}).help
-            + '. Anywhere more expensive than this loses points.')
+          segEl,
+          hint
         )
       );
+    }
 
     case 'flight':
       if (!prefs.home) {

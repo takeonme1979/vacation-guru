@@ -324,19 +324,34 @@ export function scoreCriterion(criterion, dest, prefs) {
       const want = prefs.targets?.costTier ?? 2;
       const label = costTierLabel(tier);
 
-      if (tier <= want) {
-        // Cheaper than you're prepared for is mildly better than exactly right.
-        const headroom = (want - tier) / (COST_TIERS.length - 1);
+      // A three-way choice of trip is a TARGET, not a ceiling.
+      //
+      // This used to mirror the money model — "I can spend up to X", with a
+      // bonus for coming in under. Over three steps that had a bad property:
+      // raising the tier lifted every score without changing their order, so
+      // the cheapest realms sat at the top whichever tier you picked and the
+      // control appeared to do nothing at all. Asking for Lavish has to favour
+      // lavish places.
+      //
+      // The distance is asymmetric, because the two mismatches are not alike.
+      // Somewhere beyond your means is a hard problem; somewhere grander than
+      // you asked for is merely not what you had in mind.
+      const steps = COST_TIERS.length - 1;
+      if (tier === want) {
+        return { score: 1, detail: `${label} — exactly the sort of trip you asked for`, value: tier };
+      }
+      if (tier > want) {
+        const over = (tier - want) / steps;
         return {
-          score: clamp01(0.85 + 0.15 * headroom),
-          detail: `${label} — within what you're prepared to spend`,
+          score: clamp01(0.85 * (1 - over / 0.9)),
+          detail: `${label} — beyond what you're prepared to spend`,
           value: tier
         };
       }
-      const over = (tier - want) / (COST_TIERS.length - 1);
+      const under = (want - tier) / steps;
       return {
-        score: clamp01(0.85 * (1 - over / 0.9)),
-        detail: `${label} — beyond what you're prepared to spend`,
+        score: clamp01(1 - 0.32 * under),
+        detail: `${label} — cheaper than the trip you described`,
         value: tier
       };
     }

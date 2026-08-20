@@ -109,15 +109,84 @@ check('the same engine scores fiction', () => {
   return `top: ${results.slice(0, 3).map((r) => `${r.dest.name} ${r.overall}%`).join(', ')}`;
 });
 
-check('the cost tier scores monotonically', () => {
-  const crit = fic.criteriaById.get('cost');
-  assert(crit && crit.kind === 'tier', 'cost is not a tier criterion');
-  const prefs = { ...S.emptyPrefs() };
-  prefs.targets = { ...prefs.targets, costTier: 2 };
-  const scores = [1, 2, 3].map((t) => S.scoreCriterion(crit, { costTier: t }, prefs).score);
-  assert(scores.every((v, i) => i === 0 || scores[i - 1] >= v),
-    `not monotonic: ${scores.map((v) => v.toFixed(2)).join(' → ')}`);
-  return scores.map((v) => v.toFixed(2)).join(' → ');
+const tierCrit = fic.criteriaById.get('cost');
+const tierScore = (dest, want) => S.scoreCriterion(
+  tierCrit, { costTier: dest }, { ...S.emptyPrefs(), targets: { costTier: want } }
+).score;
+
+check('the cost tier is a target, so the tier you pick scores highest', () => {
+  assert(tierCrit && tierCrit.kind === 'tier', 'cost is not a tier criterion');
+  const rows = [];
+  for (const want of [1, 2, 3]) {
+    const scores = [1, 2, 3].map((t) => tierScore(t, want));
+    const best = scores.indexOf(Math.max(...scores)) + 1;
+    assert(best === want,
+      `asking for ${S.costTierLabel(want)} scores ${S.costTierLabel(best)} highest instead`);
+    // …and it falls away on both sides, without a bump.
+    for (let t = want; t < 3; t++) {
+      assert(scores[t] < scores[t - 1], `scores rise again above ${S.costTierLabel(want)}`);
+    }
+    for (let t = want; t > 1; t--) {
+      assert(scores[t - 2] < scores[t - 1], `scores rise again below ${S.costTierLabel(want)}`);
+    }
+    rows.push(scores.map((v) => v.toFixed(2)).join('/'));
+  }
+  return rows.join('  ');
+});
+
+check('being beyond your means costs more than being under it', () => {
+  // The two mismatches are not alike. Somewhere you cannot afford is a hard
+  // problem; somewhere grander than you asked for is merely not what you had
+  // in mind, and should not be punished as though it were unaffordable.
+  const over = tierScore(3, 2);
+  const under = tierScore(1, 2);
+  assert(over < under, `one step over scores ${over.toFixed(2)}, one step under ${under.toFixed(2)}`);
+  assert(under > 0.6, `one step under is punished far too hard (${under.toFixed(2)})`);
+  assert(over < 0.6, `one step over is barely punished (${over.toFixed(2)})`);
+  return `one step over ${over.toFixed(2)} vs one step under ${under.toFixed(2)}`;
+});
+
+check('choosing a tier actually re-ranks the catalogue', () => {
+  // The original model gave a bonus for coming in under, which meant raising
+  // the tier lifted every score without changing their order — the cheapest
+  // realms sat at the top whichever tier you picked, and the control looked
+  // like it did nothing at all.
+  const prefs = S.emptyPrefs();
+  prefs.weights = { cost: 3 };
+  const tops = [];
+  for (const want of [1, 2, 3]) {
+    const { results } = S.rankDestinations(
+      fic.destinations, { ...prefs, targets: { ...prefs.targets, costTier: want } }, fic.criteriaById);
+    const top = results.slice(0, 5);
+    for (const r of top) {
+      assert(r.dest.costTier === want,
+        `asking for ${S.costTierLabel(want)} put ${r.dest.name} (tier ${r.dest.costTier}) in the top five`);
+    }
+    tops.push(`${S.costTierLabel(want)}→${top[0].dest.name}`);
+  }
+  return tops.join(', ');
+});
+
+check('the cost control moves when you press it', () => {
+  // segmented() paints its highlight once. Without a repaint the choice was
+  // stored correctly and nothing on screen changed, which is indistinguishable
+  // from a broken control.
+  store.update((s) => { s.prefs.targets.costTier = 2; }, { persist: false });
+  const el = comps.targetControl(tierCrit, store.state.prefs, () => {});
+  const readout = () => el.querySelector('.range__readout').textContent;
+  const lit = () => el.querySelectorAll('.seg__btn.is-on').length;
+
+  assert(readout() === 'Comfortable', `starts at "${readout()}"`);
+  assert(lit() === 1, `${lit()} buttons lit at rest`);
+
+  el.querySelectorAll('.seg__btn')[2].click();
+  assert(store.state.prefs.targets.costTier === 3, 'the choice was not stored');
+  assert(readout() === 'Lavish', `readout still says "${readout()}" after choosing Lavish`);
+  assert(lit() === 1, `${lit()} buttons lit after the change`);
+
+  el.querySelectorAll('.seg__btn')[0].click();
+  assert(readout() === 'Shoestring', `readout still says "${readout()}" after choosing Shoestring`);
+  return 'readout and highlight both follow the click';
 });
 
 console.log('\nThe fiction screens render');

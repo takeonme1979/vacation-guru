@@ -1,4 +1,4 @@
-import { h, svg } from '../util/dom.js';
+import { h, svg, mount } from '../util/dom.js';
 import { imgEl, heroPhoto } from '../images.js';
 import {
   MONTHS, MONTHS_SHORT, IMPORTANCE_LABELS, crowdWord, BUDGET_STYLES, budgetSpread,
@@ -418,24 +418,40 @@ export function targetControl(criterion, prefs, go) {
       return block;
     }
 
-    case 'tier':
+    case 'tier': {
+      // Repaints itself. segmented() renders its highlight once, so without
+      // this the selection stored fine and nothing on screen moved: the tick
+      // stayed put, the readout kept the old label, and the control looked
+      // broken even though the scoring behind it had changed.
+      const readout = h('span', { class: 'range__readout' });
+      const segEl = h('div', { class: 'seg-slot' });
+      const hint = h('p', { class: 'range__hint' });
+
+      const paint = () => {
+        const cur = store.state.prefs.targets.costTier ?? 2;
+        readout.textContent = costTierLabel(cur);
+        hint.textContent = (COST_TIERS.find((t) => t.id === cur) || {}).help
+          + '. Grander places score lower, and anything beyond it scores much lower.';
+        mount(segEl, segmented(
+          COST_TIERS.map((t) => ({ id: t.id, label: t.label, help: t.help })),
+          cur,
+          (id) => { store.setTarget('costTier', id); paint(); },
+          { label: 'Kind of trip' }
+        ));
+      };
+      paint();
+
       return h('div', { class: 'crit__target' },
         h('div', { class: 'range' },
           h('div', { class: 'range__head' },
-            h('span', { class: 'range__label' }, 'How much are you prepared to spend?'),
-            h('span', { class: 'range__readout' }, costTierLabel(prefs.targets.costTier ?? 2))
+            h('span', { class: 'range__label' }, 'What sort of trip do you want?'),
+            readout
           ),
-          segmented(
-            COST_TIERS.map((t) => ({ id: t.id, label: t.label, help: t.help })),
-            prefs.targets.costTier ?? 2,
-            (id) => store.setTarget('costTier', id),
-            { label: 'Spending level' }
-          ),
-          h('p', { class: 'range__hint' },
-            (COST_TIERS.find((t) => t.id === (prefs.targets.costTier ?? 2)) || {}).help
-            + '. Anywhere more expensive than this loses points.')
+          segEl,
+          hint
         )
       );
+    }
 
     case 'flight':
       if (!prefs.home) {

@@ -263,6 +263,30 @@ tools/
   serve.mjs           static server
 ```
 
+### Cost, where money is not comparable
+
+A fictional realm has no meaningful price per night, but "you could do this on a
+shoestring" versus "you would need a dragon's hoard" is still a real
+distinction. So fiction replaces the money slider with three tiers — Shoestring,
+Comfortable, Lavish — scored by a `tier` criterion kind.
+
+The tier is a **target, not a ceiling**, and that distinction was got wrong
+first time round. It originally mirrored the money model, where "I can spend up
+to £X" means coming in under is a bonus. Across only three steps that had a bad
+property: raising the tier lifted every score without changing their order, so
+the cheapest realms sat at the top whichever tier you picked and the control
+appeared to do nothing.
+
+The distance is deliberately asymmetric, because the two mismatches are not
+alike — somewhere beyond your means is a hard problem, somewhere grander than
+you asked for is merely not what you had in mind:
+
+| you asked for | Shoestring | Comfortable | Lavish |
+| --- | --- | --- | --- |
+| **Shoestring** | 1.00 | 0.38 | 0.00 |
+| **Comfortable** | 0.84 | 1.00 | 0.38 |
+| **Lavish** | 0.68 | 0.84 | 1.00 |
+
 ### Time, where there isn't a calendar
 
 "Are you going to Mordor in June?" is a silly question, and so is "for how many
@@ -363,7 +387,7 @@ CSS custom property silently dropped by `Object.assign`, which collapsed the who
 compare grid into one column, and a `replaceChildren(x, null)` that would have
 rendered the literal text "null" on a button.
 
-**`test-worlds.mjs` (25 checks)** proves fiction runs through the same code path as
+**`test-worlds.mjs` (28 checks)** proves fiction runs through the same code path as
 the real world, that switching worlds keeps both sets of answers, that a world with
 no money, no aeroplanes and no calendar renders controls for none of them, that every universe is
 credited, and that browsing never rewrites your saved preferences.
