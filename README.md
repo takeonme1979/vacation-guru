@@ -481,30 +481,32 @@ Two complete worlds, one engine.
 
 | | Real | Fiction |
 | --- | --- | --- |
-| Destinations | 289 | 128 |
-| Countries / universes | 104 | 47 |
+| Destinations | 373 | 143 |
+| Countries / universes | 128 | 47 |
 | Criteria | 88 (79 rated) | 78 (70 rated) |
-| Rated data points | 22,831 | 8,960 |
-| Photo topics | 1,734 | 768 |
+| Rated data points | 29,467 | 10,010 |
+| Photographs resolved | 2,213 | 757 |
 
-**289 destinations across 104 countries**, covering every inhabited continent:
+**373 destinations across 128 countries**, deliberately not Europe-heavy:
 
 | Region | Destinations |
 | --- | --- |
-| Europe | 100 |
-| Asia | 74 |
-| North America | 40 |
-| Africa | 25 |
-| South America | 21 |
-| Caribbean | 12 |
-| Oceania | 17 |
+| Europe | 109 |
+| Asia | 93 |
+| North America | 50 |
+| Africa | 41 |
+| South America | 35 |
+| Oceania | 29 |
+| Caribbean | 16 |
 
-22,831 rated data points, plus a 12-month climate, crowd and price
-profile for every destination.
+Europe was 35% of the first pass and is 29% now. The second pass weighted Africa
+(+64%), Oceania (+71%) and South America (+67%), and added the European countries
+the first pass skipped entirely rather than more of France.
 
-The fictional catalogue spans 47 universes — Middle-earth, Westeros, the Star Wars
-galaxy, the Federation, Arrakis, Discworld, Narnia, Hogwarts, Earthsea, Tamriel,
-Hyrule, Faerûn, Azeroth, the Culture, Trantor, Gallifrey, Barsoom, Wakanda, Panem,
-Airstrip One and the rest — with every work credited behind the ⓘ button.
+The fictional catalogue spans 47 universes — Middle-earth, Westeros, the Star
+Wars galaxy, the Federation, Arrakis, Discworld, Narnia, Hogwarts, Earthsea,
+Tamriel, Hyrule, Faerûn, Azeroth, the Culture, Trantor, Gallifrey, Barsoom,
+Wakanda, Panem, Neverland, Airstrip One and the rest — with every work credited
+behind the ⓘ button.
 
 Engine, UI, offline support, photo pipeline and tooling are complete.

@@ -2,6 +2,48 @@
   "_doc": "Europe, second pass — the Balkans, the Carpathians and the microstates that the first pass skipped.",
   "destinations": [
     {
+      "id": "stonehenge-gb",
+      "name": "Stonehenge & Avebury",
+      "country": "GB",
+      "region": "Wiltshire",
+      "continent": "Europe",
+      "lat": 51.179,
+      "lon": -1.826,
+      "type": "region",
+      "arch": "historic-city",
+      "blurb": "Stones dragged 150 miles and raised five thousand years ago, aligned to midsummer sunrise by people who left no writing. Avebury up the road is bigger, older and you can walk among it.",
+      "tags": ["neolithic", "solstice", "avebury", "silbury hill"],
+      "climate": {
+        "tempHigh": [8, 8, 11, 14, 17, 20, 22, 22, 19, 15, 11, 8],
+        "tempLow": [2, 2, 3, 4, 7, 10, 12, 12, 10, 8, 4, 2],
+        "rainDays": [13, 11, 11, 10, 10, 9, 9, 9, 10, 12, 13, 13],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 2],
+        "humidity": [88, 85, 81, 76, 75, 74, 73, 76, 80, 85, 88, 89]
+      },
+      "crowd": [42, 42, 52, 62, 72, 88, 92, 92, 75, 58, 45, 45],
+      "priceIndex": [66, 66, 74, 82, 88, 96, 100, 100, 88, 76, 68, 70],
+      "cost": {
+        "budget": 62,
+        "mid": 140,
+        "luxury": 350
+      },
+      "r": {
+        "historicSites": 100, "religiousSites": 78, "museums": 82, "architecture": 78,
+        "localCulture": 78, "scenery": 82, "hiking": 82, "cycling": 85, "wildlife": 62,
+        "stargazing": 88, "walkability": 72, "roadTrip": 82, "festivals": 78, "foodScene": 78,
+        "beer": 88, "wine": 62, "englishSpoken": 100, "safety": 92, "accessibility": 78,
+        "familyYoungKids": 78, "seniors": 85, "valueForMoney": 48, "romance": 68, "skiing": 0
+      },
+      "photos": [
+        "Stonehenge Wiltshire England",
+        "Stonehenge sunrise solstice",
+        "Avebury stone circle village",
+        "Silbury Hill Wiltshire",
+        "Salisbury Cathedral spire",
+        "Wiltshire chalk downland path"
+      ]
+    },
+    {
       "id": "transylvania-ro",
       "name": "Transylvania & Brașov",
       "country": "RO",

@@ -1,27 +1,27 @@
 {
-  "builtId": "f3d3d8e8276c",
+  "builtId": "fdc6c88c7c09",
   "schemaVersion": 1,
-  "destinations": 367,
-  "countries": 127,
+  "destinations": 373,
+  "countries": 128,
   "ratedCriteria": 79,
   "totalCriteria": 88,
-  "dataPoints": 28993,
-  "photoTopics": 2202,
+  "dataPoints": 29467,
+  "photoTopics": 2238,
   "byContinent": {
     "Oceania": 29,
-    "Asia": 88,
+    "Asia": 93,
     "North America": 50,
     "Africa": 41,
-    "Europe": 108,
+    "Europe": 109,
     "Caribbean": 16,
     "South America": 35
   },
   "byType": {
-    "coast": 46,
-    "city": 139,
-    "region": 57,
+    "coast": 47,
+    "city": 140,
+    "region": 60,
     "mountains": 39,
     "island": 78,
-    "lake": 8
+    "lake": 9
   }
 }
