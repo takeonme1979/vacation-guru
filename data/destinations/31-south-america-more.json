@@ -1,0 +1,577 @@
+{
+  "_doc": "South America, third pass — Paraguay, the Guianas, and Venezuela rated on the country as it is now.",
+  "destinations": [
+    {
+      "id": "angel-falls-ve",
+      "name": "Angel Falls & Canaima",
+      "country": "VE",
+      "region": "The Gran Sabana",
+      "continent": "South America",
+      "lat": 5.97,
+      "lon": -62.54,
+      "type": "region",
+      "arch": "wilderness-park",
+      "blurb": "The tallest waterfall on earth, a kilometre of unbroken drop off a tabletop mountain older than the continents around it — reached only by small plane and dugout canoe.",
+      "tags": ["tallest waterfall", "tepuis", "no roads in", "lost world"],
+      "climate": {
+        "tempHigh": [29, 30, 30, 29, 28, 27, 27, 28, 29, 29, 29, 29],
+        "tempLow": [19, 19, 20, 20, 20, 19, 19, 19, 19, 19, 19, 19],
+        "rainDays": [3, 2, 3, 8, 16, 20, 20, 18, 14, 10, 6, 4],
+        "sunHours": [8, 8, 7, 6, 5, 4, 4, 5, 6, 7, 7, 7],
+        "humidity": [72, 70, 72, 78, 84, 86, 86, 84, 80, 76, 74, 72]
+      },
+      "crowd": [22, 22, 20, 18, 15, 12, 12, 15, 18, 22, 25, 24],
+      "priceIndex": [42, 42, 40, 38, 36, 34, 34, 36, 38, 40, 42, 42],
+      "cost": {
+        "budget": 55,
+        "mid": 155,
+        "luxury": 480
+      },
+      "r": {
+        "scenery": 100, "hiking": 82, "nationalParks": 92, "wildlife": 78, "forests": 90,
+        "lakesRivers": 92, "kayaking": 82, "adrenaline": 78, "stargazing": 78,
+        "localCulture": 68, "valueForMoney": 62, "romance": 78, "safety": 25,
+        "familyYoungKids": 32
+      },
+      "photos": [
+        "Angel Falls Venezuela waterfall",
+        "Canaima tepui Venezuela",
+        "Gran Sabana Venezuela landscape",
+        "Angel Falls dugout canoe",
+        "Venezuela tabletop mountain",
+        "Canaima lagoon Venezuela"
+      ]
+    },
+    {
+      "id": "los-roques-ve",
+      "name": "Los Roques",
+      "country": "VE",
+      "region": "The Caribbean coast",
+      "continent": "South America",
+      "lat": 11.85,
+      "lon": -66.67,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "A national park of forty-two cays and a lagoon so pale turquoise it barely looks real, once ranked among the best beaches in the world and reachable only by small plane.",
+      "tags": ["coral cays", "bonefishing", "no cars", "turquoise lagoon"],
+      "climate": {
+        "tempHigh": [29, 29, 29, 30, 30, 30, 31, 31, 31, 31, 30, 30],
+        "tempLow": [23, 23, 23, 24, 25, 25, 25, 25, 25, 25, 24, 23],
+        "rainDays": [3, 2, 2, 2, 4, 5, 5, 5, 6, 8, 6, 4],
+        "sunHours": [9, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 9],
+        "humidity": [70, 70, 70, 70, 72, 72, 72, 72, 74, 74, 72, 71],
+        "seaTemp": [26, 26, 26, 27, 28, 28, 28, 28, 28, 28, 27, 27]
+      },
+      "crowd": [32, 32, 35, 32, 28, 25, 28, 28, 22, 22, 25, 32],
+      "priceIndex": [58, 58, 60, 58, 54, 50, 52, 52, 48, 48, 50, 56],
+      "cost": {
+        "budget": 68,
+        "mid": 195,
+        "luxury": 620
+      },
+      "r": {
+        "beaches": 100, "swimming": 96, "snorkelling": 92, "scuba": 85, "islands": 96,
+        "sailing": 88, "kayaking": 82, "fishing": 92, "scenery": 96, "romance": 96,
+        "valueForMoney": 45, "safety": 42, "familyYoungKids": 55, "luxury": 78
+      },
+      "photos": [
+        "Los Roques Venezuela aerial",
+        "Los Roques turquoise lagoon",
+        "Los Roques beach cay",
+        "Los Roques sailing boats",
+        "Venezuela Caribbean island",
+        "Los Roques snorkelling reef"
+      ]
+    },
+    {
+      "id": "kaieteur-gy",
+      "name": "Kaieteur Falls",
+      "country": "GY",
+      "region": "The Guiana Highlands",
+      "continent": "South America",
+      "lat": 5.17,
+      "lon": -59.48,
+      "type": "region",
+      "arch": "wilderness-park",
+      "blurb": "Five times the height of Niagara and four times the width, in rainforest so untouched you can fly there for the day and see almost nobody else at all.",
+      "tags": ["single-drop waterfall", "untouched rainforest", "cock-of-the-rock", "day trip flight"],
+      "climate": {
+        "tempHigh": [28, 28, 28, 27, 27, 27, 27, 28, 28, 28, 28, 28],
+        "tempLow": [20, 20, 20, 20, 20, 19, 19, 19, 19, 19, 20, 20],
+        "rainDays": [16, 14, 16, 18, 20, 18, 14, 10, 8, 10, 14, 17],
+        "sunHours": [6, 6, 6, 5, 5, 5, 6, 7, 7, 7, 6, 5],
+        "humidity": [82, 82, 82, 84, 86, 86, 82, 78, 76, 78, 80, 82]
+      },
+      "crowd": [15, 15, 12, 12, 10, 10, 12, 15, 15, 15, 15, 15],
+      "priceIndex": [46, 46, 44, 42, 42, 42, 44, 46, 46, 46, 46, 46],
+      "cost": {
+        "budget": 42,
+        "mid": 115,
+        "luxury": 380
+      },
+      "r": {
+        "scenery": 98, "forests": 96, "wildlife": 88, "nationalParks": 92, "hiking": 62,
+        "lakesRivers": 88, "stargazing": 72, "ecoFriendly": 88, "valueForMoney": 72,
+        "safety": 62, "romance": 68, "familyYoungKids": 35
+      },
+      "photos": [
+        "Kaieteur Falls Guyana waterfall",
+        "Guyana rainforest aerial",
+        "Kaieteur Falls plunge pool",
+        "Guyana Guiana Highlands",
+        "Cock of the rock Guyana bird",
+        "Kaieteur gorge rainforest"
+      ]
+    },
+    {
+      "id": "asuncion-py",
+      "name": "Asunción & the Jesuit Missions",
+      "country": "PY",
+      "region": "Paraguay",
+      "continent": "South America",
+      "lat": -25.28,
+      "lon": -57.63,
+      "type": "city",
+      "arch": "latin-city",
+      "blurb": "One of South America's oldest cities, laid-back and cheap, with the ruins of Jesuit reductions two hours south where Guaraní and Spanish priests built something briefly utopian.",
+      "tags": ["jesuit missions", "guaraní", "ñandutí lace", "tereré"],
+      "climate": {
+        "tempHigh": [34, 33, 31, 28, 24, 22, 22, 25, 27, 30, 32, 34],
+        "tempLow": [22, 22, 20, 17, 13, 11, 11, 12, 15, 18, 20, 22],
+        "rainDays": [9, 8, 8, 8, 8, 7, 6, 6, 8, 10, 9, 9],
+        "sunHours": [8, 8, 7, 7, 6, 6, 6, 7, 6, 7, 8, 8],
+        "humidity": [62, 64, 66, 68, 72, 74, 72, 66, 62, 62, 60, 60]
+      },
+      "crowd": [38, 38, 42, 45, 42, 38, 40, 42, 44, 45, 42, 42],
+      "priceIndex": [46, 46, 48, 50, 50, 48, 48, 48, 50, 50, 48, 48],
+      "cost": {
+        "budget": 22,
+        "mid": 52,
+        "luxury": 155
+      },
+      "r": {
+        "historicSites": 88, "architecture": 82, "museums": 68, "religiousSites": 85,
+        "localCulture": 92, "markets": 82, "foodScene": 78, "streetFood": 82, "walkability": 68,
+        "roadTrip": 72, "valueForMoney": 96, "backpacker": 82, "safety": 65,
+        "familyYoungKids": 55
+      },
+      "photos": [
+        "Asuncion Paraguay plaza",
+        "Jesuit missions ruins Paraguay",
+        "Paraguay Guarani craft market",
+        "Trinidad mission Paraguay",
+        "Asuncion waterfront Paraguay",
+        "Paraguay tereré drinking tradition"
+      ]
+    },
+    {
+      "id": "concepcion-py",
+      "name": "The Paraguayan Chaco",
+      "country": "PY",
+      "region": "Boquerón",
+      "continent": "South America",
+      "lat": -22.5,
+      "lon": -60.5,
+      "type": "wilderness",
+      "arch": "wilderness-park",
+      "blurb": "A vast dry thornforest twice the size of England, home to Mennonite farming colonies, jaguars, and roads so straight and empty they disappear into heat shimmer.",
+      "tags": ["mennonite colonies", "jaguars", "dry forest", "empty roads"],
+      "climate": {
+        "tempHigh": [35, 34, 32, 29, 26, 23, 24, 27, 29, 32, 34, 35],
+        "tempLow": [22, 22, 20, 16, 12, 9, 9, 11, 14, 18, 20, 22],
+        "rainDays": [8, 7, 7, 6, 5, 4, 3, 3, 5, 8, 8, 8],
+        "sunHours": [9, 9, 8, 8, 7, 7, 8, 8, 8, 8, 9, 9],
+        "humidity": [52, 54, 55, 58, 60, 60, 55, 48, 45, 46, 48, 50]
+      },
+      "crowd": [15, 15, 15, 12, 10, 10, 12, 15, 15, 15, 15, 15],
+      "priceIndex": [40, 40, 40, 40, 38, 36, 38, 40, 40, 42, 42, 42],
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 175
+      },
+      "r": {
+        "wildlife": 82, "nationalParks": 78, "forests": 82, "desert": 55, "scenery": 68,
+        "roadTrip": 88, "localCulture": 78, "stargazing": 82, "valueForMoney": 92, "safety": 62,
+        "familyYoungKids": 42
+      },
+      "photos": [
+        "Paraguayan Chaco landscape",
+        "Mennonite colony Paraguay",
+        "Chaco dry forest road",
+        "Paraguay jaguar wildlife",
+        "Chaco thornforest sunset",
+        "Paraguay rural farmland"
+      ]
+    },
+    {
+      "id": "manaus-br",
+      "name": "Manaus & the Amazon",
+      "country": "BR",
+      "region": "The Brazilian Amazon",
+      "continent": "South America",
+      "lat": -3.1,
+      "lon": -60.02,
+      "type": "jungle",
+      "arch": "jungle-eco",
+      "blurb": "A rubber-boom opera house in the middle of the largest rainforest on earth, and downriver the meeting of the waters where two rivers run side by side for miles without mixing.",
+      "tags": ["opera house", "meeting of waters", "amazon river", "pink dolphins"],
+      "climate": {
+        "tempHigh": [30, 30, 30, 30, 30, 31, 32, 33, 33, 33, 32, 31],
+        "tempLow": [23, 23, 23, 23, 23, 23, 23, 23, 24, 24, 24, 24],
+        "rainDays": [22, 20, 22, 21, 17, 10, 7, 6, 8, 12, 15, 19],
+        "sunHours": [4, 4, 4, 4, 5, 6, 7, 8, 7, 6, 5, 4],
+        "humidity": [88, 88, 88, 88, 86, 82, 76, 70, 68, 72, 78, 84]
+      },
+      "crowd": [32, 32, 30, 28, 30, 35, 42, 45, 42, 38, 35, 35],
+      "priceIndex": [56, 56, 54, 52, 54, 58, 64, 66, 62, 58, 56, 58],
+      "cost": {
+        "budget": 32,
+        "mid": 82,
+        "luxury": 280
+      },
+      "r": {
+        "forests": 98, "wildlife": 96, "nationalParks": 90, "lakesRivers": 96, "kayaking": 85,
+        "fishing": 85, "swimming": 62, "architecture": 78, "historicSites": 68, "museums": 62,
+        "localCulture": 82, "foodScene": 75, "ecoFriendly": 82, "adrenaline": 68,
+        "valueForMoney": 78, "backpacker": 75, "safety": 58, "romance": 68,
+        "familyYoungKids": 48
+      },
+      "photos": [
+        "Amazon rainforest canopy Brazil",
+        "Manaus Opera House Brazil",
+        "Meeting of the waters Amazon",
+        "Amazon river boat Brazil",
+        "Pink dolphin Amazon",
+        "Amazon jungle lodge Brazil"
+      ]
+    },
+    {
+      "id": "chapada-br",
+      "name": "Chapada Diamantina",
+      "country": "BR",
+      "region": "Bahia",
+      "continent": "South America",
+      "lat": -12.6,
+      "lon": -41.4,
+      "type": "mountains",
+      "arch": "wilderness-park",
+      "blurb": "A plateau of table mountains, underground rivers you can swim through by torchlight, and a waterfall that free-falls so far the water turns to mist before it lands.",
+      "tags": ["cave swimming", "table mountains", "fumaça waterfall", "diamond rush history"],
+      "climate": {
+        "tempHigh": [27, 27, 27, 25, 23, 22, 22, 23, 25, 26, 27, 27],
+        "tempLow": [17, 17, 17, 16, 14, 12, 12, 12, 14, 15, 16, 17],
+        "rainDays": [10, 9, 10, 10, 8, 6, 5, 4, 6, 9, 10, 10],
+        "sunHours": [7, 7, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7],
+        "humidity": [66, 66, 68, 68, 66, 62, 58, 54, 54, 58, 62, 64]
+      },
+      "crowd": [30, 30, 28, 25, 22, 25, 32, 32, 30, 28, 28, 32],
+      "priceIndex": [50, 50, 48, 46, 44, 44, 46, 48, 48, 48, 48, 50],
+      "cost": {
+        "budget": 26,
+        "mid": 65,
+        "luxury": 195
+      },
+      "r": {
+        "mountains": 92, "scenery": 96, "hiking": 96, "nationalParks": 90, "swimming": 85,
+        "kayaking": 68, "climbing": 78, "adrenaline": 85, "wildlife": 68, "stargazing": 85,
+        "valueForMoney": 90, "backpacker": 85, "romance": 72, "safety": 65,
+        "familyYoungKids": 45
+      },
+      "photos": [
+        "Chapada Diamantina Brazil waterfall",
+        "Cave swimming Brazil underground",
+        "Chapada table mountains Bahia",
+        "Fumaça waterfall Brazil",
+        "Chapada Diamantina hiking trail",
+        "Poço Azul cave pool Brazil"
+      ]
+    },
+    {
+      "id": "jericoacoara-br",
+      "name": "Jericoacoara",
+      "country": "BR",
+      "region": "Ceará",
+      "continent": "South America",
+      "lat": -2.8,
+      "lon": -40.5,
+      "type": "coast",
+      "arch": "beach-resort",
+      "blurb": "Sand streets, no traffic lights, a dune you climb every evening to watch the sunset with everyone else in town, and consistent kitesurfing wind almost year-round.",
+      "tags": ["sand streets", "kitesurfing", "sunset dune", "no cars"],
+      "climate": {
+        "tempHigh": [30, 30, 30, 30, 31, 30, 30, 31, 32, 32, 32, 31],
+        "tempLow": [23, 23, 23, 23, 23, 22, 21, 21, 22, 23, 23, 23],
+        "rainDays": [8, 9, 13, 14, 10, 4, 2, 1, 1, 1, 1, 3],
+        "sunHours": [8, 7, 7, 7, 8, 9, 9, 10, 10, 10, 9, 9],
+        "humidity": [72, 74, 76, 76, 72, 66, 60, 56, 55, 56, 60, 66],
+        "seaTemp": [27, 27, 27, 27, 27, 26, 26, 26, 26, 27, 27, 27]
+      },
+      "crowd": [42, 42, 38, 32, 35, 45, 62, 68, 62, 55, 48, 48],
+      "priceIndex": [58, 56, 52, 48, 50, 58, 68, 72, 68, 62, 58, 60],
+      "cost": {
+        "budget": 30,
+        "mid": 78,
+        "luxury": 260
+      },
+      "r": {
+        "beaches": 92, "swimming": 82, "surfing": 88, "waterSports": 96, "sailing": 78,
+        "kayaking": 68, "scenery": 88, "hiking": 62, "romance": 82, "bars": 78, "foodScene": 78,
+        "valueForMoney": 82, "backpacker": 88, "digitalNomad": 78, "safety": 62,
+        "familyYoungKids": 55
+      },
+      "photos": [
+        "Jericoacoara sunset dune Brazil",
+        "Jericoacoara sand street village",
+        "Kitesurfing Jericoacoara Brazil",
+        "Jericoacoara beach Brazil",
+        "Brazil dune lagoon",
+        "Jericoacoara sunset crowd dune"
+      ]
+    },
+    {
+      "id": "san-pedro-de-atacama-cl",
+      "name": "San Pedro de Atacama",
+      "country": "CL",
+      "region": "The Atacama",
+      "continent": "South America",
+      "lat": -22.91,
+      "lon": -68.2,
+      "type": "desert",
+      "arch": "desert",
+      "blurb": "The driest non-polar desert on earth, ringed by 6,000m volcanoes, with geysers steaming at dawn, salt flats full of flamingos, and clearer skies than almost anywhere for astronomy.",
+      "tags": ["driest desert", "geysers", "flamingos", "astro tourism"],
+      "climate": {
+        "tempHigh": [24, 23, 22, 21, 19, 17, 17, 19, 21, 23, 24, 24],
+        "tempLow": [6, 6, 4, 1, -2, -4, -4, -3, -1, 2, 4, 5],
+        "rainDays": [3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        "sunHours": [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "humidity": [30, 30, 26, 22, 20, 20, 20, 18, 16, 18, 22, 26]
+      },
+      "crowd": [42, 42, 38, 35, 42, 55, 68, 68, 58, 48, 42, 45],
+      "priceIndex": [56, 56, 52, 50, 55, 64, 72, 72, 66, 60, 55, 56],
+      "cost": {
+        "budget": 42,
+        "mid": 108,
+        "luxury": 380
+      },
+      "r": {
+        "desert": 100, "scenery": 98, "volcanic": 92, "hiking": 82, "stargazing": 100,
+        "wildlife": 68, "nationalParks": 88, "adrenaline": 78, "swimming": 55, "wellness": 68,
+        "valueForMoney": 62, "romance": 82, "safety": 88, "familyYoungKids": 55, "luxury": 82
+      },
+      "photos": [
+        "Atacama Desert salt flat flamingos",
+        "San Pedro de Atacama geysers",
+        "Atacama stargazing telescope",
+        "Valle de la Luna Atacama Chile",
+        "Atacama volcano landscape",
+        "Atacama salt lake reflection"
+      ]
+    },
+    {
+      "id": "chiloe-cl",
+      "name": "Chiloé",
+      "country": "CL",
+      "region": "Los Lagos",
+      "continent": "South America",
+      "lat": -42.5,
+      "lon": -73.9,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "Wooden churches built without a single nail, stilt houses in fishing coves, and folklore about a ghost ship that still shapes how people talk about the sea.",
+      "tags": ["unesco churches", "stilt houses", "mythology", "curanto"],
+      "climate": {
+        "tempHigh": [19, 19, 17, 15, 12, 10, 9, 10, 12, 14, 16, 18],
+        "tempLow": [9, 9, 8, 6, 4, 3, 2, 3, 4, 5, 7, 8],
+        "rainDays": [11, 11, 14, 17, 21, 22, 22, 20, 17, 15, 13, 12],
+        "sunHours": [7, 6, 5, 4, 3, 2, 2, 3, 4, 5, 6, 7],
+        "humidity": [76, 78, 80, 82, 85, 86, 86, 85, 82, 79, 77, 76],
+        "seaTemp": [13, 13, 13, 12, 11, 10, 9, 9, 10, 11, 12, 13]
+      },
+      "crowd": [42, 42, 32, 22, 15, 12, 12, 12, 15, 22, 30, 38],
+      "priceIndex": [58, 58, 52, 44, 38, 36, 36, 36, 40, 46, 52, 56],
+      "cost": {
+        "budget": 32,
+        "mid": 78,
+        "luxury": 220
+      },
+      "r": {
+        "architecture": 88, "religiousSites": 92, "historicSites": 82, "localCulture": 92,
+        "islands": 88, "fishing": 82, "kayaking": 78, "wildlife": 78, "scenery": 85,
+        "hiking": 72, "foodScene": 82, "markets": 72, "romance": 78, "valueForMoney": 85,
+        "safety": 82, "familyYoungKids": 65
+      },
+      "photos": [
+        "Chiloe wooden church Chile",
+        "Chiloe stilt houses palafitos",
+        "Chiloe island fishing boats",
+        "Chiloe coastal landscape Chile",
+        "Chiloe curanto food tradition",
+        "Chiloe forest national park"
+      ]
+    },
+    {
+      "id": "cafayate-ar",
+      "name": "Cafayate & the Calchaquí Valleys",
+      "country": "AR",
+      "region": "Salta province",
+      "continent": "South America",
+      "lat": -26.07,
+      "lon": -65.97,
+      "type": "mountains",
+      "arch": "wine-country",
+      "blurb": "The world's highest-altitude wine region, red rock canyons carved into shapes with names like the amphitheatre and the devil's throat, and torrontés grown nowhere else quite like this.",
+      "tags": ["high-altitude wine", "torrontés", "red canyons", "quebrada de cafayate"],
+      "climate": {
+        "tempHigh": [27, 26, 25, 23, 21, 19, 19, 21, 24, 26, 28, 28],
+        "tempLow": [14, 14, 12, 9, 5, 2, 2, 3, 6, 9, 12, 14],
+        "rainDays": [12, 11, 8, 3, 1, 0, 0, 0, 1, 3, 6, 10],
+        "sunHours": [7, 7, 7, 8, 8, 9, 9, 9, 9, 8, 8, 7],
+        "humidity": [50, 52, 48, 40, 34, 30, 28, 26, 28, 34, 40, 46]
+      },
+      "crowd": [42, 42, 38, 35, 32, 38, 52, 55, 42, 42, 45, 48],
+      "priceIndex": [54, 54, 50, 48, 46, 48, 58, 58, 50, 50, 52, 54],
+      "cost": {
+        "budget": 28,
+        "mid": 68,
+        "luxury": 195
+      },
+      "r": {
+        "wine": 96, "scenery": 96, "roadTrip": 96, "hiking": 78, "mountains": 82, "desert": 68,
+        "stargazing": 88, "localCulture": 78, "foodScene": 82, "fineDining": 72, "markets": 68,
+        "romance": 82, "valueForMoney": 88, "safety": 78, "familyYoungKids": 55
+      },
+      "photos": [
+        "Cafayate vineyards Argentina",
+        "Quebrada de Cafayate red rocks",
+        "Argentina high altitude wine",
+        "Cafayate canyon amphitheatre",
+        "Calchaqui valley landscape",
+        "Torrontes wine tasting Argentina"
+      ]
+    },
+    {
+      "id": "iguazu-ar",
+      "name": "Iguazú from the Argentine Side",
+      "country": "AR",
+      "region": "Misiones",
+      "continent": "South America",
+      "lat": -25.68,
+      "lon": -54.44,
+      "type": "wetland",
+      "arch": "wilderness-park",
+      "blurb": "Two hundred and seventy-five separate falls in a horseshoe of jungle, with walkways that put you close enough to the Devil's Throat to feel the spray from a kilometre away.",
+      "tags": ["devil's throat", "jungle walkways", "toucans", "boat under the falls"],
+      "climate": {
+        "tempHigh": [32, 31, 29, 26, 23, 21, 21, 23, 25, 28, 30, 32],
+        "tempLow": [21, 21, 19, 16, 13, 10, 10, 11, 14, 17, 19, 21],
+        "rainDays": [12, 10, 10, 9, 9, 8, 7, 8, 10, 12, 12, 12],
+        "sunHours": [7, 7, 6, 6, 5, 5, 6, 6, 6, 6, 7, 7],
+        "humidity": [70, 72, 72, 72, 74, 74, 72, 68, 66, 66, 66, 68]
+      },
+      "crowd": [58, 55, 45, 38, 35, 42, 55, 58, 48, 48, 52, 62],
+      "priceIndex": [62, 60, 54, 48, 46, 50, 56, 58, 52, 52, 56, 64],
+      "cost": {
+        "budget": 36,
+        "mid": 92,
+        "luxury": 300
+      },
+      "r": {
+        "nationalParks": 100, "wildlife": 92, "forests": 92, "lakesRivers": 96, "hiking": 82,
+        "kayaking": 78, "adrenaline": 85, "scenery": 100, "romance": 85, "familyYoungKids": 85,
+        "valueForMoney": 75, "safety": 82, "seniors": 68
+      },
+      "photos": [
+        "Iguazu Falls Argentina panorama",
+        "Devils Throat Iguazu waterfall",
+        "Iguazu Falls boat spray",
+        "Iguazu jungle walkway",
+        "Toucan Iguazu Falls",
+        "Iguazu rainbow mist"
+      ]
+    },
+    {
+      "id": "otavalo-ec",
+      "name": "Otavalo & the Ecuadorian Highlands",
+      "country": "EC",
+      "region": "Imbabura",
+      "continent": "South America",
+      "lat": 0.234,
+      "lon": -78.26,
+      "type": "mountains",
+      "arch": "mountain-town",
+      "blurb": "The largest indigenous market in the Americas, held every Saturday beneath a ring of volcanoes, with weavers still using techniques unchanged since before the Inca arrived.",
+      "tags": ["saturday market", "kichwa weavers", "volcanoes", "highland lakes"],
+      "climate": {
+        "tempHigh": [20, 20, 20, 20, 20, 20, 20, 21, 20, 20, 20, 20],
+        "tempLow": [8, 8, 8, 9, 9, 8, 8, 8, 8, 8, 8, 8],
+        "rainDays": [12, 13, 16, 17, 15, 8, 5, 6, 10, 15, 14, 13],
+        "sunHours": [5, 5, 4, 4, 5, 6, 6, 6, 5, 5, 5, 5],
+        "humidity": [76, 76, 78, 78, 76, 70, 64, 64, 70, 76, 76, 76]
+      },
+      "crowd": [42, 42, 42, 40, 42, 45, 52, 52, 45, 42, 42, 45],
+      "priceIndex": [46, 46, 46, 46, 46, 46, 48, 48, 46, 46, 46, 46],
+      "cost": {
+        "budget": 22,
+        "mid": 55,
+        "luxury": 165
+      },
+      "r": {
+        "markets": 100, "localCulture": 96, "historicSites": 62, "mountains": 88, "volcanic": 78,
+        "hiking": 85, "lakesRivers": 78, "scenery": 88, "foodScene": 72, "streetFood": 78,
+        "valueForMoney": 94, "backpacker": 85, "romance": 62, "safety": 68,
+        "familyYoungKids": 58, "skiing": 0
+      },
+      "photos": [
+        "Otavalo market Ecuador textiles",
+        "Otavalo volcano landscape",
+        "Ecuador indigenous weaver",
+        "Cuicocha lake Ecuador crater",
+        "Otavalo Saturday market crowd",
+        "Ecuadorian highlands village"
+      ]
+    },
+    {
+      "id": "banos-ec",
+      "name": "Baños de Agua Santa",
+      "country": "EC",
+      "region": "Tungurahua",
+      "continent": "South America",
+      "lat": -1.4,
+      "lon": -78.42,
+      "type": "region",
+      "arch": "mountain-town",
+      "blurb": "A small town wedged between an active volcano and a gorge, where hot springs, canyoning and a swing hung off a tree house at the edge of a cliff draw every adrenaline traveller in Ecuador.",
+      "tags": ["swing at the end of the world", "hot springs", "canyoning", "active volcano"],
+      "climate": {
+        "tempHigh": [21, 21, 21, 21, 21, 20, 21, 21, 21, 21, 21, 21],
+        "tempLow": [13, 13, 13, 13, 13, 12, 12, 12, 12, 13, 13, 13],
+        "rainDays": [16, 16, 19, 20, 18, 14, 11, 11, 14, 18, 17, 16],
+        "sunHours": [4, 4, 4, 4, 4, 4, 5, 5, 4, 4, 4, 4],
+        "humidity": [80, 80, 82, 82, 80, 76, 72, 72, 76, 80, 80, 80]
+      },
+      "crowd": [52, 52, 48, 45, 48, 55, 62, 62, 55, 52, 50, 58],
+      "priceIndex": [48, 48, 46, 44, 46, 48, 52, 52, 48, 48, 48, 50],
+      "cost": {
+        "budget": 20,
+        "mid": 50,
+        "luxury": 155
+      },
+      "r": {
+        "wellness": 96, "adrenaline": 96, "hiking": 88, "climbing": 78, "volcanic": 92,
+        "mountains": 82, "scenery": 88, "kayaking": 82, "lakesRivers": 82, "foodScene": 68,
+        "valueForMoney": 96, "backpacker": 92, "romance": 68, "safety": 68,
+        "familyYoungKids": 55, "skiing": 0
+      },
+      "photos": [
+        "Banos swing end of the world Ecuador",
+        "Banos hot springs Ecuador",
+        "Tungurahua volcano Banos",
+        "Banos waterfall canyoning",
+        "Banos Ecuador cable car",
+        "Banos gorge Ecuador"
+      ]
+    }
+  ]
+}

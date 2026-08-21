@@ -1,0 +1,581 @@
+{
+  "_doc": "Asia, third pass — Pakistan's mountains, Bangladesh's delta, the Gulf beyond the UAE, and Azerbaijan.",
+  "destinations": [
+    {
+      "id": "hunza-pk",
+      "name": "The Hunza Valley",
+      "country": "PK",
+      "region": "Gilgit-Baltistan",
+      "continent": "Asia",
+      "lat": 36.32,
+      "lon": 74.65,
+      "type": "mountains",
+      "arch": "mountain-town",
+      "blurb": "Where three of the world's great mountain ranges collide — the Karakoram, Himalaya and Hindu Kush all visible from one valley, terraced with apricot orchards and famous for its long-lived elders.",
+      "tags": ["karakoram highway", "apricot blossom", "rakaposhi", "silk road"],
+      "climate": {
+        "tempHigh": [5, 7, 13, 18, 23, 27, 30, 29, 25, 19, 12, 7],
+        "tempLow": [-6, -4, 1, 6, 10, 14, 17, 16, 11, 5, -1, -5],
+        "rainDays": [4, 5, 6, 5, 3, 1, 1, 1, 1, 2, 2, 3],
+        "sunHours": [5, 6, 6, 7, 9, 10, 10, 10, 9, 8, 6, 5],
+        "humidity": [42, 42, 40, 38, 32, 26, 26, 28, 30, 34, 38, 42],
+        "snowDepth": [25, 22, 10, 2, 0, 0, 0, 0, 0, 0, 6, 18]
+      },
+      "crowd": [15, 15, 22, 42, 58, 68, 78, 78, 65, 45, 22, 15],
+      "priceIndex": [42, 42, 46, 55, 64, 72, 80, 80, 72, 60, 46, 42],
+      "cost": {
+        "budget": 20,
+        "mid": 52,
+        "luxury": 175
+      },
+      "r": {
+        "mountains": 100, "hiking": 96, "scenery": 100, "climbing": 92, "nationalParks": 82,
+        "lakesRivers": 78, "localCulture": 90, "historicSites": 72, "stargazing": 92,
+        "adrenaline": 82, "foodScene": 62, "roadTrip": 92, "valueForMoney": 96, "backpacker": 88,
+        "safety": 62, "familyYoungKids": 45, "skiing": 45
+      },
+      "photos": [
+        "Hunza Valley Pakistan mountains",
+        "Karakoram Highway Pakistan",
+        "Hunza apricot blossom valley",
+        "Rakaposhi peak Pakistan",
+        "Attabad Lake Hunza turquoise",
+        "Baltit Fort Hunza Pakistan"
+      ]
+    },
+    {
+      "id": "skardu-pk",
+      "name": "Skardu & the Karakoram",
+      "country": "PK",
+      "region": "Baltistan",
+      "continent": "Asia",
+      "lat": 35.3,
+      "lon": 75.63,
+      "type": "mountains",
+      "arch": "mountain-town",
+      "blurb": "Base camp country for K2 and the Karakoram's giants, with cold desert dunes improbably stacked beside glacial lakes and expeditions setting off every summer for the world's hardest mountain.",
+      "tags": ["k2 base camp", "cold desert", "deosai plains", "concordia trek"],
+      "climate": {
+        "tempHigh": [4, 8, 14, 20, 25, 30, 32, 31, 27, 20, 12, 6],
+        "tempLow": [-9, -6, 0, 5, 9, 14, 17, 16, 11, 4, -3, -7],
+        "rainDays": [3, 4, 4, 3, 2, 1, 1, 1, 1, 1, 1, 2],
+        "sunHours": [6, 7, 7, 8, 9, 10, 10, 10, 9, 8, 7, 6],
+        "humidity": [38, 36, 34, 30, 26, 20, 22, 24, 24, 28, 32, 38],
+        "snowDepth": [30, 25, 12, 3, 0, 0, 0, 0, 0, 0, 8, 22]
+      },
+      "crowd": [10, 10, 15, 30, 52, 65, 78, 78, 58, 32, 15, 10],
+      "priceIndex": [38, 38, 42, 50, 60, 68, 78, 78, 68, 54, 42, 38],
+      "cost": {
+        "budget": 22,
+        "mid": 58,
+        "luxury": 195
+      },
+      "r": {
+        "mountains": 100, "hiking": 98, "climbing": 98, "scenery": 100, "nationalParks": 88,
+        "lakesRivers": 85, "desert": 55, "wildlife": 62, "stargazing": 96, "adrenaline": 96,
+        "valueForMoney": 92, "backpacker": 85, "safety": 58, "familyYoungKids": 30
+      },
+      "photos": [
+        "K2 base camp trek Pakistan",
+        "Skardu cold desert dunes",
+        "Karakoram mountains Pakistan",
+        "Deosai plains Pakistan",
+        "Shangrila lake Skardu",
+        "Concordia Karakoram glacier"
+      ]
+    },
+    {
+      "id": "lahore-pk",
+      "name": "Lahore",
+      "country": "PK",
+      "region": "Punjab",
+      "continent": "Asia",
+      "lat": 31.55,
+      "lon": 74.35,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Mughal Pakistan's cultural capital — a fort and mosque built by emperors, a food street that stays loud until 3am, and a border ceremony at dusk with more theatrical marching than seems strictly necessary.",
+      "tags": ["mughal architecture", "food street", "wagah border ceremony", "badshahi mosque"],
+      "climate": {
+        "tempHigh": [19, 22, 28, 34, 39, 40, 36, 35, 34, 31, 26, 20],
+        "tempLow": [6, 9, 14, 19, 24, 27, 27, 26, 23, 17, 11, 7],
+        "rainDays": [3, 3, 4, 2, 2, 4, 8, 8, 4, 1, 1, 2],
+        "sunHours": [6, 7, 8, 9, 10, 9, 7, 7, 8, 8, 7, 6],
+        "humidity": [62, 55, 42, 32, 28, 34, 55, 60, 50, 42, 48, 60]
+      },
+      "crowd": [55, 58, 62, 55, 42, 38, 42, 42, 48, 55, 58, 58],
+      "priceIndex": [42, 44, 48, 52, 56, 58, 56, 56, 52, 48, 44, 42],
+      "cost": {
+        "budget": 16,
+        "mid": 42,
+        "luxury": 145
+      },
+      "r": {
+        "historicSites": 96, "architecture": 96, "religiousSites": 92, "museums": 78,
+        "localCulture": 92, "markets": 90, "foodScene": 96, "streetFood": 100, "festivals": 78,
+        "shopping": 78, "valueForMoney": 96, "backpacker": 68, "safety": 58,
+        "familyYoungKids": 55
+      },
+      "photos": [
+        "Badshahi Mosque Lahore Pakistan",
+        "Lahore Fort Mughal architecture",
+        "Lahore food street night",
+        "Wagah Border ceremony Pakistan",
+        "Lahore old city market",
+        "Shalimar Gardens Lahore"
+      ]
+    },
+    {
+      "id": "sundarbans-bd",
+      "name": "The Sundarbans",
+      "country": "BD",
+      "region": "Khulna Division",
+      "continent": "Asia",
+      "lat": 22.0,
+      "lon": 89.5,
+      "type": "wetland",
+      "arch": "jungle-eco",
+      "blurb": "The largest mangrove forest on earth, a maze of tidal channels shared between Bangladesh and India, and the only place where Bengal tigers regularly swim between islands.",
+      "tags": ["mangrove forest", "bengal tigers", "river cruise", "unesco"],
+      "climate": {
+        "tempHigh": [26, 29, 33, 34, 34, 32, 31, 31, 31, 30, 27, 25],
+        "tempLow": [13, 16, 21, 24, 25, 26, 26, 26, 25, 23, 18, 14],
+        "rainDays": [2, 3, 5, 8, 14, 20, 22, 21, 18, 11, 3, 1],
+        "sunHours": [7, 8, 8, 8, 7, 4, 4, 4, 5, 7, 7, 7],
+        "humidity": [70, 65, 62, 68, 76, 84, 86, 86, 84, 78, 72, 68]
+      },
+      "crowd": [42, 42, 32, 22, 18, 12, 12, 12, 15, 25, 38, 45],
+      "priceIndex": [40, 42, 40, 38, 36, 32, 32, 32, 34, 38, 40, 40],
+      "cost": {
+        "budget": 24,
+        "mid": 62,
+        "luxury": 210
+      },
+      "r": {
+        "wildlife": 96, "forests": 92, "nationalParks": 92, "kayaking": 82, "lakesRivers": 90,
+        "scenery": 82, "ecoFriendly": 78, "localCulture": 68, "valueForMoney": 90,
+        "backpacker": 68, "safety": 52, "familyYoungKids": 42
+      },
+      "photos": [
+        "Sundarbans mangrove forest Bangladesh",
+        "Bengal tiger Sundarbans",
+        "Sundarbans river boat cruise",
+        "Bangladesh delta aerial",
+        "Sundarbans wildlife spotting",
+        "Mangrove channels Bangladesh"
+      ]
+    },
+    {
+      "id": "dhaka-bd",
+      "name": "Dhaka & Old Dhaka",
+      "country": "BD",
+      "region": "Dhaka Division",
+      "continent": "Asia",
+      "lat": 23.71,
+      "lon": 90.4,
+      "type": "city",
+      "arch": "asian-megacity",
+      "blurb": "One of the densest cities on earth, with a river of ten thousand wooden boats, Mughal forts sinking gently into the silt, and a rickshaw art tradition recognised by UNESCO.",
+      "tags": ["rickshaw art", "buriganga river", "lalbagh fort", "densest city"],
+      "climate": {
+        "tempHigh": [25, 28, 32, 33, 33, 32, 31, 31, 31, 30, 27, 25],
+        "tempLow": [13, 16, 20, 24, 25, 26, 26, 26, 26, 23, 18, 14],
+        "rainDays": [2, 3, 5, 8, 14, 18, 20, 18, 15, 8, 2, 1],
+        "sunHours": [7, 8, 8, 8, 7, 5, 4, 5, 6, 7, 7, 7],
+        "humidity": [64, 58, 56, 62, 72, 80, 82, 82, 80, 74, 66, 62]
+      },
+      "crowd": [58, 58, 55, 48, 45, 42, 42, 42, 45, 50, 55, 60],
+      "priceIndex": [44, 44, 46, 46, 46, 44, 44, 44, 44, 44, 44, 44],
+      "cost": {
+        "budget": 18,
+        "mid": 45,
+        "luxury": 155
+      },
+      "r": {
+        "historicSites": 78, "architecture": 72, "religiousSites": 72, "museums": 62,
+        "localCulture": 92, "markets": 92, "foodScene": 85, "streetFood": 92, "lakesRivers": 78,
+        "artScene": 62, "valueForMoney": 96, "backpacker": 58, "safety": 48,
+        "familyYoungKids": 42
+      },
+      "photos": [
+        "Dhaka rickshaw painted art",
+        "Buriganga River Dhaka boats",
+        "Lalbagh Fort Dhaka",
+        "Old Dhaka street market",
+        "Dhaka mosque architecture",
+        "Dhaka river traffic aerial"
+      ]
+    },
+    {
+      "id": "baku-az",
+      "name": "Baku",
+      "country": "AZ",
+      "region": "The Absheron Peninsula",
+      "continent": "Asia",
+      "lat": 40.41,
+      "lon": 49.87,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "A medieval walled old town beside three flame-shaped skyscrapers, oil wealth spent on architecture from Zaha Hadid, and mud volcanoes bubbling on the peninsula outside town.",
+      "tags": ["flame towers", "walled old city", "mud volcanoes", "caspian sea"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 17, 22, 27, 30, 30, 26, 19, 13, 9],
+        "tempLow": [1, 2, 4, 9, 14, 19, 22, 22, 18, 12, 7, 3],
+        "rainDays": [7, 6, 6, 6, 5, 3, 2, 2, 4, 6, 7, 7],
+        "sunHours": [3, 4, 5, 7, 9, 11, 11, 10, 8, 6, 4, 3],
+        "humidity": [78, 76, 72, 68, 62, 56, 54, 55, 60, 68, 74, 78],
+        "seaTemp": [8, 7, 8, 11, 16, 21, 24, 25, 22, 17, 13, 10]
+      },
+      "crowd": [42, 42, 48, 58, 65, 72, 78, 78, 70, 60, 48, 52],
+      "priceIndex": [58, 58, 62, 68, 74, 80, 84, 84, 78, 70, 62, 66],
+      "cost": {
+        "budget": 32,
+        "mid": 78,
+        "luxury": 240
+      },
+      "r": {
+        "historicSites": 90, "architecture": 96, "museums": 82, "religiousSites": 72,
+        "localCulture": 82, "markets": 78, "foodScene": 85, "streetFood": 82, "bars": 78,
+        "shopping": 82, "swimming": 55, "valueForMoney": 85, "safety": 88, "familyYoungKids": 68,
+        "seniors": 65
+      },
+      "photos": [
+        "Baku Flame Towers Azerbaijan",
+        "Baku old city walls",
+        "Azerbaijan mud volcanoes",
+        "Baku Caspian Sea skyline",
+        "Baku Palace of the Shirvanshahs",
+        "Baku modern architecture Heydar Aliyev"
+      ]
+    },
+    {
+      "id": "alula-sa",
+      "name": "AlUla",
+      "country": "SA",
+      "region": "Medina Province",
+      "continent": "Asia",
+      "lat": 26.6,
+      "lon": 37.9,
+      "type": "desert",
+      "arch": "historic-city",
+      "blurb": "Nabataean tombs carved into sandstone cliffs, sister site to Petra and until very recently closed to almost everyone — Saudi Arabia's flagship reopening to tourism, and it shows.",
+      "tags": ["nabataean tombs", "hegra", "sandstone cliffs", "newly opened"],
+      "climate": {
+        "tempHigh": [22, 25, 29, 34, 39, 42, 42, 42, 40, 35, 28, 23],
+        "tempLow": [8, 10, 13, 18, 22, 25, 27, 27, 24, 19, 13, 9],
+        "rainDays": [2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 1, 2],
+        "sunHours": [8, 9, 9, 10, 11, 12, 12, 11, 11, 10, 9, 8],
+        "humidity": [32, 28, 24, 20, 16, 12, 14, 16, 16, 20, 26, 32]
+      },
+      "crowd": [45, 48, 52, 42, 25, 15, 15, 15, 25, 42, 50, 48],
+      "priceIndex": [58, 58, 60, 56, 48, 40, 40, 40, 46, 54, 58, 58],
+      "cost": {
+        "budget": 45,
+        "mid": 128,
+        "luxury": 480
+      },
+      "r": {
+        "historicSites": 100, "architecture": 96, "museums": 78, "desert": 88, "scenery": 92,
+        "hiking": 62, "stargazing": 92, "adrenaline": 62, "localCulture": 68, "romance": 78,
+        "valueForMoney": 55, "safety": 88, "familyYoungKids": 55, "luxury": 82
+      },
+      "photos": [
+        "Hegra tombs AlUla Saudi Arabia",
+        "AlUla sandstone canyon",
+        "Nabataean tomb facade AlUla",
+        "AlUla desert landscape Saudi",
+        "Elephant Rock AlUla",
+        "AlUla old town ruins"
+      ]
+    },
+    {
+      "id": "brunei-bn",
+      "name": "Bandar Seri Begawan",
+      "country": "BN",
+      "region": "Brunei-Muara",
+      "continent": "Asia",
+      "lat": 4.94,
+      "lon": 114.94,
+      "type": "city",
+      "arch": "asian-megacity",
+      "blurb": "A tiny oil-rich sultanate with a golden-domed mosque, the world's largest residential water village still lived in, and rainforest reserves right at the edge of town.",
+      "tags": ["water village", "golden mosque", "rainforest", "sultan's palace"],
+      "climate": {
+        "tempHigh": [30, 30, 31, 32, 32, 32, 31, 31, 31, 31, 30, 30],
+        "tempLow": [23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23],
+        "rainDays": [17, 14, 13, 13, 15, 15, 14, 15, 17, 19, 20, 20],
+        "sunHours": [6, 6, 7, 7, 6, 6, 6, 6, 5, 5, 5, 5],
+        "humidity": [84, 83, 82, 82, 84, 84, 84, 84, 85, 85, 85, 85]
+      },
+      "crowd": [42, 42, 42, 42, 42, 42, 45, 45, 42, 42, 42, 42],
+      "priceIndex": [62, 62, 62, 62, 62, 62, 64, 64, 62, 62, 62, 62],
+      "cost": {
+        "budget": 38,
+        "mid": 92,
+        "luxury": 300
+      },
+      "r": {
+        "architecture": 88, "religiousSites": 90, "historicSites": 68, "museums": 62,
+        "localCulture": 78, "markets": 68, "forests": 82, "wildlife": 75, "nationalParks": 72,
+        "kayaking": 62, "foodScene": 68, "streetFood": 72, "halal": 100, "valueForMoney": 68,
+        "safety": 92, "familyYoungKids": 68, "seniors": 68
+      },
+      "photos": [
+        "Brunei water village Kampong Ayer",
+        "Brunei Sultan Omar Ali mosque",
+        "Brunei rainforest canopy walk",
+        "Bandar Seri Begawan skyline",
+        "Brunei istana palace",
+        "Brunei river boat village"
+      ]
+    },
+    {
+      "id": "sichuan-cn",
+      "name": "Jiuzhaigou & Sichuan",
+      "country": "CN",
+      "region": "Sichuan Province",
+      "continent": "Asia",
+      "lat": 33.25,
+      "lon": 103.9,
+      "type": "lake",
+      "arch": "wilderness-park",
+      "blurb": "A valley of turquoise terraced lakes so vivid they look photoshopped, in a province that also gives you giant pandas, the numbingly spicy hotpot, and Tibetan monasteries in the western hills.",
+      "tags": ["turquoise lakes", "giant pandas", "sichuan hotpot", "tibetan monasteries"],
+      "climate": {
+        "tempHigh": [8, 10, 14, 18, 21, 24, 26, 25, 21, 16, 11, 8],
+        "tempLow": [-6, -4, -1, 3, 7, 11, 13, 12, 9, 3, -2, -5],
+        "rainDays": [4, 5, 7, 9, 12, 13, 15, 14, 13, 9, 5, 3],
+        "sunHours": [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 5, 5],
+        "humidity": [55, 52, 50, 52, 58, 65, 68, 68, 68, 62, 56, 54],
+        "snowDepth": [15, 12, 5, 0, 0, 0, 0, 0, 0, 0, 4, 10]
+      },
+      "crowd": [32, 32, 42, 55, 65, 72, 92, 96, 78, 65, 42, 35],
+      "priceIndex": [58, 58, 62, 68, 74, 80, 96, 98, 82, 72, 62, 58],
+      "cost": {
+        "budget": 28,
+        "mid": 68,
+        "luxury": 220
+      },
+      "r": {
+        "lakesRivers": 100, "scenery": 100, "hiking": 85, "mountains": 82, "nationalParks": 92,
+        "wildlife": 92, "forests": 88, "religiousSites": 78, "localCulture": 82, "foodScene": 92,
+        "streetFood": 88, "stargazing": 68, "valueForMoney": 82, "familyYoungKids": 68,
+        "safety": 82
+      },
+      "photos": [
+        "Jiuzhaigou turquoise lakes China",
+        "Giant panda Sichuan China",
+        "Sichuan hotpot spicy",
+        "Jiuzhaigou waterfall autumn",
+        "Tibetan monastery Sichuan",
+        "Jiuzhaigou valley colours"
+      ]
+    },
+    {
+      "id": "yunnan-cn",
+      "name": "Yunnan & Lijiang",
+      "country": "CN",
+      "region": "Yunnan Province",
+      "continent": "Asia",
+      "lat": 26.87,
+      "lon": 100.23,
+      "type": "mountains",
+      "arch": "mountain-town",
+      "blurb": "An old Naxi trading town of canals and cobbles below the Jade Dragon Snow Mountain, gateway to Tiger Leaping Gorge, one of the deepest and most dramatic canyons walked anywhere.",
+      "tags": ["tiger leaping gorge", "naxi culture", "jade dragon mountain", "shangri-la"],
+      "climate": {
+        "tempHigh": [14, 16, 20, 23, 25, 25, 25, 25, 23, 20, 17, 14],
+        "tempLow": [0, 2, 5, 8, 12, 15, 16, 16, 13, 9, 4, 1],
+        "rainDays": [3, 3, 5, 6, 10, 15, 18, 17, 13, 8, 4, 2],
+        "sunHours": [7, 7, 7, 7, 6, 4, 4, 4, 5, 6, 7, 7],
+        "humidity": [48, 45, 42, 45, 55, 68, 72, 72, 68, 58, 50, 48]
+      },
+      "crowd": [35, 38, 48, 58, 62, 65, 78, 82, 68, 60, 45, 42],
+      "priceIndex": [52, 52, 56, 62, 66, 70, 82, 84, 72, 64, 56, 54],
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 195
+      },
+      "r": {
+        "mountains": 96, "hiking": 96, "scenery": 96, "nationalParks": 85, "historicSites": 82,
+        "architecture": 82, "localCulture": 92, "religiousSites": 68, "markets": 78,
+        "foodScene": 85, "streetFood": 80, "stargazing": 72, "adrenaline": 78,
+        "valueForMoney": 88, "backpacker": 85, "safety": 82, "familyYoungKids": 58, "skiing": 0
+      },
+      "photos": [
+        "Tiger Leaping Gorge China",
+        "Lijiang old town canals",
+        "Jade Dragon Snow Mountain China",
+        "Yunnan Naxi architecture",
+        "Shangri-la China monastery",
+        "Yunnan rice terraces mountains"
+      ]
+    },
+    {
+      "id": "cebu-ph",
+      "name": "Cebu & Bohol",
+      "country": "PH",
+      "region": "The Visayas",
+      "continent": "Asia",
+      "lat": 10.3,
+      "lon": 123.9,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Whale sharks off Oslob, tarsiers the size of a fist in Bohol's forests, and the Chocolate Hills — over a thousand identical mounds turning brown every dry season.",
+      "tags": ["whale sharks", "chocolate hills", "tarsiers", "island hopping"],
+      "climate": {
+        "tempHigh": [29, 29, 30, 31, 32, 31, 31, 31, 30, 30, 29, 29],
+        "tempLow": [23, 23, 24, 25, 25, 25, 24, 24, 24, 24, 24, 23],
+        "rainDays": [12, 9, 9, 8, 11, 15, 16, 15, 15, 15, 14, 13],
+        "sunHours": [7, 8, 8, 8, 7, 6, 6, 6, 6, 6, 6, 6],
+        "humidity": [76, 74, 72, 72, 75, 78, 78, 78, 78, 78, 78, 77],
+        "seaTemp": [27, 27, 27, 28, 29, 29, 28, 28, 28, 28, 28, 27]
+      },
+      "crowd": [48, 48, 52, 58, 55, 48, 45, 45, 42, 45, 48, 55],
+      "priceIndex": [58, 58, 62, 66, 64, 58, 56, 56, 54, 56, 58, 64],
+      "cost": {
+        "budget": 22,
+        "mid": 55,
+        "luxury": 175
+      },
+      "r": {
+        "beaches": 88, "swimming": 90, "snorkelling": 90, "scuba": 88, "islands": 92,
+        "wildlife": 92, "sailing": 78, "kayaking": 75, "hiking": 68, "scenery": 85,
+        "localCulture": 78, "foodScene": 75, "streetFood": 78, "romance": 82,
+        "valueForMoney": 90, "backpacker": 85, "safety": 65, "familyYoungKids": 82
+      },
+      "photos": [
+        "Chocolate Hills Bohol Philippines",
+        "Whale shark Oslob Cebu",
+        "Tarsier Bohol Philippines",
+        "Cebu island beach",
+        "Bohol river cruise",
+        "Cebu diving coral reef"
+      ]
+    },
+    {
+      "id": "vientiane-la",
+      "name": "Vientiane & the Plain of Jars",
+      "country": "LA",
+      "region": "Central & Northern Laos",
+      "continent": "Asia",
+      "lat": 17.97,
+      "lon": 102.6,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "The sleepiest capital in Southeast Asia, French colonial villas beside golden stupas, and up-country a plateau scattered with thousands of stone jars nobody can fully explain.",
+      "tags": ["plain of jars", "golden stupa", "sleepy capital", "unexploded ordnance history"],
+      "climate": {
+        "tempHigh": [28, 30, 33, 34, 34, 33, 32, 32, 32, 31, 29, 27],
+        "tempLow": [16, 18, 21, 23, 24, 24, 24, 24, 23, 21, 18, 15],
+        "rainDays": [1, 2, 4, 8, 15, 17, 18, 19, 15, 8, 3, 1],
+        "sunHours": [8, 8, 8, 8, 7, 5, 5, 5, 6, 7, 8, 8],
+        "humidity": [64, 60, 58, 62, 72, 76, 78, 79, 78, 74, 68, 64]
+      },
+      "crowd": [42, 42, 42, 38, 32, 28, 28, 28, 28, 35, 42, 48],
+      "priceIndex": [48, 48, 48, 46, 44, 42, 42, 42, 42, 44, 46, 48],
+      "cost": {
+        "budget": 18,
+        "mid": 45,
+        "luxury": 145
+      },
+      "r": {
+        "historicSites": 78, "architecture": 78, "religiousSites": 88, "museums": 62,
+        "localCulture": 85, "markets": 75, "foodScene": 78, "streetFood": 82, "roadTrip": 72,
+        "valueForMoney": 94, "backpacker": 85, "safety": 78, "familyYoungKids": 58
+      },
+      "photos": [
+        "Pha That Luang Vientiane Laos",
+        "Plain of Jars Laos mystery",
+        "Vientiane colonial architecture",
+        "Laos temple golden stupa",
+        "Vientiane Mekong riverside",
+        "Plain of Jars stone landscape"
+      ]
+    },
+    {
+      "id": "jaisalmer-in",
+      "name": "Jaisalmer & the Thar Desert",
+      "country": "IN",
+      "region": "Rajasthan",
+      "continent": "Asia",
+      "lat": 26.92,
+      "lon": 70.9,
+      "type": "desert",
+      "arch": "desert",
+      "blurb": "A sandcastle-coloured fort still lived in by five thousand people, with camel safaris into dunes at the edge of the Thar Desert and a border with Pakistan close enough to see the wire.",
+      "tags": ["golden fort", "camel safari", "thar desert", "havelis"],
+      "climate": {
+        "tempHigh": [23, 27, 32, 38, 41, 41, 37, 35, 36, 34, 29, 24],
+        "tempLow": [7, 10, 16, 22, 27, 28, 27, 26, 24, 18, 12, 8],
+        "rainDays": [1, 1, 1, 1, 2, 3, 7, 8, 3, 1, 0, 0],
+        "sunHours": [8, 9, 9, 10, 10, 9, 7, 7, 8, 9, 8, 8],
+        "humidity": [38, 30, 22, 18, 22, 34, 52, 58, 42, 28, 32, 38]
+      },
+      "crowd": [58, 55, 45, 28, 18, 15, 22, 22, 25, 42, 55, 62],
+      "priceIndex": [58, 56, 48, 36, 28, 26, 32, 32, 36, 46, 56, 62],
+      "cost": {
+        "budget": 16,
+        "mid": 42,
+        "luxury": 145
+      },
+      "r": {
+        "desert": 96, "historicSites": 96, "architecture": 96, "museums": 68, "localCulture": 92,
+        "markets": 85, "adrenaline": 68, "stargazing": 92, "foodScene": 78, "streetFood": 78,
+        "valueForMoney": 95, "backpacker": 88, "romance": 82, "safety": 62,
+        "familyYoungKids": 58
+      },
+      "photos": [
+        "Jaisalmer Fort golden sandstone",
+        "Thar Desert camel safari",
+        "Jaisalmer havelis carved",
+        "Rajasthan desert dunes sunset",
+        "Jaisalmer old city streets",
+        "Sam sand dunes Rajasthan"
+      ]
+    },
+    {
+      "id": "andaman-sea-th",
+      "name": "Similan Islands & Khao Lak",
+      "country": "TH",
+      "region": "Southern Thailand",
+      "continent": "Asia",
+      "lat": 8.65,
+      "lon": 97.65,
+      "type": "island",
+      "arch": "beach-resort",
+      "blurb": "Nine granite islands in the Andaman Sea repeatedly ranked among the best dive sites on earth, closed half the year to let the reef recover — Thailand's most protected stretch of coast.",
+      "tags": ["similan islands", "seasonal closure", "granite boulders", "liveaboard diving"],
+      "climate": {
+        "tempHigh": [32, 33, 34, 34, 32, 31, 31, 31, 31, 31, 31, 31],
+        "tempLow": [22, 23, 24, 25, 25, 24, 24, 24, 24, 24, 23, 22],
+        "rainDays": [3, 2, 4, 8, 18, 20, 20, 20, 22, 18, 10, 4],
+        "sunHours": [9, 9, 9, 8, 6, 5, 5, 5, 5, 6, 8, 9],
+        "humidity": [70, 68, 70, 74, 82, 83, 83, 83, 84, 82, 76, 70],
+        "seaTemp": [28, 28, 29, 30, 30, 29, 29, 29, 29, 29, 29, 28]
+      },
+      "crowd": [78, 72, 65, 32, 8, 5, 5, 5, 5, 15, 55, 82],
+      "priceIndex": [92, 88, 78, 56, 32, 28, 28, 28, 28, 42, 78, 96],
+      "cost": {
+        "budget": 42,
+        "mid": 112,
+        "luxury": 380
+      },
+      "r": {
+        "scuba": 100, "snorkelling": 96, "beaches": 92, "swimming": 92, "islands": 92,
+        "sailing": 82, "kayaking": 78, "wildlife": 88, "scenery": 92, "romance": 85,
+        "ecoFriendly": 82, "valueForMoney": 62, "familyYoungKids": 62, "safety": 82,
+        "luxury": 72
+      },
+      "photos": [
+        "Similan Islands Thailand granite",
+        "Similan Islands diving reef",
+        "Khao Lak beach Thailand",
+        "Similan Islands boat",
+        "Andaman Sea Thailand turquoise",
+        "Similan Islands viewpoint"
+      ]
+    }
+  ]
+}

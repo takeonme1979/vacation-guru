@@ -1,0 +1,767 @@
+{
+  "_doc": "North America, second pass — more of the US beyond the obvious cities, more of Canada and Mexico, and El Salvador.",
+  "destinations": [
+    {
+      "id": "portland-us",
+      "name": "Portland",
+      "country": "US",
+      "region": "Oregon",
+      "continent": "North America",
+      "lat": 45.523,
+      "lon": -122.677,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "Food carts on every block, more breweries per head than anywhere in America, and the only city with a bookstore big enough to need a map. An hour from mountains and coast both.",
+      "tags": ["food carts", "craft beer", "powell's books", "keep it weird"],
+      "climate": {
+        "tempHigh": [8, 10, 13, 16, 20, 23, 27, 27, 24, 17, 11, 8],
+        "tempLow": [2, 3, 4, 6, 9, 12, 14, 14, 11, 7, 4, 2],
+        "rainDays": [17, 15, 15, 12, 10, 8, 3, 4, 7, 13, 17, 18],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 9, 7, 4, 2, 2],
+        "humidity": [82, 78, 72, 66, 62, 58, 52, 54, 60, 72, 82, 84]
+      },
+      "crowd": [42, 42, 48, 58, 65, 74, 82, 82, 70, 58, 45, 48],
+      "priceIndex": [70, 70, 74, 80, 86, 90, 94, 94, 86, 78, 72, 78],
+      "cost": {
+        "budget": 65,
+        "mid": 152,
+        "luxury": 380
+      },
+      "r": {
+        "foodScene": 96, "streetFood": 98, "beer": 100, "coffee": 96, "wine": 88, "bars": 92,
+        "artScene": 88, "museums": 78, "shopping": 82, "markets": 82, "walkability": 88,
+        "cycling": 96, "publicTransport": 82, "lakesRivers": 78, "hiking": 85, "mountains": 78,
+        "forests": 88, "roadTrip": 88, "lgbtqScene": 92, "vegan": 96, "vegetarian": 94,
+        "englishSpoken": 100, "valueForMoney": 62, "digitalNomad": 90, "familyYoungKids": 75
+      },
+      "photos": [
+        "Portland food carts Oregon",
+        "Powells Books Portland interior",
+        "Multnomah Falls Oregon",
+        "Portland brewery taproom",
+        "Portland Japanese garden",
+        "Portland aerial tram bridge"
+      ]
+    },
+    {
+      "id": "santa-fe-us",
+      "name": "Santa Fe & Taos",
+      "country": "US",
+      "region": "New Mexico",
+      "continent": "North America",
+      "lat": 35.687,
+      "lon": -105.938,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Adobe architecture protected by law, the oldest capital city in the US, a genuinely serious art market, and green chile on absolutely everything.",
+      "tags": ["adobe architecture", "green chile", "art market", "pueblo"],
+      "climate": {
+        "tempHigh": [8, 10, 14, 18, 23, 29, 30, 29, 25, 19, 12, 8],
+        "tempLow": [-8, -6, -3, 1, 6, 11, 14, 13, 8, 2, -3, -7],
+        "rainDays": [4, 4, 4, 4, 5, 5, 9, 10, 6, 5, 4, 4],
+        "sunHours": [7, 8, 8, 9, 9, 10, 9, 9, 8, 8, 7, 7],
+        "humidity": [48, 42, 34, 28, 26, 26, 36, 40, 34, 34, 42, 48],
+        "snowDepth": [12, 10, 5, 1, 0, 0, 0, 0, 0, 1, 6, 12]
+      },
+      "crowd": [42, 42, 55, 62, 68, 78, 88, 85, 68, 62, 45, 55],
+      "priceIndex": [66, 66, 72, 78, 84, 90, 96, 94, 84, 76, 68, 74],
+      "cost": {
+        "budget": 62,
+        "mid": 148,
+        "luxury": 380
+      },
+      "r": {
+        "artScene": 98, "museums": 92, "architecture": 92, "historicSites": 88,
+        "religiousSites": 78, "localCulture": 92, "markets": 82, "shopping": 82, "foodScene": 92,
+        "fineDining": 88, "wine": 68, "mountains": 78, "hiking": 85, "skiing": 68, "scenery": 88,
+        "stargazing": 88, "roadTrip": 88, "wellness": 85, "romance": 85, "englishSpoken": 100,
+        "valueForMoney": 62, "seniors": 82, "familyYoungKids": 68
+      },
+      "photos": [
+        "Santa Fe adobe architecture",
+        "Taos Pueblo New Mexico",
+        "Santa Fe art gallery street",
+        "New Mexico green chile food",
+        "Santa Fe plaza church",
+        "Taos ski valley mountains"
+      ]
+    },
+    {
+      "id": "outer-banks-us",
+      "name": "The Outer Banks",
+      "country": "US",
+      "region": "North Carolina",
+      "continent": "North America",
+      "lat": 35.58,
+      "lon": -75.47,
+      "type": "coast",
+      "arch": "beach-resort",
+      "blurb": "A hundred miles of barrier islands where the Wright brothers first flew, wild ponies still roam a beach with no road, and lighthouses mark a coast known for wrecking ships.",
+      "tags": ["wild ponies", "wright brothers", "lighthouses", "barrier islands"],
+      "climate": {
+        "tempHigh": [12, 13, 16, 20, 25, 29, 31, 30, 28, 23, 18, 14],
+        "tempLow": [3, 3, 6, 10, 15, 20, 23, 22, 19, 13, 8, 4],
+        "rainDays": [10, 9, 9, 8, 9, 9, 10, 11, 9, 8, 8, 9],
+        "sunHours": [6, 6, 7, 8, 9, 9, 9, 8, 8, 7, 6, 6],
+        "humidity": [70, 68, 68, 68, 72, 74, 76, 77, 76, 72, 70, 70],
+        "seaTemp": [11, 10, 12, 16, 21, 25, 27, 27, 26, 22, 17, 13]
+      },
+      "crowd": [22, 22, 32, 48, 62, 82, 96, 96, 68, 42, 24, 22],
+      "priceIndex": [50, 50, 60, 74, 86, 96, 100, 100, 82, 62, 52, 50],
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 340
+      },
+      "r": {
+        "beaches": 94, "swimming": 82, "surfing": 82, "fishing": 92, "kayaking": 82,
+        "sailing": 78, "wildlife": 88, "cycling": 78, "historicSites": 82, "museums": 72,
+        "scenery": 85, "roadTrip": 85, "foodScene": 72, "englishSpoken": 100, "safety": 88,
+        "valueForMoney": 68, "familyYoungKids": 90, "seniors": 78, "romance": 78
+      },
+      "photos": [
+        "Outer Banks wild horses beach",
+        "Cape Hatteras lighthouse",
+        "Outer Banks beach dunes",
+        "Wright Brothers Memorial Kitty Hawk",
+        "Outer Banks sunset pier",
+        "Ocracoke Island ferry"
+      ]
+    },
+    {
+      "id": "sedona-us",
+      "name": "Sedona",
+      "country": "US",
+      "region": "Arizona",
+      "continent": "North America",
+      "lat": 34.87,
+      "lon": -111.76,
+      "type": "region",
+      "arch": "desert",
+      "blurb": "Red rock buttes glowing at sunset, said by some to sit on energy vortexes, with world-class mountain biking and Slide Rock's natural water chute for when it gets hot.",
+      "tags": ["red rocks", "vortexes", "mountain biking", "slide rock"],
+      "climate": {
+        "tempHigh": [13, 15, 18, 22, 27, 33, 36, 35, 32, 25, 18, 13],
+        "tempLow": [0, 1, 4, 7, 11, 16, 20, 19, 16, 9, 3, 0],
+        "rainDays": [7, 6, 6, 4, 3, 2, 6, 8, 5, 5, 5, 7],
+        "sunHours": [7, 8, 9, 10, 11, 12, 11, 10, 10, 9, 8, 7],
+        "humidity": [48, 42, 34, 26, 20, 16, 26, 32, 28, 30, 40, 48]
+      },
+      "crowd": [55, 58, 68, 75, 72, 62, 55, 55, 65, 72, 60, 60],
+      "priceIndex": [70, 72, 80, 88, 88, 82, 76, 76, 82, 88, 78, 74],
+      "cost": {
+        "budget": 72,
+        "mid": 168,
+        "luxury": 430
+      },
+      "r": {
+        "desert": 96, "scenery": 98, "hiking": 96, "climbing": 88, "cycling": 92,
+        "mountains": 78, "nationalParks": 82, "stargazing": 90, "adrenaline": 85, "wellness": 96,
+        "artScene": 82, "shopping": 78, "roadTrip": 90, "romance": 88, "swimming": 62,
+        "foodScene": 78, "fineDining": 78, "englishSpoken": 100, "safety": 90,
+        "valueForMoney": 45, "familyYoungKids": 72, "seniors": 78, "luxury": 82
+      },
+      "photos": [
+        "Sedona red rocks sunset",
+        "Cathedral Rock Sedona Arizona",
+        "Slide Rock State Park Arizona",
+        "Sedona mountain biking trail",
+        "Sedona vortex red rock formation",
+        "Oak Creek Canyon Arizona"
+      ]
+    },
+    {
+      "id": "everglades-us",
+      "name": "The Everglades & Florida Keys",
+      "country": "US",
+      "region": "Florida",
+      "continent": "North America",
+      "lat": 25.29,
+      "lon": -80.9,
+      "type": "wetland",
+      "arch": "wilderness-park",
+      "blurb": "A river of grass sixty miles wide, alligators and manatees in the same water, and a highway running 113 miles across bridges to a bar in Key West at the end of it.",
+      "tags": ["alligators", "airboat", "overseas highway", "key west"],
+      "climate": {
+        "tempHigh": [24, 25, 27, 29, 31, 32, 33, 33, 32, 30, 27, 25],
+        "tempLow": [16, 17, 19, 21, 23, 25, 25, 25, 25, 23, 20, 17],
+        "rainDays": [6, 6, 6, 5, 11, 15, 16, 16, 17, 12, 7, 6],
+        "sunHours": [7, 8, 9, 9, 9, 8, 8, 8, 7, 7, 7, 7],
+        "humidity": [72, 70, 68, 64, 68, 74, 76, 77, 78, 74, 72, 72],
+        "seaTemp": [24, 24, 25, 27, 29, 30, 31, 31, 30, 29, 27, 25]
+      },
+      "crowd": [72, 78, 82, 65, 45, 38, 42, 42, 38, 45, 62, 78],
+      "priceIndex": [76, 82, 88, 78, 66, 60, 62, 62, 60, 66, 74, 84],
+      "cost": {
+        "budget": 68,
+        "mid": 158,
+        "luxury": 400
+      },
+      "r": {
+        "wildlife": 96, "nationalParks": 94, "kayaking": 92, "fishing": 92, "beaches": 82,
+        "swimming": 78, "snorkelling": 78, "scuba": 72, "sailing": 78, "bars": 82,
+        "foodScene": 82, "streetFood": 72, "islands": 78, "roadTrip": 90, "adrenaline": 68,
+        "lgbtqScene": 88, "englishSpoken": 100, "valueForMoney": 58, "familyYoungKids": 82,
+        "seniors": 72, "romance": 78
+      },
+      "photos": [
+        "Everglades alligator airboat Florida",
+        "Key West sunset pier",
+        "Overseas Highway Florida Keys",
+        "Everglades river of grass",
+        "Key West colourful houses",
+        "Florida Keys coral reef"
+      ]
+    },
+    {
+      "id": "glacier-np-us",
+      "name": "Glacier & Waterton Lakes",
+      "country": "US",
+      "region": "Montana",
+      "continent": "North America",
+      "lat": 48.7,
+      "lon": -113.8,
+      "type": "mountains",
+      "arch": "wilderness-park",
+      "blurb": "A hundred jagged peaks straddling the US-Canada border on the Going-to-the-Sun Road, with grizzlies, mountain goats, and glaciers that are visibly disappearing.",
+      "tags": ["going-to-the-sun road", "grizzlies", "glaciers", "border park"],
+      "climate": {
+        "tempHigh": [-2, 1, 5, 11, 16, 20, 25, 25, 19, 12, 4, -1],
+        "tempLow": [-10, -8, -4, -1, 3, 7, 9, 9, 5, 0, -6, -9],
+        "rainDays": [10, 8, 9, 9, 12, 13, 9, 9, 9, 9, 10, 10],
+        "sunHours": [3, 4, 5, 6, 7, 8, 10, 9, 7, 5, 3, 2],
+        "humidity": [72, 68, 62, 56, 56, 58, 48, 48, 52, 60, 70, 74],
+        "snowDepth": [60, 65, 50, 25, 5, 0, 0, 0, 0, 8, 30, 55]
+      },
+      "crowd": [8, 8, 12, 22, 45, 78, 96, 92, 55, 25, 10, 8],
+      "priceIndex": [42, 42, 48, 60, 76, 92, 100, 98, 78, 58, 46, 44],
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 370
+      },
+      "r": {
+        "mountains": 98, "hiking": 98, "scenery": 98, "nationalParks": 98, "wildlife": 96,
+        "climbing": 82, "lakesRivers": 90, "kayaking": 82, "fishing": 82, "forests": 88,
+        "stargazing": 88, "roadTrip": 96, "adrenaline": 78, "skiing": 45, "englishSpoken": 100,
+        "safety": 82, "valueForMoney": 65, "familyYoungKids": 68, "seniors": 55, "romance": 82
+      },
+      "photos": [
+        "Going to the Sun Road Glacier",
+        "Glacier National Park lake mountains",
+        "Grizzly bear Glacier Montana",
+        "Mountain goat Glacier NP",
+        "Waterton Lakes Canada border",
+        "Glacier NP hiking trail alpine"
+      ]
+    },
+    {
+      "id": "olympic-np-us",
+      "name": "Olympic National Park",
+      "country": "US",
+      "region": "Washington",
+      "continent": "North America",
+      "lat": 47.8,
+      "lon": -123.6,
+      "type": "wilderness",
+      "arch": "wilderness-park",
+      "blurb": "Rainforest, glaciated mountains and a wild Pacific coast in a single park — moss-draped Hoh Rainforest gets twelve feet of rain a year, and the coastline nearby gets none of the crowds.",
+      "tags": ["hoh rainforest", "pacific coast", "moss", "tide pools"],
+      "climate": {
+        "tempHigh": [7, 8, 10, 13, 16, 18, 21, 21, 19, 14, 9, 6],
+        "tempLow": [1, 1, 2, 4, 7, 10, 12, 12, 10, 6, 3, 1],
+        "rainDays": [19, 17, 18, 15, 12, 10, 6, 7, 10, 16, 20, 20],
+        "sunHours": [2, 3, 4, 6, 7, 8, 9, 8, 6, 4, 2, 1],
+        "humidity": [84, 82, 78, 74, 72, 72, 68, 68, 72, 78, 84, 85]
+      },
+      "crowd": [15, 15, 22, 35, 52, 72, 92, 90, 62, 35, 18, 15],
+      "priceIndex": [48, 48, 54, 64, 78, 90, 98, 96, 80, 64, 52, 48],
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 340
+      },
+      "r": {
+        "forests": 98, "mountains": 88, "scenery": 96, "nationalParks": 96, "hiking": 96,
+        "wildlife": 88, "beaches": 78, "swimming": 32, "kayaking": 78, "fishing": 78,
+        "climbing": 68, "stargazing": 62, "roadTrip": 85, "wellness": 68, "englishSpoken": 100,
+        "safety": 90, "valueForMoney": 68, "familyYoungKids": 68, "seniors": 55, "romance": 78
+      },
+      "photos": [
+        "Hoh Rainforest Olympic moss",
+        "Olympic National Park coast",
+        "Hurricane Ridge Olympic mountains",
+        "Ruby Beach Washington sea stacks",
+        "Olympic rainforest ferns",
+        "Olympic elk herd meadow"
+      ]
+    },
+    {
+      "id": "vermont-us",
+      "name": "Vermont & the Fall Foliage",
+      "country": "US",
+      "region": "New England",
+      "continent": "North America",
+      "lat": 44.26,
+      "lon": -72.58,
+      "type": "mountains",
+      "arch": "mountain-town",
+      "blurb": "Covered bridges, maple syrup and white church spires, at their absolute best for two weeks in October when the whole state turns red and gold.",
+      "tags": ["fall foliage", "covered bridges", "maple syrup", "ski towns"],
+      "climate": {
+        "tempHigh": [-2, 0, 6, 13, 20, 24, 27, 26, 21, 14, 7, 0],
+        "tempLow": [-12, -11, -5, 1, 7, 12, 15, 14, 9, 3, -3, -9],
+        "rainDays": [11, 10, 11, 11, 12, 12, 11, 10, 10, 10, 11, 11],
+        "sunHours": [4, 5, 6, 6, 7, 8, 8, 8, 6, 5, 3, 3],
+        "humidity": [68, 65, 62, 58, 62, 68, 70, 72, 70, 65, 68, 70],
+        "snowDepth": [55, 60, 40, 12, 0, 0, 0, 0, 0, 2, 20, 45]
+      },
+      "crowd": [22, 22, 25, 32, 45, 62, 78, 78, 92, 88, 32, 45],
+      "priceIndex": [56, 56, 60, 68, 78, 88, 96, 94, 100, 98, 66, 68],
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 340
+      },
+      "r": {
+        "mountains": 85, "forests": 96, "scenery": 96, "hiking": 92, "skiing": 88, "cycling": 88,
+        "lakesRivers": 78, "roadTrip": 94, "localCulture": 88, "foodScene": 85, "beer": 88,
+        "wine": 68, "markets": 78, "historicSites": 72, "romance": 90, "englishSpoken": 100,
+        "safety": 96, "valueForMoney": 65, "familyYoungKids": 82, "seniors": 85, "wellness": 78
+      },
+      "photos": [
+        "Vermont fall foliage covered bridge",
+        "Vermont maple syrup farm",
+        "Stowe Vermont church steeple",
+        "Vermont autumn mountains road",
+        "Vermont farmhouse red barn",
+        "New England fall colours lake"
+      ]
+    },
+    {
+      "id": "big-sur-us",
+      "name": "Big Sur & the Central Coast",
+      "country": "US",
+      "region": "California",
+      "continent": "North America",
+      "lat": 36.27,
+      "lon": -121.81,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "Ninety miles of Highway 1 clinging to cliffs above the Pacific, redwoods running down to the sea, and a bridge that has appeared in more car adverts than any road in the world.",
+      "tags": ["highway 1", "bixby bridge", "redwoods", "mcway falls"],
+      "climate": {
+        "tempHigh": [15, 16, 17, 18, 19, 21, 22, 23, 23, 21, 18, 15],
+        "tempLow": [6, 7, 8, 8, 10, 11, 12, 13, 12, 11, 8, 6],
+        "rainDays": [9, 9, 7, 4, 2, 1, 0, 0, 1, 3, 6, 8],
+        "sunHours": [6, 7, 8, 9, 8, 8, 7, 7, 8, 8, 7, 6],
+        "humidity": [76, 76, 74, 72, 74, 76, 78, 78, 74, 72, 74, 76],
+        "seaTemp": [12, 12, 12, 12, 13, 14, 15, 16, 16, 15, 14, 13]
+      },
+      "crowd": [32, 35, 45, 58, 68, 82, 92, 92, 72, 55, 38, 35],
+      "priceIndex": [66, 68, 76, 84, 90, 96, 100, 100, 88, 78, 68, 66],
+      "cost": {
+        "budget": 78,
+        "mid": 182,
+        "luxury": 480
+      },
+      "r": {
+        "scenery": 100, "hiking": 92, "forests": 90, "wildlife": 82, "roadTrip": 100,
+        "climbing": 68, "kayaking": 68, "swimming": 32, "fishing": 68, "stargazing": 82,
+        "romance": 96, "wellness": 88, "fineDining": 88, "foodScene": 82, "wine": 82,
+        "luxury": 90, "englishSpoken": 100, "safety": 88, "valueForMoney": 32, "seniors": 68,
+        "familyYoungKids": 55
+      },
+      "photos": [
+        "Bixby Bridge Big Sur California",
+        "Big Sur coastline cliffs",
+        "McWay Falls Big Sur",
+        "Highway 1 California coast",
+        "Big Sur redwoods forest",
+        "Pfeiffer Beach purple sand"
+      ]
+    },
+    {
+      "id": "great-lakes-us",
+      "name": "The Great Lakes & Mackinac Island",
+      "country": "US",
+      "region": "Michigan",
+      "continent": "North America",
+      "lat": 45.85,
+      "lon": -84.62,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "A freshwater island where cars have been banned since 1898 — fudge shops, horse-drawn carriages, and Lake Michigan's dune-backed coast a ferry ride away.",
+      "tags": ["no cars", "fudge", "sand dunes", "freshwater"],
+      "climate": {
+        "tempHigh": [-3, -2, 3, 10, 17, 22, 25, 24, 20, 13, 5, -1],
+        "tempLow": [-11, -10, -5, 1, 7, 12, 15, 14, 10, 4, -2, -8],
+        "rainDays": [15, 12, 12, 11, 11, 10, 9, 9, 10, 12, 14, 15],
+        "sunHours": [2, 3, 4, 6, 8, 9, 9, 8, 6, 4, 2, 2],
+        "humidity": [78, 76, 72, 66, 64, 66, 68, 70, 72, 74, 78, 80],
+        "seaTemp": [2, 1, 2, 5, 10, 15, 19, 20, 17, 12, 7, 3],
+        "snowDepth": [45, 42, 25, 6, 0, 0, 0, 0, 0, 0, 10, 32]
+      },
+      "crowd": [8, 8, 12, 25, 45, 72, 92, 90, 62, 35, 12, 8],
+      "priceIndex": [42, 42, 48, 58, 72, 88, 98, 96, 78, 58, 46, 42],
+      "cost": {
+        "budget": 55,
+        "mid": 128,
+        "luxury": 320
+      },
+      "r": {
+        "islands": 88, "beaches": 78, "swimming": 68, "sailing": 82, "kayaking": 78,
+        "cycling": 92, "historicSites": 82, "architecture": 78, "localCulture": 78,
+        "scenery": 82, "wildlife": 68, "hiking": 68, "foodScene": 68, "romance": 82,
+        "englishSpoken": 100, "safety": 92, "valueForMoney": 78, "familyYoungKids": 88,
+        "seniors": 82, "accessibility": 55
+      },
+      "photos": [
+        "Mackinac Island no cars carriage",
+        "Mackinac Bridge Michigan",
+        "Sleeping Bear Dunes Michigan",
+        "Lake Michigan lighthouse",
+        "Mackinac Island fudge shop",
+        "Great Lakes sunset shoreline"
+      ]
+    },
+    {
+      "id": "san-antonio-us",
+      "name": "San Antonio",
+      "country": "US",
+      "region": "Texas",
+      "continent": "North America",
+      "lat": 29.424,
+      "lon": -98.494,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "The Alamo, a Riverwalk of restaurants below street level, and the most Mexican city in the US that isn't in Mexico — five Spanish missions still standing from the 1700s.",
+      "tags": ["the alamo", "riverwalk", "missions", "tex-mex"],
+      "climate": {
+        "tempHigh": [17, 19, 23, 27, 30, 33, 35, 35, 32, 27, 22, 17],
+        "tempLow": [5, 8, 12, 16, 20, 23, 24, 24, 21, 15, 10, 6],
+        "rainDays": [7, 7, 7, 6, 8, 6, 5, 5, 7, 7, 6, 7],
+        "sunHours": [6, 6, 7, 8, 9, 10, 10, 10, 9, 8, 6, 6],
+        "humidity": [65, 64, 62, 64, 68, 62, 58, 58, 62, 62, 64, 65]
+      },
+      "crowd": [52, 55, 68, 65, 62, 65, 68, 65, 60, 62, 55, 68],
+      "priceIndex": [64, 66, 76, 78, 78, 82, 84, 82, 78, 78, 68, 76],
+      "cost": {
+        "budget": 52,
+        "mid": 122,
+        "luxury": 310
+      },
+      "r": {
+        "historicSites": 94, "museums": 85, "architecture": 82, "religiousSites": 82,
+        "localCulture": 92, "markets": 82, "foodScene": 92, "streetFood": 88, "walkability": 88,
+        "bars": 82, "liveMusic": 82, "festivals": 88, "familyYoungKids": 85, "themeParks": 85,
+        "shopping": 78, "englishSpoken": 100, "safety": 78, "valueForMoney": 78, "seniors": 75
+      },
+      "photos": [
+        "The Alamo San Antonio",
+        "San Antonio Riverwalk restaurants",
+        "San Antonio Spanish missions",
+        "San Antonio Tex-Mex food",
+        "River Walk San Antonio night",
+        "San Antonio historic plaza"
+      ]
+    },
+    {
+      "id": "el-salvador-sv",
+      "name": "El Salvador's Surf Coast",
+      "country": "SV",
+      "region": "La Libertad",
+      "continent": "North America",
+      "lat": 13.49,
+      "lon": -89.36,
+      "type": "coast",
+      "arch": "beach-resort",
+      "blurb": "Central America's most consistent point breaks, volcanoes you can climb before breakfast, and pupusas griddled fresh on every corner — still years behind Costa Rica on price.",
+      "tags": ["surfing", "pupusas", "volcanoes", "el tunco"],
+      "climate": {
+        "tempHigh": [32, 33, 34, 34, 33, 31, 32, 32, 31, 31, 31, 31],
+        "tempLow": [21, 22, 23, 24, 24, 23, 23, 23, 23, 23, 22, 21],
+        "rainDays": [1, 1, 2, 4, 12, 18, 16, 17, 19, 15, 4, 1],
+        "sunHours": [9, 9, 9, 9, 7, 5, 6, 6, 5, 6, 8, 9],
+        "humidity": [66, 64, 64, 68, 76, 82, 80, 80, 82, 80, 72, 68],
+        "seaTemp": [27, 27, 28, 29, 29, 29, 29, 29, 29, 29, 28, 27]
+      },
+      "crowd": [42, 42, 45, 42, 35, 32, 38, 38, 30, 32, 38, 45],
+      "priceIndex": [68, 68, 66, 62, 56, 52, 56, 56, 50, 52, 58, 68],
+      "cost": {
+        "budget": 22,
+        "mid": 52,
+        "luxury": 155
+      },
+      "r": {
+        "surfing": 98, "beaches": 82, "swimming": 78, "waterSports": 78, "volcanic": 88,
+        "hiking": 82, "climbing": 68, "scenery": 78, "localCulture": 85, "foodScene": 88,
+        "streetFood": 94, "markets": 78, "bars": 78, "backpacker": 90, "soloTravel": 68,
+        "digitalNomad": 78, "valueForMoney": 94, "safety": 45, "romance": 68,
+        "familyYoungKids": 52
+      },
+      "photos": [
+        "El Tunco surf beach El Salvador",
+        "El Salvador volcano hike",
+        "Pupusas El Salvador street food",
+        "El Salvador surf point break",
+        "Santa Ana volcano crater",
+        "El Salvador coastal sunset"
+      ]
+    },
+    {
+      "id": "chiapas-mx",
+      "name": "Chiapas & Palenque",
+      "country": "MX",
+      "region": "Southern Mexico",
+      "continent": "North America",
+      "lat": 17.48,
+      "lon": -91.98,
+      "type": "region",
+      "arch": "jungle-eco",
+      "blurb": "Maya temples rising out of jungle canopy, a canyon a thousand metres deep with crocodiles at the bottom, and San Cristóbal's highland markets in cloud most mornings.",
+      "tags": ["palenque", "sumidero canyon", "san cristobal", "maya"],
+      "climate": {
+        "tempHigh": [26, 28, 30, 32, 32, 31, 31, 31, 30, 29, 27, 26],
+        "tempLow": [17, 18, 19, 21, 22, 22, 21, 21, 21, 20, 18, 17],
+        "rainDays": [4, 3, 4, 6, 13, 20, 19, 19, 21, 15, 7, 5],
+        "sunHours": [7, 8, 8, 8, 7, 5, 6, 6, 5, 6, 7, 7],
+        "humidity": [70, 66, 64, 66, 72, 80, 78, 78, 82, 78, 74, 72]
+      },
+      "crowd": [45, 45, 50, 55, 48, 42, 55, 55, 38, 42, 48, 55],
+      "priceIndex": [58, 58, 62, 66, 64, 58, 66, 66, 56, 58, 60, 66],
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 175
+      },
+      "r": {
+        "historicSites": 96, "architecture": 90, "museums": 68, "religiousSites": 62,
+        "forests": 92, "wildlife": 88, "nationalParks": 85, "hiking": 82, "lakesRivers": 85,
+        "kayaking": 72, "scenery": 90, "localCulture": 92, "markets": 88, "foodScene": 82,
+        "streetFood": 78, "climbing": 68, "backpacker": 88, "soloTravel": 72,
+        "valueForMoney": 90, "romance": 72, "familyYoungKids": 62, "safety": 62
+      },
+      "photos": [
+        "Palenque Maya ruins jungle Mexico",
+        "Sumidero Canyon Chiapas Mexico",
+        "San Cristobal de las Casas Mexico",
+        "Chiapas waterfall jungle",
+        "Palenque temple mist",
+        "Chiapas indigenous market colourful"
+      ]
+    },
+    {
+      "id": "guadalajara-mx",
+      "name": "Guadalajara & Tequila",
+      "country": "MX",
+      "region": "Jalisco",
+      "continent": "North America",
+      "lat": 20.667,
+      "lon": -103.35,
+      "type": "city",
+      "arch": "latin-city",
+      "blurb": "The birthplace of mariachi and tequila both, with a walkable colonial centre, a huge student population, and the actual town of Tequila an hour away for distillery tours.",
+      "tags": ["mariachi", "tequila", "colonial centre", "lucha libre"],
+      "climate": {
+        "tempHigh": [25, 27, 30, 32, 32, 29, 27, 27, 27, 27, 26, 25],
+        "tempLow": [9, 10, 12, 14, 16, 17, 16, 16, 16, 14, 11, 9],
+        "rainDays": [1, 1, 1, 2, 6, 17, 21, 19, 15, 5, 1, 1],
+        "sunHours": [8, 9, 9, 9, 9, 6, 6, 6, 6, 8, 8, 8],
+        "humidity": [42, 36, 32, 32, 40, 62, 68, 68, 66, 52, 44, 42]
+      },
+      "crowd": [42, 45, 55, 58, 55, 48, 45, 45, 48, 52, 55, 60],
+      "priceIndex": [56, 56, 62, 66, 66, 62, 60, 60, 62, 62, 60, 66],
+      "cost": {
+        "budget": 26,
+        "mid": 62,
+        "luxury": 190
+      },
+      "r": {
+        "architecture": 88, "historicSites": 85, "museums": 82, "religiousSites": 82,
+        "localCulture": 92, "markets": 88, "liveMusic": 92, "festivals": 88, "foodScene": 92,
+        "streetFood": 90, "wine": 88, "bars": 88, "clubbing": 82, "walkability": 82,
+        "shopping": 78, "lgbtqScene": 85, "digitalNomad": 85, "backpacker": 78,
+        "valueForMoney": 90, "familyYoungKids": 68, "safety": 62
+      },
+      "photos": [
+        "Guadalajara cathedral plaza Mexico",
+        "Tequila town agave fields",
+        "Mariachi musicians Guadalajara",
+        "Guadalajara colonial architecture",
+        "Agave distillery tour Mexico",
+        "Guadalajara street market colourful"
+      ]
+    },
+    {
+      "id": "copper-canyon-mx",
+      "name": "Copper Canyon",
+      "country": "MX",
+      "region": "Chihuahua",
+      "continent": "North America",
+      "lat": 27.53,
+      "lon": -107.65,
+      "type": "mountains",
+      "arch": "wilderness-park",
+      "blurb": "A canyon system four times the size of the Grand Canyon, crossed by a railway engineers said could not be built, through Tarahumara country where people still run a hundred miles for fun.",
+      "tags": ["el chepe railway", "tarahumara", "bigger than grand canyon", "zip lines"],
+      "climate": {
+        "tempHigh": [15, 17, 20, 24, 28, 30, 28, 27, 26, 23, 19, 15],
+        "tempLow": [-1, 0, 2, 6, 10, 14, 15, 15, 13, 8, 3, 0],
+        "rainDays": [4, 3, 3, 2, 2, 6, 14, 13, 8, 4, 3, 4],
+        "sunHours": [7, 8, 8, 9, 10, 10, 8, 8, 8, 8, 8, 7],
+        "humidity": [48, 40, 32, 26, 24, 28, 45, 48, 42, 36, 42, 48],
+        "snowDepth": [8, 6, 2, 0, 0, 0, 0, 0, 0, 0, 1, 5]
+      },
+      "crowd": [22, 22, 28, 38, 42, 38, 35, 35, 32, 32, 28, 25],
+      "priceIndex": [46, 46, 52, 60, 64, 62, 58, 58, 56, 54, 50, 46],
+      "cost": {
+        "budget": 32,
+        "mid": 75,
+        "luxury": 220
+      },
+      "r": {
+        "mountains": 92, "scenery": 96, "hiking": 92, "climbing": 82, "nationalParks": 85,
+        "wildlife": 68, "adrenaline": 92, "roadTrip": 88, "localCulture": 88,
+        "historicSites": 55, "stargazing": 82, "foodScene": 62, "backpacker": 78,
+        "soloTravel": 62, "valueForMoney": 88, "safety": 58, "familyYoungKids": 55,
+        "romance": 68
+      },
+      "photos": [
+        "Copper Canyon Mexico railway",
+        "El Chepe train Copper Canyon",
+        "Copper Canyon zip line",
+        "Tarahumara Mexico canyon",
+        "Copper Canyon overlook Chihuahua",
+        "Copper Canyon waterfall"
+      ]
+    },
+    {
+      "id": "pei-ca",
+      "name": "Prince Edward Island",
+      "country": "CA",
+      "region": "The Maritimes",
+      "continent": "North America",
+      "lat": 46.25,
+      "lon": -63.13,
+      "type": "coast",
+      "arch": "coastal-city",
+      "blurb": "Red sandstone cliffs, potato fields, and the fictional home of Anne of Green Gables — Canada's smallest province, and possibly its friendliest.",
+      "tags": ["anne of green gables", "red sand", "potatoes", "lobster suppers"],
+      "climate": {
+        "tempHigh": [-3, -3, 1, 7, 14, 19, 23, 23, 19, 13, 6, -1],
+        "tempLow": [-11, -11, -6, 0, 5, 10, 14, 14, 10, 5, 0, -7],
+        "rainDays": [13, 11, 12, 12, 12, 11, 10, 10, 10, 12, 13, 14],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 8, 6, 5, 3, 3],
+        "humidity": [78, 76, 76, 76, 78, 80, 80, 80, 80, 78, 78, 79],
+        "seaTemp": [1, 0, 1, 3, 8, 14, 18, 19, 17, 12, 7, 3],
+        "snowDepth": [40, 42, 25, 5, 0, 0, 0, 0, 0, 0, 6, 25]
+      },
+      "crowd": [10, 10, 14, 25, 42, 68, 90, 90, 58, 32, 15, 12],
+      "priceIndex": [44, 44, 50, 60, 74, 88, 98, 96, 76, 60, 48, 44],
+      "cost": {
+        "budget": 52,
+        "mid": 122,
+        "luxury": 300
+      },
+      "r": {
+        "beaches": 88, "swimming": 55, "scenery": 88, "cycling": 88, "hiking": 78, "sailing": 78,
+        "kayaking": 78, "fishing": 88, "localCulture": 88, "historicSites": 78, "roadTrip": 85,
+        "foodScene": 85, "englishSpoken": 100, "safety": 96, "valueForMoney": 78,
+        "familyYoungKids": 90, "seniors": 85, "romance": 78
+      },
+      "photos": [
+        "Prince Edward Island red cliffs",
+        "PEI lighthouse coast",
+        "Anne of Green Gables house PEI",
+        "PEI lobster supper",
+        "PEI potato fields red soil",
+        "Cavendish beach PEI"
+      ]
+    },
+    {
+      "id": "tofino-ca",
+      "name": "Tofino & Vancouver Island",
+      "country": "CA",
+      "region": "British Columbia",
+      "continent": "North America",
+      "lat": 49.15,
+      "lon": -125.9,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "A surf town at the edge of the temperate rainforest, storm-watching in winter, whale watching in summer, and old-growth cedars a few minutes from the beach.",
+      "tags": ["surfing", "storm watching", "old growth", "whale watching"],
+      "climate": {
+        "tempHigh": [8, 9, 10, 12, 15, 17, 19, 20, 18, 14, 10, 8],
+        "tempLow": [3, 3, 4, 5, 7, 10, 12, 12, 10, 7, 4, 3],
+        "rainDays": [21, 18, 19, 15, 12, 11, 8, 9, 12, 19, 22, 22],
+        "sunHours": [1, 2, 4, 5, 7, 7, 8, 7, 5, 3, 1, 1],
+        "humidity": [86, 84, 82, 78, 76, 76, 74, 74, 78, 84, 86, 87],
+        "seaTemp": [8, 8, 8, 9, 11, 13, 14, 15, 14, 12, 10, 9]
+      },
+      "crowd": [22, 22, 28, 38, 52, 72, 88, 88, 62, 40, 25, 22],
+      "priceIndex": [52, 52, 58, 68, 82, 92, 98, 98, 82, 66, 55, 52],
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 370
+      },
+      "r": {
+        "surfing": 90, "beaches": 78, "swimming": 42, "kayaking": 92, "sailing": 78,
+        "wildlife": 92, "forests": 96, "hiking": 90, "fishing": 88, "scenery": 92,
+        "nationalParks": 88, "wellness": 85, "adrenaline": 82, "romance": 88, "foodScene": 82,
+        "englishSpoken": 100, "safety": 92, "valueForMoney": 55, "familyYoungKids": 68,
+        "seniors": 62
+      },
+      "photos": [
+        "Tofino surf beach Vancouver Island",
+        "Tofino old growth rainforest",
+        "Whale watching Tofino Canada",
+        "Tofino storm waves winter",
+        "Vancouver Island coastline",
+        "Tofino sea kayaking sunset"
+      ]
+    },
+    {
+      "id": "churchill-ca",
+      "name": "Churchill",
+      "country": "CA",
+      "region": "Manitoba",
+      "continent": "North America",
+      "lat": 58.77,
+      "lon": -94.16,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "The polar bear capital of the world, reachable only by train or plane, where beluga whales fill the river in summer and the aurora runs most clear nights in winter.",
+      "tags": ["polar bears", "beluga whales", "northern lights", "no roads in"],
+      "climate": {
+        "tempHigh": [-21, -18, -12, -3, 5, 13, 18, 17, 10, 1, -9, -17],
+        "tempLow": [-31, -29, -23, -13, -3, 4, 8, 8, 2, -6, -18, -27],
+        "rainDays": [10, 9, 9, 8, 9, 11, 13, 14, 14, 12, 10, 10],
+        "sunHours": [4, 6, 7, 7, 7, 8, 7, 6, 4, 3, 3, 3],
+        "humidity": [76, 76, 78, 80, 82, 82, 82, 84, 84, 82, 80, 78],
+        "snowDepth": [35, 38, 35, 25, 8, 0, 0, 0, 2, 12, 25, 32]
+      },
+      "crowd": [22, 22, 15, 12, 18, 32, 45, 42, 62, 88, 42, 25],
+      "priceIndex": [55, 55, 50, 46, 52, 62, 70, 68, 82, 100, 68, 55],
+      "cost": {
+        "budget": 110,
+        "mid": 260,
+        "luxury": 650
+      },
+      "r": {
+        "wildlife": 100, "northernLights": 98, "stargazing": 92, "adrenaline": 82, "scenery": 78,
+        "kayaking": 62, "sailing": 55, "fishing": 62, "localCulture": 68, "englishSpoken": 100,
+        "safety": 78, "valueForMoney": 15, "familyYoungKids": 42, "seniors": 45, "romance": 62
+      },
+      "photos": [
+        "Polar bear Churchill Manitoba",
+        "Beluga whales Churchill Canada",
+        "Northern lights Churchill",
+        "Churchill tundra buggy",
+        "Churchill Hudson Bay",
+        "Aurora borealis Manitoba"
+      ]
+    }
+  ]
+}

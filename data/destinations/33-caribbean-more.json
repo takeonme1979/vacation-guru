@@ -1,0 +1,216 @@
+{
+  "_doc": "Caribbean, second pass — Trinidad & Tobago, St Kitts & Nevis, the British Virgin Islands and the Cayman Islands.",
+  "destinations": [
+    {
+      "id": "trinidad-tt",
+      "name": "Trinidad",
+      "country": "TT",
+      "region": "The Southern Caribbean",
+      "continent": "Caribbean",
+      "lat": 10.65,
+      "lon": -61.4,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "The birthplace of Carnival, calypso and the steelpan, an island that is more industrial than idyllic and considerably more interesting for it — plus leatherback turtles nesting on the north coast.",
+      "tags": ["carnival", "steelpan", "calypso", "leatherback turtles"],
+      "climate": {
+        "tempHigh": [31, 31, 32, 32, 32, 31, 31, 31, 31, 31, 31, 31],
+        "tempLow": [21, 21, 22, 23, 23, 23, 22, 22, 22, 22, 22, 21],
+        "rainDays": [7, 5, 4, 5, 10, 17, 18, 18, 15, 14, 13, 10],
+        "sunHours": [8, 8, 8, 8, 7, 6, 6, 6, 6, 7, 7, 7],
+        "humidity": [72, 70, 68, 68, 72, 78, 78, 78, 78, 76, 76, 74],
+        "seaTemp": [26, 26, 26, 27, 27, 27, 27, 27, 27, 27, 27, 26]
+      },
+      "crowd": [55, 82, 45, 42, 38, 38, 42, 42, 38, 40, 42, 55],
+      "priceIndex": [66, 82, 62, 58, 56, 56, 58, 58, 56, 56, 58, 66],
+      "cost": {
+        "budget": 42,
+        "mid": 105,
+        "luxury": 320
+      },
+      "r": {
+        "beaches": 75, "swimming": 78, "wildlife": 88, "hiking": 68, "nationalParks": 68,
+        "kayaking": 62, "localCulture": 96, "liveMusic": 100, "festivals": 100, "bars": 88,
+        "clubbing": 88, "foodScene": 88, "streetFood": 90, "markets": 78, "backpacker": 62,
+        "valueForMoney": 78, "englishSpoken": 100, "safety": 48, "familyYoungKids": 55
+      },
+      "photos": [
+        "Trinidad Carnival costume parade",
+        "Steelpan Trinidad music",
+        "Leatherback turtle Trinidad beach",
+        "Trinidad Maracas Bay",
+        "Port of Spain Trinidad skyline",
+        "Trinidad calypso street festival"
+      ]
+    },
+    {
+      "id": "tobago-tt",
+      "name": "Tobago",
+      "country": "TT",
+      "region": "The Southern Caribbean",
+      "continent": "Caribbean",
+      "lat": 11.25,
+      "lon": -60.67,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Trinidad's sleepy sibling — the oldest protected rainforest in the western hemisphere, coral reefs a few strokes from the beach, and almost none of the crowds its neighbour draws for Carnival.",
+      "tags": ["oldest rainforest reserve", "buccoo reef", "glass bottom boat", "sleepy"],
+      "climate": {
+        "tempHigh": [30, 30, 31, 31, 31, 30, 30, 30, 30, 30, 30, 30],
+        "tempLow": [22, 22, 23, 23, 23, 23, 23, 23, 22, 22, 22, 22],
+        "rainDays": [8, 6, 5, 6, 11, 17, 18, 17, 14, 13, 13, 11],
+        "sunHours": [8, 8, 8, 8, 7, 6, 6, 6, 6, 7, 7, 7],
+        "humidity": [72, 70, 68, 68, 72, 78, 78, 77, 77, 75, 75, 73],
+        "seaTemp": [27, 27, 27, 27, 28, 28, 27, 27, 27, 27, 27, 27]
+      },
+      "crowd": [42, 45, 38, 35, 32, 32, 38, 38, 32, 32, 35, 45],
+      "priceIndex": [64, 66, 58, 54, 52, 52, 56, 56, 52, 52, 54, 62],
+      "cost": {
+        "budget": 40,
+        "mid": 98,
+        "luxury": 300
+      },
+      "r": {
+        "beaches": 92, "swimming": 90, "snorkelling": 88, "scuba": 85, "sailing": 78,
+        "kayaking": 75, "wildlife": 92, "forests": 92, "hiking": 82, "nationalParks": 88,
+        "scenery": 88, "romance": 88, "foodScene": 78, "englishSpoken": 100, "safety": 68,
+        "valueForMoney": 82, "familyYoungKids": 78, "seniors": 72
+      },
+      "photos": [
+        "Tobago Pigeon Point beach",
+        "Buccoo Reef Tobago glass bottom boat",
+        "Tobago rainforest reserve",
+        "Tobago coral reef diving",
+        "Tobago beach palm trees",
+        "Tobago waterfall Argyle"
+      ]
+    },
+    {
+      "id": "st-kitts-kn",
+      "name": "St Kitts & Nevis",
+      "country": "KN",
+      "region": "The Leeward Islands",
+      "continent": "Caribbean",
+      "lat": 17.34,
+      "lon": -62.75,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "A UNESCO fortress guarding the old sugar trade on one island, and a quieter volcanic twin across a narrow strait where the beach sand is genuinely black.",
+      "tags": ["brimstone hill fortress", "black sand", "sugar plantations", "twin island"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 29, 30, 31, 31, 31, 31, 30, 29, 28],
+        "tempLow": [22, 22, 23, 23, 24, 25, 25, 25, 25, 24, 23, 22],
+        "rainDays": [12, 9, 8, 8, 10, 12, 14, 15, 16, 16, 14, 13],
+        "sunHours": [8, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7],
+        "humidity": [72, 71, 70, 71, 73, 74, 74, 75, 76, 75, 74, 73],
+        "seaTemp": [26, 26, 26, 27, 27, 28, 28, 29, 28, 28, 27, 27]
+      },
+      "crowd": [42, 45, 45, 40, 32, 32, 38, 38, 28, 28, 35, 48],
+      "priceIndex": [70, 72, 72, 68, 60, 58, 62, 62, 52, 52, 60, 74],
+      "cost": {
+        "budget": 62,
+        "mid": 155,
+        "luxury": 480
+      },
+      "r": {
+        "beaches": 88, "swimming": 90, "snorkelling": 82, "scuba": 78, "islands": 88,
+        "sailing": 82, "kayaking": 72, "hiking": 78, "mountains": 62, "historicSites": 90,
+        "architecture": 78, "scenery": 85, "wildlife": 62, "romance": 92, "foodScene": 75,
+        "englishSpoken": 100, "safety": 78, "valueForMoney": 55, "familyYoungKids": 72,
+        "seniors": 78, "luxury": 78
+      },
+      "photos": [
+        "Brimstone Hill Fortress St Kitts",
+        "St Kitts sugar plantation ruins",
+        "Nevis black sand beach",
+        "St Kitts Caribbean beach",
+        "St Kitts scenic railway",
+        "Nevis volcanic peak"
+      ]
+    },
+    {
+      "id": "bvi-vg",
+      "name": "The British Virgin Islands",
+      "country": "VG",
+      "region": "The Virgin Islands",
+      "continent": "Caribbean",
+      "lat": 18.42,
+      "lon": -64.62,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "The Caribbean's sailing capital — sixty islands close enough together to hop between under sail every day, with the Baths' giant granite boulders forming grottoes you swim through.",
+      "tags": ["the baths", "sailing capital", "bareboat charter", "island hopping"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 29, 30, 31, 31, 31, 31, 30, 29, 28],
+        "tempLow": [22, 22, 23, 24, 25, 26, 26, 26, 26, 25, 24, 23],
+        "rainDays": [13, 10, 8, 8, 9, 10, 12, 13, 15, 16, 15, 14],
+        "sunHours": [8, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7],
+        "humidity": [72, 71, 70, 71, 73, 74, 74, 75, 76, 75, 74, 73],
+        "seaTemp": [26, 26, 26, 27, 28, 28, 29, 29, 28, 28, 27, 27]
+      },
+      "crowd": [42, 42, 45, 42, 35, 35, 40, 40, 25, 28, 38, 48],
+      "priceIndex": [74, 74, 76, 72, 64, 62, 66, 66, 52, 54, 64, 78],
+      "cost": {
+        "budget": 78,
+        "mid": 195,
+        "luxury": 620
+      },
+      "r": {
+        "beaches": 94, "swimming": 92, "snorkelling": 90, "scuba": 85, "islands": 96,
+        "sailing": 100, "kayaking": 78, "waterSports": 88, "scenery": 92, "romance": 92,
+        "foodScene": 78, "bars": 78, "englishSpoken": 100, "safety": 82, "valueForMoney": 38,
+        "familyYoungKids": 62, "luxury": 88
+      },
+      "photos": [
+        "The Baths Virgin Gorda boulders",
+        "BVI sailing catamaran",
+        "British Virgin Islands beach",
+        "BVI island hopping aerial",
+        "Virgin Gorda grotto swimming",
+        "BVI turquoise anchorage"
+      ]
+    },
+    {
+      "id": "cayman-ky",
+      "name": "The Cayman Islands",
+      "country": "KY",
+      "region": "The Western Caribbean",
+      "continent": "Caribbean",
+      "lat": 19.31,
+      "lon": -81.25,
+      "type": "island",
+      "arch": "beach-resort",
+      "blurb": "Seven Mile Beach of powder-white sand, and offshore some of the clearest diving visibility in the Caribbean, with a sandbar where you can hand-feed stingrays standing waist-deep.",
+      "tags": ["stingray city", "seven mile beach", "clear diving", "offshore banking"],
+      "climate": {
+        "tempHigh": [28, 28, 29, 30, 31, 31, 32, 32, 31, 30, 29, 28],
+        "tempLow": [22, 22, 23, 24, 25, 26, 26, 26, 25, 25, 24, 23],
+        "rainDays": [8, 6, 5, 5, 9, 13, 12, 13, 15, 15, 12, 9],
+        "sunHours": [8, 8, 9, 9, 8, 8, 8, 8, 7, 7, 7, 7],
+        "humidity": [74, 73, 72, 73, 76, 78, 77, 78, 79, 78, 76, 75],
+        "seaTemp": [26, 26, 26, 27, 28, 29, 29, 29, 29, 28, 27, 27]
+      },
+      "crowd": [55, 58, 62, 60, 52, 48, 52, 52, 32, 32, 45, 62],
+      "priceIndex": [86, 88, 90, 88, 80, 76, 80, 80, 62, 64, 78, 92],
+      "cost": {
+        "budget": 92,
+        "mid": 225,
+        "luxury": 650
+      },
+      "r": {
+        "beaches": 96, "swimming": 94, "snorkelling": 96, "scuba": 98, "islands": 82,
+        "sailing": 82, "kayaking": 72, "waterSports": 88, "wildlife": 82, "fineDining": 90,
+        "foodScene": 88, "shopping": 80, "romance": 90, "safety": 92, "englishSpoken": 100,
+        "valueForMoney": 22, "familyYoungKids": 82, "luxury": 90, "seniors": 78
+      },
+      "photos": [
+        "Seven Mile Beach Cayman Islands",
+        "Stingray City Cayman Islands",
+        "Grand Cayman diving reef",
+        "Cayman Islands turquoise water",
+        "Cayman Islands sunset beach",
+        "Grand Cayman coral wall dive"
+      ]
+    }
+  ]
+}
