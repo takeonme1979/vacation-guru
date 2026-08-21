@@ -28,6 +28,13 @@ export function renderDetail(root, id, { go }) {
   // instead of at a point you were never able to choose.
   const timeModel = data().world.timeModel;
   const timeless = timeModel === 'none';
+
+  // Fiction is illustrated with photographs of real places standing in for
+  // somewhere that does not exist. Captioning the Rivendell gallery "Kaitoke
+  // Regional Park New Zealand" answers a question nobody asked and breaks the
+  // illusion the rest of the page is maintaining, so in a stand-in world the
+  // real subject is named once, in the credits, where attribution belongs.
+  const standIn = !!data().world.standInPhotos;
   const when = periodLabel(prefs.month, timeModel);
 
   /** Mean of a twelve-month series — what "typical" means with no month. */
@@ -53,9 +60,12 @@ export function renderDetail(root, id, { go }) {
       h('div', { class: 'detail__hero' },
         h('button', {
           class: 'detail__heroImg',
-          onclick: () => openLightbox(photos, 0),
+          onclick: () => openLightbox(photos, 0, { standIn, name: dest.name }),
           'aria-label': 'Open photo gallery'
-        }, imgEl(photos[0], { sizeHint: 'full', alt: `${dest.name} — ${photos[0].topic}` })),
+        }, imgEl(photos[0], {
+            sizeHint: 'full',
+            alt: standIn ? dest.name : `${dest.name} — ${photos[0].topic}`
+          })),
         h('div', { class: 'detail__heroOverlay' },
           h('h1', null, dest.name),
           h('p', null, `${dest.region ? dest.region + ' · ' : ''}${dest.country} · ${dest.continent}`)
@@ -71,11 +81,11 @@ export function renderDetail(root, id, { go }) {
       h('div', { class: 'gallery' + (photos.length <= 4 ? ' gallery--few' : '') },
         photos.map((p, i) =>
           h('button', {
-            class: 'gallery__item', onclick: () => openLightbox(photos, i),
-            'aria-label': `View photo: ${p.topic}`
+            class: 'gallery__item', onclick: () => openLightbox(photos, i, { standIn, name: dest.name }),
+            'aria-label': standIn ? `View photo ${i + 1} of ${dest.name}` : `View photo: ${p.topic}`
           },
             imgEl(p, { className: 'gallery__img' }),
-            h('span', { class: 'gallery__cap' }, p.topic)
+            standIn ? null : h('span', { class: 'gallery__cap' }, p.topic)
           )
         )
       ),
@@ -210,6 +220,10 @@ export function renderDetail(root, id, { go }) {
       photos.some((p) => p.credit)
         ? h('div', { class: 'panel panel--muted' },
             h('h2', null, 'Photo credits'),
+            standIn
+              ? h('p', { class: 'panel__hint' },
+                  'Photographs of real places, standing in for somewhere that is not.')
+              : null,
             h('ul', { class: 'credits' },
               photos.filter((p) => p.credit).map((p) =>
                 h('li', null,
@@ -245,20 +259,20 @@ function fact(icon, label, value, sub = null) {
 // Lightbox
 // ---------------------------------------------------------------------------
 
-function openLightbox(photos, startIndex) {
+function openLightbox(photos, startIndex, { standIn = false, name = '' } = {}) {
   let i = startIndex;
 
-  const img = h('img', { class: 'lightbox__img', alt: photos[i].topic });
+  const img = h('img', { class: 'lightbox__img', alt: standIn ? name : photos[i].topic });
   const cap = h('div', { class: 'lightbox__cap' });
   const counter = h('span', { class: 'lightbox__counter' });
 
   const paint = () => {
     const p = photos[i];
     img.src = p.full;
-    img.alt = p.topic;
+    img.alt = standIn ? name : p.topic;
     counter.textContent = `${i + 1} / ${photos.length}`;
     cap.replaceChildren(
-      h('strong', null, p.topic),
+      h('strong', null, standIn ? name : p.topic),
       p.credit ? h('span', null, ` · ${p.credit}${p.license ? ' · ' + p.license : ''}`) : null
     );
   };

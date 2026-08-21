@@ -123,7 +123,10 @@ export function destinationCard(result, { rank = null, onOpen, onToggle = () => 
       class: 'card__media', onclick: () => onOpen(d.id),
       'aria-label': `Open ${d.name}`
     },
-      imgEl(photo, { className: 'card__img', alt: `${d.name} — ${photo.topic}` }),
+      imgEl(photo, {
+        className: 'card__img',
+        alt: photo.caption && photo.caption !== photo.topic ? d.name : `${d.name} — ${photo.topic}`
+      }),
       rank != null ? h('span', { class: 'card__rank' }, '#' + rank) : null,
       h('div', { class: 'card__ring' }, scoreRing(result.overall, { size: 54, stroke: 5 }))
     ),

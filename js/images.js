@@ -72,12 +72,21 @@ const ENOUGH = 2;
 const MAX_PLACEHOLDERS = 3;
 
 /**
- * @returns {Array<{topic,thumb,full,credit,license,source,isPlaceholder}>}
+ * Each photo carries two labels. `topic` is what the picture actually shows,
+ * which is what attribution has to name. `caption` is what may be said out
+ * loud: in a stand-in world the photographs are real places borrowed for
+ * somewhere that does not exist, so captioning Rivendell's gallery "Kaitoke
+ * Regional Park New Zealand" breaks the illusion the rest of the page keeps.
+ * There, `caption` falls back to the authored topic, which is written in the
+ * language of the world.
+ *
+ * @returns {Array<{topic,caption,thumb,full,credit,license,source,isPlaceholder}>}
  */
 export function photosFor(dest) {
   const resolved = data().photos[dest.id] || [];
   const topics = dest.photoTopics || [];
   const n = Math.max(topics.length, resolved.length);
+  const standIn = !!data().world.standInPhotos;
 
   const real = [];
   const gaps = [];
@@ -85,9 +94,11 @@ export function photosFor(dest) {
   for (let i = 0; i < n; i++) {
     const r = resolved[i];
     const topic = (r && r.topic) || topics[i] || dest.name;
+    const caption = standIn ? (topics[i] || dest.name) : topic;
     if (r && (r.thumb || r.full)) {
       real.push({
         topic,
+        caption,
         thumb: r.thumb || r.full,
         full: r.full || r.thumb,
         credit: r.credit || '',
@@ -96,8 +107,11 @@ export function photosFor(dest) {
         isPlaceholder: false
       });
     } else {
-      const ph = placeholderFor(topic, dest.id + i);
-      gaps.push({ topic, thumb: ph, full: ph, credit: '', license: '', source: '', isPlaceholder: true });
+      const ph = placeholderFor(caption, dest.id + i);
+      gaps.push({
+        topic, caption, thumb: ph, full: ph,
+        credit: '', license: '', source: '', isPlaceholder: true
+      });
     }
   }
 
@@ -123,10 +137,14 @@ export function imgEl(photo, { className = '', sizeHint = 'thumb', alt = null } 
   el.className = className;
   el.loading = 'lazy';
   el.decoding = 'async';
-  el.alt = alt ?? photo.topic;
+  el.alt = alt ?? photo.caption ?? photo.topic;
   el.src = sizeHint === 'full' ? photo.full : photo.thumb;
   if (!photo.isPlaceholder) {
-    el.addEventListener('error', () => { el.src = placeholderFor(photo.topic); }, { once: true });
+    // Draw the sayable label, not the real subject: a fiction photo that fails
+    // to load must not fall back to a gradient captioned "Norwich Cathedral".
+    el.addEventListener('error', () => {
+      el.src = placeholderFor(photo.caption ?? photo.topic);
+    }, { once: true });
   }
   return el;
 }
