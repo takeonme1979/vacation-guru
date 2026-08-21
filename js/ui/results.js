@@ -62,8 +62,8 @@ export function renderResults(root, { go }) {
             ].filter(Boolean).join(' · '))
         ),
         h('div', { class: 'results__headActions' },
-          h('button', { class: 'btn btn--ghost', onclick: () => go('#/criteria') }, 'Edit criteria'),
-          h('button', { class: 'btn btn--ghost', onclick: () => go('#/setup') }, 'Trip basics')
+          h('button', { class: 'btn btn--ghost', onclick: () => go('#/setup') }, 'Trip basics'),
+          h('button', { class: 'btn btn--ghost', onclick: () => go('#/criteria') }, 'Edit criteria')
         )
       ),
 

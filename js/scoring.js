@@ -612,7 +612,7 @@ export function emptyPrefs() {
     home: null,
     strict: false,
     filters: { continents: [], excludeIds: [], types: [] },
-    maxPerCountry: MAX_PER_COUNTRY
+    maxPerCountry: 0
   };
 }
 
