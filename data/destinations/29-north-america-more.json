@@ -83,7 +83,7 @@
         "Santa Fe art gallery street",
         "New Mexico green chile food",
         "Santa Fe plaza church",
-        "Taos ski valley mountains"
+        "Taos Ski Valley New Mexico"
       ]
     },
     {
@@ -209,7 +209,7 @@
         "Key West sunset pier",
         "Overseas Highway Florida Keys",
         "Everglades river of grass",
-        "Key West colourful houses",
+        "Ernest Hemingway House Key West",
         "Florida Keys coral reef"
       ]
     },
@@ -331,10 +331,10 @@
       },
       "photos": [
         "Vermont fall foliage covered bridge",
-        "Vermont maple syrup farm",
+        "Quechee Gorge Vermont",
         "Stowe Vermont church steeple",
         "Vermont autumn mountains road",
-        "Sleepy Hollow Farm Vermont autumn",
+        "Woodstock Vermont village",
         "Lake Willoughby Vermont autumn"
       ]
     },
@@ -376,7 +376,7 @@
         "Bixby Bridge Big Sur California",
         "Big Sur coastline cliffs",
         "McWay Falls Big Sur",
-        "Highway 1 California coast",
+        "Point Sur Lighthouse California",
         "Big Sur redwoods forest",
         "Pfeiffer Beach purple sand"
       ]
@@ -422,7 +422,7 @@
         "Sleeping Bear Dunes Michigan",
         "Lake Michigan lighthouse",
         "Mackinac Island fudge shop",
-        "Great Lakes sunset shoreline"
+        "Pictured Rocks National Lakeshore"
       ]
     },
     {
@@ -586,9 +586,9 @@
       },
       "photos": [
         "Guadalajara cathedral plaza Mexico",
-        "Tequila town agave fields",
+        "Tequila Jalisco town Mexico",
         "Mariachi musicians Guadalajara",
-        "Guadalajara colonial architecture",
+        "Hospicio Cabanas Guadalajara",
         "Tequila Jalisco agave fields",
         "Guadalajara street market colourful"
       ]
@@ -675,7 +675,7 @@
         "PEI lighthouse coast",
         "Anne of Green Gables house PEI",
         "PEI lobster supper",
-        "Prince Edward Island red cliffs",
+        "Confederation Bridge Prince Edward Island",
         "Cavendish beach PEI"
       ]
     },
@@ -755,9 +755,9 @@
         "safety": 78, "valueForMoney": 15, "familyYoungKids": 42, "seniors": 45, "romance": 62
       },
       "photos": [
-        "Polar bear Churchill Manitoba",
-        "Beluga whales Churchill Canada",
-        "Northern lights Churchill",
+        "Polar bear Hudson Bay Canada",
+        "Beluga whale Hudson Bay",
+        "Prince of Wales Fort Churchill",
         "Churchill tundra buggy",
         "Churchill Hudson Bay",
         "Aurora borealis Manitoba"
