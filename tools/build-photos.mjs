@@ -85,6 +85,34 @@ const REJECT_ALWAYS = /\b(map|karte|mapa|logo|coat of arms|wappen|flag|flagge|di
  */
 const REJECT_IF_PHOTO_ONLY = /\b(engraving|drawing|sketch|painting of|portrait of)\b/i;
 
+/**
+ * Satellite and orbital imagery, rejected where a photograph is the point.
+ * Commons holds vast, meticulously titled collections from Copernicus, MODIS,
+ * Landsat and the ISS, and they match a place name better than anything shot
+ * from the ground -- so "Esperance white sand beach" resolved to an ESA view
+ * of farmland from orbit, and Rangiroa to a MODIS tile. Nobody picks a holiday
+ * from 400km up.
+ */
+const REJECT_ORBITAL = /\b(copernicus|modis|landsat|sentinel-?\d|earth from space|from space|seen from orbit|satellite (image|view)|astronaut photograph)\b|\biss[\s_-]?\d{3}|\bsts-?\d{2,3}\b|\b(nasa|iss)\b/i;
+
+/**
+ * Archive collections of genuinely old photographs. A 1959 Fortepan shot of
+ * Lake Balaton is a real photograph of the right place -- and no use at all to
+ * somebody deciding where to go this summer.
+ */
+const REJECT_ARCHIVE = /\b(fortepan|nypl|new york public library|library of congress|bundesarchiv|nationaal archief|tropenmuseum|national archives|dpla)\b/i;
+
+/**
+ * A picture of the signpost is not a picture of the place: "Reinebringen hike
+ * view" resolved to a trailhead sign, "Grand Ole Opry" to a wall of plaques.
+ * Allowed only when the topic asks for a sign, since some signs are landmarks.
+ */
+const REJECT_SIGN = /\b(sign|signs|signage|signpost|plaque|plaques)\b/i;
+
+/** Photographs older than this are rejected where a photograph is the point. */
+const OLDEST_USEFUL_YEAR = 1990;
+
+
 /** Set from the world's photoPolicy once main() has read the registry. */
 let ALLOW_ART = false;
 const MIN_WIDTH = () => (ALLOW_ART ? 600 : 800);
@@ -182,6 +210,23 @@ const contentWords = (phrase) =>
  * the query catches all three, and a rejected match simply falls through to the
  * next candidate — or to an honest placeholder.
  */
+/**
+ * How much of the query does this text actually name, 0..1? `onTopic` asks the
+ * same question of title + description + categories together, which is right
+ * for rejecting nonsense but blind to WHERE the words matched. A file called
+ * "Golden sands beach Varna, Bulgaria" and one called "Golden Sands, 9007,
+ * Bulgaria" both pass; only the first is telling you it shows the beach.
+ */
+export function titleOverlap(query, title) {
+  const want = contentWords(query);
+  if (!want.length) return 0;
+  const stem = (w) => (w.length > 4 && w.endsWith('s') ? w.slice(0, -1) : w);
+  const hay = new Set(
+    String(title).toLowerCase().split(/[^a-z0-9']+/).filter(Boolean).map(stem)
+  );
+  return want.filter((w) => hay.has(stem(w))).length / want.length;
+}
+
 export function onTopic(query, haystack) {
   const want = contentWords(query);
   if (!want.length) return true;
@@ -240,7 +285,7 @@ async function searchCommons(topic) {
   return null;
 }
 
-function pickBest(json, topic) {
+function pickBest(json, topic, used) {
   const pages = json?.query?.pages;
   if (!pages) return null;
 
@@ -253,7 +298,13 @@ function pickBest(json, topic) {
     if (REJECT_ALWAYS.test(title)) continue;
     if (IA_BOOK_PAGE.test(title)) continue;
     if (!ALLOW_ART && REJECT_IF_PHOTO_ONLY.test(title)) continue;
+    if (!ALLOW_ART && (REJECT_ORBITAL.test(title) || REJECT_ORBITAL.test(ii.url))
+        && !REJECT_ORBITAL.test(topic)) continue;
+    if (!ALLOW_ART && REJECT_ARCHIVE.test(title)) continue;
+    if (!ALLOW_ART && REJECT_SIGN.test(title) && !REJECT_SIGN.test(topic)) continue;
     if ((ii.width || 0) < MIN_WIDTH()) continue;
+    // Never hand the same file to two topics in one destination's gallery.
+    if (used && used.has(title)) continue;
 
     const meta = ii.extmetadata || {};
     const licence = stripHtml(meta.LicenseShortName?.value);
@@ -268,6 +319,11 @@ function pickBest(json, topic) {
       + `${stripHtml(meta.ObjectName?.value)} ${stripHtml(meta.Categories?.value)}`)) continue;
     // Skip anything without a clear reusable licence.
     if (!licence || /fair use|non-?free/i.test(licence)) continue;
+    if (!ALLOW_ART) {
+      const shot = stripHtml(meta.DateTimeOriginal?.value) || stripHtml(meta.DateTime?.value);
+      const year = Number((String(shot).match(/\b(1[89]\d{2}|20\d{2})\b/) || [])[1]);
+      if (year && year < OLDEST_USEFUL_YEAR) continue;
+    }
 
     // Prefer landscape, decent resolution, and an index order that reflects
     // Commons' own relevance ranking.
@@ -278,6 +334,10 @@ function pickBest(json, topic) {
     // throw away most of the usable illustration in an art-allowing world.
     score += ratio >= 1.2 && ratio <= 2.2 ? 3 : ratio >= 1 ? 1 : (ALLOW_ART ? 0 : -2);
     score -= (page.index ?? 0) * 0.35;
+    // A title that actually names the subject beats a vaguer file that merely
+    // happens to be bigger: "Golden Sands beach Varna" was losing to a 4608px
+    // panoramio shot called "Golden Sands, 9007, Bulgaria".
+    score += titleOverlap(topic, title.replace(/^File:/, '')) * 4;
     if (/quality|featured/i.test(stripHtml(meta.Assessments?.value))) score += 4;
 
     candidates.push({
@@ -345,12 +405,21 @@ async function main() {
   for (const dest of targets) {
     const existing = store.photos[dest.id] || [];
     const out = [];
+    // Titles already claimed by this destination, so a broadened query
+    // cannot hand the same picture to two different topics.
+    const used = new Set();
 
     for (let i = 0; i < dest.photoTopics.length; i++) {
       const topic = dest.photoTopics[i];
       const prev = existing[i];
 
       if (!FORCE && prev && prev.full && (prev.wanted ?? prev.topic) === topic) {
+        // photos.json stores the source URL, not the Commons title -- recover it
+        // so a reused entry still reserves its file against the rest of the gallery.
+        if (prev.source) {
+          const t = decodeURIComponent(prev.source.split('/wiki/')[1] || '').replace(/_/g, ' ');
+          if (t) used.add(t);
+        }
         out.push(prev); skipped++;
         continue;
       }
@@ -361,7 +430,7 @@ async function main() {
       for (const variant of queryVariants(topic)) {
         const json = await searchCommons(variant);
         await sleep(pauseMs);
-        const candidate = json && pickBest(json, variant);
+        const candidate = json && pickBest(json, variant, used);
         if (candidate) { best = candidate; matched = variant; break; }
       }
 
@@ -372,6 +441,7 @@ async function main() {
         continue;
       }
       if (matched !== topic) broadened++;
+      used.add(best.title);
 
       const record = {
         // Caption what we actually found, not what we hoped for.
