@@ -248,7 +248,7 @@ data/
   worlds.json         the world registry — one entry per dataset
   criteria.json       88 criteria in 9 categories, + 10 presets
   archetypes.json     17 place-shape baselines
-  countries.json      113 country context baselines
+  countries.json      158 country context baselines
   origins.json        80 home airports for flight-time estimates
   destinations/       authoring source, sharded by region
   destinations.json   ← generated, do not edit
@@ -481,29 +481,29 @@ Two complete worlds, one engine.
 
 | | Real | Fiction |
 | --- | --- | --- |
-| Destinations | 474 | 143 |
-| Countries / universes | 135 | 47 |
+| Destinations | 549 | 143 |
+| Countries / universes | 156 | 47 |
 | Criteria | 88 (79 rated) | 78 (70 rated) |
-| Rated data points | 37,446 | 10,010 |
-| Photographs resolved | 2,790 | 757 |
+| Rated data points | 43,371 | 10,010 |
+| Photographs resolved | 3,241 | 757 |
 
-**474 destinations across 135 countries:**
+**549 destinations across 156 countries:**
 
 | Region | Destinations |
 | --- | --- |
 | Europe | 210 |
-| Asia | 93 |
-| North America | 50 |
-| Africa | 41 |
-| South America | 35 |
-| Oceania | 29 |
-| Caribbean | 16 |
+| Asia | 107 |
+| North America | 68 |
+| Africa | 55 |
+| South America | 49 |
+| Oceania | 39 |
+| Caribbean | 21 |
 
 Europe is deliberately the deepest region for a UK-facing app, and covers 44
 countries — from the cities everyone knows to Gotland, Jersey, Sark, the Isle of
 Man, the Åland Islands, Heligoland and San Marino.
 
-427 of the 474 destinations carry a full six photographs and none has fewer than
+503 of the 549 destinations carry a full six photographs and none has fewer than
 four; unresolved topics are dropped rather than drawn as filler.
 
 The fictional catalogue spans 47 universes — Middle-earth, Westeros, the Star
