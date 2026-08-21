@@ -481,17 +481,17 @@ Two complete worlds, one engine.
 
 | | Real | Fiction |
 | --- | --- | --- |
-| Destinations | 549 | 143 |
+| Destinations | 558 | 143 |
 | Countries / universes | 156 | 47 |
 | Criteria | 88 (79 rated) | 78 (70 rated) |
-| Rated data points | 43,371 | 10,010 |
-| Photographs resolved | 3,241 | 757 |
+| Rated data points | 44,082 | 10,010 |
+| Photographs resolved | 3,293 | 757 |
 
-**549 destinations across 156 countries:**
+**558 destinations across 156 countries:**
 
 | Region | Destinations |
 | --- | --- |
-| Europe | 210 |
+| Europe | 219 |
 | Asia | 107 |
 | North America | 68 |
 | Africa | 55 |
@@ -503,7 +503,7 @@ Europe is deliberately the deepest region for a UK-facing app, and covers 44
 countries — from the cities everyone knows to Gotland, Jersey, Sark, the Isle of
 Man, the Åland Islands, Heligoland and San Marino.
 
-503 of the 549 destinations carry a full six photographs and none has fewer than
+510 of the 558 destinations carry a full six photographs and none has fewer than
 four; unresolved topics are dropped rather than drawn as filler.
 
 The fictional catalogue spans 47 universes — Middle-earth, Westeros, the Star

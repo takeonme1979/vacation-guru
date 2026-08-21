@@ -1,14 +1,14 @@
 {
-  "builtId": "0a60d246c0c9",
+  "builtId": "7cb1b664594d",
   "schemaVersion": 1,
-  "destinations": 549,
+  "destinations": 558,
   "countries": 156,
   "ratedCriteria": 79,
   "totalCriteria": 88,
-  "dataPoints": 43371,
-  "photoTopics": 3294,
+  "dataPoints": 44082,
+  "photoTopics": 3348,
   "byContinent": {
-    "Europe": 210,
+    "Europe": 219,
     "Oceania": 39,
     "Africa": 55,
     "Asia": 107,
@@ -17,13 +17,13 @@
     "Caribbean": 21
   },
   "byType": {
-    "city": 186,
-    "coast": 73,
+    "city": 192,
+    "coast": 74,
     "island": 119,
     "region": 84,
     "desert": 7,
     "mountains": 59,
-    "lake": 15,
+    "lake": 17,
     "wetland": 3,
     "jungle": 1,
     "wilderness": 2
