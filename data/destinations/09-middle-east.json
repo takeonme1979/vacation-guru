@@ -2,327 +2,533 @@
   "_doc": "The Gulf, the Levant, the Caucasus and Central Asia.",
   "destinations": [
     {
-      "id": "dubai-ae", "name": "Dubai", "country": "AE", "region": "Dubai", "continent": "Asia",
-      "lat": 25.205, "lon": 55.271, "type": "city", "arch": "resort-city",
+      "id": "dubai-ae",
+      "name": "Dubai",
+      "country": "AE",
+      "region": "Dubai",
+      "continent": "Asia",
+      "lat": 25.205,
+      "lon": 55.271,
+      "type": "city",
+      "arch": "resort-city",
       "blurb": "Superlatives made concrete — the tallest building, enormous malls, brunch culture and desert dunes half an hour out. Unliveable heat from June to September.",
       "tags": ["luxury", "shopping", "desert", "beach"],
       "climate": {
         "tempHigh": [24, 25, 28, 32, 37, 39, 40, 40, 38, 35, 30, 26],
-        "tempLow":  [15, 16, 18, 21, 25, 28, 30, 30, 28, 24, 20, 17],
+        "tempLow": [15, 16, 18, 21, 25, 28, 30, 30, 28, 24, 20, 17],
         "rainDays": [2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 1, 2],
         "sunHours": [8, 9, 9, 10, 11, 11, 11, 10, 10, 10, 9, 8],
         "humidity": [65, 65, 63, 55, 52, 58, 58, 60, 60, 60, 63, 65],
-        "seaTemp":  [22, 21, 23, 26, 29, 31, 32, 33, 32, 30, 27, 24]
+        "seaTemp": [22, 21, 23, 26, 29, 31, 32, 33, 32, 30, 27, 24]
       },
-      "crowd":      [78, 80, 78, 68, 52, 42, 45, 48, 55, 68, 82, 88],
+      "crowd": [78, 80, 78, 68, 52, 42, 45, 48, 55, 68, 82, 88],
       "priceIndex": [88, 90, 88, 78, 62, 50, 52, 55, 65, 78, 92, 100],
-      "cost": { "budget": 55, "mid": 140, "luxury": 450 },
+      "cost": {
+        "budget": 55,
+        "mid": 140,
+        "luxury": 450
+      },
       "r": {
         "shopping": 100, "luxury": 98, "themeParks": 92, "fineDining": 92, "foodScene": 88,
         "architecture": 88, "beaches": 82, "swimming": 84, "waterSports": 82, "sailing": 78,
-        "desert": 88, "adrenaline": 88, "wellness": 90, "bars": 80, "clubbing": 84,
-        "golf": 88, "familyYoungKids": 86, "familyTeens": 90, "englishSpoken": 92,
-        "safety": 94, "cleanliness": 94, "wifi": 96, "accessibility": 86,
-        "valueForMoney": 38, "historicSites": 32, "museums": 55, "localCulture": 42,
-        "hiking": 32, "scenery": 55, "backpacker": 28, "ecoFriendly": 25, "publicTransport": 78
+        "desert": 88, "adrenaline": 88, "wellness": 90, "bars": 80, "clubbing": 84, "golf": 88,
+        "familyYoungKids": 86, "familyTeens": 90, "englishSpoken": 92, "safety": 94,
+        "cleanliness": 94, "wifi": 96, "accessibility": 86, "valueForMoney": 38,
+        "historicSites": 32, "museums": 55, "localCulture": 42, "hiking": 32, "scenery": 55,
+        "backpacker": 28, "ecoFriendly": 25, "publicTransport": 78
       },
-      "photos": ["Burj Khalifa Dubai skyline", "Dubai Marina at night", "Desert safari dunes Dubai", "Dubai Mall fountain", "Al Fahidi historical district Dubai", "Palm Jumeirah aerial Dubai"]
+      "photos": [
+        "Burj Khalifa Dubai skyline",
+        "Dubai Marina at night",
+        "Desert safari dunes Dubai",
+        "Dubai Mall fountain",
+        "Al Fahidi historical district Dubai",
+        "Palm Jumeirah aerial Dubai"
+      ]
     },
     {
-      "id": "abu-dhabi-ae", "name": "Abu Dhabi", "country": "AE", "region": "Abu Dhabi", "continent": "Asia",
-      "lat": 24.454, "lon": 54.377, "type": "city", "arch": "capital-city",
+      "id": "abu-dhabi-ae",
+      "name": "Abu Dhabi",
+      "country": "AE",
+      "region": "Abu Dhabi",
+      "continent": "Asia",
+      "lat": 24.454,
+      "lon": 54.377,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Calmer and more considered than Dubai — the Sheikh Zayed Grand Mosque, a Louvre outpost, and the Empty Quarter's dunes to the south.",
       "tags": ["mosque", "museums", "desert", "family"],
       "climate": {
         "tempHigh": [24, 25, 28, 33, 38, 40, 41, 41, 39, 35, 30, 26],
-        "tempLow":  [14, 15, 18, 21, 25, 28, 30, 30, 27, 23, 19, 16],
+        "tempLow": [14, 15, 18, 21, 25, 28, 30, 30, 27, 23, 19, 16],
         "rainDays": [2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 1, 2],
         "sunHours": [9, 9, 9, 10, 11, 11, 10, 10, 10, 10, 9, 8],
         "humidity": [68, 68, 65, 58, 54, 58, 58, 60, 62, 62, 65, 68],
-        "seaTemp":  [22, 21, 23, 26, 30, 32, 33, 34, 32, 30, 27, 24]
+        "seaTemp": [22, 21, 23, 26, 30, 32, 33, 34, 32, 30, 27, 24]
       },
-      "crowd":      [68, 72, 72, 62, 48, 40, 42, 45, 52, 62, 75, 80],
+      "crowd": [68, 72, 72, 62, 48, 40, 42, 45, 52, 62, 75, 80],
       "priceIndex": [78, 82, 82, 72, 58, 48, 50, 52, 62, 72, 85, 92],
-      "cost": { "budget": 50, "mid": 128, "luxury": 400 },
-      "r": {
-        "religiousSites": 94, "museums": 88, "architecture": 88, "artScene": 78,
-        "luxury": 92, "themeParks": 90, "shopping": 88, "beaches": 80, "swimming": 82,
-        "desert": 90, "adrenaline": 78, "wellness": 88, "golf": 84, "sports": 84,
-        "familyYoungKids": 88, "familyTeens": 88, "englishSpoken": 90,
-        "safety": 96, "cleanliness": 94, "accessibility": 88, "wifi": 94,
-        "valueForMoney": 45, "historicSites": 45, "localCulture": 52,
-        "bars": 62, "clubbing": 58, "backpacker": 25, "hiking": 30, "publicTransport": 55
+      "cost": {
+        "budget": 50,
+        "mid": 128,
+        "luxury": 400
       },
-      "photos": ["Sheikh Zayed Grand Mosque Abu Dhabi", "Louvre Abu Dhabi dome", "Qasr Al Watan palace Abu Dhabi", "Liwa desert dunes Empty Quarter", "Abu Dhabi corniche skyline", "Yas Marina Circuit Abu Dhabi"]
+      "r": {
+        "religiousSites": 94, "museums": 88, "architecture": 88, "artScene": 78, "luxury": 92,
+        "themeParks": 90, "shopping": 88, "beaches": 80, "swimming": 82, "desert": 90,
+        "adrenaline": 78, "wellness": 88, "golf": 84, "sports": 84, "familyYoungKids": 88,
+        "familyTeens": 88, "englishSpoken": 90, "safety": 96, "cleanliness": 94,
+        "accessibility": 88, "wifi": 94, "valueForMoney": 45, "historicSites": 45,
+        "localCulture": 52, "bars": 62, "clubbing": 58, "backpacker": 25, "hiking": 30,
+        "publicTransport": 55
+      },
+      "photos": [
+        "Sheikh Zayed Grand Mosque Abu Dhabi",
+        "Louvre Abu Dhabi dome",
+        "Qasr Al Watan palace Abu Dhabi",
+        "Liwa desert dunes Empty Quarter",
+        "Abu Dhabi corniche skyline",
+        "Yas Marina Circuit Abu Dhabi"
+      ]
     },
     {
-      "id": "doha-qa", "name": "Doha", "country": "QA", "region": "Doha", "continent": "Asia",
-      "lat": 25.286, "lon": 51.531, "type": "city", "arch": "capital-city",
+      "id": "doha-qa",
+      "name": "Doha",
+      "country": "QA",
+      "region": "Doha",
+      "continent": "Asia",
+      "lat": 25.286,
+      "lon": 51.531,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "A serious museum city behind the skyline — the Museum of Islamic Art, a rebuilt souq, and the inland sea where dunes meet the Gulf.",
       "tags": ["museums", "souq", "desert", "modern"],
       "climate": {
         "tempHigh": [22, 24, 28, 33, 39, 41, 41, 41, 38, 35, 29, 24],
-        "tempLow":  [14, 15, 18, 22, 27, 29, 31, 30, 28, 25, 20, 16],
+        "tempLow": [14, 15, 18, 22, 27, 29, 31, 30, 28, 25, 20, 16],
         "rainDays": [1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 1],
         "sunHours": [8, 9, 9, 10, 11, 11, 10, 10, 10, 10, 9, 8],
         "humidity": [71, 68, 63, 52, 44, 45, 48, 52, 56, 60, 65, 70],
-        "seaTemp":  [22, 21, 23, 26, 30, 32, 33, 34, 32, 30, 27, 24]
+        "seaTemp": [22, 21, 23, 26, 30, 32, 33, 34, 32, 30, 27, 24]
       },
-      "crowd":      [65, 68, 68, 58, 45, 38, 40, 42, 48, 58, 72, 78],
+      "crowd": [65, 68, 68, 58, 45, 38, 40, 42, 48, 58, 72, 78],
       "priceIndex": [75, 78, 78, 68, 55, 45, 48, 50, 58, 68, 82, 88],
-      "cost": { "budget": 45, "mid": 115, "luxury": 360 },
+      "cost": {
+        "budget": 45,
+        "mid": 115,
+        "luxury": 360
+      },
       "r": {
         "museums": 94, "artScene": 86, "architecture": 88, "markets": 84, "religiousSites": 80,
         "desert": 88, "luxury": 90, "shopping": 86, "fineDining": 82, "sports": 90,
-        "beaches": 68, "swimming": 74, "waterSports": 68, "adrenaline": 72,
-        "safety": 96, "cleanliness": 92, "englishSpoken": 88, "accessibility": 84,
-        "familyYoungKids": 78, "valueForMoney": 42, "historicSites": 48,
-        "localCulture": 58, "bars": 45, "clubbing": 40, "backpacker": 25,
-        "hiking": 22, "publicTransport": 68
+        "beaches": 68, "swimming": 74, "waterSports": 68, "adrenaline": 72, "safety": 96,
+        "cleanliness": 92, "englishSpoken": 88, "accessibility": 84, "familyYoungKids": 78,
+        "valueForMoney": 42, "historicSites": 48, "localCulture": 58, "bars": 45, "clubbing": 40,
+        "backpacker": 25, "hiking": 22, "publicTransport": 68
       },
-      "photos": ["Museum of Islamic Art Doha", "Souq Waqif Doha", "Doha skyline West Bay", "Khor Al Adaid inland sea Qatar", "National Museum of Qatar", "Dhow boats Doha corniche"]
+      "photos": [
+        "Museum of Islamic Art Doha",
+        "Souq Waqif Doha",
+        "Doha skyline West Bay",
+        "Khor Al Adaid inland sea Qatar",
+        "National Museum of Qatar",
+        "Dhow boats Doha corniche"
+      ]
     },
     {
-      "id": "muscat-om", "name": "Muscat & Oman", "country": "OM", "region": "Muscat", "continent": "Asia",
-      "lat": 23.588, "lon": 58.408, "type": "city", "arch": "coastal-city",
+      "id": "muscat-om",
+      "name": "Muscat & Oman",
+      "country": "OM",
+      "region": "Muscat",
+      "continent": "Asia",
+      "lat": 23.588,
+      "lon": 58.408,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "The Gulf without the glass towers — whitewashed forts, wadis you can swim in, turtle beaches and the Empty Quarter. Genuinely welcoming.",
       "tags": ["wadis", "forts", "desert", "authentic"],
       "climate": {
         "tempHigh": [25, 25, 29, 33, 38, 38, 36, 34, 35, 34, 30, 26],
-        "tempLow":  [17, 18, 21, 24, 29, 30, 29, 28, 27, 24, 21, 19],
+        "tempLow": [17, 18, 21, 24, 29, 30, 29, 28, 27, 24, 21, 19],
         "rainDays": [2, 2, 2, 1, 0, 0, 1, 1, 0, 0, 1, 2],
         "sunHours": [9, 9, 9, 10, 11, 11, 9, 9, 10, 10, 10, 9],
         "humidity": [62, 64, 60, 52, 46, 52, 58, 60, 60, 58, 60, 62],
-        "seaTemp":  [24, 23, 25, 27, 30, 31, 30, 29, 29, 29, 27, 25]
+        "seaTemp": [24, 23, 25, 27, 30, 31, 30, 29, 29, 29, 27, 25]
       },
-      "crowd":      [62, 65, 65, 55, 42, 35, 38, 42, 45, 55, 68, 72],
+      "crowd": [62, 65, 65, 55, 42, 35, 38, 42, 45, 55, 68, 72],
       "priceIndex": [72, 75, 75, 65, 52, 45, 48, 52, 55, 65, 78, 85],
-      "cost": { "budget": 40, "mid": 100, "luxury": 300 },
+      "cost": {
+        "budget": 40,
+        "mid": 100,
+        "luxury": 300
+      },
       "r": {
         "scenery": 88, "desert": 92, "mountains": 84, "hiking": 84, "roadTrip": 92,
         "lakesRivers": 82, "swimming": 82, "beaches": 80, "scuba": 78, "snorkelling": 78,
-        "wildlife": 78, "kayaking": 72, "climbing": 76, "stargazing": 90,
-        "historicSites": 86, "religiousSites": 84, "architecture": 80, "markets": 82,
-        "localCulture": 90, "safety": 94, "cleanliness": 88, "englishSpoken": 74,
-        "romance": 82, "valueForMoney": 62, "ecoFriendly": 62,
-        "bars": 32, "clubbing": 20, "shopping": 62, "backpacker": 42, "publicTransport": 32
+        "wildlife": 78, "kayaking": 72, "climbing": 76, "stargazing": 90, "historicSites": 86,
+        "religiousSites": 84, "architecture": 80, "markets": 82, "localCulture": 90,
+        "safety": 94, "cleanliness": 88, "englishSpoken": 74, "romance": 82, "valueForMoney": 62,
+        "ecoFriendly": 62, "bars": 32, "clubbing": 20, "shopping": 62, "backpacker": 42,
+        "publicTransport": 32
       },
-      "photos": ["Sultan Qaboos Grand Mosque Muscat", "Wadi Shab Oman", "Nizwa Fort Oman", "Wahiba Sands desert Oman", "Muttrah souq Muscat", "Jebel Shams canyon Oman"]
+      "photos": [
+        "Sultan Qaboos Grand Mosque Muscat",
+        "Wadi Shab Oman",
+        "Nizwa Fort Oman",
+        "Wahiba Sands desert Oman",
+        "Muttrah souq Muscat",
+        "Jebel Shams canyon Oman"
+      ]
     },
-
     {
-      "id": "petra-jo", "name": "Petra & Wadi Rum", "country": "JO", "region": "Ma'an", "continent": "Asia",
-      "lat": 30.328, "lon": 35.442, "type": "region", "arch": "desert",
+      "id": "petra-jo",
+      "name": "Petra & Wadi Rum",
+      "country": "JO",
+      "region": "Ma'an",
+      "continent": "Asia",
+      "lat": 30.328,
+      "lon": 35.442,
+      "type": "region",
+      "arch": "desert",
       "blurb": "A Nabataean city carved into rose sandstone, reached through a slot canyon — then Mars-red desert where you sleep in a Bedouin camp under the stars.",
       "tags": ["petra", "desert", "unesco", "stargazing"],
       "climate": {
         "tempHigh": [12, 14, 18, 23, 28, 31, 32, 32, 30, 26, 19, 14],
-        "tempLow":  [4, 5, 8, 12, 16, 19, 21, 21, 19, 16, 10, 6],
+        "tempLow": [4, 5, 8, 12, 16, 19, 21, 21, 19, 16, 10, 6],
         "rainDays": [7, 6, 5, 2, 1, 0, 0, 0, 0, 2, 4, 6],
         "sunHours": [6, 7, 8, 9, 11, 12, 12, 12, 10, 8, 7, 6],
         "humidity": [65, 62, 55, 45, 38, 35, 38, 42, 48, 52, 58, 64]
       },
-      "crowd":      [38, 45, 68, 78, 62, 52, 58, 62, 68, 78, 58, 42],
+      "crowd": [38, 45, 68, 78, 62, 52, 58, 62, 68, 78, 58, 42],
       "priceIndex": [50, 58, 80, 90, 75, 62, 68, 72, 80, 90, 72, 55],
-      "cost": { "budget": 40, "mid": 100, "luxury": 300 },
-      "r": {
-        "historicSites": 100, "architecture": 94, "desert": 96, "scenery": 96,
-        "stargazing": 96, "hiking": 88, "climbing": 78, "adrenaline": 72,
-        "localCulture": 88, "roadTrip": 84, "romance": 86, "museums": 62,
-        "religiousSites": 72, "valueForMoney": 74, "familyTeens": 82,
-        "safety": 84, "englishSpoken": 70, "wildlife": 45,
-        "beaches": 0, "swimming": 15, "clubbing": 5, "bars": 22, "shopping": 52,
-        "publicTransport": 25, "accessibility": 25, "cleanliness": 62
+      "cost": {
+        "budget": 40,
+        "mid": 100,
+        "luxury": 300
       },
-      "photos": ["Petra Treasury Al Khazneh Jordan", "Petra Siq canyon entrance", "Wadi Rum desert Jordan", "Bedouin camp Wadi Rum night sky", "Petra Monastery Ad Deir", "Wadi Rum rock arch Jordan"]
+      "r": {
+        "historicSites": 100, "architecture": 94, "desert": 96, "scenery": 96, "stargazing": 96,
+        "hiking": 88, "climbing": 78, "adrenaline": 72, "localCulture": 88, "roadTrip": 84,
+        "romance": 86, "museums": 62, "religiousSites": 72, "valueForMoney": 74,
+        "familyTeens": 82, "safety": 84, "englishSpoken": 70, "wildlife": 45, "beaches": 0,
+        "swimming": 15, "clubbing": 5, "bars": 22, "shopping": 52, "publicTransport": 25,
+        "accessibility": 25, "cleanliness": 62
+      },
+      "photos": [
+        "Petra Treasury Al Khazneh Jordan",
+        "Petra Siq canyon entrance",
+        "Wadi Rum desert Jordan",
+        "Bedouin camp Wadi Rum night sky",
+        "Petra Monastery Ad Deir",
+        "Wadi Rum rock arch Jordan"
+      ]
     },
     {
-      "id": "dead-sea-jo", "name": "The Dead Sea", "country": "JO", "region": "Balqa", "continent": "Asia",
-      "lat": 31.559, "lon": 35.473, "type": "coast", "arch": "beach-resort",
+      "id": "dead-sea-jo",
+      "name": "The Dead Sea",
+      "country": "JO",
+      "region": "Balqa",
+      "continent": "Asia",
+      "lat": 31.559,
+      "lon": 35.473,
+      "type": "coast",
+      "arch": "beach-resort",
       "blurb": "The lowest point on dry land, 430m below sea level, where the water is so saline you cannot sink. Mineral mud, spa resorts and biblical history.",
       "tags": ["floating", "spa", "lowest point", "mud"],
       "climate": {
         "tempHigh": [21, 23, 27, 32, 36, 39, 40, 40, 38, 34, 28, 22],
-        "tempLow":  [13, 14, 17, 21, 24, 27, 29, 29, 27, 24, 19, 14],
+        "tempLow": [13, 14, 17, 21, 24, 27, 29, 29, 27, 24, 19, 14],
         "rainDays": [4, 4, 2, 1, 0, 0, 0, 0, 0, 1, 2, 3],
         "sunHours": [7, 8, 8, 10, 11, 12, 12, 12, 11, 9, 8, 7],
         "humidity": [55, 52, 45, 38, 32, 30, 34, 38, 42, 45, 50, 54],
-        "seaTemp":  [22, 21, 23, 26, 29, 31, 32, 33, 32, 30, 27, 24]
+        "seaTemp": [22, 21, 23, 26, 29, 31, 32, 33, 32, 30, 27, 24]
       },
-      "crowd":      [48, 52, 65, 72, 62, 58, 62, 65, 68, 72, 58, 50],
+      "crowd": [48, 52, 65, 72, 62, 58, 62, 65, 68, 72, 58, 50],
       "priceIndex": [58, 62, 75, 82, 72, 68, 72, 75, 78, 82, 70, 62],
-      "cost": { "budget": 45, "mid": 110, "luxury": 300 },
+      "cost": {
+        "budget": 45,
+        "mid": 110,
+        "luxury": 300
+      },
       "r": {
         "wellness": 96, "swimming": 88, "scenery": 78, "desert": 80, "luxury": 84,
-        "historicSites": 72, "religiousSites": 78, "hiking": 68, "stargazing": 78,
-        "seniors": 82, "romance": 76, "accessibility": 62, "safety": 84,
-        "englishSpoken": 70, "valueForMoney": 62, "familyYoungKids": 68,
-        "beaches": 55, "scuba": 0, "snorkelling": 0, "surfing": 0, "fishing": 0,
-        "clubbing": 12, "bars": 35, "shopping": 45, "museums": 42, "publicTransport": 22
+        "historicSites": 72, "religiousSites": 78, "hiking": 68, "stargazing": 78, "seniors": 82,
+        "romance": 76, "accessibility": 62, "safety": 84, "englishSpoken": 70,
+        "valueForMoney": 62, "familyYoungKids": 68, "beaches": 55, "scuba": 0, "snorkelling": 0,
+        "surfing": 0, "fishing": 0, "clubbing": 12, "bars": 35, "shopping": 45, "museums": 42,
+        "publicTransport": 22
       },
-      "photos": ["Dead Sea floating Jordan", "Dead Sea salt formations", "Dead Sea mud treatment spa", "Dead Sea sunset Jordan", "Mount Nebo view Jordan", "Ma'in hot springs Jordan"]
+      "photos": [
+        "Dead Sea floating Jordan",
+        "Dead Sea salt formations",
+        "Dead Sea mud treatment spa",
+        "Dead Sea sunset Jordan",
+        "Mount Nebo view Jordan",
+        "Ma'in hot springs Jordan"
+      ]
     },
     {
-      "id": "jerusalem-il", "name": "Jerusalem", "country": "IL", "region": "Jerusalem", "continent": "Asia",
-      "lat": 31.769, "lon": 35.214, "type": "city", "arch": "historic-city",
+      "id": "jerusalem-il",
+      "name": "Jerusalem",
+      "country": "IL",
+      "region": "Jerusalem",
+      "continent": "Asia",
+      "lat": 31.769,
+      "lon": 35.214,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Four quarters, three faiths and three thousand years inside one square kilometre of walls. Nowhere else is as densely layered.",
       "tags": ["holy sites", "history", "walled city", "markets"],
       "climate": {
         "tempHigh": [12, 13, 16, 21, 25, 27, 29, 29, 28, 25, 19, 14],
-        "tempLow":  [6, 6, 8, 12, 15, 18, 20, 20, 19, 17, 12, 8],
+        "tempLow": [6, 6, 8, 12, 15, 18, 20, 20, 19, 17, 12, 8],
         "rainDays": [9, 8, 6, 3, 1, 0, 0, 0, 0, 2, 5, 8],
         "sunHours": [6, 7, 7, 9, 11, 12, 12, 11, 10, 8, 7, 6],
         "humidity": [66, 64, 58, 48, 42, 42, 48, 52, 52, 52, 58, 64]
       },
-      "crowd":      [42, 48, 68, 78, 62, 58, 68, 72, 78, 68, 52, 58],
+      "crowd": [42, 48, 68, 78, 62, 58, 68, 72, 78, 68, 52, 58],
       "priceIndex": [52, 58, 80, 90, 72, 68, 78, 82, 88, 80, 62, 70],
-      "cost": { "budget": 50, "mid": 125, "luxury": 340 },
+      "cost": {
+        "budget": 50,
+        "mid": 125,
+        "luxury": 340
+      },
       "r": {
         "religiousSites": 100, "historicSites": 100, "architecture": 90, "museums": 92,
-        "localCulture": 94, "markets": 90, "foodScene": 88, "streetFood": 86,
-        "walkability": 84, "kosher": 100, "halal": 82, "vegetarian": 92, "vegan": 90,
-        "festivals": 84, "valueForMoney": 48, "seniors": 62,
-        "safety": 62, "cleanliness": 68, "englishSpoken": 82, "accessibility": 42,
-        "beaches": 0, "swimming": 15, "clubbing": 35, "bars": 58, "scenery": 55,
-        "hiking": 52, "publicTransport": 74
+        "localCulture": 94, "markets": 90, "foodScene": 88, "streetFood": 86, "walkability": 84,
+        "kosher": 100, "halal": 82, "vegetarian": 92, "vegan": 90, "festivals": 84,
+        "valueForMoney": 48, "seniors": 62, "safety": 62, "cleanliness": 68, "englishSpoken": 82,
+        "accessibility": 42, "beaches": 0, "swimming": 15, "clubbing": 35, "bars": 58,
+        "scenery": 55, "hiking": 52, "publicTransport": 74
       },
-      "photos": ["Western Wall Jerusalem", "Dome of the Rock Jerusalem", "Church of the Holy Sepulchre", "Jerusalem Old City walls", "Mahane Yehuda market Jerusalem", "Mount of Olives view Jerusalem"]
+      "photos": [
+        "Western Wall Jerusalem",
+        "Dome of the Rock Jerusalem",
+        "Church of the Holy Sepulchre",
+        "Jerusalem Old City walls",
+        "Mahane Yehuda market Jerusalem",
+        "Mount of Olives view Jerusalem"
+      ]
     },
     {
-      "id": "tel-aviv-il", "name": "Tel Aviv", "country": "IL", "region": "Tel Aviv", "continent": "Asia",
-      "lat": 32.085, "lon": 34.781, "type": "city", "arch": "coastal-city",
+      "id": "tel-aviv-il",
+      "name": "Tel Aviv",
+      "country": "IL",
+      "region": "Tel Aviv",
+      "continent": "Asia",
+      "lat": 32.085,
+      "lon": 34.781,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Bauhaus architecture, 14km of city beach, one of the world's great LGBTQ+ scenes and a food culture punching far above its weight.",
       "tags": ["beach", "nightlife", "bauhaus", "food"],
       "climate": {
         "tempHigh": [18, 19, 21, 25, 27, 29, 30, 31, 30, 28, 24, 20],
-        "tempLow":  [10, 10, 12, 15, 18, 21, 23, 24, 22, 19, 15, 12],
+        "tempLow": [10, 10, 12, 15, 18, 21, 23, 24, 22, 19, 15, 12],
         "rainDays": [8, 7, 5, 2, 1, 0, 0, 0, 0, 3, 5, 8],
         "sunHours": [6, 7, 8, 9, 11, 12, 12, 11, 10, 8, 7, 6],
         "humidity": [70, 70, 68, 64, 66, 68, 70, 70, 68, 66, 66, 68],
-        "seaTemp":  [18, 17, 18, 20, 23, 26, 28, 29, 28, 26, 23, 20]
+        "seaTemp": [18, 17, 18, 20, 23, 26, 28, 29, 28, 26, 23, 20]
       },
-      "crowd":      [45, 48, 58, 68, 68, 72, 82, 85, 78, 68, 52, 52],
+      "crowd": [45, 48, 58, 68, 68, 72, 82, 85, 78, 68, 52, 52],
       "priceIndex": [55, 58, 70, 80, 80, 82, 92, 95, 88, 80, 62, 62],
-      "cost": { "budget": 58, "mid": 145, "luxury": 400 },
+      "cost": {
+        "budget": 58,
+        "mid": 145,
+        "luxury": 400
+      },
       "r": {
-        "beaches": 86, "swimming": 86, "surfing": 74, "waterSports": 76,
-        "foodScene": 94, "streetFood": 88, "fineDining": 88, "markets": 88,
-        "bars": 94, "clubbing": 94, "lgbtqScene": 98, "lgbtqSafety": 92,
-        "liveMusic": 86, "architecture": 88, "artScene": 86, "museums": 80,
-        "walkability": 88, "cycling": 88, "vegan": 98, "vegetarian": 96,
+        "beaches": 86, "swimming": 86, "surfing": 74, "waterSports": 76, "foodScene": 94,
+        "streetFood": 88, "fineDining": 88, "markets": 88, "bars": 94, "clubbing": 94,
+        "lgbtqScene": 98, "lgbtqSafety": 92, "liveMusic": 86, "architecture": 88, "artScene": 86,
+        "museums": 80, "walkability": 88, "cycling": 88, "vegan": 98, "vegetarian": 96,
         "kosher": 96, "soloTravel": 82, "digitalNomad": 84, "groupParty": 86,
         "valueForMoney": 32, "safety": 62, "historicSites": 68, "publicTransport": 72
       },
-      "photos": ["Tel Aviv beach skyline", "Bauhaus architecture Tel Aviv White City", "Carmel Market Tel Aviv", "Jaffa old port Tel Aviv", "Tel Aviv Rothschild Boulevard", "Tel Aviv Pride parade"]
+      "photos": [
+        "Tel Aviv beach skyline",
+        "Bauhaus architecture Tel Aviv White City",
+        "Carmel Market Tel Aviv",
+        "Jaffa old port Tel Aviv",
+        "Tel Aviv Rothschild Boulevard",
+        "Tel Aviv Pride parade"
+      ]
     },
-
     {
-      "id": "tbilisi-ge", "name": "Tbilisi", "country": "GE", "region": "Tbilisi", "continent": "Asia",
-      "lat": 41.716, "lon": 44.783, "type": "city", "arch": "historic-city",
+      "id": "tbilisi-ge",
+      "name": "Tbilisi",
+      "country": "GE",
+      "region": "Tbilisi",
+      "continent": "Asia",
+      "lat": 41.716,
+      "lon": 44.783,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Sulphur bathhouses, wooden balconies and Soviet brutalism stacked up a gorge — with 8,000 years of winemaking and Europe's best-value food scene.",
       "tags": ["wine", "bathhouses", "food", "value"],
       "climate": {
         "tempHigh": [7, 9, 13, 19, 23, 28, 31, 31, 26, 20, 13, 8],
-        "tempLow":  [-1, 0, 3, 8, 12, 16, 19, 19, 15, 10, 5, 1],
+        "tempLow": [-1, 0, 3, 8, 12, 16, 19, 19, 15, 10, 5, 1],
         "rainDays": [6, 6, 7, 8, 10, 9, 7, 7, 6, 6, 6, 6],
         "sunHours": [3, 4, 5, 6, 7, 9, 9, 9, 7, 6, 4, 3],
         "humidity": [76, 73, 68, 64, 66, 62, 58, 58, 64, 70, 74, 77],
         "snowDepth": [10, 8, 3, 0, 0, 0, 0, 0, 0, 0, 2, 7]
       },
-      "crowd":      [35, 35, 45, 58, 68, 68, 72, 72, 68, 58, 42, 45],
+      "crowd": [35, 35, 45, 58, 68, 68, 72, 72, 68, 58, 42, 45],
       "priceIndex": [45, 45, 55, 68, 78, 78, 82, 82, 78, 68, 52, 58],
-      "cost": { "budget": 24, "mid": 58, "luxury": 170 },
-      "r": {
-        "wine": 96, "foodScene": 94, "wellness": 92, "architecture": 88,
-        "historicSites": 84, "localCulture": 90, "markets": 84, "religiousSites": 82,
-        "bars": 86, "clubbing": 88, "liveMusic": 78, "artScene": 80,
-        "walkability": 80, "mountains": 68, "hiking": 72, "roadTrip": 82,
-        "valueForMoney": 96, "backpacker": 88, "digitalNomad": 88, "soloTravel": 80,
-        "visaEase": 98, "safety": 84, "cleanliness": 58,
-        "beaches": 8, "swimming": 25, "englishSpoken": 52, "publicTransport": 70
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 170
       },
-      "photos": ["Tbilisi old town balconies", "Abanotubani sulphur baths Tbilisi", "Narikala Fortress Tbilisi view", "Georgian supra feast khinkali", "Bridge of Peace Tbilisi", "Georgian qvevri wine making"]
+      "r": {
+        "wine": 96, "foodScene": 94, "wellness": 92, "architecture": 88, "historicSites": 84,
+        "localCulture": 90, "markets": 84, "religiousSites": 82, "bars": 86, "clubbing": 88,
+        "liveMusic": 78, "artScene": 80, "walkability": 80, "mountains": 68, "hiking": 72,
+        "roadTrip": 82, "valueForMoney": 96, "backpacker": 88, "digitalNomad": 88,
+        "soloTravel": 80, "visaEase": 98, "safety": 84, "cleanliness": 58, "beaches": 8,
+        "swimming": 25, "englishSpoken": 52, "publicTransport": 70
+      },
+      "photos": [
+        "Tbilisi old town balconies",
+        "Abanotubani sulphur baths Tbilisi",
+        "Narikala Fortress Tbilisi view",
+        "Georgian supra feast khinkali",
+        "Bridge of Peace Tbilisi",
+        "Georgian qvevri wine making"
+      ]
     },
     {
-      "id": "svaneti-ge", "name": "Svaneti", "country": "GE", "region": "Samegrelo-Zemo Svaneti", "continent": "Asia",
-      "lat": 43.045, "lon": 42.727, "type": "mountains", "arch": "mountain-town",
+      "id": "svaneti-ge",
+      "name": "Svaneti",
+      "country": "GE",
+      "region": "Samegrelo-Zemo Svaneti",
+      "continent": "Asia",
+      "lat": 43.045,
+      "lon": 42.727,
+      "type": "mountains",
+      "arch": "mountain-town",
       "blurb": "Medieval stone defence towers in villages under 5,000m Caucasus peaks — one of Europe's last genuinely remote mountain cultures.",
       "tags": ["caucasus", "towers", "trekking", "remote"],
       "climate": {
         "tempHigh": [2, 3, 8, 13, 18, 21, 23, 23, 20, 15, 9, 4],
-        "tempLow":  [-6, -5, -1, 3, 8, 11, 13, 13, 10, 6, 1, -3],
+        "tempLow": [-6, -5, -1, 3, 8, 11, 13, 13, 10, 6, 1, -3],
         "rainDays": [10, 10, 11, 12, 14, 13, 12, 11, 9, 10, 10, 10],
         "sunHours": [3, 4, 4, 5, 6, 7, 7, 7, 6, 5, 3, 3],
         "humidity": [78, 76, 74, 74, 76, 78, 80, 80, 80, 80, 79, 79],
         "snowDepth": [90, 100, 80, 35, 5, 0, 0, 0, 0, 3, 35, 70]
       },
-      "crowd":      [22, 25, 25, 28, 42, 62, 82, 85, 62, 38, 22, 22],
+      "crowd": [22, 25, 25, 28, 42, 62, 82, 85, 62, 38, 22, 22],
       "priceIndex": [35, 38, 38, 42, 58, 78, 92, 95, 78, 52, 35, 35],
-      "cost": { "budget": 22, "mid": 52, "luxury": 150 },
-      "r": {
-        "mountains": 96, "scenery": 96, "hiking": 94, "historicSites": 90,
-        "localCulture": 96, "climbing": 82, "skiing": 74, "stargazing": 84,
-        "forests": 78, "lakesRivers": 76, "roadTrip": 82, "adrenaline": 72,
-        "wildlife": 62, "valueForMoney": 94, "backpacker": 88, "romance": 78,
-        "foodScene": 78, "wine": 82, "safety": 82, "englishSpoken": 32,
-        "beaches": 0, "swimming": 15, "clubbing": 5, "shopping": 25,
-        "publicTransport": 18, "accessibility": 10, "cleanliness": 55, "museums": 45
+      "cost": {
+        "budget": 22,
+        "mid": 52,
+        "luxury": 150
       },
-      "photos": ["Ushguli Svaneti towers Georgia", "Mestia Svaneti village", "Caucasus mountains Georgia Shkhara", "Svan tower house Georgia", "Koruldi Lakes Svaneti", "Georgian mountain trail hiking"]
+      "r": {
+        "mountains": 96, "scenery": 96, "hiking": 94, "historicSites": 90, "localCulture": 96,
+        "climbing": 82, "skiing": 74, "stargazing": 84, "forests": 78, "lakesRivers": 76,
+        "roadTrip": 82, "adrenaline": 72, "wildlife": 62, "valueForMoney": 94, "backpacker": 88,
+        "romance": 78, "foodScene": 78, "wine": 82, "safety": 82, "englishSpoken": 32,
+        "beaches": 0, "swimming": 15, "clubbing": 5, "shopping": 25, "publicTransport": 18,
+        "accessibility": 10, "cleanliness": 55, "museums": 45
+      },
+      "photos": [
+        "Ushguli Svaneti towers Georgia",
+        "Mestia Svaneti village",
+        "Caucasus mountains Georgia Shkhara",
+        "Svan tower house Georgia",
+        "Koruldi Lakes Svaneti",
+        "Georgian mountain trail hiking"
+      ]
     },
     {
-      "id": "samarkand-uz", "name": "Samarkand & Bukhara", "country": "UZ", "region": "Uzbekistan", "continent": "Asia",
-      "lat": 39.627, "lon": 66.975, "type": "city", "arch": "historic-city",
+      "id": "samarkand-uz",
+      "name": "Samarkand & Bukhara",
+      "country": "UZ",
+      "region": "Uzbekistan",
+      "continent": "Asia",
+      "lat": 39.627,
+      "lon": 66.975,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "The Silk Road's showpiece — cobalt-tiled madrasas, Timur's tomb and Registan square, plus Bukhara's intact medieval centre.",
       "tags": ["silk road", "tilework", "history", "value"],
       "climate": {
         "tempHigh": [6, 8, 14, 21, 27, 33, 35, 34, 29, 21, 14, 8],
-        "tempLow":  [-2, 0, 5, 11, 15, 20, 22, 20, 15, 9, 4, 0],
+        "tempLow": [-2, 0, 5, 11, 15, 20, 22, 20, 15, 9, 4, 0],
         "rainDays": [4, 4, 6, 5, 4, 1, 1, 0, 1, 3, 4, 5],
         "sunHours": [4, 5, 6, 8, 10, 12, 12, 11, 10, 7, 5, 4],
         "humidity": [76, 72, 66, 60, 52, 42, 40, 42, 48, 60, 70, 76]
       },
-      "crowd":      [22, 25, 52, 68, 62, 48, 42, 45, 62, 72, 42, 25],
+      "crowd": [22, 25, 52, 68, 62, 48, 42, 45, 62, 72, 42, 25],
       "priceIndex": [35, 38, 68, 82, 78, 62, 55, 58, 78, 85, 55, 38],
-      "cost": { "budget": 24, "mid": 58, "luxury": 170 },
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 170
+      },
       "r": {
         "historicSites": 98, "architecture": 100, "religiousSites": 92, "localCulture": 92,
-        "markets": 88, "museums": 76, "artScene": 74, "foodScene": 80,
-        "desert": 68, "roadTrip": 74, "walkability": 78, "valueForMoney": 94,
-        "backpacker": 82, "visaEase": 85, "safety": 84, "romance": 78,
-        "halal": 92, "vegetarian": 62, "cleanliness": 62, "englishSpoken": 35,
-        "beaches": 0, "swimming": 15, "clubbing": 15, "bars": 32,
+        "markets": 88, "museums": 76, "artScene": 74, "foodScene": 80, "desert": 68,
+        "roadTrip": 74, "walkability": 78, "valueForMoney": 94, "backpacker": 82, "visaEase": 85,
+        "safety": 84, "romance": 78, "halal": 92, "vegetarian": 62, "cleanliness": 62,
+        "englishSpoken": 35, "beaches": 0, "swimming": 15, "clubbing": 15, "bars": 32,
         "hiking": 42, "publicTransport": 55, "accessibility": 30
       },
-      "photos": ["Registan Square Samarkand", "Shah-i-Zinda necropolis Samarkand", "Bukhara Poi Kalyan minaret", "Gur-e-Amir mausoleum Samarkand", "Uzbek ceramic tilework", "Khiva Itchan Kala Uzbekistan"]
+      "photos": [
+        "Registan Square Samarkand",
+        "Shah-i-Zinda necropolis Samarkand",
+        "Bukhara Poi Kalyan minaret",
+        "Gur-e-Amir mausoleum Samarkand",
+        "Uzbek ceramic tilework",
+        "Khiva Itchan Kala Uzbekistan"
+      ]
     },
     {
-      "id": "mongolia-mn", "name": "Mongolia", "country": "MN", "region": "Mongolia", "continent": "Asia",
-      "lat": 46.863, "lon": 103.847, "type": "region", "arch": "wilderness-park",
+      "id": "mongolia-mn",
+      "name": "Mongolia",
+      "country": "MN",
+      "region": "Mongolia",
+      "continent": "Asia",
+      "lat": 46.863,
+      "lon": 103.847,
+      "type": "region",
+      "arch": "wilderness-park",
       "blurb": "The emptiest country on earth — Gobi dunes, endless steppe, nomad ger camps and eagle hunters. Brutally cold outside a short summer.",
       "tags": ["steppe", "gobi", "nomads", "empty"],
       "climate": {
         "tempHigh": [-15, -10, -1, 10, 18, 22, 23, 21, 16, 7, -5, -13],
-        "tempLow":  [-27, -24, -15, -5, 2, 8, 11, 9, 3, -6, -17, -24],
+        "tempLow": [-27, -24, -15, -5, 2, 8, 11, 9, 3, -6, -17, -24],
         "rainDays": [1, 1, 2, 3, 6, 10, 14, 12, 6, 3, 2, 1],
         "sunHours": [7, 8, 8, 9, 10, 10, 9, 9, 9, 8, 7, 6],
         "humidity": [72, 70, 58, 45, 42, 50, 62, 62, 58, 55, 65, 72],
         "snowDepth": [12, 12, 8, 2, 0, 0, 0, 0, 0, 2, 8, 12]
       },
-      "crowd":      [8, 8, 12, 25, 42, 68, 88, 82, 55, 25, 10, 8],
+      "crowd": [8, 8, 12, 25, 42, 68, 88, 82, 55, 25, 10, 8],
       "priceIndex": [22, 22, 28, 42, 58, 80, 95, 90, 70, 42, 25, 22],
-      "cost": { "budget": 35, "mid": 85, "luxury": 250 },
-      "r": {
-        "scenery": 92, "desert": 92, "stargazing": 100, "localCulture": 98,
-        "wildlife": 80, "hiking": 82, "roadTrip": 90, "mountains": 78,
-        "lakesRivers": 74, "adrenaline": 74, "nationalParks": 84, "forests": 55,
-        "festivals": 86, "valueForMoney": 84, "backpacker": 72, "romance": 74,
-        "ecoFriendly": 72, "safety": 78, "englishSpoken": 38,
-        "beaches": 0, "swimming": 18, "clubbing": 12, "shopping": 28,
-        "publicTransport": 12, "accessibility": 8, "healthHygiene": 42,
-        "wifi": 32, "cleanliness": 55, "museums": 45, "seniors": 28
+      "cost": {
+        "budget": 35,
+        "mid": 85,
+        "luxury": 250
       },
-      "photos": ["Gobi desert dunes Mongolia", "Mongolian ger camp steppe", "Eagle hunter Mongolia Altai", "Khuvsgul lake Mongolia", "Naadam festival wrestling Mongolia", "Mongolian horses steppe"]
+      "r": {
+        "scenery": 92, "desert": 92, "stargazing": 100, "localCulture": 98, "wildlife": 80,
+        "hiking": 82, "roadTrip": 90, "mountains": 78, "lakesRivers": 74, "adrenaline": 74,
+        "nationalParks": 84, "forests": 55, "festivals": 86, "valueForMoney": 84,
+        "backpacker": 72, "romance": 74, "ecoFriendly": 72, "safety": 78, "englishSpoken": 38,
+        "beaches": 0, "swimming": 18, "clubbing": 12, "shopping": 28, "publicTransport": 12,
+        "accessibility": 8, "healthHygiene": 42, "wifi": 32, "cleanliness": 55, "museums": 45,
+        "seniors": 28
+      },
+      "photos": [
+        "Gobi desert dunes Mongolia",
+        "Mongolian ger camp steppe",
+        "Eagle hunter Mongolia Altai",
+        "Khuvsgul lake Mongolia",
+        "Naadam festival wrestling Mongolia",
+        "Mongolian horses steppe"
+      ]
     }
   ]
 }

@@ -2,46 +2,76 @@
   "_doc": "France, the Low Countries, the German-speaking Alps and Central Europe.",
   "destinations": [
     {
-      "id": "paris-fr", "name": "Paris", "country": "FR", "region": "Île-de-France", "continent": "Europe",
-      "lat": 48.857, "lon": 2.352, "type": "city", "arch": "capital-city",
+      "id": "paris-fr",
+      "name": "Paris",
+      "country": "FR",
+      "region": "Île-de-France",
+      "continent": "Europe",
+      "lat": 48.857,
+      "lon": 2.352,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Still the benchmark: the Louvre, the boulevards, the bistros and the bakeries — best in the shoulder seasons when the queues thin out.",
       "tags": ["art", "food", "architecture", "romance"],
       "climate": {
         "tempHigh": [7, 8, 12, 16, 20, 23, 25, 25, 21, 16, 11, 8],
-        "tempLow":  [3, 3, 5, 7, 11, 14, 16, 16, 13, 10, 6, 3],
+        "tempLow": [3, 3, 5, 7, 11, 14, 16, 16, 13, 10, 6, 3],
         "rainDays": [10, 9, 10, 9, 10, 8, 8, 8, 8, 10, 11, 11],
         "sunHours": [2, 3, 5, 6, 7, 8, 8, 7, 6, 4, 2, 2],
         "humidity": [83, 80, 75, 71, 72, 71, 69, 71, 76, 82, 85, 85]
       },
-      "crowd":      [42, 45, 55, 72, 80, 88, 92, 85, 80, 68, 52, 68],
+      "crowd": [42, 45, 55, 72, 80, 88, 92, 85, 80, 68, 52, 68],
       "priceIndex": [52, 55, 65, 82, 90, 95, 98, 90, 88, 75, 60, 78],
-      "cost": { "budget": 70, "mid": 155, "luxury": 400 },
-      "r": {
-        "museums": 100, "artScene": 96, "architecture": 96, "historicSites": 90, "religiousSites": 82,
-        "theatre": 86, "foodScene": 96, "fineDining": 98, "markets": 86, "coffee": 82, "wine": 96,
-        "shopping": 94, "bars": 80, "clubbing": 74, "romance": 96, "walkability": 90,
-        "publicTransport": 94, "festivals": 78, "lgbtqScene": 86, "luxury": 94, "wellness": 68,
-        "cycling": 72, "safety": 58, "cleanliness": 52, "valueForMoney": 38,
-        "beaches": 0, "swimming": 20, "scenery": 42, "themeParks": 80, "familyYoungKids": 66
+      "cost": {
+        "budget": 70,
+        "mid": 155,
+        "luxury": 400
       },
-      "photos": ["Eiffel Tower Paris from Trocadero", "Louvre pyramid Paris", "Montmartre Sacre Coeur Paris", "Seine river bridges Paris", "Parisian cafe terrace", "Musee d'Orsay interior clock"]
+      "r": {
+        "museums": 100, "artScene": 96, "architecture": 96, "historicSites": 90,
+        "religiousSites": 82, "theatre": 86, "foodScene": 96, "fineDining": 98, "markets": 86,
+        "coffee": 82, "wine": 96, "shopping": 94, "bars": 80, "clubbing": 74, "romance": 96,
+        "walkability": 90, "publicTransport": 94, "festivals": 78, "lgbtqScene": 86,
+        "luxury": 94, "wellness": 68, "cycling": 72, "safety": 58, "cleanliness": 52,
+        "valueForMoney": 38, "beaches": 0, "swimming": 20, "scenery": 42, "themeParks": 80,
+        "familyYoungKids": 66
+      },
+      "photos": [
+        "Eiffel Tower Paris from Trocadero",
+        "Louvre pyramid Paris",
+        "Montmartre Sacre Coeur Paris",
+        "Seine river bridges Paris",
+        "Parisian cafe terrace",
+        "Musee d'Orsay interior clock"
+      ]
     },
     {
-      "id": "nice-fr", "name": "Nice & the Côte d'Azur", "country": "FR", "region": "Provence-Alpes-Côte d'Azur", "continent": "Europe",
-      "lat": 43.710, "lon": 7.262, "type": "coast", "arch": "coastal-city",
+      "id": "nice-fr",
+      "name": "Nice & the Côte d'Azur",
+      "country": "FR",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "continent": "Europe",
+      "lat": 43.71,
+      "lon": 7.262,
+      "type": "coast",
+      "arch": "coastal-city",
       "blurb": "A long pebble bay under palm trees, an Italianate old town, and Monaco, Antibes and Saint-Tropez strung along the coast beside it.",
       "tags": ["beach", "riviera", "art", "luxury"],
       "climate": {
         "tempHigh": [13, 13, 15, 17, 21, 24, 27, 27, 24, 20, 16, 13],
-        "tempLow":  [5, 5, 7, 9, 13, 16, 19, 19, 16, 13, 9, 6],
+        "tempLow": [5, 5, 7, 9, 13, 16, 19, 19, 16, 13, 9, 6],
         "rainDays": [6, 5, 5, 6, 5, 3, 2, 3, 5, 7, 7, 6],
         "sunHours": [5, 6, 7, 8, 9, 10, 11, 10, 8, 6, 5, 4],
         "humidity": [70, 69, 68, 68, 70, 70, 69, 70, 71, 72, 71, 71],
-        "seaTemp":  [13, 13, 13, 15, 18, 21, 24, 25, 23, 20, 17, 15]
+        "seaTemp": [13, 13, 13, 15, 18, 21, 24, 25, 23, 20, 17, 15]
       },
-      "crowd":      [28, 30, 42, 58, 72, 88, 98, 100, 78, 55, 35, 38],
+      "crowd": [28, 30, 42, 58, 72, 88, 98, 100, 78, 55, 35, 38],
       "priceIndex": [42, 45, 58, 72, 85, 95, 100, 100, 85, 62, 45, 50],
-      "cost": { "budget": 68, "mid": 155, "luxury": 420 },
+      "cost": {
+        "budget": 68,
+        "mid": 155,
+        "luxury": 420
+      },
       "r": {
         "beaches": 76, "swimming": 82, "sailing": 88, "waterSports": 76, "scenery": 80,
         "museums": 82, "artScene": 88, "architecture": 78, "foodScene": 86, "fineDining": 88,
@@ -49,121 +79,212 @@
         "bars": 78, "clubbing": 76, "walkability": 80, "publicTransport": 72, "seniors": 82,
         "hiking": 62, "cycling": 68, "roadTrip": 88, "valueForMoney": 38, "familyYoungKids": 76
       },
-      "photos": ["Promenade des Anglais Nice", "Nice old town Cours Saleya market", "Villefranche sur Mer bay", "Monaco Monte Carlo harbour", "Eze village Cote d'Azur", "Antibes ramparts and beach"]
+      "photos": [
+        "Promenade des Anglais Nice",
+        "Nice old town Cours Saleya market",
+        "Villefranche sur Mer bay",
+        "Monaco Monte Carlo harbour",
+        "Eze village Cote d'Azur",
+        "Antibes ramparts and beach"
+      ]
     },
     {
-      "id": "provence-fr", "name": "Provence", "country": "FR", "region": "Provence", "continent": "Europe",
-      "lat": 43.947, "lon": 5.048, "type": "region", "arch": "wine-country",
+      "id": "provence-fr",
+      "name": "Provence",
+      "country": "FR",
+      "region": "Provence",
+      "continent": "Europe",
+      "lat": 43.947,
+      "lon": 5.048,
+      "type": "region",
+      "arch": "wine-country",
       "blurb": "Lavender rows, hilltop villages, Roman aqueducts and rosé — with the mistral wind and, in July, an awful lot of company.",
       "tags": ["lavender", "wine", "villages", "food"],
       "climate": {
         "tempHigh": [11, 12, 15, 18, 23, 27, 30, 29, 25, 20, 14, 11],
-        "tempLow":  [2, 2, 5, 7, 11, 15, 17, 17, 14, 10, 6, 3],
+        "tempLow": [2, 2, 5, 7, 11, 15, 17, 17, 14, 10, 6, 3],
         "rainDays": [6, 5, 5, 7, 6, 4, 3, 4, 5, 7, 8, 7],
         "sunHours": [5, 6, 7, 8, 9, 10, 11, 10, 8, 6, 4, 4],
         "humidity": [74, 71, 67, 66, 67, 64, 60, 63, 68, 74, 76, 76]
       },
-      "crowd":      [18, 20, 32, 52, 72, 85, 95, 98, 72, 48, 25, 22],
+      "crowd": [18, 20, 32, 52, 72, 85, 95, 98, 72, 48, 25, 22],
       "priceIndex": [35, 38, 50, 68, 85, 92, 100, 100, 80, 58, 38, 40],
-      "cost": { "budget": 60, "mid": 140, "luxury": 360 },
+      "cost": {
+        "budget": 60,
+        "mid": 140,
+        "luxury": 360
+      },
       "r": {
         "scenery": 88, "wine": 94, "foodScene": 90, "fineDining": 86, "markets": 92,
         "historicSites": 86, "architecture": 84, "localCulture": 84, "artScene": 78,
         "cycling": 86, "hiking": 76, "roadTrip": 94, "romance": 92, "wellness": 74,
-        "festivals": 80, "stargazing": 74, "seniors": 82, "valueForMoney": 52,
-        "beaches": 25, "swimming": 42, "publicTransport": 28, "clubbing": 25, "familyYoungKids": 62
+        "festivals": 80, "stargazing": 74, "seniors": 82, "valueForMoney": 52, "beaches": 25,
+        "swimming": 42, "publicTransport": 28, "clubbing": 25, "familyYoungKids": 62
       },
-      "photos": ["Lavender fields Valensole Provence", "Gordes hilltop village Provence", "Pont du Gard aqueduct", "Roussillon ochre village Provence", "Provence market stall olives", "Verdon Gorge turquoise river"]
+      "photos": [
+        "Lavender fields Valensole Provence",
+        "Gordes hilltop village Provence",
+        "Pont du Gard aqueduct",
+        "Roussillon ochre village Provence",
+        "Provence market stall olives",
+        "Verdon Gorge turquoise river"
+      ]
     },
     {
-      "id": "chamonix-fr", "name": "Chamonix", "country": "FR", "region": "Auvergne-Rhône-Alpes", "continent": "Europe",
-      "lat": 45.924, "lon": 6.870, "type": "mountains", "arch": "ski-resort",
+      "id": "chamonix-fr",
+      "name": "Chamonix",
+      "country": "FR",
+      "region": "Auvergne-Rhône-Alpes",
+      "continent": "Europe",
+      "lat": 45.924,
+      "lon": 6.87,
+      "type": "mountains",
+      "arch": "ski-resort",
       "blurb": "Under the summit of Mont Blanc: serious off-piste in winter, serious alpinism in summer, and a town that never pretends otherwise.",
       "tags": ["skiing", "alpinism", "mountains", "adventure"],
       "climate": {
         "tempHigh": [3, 5, 9, 13, 17, 21, 24, 23, 19, 14, 7, 4],
-        "tempLow":  [-6, -5, -2, 1, 5, 9, 11, 11, 8, 4, -1, -5],
+        "tempLow": [-6, -5, -2, 1, 5, 9, 11, 11, 8, 4, -1, -5],
         "rainDays": [9, 8, 9, 10, 12, 11, 10, 10, 8, 9, 10, 10],
         "sunHours": [3, 4, 5, 5, 6, 7, 7, 6, 5, 4, 3, 3],
         "humidity": [76, 73, 70, 70, 73, 73, 72, 74, 77, 79, 79, 78],
         "snowDepth": [95, 110, 100, 55, 10, 0, 0, 0, 0, 5, 40, 80]
       },
-      "crowd":      [82, 85, 68, 35, 28, 55, 82, 88, 58, 32, 32, 72],
+      "crowd": [82, 85, 68, 35, 28, 55, 82, 88, 58, 32, 32, 72],
       "priceIndex": [90, 95, 72, 45, 38, 62, 88, 95, 58, 42, 42, 88],
-      "cost": { "budget": 70, "mid": 160, "luxury": 400 },
+      "cost": {
+        "budget": 70,
+        "mid": 160,
+        "luxury": 400
+      },
       "r": {
         "skiing": 98, "mountains": 100, "climbing": 98, "hiking": 94, "scenery": 96,
         "adrenaline": 94, "cycling": 84, "nationalParks": 78, "stargazing": 76, "wellness": 76,
         "foodScene": 74, "bars": 78, "groupParty": 74, "familyTeens": 82, "romance": 76,
-        "luxury": 78, "publicTransport": 62, "valueForMoney": 42,
-        "beaches": 0, "swimming": 25, "museums": 28, "shopping": 48, "seniors": 42
+        "luxury": 78, "publicTransport": 62, "valueForMoney": 42, "beaches": 0, "swimming": 25,
+        "museums": 28, "shopping": 48, "seniors": 42
       },
-      "photos": ["Mont Blanc from Chamonix", "Aiguille du Midi cable car", "Mer de Glace glacier Chamonix", "Chamonix town centre alps", "Skier off piste Chamonix", "Lac Blanc Chamonix reflection"]
+      "photos": [
+        "Mont Blanc from Chamonix",
+        "Aiguille du Midi cable car",
+        "Mer de Glace glacier Chamonix",
+        "Chamonix town centre alps",
+        "Skier off piste Chamonix",
+        "Lac Blanc Chamonix reflection"
+      ]
     },
     {
-      "id": "corsica-fr", "name": "Corsica", "country": "FR", "region": "Corsica", "continent": "Europe",
-      "lat": 42.150, "lon": 9.100, "type": "island", "arch": "island-volcanic",
+      "id": "corsica-fr",
+      "name": "Corsica",
+      "country": "FR",
+      "region": "Corsica",
+      "continent": "Europe",
+      "lat": 42.15,
+      "lon": 9.1,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "'The mountain in the sea': granite peaks, the brutal GR20 trek and some of the Mediterranean's most beautiful and least built-up beaches.",
       "tags": ["hiking", "beach", "wild", "scenery"],
       "climate": {
         "tempHigh": [14, 14, 16, 18, 22, 26, 29, 29, 26, 22, 18, 15],
-        "tempLow":  [4, 4, 6, 8, 11, 15, 18, 18, 15, 12, 8, 5],
+        "tempLow": [4, 4, 6, 8, 11, 15, 18, 18, 15, 12, 8, 5],
         "rainDays": [8, 7, 7, 7, 5, 3, 1, 2, 4, 8, 9, 9],
         "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 8, 6, 4, 4],
         "humidity": [75, 74, 73, 72, 72, 69, 66, 68, 71, 75, 76, 76],
-        "seaTemp":  [13, 13, 13, 15, 18, 22, 24, 25, 24, 21, 18, 15]
+        "seaTemp": [13, 13, 13, 15, 18, 22, 24, 25, 24, 21, 18, 15]
       },
-      "crowd":      [10, 12, 20, 38, 58, 82, 95, 100, 68, 42, 18, 12],
+      "crowd": [10, 12, 20, 38, 58, 82, 95, 100, 68, 42, 18, 12],
       "priceIndex": [28, 30, 42, 60, 78, 92, 100, 100, 80, 55, 32, 28],
-      "cost": { "budget": 58, "mid": 135, "luxury": 340 },
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 340
+      },
       "r": {
         "scenery": 94, "beaches": 92, "swimming": 88, "hiking": 96, "mountains": 90,
         "snorkelling": 74, "scuba": 72, "kayaking": 78, "sailing": 84, "climbing": 84,
         "nationalParks": 82, "forests": 74, "localCulture": 82, "foodScene": 80, "wine": 78,
         "roadTrip": 92, "romance": 82, "stargazing": 78, "valueForMoney": 58,
-        "publicTransport": 25, "clubbing": 42, "museums": 42, "shopping": 38, "accessibility": 30
+        "publicTransport": 25, "clubbing": 42, "museums": 42, "shopping": 38,
+        "accessibility": 30
       },
-      "photos": ["Bonifacio cliffs Corsica", "Calanques de Piana Corsica", "Palombaggia beach Corsica", "GR20 trail Corsica mountains", "Corte citadel Corsica", "Scandola nature reserve Corsica"]
+      "photos": [
+        "Bonifacio cliffs Corsica",
+        "Calanques de Piana Corsica",
+        "Palombaggia beach Corsica",
+        "GR20 trail Corsica mountains",
+        "Corte citadel Corsica",
+        "Scandola nature reserve Corsica"
+      ]
     },
     {
-      "id": "bordeaux-fr", "name": "Bordeaux", "country": "FR", "region": "Nouvelle-Aquitaine", "continent": "Europe",
-      "lat": 44.838, "lon": -0.579, "type": "city", "arch": "wine-country",
+      "id": "bordeaux-fr",
+      "name": "Bordeaux",
+      "country": "FR",
+      "region": "Nouvelle-Aquitaine",
+      "continent": "Europe",
+      "lat": 44.838,
+      "lon": -0.579,
+      "type": "city",
+      "arch": "wine-country",
       "blurb": "A honey-stone 18th-century city that cleaned itself up beautifully, surrounded by the most famous vineyards on earth.",
       "tags": ["wine", "architecture", "food", "surf"],
       "climate": {
         "tempHigh": [10, 11, 14, 17, 21, 24, 27, 27, 24, 19, 14, 10],
-        "tempLow":  [3, 3, 5, 7, 11, 14, 16, 16, 13, 10, 6, 3],
+        "tempLow": [3, 3, 5, 7, 11, 14, 16, 16, 13, 10, 6, 3],
         "rainDays": [11, 10, 10, 10, 10, 7, 7, 7, 8, 11, 12, 12],
         "sunHours": [3, 4, 6, 7, 7, 8, 9, 8, 7, 5, 3, 3],
         "humidity": [86, 83, 78, 76, 76, 74, 72, 73, 78, 84, 86, 87]
       },
-      "crowd":      [28, 30, 40, 55, 65, 72, 82, 85, 80, 62, 42, 48],
+      "crowd": [28, 30, 40, 55, 65, 72, 82, 85, 80, 62, 42, 48],
       "priceIndex": [42, 45, 55, 68, 75, 82, 90, 92, 90, 72, 50, 58],
-      "cost": { "budget": 58, "mid": 130, "luxury": 340 },
+      "cost": {
+        "budget": 58,
+        "mid": 130,
+        "luxury": 340
+      },
       "r": {
         "wine": 100, "architecture": 90, "foodScene": 88, "fineDining": 84, "markets": 80,
-        "historicSites": 78, "museums": 68, "walkability": 86, "cycling": 82, "publicTransport": 78,
-        "bars": 78, "romance": 80, "roadTrip": 82, "seniors": 76, "valueForMoney": 58,
-        "beaches": 48, "surfing": 76, "swimming": 42, "forests": 62, "clubbing": 66,
-        "familyYoungKids": 58, "shopping": 74, "cleanliness": 76
+        "historicSites": 78, "museums": 68, "walkability": 86, "cycling": 82,
+        "publicTransport": 78, "bars": 78, "romance": 80, "roadTrip": 82, "seniors": 76,
+        "valueForMoney": 58, "beaches": 48, "surfing": 76, "swimming": 42, "forests": 62,
+        "clubbing": 66, "familyYoungKids": 58, "shopping": 74, "cleanliness": 76
       },
-      "photos": ["Place de la Bourse water mirror Bordeaux", "Bordeaux vineyard Saint Emilion", "Cite du Vin Bordeaux", "Bordeaux Grosse Cloche", "Dune du Pilat near Bordeaux", "Bordeaux wine cellar barrels"]
+      "photos": [
+        "Place de la Bourse water mirror Bordeaux",
+        "Bordeaux vineyard Saint Emilion",
+        "Cite du Vin Bordeaux",
+        "Bordeaux Grosse Cloche",
+        "Dune du Pilat near Bordeaux",
+        "Bordeaux wine cellar barrels"
+      ]
     },
     {
-      "id": "lyon-fr", "name": "Lyon", "country": "FR", "region": "Auvergne-Rhône-Alpes", "continent": "Europe",
-      "lat": 45.764, "lon": 4.836, "type": "city", "arch": "historic-city",
+      "id": "lyon-fr",
+      "name": "Lyon",
+      "country": "FR",
+      "region": "Auvergne-Rhône-Alpes",
+      "continent": "Europe",
+      "lat": 45.764,
+      "lon": 4.836,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "France's gastronomic capital, with Renaissance secret passageways, two rivers and the Alps ninety minutes away.",
       "tags": ["food", "renaissance", "value", "wine"],
       "climate": {
         "tempHigh": [6, 8, 13, 17, 21, 25, 28, 27, 23, 17, 10, 6],
-        "tempLow":  [0, 1, 3, 6, 10, 14, 16, 16, 13, 9, 4, 1],
+        "tempLow": [0, 1, 3, 6, 10, 14, 16, 16, 13, 9, 4, 1],
         "rainDays": [9, 8, 9, 10, 11, 9, 8, 8, 8, 10, 10, 10],
         "sunHours": [2, 4, 5, 6, 7, 8, 9, 8, 6, 4, 2, 2],
         "humidity": [84, 79, 72, 70, 71, 69, 66, 68, 74, 81, 85, 86]
       },
-      "crowd":      [35, 38, 45, 58, 65, 70, 75, 68, 72, 62, 45, 55],
+      "crowd": [35, 38, 45, 58, 65, 70, 75, 68, 72, 62, 45, 55],
       "priceIndex": [45, 48, 55, 68, 75, 80, 85, 78, 82, 72, 55, 65],
-      "cost": { "budget": 55, "mid": 125, "luxury": 320 },
+      "cost": {
+        "budget": 55,
+        "mid": 125,
+        "luxury": 320
+      },
       "r": {
         "foodScene": 96, "fineDining": 92, "markets": 86, "wine": 92, "historicSites": 86,
         "architecture": 86, "museums": 76, "walkability": 84, "publicTransport": 86,
@@ -171,24 +292,42 @@
         "mountains": 42, "skiing": 38, "hiking": 48, "clubbing": 66, "shopping": 74,
         "beaches": 0, "swimming": 22, "familyYoungKids": 58, "seniors": 70
       },
-      "photos": ["Vieux Lyon Renaissance quarter", "Basilica Notre Dame de Fourviere Lyon", "Lyon bouchon restaurant", "Les Halles Paul Bocuse Lyon", "Lyon Fete des Lumieres", "Confluence district Lyon architecture"]
+      "photos": [
+        "Vieux Lyon Renaissance quarter",
+        "Basilica Notre Dame de Fourviere Lyon",
+        "Lyon bouchon restaurant",
+        "Les Halles Paul Bocuse Lyon",
+        "Lyon Fete des Lumieres",
+        "Confluence district Lyon architecture"
+      ]
     },
     {
-      "id": "brittany-fr", "name": "Brittany", "country": "FR", "region": "Brittany", "continent": "Europe",
-      "lat": 48.202, "lon": -2.932, "type": "coast", "arch": "wine-country",
+      "id": "brittany-fr",
+      "name": "Brittany",
+      "country": "FR",
+      "region": "Brittany",
+      "continent": "Europe",
+      "lat": 48.202,
+      "lon": -2.932,
+      "type": "coast",
+      "arch": "wine-country",
       "blurb": "Celtic France: granite ports, megalithic stones, tidal islands and crêperies — cooler and wilder than the south, and far cheaper.",
       "tags": ["coast", "celtic", "seafood", "value"],
       "climate": {
         "tempHigh": [9, 9, 11, 13, 16, 19, 21, 21, 19, 16, 12, 10],
-        "tempLow":  [4, 3, 5, 6, 9, 12, 14, 14, 12, 10, 7, 5],
+        "tempLow": [4, 3, 5, 6, 9, 12, 14, 14, 12, 10, 7, 5],
         "rainDays": [14, 12, 12, 11, 10, 8, 8, 9, 10, 13, 14, 15],
         "sunHours": [2, 3, 5, 6, 7, 7, 7, 7, 5, 4, 2, 2],
         "humidity": [85, 83, 80, 78, 78, 78, 79, 80, 81, 84, 85, 86],
-        "seaTemp":  [10, 9, 10, 11, 13, 15, 17, 18, 17, 15, 13, 11]
+        "seaTemp": [10, 9, 10, 11, 13, 15, 17, 18, 17, 15, 13, 11]
       },
-      "crowd":      [18, 20, 28, 45, 58, 72, 92, 95, 62, 42, 25, 25],
+      "crowd": [18, 20, 28, 45, 58, 72, 92, 95, 62, 42, 25, 25],
       "priceIndex": [32, 35, 45, 60, 72, 85, 98, 100, 72, 52, 38, 40],
-      "cost": { "budget": 55, "mid": 120, "luxury": 290 },
+      "cost": {
+        "budget": 55,
+        "mid": 120,
+        "luxury": 290
+      },
       "r": {
         "beaches": 78, "scenery": 82, "historicSites": 84, "localCulture": 88, "foodScene": 84,
         "markets": 78, "hiking": 82, "cycling": 82, "sailing": 84, "kayaking": 76, "surfing": 74,
@@ -196,547 +335,929 @@
         "swimming": 55, "valueForMoney": 68, "familyYoungKids": 80, "seniors": 74,
         "publicTransport": 38, "clubbing": 35, "museums": 52, "romance": 74
       },
-      "photos": ["Mont Saint Michel France", "Saint Malo ramparts Brittany", "Carnac standing stones Brittany", "Pointe du Raz Brittany cliffs", "Breton crepe galette", "Dinan medieval town Brittany"]
+      "photos": [
+        "Mont Saint Michel France",
+        "Saint Malo ramparts Brittany",
+        "Carnac standing stones Brittany",
+        "Pointe du Raz Brittany cliffs",
+        "Breton crepe galette",
+        "Dinan medieval town Brittany"
+      ]
     },
-
     {
-      "id": "berlin-de", "name": "Berlin", "country": "DE", "region": "Berlin", "continent": "Europe",
-      "lat": 52.520, "lon": 13.405, "type": "city", "arch": "capital-city",
+      "id": "berlin-de",
+      "name": "Berlin",
+      "country": "DE",
+      "region": "Berlin",
+      "continent": "Europe",
+      "lat": 52.52,
+      "lon": 13.405,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Europe's most restless capital: brutal 20th-century history, the best club scene in the world, and still cheap for a major city.",
       "tags": ["history", "nightlife", "art", "value"],
       "climate": {
         "tempHigh": [3, 4, 9, 14, 19, 22, 25, 24, 19, 13, 7, 4],
-        "tempLow":  [-2, -2, 1, 4, 8, 12, 14, 14, 11, 7, 3, 0],
+        "tempLow": [-2, -2, 1, 4, 8, 12, 14, 14, 11, 7, 3, 0],
         "rainDays": [10, 8, 9, 8, 9, 9, 9, 9, 9, 9, 11, 11],
         "sunHours": [2, 3, 4, 6, 7, 8, 7, 7, 5, 3, 2, 1],
         "humidity": [84, 81, 74, 68, 66, 68, 68, 70, 76, 82, 86, 86],
         "snowDepth": [8, 10, 4, 0, 0, 0, 0, 0, 0, 0, 2, 5]
       },
-      "crowd":      [35, 35, 45, 58, 68, 78, 85, 82, 72, 58, 45, 58],
+      "crowd": [35, 35, 45, 58, 68, 78, 85, 82, 72, 58, 45, 58],
       "priceIndex": [45, 45, 55, 68, 75, 85, 90, 88, 80, 65, 52, 68],
-      "cost": { "budget": 55, "mid": 120, "luxury": 300 },
+      "cost": {
+        "budget": 55,
+        "mid": 120,
+        "luxury": 300
+      },
       "r": {
         "clubbing": 100, "bars": 92, "liveMusic": 92, "artScene": 96, "museums": 94,
-        "historicSites": 92, "architecture": 78, "festivals": 84, "streetFood": 82, "foodScene": 82,
-        "vegan": 96, "vegetarian": 94, "markets": 82, "lgbtqScene": 96, "shopping": 80,
-        "walkability": 78, "publicTransport": 92, "cycling": 88, "valueForMoney": 76,
-        "backpacker": 86, "soloTravel": 84, "digitalNomad": 86, "lakesRivers": 68, "swimming": 58,
-        "beaches": 25, "scenery": 32, "familyYoungKids": 66, "seniors": 60
+        "historicSites": 92, "architecture": 78, "festivals": 84, "streetFood": 82,
+        "foodScene": 82, "vegan": 96, "vegetarian": 94, "markets": 82, "lgbtqScene": 96,
+        "shopping": 80, "walkability": 78, "publicTransport": 92, "cycling": 88,
+        "valueForMoney": 76, "backpacker": 86, "soloTravel": 84, "digitalNomad": 86,
+        "lakesRivers": 68, "swimming": 58, "beaches": 25, "scenery": 32, "familyYoungKids": 66,
+        "seniors": 60
       },
-      "photos": ["Brandenburg Gate Berlin", "East Side Gallery Berlin Wall", "Museum Island Berlin", "Reichstag dome Berlin interior", "Berlin street art Kreuzberg", "Tempelhofer Feld Berlin"]
+      "photos": [
+        "Brandenburg Gate Berlin",
+        "East Side Gallery Berlin Wall",
+        "Museum Island Berlin",
+        "Reichstag dome Berlin interior",
+        "Berlin street art Kreuzberg",
+        "Tempelhofer Feld Berlin"
+      ]
     },
     {
-      "id": "munich-de", "name": "Munich", "country": "DE", "region": "Bavaria", "continent": "Europe",
-      "lat": 48.135, "lon": 11.582, "type": "city", "arch": "capital-city",
+      "id": "munich-de",
+      "name": "Munich",
+      "country": "DE",
+      "region": "Bavaria",
+      "continent": "Europe",
+      "lat": 48.135,
+      "lon": 11.582,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Beer halls, superb galleries and river surfing in a park bigger than Central Park — with the Alps an hour south.",
       "tags": ["beer", "oktoberfest", "art", "alps"],
       "climate": {
         "tempHigh": [3, 5, 10, 14, 19, 22, 24, 24, 19, 13, 7, 4],
-        "tempLow":  [-4, -3, 0, 4, 8, 11, 13, 13, 10, 6, 1, -3],
+        "tempLow": [-4, -3, 0, 4, 8, 11, 13, 13, 10, 6, 1, -3],
         "rainDays": [9, 8, 9, 9, 11, 12, 11, 11, 8, 8, 9, 10],
         "sunHours": [2, 3, 4, 5, 7, 7, 7, 7, 5, 3, 2, 2],
         "humidity": [82, 78, 73, 69, 69, 71, 70, 73, 78, 82, 85, 85],
         "snowDepth": [15, 18, 8, 1, 0, 0, 0, 0, 0, 0, 3, 10]
       },
-      "crowd":      [38, 38, 45, 52, 62, 72, 78, 72, 95, 58, 45, 62],
+      "crowd": [38, 38, 45, 52, 62, 72, 78, 72, 95, 58, 45, 62],
       "priceIndex": [48, 48, 55, 62, 72, 80, 85, 80, 100, 68, 55, 72],
-      "cost": { "budget": 62, "mid": 140, "luxury": 350 },
+      "cost": {
+        "budget": 62,
+        "mid": 140,
+        "luxury": 350
+      },
       "r": {
         "beer": 100, "festivals": 96, "museums": 90, "artScene": 82, "architecture": 82,
         "historicSites": 78, "foodScene": 78, "markets": 82, "bars": 86, "shopping": 82,
-        "publicTransport": 92, "walkability": 82, "cycling": 88, "sports": 88,
-        "mountains": 55, "skiing": 45, "hiking": 62, "lakesRivers": 68, "swimming": 62,
-        "cleanliness": 88, "safety": 84, "familyYoungKids": 80, "seniors": 76,
-        "beaches": 8, "valueForMoney": 48, "themeParks": 58
+        "publicTransport": 92, "walkability": 82, "cycling": 88, "sports": 88, "mountains": 55,
+        "skiing": 45, "hiking": 62, "lakesRivers": 68, "swimming": 62, "cleanliness": 88,
+        "safety": 84, "familyYoungKids": 80, "seniors": 76, "beaches": 8, "valueForMoney": 48,
+        "themeParks": 58
       },
-      "photos": ["Marienplatz Munich new town hall", "Hofbrauhaus Munich beer hall", "English Garden Munich surfers", "Oktoberfest Munich tent", "Nymphenburg Palace Munich", "Munich Viktualienmarkt"]
+      "photos": [
+        "Marienplatz Munich new town hall",
+        "Hofbrauhaus Munich beer hall",
+        "English Garden Munich surfers",
+        "Oktoberfest Munich tent",
+        "Nymphenburg Palace Munich",
+        "Munich Viktualienmarkt"
+      ]
     },
     {
-      "id": "bavarian-alps-de", "name": "Bavarian Alps", "country": "DE", "region": "Bavaria", "continent": "Europe",
-      "lat": 47.492, "lon": 11.096, "type": "mountains", "arch": "ski-resort",
+      "id": "bavarian-alps-de",
+      "name": "Bavarian Alps",
+      "country": "DE",
+      "region": "Bavaria",
+      "continent": "Europe",
+      "lat": 47.492,
+      "lon": 11.096,
+      "type": "mountains",
+      "arch": "ski-resort",
       "blurb": "Neuschwanstein, painted villages and Germany's highest peak — gentler and cheaper skiing than the big Alpine names.",
       "tags": ["mountains", "castles", "hiking", "skiing"],
       "climate": {
         "tempHigh": [2, 3, 8, 12, 17, 20, 22, 22, 18, 13, 6, 3],
-        "tempLow":  [-6, -5, -2, 2, 6, 9, 11, 11, 8, 4, -1, -5],
+        "tempLow": [-6, -5, -2, 2, 6, 9, 11, 11, 8, 4, -1, -5],
         "rainDays": [10, 9, 10, 11, 13, 14, 13, 12, 9, 9, 10, 11],
         "sunHours": [3, 4, 4, 5, 6, 6, 7, 6, 5, 4, 2, 2],
         "humidity": [80, 77, 73, 71, 72, 74, 74, 76, 79, 82, 83, 83],
         "snowDepth": [55, 65, 50, 20, 2, 0, 0, 0, 0, 2, 20, 45]
       },
-      "crowd":      [65, 68, 52, 32, 42, 58, 78, 82, 62, 38, 30, 58],
+      "crowd": [65, 68, 52, 32, 42, 58, 78, 82, 62, 38, 30, 58],
       "priceIndex": [72, 75, 58, 42, 52, 68, 85, 90, 70, 48, 40, 68],
-      "cost": { "budget": 62, "mid": 140, "luxury": 340 },
+      "cost": {
+        "budget": 62,
+        "mid": 140,
+        "luxury": 340
+      },
       "r": {
         "mountains": 90, "scenery": 92, "hiking": 92, "skiing": 82, "lakesRivers": 84,
         "climbing": 78, "cycling": 84, "forests": 82, "nationalParks": 74, "wellness": 84,
-        "historicSites": 86, "architecture": 82, "localCulture": 82, "beer": 92,
-        "romance": 84, "familyYoungKids": 82, "seniors": 70, "roadTrip": 88,
-        "swimming": 55, "publicTransport": 62, "cleanliness": 92, "safety": 88,
-        "beaches": 0, "clubbing": 18, "shopping": 45
+        "historicSites": 86, "architecture": 82, "localCulture": 82, "beer": 92, "romance": 84,
+        "familyYoungKids": 82, "seniors": 70, "roadTrip": 88, "swimming": 55,
+        "publicTransport": 62, "cleanliness": 92, "safety": 88, "beaches": 0, "clubbing": 18,
+        "shopping": 45
       },
-      "photos": ["Neuschwanstein Castle Bavaria", "Zugspitze summit Germany", "Eibsee lake Bavaria", "Garmisch Partenkirchen painted houses", "Partnach Gorge Bavaria", "Berchtesgaden Konigssee lake"]
+      "photos": [
+        "Neuschwanstein Castle Bavaria",
+        "Zugspitze summit Germany",
+        "Eibsee lake Bavaria",
+        "Garmisch Partenkirchen painted houses",
+        "Partnach Gorge Bavaria",
+        "Berchtesgaden Konigssee lake"
+      ]
     },
     {
-      "id": "black-forest-de", "name": "Black Forest", "country": "DE", "region": "Baden-Württemberg", "continent": "Europe",
-      "lat": 48.100, "lon": 8.200, "type": "region", "arch": "wine-country",
+      "id": "black-forest-de",
+      "name": "Black Forest",
+      "country": "DE",
+      "region": "Baden-Württemberg",
+      "continent": "Europe",
+      "lat": 48.1,
+      "lon": 8.2,
+      "type": "region",
+      "arch": "wine-country",
       "blurb": "Dense fir forest, cuckoo clocks, thermal spa towns and a surprising density of Michelin stars along a famous scenic drive.",
       "tags": ["forest", "spa", "food", "driving"],
       "climate": {
         "tempHigh": [3, 5, 9, 13, 18, 21, 23, 23, 19, 13, 7, 4],
-        "tempLow":  [-3, -2, 1, 4, 8, 11, 13, 13, 10, 6, 2, -2],
+        "tempLow": [-3, -2, 1, 4, 8, 11, 13, 13, 10, 6, 2, -2],
         "rainDays": [12, 10, 11, 11, 12, 12, 11, 11, 9, 10, 11, 12],
         "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
         "humidity": [83, 80, 75, 72, 73, 74, 73, 75, 79, 83, 85, 85],
         "snowDepth": [30, 35, 22, 5, 0, 0, 0, 0, 0, 0, 8, 22]
       },
-      "crowd":      [35, 38, 42, 48, 58, 68, 82, 85, 62, 45, 32, 45],
+      "crowd": [35, 38, 42, 48, 58, 68, 82, 85, 62, 45, 32, 45],
       "priceIndex": [45, 48, 52, 58, 68, 78, 90, 92, 72, 55, 42, 55],
-      "cost": { "budget": 52, "mid": 115, "luxury": 280 },
+      "cost": {
+        "budget": 52,
+        "mid": 115,
+        "luxury": 280
+      },
       "r": {
         "forests": 96, "hiking": 90, "scenery": 82, "cycling": 88, "wellness": 92,
         "lakesRivers": 74, "fineDining": 88, "foodScene": 80, "wine": 84, "beer": 84,
         "localCulture": 80, "roadTrip": 90, "skiing": 55, "mountains": 62, "stargazing": 70,
-        "romance": 80, "familyYoungKids": 78, "seniors": 80, "themeParks": 84,
-        "cleanliness": 92, "publicTransport": 58, "beaches": 0, "swimming": 45, "clubbing": 15
+        "romance": 80, "familyYoungKids": 78, "seniors": 80, "themeParks": 84, "cleanliness": 92,
+        "publicTransport": 58, "beaches": 0, "swimming": 45, "clubbing": 15
       },
-      "photos": ["Black Forest fir trees Germany", "Triberg waterfalls Black Forest", "Baden-Baden spa town", "Black Forest cuckoo clock house", "Schluchsee lake Black Forest", "Freiburg old town Bachle"]
+      "photos": [
+        "Black Forest fir trees Germany",
+        "Triberg waterfalls Black Forest",
+        "Baden-Baden spa town",
+        "Black Forest cuckoo clock house",
+        "Schluchsee lake Black Forest",
+        "Freiburg old town Bachle"
+      ]
     },
     {
-      "id": "hamburg-de", "name": "Hamburg", "country": "DE", "region": "Hamburg", "continent": "Europe",
-      "lat": 53.551, "lon": 9.993, "type": "city", "arch": "capital-city",
+      "id": "hamburg-de",
+      "name": "Hamburg",
+      "country": "DE",
+      "region": "Hamburg",
+      "continent": "Europe",
+      "lat": 53.551,
+      "lon": 9.993,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "More bridges than Venice and Amsterdam combined, a spectacular concert hall, red-brick warehouses and a famously rowdy harbour quarter.",
       "tags": ["harbour", "music", "architecture", "nightlife"],
       "climate": {
         "tempHigh": [4, 5, 8, 13, 18, 20, 23, 23, 19, 13, 8, 5],
-        "tempLow":  [-1, -1, 1, 4, 8, 11, 14, 13, 11, 7, 3, 1],
+        "tempLow": [-1, -1, 1, 4, 8, 11, 14, 13, 11, 7, 3, 1],
         "rainDays": [12, 10, 11, 10, 10, 11, 11, 11, 11, 12, 13, 13],
         "sunHours": [1, 2, 4, 5, 7, 7, 7, 6, 5, 3, 2, 1],
         "humidity": [86, 83, 79, 73, 71, 72, 73, 74, 79, 84, 87, 87]
       },
-      "crowd":      [32, 32, 40, 52, 62, 72, 80, 78, 68, 52, 42, 58],
+      "crowd": [32, 32, 40, 52, 62, 72, 80, 78, 68, 52, 42, 58],
       "priceIndex": [42, 42, 50, 62, 72, 80, 88, 85, 75, 60, 48, 65],
-      "cost": { "budget": 58, "mid": 128, "luxury": 320 },
+      "cost": {
+        "budget": 58,
+        "mid": 128,
+        "luxury": 320
+      },
       "r": {
         "architecture": 86, "liveMusic": 92, "theatre": 86, "museums": 78, "artScene": 80,
         "bars": 88, "clubbing": 88, "groupParty": 88, "lgbtqScene": 82, "foodScene": 80,
         "markets": 78, "shopping": 82, "publicTransport": 90, "cycling": 84, "walkability": 80,
-        "lakesRivers": 78, "sailing": 74, "beaches": 42, "swimming": 42,
-        "cleanliness": 82, "valueForMoney": 58, "familyYoungKids": 68, "scenery": 45
+        "lakesRivers": 78, "sailing": 74, "beaches": 42, "swimming": 42, "cleanliness": 82,
+        "valueForMoney": 58, "familyYoungKids": 68, "scenery": 45
       },
-      "photos": ["Elbphilharmonie Hamburg", "Speicherstadt warehouse district Hamburg", "Hamburg harbour Landungsbrucken", "Reeperbahn Hamburg at night", "Alster lake Hamburg", "Miniatur Wunderland Hamburg"]
+      "photos": [
+        "Elbphilharmonie Hamburg",
+        "Speicherstadt warehouse district Hamburg",
+        "Hamburg harbour Landungsbrucken",
+        "Reeperbahn Hamburg at night",
+        "Alster lake Hamburg",
+        "Miniatur Wunderland Hamburg"
+      ]
     },
-
     {
-      "id": "amsterdam-nl", "name": "Amsterdam", "country": "NL", "region": "North Holland", "continent": "Europe",
-      "lat": 52.370, "lon": 4.895, "type": "city", "arch": "capital-city",
+      "id": "amsterdam-nl",
+      "name": "Amsterdam",
+      "country": "NL",
+      "region": "North Holland",
+      "continent": "Europe",
+      "lat": 52.37,
+      "lon": 4.895,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Canal rings, Rembrandt and Van Gogh, and a bike-first city centre — beautiful, tolerant, and openly tired of stag parties.",
       "tags": ["canals", "art", "cycling", "liberal"],
       "climate": {
         "tempHigh": [6, 7, 10, 14, 18, 20, 22, 22, 19, 14, 10, 7],
-        "tempLow":  [1, 1, 2, 5, 9, 11, 14, 13, 11, 8, 4, 2],
+        "tempLow": [1, 1, 2, 5, 9, 11, 14, 13, 11, 8, 4, 2],
         "rainDays": [12, 10, 11, 9, 9, 10, 10, 11, 11, 12, 13, 13],
         "sunHours": [2, 2, 4, 5, 7, 7, 7, 6, 5, 3, 2, 1],
         "humidity": [87, 85, 81, 76, 74, 75, 76, 77, 81, 85, 88, 88]
       },
-      "crowd":      [38, 40, 50, 68, 72, 82, 92, 90, 75, 60, 48, 62],
+      "crowd": [38, 40, 50, 68, 72, 82, 92, 90, 75, 60, 48, 62],
       "priceIndex": [50, 52, 62, 80, 82, 90, 98, 95, 82, 68, 55, 72],
-      "cost": { "budget": 68, "mid": 150, "luxury": 380 },
+      "cost": {
+        "budget": 68,
+        "mid": 150,
+        "luxury": 380
+      },
       "r": {
         "museums": 96, "artScene": 90, "architecture": 90, "historicSites": 78, "cycling": 100,
         "walkability": 88, "publicTransport": 90, "bars": 88, "clubbing": 84, "lgbtqScene": 94,
         "foodScene": 76, "vegan": 90, "markets": 78, "shopping": 80, "festivals": 82,
-        "romance": 84, "soloTravel": 84, "groupParty": 88, "backpacker": 78,
-        "valueForMoney": 42, "beaches": 32, "swimming": 38, "scenery": 45,
-        "familyYoungKids": 70, "cleanliness": 74, "safety": 74
+        "romance": 84, "soloTravel": 84, "groupParty": 88, "backpacker": 78, "valueForMoney": 42,
+        "beaches": 32, "swimming": 38, "scenery": 45, "familyYoungKids": 70, "cleanliness": 74,
+        "safety": 74
       },
-      "photos": ["Amsterdam canal houses", "Rijksmuseum Amsterdam interior", "Van Gogh Museum Amsterdam", "Amsterdam bicycles on bridge", "Jordaan neighbourhood Amsterdam", "Keukenhof tulip gardens Netherlands"]
+      "photos": [
+        "Amsterdam canal houses",
+        "Rijksmuseum Amsterdam interior",
+        "Van Gogh Museum Amsterdam",
+        "Amsterdam bicycles on bridge",
+        "Jordaan neighbourhood Amsterdam",
+        "Keukenhof tulip gardens Netherlands"
+      ]
     },
     {
-      "id": "bruges-be", "name": "Bruges", "country": "BE", "region": "West Flanders", "continent": "Europe",
-      "lat": 51.209, "lon": 3.224, "type": "city", "arch": "historic-city",
+      "id": "bruges-be",
+      "name": "Bruges",
+      "country": "BE",
+      "region": "West Flanders",
+      "continent": "Europe",
+      "lat": 51.209,
+      "lon": 3.224,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "A perfectly preserved medieval merchant town of canals, belfries and Flemish primitives — plus the best beer and chocolate in Europe.",
       "tags": ["medieval", "beer", "chocolate", "romance"],
       "climate": {
         "tempHigh": [6, 7, 10, 14, 18, 20, 22, 22, 19, 15, 10, 7],
-        "tempLow":  [1, 1, 3, 5, 9, 12, 14, 14, 11, 8, 4, 2],
+        "tempLow": [1, 1, 3, 5, 9, 12, 14, 14, 11, 8, 4, 2],
         "rainDays": [12, 10, 11, 10, 10, 10, 10, 11, 11, 12, 13, 13],
         "sunHours": [2, 2, 4, 5, 7, 7, 7, 6, 5, 3, 2, 1],
         "humidity": [87, 84, 80, 76, 75, 76, 77, 78, 81, 85, 88, 88]
       },
-      "crowd":      [28, 30, 42, 58, 68, 78, 88, 90, 72, 55, 42, 62],
+      "crowd": [28, 30, 42, 58, 68, 78, 88, 90, 72, 55, 42, 62],
       "priceIndex": [40, 42, 55, 70, 78, 85, 95, 95, 80, 62, 48, 68],
-      "cost": { "budget": 58, "mid": 130, "luxury": 330 },
-      "r": {
-        "architecture": 96, "historicSites": 92, "museums": 82, "artScene": 78, "religiousSites": 78,
-        "beer": 100, "foodScene": 82, "fineDining": 82, "walkability": 96, "romance": 92,
-        "cycling": 84, "shopping": 68, "festivals": 62, "seniors": 84, "accessibility": 62,
-        "publicTransport": 55, "clubbing": 28, "beaches": 42, "swimming": 30,
-        "valueForMoney": 52, "familyYoungKids": 62, "scenery": 55, "bars": 78
+      "cost": {
+        "budget": 58,
+        "mid": 130,
+        "luxury": 330
       },
-      "photos": ["Bruges Rozenhoedkaai canal", "Bruges Markt belfry tower", "Bruges Begijnhof", "Belgian chocolate shop Bruges", "Bruges canal boat", "Groeningemuseum Flemish painting"]
+      "r": {
+        "architecture": 96, "historicSites": 92, "museums": 82, "artScene": 78,
+        "religiousSites": 78, "beer": 100, "foodScene": 82, "fineDining": 82, "walkability": 96,
+        "romance": 92, "cycling": 84, "shopping": 68, "festivals": 62, "seniors": 84,
+        "accessibility": 62, "publicTransport": 55, "clubbing": 28, "beaches": 42,
+        "swimming": 30, "valueForMoney": 52, "familyYoungKids": 62, "scenery": 55, "bars": 78
+      },
+      "photos": [
+        "Bruges Rozenhoedkaai canal",
+        "Bruges Markt belfry tower",
+        "Bruges Begijnhof",
+        "Belgian chocolate shop Bruges",
+        "Bruges canal boat",
+        "Groeningemuseum Flemish painting"
+      ]
     },
-
     {
-      "id": "vienna-at", "name": "Vienna", "country": "AT", "region": "Vienna", "continent": "Europe",
-      "lat": 48.208, "lon": 16.373, "type": "city", "arch": "capital-city",
+      "id": "vienna-at",
+      "name": "Vienna",
+      "country": "AT",
+      "region": "Vienna",
+      "continent": "Europe",
+      "lat": 48.208,
+      "lon": 16.373,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Imperial palaces, the world's great concert halls and coffee houses you can occupy for hours — repeatedly voted the most liveable city on earth.",
       "tags": ["music", "imperial", "coffee", "museums"],
       "climate": {
         "tempHigh": [3, 5, 11, 16, 20, 23, 26, 26, 20, 14, 8, 4],
-        "tempLow":  [-2, -1, 2, 6, 11, 14, 16, 16, 12, 7, 3, -1],
+        "tempLow": [-2, -1, 2, 6, 11, 14, 16, 16, 12, 7, 3, -1],
         "rainDays": [8, 7, 8, 8, 9, 10, 9, 9, 7, 7, 8, 9],
         "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 2],
         "humidity": [80, 76, 70, 65, 66, 67, 66, 68, 74, 79, 83, 83],
         "snowDepth": [10, 12, 4, 0, 0, 0, 0, 0, 0, 0, 2, 6]
       },
-      "crowd":      [35, 38, 48, 58, 68, 75, 80, 78, 72, 58, 45, 68],
+      "crowd": [35, 38, 48, 58, 68, 75, 80, 78, 72, 58, 45, 68],
       "priceIndex": [45, 48, 58, 68, 78, 85, 88, 85, 80, 65, 52, 80],
-      "cost": { "budget": 58, "mid": 130, "luxury": 330 },
+      "cost": {
+        "budget": 58,
+        "mid": 130,
+        "luxury": 330
+      },
       "r": {
         "museums": 96, "theatre": 96, "artScene": 88, "architecture": 94, "historicSites": 88,
         "liveMusic": 90, "religiousSites": 78, "coffee": 100, "foodScene": 80, "fineDining": 82,
         "markets": 80, "wine": 82, "festivals": 78, "shopping": 80, "walkability": 88,
         "publicTransport": 96, "cycling": 82, "cleanliness": 94, "safety": 88,
-        "accessibility": 82, "seniors": 88, "romance": 84, "familyYoungKids": 76,
-        "beaches": 15, "swimming": 52, "clubbing": 66, "valueForMoney": 58
+        "accessibility": 82, "seniors": 88, "romance": 84, "familyYoungKids": 76, "beaches": 15,
+        "swimming": 52, "clubbing": 66, "valueForMoney": 58
       },
-      "photos": ["Schonbrunn Palace Vienna", "Vienna State Opera house", "St Stephen's Cathedral Vienna", "Viennese coffee house interior", "Belvedere Palace Vienna Klimt", "Naschmarkt Vienna"]
+      "photos": [
+        "Schonbrunn Palace Vienna",
+        "Vienna State Opera house",
+        "St Stephen's Cathedral Vienna",
+        "Viennese coffee house interior",
+        "Belvedere Palace Vienna Klimt",
+        "Naschmarkt Vienna"
+      ]
     },
     {
-      "id": "salzburg-at", "name": "Salzburg", "country": "AT", "region": "Salzburg", "continent": "Europe",
-      "lat": 47.809, "lon": 13.055, "type": "city", "arch": "historic-city",
+      "id": "salzburg-at",
+      "name": "Salzburg",
+      "country": "AT",
+      "region": "Salzburg",
+      "continent": "Europe",
+      "lat": 47.809,
+      "lon": 13.055,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Mozart's baroque hometown under a hilltop fortress, with the Sound of Music lakes and the Alps starting at the edge of town.",
       "tags": ["music", "baroque", "alps", "lakes"],
       "climate": {
         "tempHigh": [3, 5, 10, 14, 19, 22, 24, 23, 19, 14, 7, 3],
-        "tempLow":  [-5, -4, 0, 3, 8, 11, 13, 13, 10, 5, 0, -4],
+        "tempLow": [-5, -4, 0, 3, 8, 11, 13, 13, 10, 5, 0, -4],
         "rainDays": [10, 9, 10, 11, 13, 14, 13, 12, 9, 9, 10, 11],
         "sunHours": [2, 3, 4, 5, 6, 6, 7, 6, 5, 3, 2, 2],
         "humidity": [80, 77, 72, 69, 70, 72, 72, 74, 78, 81, 83, 83],
         "snowDepth": [20, 25, 12, 2, 0, 0, 0, 0, 0, 0, 5, 15]
       },
-      "crowd":      [35, 38, 45, 55, 65, 72, 85, 88, 68, 48, 35, 68],
+      "crowd": [35, 38, 45, 55, 65, 72, 85, 88, 68, 48, 35, 68],
       "priceIndex": [45, 48, 55, 65, 75, 82, 92, 95, 75, 55, 45, 80],
-      "cost": { "budget": 58, "mid": 132, "luxury": 340 },
+      "cost": {
+        "budget": 58,
+        "mid": 132,
+        "luxury": 340
+      },
       "r": {
         "architecture": 94, "historicSites": 88, "liveMusic": 94, "theatre": 84, "museums": 76,
         "festivals": 92, "religiousSites": 80, "walkability": 92, "scenery": 84, "mountains": 78,
         "hiking": 80, "lakesRivers": 84, "skiing": 72, "cycling": 78, "wellness": 78,
         "romance": 86, "foodScene": 74, "seniors": 82, "cleanliness": 92, "safety": 90,
-        "familyYoungKids": 74, "publicTransport": 70, "beaches": 0, "swimming": 48, "clubbing": 32
+        "familyYoungKids": 74, "publicTransport": 70, "beaches": 0, "swimming": 48,
+        "clubbing": 32
       },
-      "photos": ["Salzburg old town and fortress", "Hohensalzburg Fortress Salzburg", "Mirabell Gardens Salzburg", "Getreidegasse Salzburg signs", "Hallstatt lake near Salzburg", "Salzburg Christmas market"]
+      "photos": [
+        "Salzburg old town and fortress",
+        "Hohensalzburg Fortress Salzburg",
+        "Mirabell Gardens Salzburg",
+        "Getreidegasse Salzburg signs",
+        "Hallstatt lake near Salzburg",
+        "Salzburg Christmas market"
+      ]
     },
     {
-      "id": "tyrol-at", "name": "Tyrol & Innsbruck", "country": "AT", "region": "Tyrol", "continent": "Europe",
-      "lat": 47.269, "lon": 11.404, "type": "mountains", "arch": "ski-resort",
+      "id": "tyrol-at",
+      "name": "Tyrol & Innsbruck",
+      "country": "AT",
+      "region": "Tyrol",
+      "continent": "Europe",
+      "lat": 47.269,
+      "lon": 11.404,
+      "type": "mountains",
+      "arch": "ski-resort",
       "blurb": "A city with a ski jump in it and mountains on all four sides — two Winter Olympics, and lift access straight from the old town.",
       "tags": ["skiing", "mountains", "hiking", "city"],
       "climate": {
         "tempHigh": [3, 5, 11, 15, 19, 23, 25, 24, 20, 15, 8, 4],
-        "tempLow":  [-6, -5, -1, 3, 7, 11, 13, 12, 9, 5, 0, -5],
+        "tempLow": [-6, -5, -1, 3, 7, 11, 13, 12, 9, 5, 0, -5],
         "rainDays": [8, 7, 9, 10, 12, 13, 13, 12, 9, 8, 8, 9],
         "sunHours": [3, 4, 5, 5, 6, 7, 7, 7, 6, 4, 3, 3],
         "humidity": [78, 74, 68, 66, 68, 70, 70, 73, 76, 79, 80, 80],
         "snowDepth": [50, 60, 45, 15, 1, 0, 0, 0, 0, 2, 18, 40]
       },
-      "crowd":      [72, 75, 58, 32, 38, 55, 78, 82, 58, 35, 32, 65],
+      "crowd": [72, 75, 58, 32, 38, 55, 78, 82, 58, 35, 32, 65],
       "priceIndex": [82, 85, 65, 42, 48, 65, 85, 90, 65, 45, 40, 75],
-      "cost": { "budget": 60, "mid": 138, "luxury": 350 },
+      "cost": {
+        "budget": 60,
+        "mid": 138,
+        "luxury": 350
+      },
       "r": {
         "skiing": 94, "mountains": 96, "hiking": 92, "scenery": 92, "climbing": 88,
         "cycling": 86, "adrenaline": 84, "nationalParks": 78, "wellness": 82,
-        "historicSites": 76, "architecture": 78, "museums": 62, "localCulture": 78,
-        "bars": 74, "beer": 82, "foodScene": 72, "familyYoungKids": 78, "familyTeens": 84,
-        "publicTransport": 78, "walkability": 84, "cleanliness": 92, "safety": 90,
-        "beaches": 0, "swimming": 42, "clubbing": 45, "valueForMoney": 50
+        "historicSites": 76, "architecture": 78, "museums": 62, "localCulture": 78, "bars": 74,
+        "beer": 82, "foodScene": 72, "familyYoungKids": 78, "familyTeens": 84,
+        "publicTransport": 78, "walkability": 84, "cleanliness": 92, "safety": 90, "beaches": 0,
+        "swimming": 42, "clubbing": 45, "valueForMoney": 50
       },
-      "photos": ["Innsbruck Golden Roof old town", "Nordkette cable car Innsbruck", "Tyrol alpine meadow Austria", "Bergisel ski jump Innsbruck", "Innsbruck coloured houses Inn river", "Stubai glacier Tyrol"]
+      "photos": [
+        "Innsbruck Golden Roof old town",
+        "Nordkette cable car Innsbruck",
+        "Tyrol alpine meadow Austria",
+        "Bergisel ski jump Innsbruck",
+        "Innsbruck coloured houses Inn river",
+        "Stubai glacier Tyrol"
+      ]
     },
     {
-      "id": "hallstatt-at", "name": "Hallstatt & the Salzkammergut", "country": "AT", "region": "Upper Austria", "continent": "Europe",
-      "lat": 47.562, "lon": 13.649, "type": "lake", "arch": "mountain-town",
+      "id": "hallstatt-at",
+      "name": "Hallstatt & the Salzkammergut",
+      "country": "AT",
+      "region": "Upper Austria",
+      "continent": "Europe",
+      "lat": 47.562,
+      "lon": 13.649,
+      "type": "lake",
+      "arch": "mountain-town",
       "blurb": "The most photographed village in Austria, wedged between a mirror lake and a cliff, in a region of 76 lakes and salt mines.",
       "tags": ["lake", "village", "scenery", "hiking"],
       "climate": {
         "tempHigh": [2, 4, 9, 13, 18, 21, 23, 23, 18, 13, 6, 3],
-        "tempLow":  [-4, -4, 0, 3, 8, 11, 13, 13, 10, 5, 1, -3],
+        "tempLow": [-4, -4, 0, 3, 8, 11, 13, 13, 10, 5, 1, -3],
         "rainDays": [11, 10, 11, 12, 14, 15, 14, 13, 10, 10, 11, 12],
         "sunHours": [2, 3, 4, 5, 6, 6, 6, 6, 5, 3, 2, 2],
         "humidity": [82, 79, 74, 72, 73, 75, 75, 77, 80, 83, 84, 84],
         "snowDepth": [35, 42, 28, 8, 0, 0, 0, 0, 0, 0, 10, 28]
       },
-      "crowd":      [32, 35, 45, 58, 72, 82, 95, 98, 70, 45, 30, 42],
+      "crowd": [32, 35, 45, 58, 72, 82, 95, 98, 70, 45, 30, 42],
       "priceIndex": [42, 45, 55, 68, 82, 90, 100, 100, 75, 52, 40, 52],
-      "cost": { "budget": 55, "mid": 125, "luxury": 300 },
+      "cost": {
+        "budget": 55,
+        "mid": 125,
+        "luxury": 300
+      },
       "r": {
         "scenery": 96, "lakesRivers": 96, "romance": 88, "hiking": 88, "mountains": 84,
         "historicSites": 78, "architecture": 84, "kayaking": 78, "swimming": 62, "cycling": 76,
-        "wellness": 76, "skiing": 62, "stargazing": 70, "localCulture": 74,
-        "cleanliness": 92, "safety": 92, "seniors": 66, "familyYoungKids": 68,
-        "publicTransport": 48, "valueForMoney": 52, "clubbing": 8, "shopping": 35,
-        "beaches": 20, "ecoFriendly": 55, "museums": 55
+        "wellness": 76, "skiing": 62, "stargazing": 70, "localCulture": 74, "cleanliness": 92,
+        "safety": 92, "seniors": 66, "familyYoungKids": 68, "publicTransport": 48,
+        "valueForMoney": 52, "clubbing": 8, "shopping": 35, "beaches": 20, "ecoFriendly": 55,
+        "museums": 55
       },
-      "photos": ["Hallstatt village lake Austria", "Hallstatt skywalk viewpoint", "Gosausee lake Dachstein", "Hallstatt salt mine", "Salzkammergut lake district Austria", "Dachstein ice cave"]
+      "photos": [
+        "Hallstatt village lake Austria",
+        "Hallstatt skywalk viewpoint",
+        "Gosausee lake Dachstein",
+        "Hallstatt salt mine",
+        "Salzkammergut lake district Austria",
+        "Dachstein ice cave"
+      ]
     },
-
     {
-      "id": "zermatt-ch", "name": "Zermatt", "country": "CH", "region": "Valais", "continent": "Europe",
-      "lat": 46.020, "lon": 7.749, "type": "mountains", "arch": "ski-resort",
+      "id": "zermatt-ch",
+      "name": "Zermatt",
+      "country": "CH",
+      "region": "Valais",
+      "continent": "Europe",
+      "lat": 46.02,
+      "lon": 7.749,
+      "type": "mountains",
+      "arch": "ski-resort",
       "blurb": "Car-free, under the Matterhorn, with skiing possible 365 days a year on the glacier. Superb, and priced for people who know it.",
       "tags": ["skiing", "matterhorn", "luxury", "hiking"],
       "climate": {
         "tempHigh": [1, 2, 6, 10, 15, 18, 21, 20, 16, 11, 5, 2],
-        "tempLow":  [-8, -8, -5, -2, 3, 6, 8, 8, 5, 1, -4, -7],
+        "tempLow": [-8, -8, -5, -2, 3, 6, 8, 8, 5, 1, -4, -7],
         "rainDays": [7, 6, 7, 8, 10, 10, 9, 10, 7, 7, 8, 8],
         "sunHours": [4, 5, 5, 5, 6, 7, 7, 6, 6, 4, 4, 3],
         "humidity": [74, 71, 68, 68, 70, 71, 70, 72, 74, 76, 77, 76],
         "snowDepth": [110, 125, 120, 80, 20, 0, 0, 0, 2, 10, 50, 90]
       },
-      "crowd":      [85, 88, 72, 45, 25, 52, 82, 88, 58, 32, 28, 72],
+      "crowd": [85, 88, 72, 45, 25, 52, 82, 88, 58, 32, 28, 72],
       "priceIndex": [92, 95, 80, 52, 35, 60, 88, 95, 62, 40, 38, 88],
-      "cost": { "budget": 85, "mid": 190, "luxury": 480 },
+      "cost": {
+        "budget": 85,
+        "mid": 190,
+        "luxury": 480
+      },
       "r": {
         "skiing": 100, "mountains": 100, "scenery": 100, "hiking": 94, "climbing": 94,
         "cycling": 78, "adrenaline": 80, "wellness": 88, "stargazing": 82, "luxury": 96,
         "fineDining": 90, "foodScene": 78, "romance": 90, "bars": 74, "cleanliness": 96,
         "safety": 94, "walkability": 88, "publicTransport": 84, "ecoFriendly": 82,
-        "familyTeens": 82, "seniors": 55, "valueForMoney": 18,
-        "beaches": 0, "swimming": 25, "clubbing": 45, "museums": 38, "backpacker": 20
+        "familyTeens": 82, "seniors": 55, "valueForMoney": 18, "beaches": 0, "swimming": 25,
+        "clubbing": 45, "museums": 38, "backpacker": 20
       },
-      "photos": ["Matterhorn from Zermatt", "Gornergrat railway Matterhorn", "Zermatt village car free street", "Riffelsee Matterhorn reflection", "Zermatt ski slopes glacier", "Klein Matterhorn glacier paradise"]
+      "photos": [
+        "Matterhorn from Zermatt",
+        "Gornergrat railway Matterhorn",
+        "Zermatt village car free street",
+        "Riffelsee Matterhorn reflection",
+        "Zermatt ski slopes glacier",
+        "Klein Matterhorn glacier paradise"
+      ]
     },
     {
-      "id": "interlaken-ch", "name": "Interlaken & the Jungfrau", "country": "CH", "region": "Bern", "continent": "Europe",
-      "lat": 46.686, "lon": 7.863, "type": "mountains", "arch": "mountain-town",
+      "id": "interlaken-ch",
+      "name": "Interlaken & the Jungfrau",
+      "country": "CH",
+      "region": "Bern",
+      "continent": "Europe",
+      "lat": 46.686,
+      "lon": 7.863,
+      "type": "mountains",
+      "arch": "mountain-town",
       "blurb": "Between two lakes below the Eiger, Mönch and Jungfrau — Europe's adventure-sport capital and the highest railway station on the continent.",
       "tags": ["adventure", "mountains", "lakes", "paragliding"],
       "climate": {
         "tempHigh": [3, 5, 10, 14, 18, 22, 24, 23, 19, 14, 8, 4],
-        "tempLow":  [-3, -2, 1, 4, 8, 12, 14, 13, 10, 6, 1, -2],
+        "tempLow": [-3, -2, 1, 4, 8, 12, 14, 13, 10, 6, 1, -2],
         "rainDays": [9, 8, 9, 10, 12, 13, 12, 12, 9, 9, 10, 10],
         "sunHours": [2, 3, 4, 5, 6, 6, 7, 6, 5, 3, 2, 2],
         "humidity": [80, 76, 72, 71, 73, 74, 73, 76, 79, 82, 83, 83],
         "snowDepth": [20, 25, 15, 3, 0, 0, 0, 0, 0, 0, 5, 15]
       },
-      "crowd":      [42, 45, 45, 42, 58, 75, 90, 92, 68, 45, 35, 45],
+      "crowd": [42, 45, 45, 42, 58, 75, 90, 92, 68, 45, 35, 45],
       "priceIndex": [55, 58, 58, 55, 70, 85, 98, 100, 78, 55, 48, 58],
-      "cost": { "budget": 75, "mid": 168, "luxury": 420 },
+      "cost": {
+        "budget": 75,
+        "mid": 168,
+        "luxury": 420
+      },
       "r": {
         "adrenaline": 100, "mountains": 96, "scenery": 98, "hiking": 94, "lakesRivers": 92,
         "climbing": 88, "skiing": 84, "cycling": 82, "kayaking": 80, "nationalParks": 76,
-        "swimming": 58, "wellness": 78, "familyTeens": 92, "familyYoungKids": 74,
-        "romance": 84, "publicTransport": 90, "cleanliness": 96, "safety": 94,
-        "backpacker": 62, "valueForMoney": 22, "beaches": 8, "clubbing": 42, "museums": 32
+        "swimming": 58, "wellness": 78, "familyTeens": 92, "familyYoungKids": 74, "romance": 84,
+        "publicTransport": 90, "cleanliness": 96, "safety": 94, "backpacker": 62,
+        "valueForMoney": 22, "beaches": 8, "clubbing": 42, "museums": 32
       },
-      "photos": ["Jungfraujoch top of Europe", "Lauterbrunnen valley waterfalls", "Interlaken paragliding", "Grindelwald First cliff walk", "Lake Brienz turquoise Switzerland", "Schilthorn Piz Gloria view"]
+      "photos": [
+        "Jungfraujoch top of Europe",
+        "Lauterbrunnen valley waterfalls",
+        "Interlaken paragliding",
+        "Grindelwald First cliff walk",
+        "Lake Brienz turquoise Switzerland",
+        "Schilthorn Piz Gloria view"
+      ]
     },
     {
-      "id": "lucerne-ch", "name": "Lucerne", "country": "CH", "region": "Lucerne", "continent": "Europe",
-      "lat": 47.050, "lon": 8.306, "type": "lake", "arch": "historic-city",
+      "id": "lucerne-ch",
+      "name": "Lucerne",
+      "country": "CH",
+      "region": "Lucerne",
+      "continent": "Europe",
+      "lat": 47.05,
+      "lon": 8.306,
+      "type": "lake",
+      "arch": "historic-city",
       "blurb": "A covered wooden bridge, a painted old town and a lake ringed by mountains you can ride cogwheel trains up. Switzerland's greatest hits.",
       "tags": ["lake", "mountains", "old town", "scenic rail"],
       "climate": {
         "tempHigh": [3, 5, 10, 14, 19, 22, 24, 23, 19, 14, 8, 4],
-        "tempLow":  [-2, -1, 2, 5, 9, 13, 15, 14, 11, 7, 2, -1],
+        "tempLow": [-2, -1, 2, 5, 9, 13, 15, 14, 11, 7, 2, -1],
         "rainDays": [9, 8, 9, 10, 12, 13, 12, 12, 9, 9, 10, 10],
         "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
         "humidity": [81, 77, 73, 71, 72, 73, 73, 76, 79, 82, 84, 84]
       },
-      "crowd":      [35, 38, 45, 55, 65, 78, 90, 92, 70, 52, 40, 50],
+      "crowd": [35, 38, 45, 55, 65, 78, 90, 92, 70, 52, 40, 50],
       "priceIndex": [48, 50, 58, 68, 78, 88, 98, 100, 80, 62, 50, 60],
-      "cost": { "budget": 75, "mid": 165, "luxury": 410 },
-      "r": {
-        "scenery": 92, "lakesRivers": 94, "mountains": 88, "architecture": 88, "historicSites": 82,
-        "walkability": 90, "hiking": 84, "cycling": 78, "kayaking": 74, "sailing": 72,
-        "museums": 74, "liveMusic": 78, "romance": 86, "seniors": 86, "familyYoungKids": 76,
-        "publicTransport": 94, "cleanliness": 96, "safety": 94, "swimming": 58,
-        "shopping": 76, "luxury": 84, "valueForMoney": 25, "beaches": 12, "clubbing": 38
+      "cost": {
+        "budget": 75,
+        "mid": 165,
+        "luxury": 410
       },
-      "photos": ["Chapel Bridge Lucerne", "Lake Lucerne and Mount Pilatus", "Lucerne old town painted facades", "Mount Rigi cogwheel railway", "Lion Monument Lucerne", "Swiss Alps panorama from Pilatus"]
+      "r": {
+        "scenery": 92, "lakesRivers": 94, "mountains": 88, "architecture": 88,
+        "historicSites": 82, "walkability": 90, "hiking": 84, "cycling": 78, "kayaking": 74,
+        "sailing": 72, "museums": 74, "liveMusic": 78, "romance": 86, "seniors": 86,
+        "familyYoungKids": 76, "publicTransport": 94, "cleanliness": 96, "safety": 94,
+        "swimming": 58, "shopping": 76, "luxury": 84, "valueForMoney": 25, "beaches": 12,
+        "clubbing": 38
+      },
+      "photos": [
+        "Chapel Bridge Lucerne",
+        "Lake Lucerne and Mount Pilatus",
+        "Lucerne old town painted facades",
+        "Mount Rigi cogwheel railway",
+        "Lion Monument Lucerne",
+        "Swiss Alps panorama from Pilatus"
+      ]
     },
     {
-      "id": "zurich-ch", "name": "Zurich", "country": "CH", "region": "Zurich", "continent": "Europe",
-      "lat": 47.377, "lon": 8.542, "type": "city", "arch": "capital-city",
+      "id": "zurich-ch",
+      "name": "Zurich",
+      "country": "CH",
+      "region": "Zurich",
+      "continent": "Europe",
+      "lat": 47.377,
+      "lon": 8.542,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "A banking city that swims in its own river, with excellent galleries, a serious club scene and the highest prices in Europe.",
       "tags": ["lake", "design", "nightlife", "luxury"],
       "climate": {
         "tempHigh": [3, 5, 10, 14, 19, 22, 25, 24, 19, 14, 8, 4],
-        "tempLow":  [-2, -1, 2, 5, 9, 13, 15, 15, 11, 7, 2, -1],
+        "tempLow": [-2, -1, 2, 5, 9, 13, 15, 15, 11, 7, 2, -1],
         "rainDays": [9, 8, 9, 10, 12, 13, 12, 12, 9, 9, 10, 10],
         "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
         "humidity": [81, 77, 72, 70, 71, 72, 72, 75, 79, 83, 84, 84],
         "snowDepth": [40, 50, 45, 20, 2, 0, 0, 0, 0, 0, 10, 30]
       },
-      "crowd":      [35, 35, 42, 50, 60, 72, 82, 80, 68, 52, 42, 52],
+      "crowd": [35, 35, 42, 50, 60, 72, 82, 80, 68, 52, 42, 52],
       "priceIndex": [48, 48, 55, 62, 72, 82, 90, 88, 78, 62, 50, 62],
-      "cost": { "budget": 85, "mid": 185, "luxury": 460 },
+      "cost": {
+        "budget": 85,
+        "mid": 185,
+        "luxury": 460
+      },
       "r": {
         "museums": 84, "artScene": 84, "architecture": 78, "lakesRivers": 86, "swimming": 78,
         "clubbing": 86, "bars": 82, "liveMusic": 78, "fineDining": 88, "foodScene": 78,
-        "shopping": 92, "luxury": 96, "walkability": 86, "publicTransport": 96,
-        "cycling": 78, "cleanliness": 98, "safety": 94, "accessibility": 86,
-        "mountains": 55, "skiing": 45, "hiking": 62, "scenery": 62,
-        "valueForMoney": 15, "beaches": 32, "familyYoungKids": 70, "backpacker": 25
+        "shopping": 92, "luxury": 96, "walkability": 86, "publicTransport": 96, "cycling": 78,
+        "cleanliness": 98, "safety": 94, "accessibility": 86, "mountains": 55, "skiing": 45,
+        "hiking": 62, "scenery": 62, "valueForMoney": 15, "beaches": 32, "familyYoungKids": 70,
+        "backpacker": 25
       },
-      "photos": ["Zurich Limmat river old town", "Lake Zurich swimming badi", "Grossmunster Zurich", "Bahnhofstrasse Zurich shopping", "Kunsthaus Zurich museum", "Zurich West Viadukt district"]
+      "photos": [
+        "Zurich Limmat river old town",
+        "Lake Zurich swimming badi",
+        "Grossmunster Zurich",
+        "Bahnhofstrasse Zurich shopping",
+        "Kunsthaus Zurich museum",
+        "Zurich West Viadukt district"
+      ]
     },
-
     {
-      "id": "prague-cz", "name": "Prague", "country": "CZ", "region": "Prague", "continent": "Europe",
-      "lat": 50.076, "lon": 14.438, "type": "city", "arch": "historic-city",
+      "id": "prague-cz",
+      "name": "Prague",
+      "country": "CZ",
+      "region": "Prague",
+      "continent": "Europe",
+      "lat": 50.076,
+      "lon": 14.438,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "A gothic and baroque city that came through the war intact — spires, a castle, the world's cheapest great beer, and enormous crowds.",
       "tags": ["architecture", "beer", "value", "history"],
       "climate": {
         "tempHigh": [2, 4, 9, 15, 19, 22, 24, 24, 19, 13, 7, 3],
-        "tempLow":  [-4, -3, 0, 3, 8, 11, 13, 13, 9, 5, 1, -2],
+        "tempLow": [-4, -3, 0, 3, 8, 11, 13, 13, 9, 5, 1, -2],
         "rainDays": [8, 7, 8, 9, 10, 10, 10, 9, 8, 8, 9, 9],
         "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 1],
         "humidity": [82, 78, 71, 65, 66, 67, 67, 69, 75, 81, 84, 84],
         "snowDepth": [12, 14, 5, 0, 0, 0, 0, 0, 0, 0, 3, 8]
       },
-      "crowd":      [38, 40, 50, 68, 78, 85, 92, 90, 78, 60, 45, 65],
+      "crowd": [38, 40, 50, 68, 78, 85, 92, 90, 78, 60, 45, 65],
       "priceIndex": [45, 48, 58, 78, 85, 92, 98, 95, 85, 68, 52, 75],
-      "cost": { "budget": 45, "mid": 100, "luxury": 260 },
-      "r": {
-        "architecture": 98, "historicSites": 92, "museums": 76, "religiousSites": 82,
-        "beer": 98, "bars": 88, "clubbing": 80, "groupParty": 88, "theatre": 78, "liveMusic": 82,
-        "walkability": 88, "publicTransport": 88, "foodScene": 76, "markets": 70,
-        "valueForMoney": 84, "backpacker": 86, "soloTravel": 78, "romance": 84,
-        "festivals": 72, "shopping": 68, "beaches": 0, "swimming": 30,
-        "familyYoungKids": 62, "seniors": 68, "cleanliness": 74
+      "cost": {
+        "budget": 45,
+        "mid": 100,
+        "luxury": 260
       },
-      "photos": ["Charles Bridge Prague at dawn", "Prague Castle and St Vitus", "Prague old town square astronomical clock", "Prague red rooftops view", "Czech beer hall Prague", "Dancing House Prague"]
+      "r": {
+        "architecture": 98, "historicSites": 92, "museums": 76, "religiousSites": 82, "beer": 98,
+        "bars": 88, "clubbing": 80, "groupParty": 88, "theatre": 78, "liveMusic": 82,
+        "walkability": 88, "publicTransport": 88, "foodScene": 76, "markets": 70,
+        "valueForMoney": 84, "backpacker": 86, "soloTravel": 78, "romance": 84, "festivals": 72,
+        "shopping": 68, "beaches": 0, "swimming": 30, "familyYoungKids": 62, "seniors": 68,
+        "cleanliness": 74
+      },
+      "photos": [
+        "Charles Bridge Prague at dawn",
+        "Prague Castle and St Vitus",
+        "Prague old town square astronomical clock",
+        "Prague red rooftops view",
+        "Czech beer hall Prague",
+        "Dancing House Prague"
+      ]
     },
     {
-      "id": "cesky-krumlov-cz", "name": "Český Krumlov", "country": "CZ", "region": "South Bohemia", "continent": "Europe",
-      "lat": 48.811, "lon": 14.315, "type": "city", "arch": "historic-city",
+      "id": "cesky-krumlov-cz",
+      "name": "Český Krumlov",
+      "country": "CZ",
+      "region": "South Bohemia",
+      "continent": "Europe",
+      "lat": 48.811,
+      "lon": 14.315,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "A tiny medieval town looped by a river beneath an enormous castle — a day trip from Prague that deserves an overnight.",
       "tags": ["medieval", "castle", "river", "quiet"],
       "climate": {
         "tempHigh": [1, 3, 8, 13, 18, 21, 23, 23, 18, 12, 6, 2],
-        "tempLow":  [-6, -5, -2, 2, 6, 10, 12, 11, 8, 4, 0, -4],
+        "tempLow": [-6, -5, -2, 2, 6, 10, 12, 11, 8, 4, 0, -4],
         "rainDays": [9, 8, 9, 10, 12, 13, 12, 11, 9, 9, 10, 10],
         "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 2],
         "humidity": [84, 80, 74, 69, 70, 72, 72, 74, 79, 84, 86, 86],
         "snowDepth": [20, 24, 12, 2, 0, 0, 0, 0, 0, 0, 5, 15]
       },
-      "crowd":      [22, 25, 35, 52, 68, 80, 92, 95, 68, 45, 28, 42],
+      "crowd": [22, 25, 35, 52, 68, 80, 92, 95, 68, 45, 28, 42],
       "priceIndex": [32, 35, 45, 62, 78, 88, 98, 100, 75, 52, 35, 48],
-      "cost": { "budget": 40, "mid": 90, "luxury": 230 },
-      "r": {
-        "historicSites": 94, "architecture": 94, "walkability": 94, "romance": 86,
-        "museums": 62, "theatre": 68, "kayaking": 82, "lakesRivers": 76, "forests": 72,
-        "beer": 92, "foodScene": 70, "localCulture": 74, "valueForMoney": 88,
-        "cycling": 74, "hiking": 68, "backpacker": 72, "seniors": 68,
-        "publicTransport": 32, "clubbing": 22, "shopping": 42, "beaches": 0,
-        "swimming": 32, "familyYoungKids": 62, "accessibility": 32
+      "cost": {
+        "budget": 40,
+        "mid": 90,
+        "luxury": 230
       },
-      "photos": ["Cesky Krumlov castle and town", "Vltava river bend Cesky Krumlov", "Cesky Krumlov castle tower", "Cesky Krumlov old town square", "Rafting Vltava Cesky Krumlov", "Cesky Krumlov baroque theatre"]
+      "r": {
+        "historicSites": 94, "architecture": 94, "walkability": 94, "romance": 86, "museums": 62,
+        "theatre": 68, "kayaking": 82, "lakesRivers": 76, "forests": 72, "beer": 92,
+        "foodScene": 70, "localCulture": 74, "valueForMoney": 88, "cycling": 74, "hiking": 68,
+        "backpacker": 72, "seniors": 68, "publicTransport": 32, "clubbing": 22, "shopping": 42,
+        "beaches": 0, "swimming": 32, "familyYoungKids": 62, "accessibility": 32
+      },
+      "photos": [
+        "Cesky Krumlov castle and town",
+        "Vltava river bend Cesky Krumlov",
+        "Cesky Krumlov castle tower",
+        "Cesky Krumlov old town square",
+        "Rafting Vltava Cesky Krumlov",
+        "Cesky Krumlov baroque theatre"
+      ]
     },
     {
-      "id": "budapest-hu", "name": "Budapest", "country": "HU", "region": "Budapest", "continent": "Europe",
-      "lat": 47.498, "lon": 19.040, "type": "city", "arch": "capital-city",
+      "id": "budapest-hu",
+      "name": "Budapest",
+      "country": "HU",
+      "region": "Budapest",
+      "continent": "Europe",
+      "lat": 47.498,
+      "lon": 19.04,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Grand Habsburg boulevards, thermal baths built like palaces, and ruin bars in derelict courtyards — outstanding value for a capital.",
       "tags": ["thermal baths", "ruin bars", "architecture", "value"],
       "climate": {
         "tempHigh": [2, 5, 11, 17, 22, 25, 27, 27, 22, 16, 8, 3],
-        "tempLow":  [-3, -2, 1, 6, 11, 14, 16, 16, 12, 7, 2, -1],
+        "tempLow": [-3, -2, 1, 6, 11, 14, 16, 16, 12, 7, 2, -1],
         "rainDays": [8, 7, 8, 8, 9, 9, 8, 7, 7, 8, 9, 9],
         "sunHours": [2, 3, 5, 6, 8, 9, 9, 8, 6, 4, 2, 1],
         "humidity": [80, 75, 68, 63, 65, 67, 66, 68, 73, 78, 82, 83],
         "snowDepth": [10, 12, 4, 0, 0, 0, 0, 0, 0, 0, 2, 6]
       },
-      "crowd":      [35, 38, 48, 62, 72, 80, 88, 88, 75, 58, 45, 62],
+      "crowd": [35, 38, 48, 62, 72, 80, 88, 88, 75, 58, 45, 62],
       "priceIndex": [42, 45, 55, 70, 80, 88, 95, 95, 82, 65, 50, 70],
-      "cost": { "budget": 42, "mid": 95, "luxury": 250 },
+      "cost": {
+        "budget": 42,
+        "mid": 95,
+        "luxury": 250
+      },
       "r": {
         "wellness": 100, "architecture": 94, "historicSites": 84, "museums": 78, "artScene": 76,
         "bars": 94, "clubbing": 86, "groupParty": 92, "liveMusic": 80, "theatre": 80,
         "foodScene": 82, "markets": 84, "wine": 82, "walkability": 84, "publicTransport": 88,
-        "valueForMoney": 90, "backpacker": 86, "soloTravel": 80, "romance": 82,
-        "festivals": 82, "lakesRivers": 68, "beaches": 5, "swimming": 62,
-        "familyYoungKids": 62, "shopping": 70, "cleanliness": 66
+        "valueForMoney": 90, "backpacker": 86, "soloTravel": 80, "romance": 82, "festivals": 82,
+        "lakesRivers": 68, "beaches": 5, "swimming": 62, "familyYoungKids": 62, "shopping": 70,
+        "cleanliness": 66
       },
-      "photos": ["Hungarian Parliament Budapest at night", "Szechenyi thermal bath Budapest", "Fisherman's Bastion Budapest", "Budapest ruin bar Szimpla", "Chain Bridge Budapest", "Great Market Hall Budapest"]
+      "photos": [
+        "Hungarian Parliament Budapest at night",
+        "Szechenyi thermal bath Budapest",
+        "Fisherman's Bastion Budapest",
+        "Budapest ruin bar Szimpla",
+        "Chain Bridge Budapest",
+        "Great Market Hall Budapest"
+      ]
     },
     {
-      "id": "krakow-pl", "name": "Kraków", "country": "PL", "region": "Lesser Poland", "continent": "Europe",
-      "lat": 50.065, "lon": 19.945, "type": "city", "arch": "historic-city",
+      "id": "krakow-pl",
+      "name": "Kraków",
+      "country": "PL",
+      "region": "Lesser Poland",
+      "continent": "Europe",
+      "lat": 50.065,
+      "lon": 19.945,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Poland's beautiful old capital — Europe's largest medieval market square, the Jewish quarter of Kazimierz, and Auschwitz an hour away.",
       "tags": ["history", "value", "nightlife", "jewish heritage"],
       "climate": {
         "tempHigh": [1, 3, 9, 15, 19, 22, 24, 24, 19, 13, 6, 2],
-        "tempLow":  [-6, -5, -2, 3, 7, 11, 13, 12, 9, 4, 0, -4],
+        "tempLow": [-6, -5, -2, 3, 7, 11, 13, 12, 9, 4, 0, -4],
         "rainDays": [9, 8, 9, 9, 11, 12, 11, 10, 9, 9, 10, 10],
         "sunHours": [1, 2, 4, 5, 7, 7, 7, 7, 5, 3, 2, 1],
         "humidity": [84, 80, 73, 67, 68, 70, 70, 72, 78, 83, 86, 86],
         "snowDepth": [15, 18, 7, 1, 0, 0, 0, 0, 0, 0, 3, 10]
       },
-      "crowd":      [32, 35, 45, 60, 70, 78, 88, 88, 72, 55, 42, 62],
+      "crowd": [32, 35, 45, 60, 70, 78, 88, 88, 72, 55, 42, 62],
       "priceIndex": [38, 40, 50, 65, 75, 85, 92, 92, 78, 58, 45, 68],
-      "cost": { "budget": 38, "mid": 88, "luxury": 225 },
+      "cost": {
+        "budget": 38,
+        "mid": 88,
+        "luxury": 225
+      },
       "r": {
         "historicSites": 94, "architecture": 90, "museums": 86, "religiousSites": 82,
         "localCulture": 82, "foodScene": 82, "markets": 78, "bars": 88, "beer": 86,
         "clubbing": 82, "groupParty": 88, "walkability": 92, "valueForMoney": 94,
-        "backpacker": 88, "soloTravel": 80, "kosher": 68, "liveMusic": 78,
-        "mountains": 45, "hiking": 52, "skiing": 42, "publicTransport": 80,
-        "beaches": 0, "swimming": 25, "familyYoungKids": 60, "romance": 78, "seniors": 68
+        "backpacker": 88, "soloTravel": 80, "kosher": 68, "liveMusic": 78, "mountains": 45,
+        "hiking": 52, "skiing": 42, "publicTransport": 80, "beaches": 0, "swimming": 25,
+        "familyYoungKids": 60, "romance": 78, "seniors": 68
       },
-      "photos": ["Krakow Main Market Square Cloth Hall", "Wawel Castle Krakow", "Kazimierz Jewish quarter Krakow", "St Mary's Basilica Krakow interior", "Wieliczka Salt Mine chapel", "Krakow Christmas market"]
+      "photos": [
+        "Krakow Main Market Square Cloth Hall",
+        "Wawel Castle Krakow",
+        "Kazimierz Jewish quarter Krakow",
+        "St Mary's Basilica Krakow interior",
+        "Wieliczka Salt Mine chapel",
+        "Krakow Christmas market"
+      ]
     },
     {
-      "id": "gdansk-pl", "name": "Gdańsk", "country": "PL", "region": "Pomerania", "continent": "Europe",
-      "lat": 54.352, "lon": 18.646, "type": "city", "arch": "historic-city",
+      "id": "gdansk-pl",
+      "name": "Gdańsk",
+      "country": "PL",
+      "region": "Pomerania",
+      "continent": "Europe",
+      "lat": 54.352,
+      "lon": 18.646,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "A rebuilt Hanseatic merchant city on the Baltic — amber, extraordinary WWII and Solidarity museums, and beaches on the tram line.",
       "tags": ["hanseatic", "beach", "museums", "value"],
       "climate": {
         "tempHigh": [1, 2, 5, 11, 16, 19, 22, 22, 17, 11, 6, 2],
-        "tempLow":  [-4, -4, -2, 2, 7, 11, 13, 13, 10, 5, 2, -2],
+        "tempLow": [-4, -4, -2, 2, 7, 11, 13, 13, 10, 5, 2, -2],
         "rainDays": [10, 9, 9, 8, 9, 10, 11, 10, 10, 11, 12, 12],
         "sunHours": [1, 2, 4, 6, 8, 8, 8, 7, 5, 3, 1, 1],
         "humidity": [87, 85, 80, 74, 72, 74, 76, 77, 81, 85, 88, 88],
-        "seaTemp":  [3, 2, 3, 6, 11, 15, 18, 19, 17, 13, 9, 5]
+        "seaTemp": [3, 2, 3, 6, 11, 15, 18, 19, 17, 13, 9, 5]
       },
-      "crowd":      [25, 28, 35, 48, 62, 78, 92, 90, 62, 45, 32, 52],
+      "crowd": [25, 28, 35, 48, 62, 78, 92, 90, 62, 45, 32, 52],
       "priceIndex": [35, 38, 45, 58, 72, 85, 98, 95, 72, 52, 40, 58],
-      "cost": { "budget": 40, "mid": 90, "luxury": 230 },
-      "r": {
-        "architecture": 88, "historicSites": 86, "museums": 92, "walkability": 88,
-        "beaches": 74, "swimming": 55, "foodScene": 78, "markets": 72, "bars": 80,
-        "beer": 82, "clubbing": 74, "shopping": 68, "valueForMoney": 92,
-        "backpacker": 78, "sailing": 68, "romance": 76, "familyYoungKids": 74,
-        "publicTransport": 78, "cycling": 74, "seniors": 68, "festivals": 74, "cleanliness": 76
+      "cost": {
+        "budget": 40,
+        "mid": 90,
+        "luxury": 230
       },
-      "photos": ["Gdansk Long Market colourful houses", "Gdansk crane Zuraw Motlawa", "European Solidarity Centre Gdansk", "Sopot pier Baltic beach", "Malbork Castle Poland", "Gdansk amber jewellery"]
+      "r": {
+        "architecture": 88, "historicSites": 86, "museums": 92, "walkability": 88, "beaches": 74,
+        "swimming": 55, "foodScene": 78, "markets": 72, "bars": 80, "beer": 82, "clubbing": 74,
+        "shopping": 68, "valueForMoney": 92, "backpacker": 78, "sailing": 68, "romance": 76,
+        "familyYoungKids": 74, "publicTransport": 78, "cycling": 74, "seniors": 68,
+        "festivals": 74, "cleanliness": 76
+      },
+      "photos": [
+        "Gdansk Long Market colourful houses",
+        "Gdansk crane Zuraw Motlawa",
+        "European Solidarity Centre Gdansk",
+        "Sopot pier Baltic beach",
+        "Malbork Castle Poland",
+        "Gdansk amber jewellery"
+      ]
     },
     {
-      "id": "warsaw-pl", "name": "Warsaw", "country": "PL", "region": "Masovia", "continent": "Europe",
-      "lat": 52.230, "lon": 21.012, "type": "city", "arch": "capital-city",
+      "id": "warsaw-pl",
+      "name": "Warsaw",
+      "country": "PL",
+      "region": "Masovia",
+      "continent": "Europe",
+      "lat": 52.23,
+      "lon": 21.012,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Rebuilt from rubble and now unmistakably confident — a meticulously reconstructed old town beside glass towers and a serious food scene.",
       "tags": ["history", "museums", "food", "value"],
       "climate": {
         "tempHigh": [0, 2, 7, 14, 19, 22, 24, 24, 19, 13, 6, 2],
-        "tempLow":  [-5, -5, -2, 3, 8, 11, 13, 13, 9, 4, 0, -3],
+        "tempLow": [-5, -5, -2, 3, 8, 11, 13, 13, 9, 4, 0, -3],
         "rainDays": [9, 8, 8, 8, 9, 10, 10, 9, 9, 9, 10, 11],
         "sunHours": [1, 2, 4, 6, 8, 8, 8, 7, 5, 3, 1, 1],
         "humidity": [85, 82, 75, 68, 68, 70, 71, 73, 79, 84, 87, 87],
         "snowDepth": [12, 14, 5, 0, 0, 0, 0, 0, 0, 0, 3, 8]
       },
-      "crowd":      [32, 32, 38, 50, 62, 70, 78, 75, 68, 52, 40, 55],
+      "crowd": [32, 32, 38, 50, 62, 70, 78, 75, 68, 52, 40, 55],
       "priceIndex": [40, 40, 48, 60, 70, 78, 85, 82, 75, 58, 45, 62],
-      "cost": { "budget": 40, "mid": 92, "luxury": 240 },
-      "r": {
-        "museums": 92, "historicSites": 82, "architecture": 76, "artScene": 78,
-        "foodScene": 86, "fineDining": 80, "vegan": 88, "markets": 72, "bars": 84,
-        "clubbing": 80, "liveMusic": 80, "theatre": 78, "shopping": 78,
-        "publicTransport": 88, "walkability": 74, "valueForMoney": 90, "digitalNomad": 82,
-        "backpacker": 76, "festivals": 76, "lakesRivers": 62, "forests": 58,
-        "beaches": 5, "swimming": 32, "familyYoungKids": 66, "seniors": 64, "cleanliness": 78
+      "cost": {
+        "budget": 40,
+        "mid": 92,
+        "luxury": 240
       },
-      "photos": ["Warsaw old town market square", "Palace of Culture and Science Warsaw", "POLIN Museum Warsaw", "Lazienki Park Warsaw palace", "Warsaw Uprising Museum", "Vistula river boulevards Warsaw"]
+      "r": {
+        "museums": 92, "historicSites": 82, "architecture": 76, "artScene": 78, "foodScene": 86,
+        "fineDining": 80, "vegan": 88, "markets": 72, "bars": 84, "clubbing": 80,
+        "liveMusic": 80, "theatre": 78, "shopping": 78, "publicTransport": 88, "walkability": 74,
+        "valueForMoney": 90, "digitalNomad": 82, "backpacker": 76, "festivals": 76,
+        "lakesRivers": 62, "forests": 58, "beaches": 5, "swimming": 32, "familyYoungKids": 66,
+        "seniors": 64, "cleanliness": 78
+      },
+      "photos": [
+        "Warsaw old town market square",
+        "Palace of Culture and Science Warsaw",
+        "POLIN Museum Warsaw",
+        "Lazienki Park Warsaw palace",
+        "Warsaw Uprising Museum",
+        "Vistula river boulevards Warsaw"
+      ]
     }
   ]
 }

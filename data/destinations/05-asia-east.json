@@ -2,383 +2,641 @@
   "_doc": "Japan, Korea, China, Hong Kong and Taiwan.",
   "destinations": [
     {
-      "id": "tokyo-jp", "name": "Tokyo", "country": "JP", "region": "Kantō", "continent": "Asia",
-      "lat": 35.676, "lon": 139.650, "type": "city", "arch": "asian-megacity",
+      "id": "tokyo-jp",
+      "name": "Tokyo",
+      "country": "JP",
+      "region": "Kantō",
+      "continent": "Asia",
+      "lat": 35.676,
+      "lon": 139.65,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "The most rewarding city on earth to simply wander: more Michelin stars than anywhere, immaculate transport, and a different world down every side street.",
       "tags": ["food", "neon", "shopping", "efficient"],
       "climate": {
         "tempHigh": [10, 11, 14, 19, 23, 26, 30, 31, 27, 22, 17, 12],
-        "tempLow":  [1, 2, 5, 10, 15, 19, 23, 24, 21, 15, 9, 4],
+        "tempLow": [1, 2, 5, 10, 15, 19, 23, 24, 21, 15, 9, 4],
         "rainDays": [5, 6, 10, 11, 11, 12, 11, 9, 12, 11, 7, 5],
         "sunHours": [6, 6, 5, 5, 5, 4, 5, 6, 4, 4, 5, 6],
         "humidity": [52, 53, 56, 62, 69, 75, 77, 73, 75, 68, 65, 56],
-        "seaTemp":  [17, 16, 15, 17, 19, 21, 24, 27, 26, 24, 22, 19]
+        "seaTemp": [17, 16, 15, 17, 19, 21, 24, 27, 26, 24, 22, 19]
       },
-      "crowd":      [45, 45, 85, 95, 60, 55, 68, 72, 62, 72, 80, 55],
+      "crowd": [45, 45, 85, 95, 60, 55, 68, 72, 62, 72, 80, 55],
       "priceIndex": [55, 55, 92, 100, 68, 62, 75, 82, 70, 80, 88, 65],
-      "cost": { "budget": 55, "mid": 125, "luxury": 340 },
+      "cost": {
+        "budget": 55,
+        "mid": 125,
+        "luxury": 340
+      },
       "r": {
         "foodScene": 100, "fineDining": 100, "streetFood": 82, "markets": 88, "shopping": 100,
-        "museums": 84, "artScene": 86, "architecture": 84, "religiousSites": 82, "historicSites": 70,
-        "theatre": 82, "liveMusic": 82, "festivals": 84, "localCulture": 92,
+        "museums": 84, "artScene": 86, "architecture": 84, "religiousSites": 82,
+        "historicSites": 70, "theatre": 82, "liveMusic": 82, "festivals": 84, "localCulture": 92,
         "bars": 92, "clubbing": 86, "themeParks": 94, "sports": 82, "wellness": 84,
         "publicTransport": 100, "walkability": 84, "cleanliness": 98, "safety": 98,
         "soloFemaleSafety": 92, "soloTravel": 86, "digitalNomad": 78, "familyTeens": 88,
         "englishSpoken": 35, "beaches": 10, "swimming": 25, "scenery": 38, "hiking": 42,
         "valueForMoney": 58, "vegan": 40, "vegetarian": 48
       },
-      "photos": ["Shibuya crossing Tokyo night", "Senso-ji temple Asakusa Tokyo", "Tokyo skyline Mount Fuji", "Tsukiji outer market Tokyo sushi", "Shinjuku Golden Gai alley", "Meiji Shrine torii gate Tokyo"]
+      "photos": [
+        "Shibuya crossing Tokyo night",
+        "Senso-ji temple Asakusa Tokyo",
+        "Tokyo skyline Mount Fuji",
+        "Tsukiji outer market Tokyo sushi",
+        "Shinjuku Golden Gai alley",
+        "Meiji Shrine torii gate Tokyo"
+      ]
     },
     {
-      "id": "kyoto-jp", "name": "Kyoto", "country": "JP", "region": "Kansai", "continent": "Asia",
-      "lat": 35.012, "lon": 135.768, "type": "city", "arch": "historic-city",
+      "id": "kyoto-jp",
+      "name": "Kyoto",
+      "country": "JP",
+      "region": "Kansai",
+      "continent": "Asia",
+      "lat": 35.012,
+      "lon": 135.768,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Two thousand temples, geisha districts and raked gravel gardens. Transcendent in November; shoulder-to-shoulder during cherry blossom.",
       "tags": ["temples", "gardens", "geisha", "autumn"],
       "climate": {
         "tempHigh": [9, 10, 14, 20, 25, 28, 32, 34, 29, 23, 17, 12],
-        "tempLow":  [1, 1, 4, 9, 14, 19, 23, 24, 20, 14, 8, 3],
+        "tempLow": [1, 1, 4, 9, 14, 19, 23, 24, 20, 14, 8, 3],
         "rainDays": [7, 8, 11, 11, 11, 13, 12, 9, 11, 8, 7, 6],
         "sunHours": [5, 5, 5, 6, 6, 4, 5, 6, 5, 5, 5, 5],
         "humidity": [66, 64, 61, 60, 63, 71, 74, 70, 72, 70, 70, 68]
       },
-      "crowd":      [42, 45, 88, 98, 62, 52, 62, 68, 60, 78, 92, 55],
+      "crowd": [42, 45, 88, 98, 62, 52, 62, 68, 60, 78, 92, 55],
       "priceIndex": [52, 55, 95, 100, 70, 60, 72, 78, 68, 85, 98, 65],
-      "cost": { "budget": 50, "mid": 115, "luxury": 320 },
+      "cost": {
+        "budget": 50,
+        "mid": 115,
+        "luxury": 320
+      },
       "r": {
         "religiousSites": 100, "historicSites": 98, "architecture": 94, "localCulture": 98,
         "museums": 76, "artScene": 78, "festivals": 88, "markets": 80, "foodScene": 92,
         "fineDining": 92, "wellness": 82, "walkability": 86, "cycling": 82, "romance": 90,
-        "forests": 72, "hiking": 68, "scenery": 78, "publicTransport": 82,
-        "cleanliness": 98, "safety": 96, "seniors": 76, "englishSpoken": 32,
-        "beaches": 0, "swimming": 15, "clubbing": 42, "valueForMoney": 55, "vegetarian": 52
+        "forests": 72, "hiking": 68, "scenery": 78, "publicTransport": 82, "cleanliness": 98,
+        "safety": 96, "seniors": 76, "englishSpoken": 32, "beaches": 0, "swimming": 15,
+        "clubbing": 42, "valueForMoney": 55, "vegetarian": 52
       },
-      "photos": ["Fushimi Inari torii gates Kyoto", "Kinkaku-ji golden pavilion", "Arashiyama bamboo grove Kyoto", "Gion district Kyoto evening", "Kiyomizu-dera temple autumn", "Ryoan-ji zen rock garden"]
+      "photos": [
+        "Fushimi Inari torii gates Kyoto",
+        "Kinkaku-ji golden pavilion",
+        "Arashiyama bamboo grove Kyoto",
+        "Gion district Kyoto evening",
+        "Kiyomizu-dera temple autumn",
+        "Ryoan-ji zen rock garden"
+      ]
     },
     {
-      "id": "osaka-jp", "name": "Osaka", "country": "JP", "region": "Kansai", "continent": "Asia",
-      "lat": 34.694, "lon": 135.502, "type": "city", "arch": "asian-megacity",
+      "id": "osaka-jp",
+      "name": "Osaka",
+      "country": "JP",
+      "region": "Kansai",
+      "continent": "Asia",
+      "lat": 34.694,
+      "lon": 135.502,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "Japan's kitchen — louder, cheaper and far more up-for-it than Tokyo, with Kyoto and Nara twenty minutes away.",
       "tags": ["street food", "nightlife", "friendly", "value"],
       "climate": {
         "tempHigh": [10, 10, 14, 20, 25, 28, 32, 34, 29, 23, 17, 12],
-        "tempLow":  [3, 3, 6, 11, 16, 20, 24, 26, 22, 16, 10, 5],
+        "tempLow": [3, 3, 6, 11, 16, 20, 24, 26, 22, 16, 10, 5],
         "rainDays": [7, 8, 11, 10, 10, 12, 11, 8, 11, 9, 7, 6],
         "sunHours": [5, 5, 5, 6, 6, 4, 5, 6, 5, 5, 5, 5],
         "humidity": [61, 60, 58, 58, 62, 70, 72, 68, 70, 67, 66, 63]
       },
-      "crowd":      [45, 48, 82, 92, 62, 55, 65, 70, 62, 72, 82, 58],
+      "crowd": [45, 48, 82, 92, 62, 55, 65, 70, 62, 72, 82, 58],
       "priceIndex": [55, 58, 88, 98, 70, 62, 72, 78, 70, 80, 90, 68],
-      "cost": { "budget": 48, "mid": 110, "luxury": 300 },
+      "cost": {
+        "budget": 48,
+        "mid": 110,
+        "luxury": 300
+      },
       "r": {
         "streetFood": 98, "foodScene": 96, "markets": 88, "bars": 92, "clubbing": 84,
         "groupParty": 86, "shopping": 90, "themeParks": 92, "historicSites": 72,
         "localCulture": 88, "liveMusic": 78, "publicTransport": 94, "walkability": 84,
-        "cleanliness": 92, "safety": 96, "valueForMoney": 70, "backpacker": 76,
-        "soloTravel": 82, "familyTeens": 86, "englishSpoken": 34,
-        "beaches": 5, "swimming": 20, "scenery": 32, "romance": 58
+        "cleanliness": 92, "safety": 96, "valueForMoney": 70, "backpacker": 76, "soloTravel": 82,
+        "familyTeens": 86, "englishSpoken": 34, "beaches": 5, "swimming": 20, "scenery": 32,
+        "romance": 58
       },
-      "photos": ["Dotonbori Osaka neon Glico sign", "Osaka Castle cherry blossom", "Takoyaki street food Osaka", "Shinsekai district Osaka", "Kuromon Ichiba market Osaka", "Umeda Sky Building Osaka"]
+      "photos": [
+        "Dotonbori Osaka neon Glico sign",
+        "Osaka Castle cherry blossom",
+        "Takoyaki street food Osaka",
+        "Shinsekai district Osaka",
+        "Kuromon Ichiba market Osaka",
+        "Umeda Sky Building Osaka"
+      ]
     },
     {
-      "id": "hakone-jp", "name": "Hakone & Mount Fuji", "country": "JP", "region": "Kantō", "continent": "Asia",
-      "lat": 35.232, "lon": 139.107, "type": "mountains", "arch": "mountain-town",
+      "id": "hakone-jp",
+      "name": "Hakone & Mount Fuji",
+      "country": "JP",
+      "region": "Kantō",
+      "continent": "Asia",
+      "lat": 35.232,
+      "lon": 139.107,
+      "type": "mountains",
+      "arch": "mountain-town",
       "blurb": "Volcanic hot-spring country in the shadow of Fuji — open-air onsen, a lake with a pirate ship, and outstanding modern art museums.",
       "tags": ["onsen", "fuji", "art", "hot springs"],
       "climate": {
         "tempHigh": [9, 10, 13, 18, 22, 24, 28, 29, 25, 20, 16, 11],
-        "tempLow":  [-1, 0, 3, 8, 13, 17, 21, 22, 18, 12, 7, 2],
+        "tempLow": [-1, 0, 3, 8, 13, 17, 21, 22, 18, 12, 7, 2],
         "rainDays": [6, 7, 11, 11, 11, 14, 13, 11, 13, 10, 7, 5],
         "sunHours": [6, 6, 5, 5, 5, 3, 4, 5, 4, 4, 5, 6],
         "humidity": [58, 58, 62, 66, 72, 80, 82, 79, 80, 74, 68, 60],
         "snowDepth": [15, 18, 10, 2, 0, 0, 0, 0, 0, 0, 2, 8]
       },
-      "crowd":      [42, 42, 55, 62, 58, 52, 62, 68, 58, 78, 88, 50],
+      "crowd": [42, 42, 55, 62, 58, 52, 62, 68, 58, 78, 88, 50],
       "priceIndex": [55, 55, 65, 72, 68, 62, 70, 75, 68, 85, 95, 62],
-      "cost": { "budget": 58, "mid": 132, "luxury": 360 },
+      "cost": {
+        "budget": 58,
+        "mid": 132,
+        "luxury": 360
+      },
       "r": {
         "wellness": 100, "volcanic": 88, "scenery": 88, "mountains": 84, "lakesRivers": 80,
         "hiking": 80, "forests": 82, "artScene": 84, "museums": 82, "romance": 88,
-        "localCulture": 84, "stargazing": 68, "seniors": 74, "cleanliness": 96,
-        "safety": 96, "foodScene": 80, "fineDining": 82, "publicTransport": 68,
-        "englishSpoken": 30, "beaches": 0, "swimming": 20, "clubbing": 8,
-        "shopping": 42, "valueForMoney": 48, "skiing": 20
+        "localCulture": 84, "stargazing": 68, "seniors": 74, "cleanliness": 96, "safety": 96,
+        "foodScene": 80, "fineDining": 82, "publicTransport": 68, "englishSpoken": 30,
+        "beaches": 0, "swimming": 20, "clubbing": 8, "shopping": 42, "valueForMoney": 48,
+        "skiing": 20
       },
-      "photos": ["Mount Fuji from Lake Ashi Hakone", "Hakone open air onsen", "Hakone Shrine torii on lake", "Owakudani volcanic valley Hakone", "Hakone Open-Air Museum sculpture", "Ryokan tatami room Japan"]
+      "photos": [
+        "Mount Fuji from Lake Ashi Hakone",
+        "Hakone open air onsen",
+        "Hakone Shrine torii on lake",
+        "Owakudani volcanic valley Hakone",
+        "Hakone Open-Air Museum sculpture",
+        "Ryokan tatami room Japan"
+      ]
     },
     {
-      "id": "niseko-jp", "name": "Niseko", "country": "JP", "region": "Hokkaidō", "continent": "Asia",
-      "lat": 42.855, "lon": 140.687, "type": "mountains", "arch": "ski-resort",
+      "id": "niseko-jp",
+      "name": "Niseko",
+      "country": "JP",
+      "region": "Hokkaidō",
+      "continent": "Asia",
+      "lat": 42.855,
+      "lon": 140.687,
+      "type": "mountains",
+      "arch": "ski-resort",
       "blurb": "The deepest, driest, most reliable powder on the planet — 15 metres a season — with onsen at the bottom of the run.",
       "tags": ["powder", "skiing", "onsen", "japow"],
       "climate": {
         "tempHigh": [-2, -2, 2, 10, 16, 20, 24, 25, 21, 15, 7, 1],
-        "tempLow":  [-9, -10, -6, 1, 6, 11, 16, 17, 12, 5, -1, -6],
+        "tempLow": [-9, -10, -6, 1, 6, 11, 16, 17, 12, 5, -1, -6],
         "rainDays": [22, 19, 18, 12, 11, 10, 11, 12, 13, 15, 20, 23],
         "sunHours": [2, 3, 4, 6, 6, 6, 5, 5, 5, 4, 2, 2],
         "humidity": [78, 77, 73, 69, 72, 78, 82, 80, 78, 75, 76, 78],
         "snowDepth": [180, 220, 190, 90, 10, 0, 0, 0, 0, 2, 45, 120]
       },
-      "crowd":      [92, 88, 72, 25, 20, 32, 45, 52, 42, 32, 38, 78],
+      "crowd": [92, 88, 72, 25, 20, 32, 45, 52, 42, 32, 38, 78],
       "priceIndex": [98, 95, 78, 32, 28, 42, 55, 62, 52, 42, 48, 88],
-      "cost": { "budget": 70, "mid": 165, "luxury": 430 },
+      "cost": {
+        "budget": 70,
+        "mid": 165,
+        "luxury": 430
+      },
       "r": {
         "skiing": 100, "mountains": 90, "scenery": 86, "wellness": 94, "volcanic": 72,
         "hiking": 78, "cycling": 68, "adrenaline": 78, "forests": 80, "stargazing": 72,
-        "foodScene": 86, "fineDining": 82, "bars": 76, "englishSpoken": 62,
-        "cleanliness": 96, "safety": 96, "familyYoungKids": 74, "familyTeens": 86,
-        "luxury": 86, "romance": 78, "publicTransport": 42, "valueForMoney": 48,
-        "beaches": 5, "swimming": 15, "clubbing": 40, "museums": 20, "shopping": 38
+        "foodScene": 86, "fineDining": 82, "bars": 76, "englishSpoken": 62, "cleanliness": 96,
+        "safety": 96, "familyYoungKids": 74, "familyTeens": 86, "luxury": 86, "romance": 78,
+        "publicTransport": 42, "valueForMoney": 48, "beaches": 5, "swimming": 15, "clubbing": 40,
+        "museums": 20, "shopping": 38
       },
-      "photos": ["Niseko powder skiing Japan", "Mount Yotei Niseko", "Japanese onsen in snow", "Niseko village winter", "Snow monkeys hot spring Japan", "Hokkaido winter forest"]
+      "photos": [
+        "Niseko powder skiing Japan",
+        "Mount Yotei Niseko",
+        "Japanese onsen in snow",
+        "Niseko village winter",
+        "Snow monkeys hot spring Japan",
+        "Hokkaido winter forest"
+      ]
     },
     {
-      "id": "okinawa-jp", "name": "Okinawa", "country": "JP", "region": "Okinawa", "continent": "Asia",
-      "lat": 26.334, "lon": 127.805, "type": "island", "arch": "tropical-island",
+      "id": "okinawa-jp",
+      "name": "Okinawa",
+      "country": "JP",
+      "region": "Okinawa",
+      "continent": "Asia",
+      "lat": 26.334,
+      "lon": 127.805,
+      "type": "island",
+      "arch": "tropical-island",
       "blurb": "Subtropical Japan — coral reefs, its own distinct Ryukyu culture and cuisine, and one of the longest-lived populations on earth.",
       "tags": ["beach", "diving", "ryukyu", "subtropical"],
       "climate": {
         "tempHigh": [19, 20, 22, 25, 28, 30, 32, 32, 31, 28, 25, 21],
-        "tempLow":  [15, 15, 17, 19, 23, 25, 27, 27, 25, 23, 20, 17],
+        "tempLow": [15, 15, 17, 19, 23, 25, 27, 27, 25, 23, 20, 17],
         "rainDays": [11, 10, 11, 10, 11, 12, 10, 13, 12, 9, 10, 10],
         "sunHours": [3, 3, 4, 5, 5, 6, 8, 7, 6, 5, 4, 4],
         "humidity": [67, 69, 71, 75, 79, 83, 78, 78, 76, 72, 70, 68],
-        "seaTemp":  [22, 21, 22, 24, 26, 28, 29, 29, 28, 27, 25, 23]
+        "seaTemp": [22, 21, 22, 24, 26, 28, 29, 29, 28, 27, 25, 23]
       },
-      "crowd":      [32, 32, 42, 52, 58, 52, 78, 82, 62, 52, 45, 38],
+      "crowd": [32, 32, 42, 52, 58, 52, 78, 82, 62, 52, 45, 38],
       "priceIndex": [45, 45, 55, 62, 68, 62, 88, 92, 72, 62, 55, 50],
-      "cost": { "budget": 48, "mid": 110, "luxury": 300 },
+      "cost": {
+        "budget": 48,
+        "mid": 110,
+        "luxury": 300
+      },
       "r": {
         "beaches": 90, "swimming": 88, "scuba": 92, "snorkelling": 90, "islands": 92,
         "waterSports": 82, "kayaking": 76, "sailing": 68, "scenery": 80, "wildlife": 68,
         "localCulture": 88, "historicSites": 72, "foodScene": 80, "wellness": 78,
-        "cleanliness": 94, "safety": 96, "familyYoungKids": 84, "seniors": 78,
-        "romance": 80, "roadTrip": 78, "englishSpoken": 40, "publicTransport": 38,
-        "museums": 52, "clubbing": 45, "shopping": 55, "valueForMoney": 62
+        "cleanliness": 94, "safety": 96, "familyYoungKids": 84, "seniors": 78, "romance": 80,
+        "roadTrip": 78, "englishSpoken": 40, "publicTransport": 38, "museums": 52,
+        "clubbing": 45, "shopping": 55, "valueForMoney": 62
       },
-      "photos": ["Okinawa beach turquoise water", "Shurijo Castle Okinawa", "Kabira Bay Ishigaki", "Churaumi Aquarium Okinawa whale shark", "Okinawa coral reef diving", "Taketomi island buffalo cart"]
+      "photos": [
+        "Okinawa beach turquoise water",
+        "Shurijo Castle Okinawa",
+        "Kabira Bay Ishigaki",
+        "Churaumi Aquarium Okinawa whale shark",
+        "Okinawa coral reef diving",
+        "Taketomi island buffalo cart"
+      ]
     },
     {
-      "id": "hiroshima-jp", "name": "Hiroshima & Miyajima", "country": "JP", "region": "Chūgoku", "continent": "Asia",
-      "lat": 34.385, "lon": 132.455, "type": "city", "arch": "historic-city",
+      "id": "hiroshima-jp",
+      "name": "Hiroshima & Miyajima",
+      "country": "JP",
+      "region": "Chūgoku",
+      "continent": "Asia",
+      "lat": 34.385,
+      "lon": 132.455,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "A moving Peace Memorial and a rebuilt, warm-hearted city — with the floating torii gate of Miyajima a short ferry away.",
       "tags": ["history", "peace", "torii", "oysters"],
       "climate": {
         "tempHigh": [10, 10, 14, 19, 24, 27, 31, 32, 28, 23, 17, 12],
-        "tempLow":  [1, 1, 4, 9, 14, 19, 23, 24, 20, 13, 8, 3],
+        "tempLow": [1, 1, 4, 9, 14, 19, 23, 24, 20, 13, 8, 3],
         "rainDays": [7, 8, 10, 10, 10, 12, 11, 8, 10, 7, 7, 6],
         "sunHours": [5, 5, 6, 6, 6, 5, 6, 6, 5, 5, 5, 5],
         "humidity": [66, 64, 61, 62, 65, 73, 75, 72, 72, 69, 69, 68],
-        "seaTemp":  [15, 14, 14, 16, 19, 22, 25, 27, 25, 22, 20, 17]
+        "seaTemp": [15, 14, 14, 16, 19, 22, 25, 27, 25, 22, 20, 17]
       },
-      "crowd":      [38, 40, 65, 72, 58, 52, 58, 72, 55, 62, 70, 48],
+      "crowd": [38, 40, 65, 72, 58, 52, 58, 72, 55, 62, 70, 48],
       "priceIndex": [48, 50, 72, 80, 68, 62, 68, 78, 65, 72, 80, 58],
-      "cost": { "budget": 45, "mid": 105, "luxury": 280 },
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 280
+      },
       "r": {
         "historicSites": 92, "museums": 90, "religiousSites": 86, "localCulture": 82,
         "foodScene": 84, "streetFood": 80, "scenery": 72, "islands": 68, "hiking": 66,
         "walkability": 82, "publicTransport": 84, "cleanliness": 94, "safety": 96,
-        "wildlife": 62, "romance": 70, "seniors": 76, "valueForMoney": 72,
-        "englishSpoken": 38, "beaches": 35, "swimming": 45, "clubbing": 42, "shopping": 62
+        "wildlife": 62, "romance": 70, "seniors": 76, "valueForMoney": 72, "englishSpoken": 38,
+        "beaches": 35, "swimming": 45, "clubbing": 42, "shopping": 62
       },
-      "photos": ["Itsukushima floating torii Miyajima", "Hiroshima Peace Memorial Dome", "Hiroshima Peace Park cenotaph", "Miyajima deer and pagoda", "Okonomiyaki Hiroshima style", "Shukkeien garden Hiroshima"]
+      "photos": [
+        "Itsukushima floating torii Miyajima",
+        "Hiroshima Peace Memorial Dome",
+        "Hiroshima Peace Park cenotaph",
+        "Miyajima deer and pagoda",
+        "Okonomiyaki Hiroshima style",
+        "Shukkeien garden Hiroshima"
+      ]
     },
-
     {
-      "id": "seoul-kr", "name": "Seoul", "country": "KR", "region": "Seoul", "continent": "Asia",
-      "lat": 37.567, "lon": 126.978, "type": "city", "arch": "asian-megacity",
+      "id": "seoul-kr",
+      "name": "Seoul",
+      "country": "KR",
+      "region": "Seoul",
+      "continent": "Asia",
+      "lat": 37.567,
+      "lon": 126.978,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "Palaces beside skyscrapers, mountains inside the city, 24-hour everything and the fastest internet on the planet.",
       "tags": ["food", "nightlife", "k-culture", "shopping"],
       "climate": {
         "tempHigh": [2, 4, 10, 17, 23, 27, 29, 30, 26, 20, 11, 4],
-        "tempLow":  [-6, -4, 1, 7, 13, 18, 22, 23, 17, 10, 3, -4],
+        "tempLow": [-6, -4, 1, 7, 13, 18, 22, 23, 17, 10, 3, -4],
         "rainDays": [7, 6, 7, 8, 9, 10, 16, 14, 9, 7, 9, 8],
         "sunHours": [6, 6, 6, 7, 7, 5, 4, 5, 6, 7, 5, 5],
         "humidity": [60, 57, 57, 56, 62, 68, 78, 76, 70, 64, 62, 61],
         "snowDepth": [8, 6, 2, 0, 0, 0, 0, 0, 0, 0, 2, 6]
       },
-      "crowd":      [38, 38, 55, 72, 68, 58, 55, 62, 65, 78, 55, 42],
+      "crowd": [38, 38, 55, 72, 68, 58, 55, 62, 65, 78, 55, 42],
       "priceIndex": [48, 48, 68, 82, 78, 68, 65, 72, 75, 85, 65, 55],
-      "cost": { "budget": 45, "mid": 105, "luxury": 290 },
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 290
+      },
       "r": {
         "foodScene": 94, "streetFood": 92, "markets": 90, "shopping": 94, "bars": 92,
-        "clubbing": 92, "groupParty": 88, "liveMusic": 86, "historicSites": 84,
-        "museums": 80, "architecture": 78, "artScene": 82, "wellness": 88,
-        "mountains": 62, "hiking": 78, "publicTransport": 98, "walkability": 78,
-        "wifi": 100, "cleanliness": 88, "safety": 92, "soloTravel": 80,
-        "digitalNomad": 82, "familyTeens": 84, "englishSpoken": 42,
+        "clubbing": 92, "groupParty": 88, "liveMusic": 86, "historicSites": 84, "museums": 80,
+        "architecture": 78, "artScene": 82, "wellness": 88, "mountains": 62, "hiking": 78,
+        "publicTransport": 98, "walkability": 78, "wifi": 100, "cleanliness": 88, "safety": 92,
+        "soloTravel": 80, "digitalNomad": 82, "familyTeens": 84, "englishSpoken": 42,
         "beaches": 5, "swimming": 25, "valueForMoney": 66, "themeParks": 78
       },
-      "photos": ["Gyeongbokgung Palace Seoul", "Bukchon Hanok Village Seoul", "Gwangjang Market Seoul street food", "Seoul skyline N Seoul Tower", "Myeongdong shopping street Seoul", "Changdeokgung secret garden Seoul"]
+      "photos": [
+        "Gyeongbokgung Palace Seoul",
+        "Bukchon Hanok Village Seoul",
+        "Gwangjang Market Seoul street food",
+        "Seoul skyline N Seoul Tower",
+        "Myeongdong shopping street Seoul",
+        "Changdeokgung secret garden Seoul"
+      ]
     },
     {
-      "id": "jeju-kr", "name": "Jeju Island", "country": "KR", "region": "Jeju", "continent": "Asia",
-      "lat": 33.489, "lon": 126.498, "type": "island", "arch": "island-volcanic",
+      "id": "jeju-kr",
+      "name": "Jeju Island",
+      "country": "KR",
+      "region": "Jeju",
+      "continent": "Asia",
+      "lat": 33.489,
+      "lon": 126.498,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "A volcanic island of lava tubes, waterfalls and Korea's highest peak, walked end to end on the 400km Olle coastal trail.",
       "tags": ["volcano", "hiking", "coast", "waterfalls"],
       "climate": {
         "tempHigh": [8, 9, 13, 18, 22, 25, 29, 30, 26, 21, 15, 10],
-        "tempLow":  [2, 3, 6, 11, 15, 19, 24, 25, 20, 14, 9, 4],
+        "tempLow": [2, 3, 6, 11, 15, 19, 24, 25, 20, 14, 9, 4],
         "rainDays": [8, 8, 9, 9, 10, 12, 12, 13, 11, 7, 8, 8],
         "sunHours": [4, 4, 5, 6, 7, 5, 6, 7, 6, 6, 4, 4],
         "humidity": [65, 64, 66, 70, 74, 80, 84, 80, 75, 68, 66, 65],
-        "seaTemp":  [15, 14, 14, 16, 19, 22, 25, 26, 24, 22, 19, 17]
+        "seaTemp": [15, 14, 14, 16, 19, 22, 25, 26, 24, 22, 19, 17]
       },
-      "crowd":      [32, 32, 45, 58, 62, 55, 72, 82, 62, 58, 45, 38],
+      "crowd": [32, 32, 45, 58, 62, 55, 72, 82, 62, 58, 45, 38],
       "priceIndex": [45, 45, 58, 68, 72, 65, 85, 92, 72, 68, 58, 50],
-      "cost": { "budget": 42, "mid": 98, "luxury": 265 },
+      "cost": {
+        "budget": 42,
+        "mid": 98,
+        "luxury": 265
+      },
       "r": {
         "volcanic": 92, "scenery": 86, "hiking": 88, "mountains": 78, "beaches": 74,
-        "swimming": 68, "scuba": 66, "waterSports": 62, "nationalParks": 80,
-        "localCulture": 80, "foodScene": 82, "wellness": 76, "romance": 84,
-        "roadTrip": 84, "cycling": 76, "familyYoungKids": 76, "seniors": 68,
-        "cleanliness": 86, "safety": 92, "englishSpoken": 38, "publicTransport": 48,
-        "museums": 55, "clubbing": 42, "shopping": 55, "valueForMoney": 66
+        "swimming": 68, "scuba": 66, "waterSports": 62, "nationalParks": 80, "localCulture": 80,
+        "foodScene": 82, "wellness": 76, "romance": 84, "roadTrip": 84, "cycling": 76,
+        "familyYoungKids": 76, "seniors": 68, "cleanliness": 86, "safety": 92,
+        "englishSpoken": 38, "publicTransport": 48, "museums": 55, "clubbing": 42,
+        "shopping": 55, "valueForMoney": 66
       },
-      "photos": ["Seongsan Ilchulbong Jeju sunrise peak", "Jeju Island waterfall Cheonjiyeon", "Hallasan mountain Jeju", "Jeju haenyeo women divers", "Manjanggul lava tube Jeju", "Jeju Olle trail coastal path"]
+      "photos": [
+        "Seongsan Ilchulbong Jeju sunrise peak",
+        "Jeju Island waterfall Cheonjiyeon",
+        "Hallasan mountain Jeju",
+        "Jeju haenyeo women divers",
+        "Manjanggul lava tube Jeju",
+        "Jeju Olle trail coastal path"
+      ]
     },
-
     {
-      "id": "beijing-cn", "name": "Beijing", "country": "CN", "region": "Beijing", "continent": "Asia",
-      "lat": 39.904, "lon": 116.407, "type": "city", "arch": "capital-city",
+      "id": "beijing-cn",
+      "name": "Beijing",
+      "country": "CN",
+      "region": "Beijing",
+      "continent": "Asia",
+      "lat": 39.904,
+      "lon": 116.407,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "The Forbidden City, the Temple of Heaven and the best-preserved stretches of the Great Wall — imperial China at full scale.",
       "tags": ["great wall", "imperial", "history", "food"],
       "climate": {
         "tempHigh": [2, 5, 12, 20, 26, 30, 31, 30, 26, 19, 10, 4],
-        "tempLow":  [-8, -6, 0, 7, 13, 18, 22, 21, 15, 8, 0, -6],
+        "tempLow": [-8, -6, 0, 7, 13, 18, 22, 21, 15, 8, 0, -6],
         "rainDays": [2, 2, 3, 4, 6, 10, 13, 12, 7, 4, 3, 2],
         "sunHours": [6, 6, 7, 8, 9, 8, 7, 7, 8, 7, 5, 6],
         "humidity": [44, 44, 46, 46, 53, 61, 75, 77, 68, 61, 56, 48]
       },
-      "crowd":      [42, 42, 58, 68, 72, 68, 72, 75, 78, 82, 48, 42],
+      "crowd": [42, 42, 58, 68, 72, 68, 72, 75, 78, 82, 48, 42],
       "priceIndex": [52, 52, 68, 78, 82, 78, 80, 82, 85, 90, 58, 52],
-      "cost": { "budget": 35, "mid": 85, "luxury": 240 },
+      "cost": {
+        "budget": 35,
+        "mid": 85,
+        "luxury": 240
+      },
       "r": {
         "historicSites": 100, "architecture": 90, "museums": 86, "religiousSites": 82,
-        "localCulture": 86, "foodScene": 92, "streetFood": 88, "markets": 84,
-        "shopping": 82, "hiking": 68, "publicTransport": 90, "walkability": 68,
-        "valueForMoney": 84, "safety": 88, "cleanliness": 52, "englishSpoken": 25,
-        "visaEase": 55, "beaches": 0, "swimming": 12, "scenery": 55,
-        "clubbing": 68, "bars": 70, "familyTeens": 76, "wellness": 72
+        "localCulture": 86, "foodScene": 92, "streetFood": 88, "markets": 84, "shopping": 82,
+        "hiking": 68, "publicTransport": 90, "walkability": 68, "valueForMoney": 84,
+        "safety": 88, "cleanliness": 52, "englishSpoken": 25, "visaEase": 55, "beaches": 0,
+        "swimming": 12, "scenery": 55, "clubbing": 68, "bars": 70, "familyTeens": 76,
+        "wellness": 72
       },
-      "photos": ["Great Wall of China Mutianyu", "Forbidden City Beijing", "Temple of Heaven Beijing", "Beijing hutong alley", "Summer Palace Beijing lake", "Peking duck Beijing"]
+      "photos": [
+        "Great Wall of China Mutianyu",
+        "Forbidden City Beijing",
+        "Temple of Heaven Beijing",
+        "Beijing hutong alley",
+        "Summer Palace Beijing lake",
+        "Peking duck Beijing"
+      ]
     },
     {
-      "id": "shanghai-cn", "name": "Shanghai", "country": "CN", "region": "Shanghai", "continent": "Asia",
-      "lat": 31.230, "lon": 121.474, "type": "city", "arch": "asian-megacity",
+      "id": "shanghai-cn",
+      "name": "Shanghai",
+      "country": "CN",
+      "region": "Shanghai",
+      "continent": "Asia",
+      "lat": 31.23,
+      "lon": 121.474,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "Art-deco riverfront facing a skyline from a science-fiction film, with the best cocktail bars and modern galleries in China.",
       "tags": ["skyline", "art deco", "nightlife", "food"],
       "climate": {
         "tempHigh": [8, 9, 13, 19, 24, 27, 32, 32, 27, 23, 17, 11],
-        "tempLow":  [1, 2, 6, 11, 16, 21, 25, 25, 21, 15, 9, 3],
+        "tempLow": [1, 2, 6, 11, 16, 21, 25, 25, 21, 15, 9, 3],
         "rainDays": [9, 9, 12, 12, 11, 13, 11, 11, 10, 8, 8, 7],
         "sunHours": [4, 4, 4, 5, 5, 4, 6, 6, 5, 5, 4, 4],
         "humidity": [74, 73, 73, 72, 73, 80, 80, 80, 78, 75, 73, 72]
       },
-      "crowd":      [42, 45, 58, 68, 68, 62, 68, 72, 72, 78, 55, 45],
+      "crowd": [42, 45, 58, 68, 68, 62, 68, 72, 72, 78, 55, 45],
       "priceIndex": [52, 55, 68, 78, 78, 72, 75, 80, 80, 85, 62, 55],
-      "cost": { "budget": 40, "mid": 95, "luxury": 270 },
+      "cost": {
+        "budget": 40,
+        "mid": 95,
+        "luxury": 270
+      },
       "r": {
         "architecture": 92, "artScene": 88, "museums": 84, "foodScene": 94, "fineDining": 90,
         "streetFood": 86, "markets": 82, "shopping": 94, "bars": 90, "clubbing": 88,
         "lgbtqScene": 62, "historicSites": 70, "publicTransport": 96, "walkability": 74,
         "wellness": 76, "safety": 88, "valueForMoney": 72, "digitalNomad": 62,
-        "englishSpoken": 35, "visaEase": 55, "cleanliness": 66,
-        "beaches": 5, "swimming": 18, "scenery": 42, "themeParks": 88, "luxury": 88
+        "englishSpoken": 35, "visaEase": 55, "cleanliness": 66, "beaches": 5, "swimming": 18,
+        "scenery": 42, "themeParks": 88, "luxury": 88
       },
-      "photos": ["Shanghai Bund skyline night", "Yu Garden Shanghai", "Shanghai Tower Lujiazui", "Tianzifang Shanghai lane", "Shanghai art deco building", "Xiaolongbao soup dumplings Shanghai"]
+      "photos": [
+        "Shanghai Bund skyline night",
+        "Yu Garden Shanghai",
+        "Shanghai Tower Lujiazui",
+        "Tianzifang Shanghai lane",
+        "Shanghai art deco building",
+        "Xiaolongbao soup dumplings Shanghai"
+      ]
     },
     {
-      "id": "guilin-cn", "name": "Guilin & Yangshuo", "country": "CN", "region": "Guangxi", "continent": "Asia",
-      "lat": 24.778, "lon": 110.497, "type": "region", "arch": "wilderness-park",
+      "id": "guilin-cn",
+      "name": "Guilin & Yangshuo",
+      "country": "CN",
+      "region": "Guangxi",
+      "continent": "Asia",
+      "lat": 24.778,
+      "lon": 110.497,
+      "type": "region",
+      "arch": "wilderness-park",
       "blurb": "The karst peaks from every Chinese scroll painting, rising out of the Li River — best seen from a bamboo raft or a bike in the paddy fields.",
       "tags": ["karst", "river", "cycling", "scenery"],
       "climate": {
         "tempHigh": [11, 12, 16, 22, 26, 30, 32, 32, 30, 25, 19, 14],
-        "tempLow":  [5, 7, 10, 15, 20, 23, 25, 25, 22, 17, 11, 6],
+        "tempLow": [5, 7, 10, 15, 20, 23, 25, 25, 22, 17, 11, 6],
         "rainDays": [10, 12, 15, 15, 15, 16, 12, 12, 7, 7, 7, 7],
         "sunHours": [3, 3, 3, 4, 5, 5, 7, 7, 6, 5, 4, 4],
         "humidity": [76, 79, 80, 80, 79, 82, 80, 79, 77, 73, 73, 72]
       },
-      "crowd":      [30, 32, 45, 58, 62, 58, 68, 72, 68, 62, 45, 32],
+      "crowd": [30, 32, 45, 58, 62, 58, 68, 72, 68, 62, 45, 32],
       "priceIndex": [42, 45, 58, 68, 72, 68, 78, 82, 78, 72, 55, 45],
-      "cost": { "budget": 32, "mid": 75, "luxury": 200 },
+      "cost": {
+        "budget": 32,
+        "mid": 75,
+        "luxury": 200
+      },
       "r": {
         "scenery": 98, "mountains": 84, "lakesRivers": 92, "cycling": 92, "kayaking": 84,
-        "hiking": 82, "climbing": 88, "nationalParks": 74, "localCulture": 84,
-        "stargazing": 66, "roadTrip": 72, "foodScene": 78, "streetFood": 82,
-        "valueForMoney": 92, "backpacker": 86, "romance": 82, "adrenaline": 70,
-        "englishSpoken": 32, "publicTransport": 45, "cleanliness": 58, "visaEase": 55,
-        "beaches": 0, "swimming": 42, "museums": 32, "clubbing": 38, "shopping": 45
+        "hiking": 82, "climbing": 88, "nationalParks": 74, "localCulture": 84, "stargazing": 66,
+        "roadTrip": 72, "foodScene": 78, "streetFood": 82, "valueForMoney": 92, "backpacker": 86,
+        "romance": 82, "adrenaline": 70, "englishSpoken": 32, "publicTransport": 45,
+        "cleanliness": 58, "visaEase": 55, "beaches": 0, "swimming": 42, "museums": 32,
+        "clubbing": 38, "shopping": 45
       },
-      "photos": ["Li River karst mountains Guilin", "Yangshuo bamboo raft", "Longji rice terraces Guilin", "Yangshuo countryside cycling", "Reed Flute Cave Guilin", "Xingping fishing cormorant Li River"]
+      "photos": [
+        "Li River karst mountains Guilin",
+        "Yangshuo bamboo raft",
+        "Longji rice terraces Guilin",
+        "Yangshuo countryside cycling",
+        "Reed Flute Cave Guilin",
+        "Xingping fishing cormorant Li River"
+      ]
     },
     {
-      "id": "chengdu-cn", "name": "Chengdu", "country": "CN", "region": "Sichuan", "continent": "Asia",
-      "lat": 30.573, "lon": 104.067, "type": "city", "arch": "asian-megacity",
+      "id": "chengdu-cn",
+      "name": "Chengdu",
+      "country": "CN",
+      "region": "Sichuan",
+      "continent": "Asia",
+      "lat": 30.573,
+      "lon": 104.067,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "Giant pandas, teahouses in the park and the most gloriously numbing food in China — the gateway to Tibet and the Sichuan mountains.",
       "tags": ["pandas", "sichuan food", "teahouse", "relaxed"],
       "climate": {
         "tempHigh": [10, 12, 16, 22, 26, 28, 30, 30, 26, 21, 16, 11],
-        "tempLow":  [2, 4, 8, 13, 17, 20, 23, 22, 19, 15, 10, 4],
+        "tempLow": [2, 4, 8, 13, 17, 20, 23, 22, 19, 15, 10, 4],
         "rainDays": [5, 6, 10, 13, 14, 15, 15, 13, 15, 14, 8, 5],
         "sunHours": [1, 2, 3, 4, 5, 5, 6, 6, 3, 2, 2, 1],
         "humidity": [80, 78, 76, 74, 74, 80, 82, 82, 84, 84, 82, 82]
       },
-      "crowd":      [35, 38, 48, 58, 58, 55, 65, 68, 62, 62, 45, 38],
+      "crowd": [35, 38, 48, 58, 58, 55, 65, 68, 62, 62, 45, 38],
       "priceIndex": [45, 48, 58, 68, 68, 65, 75, 78, 72, 72, 55, 48],
-      "cost": { "budget": 32, "mid": 75, "luxury": 205 },
+      "cost": {
+        "budget": 32,
+        "mid": 75,
+        "luxury": 205
+      },
       "r": {
         "wildlife": 90, "foodScene": 96, "streetFood": 94, "markets": 82, "localCulture": 88,
-        "religiousSites": 74, "historicSites": 70, "mountains": 68, "hiking": 66,
-        "wellness": 78, "bars": 76, "clubbing": 74, "publicTransport": 84,
-        "valueForMoney": 90, "backpacker": 80, "safety": 88, "englishSpoken": 25,
-        "visaEase": 55, "cleanliness": 58, "vegetarian": 78,
+        "religiousSites": 74, "historicSites": 70, "mountains": 68, "hiking": 66, "wellness": 78,
+        "bars": 76, "clubbing": 74, "publicTransport": 84, "valueForMoney": 90, "backpacker": 80,
+        "safety": 88, "englishSpoken": 25, "visaEase": 55, "cleanliness": 58, "vegetarian": 78,
         "beaches": 0, "swimming": 15, "scenery": 55, "shopping": 72, "museums": 66
       },
-      "photos": ["Giant panda Chengdu research base", "Chengdu teahouse People's Park", "Sichuan hotpot Chengdu", "Leshan Giant Buddha", "Jinli ancient street Chengdu", "Mount Emei Sichuan"]
+      "photos": [
+        "Giant panda Chengdu research base",
+        "Chengdu teahouse People's Park",
+        "Sichuan hotpot Chengdu",
+        "Leshan Giant Buddha",
+        "Jinli ancient street Chengdu",
+        "Mount Emei Sichuan"
+      ]
     },
-
     {
-      "id": "hong-kong-hk", "name": "Hong Kong", "country": "HK", "region": "Hong Kong", "continent": "Asia",
-      "lat": 22.319, "lon": 114.169, "type": "city", "arch": "asian-megacity",
+      "id": "hong-kong-hk",
+      "name": "Hong Kong",
+      "country": "HK",
+      "region": "Hong Kong",
+      "continent": "Asia",
+      "lat": 22.319,
+      "lon": 114.169,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "The world's most dramatic harbour skyline, with hiking trails and empty beaches twenty minutes from the trading floor.",
       "tags": ["skyline", "food", "hiking", "shopping"],
       "climate": {
         "tempHigh": [19, 19, 22, 26, 29, 31, 32, 32, 31, 29, 25, 21],
-        "tempLow":  [14, 15, 17, 21, 25, 26, 27, 27, 26, 23, 19, 15],
+        "tempLow": [14, 15, 17, 21, 25, 26, 27, 27, 26, 23, 19, 15],
         "rainDays": [5, 5, 7, 8, 13, 17, 16, 15, 12, 7, 5, 4],
         "sunHours": [4, 3, 3, 4, 5, 5, 7, 6, 6, 6, 5, 5],
         "humidity": [74, 80, 82, 83, 83, 82, 81, 81, 78, 73, 71, 69],
-        "seaTemp":  [19, 18, 20, 23, 26, 28, 29, 29, 28, 27, 24, 21]
+        "seaTemp": [19, 18, 20, 23, 26, 28, 29, 29, 28, 27, 24, 21]
       },
-      "crowd":      [52, 55, 58, 58, 55, 52, 62, 65, 58, 68, 72, 62],
+      "crowd": [52, 55, 58, 58, 55, 52, 62, 65, 58, 68, 72, 62],
       "priceIndex": [62, 65, 68, 68, 65, 62, 72, 75, 68, 78, 82, 72],
-      "cost": { "budget": 50, "mid": 120, "luxury": 340 },
+      "cost": {
+        "budget": 50,
+        "mid": 120,
+        "luxury": 340
+      },
       "r": {
         "foodScene": 98, "fineDining": 94, "streetFood": 92, "markets": 90, "shopping": 96,
         "architecture": 88, "scenery": 84, "hiking": 86, "islands": 82, "beaches": 62,
         "swimming": 68, "sailing": 74, "bars": 90, "clubbing": 84, "museums": 74,
-        "religiousSites": 74, "publicTransport": 98, "walkability": 82,
-        "safety": 88, "englishSpoken": 82, "wifi": 95, "themeParks": 84,
-        "cleanliness": 68, "valueForMoney": 45, "luxury": 90, "soloTravel": 80
+        "religiousSites": 74, "publicTransport": 98, "walkability": 82, "safety": 88,
+        "englishSpoken": 82, "wifi": 95, "themeParks": 84, "cleanliness": 68,
+        "valueForMoney": 45, "luxury": 90, "soloTravel": 80
       },
-      "photos": ["Hong Kong Victoria Harbour skyline", "Hong Kong Peak tram view", "Tian Tan Big Buddha Lantau", "Hong Kong street market Mong Kok", "Dragon's Back hiking trail Hong Kong", "Dim sum Hong Kong"]
+      "photos": [
+        "Hong Kong Victoria Harbour skyline",
+        "Hong Kong Peak tram view",
+        "Tian Tan Big Buddha Lantau",
+        "Hong Kong street market Mong Kok",
+        "Dragon's Back hiking trail Hong Kong",
+        "Dim sum Hong Kong"
+      ]
     },
     {
-      "id": "taipei-tw", "name": "Taipei", "country": "TW", "region": "Northern Taiwan", "continent": "Asia",
-      "lat": 25.033, "lon": 121.565, "type": "city", "arch": "asian-megacity",
+      "id": "taipei-tw",
+      "name": "Taipei",
+      "country": "TW",
+      "region": "Northern Taiwan",
+      "continent": "Asia",
+      "lat": 25.033,
+      "lon": 121.565,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "The best night-market food in Asia, hot springs on the metro line, and the friendliest big city in the region — and it's cheap.",
       "tags": ["night markets", "food", "hot springs", "value"],
       "climate": {
         "tempHigh": [19, 20, 23, 27, 30, 32, 34, 34, 32, 28, 25, 21],
-        "tempLow":  [14, 14, 16, 19, 23, 25, 26, 26, 25, 22, 19, 16],
+        "tempLow": [14, 14, 16, 19, 23, 25, 26, 26, 25, 22, 19, 16],
         "rainDays": [10, 12, 13, 13, 13, 14, 11, 13, 11, 9, 7, 8],
         "sunHours": [3, 3, 3, 4, 5, 6, 7, 7, 6, 4, 4, 3],
         "humidity": [78, 80, 79, 79, 79, 79, 76, 77, 77, 77, 77, 77]
       },
-      "crowd":      [45, 52, 52, 52, 52, 55, 62, 62, 55, 58, 58, 55],
+      "crowd": [45, 52, 52, 52, 52, 55, 62, 62, 55, 58, 58, 55],
       "priceIndex": [55, 65, 62, 62, 62, 65, 72, 72, 65, 68, 68, 65],
-      "cost": { "budget": 35, "mid": 82, "luxury": 225 },
+      "cost": {
+        "budget": 35,
+        "mid": 82,
+        "luxury": 225
+      },
       "r": {
         "streetFood": 100, "foodScene": 94, "markets": 96, "wellness": 88, "religiousSites": 84,
         "museums": 84, "architecture": 74, "shopping": 86, "bars": 82, "clubbing": 76,
@@ -387,33 +645,57 @@
         "soloFemaleSafety": 88, "valueForMoney": 88, "backpacker": 84, "digitalNomad": 84,
         "vegetarian": 92, "vegan": 86, "englishSpoken": 45, "beaches": 32, "swimming": 42
       },
-      "photos": ["Taipei 101 skyline", "Shilin night market Taipei", "Longshan Temple Taipei", "Jiufen old street lanterns", "Beitou hot springs Taipei", "Elephant Mountain Taipei view"]
+      "photos": [
+        "Taipei 101 skyline",
+        "Shilin night market Taipei",
+        "Longshan Temple Taipei",
+        "Jiufen old street lanterns",
+        "Beitou hot springs Taipei",
+        "Elephant Mountain Taipei view"
+      ]
     },
     {
-      "id": "taroko-tw", "name": "Taroko Gorge & Hualien", "country": "TW", "region": "Eastern Taiwan", "continent": "Asia",
-      "lat": 24.158, "lon": 121.490, "type": "mountains", "arch": "wilderness-park",
+      "id": "taroko-tw",
+      "name": "Taroko Gorge & Hualien",
+      "country": "TW",
+      "region": "Eastern Taiwan",
+      "continent": "Asia",
+      "lat": 24.158,
+      "lon": 121.49,
+      "type": "mountains",
+      "arch": "wilderness-park",
       "blurb": "A marble canyon carved 1,000m deep, with tunnels and swing bridges cut into the cliffs, running down to a wild Pacific coast.",
       "tags": ["gorge", "hiking", "marble", "coast"],
       "climate": {
         "tempHigh": [21, 21, 23, 26, 29, 31, 32, 32, 31, 29, 26, 22],
-        "tempLow":  [15, 15, 17, 20, 23, 25, 26, 25, 24, 22, 19, 16],
+        "tempLow": [15, 15, 17, 20, 23, 25, 26, 25, 24, 22, 19, 16],
         "rainDays": [12, 13, 13, 12, 13, 11, 8, 11, 12, 13, 12, 11],
         "sunHours": [3, 3, 4, 4, 5, 6, 7, 7, 6, 5, 4, 3],
         "humidity": [80, 81, 80, 80, 81, 81, 79, 80, 80, 79, 79, 79],
-        "seaTemp":  [23, 22, 23, 25, 27, 28, 29, 29, 28, 27, 26, 24]
+        "seaTemp": [23, 22, 23, 25, 27, 28, 29, 29, 28, 27, 26, 24]
       },
-      "crowd":      [32, 38, 42, 45, 48, 50, 62, 62, 52, 52, 48, 42],
+      "crowd": [32, 38, 42, 45, 48, 50, 62, 62, 52, 52, 48, 42],
       "priceIndex": [45, 52, 55, 58, 60, 62, 72, 72, 65, 65, 60, 55],
-      "cost": { "budget": 32, "mid": 75, "luxury": 205 },
+      "cost": {
+        "budget": 32,
+        "mid": 75,
+        "luxury": 205
+      },
       "r": {
         "scenery": 94, "mountains": 88, "hiking": 90, "nationalParks": 92, "lakesRivers": 82,
         "forests": 84, "climbing": 74, "cycling": 84, "roadTrip": 88, "adrenaline": 72,
-        "wildlife": 68, "localCulture": 82, "stargazing": 74, "beaches": 55,
-        "swimming": 55, "surfing": 66, "valueForMoney": 88, "backpacker": 78,
-        "safety": 92, "englishSpoken": 35, "publicTransport": 42,
-        "foodScene": 78, "museums": 35, "clubbing": 20, "shopping": 35
+        "wildlife": 68, "localCulture": 82, "stargazing": 74, "beaches": 55, "swimming": 55,
+        "surfing": 66, "valueForMoney": 88, "backpacker": 78, "safety": 92, "englishSpoken": 35,
+        "publicTransport": 42, "foodScene": 78, "museums": 35, "clubbing": 20, "shopping": 35
       },
-      "photos": ["Taroko Gorge marble canyon Taiwan", "Swallow Grotto Taroko", "Qingshui Cliffs Taiwan", "Eternal Spring Shrine Taroko", "Hualien east coast Taiwan", "Taiwan rice fields Chishang"]
+      "photos": [
+        "Taroko Gorge marble canyon Taiwan",
+        "Swallow Grotto Taroko",
+        "Qingshui Cliffs Taiwan",
+        "Eternal Spring Shrine Taroko",
+        "Hualien east coast Taiwan",
+        "Taiwan rice fields Chishang"
+      ]
     }
   ]
 }

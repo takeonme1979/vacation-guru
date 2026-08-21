@@ -2,447 +2,786 @@
   "_doc": "Iberia and the Atlantic islands. `arch` picks an archetype baseline, `country` picks the country baseline, `r` overrides both. Climate arrays are Jan..Dec. `photos` are editorial topics — build-photos.mjs resolves each to a real CC-licensed image.",
   "destinations": [
     {
-      "id": "barcelona-es", "name": "Barcelona", "country": "ES", "region": "Catalonia", "continent": "Europe",
-      "lat": 41.387, "lon": 2.169, "type": "city", "arch": "coastal-city",
+      "id": "barcelona-es",
+      "name": "Barcelona",
+      "country": "ES",
+      "region": "Catalonia",
+      "continent": "Europe",
+      "lat": 41.387,
+      "lon": 2.169,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Gaudí's fever-dream architecture, a proper city beach and one of Europe's great eating and drinking cities — all walkable, all at once.",
       "tags": ["architecture", "beach", "nightlife", "food"],
       "climate": {
         "tempHigh": [14, 15, 17, 19, 22, 26, 29, 29, 26, 22, 17, 15],
-        "tempLow":  [5, 6, 8, 10, 13, 17, 20, 21, 18, 14, 10, 7],
+        "tempLow": [5, 6, 8, 10, 13, 17, 20, 21, 18, 14, 10, 7],
         "rainDays": [5, 4, 5, 6, 5, 4, 2, 4, 5, 7, 6, 5],
         "sunHours": [5, 6, 6, 7, 8, 9, 10, 9, 7, 6, 5, 4],
         "humidity": [71, 70, 69, 69, 71, 71, 70, 72, 73, 74, 73, 72],
-        "seaTemp":  [13, 13, 13, 14, 17, 21, 24, 25, 23, 20, 17, 14]
+        "seaTemp": [13, 13, 13, 14, 17, 21, 24, 25, 23, 20, 17, 14]
       },
-      "crowd":      [38, 40, 50, 62, 72, 86, 95, 98, 78, 60, 44, 54],
+      "crowd": [38, 40, 50, 62, 72, 86, 95, 98, 78, 60, 44, 54],
       "priceIndex": [52, 54, 64, 74, 84, 95, 100, 100, 80, 68, 52, 68],
-      "cost": { "budget": 62, "mid": 135, "luxury": 330 },
-      "r": {
-        "architecture": 98, "museums": 80, "artScene": 90, "historicSites": 74, "foodScene": 92, "fineDining": 86,
-        "markets": 90, "beaches": 72, "swimming": 70, "bars": 88, "clubbing": 88, "liveMusic": 78, "festivals": 80,
-        "shopping": 85, "sports": 94, "walkability": 86, "publicTransport": 90, "safety": 55, "cleanliness": 60,
-        "soloTravel": 84, "groupParty": 86, "backpacker": 80, "digitalNomad": 84, "luxury": 78, "romance": 74,
-        "familyYoungKids": 66, "lgbtqScene": 90, "sailing": 62, "cycling": 72, "wellness": 58, "theatre": 62
+      "cost": {
+        "budget": 62,
+        "mid": 135,
+        "luxury": 330
       },
-      "photos": ["Sagrada Familia interior", "Park Güell mosaic bench", "Barceloneta beach Barcelona", "Barcelona Gothic Quarter street", "Casa Batlló facade", "La Boqueria market Barcelona"]
+      "r": {
+        "architecture": 98, "museums": 80, "artScene": 90, "historicSites": 74, "foodScene": 92,
+        "fineDining": 86, "markets": 90, "beaches": 72, "swimming": 70, "bars": 88,
+        "clubbing": 88, "liveMusic": 78, "festivals": 80, "shopping": 85, "sports": 94,
+        "walkability": 86, "publicTransport": 90, "safety": 55, "cleanliness": 60,
+        "soloTravel": 84, "groupParty": 86, "backpacker": 80, "digitalNomad": 84, "luxury": 78,
+        "romance": 74, "familyYoungKids": 66, "lgbtqScene": 90, "sailing": 62, "cycling": 72,
+        "wellness": 58, "theatre": 62
+      },
+      "photos": [
+        "Sagrada Familia interior",
+        "Park Güell mosaic bench",
+        "Barceloneta beach Barcelona",
+        "Barcelona Gothic Quarter street",
+        "Casa Batlló facade",
+        "La Boqueria market Barcelona"
+      ]
     },
     {
-      "id": "madrid-es", "name": "Madrid", "country": "ES", "region": "Community of Madrid", "continent": "Europe",
-      "lat": 40.417, "lon": -3.704, "type": "city", "arch": "capital-city",
+      "id": "madrid-es",
+      "name": "Madrid",
+      "country": "ES",
+      "region": "Community of Madrid",
+      "continent": "Europe",
+      "lat": 40.417,
+      "lon": -3.704,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Spain's confident, unhurried capital: the world's best art triangle, tapas until 2am, and no coastline to distract you.",
       "tags": ["museums", "food", "nightlife", "city"],
       "climate": {
         "tempHigh": [10, 12, 16, 18, 22, 28, 33, 32, 27, 20, 14, 10],
-        "tempLow":  [2, 3, 5, 7, 11, 16, 19, 19, 15, 11, 6, 3],
+        "tempLow": [2, 3, 5, 7, 11, 16, 19, 19, 15, 11, 6, 3],
         "rainDays": [5, 5, 4, 6, 6, 3, 2, 2, 4, 6, 6, 6],
         "sunHours": [5, 6, 7, 8, 9, 11, 12, 11, 8, 6, 5, 4],
         "humidity": [71, 65, 58, 55, 52, 45, 38, 40, 50, 63, 71, 74]
       },
-      "crowd":      [45, 45, 55, 68, 72, 70, 68, 55, 72, 68, 50, 58],
+      "crowd": [45, 45, 55, 68, 72, 70, 68, 55, 72, 68, 50, 58],
       "priceIndex": [55, 55, 68, 78, 82, 80, 72, 62, 82, 75, 58, 70],
-      "cost": { "budget": 58, "mid": 125, "luxury": 300 },
+      "cost": {
+        "budget": 58,
+        "mid": 125,
+        "luxury": 300
+      },
       "r": {
-        "museums": 96, "artScene": 88, "architecture": 80, "historicSites": 72, "theatre": 82, "foodScene": 92,
-        "fineDining": 88, "markets": 82, "bars": 92, "clubbing": 90, "liveMusic": 80, "festivals": 76,
-        "shopping": 84, "sports": 96, "walkability": 84, "publicTransport": 94, "safety": 74, "cleanliness": 72,
-        "soloTravel": 82, "groupParty": 84, "lgbtqScene": 94, "digitalNomad": 78, "luxury": 78, "wine": 92,
+        "museums": 96, "artScene": 88, "architecture": 80, "historicSites": 72, "theatre": 82,
+        "foodScene": 92, "fineDining": 88, "markets": 82, "bars": 92, "clubbing": 90,
+        "liveMusic": 80, "festivals": 76, "shopping": 84, "sports": 96, "walkability": 84,
+        "publicTransport": 94, "safety": 74, "cleanliness": 72, "soloTravel": 82,
+        "groupParty": 84, "lgbtqScene": 94, "digitalNomad": 78, "luxury": 78, "wine": 92,
         "familyYoungKids": 62, "hiking": 42, "beaches": 0, "swimming": 20
       },
-      "photos": ["Plaza Mayor Madrid", "Museo del Prado building", "Retiro Park Crystal Palace", "Gran Via Madrid at night", "Mercado de San Miguel Madrid", "Royal Palace of Madrid"]
+      "photos": [
+        "Plaza Mayor Madrid",
+        "Museo del Prado building",
+        "Retiro Park Crystal Palace",
+        "Gran Via Madrid at night",
+        "Mercado de San Miguel Madrid",
+        "Royal Palace of Madrid"
+      ]
     },
     {
-      "id": "seville-es", "name": "Seville", "country": "ES", "region": "Andalusia", "continent": "Europe",
-      "lat": 37.389, "lon": -5.984, "type": "city", "arch": "historic-city",
+      "id": "seville-es",
+      "name": "Seville",
+      "country": "ES",
+      "region": "Andalusia",
+      "continent": "Europe",
+      "lat": 37.389,
+      "lon": -5.984,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Moorish palaces, orange trees and flamenco in the courtyards — spectacular in spring, genuinely dangerous in an August heatwave.",
       "tags": ["history", "architecture", "flamenco", "food"],
       "climate": {
         "tempHigh": [16, 18, 22, 24, 28, 33, 36, 36, 32, 26, 20, 17],
-        "tempLow":  [6, 7, 9, 11, 14, 19, 21, 21, 19, 15, 10, 7],
+        "tempLow": [6, 7, 9, 11, 14, 19, 21, 21, 19, 15, 10, 7],
         "rainDays": [6, 6, 5, 6, 4, 2, 0, 1, 2, 6, 6, 7],
         "sunHours": [6, 6, 7, 8, 10, 11, 12, 11, 9, 7, 6, 5],
         "humidity": [71, 68, 62, 58, 53, 47, 42, 45, 52, 63, 70, 73]
       },
-      "crowd":      [40, 48, 68, 85, 82, 62, 48, 45, 62, 68, 48, 55],
+      "crowd": [40, 48, 68, 85, 82, 62, 48, 45, 62, 68, 48, 55],
       "priceIndex": [52, 58, 75, 92, 88, 68, 55, 52, 72, 72, 55, 68],
-      "cost": { "budget": 52, "mid": 110, "luxury": 270 },
-      "r": {
-        "historicSites": 94, "architecture": 92, "religiousSites": 88, "museums": 62, "localCulture": 92,
-        "festivals": 94, "liveMusic": 82, "foodScene": 88, "markets": 72, "bars": 82, "walkability": 92,
-        "publicTransport": 62, "romance": 88, "safety": 76, "cycling": 72, "theatre": 48, "wine": 88,
-        "beaches": 0, "swimming": 12, "soloTravel": 72, "seniors": 72, "familyYoungKids": 58
+      "cost": {
+        "budget": 52,
+        "mid": 110,
+        "luxury": 270
       },
-      "photos": ["Real Alcázar of Seville courtyard", "Plaza de España Seville", "Seville Cathedral Giralda", "Metropol Parasol Seville", "Flamenco dancer Seville", "Triana bridge Guadalquivir Seville"]
+      "r": {
+        "historicSites": 94, "architecture": 92, "religiousSites": 88, "museums": 62,
+        "localCulture": 92, "festivals": 94, "liveMusic": 82, "foodScene": 88, "markets": 72,
+        "bars": 82, "walkability": 92, "publicTransport": 62, "romance": 88, "safety": 76,
+        "cycling": 72, "theatre": 48, "wine": 88, "beaches": 0, "swimming": 12, "soloTravel": 72,
+        "seniors": 72, "familyYoungKids": 58
+      },
+      "photos": [
+        "Real Alcázar of Seville courtyard",
+        "Plaza de España Seville",
+        "Seville Cathedral Giralda",
+        "Metropol Parasol Seville",
+        "Flamenco dancer Seville",
+        "Triana bridge Guadalquivir Seville"
+      ]
     },
     {
-      "id": "granada-es", "name": "Granada", "country": "ES", "region": "Andalusia", "continent": "Europe",
-      "lat": 37.177, "lon": -3.598, "type": "city", "arch": "historic-city",
+      "id": "granada-es",
+      "name": "Granada",
+      "country": "ES",
+      "region": "Andalusia",
+      "continent": "Europe",
+      "lat": 37.177,
+      "lon": -3.598,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "The Alhambra above, free tapas below, and the Sierra Nevada close enough to ski in the morning and sit in the sun by lunch.",
       "tags": ["history", "architecture", "tapas", "mountains"],
       "climate": {
         "tempHigh": [13, 15, 19, 21, 25, 31, 35, 34, 29, 23, 17, 13],
-        "tempLow":  [1, 3, 5, 7, 10, 14, 18, 18, 15, 10, 6, 3],
+        "tempLow": [1, 3, 5, 7, 10, 14, 18, 18, 15, 10, 6, 3],
         "rainDays": [6, 6, 5, 6, 4, 2, 1, 1, 3, 6, 6, 6],
         "sunHours": [5, 6, 7, 8, 9, 11, 12, 11, 8, 6, 5, 4],
         "humidity": [72, 68, 62, 58, 54, 46, 40, 43, 52, 63, 70, 74],
         "snowDepth": [70, 85, 80, 45, 8, 0, 0, 0, 0, 0, 15, 45]
       },
-      "crowd":      [42, 48, 62, 75, 75, 62, 58, 58, 68, 68, 50, 52],
+      "crowd": [42, 48, 62, 75, 75, 62, 58, 58, 68, 68, 50, 52],
       "priceIndex": [48, 52, 65, 78, 78, 68, 62, 62, 72, 70, 52, 60],
-      "cost": { "budget": 48, "mid": 100, "luxury": 240 },
-      "r": {
-        "historicSites": 96, "architecture": 94, "religiousSites": 82, "localCulture": 86, "foodScene": 84,
-        "markets": 68, "bars": 78, "walkability": 88, "mountains": 78, "skiing": 62, "hiking": 78,
-        "scenery": 76, "valueForMoney": 90, "backpacker": 78, "soloTravel": 76, "romance": 82,
-        "beaches": 0, "swimming": 10, "publicTransport": 55, "accessibility": 42
+      "cost": {
+        "budget": 48,
+        "mid": 100,
+        "luxury": 240
       },
-      "photos": ["Alhambra Granada from Mirador San Nicolas", "Court of the Lions Alhambra", "Albaicin Granada street", "Generalife gardens Granada", "Sierra Nevada Granada snow", "Granada Cathedral interior"]
+      "r": {
+        "historicSites": 96, "architecture": 94, "religiousSites": 82, "localCulture": 86,
+        "foodScene": 84, "markets": 68, "bars": 78, "walkability": 88, "mountains": 78,
+        "skiing": 62, "hiking": 78, "scenery": 76, "valueForMoney": 90, "backpacker": 78,
+        "soloTravel": 76, "romance": 82, "beaches": 0, "swimming": 10, "publicTransport": 55,
+        "accessibility": 42
+      },
+      "photos": [
+        "Alhambra Granada from Mirador San Nicolas",
+        "Court of the Lions Alhambra",
+        "Albaicin Granada street",
+        "Generalife gardens Granada",
+        "Sierra Nevada Granada snow",
+        "Granada Cathedral interior"
+      ]
     },
     {
-      "id": "valencia-es", "name": "Valencia", "country": "ES", "region": "Valencian Community", "continent": "Europe",
-      "lat": 39.470, "lon": -0.376, "type": "city", "arch": "coastal-city",
+      "id": "valencia-es",
+      "name": "Valencia",
+      "country": "ES",
+      "region": "Valencian Community",
+      "continent": "Europe",
+      "lat": 39.47,
+      "lon": -0.376,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Spain's most liveable big city: paella's birthplace, a park where the river used to be, and a proper beach on the tram line.",
       "tags": ["beach", "food", "architecture", "cycling"],
       "climate": {
         "tempHigh": [17, 18, 20, 22, 25, 29, 31, 32, 29, 25, 20, 17],
-        "tempLow":  [7, 8, 9, 11, 15, 19, 21, 22, 19, 15, 11, 8],
+        "tempLow": [7, 8, 9, 11, 15, 19, 21, 22, 19, 15, 11, 8],
         "rainDays": [4, 4, 4, 5, 4, 3, 1, 3, 5, 6, 5, 5],
         "sunHours": [5, 6, 7, 8, 9, 10, 11, 9, 7, 6, 5, 5],
         "humidity": [66, 65, 63, 62, 64, 64, 66, 68, 68, 69, 67, 67],
-        "seaTemp":  [14, 13, 14, 16, 18, 22, 25, 26, 24, 21, 18, 15]
+        "seaTemp": [14, 13, 14, 16, 18, 22, 25, 26, 24, 21, 18, 15]
       },
-      "crowd":      [40, 45, 62, 70, 68, 72, 82, 88, 68, 58, 45, 52],
+      "crowd": [40, 45, 62, 70, 68, 72, 82, 88, 68, 58, 45, 52],
       "priceIndex": [48, 52, 68, 75, 72, 78, 88, 92, 72, 62, 48, 60],
-      "cost": { "budget": 52, "mid": 110, "luxury": 260 },
-      "r": {
-        "architecture": 82, "foodScene": 88, "markets": 88, "beaches": 76, "swimming": 74, "cycling": 92,
-        "walkability": 84, "publicTransport": 80, "festivals": 88, "bars": 78, "clubbing": 72, "safety": 78,
-        "valueForMoney": 84, "digitalNomad": 84, "familyYoungKids": 78, "museums": 68, "historicSites": 68,
-        "sailing": 62, "waterSports": 62, "romance": 68, "cleanliness": 74
+      "cost": {
+        "budget": 52,
+        "mid": 110,
+        "luxury": 260
       },
-      "photos": ["City of Arts and Sciences Valencia", "Valencia Central Market interior", "Malvarrosa beach Valencia", "Turia Gardens Valencia", "Valencia Cathedral", "Paella Valenciana"]
+      "r": {
+        "architecture": 82, "foodScene": 88, "markets": 88, "beaches": 76, "swimming": 74,
+        "cycling": 92, "walkability": 84, "publicTransport": 80, "festivals": 88, "bars": 78,
+        "clubbing": 72, "safety": 78, "valueForMoney": 84, "digitalNomad": 84,
+        "familyYoungKids": 78, "museums": 68, "historicSites": 68, "sailing": 62,
+        "waterSports": 62, "romance": 68, "cleanliness": 74
+      },
+      "photos": [
+        "City of Arts and Sciences Valencia",
+        "Valencia Central Market interior",
+        "Malvarrosa beach Valencia",
+        "Turia Gardens Valencia",
+        "Valencia Cathedral",
+        "Paella Valenciana"
+      ]
     },
     {
-      "id": "san-sebastian-es", "name": "San Sebastián", "country": "ES", "region": "Basque Country", "continent": "Europe",
-      "lat": 43.318, "lon": -1.981, "type": "city", "arch": "coastal-city",
+      "id": "san-sebastian-es",
+      "name": "San Sebastián",
+      "country": "ES",
+      "region": "Basque Country",
+      "continent": "Europe",
+      "lat": 43.318,
+      "lon": -1.981,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "A perfect shell-shaped bay, more Michelin stars per head than almost anywhere, and pintxos bars you could happily never leave.",
       "tags": ["food", "beach", "surfing", "elegant"],
       "climate": {
         "tempHigh": [13, 13, 15, 16, 19, 22, 24, 25, 24, 20, 16, 13],
-        "tempLow":  [5, 5, 7, 8, 11, 14, 16, 17, 15, 12, 8, 6],
+        "tempLow": [5, 5, 7, 8, 11, 14, 16, 17, 15, 12, 8, 6],
         "rainDays": [12, 11, 11, 13, 12, 9, 8, 9, 9, 12, 13, 13],
         "sunHours": [3, 4, 5, 5, 6, 7, 7, 7, 6, 5, 3, 3],
         "humidity": [75, 73, 72, 73, 74, 74, 75, 76, 76, 76, 76, 76],
-        "seaTemp":  [13, 12, 13, 14, 16, 19, 21, 22, 21, 19, 16, 14]
+        "seaTemp": [13, 12, 13, 14, 16, 19, 21, 22, 21, 19, 16, 14]
       },
-      "crowd":      [35, 38, 45, 55, 60, 72, 88, 92, 72, 52, 40, 45],
+      "crowd": [35, 38, 45, 55, 60, 72, 88, 92, 72, 52, 40, 45],
       "priceIndex": [48, 50, 58, 68, 72, 82, 95, 98, 78, 60, 48, 58],
-      "cost": { "budget": 68, "mid": 150, "luxury": 350 },
-      "r": {
-        "foodScene": 99, "fineDining": 98, "markets": 78, "beaches": 88, "swimming": 72, "surfing": 82,
-        "walkability": 92, "scenery": 82, "romance": 86, "bars": 84, "localCulture": 82, "wine": 82,
-        "safety": 88, "cleanliness": 86, "valueForMoney": 40, "luxury": 82, "seniors": 78, "hiking": 68,
-        "museums": 55, "clubbing": 55, "familyYoungKids": 74, "cycling": 78
+      "cost": {
+        "budget": 68,
+        "mid": 150,
+        "luxury": 350
       },
-      "photos": ["La Concha beach San Sebastian", "Pintxos bar San Sebastian", "Monte Igueldo view San Sebastian", "Peine del Viento San Sebastian", "San Sebastian old town Parte Vieja", "Zurriola beach surfers San Sebastian"]
+      "r": {
+        "foodScene": 99, "fineDining": 98, "markets": 78, "beaches": 88, "swimming": 72,
+        "surfing": 82, "walkability": 92, "scenery": 82, "romance": 86, "bars": 84,
+        "localCulture": 82, "wine": 82, "safety": 88, "cleanliness": 86, "valueForMoney": 40,
+        "luxury": 82, "seniors": 78, "hiking": 68, "museums": 55, "clubbing": 55,
+        "familyYoungKids": 74, "cycling": 78
+      },
+      "photos": [
+        "La Concha beach San Sebastian",
+        "Pintxos bar San Sebastian",
+        "Monte Igueldo view San Sebastian",
+        "Peine del Viento San Sebastian",
+        "San Sebastian old town Parte Vieja",
+        "Zurriola beach surfers San Sebastian"
+      ]
     },
     {
-      "id": "mallorca-es", "name": "Mallorca", "country": "ES", "region": "Balearic Islands", "continent": "Europe",
-      "lat": 39.570, "lon": 2.650, "type": "island", "arch": "beach-resort",
+      "id": "mallorca-es",
+      "name": "Mallorca",
+      "country": "ES",
+      "region": "Balearic Islands",
+      "continent": "Europe",
+      "lat": 39.57,
+      "lon": 2.65,
+      "type": "island",
+      "arch": "beach-resort",
       "blurb": "Far more than the package-holiday cliché: a serious mountain range, hidden coves, world-class road cycling and a genuinely good capital.",
       "tags": ["beach", "cycling", "hiking", "family"],
       "climate": {
         "tempHigh": [15, 15, 17, 19, 23, 27, 30, 31, 27, 23, 19, 16],
-        "tempLow":  [4, 4, 6, 8, 11, 15, 18, 19, 16, 13, 8, 6],
+        "tempLow": [4, 4, 6, 8, 11, 15, 18, 19, 16, 13, 8, 6],
         "rainDays": [5, 5, 4, 5, 4, 2, 1, 2, 4, 7, 6, 6],
         "sunHours": [5, 6, 6, 8, 9, 10, 11, 9, 7, 6, 5, 4],
         "humidity": [72, 71, 70, 68, 68, 66, 64, 67, 70, 74, 74, 74],
-        "seaTemp":  [14, 14, 14, 16, 18, 22, 25, 26, 25, 22, 18, 16]
+        "seaTemp": [14, 14, 14, 16, 18, 22, 25, 26, 25, 22, 18, 16]
       },
-      "crowd":      [25, 28, 38, 55, 70, 88, 98, 100, 82, 58, 32, 30],
+      "crowd": [25, 28, 38, 55, 70, 88, 98, 100, 82, 58, 32, 30],
       "priceIndex": [40, 42, 52, 70, 82, 95, 100, 100, 85, 65, 42, 45],
-      "cost": { "budget": 60, "mid": 140, "luxury": 380 },
+      "cost": {
+        "budget": 60,
+        "mid": 140,
+        "luxury": 380
+      },
       "r": {
-        "beaches": 92, "swimming": 88, "sailing": 88, "snorkelling": 62, "kayaking": 78, "waterSports": 78,
-        "cycling": 96, "hiking": 84, "mountains": 78, "scenery": 88, "climbing": 68, "golf": 78,
-        "foodScene": 78, "fineDining": 76, "wine": 72, "familyYoungKids": 90, "romance": 78, "luxury": 84,
-        "historicSites": 58, "architecture": 62, "roadTrip": 82, "bars": 72, "clubbing": 68, "groupParty": 74,
+        "beaches": 92, "swimming": 88, "sailing": 88, "snorkelling": 62, "kayaking": 78,
+        "waterSports": 78, "cycling": 96, "hiking": 84, "mountains": 78, "scenery": 88,
+        "climbing": 68, "golf": 78, "foodScene": 78, "fineDining": 76, "wine": 72,
+        "familyYoungKids": 90, "romance": 78, "luxury": 84, "historicSites": 58,
+        "architecture": 62, "roadTrip": 82, "bars": 72, "clubbing": 68, "groupParty": 74,
         "publicTransport": 48, "digitalNomad": 62
       },
-      "photos": ["Sa Calobra Mallorca coast", "Palma Cathedral Mallorca", "Serra de Tramuntana Mallorca", "Cala Varques Mallorca", "Valldemossa village Mallorca", "Cap de Formentor lighthouse"]
+      "photos": [
+        "Sa Calobra Mallorca coast",
+        "Palma Cathedral Mallorca",
+        "Serra de Tramuntana Mallorca",
+        "Cala Varques Mallorca",
+        "Valldemossa village Mallorca",
+        "Cap de Formentor lighthouse"
+      ]
     },
     {
-      "id": "ibiza-es", "name": "Ibiza", "country": "ES", "region": "Balearic Islands", "continent": "Europe",
-      "lat": 38.909, "lon": 1.432, "type": "island", "arch": "beach-resort",
+      "id": "ibiza-es",
+      "name": "Ibiza",
+      "country": "ES",
+      "region": "Balearic Islands",
+      "continent": "Europe",
+      "lat": 38.909,
+      "lon": 1.432,
+      "type": "island",
+      "arch": "beach-resort",
       "blurb": "The world's loudest island for four months of the year — and a quiet, pine-scented, startlingly beautiful one for the other eight.",
       "tags": ["nightlife", "beach", "party", "boats"],
       "climate": {
         "tempHigh": [16, 16, 18, 20, 23, 27, 30, 31, 28, 24, 20, 17],
-        "tempLow":  [6, 6, 7, 9, 12, 16, 19, 20, 18, 15, 10, 8],
+        "tempLow": [6, 6, 7, 9, 12, 16, 19, 20, 18, 15, 10, 8],
         "rainDays": [4, 4, 3, 4, 3, 1, 0, 2, 4, 6, 5, 5],
         "sunHours": [5, 6, 7, 8, 9, 10, 11, 10, 7, 6, 5, 5],
         "humidity": [74, 73, 71, 70, 70, 68, 66, 69, 72, 75, 75, 75],
-        "seaTemp":  [14, 14, 14, 16, 19, 22, 25, 27, 25, 22, 19, 16]
+        "seaTemp": [14, 14, 14, 16, 19, 22, 25, 27, 25, 22, 19, 16]
       },
-      "crowd":      [15, 18, 25, 42, 62, 88, 100, 100, 82, 48, 22, 18],
+      "crowd": [15, 18, 25, 42, 62, 88, 100, 100, 82, 48, 22, 18],
       "priceIndex": [35, 38, 45, 62, 80, 95, 100, 100, 88, 58, 38, 35],
-      "cost": { "budget": 70, "mid": 175, "luxury": 480 },
-      "r": {
-        "clubbing": 100, "bars": 94, "groupParty": 98, "beaches": 88, "swimming": 86, "sailing": 88,
-        "snorkelling": 62, "waterSports": 78, "liveMusic": 88, "luxury": 92, "romance": 72, "scenery": 78,
-        "hiking": 55, "foodScene": 76, "fineDining": 82, "wellness": 82, "valueForMoney": 22,
-        "familyYoungKids": 48, "seniors": 38, "backpacker": 42, "museums": 25, "historicSites": 48,
-        "lgbtqScene": 92, "publicTransport": 42
+      "cost": {
+        "budget": 70,
+        "mid": 175,
+        "luxury": 480
       },
-      "photos": ["Es Vedra Ibiza sunset", "Dalt Vila Ibiza old town", "Cala Comte Ibiza beach", "Ibiza nightclub crowd", "Formentera beach from Ibiza", "Ibiza sunset Cafe del Mar San Antonio"]
+      "r": {
+        "clubbing": 100, "bars": 94, "groupParty": 98, "beaches": 88, "swimming": 86,
+        "sailing": 88, "snorkelling": 62, "waterSports": 78, "liveMusic": 88, "luxury": 92,
+        "romance": 72, "scenery": 78, "hiking": 55, "foodScene": 76, "fineDining": 82,
+        "wellness": 82, "valueForMoney": 22, "familyYoungKids": 48, "seniors": 38,
+        "backpacker": 42, "museums": 25, "historicSites": 48, "lgbtqScene": 92,
+        "publicTransport": 42
+      },
+      "photos": [
+        "Es Vedra Ibiza sunset",
+        "Dalt Vila Ibiza old town",
+        "Cala Comte Ibiza beach",
+        "Ibiza nightclub crowd",
+        "Formentera beach from Ibiza",
+        "Ibiza sunset Cafe del Mar San Antonio"
+      ]
     },
     {
-      "id": "tenerife-es", "name": "Tenerife", "country": "ES", "region": "Canary Islands", "continent": "Europe",
-      "lat": 28.291, "lon": -16.629, "type": "island", "arch": "island-volcanic",
+      "id": "tenerife-es",
+      "name": "Tenerife",
+      "country": "ES",
+      "region": "Canary Islands",
+      "continent": "Europe",
+      "lat": 28.291,
+      "lon": -16.629,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "Spain's highest mountain rising out of the Atlantic, black-sand beaches and reliably warm weather in the middle of a European winter.",
       "tags": ["volcano", "beach", "winter-sun", "hiking"],
       "climate": {
         "tempHigh": [21, 21, 22, 23, 24, 26, 29, 29, 28, 26, 24, 22],
-        "tempLow":  [15, 15, 15, 16, 17, 19, 21, 22, 21, 19, 17, 16],
+        "tempLow": [15, 15, 15, 16, 17, 19, 21, 22, 21, 19, 17, 16],
         "rainDays": [5, 4, 3, 2, 1, 0, 0, 0, 1, 4, 5, 6],
         "sunHours": [6, 7, 7, 8, 9, 10, 11, 10, 8, 7, 6, 5],
         "humidity": [66, 65, 63, 61, 60, 59, 56, 58, 64, 68, 68, 68],
-        "seaTemp":  [19, 19, 19, 19, 20, 21, 22, 23, 24, 23, 22, 20]
+        "seaTemp": [19, 19, 19, 19, 20, 21, 22, 23, 24, 23, 22, 20]
       },
-      "crowd":      [72, 72, 68, 58, 52, 58, 72, 82, 68, 58, 62, 78],
+      "crowd": [72, 72, 68, 58, 52, 58, 72, 82, 68, 58, 62, 78],
       "priceIndex": [78, 78, 72, 62, 58, 65, 80, 90, 72, 62, 68, 88],
-      "cost": { "budget": 50, "mid": 105, "luxury": 260 },
-      "r": {
-        "volcanic": 95, "mountains": 88, "hiking": 88, "scenery": 90, "stargazing": 96, "nationalParks": 88,
-        "beaches": 72, "swimming": 78, "wildlife": 62, "snorkelling": 58, "scuba": 62,
-        "surfing": 62, "waterSports": 68, "roadTrip": 82, "themeParks": 82, "familyYoungKids": 88,
-        "seniors": 82, "cycling": 78, "valueForMoney": 80, "foodScene": 62, "clubbing": 58, "bars": 68,
-        "publicTransport": 45, "digitalNomad": 72, "wellness": 62
+      "cost": {
+        "budget": 50,
+        "mid": 105,
+        "luxury": 260
       },
-      "photos": ["Mount Teide Tenerife", "Teide National Park lava landscape", "Los Gigantes cliffs Tenerife", "Anaga rural park laurel forest Tenerife", "Playa de las Teresitas Tenerife", "La Orotava colonial house Tenerife"]
+      "r": {
+        "volcanic": 95, "mountains": 88, "hiking": 88, "scenery": 90, "stargazing": 96,
+        "nationalParks": 88, "beaches": 72, "swimming": 78, "wildlife": 62, "snorkelling": 58,
+        "scuba": 62, "surfing": 62, "waterSports": 68, "roadTrip": 82, "themeParks": 82,
+        "familyYoungKids": 88, "seniors": 82, "cycling": 78, "valueForMoney": 80,
+        "foodScene": 62, "clubbing": 58, "bars": 68, "publicTransport": 45, "digitalNomad": 72,
+        "wellness": 62
+      },
+      "photos": [
+        "Mount Teide Tenerife",
+        "Teide National Park lava landscape",
+        "Los Gigantes cliffs Tenerife",
+        "Anaga rural park laurel forest Tenerife",
+        "Playa de las Teresitas Tenerife",
+        "La Orotava colonial house Tenerife"
+      ]
     },
     {
-      "id": "gran-canaria-es", "name": "Gran Canaria", "country": "ES", "region": "Canary Islands", "continent": "Europe",
-      "lat": 27.958, "lon": -15.600, "type": "island", "arch": "island-volcanic",
+      "id": "gran-canaria-es",
+      "name": "Gran Canaria",
+      "country": "ES",
+      "region": "Canary Islands",
+      "continent": "Europe",
+      "lat": 27.958,
+      "lon": -15.6,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "A 'continent in miniature' — dunes at one end, pine forest and ravines in the middle, and Europe's most established gay resort scene at Maspalomas.",
       "tags": ["beach", "dunes", "winter-sun", "lgbtq"],
       "climate": {
         "tempHigh": [21, 22, 22, 23, 24, 26, 28, 29, 28, 26, 24, 22],
-        "tempLow":  [15, 15, 15, 16, 17, 19, 21, 22, 21, 19, 17, 16],
+        "tempLow": [15, 15, 15, 16, 17, 19, 21, 22, 21, 19, 17, 16],
         "rainDays": [4, 3, 2, 1, 1, 0, 0, 0, 1, 3, 4, 5],
         "sunHours": [6, 7, 7, 8, 9, 9, 10, 10, 8, 7, 6, 5],
         "humidity": [66, 66, 64, 62, 62, 62, 60, 62, 66, 68, 68, 67],
-        "seaTemp":  [19, 19, 19, 19, 20, 21, 22, 23, 24, 24, 22, 20]
+        "seaTemp": [19, 19, 19, 19, 20, 21, 22, 23, 24, 24, 22, 20]
       },
-      "crowd":      [72, 72, 68, 58, 52, 58, 72, 85, 68, 58, 62, 80],
+      "crowd": [72, 72, 68, 58, 52, 58, 72, 85, 68, 58, 62, 80],
       "priceIndex": [75, 75, 70, 60, 55, 62, 78, 88, 70, 60, 66, 85],
-      "cost": { "budget": 48, "mid": 100, "luxury": 240 },
-      "r": {
-        "beaches": 86, "swimming": 84, "desert": 62, "volcanic": 78, "mountains": 78, "hiking": 82,
-        "scenery": 82, "stargazing": 82, "surfing": 62, "waterSports": 72, "scuba": 58, "roadTrip": 78,
-        "lgbtqScene": 92, "familyYoungKids": 86, "seniors": 84, "valueForMoney": 82, "cycling": 78,
-        "bars": 72, "clubbing": 68, "groupParty": 72, "foodScene": 60, "digitalNomad": 74, "wellness": 62,
-        "publicTransport": 52
+      "cost": {
+        "budget": 48,
+        "mid": 100,
+        "luxury": 240
       },
-      "photos": ["Maspalomas dunes Gran Canaria", "Roque Nublo Gran Canaria", "Las Canteras beach Las Palmas", "Puerto de Mogan Gran Canaria", "Tejeda village Gran Canaria", "Vegueta old town Las Palmas"]
+      "r": {
+        "beaches": 86, "swimming": 84, "desert": 62, "volcanic": 78, "mountains": 78,
+        "hiking": 82, "scenery": 82, "stargazing": 82, "surfing": 62, "waterSports": 72,
+        "scuba": 58, "roadTrip": 78, "lgbtqScene": 92, "familyYoungKids": 86, "seniors": 84,
+        "valueForMoney": 82, "cycling": 78, "bars": 72, "clubbing": 68, "groupParty": 72,
+        "foodScene": 60, "digitalNomad": 74, "wellness": 62, "publicTransport": 52
+      },
+      "photos": [
+        "Maspalomas dunes Gran Canaria",
+        "Roque Nublo Gran Canaria",
+        "Las Canteras beach Las Palmas",
+        "Puerto de Mogan Gran Canaria",
+        "Tejeda village Gran Canaria",
+        "Vegueta old town Las Palmas"
+      ]
     },
     {
-      "id": "lanzarote-es", "name": "Lanzarote", "country": "ES", "region": "Canary Islands", "continent": "Europe",
-      "lat": 28.963, "lon": -13.548, "type": "island", "arch": "island-volcanic",
+      "id": "lanzarote-es",
+      "name": "Lanzarote",
+      "country": "ES",
+      "region": "Canary Islands",
+      "continent": "Europe",
+      "lat": 28.963,
+      "lon": -13.548,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "A lunar volcanic island where an artist wrote the building code — no high-rises, no billboards, black lava vineyards and startling light.",
       "tags": ["volcano", "design", "winter-sun", "windsurfing"],
       "climate": {
         "tempHigh": [21, 21, 22, 23, 24, 26, 28, 29, 28, 26, 24, 22],
-        "tempLow":  [14, 14, 15, 15, 17, 18, 20, 21, 21, 19, 17, 15],
+        "tempLow": [14, 14, 15, 15, 17, 18, 20, 21, 21, 19, 17, 15],
         "rainDays": [3, 2, 2, 1, 0, 0, 0, 0, 1, 2, 3, 4],
         "sunHours": [6, 7, 8, 8, 9, 10, 10, 9, 8, 7, 6, 5],
         "humidity": [70, 69, 67, 65, 64, 64, 64, 66, 68, 70, 71, 71],
-        "seaTemp":  [18, 18, 18, 18, 19, 20, 21, 22, 23, 22, 21, 19]
+        "seaTemp": [18, 18, 18, 18, 19, 20, 21, 22, 23, 22, 21, 19]
       },
-      "crowd":      [68, 68, 65, 55, 50, 55, 70, 82, 65, 55, 58, 75],
+      "crowd": [68, 68, 65, 55, 50, 55, 70, 82, 65, 55, 58, 75],
       "priceIndex": [70, 70, 66, 58, 52, 60, 75, 85, 68, 58, 62, 80],
-      "cost": { "budget": 46, "mid": 96, "luxury": 230 },
-      "r": {
-        "volcanic": 98, "scenery": 88, "nationalParks": 85, "desert": 68, "stargazing": 88, "hiking": 74,
-        "beaches": 80, "swimming": 78, "surfing": 72, "waterSports": 88, "scuba": 68, "kayaking": 62,
-        "artScene": 78, "architecture": 72, "wine": 72, "roadTrip": 85, "cycling": 82, "familyYoungKids": 80,
-        "seniors": 80, "romance": 74, "valueForMoney": 80, "clubbing": 35, "foodScene": 58, "cleanliness": 82
+      "cost": {
+        "budget": 46,
+        "mid": 96,
+        "luxury": 230
       },
-      "photos": ["Timanfaya National Park Lanzarote", "Jameos del Agua Lanzarote", "La Geria vineyards Lanzarote", "Papagayo beach Lanzarote", "Mirador del Rio Lanzarote", "Cueva de los Verdes Lanzarote"]
+      "r": {
+        "volcanic": 98, "scenery": 88, "nationalParks": 85, "desert": 68, "stargazing": 88,
+        "hiking": 74, "beaches": 80, "swimming": 78, "surfing": 72, "waterSports": 88,
+        "scuba": 68, "kayaking": 62, "artScene": 78, "architecture": 72, "wine": 72,
+        "roadTrip": 85, "cycling": 82, "familyYoungKids": 80, "seniors": 80, "romance": 74,
+        "valueForMoney": 80, "clubbing": 35, "foodScene": 58, "cleanliness": 82
+      },
+      "photos": [
+        "Timanfaya National Park Lanzarote",
+        "Jameos del Agua Lanzarote",
+        "La Geria vineyards Lanzarote",
+        "Papagayo beach Lanzarote",
+        "Mirador del Rio Lanzarote",
+        "Cueva de los Verdes Lanzarote"
+      ]
     },
     {
-      "id": "costa-del-sol-es", "name": "Marbella & Costa del Sol", "country": "ES", "region": "Andalusia", "continent": "Europe",
-      "lat": 36.510, "lon": -4.886, "type": "coast", "arch": "beach-resort",
+      "id": "costa-del-sol-es",
+      "name": "Marbella & Costa del Sol",
+      "country": "ES",
+      "region": "Andalusia",
+      "continent": "Europe",
+      "lat": 36.51,
+      "lon": -4.886,
+      "type": "coast",
+      "arch": "beach-resort",
       "blurb": "Golf, yachts and 320 days of sun, with the white villages and the Sierra de las Nieves twenty minutes inland when you want out.",
       "tags": ["beach", "golf", "luxury", "nightlife"],
       "climate": {
         "tempHigh": [16, 17, 19, 21, 24, 28, 31, 31, 28, 24, 20, 17],
-        "tempLow":  [8, 8, 10, 11, 14, 18, 21, 21, 19, 15, 11, 9],
+        "tempLow": [8, 8, 10, 11, 14, 18, 21, 21, 19, 15, 11, 9],
         "rainDays": [6, 5, 5, 5, 3, 1, 0, 1, 2, 5, 6, 6],
         "sunHours": [6, 6, 7, 8, 10, 11, 12, 11, 8, 7, 6, 5],
         "humidity": [70, 69, 67, 64, 64, 62, 60, 64, 68, 71, 72, 71],
-        "seaTemp":  [16, 15, 16, 17, 19, 22, 24, 25, 23, 21, 19, 17]
+        "seaTemp": [16, 15, 16, 17, 19, 22, 24, 25, 23, 21, 19, 17]
       },
-      "crowd":      [35, 38, 48, 62, 68, 82, 95, 98, 75, 55, 40, 42],
+      "crowd": [35, 38, 48, 62, 68, 82, 95, 98, 75, 55, 40, 42],
       "priceIndex": [50, 52, 62, 75, 80, 92, 100, 100, 82, 65, 50, 58],
-      "cost": { "budget": 62, "mid": 145, "luxury": 400 },
-      "r": {
-        "beaches": 82, "swimming": 84, "golf": 96, "luxury": 92, "sailing": 82, "waterSports": 74,
-        "bars": 82, "clubbing": 80, "groupParty": 84, "shopping": 82, "fineDining": 84, "wellness": 82,
-        "familyYoungKids": 84, "seniors": 86, "hiking": 62, "mountains": 58, "scenery": 62,
-        "historicSites": 48, "museums": 38, "localCulture": 42, "valueForMoney": 52, "englishSpoken": 82,
-        "publicTransport": 48, "romance": 68
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 400
       },
-      "photos": ["Marbella old town Plaza de los Naranjos", "Puerto Banus marina yachts", "Mijas Pueblo white village", "Marbella beach promenade", "Golf course Costa del Sol", "Ronda bridge Puente Nuevo"]
+      "r": {
+        "beaches": 82, "swimming": 84, "golf": 96, "luxury": 92, "sailing": 82,
+        "waterSports": 74, "bars": 82, "clubbing": 80, "groupParty": 84, "shopping": 82,
+        "fineDining": 84, "wellness": 82, "familyYoungKids": 84, "seniors": 86, "hiking": 62,
+        "mountains": 58, "scenery": 62, "historicSites": 48, "museums": 38, "localCulture": 42,
+        "valueForMoney": 52, "englishSpoken": 82, "publicTransport": 48, "romance": 68
+      },
+      "photos": [
+        "Marbella old town Plaza de los Naranjos",
+        "Puerto Banus marina yachts",
+        "Mijas Pueblo white village",
+        "Marbella beach promenade",
+        "Golf course Costa del Sol",
+        "Ronda bridge Puente Nuevo"
+      ]
     },
     {
-      "id": "picos-europa-es", "name": "Picos de Europa", "country": "ES", "region": "Asturias & Cantabria", "continent": "Europe",
-      "lat": 43.198, "lon": -4.858, "type": "mountains", "arch": "mountain-town",
+      "id": "picos-europa-es",
+      "name": "Picos de Europa",
+      "country": "ES",
+      "region": "Asturias & Cantabria",
+      "continent": "Europe",
+      "lat": 43.198,
+      "lon": -4.858,
+      "type": "mountains",
+      "arch": "mountain-town",
       "blurb": "Green, wet, wildly under-visited limestone mountains twenty miles from the sea — cider, blue cheese and some of Spain's best walking.",
       "tags": ["hiking", "mountains", "wildlife", "quiet"],
       "climate": {
         "tempHigh": [10, 11, 14, 15, 18, 21, 24, 24, 22, 17, 13, 10],
-        "tempLow":  [2, 2, 4, 5, 8, 11, 13, 13, 11, 8, 5, 3],
+        "tempLow": [2, 2, 4, 5, 8, 11, 13, 13, 11, 8, 5, 3],
         "rainDays": [14, 12, 12, 14, 13, 9, 7, 8, 9, 13, 14, 14],
         "sunHours": [3, 4, 5, 5, 6, 7, 7, 7, 6, 4, 3, 3],
         "humidity": [80, 78, 75, 76, 77, 77, 78, 79, 80, 81, 81, 81],
         "snowDepth": [45, 50, 40, 20, 5, 0, 0, 0, 0, 2, 18, 38]
       },
-      "crowd":      [22, 22, 30, 42, 48, 62, 85, 92, 62, 42, 28, 25],
+      "crowd": [22, 22, 30, 42, 48, 62, 85, 92, 62, 42, 28, 25],
       "priceIndex": [40, 40, 48, 58, 62, 72, 90, 95, 68, 55, 42, 45],
-      "cost": { "budget": 55, "mid": 115, "luxury": 250 },
-      "r": {
-        "mountains": 94, "hiking": 96, "scenery": 94, "nationalParks": 96, "wildlife": 74, "forests": 82,
-        "climbing": 88, "cycling": 78, "stargazing": 78, "lakesRivers": 72, "kayaking": 62,
-        "localCulture": 82, "foodScene": 78, "beer": 78, "valueForMoney": 88,
-        "publicTransport": 22, "englishSpoken": 32, "familyYoungKids": 52, "seniors": 42, "romance": 70,
-        "beaches": 42, "roadTrip": 86, "accessibility": 25
+      "cost": {
+        "budget": 55,
+        "mid": 115,
+        "luxury": 250
       },
-      "photos": ["Picos de Europa Naranjo de Bulnes", "Lagos de Covadonga Asturias", "Cares Gorge trail Picos de Europa", "Covadonga basilica Asturias", "Asturian cider pouring", "Cudillero fishing village Asturias"]
+      "r": {
+        "mountains": 94, "hiking": 96, "scenery": 94, "nationalParks": 96, "wildlife": 74,
+        "forests": 82, "climbing": 88, "cycling": 78, "stargazing": 78, "lakesRivers": 72,
+        "kayaking": 62, "localCulture": 82, "foodScene": 78, "beer": 78, "valueForMoney": 88,
+        "publicTransport": 22, "englishSpoken": 32, "familyYoungKids": 52, "seniors": 42,
+        "romance": 70, "beaches": 42, "roadTrip": 86, "accessibility": 25
+      },
+      "photos": [
+        "Picos de Europa Naranjo de Bulnes",
+        "Lagos de Covadonga Asturias",
+        "Cares Gorge trail Picos de Europa",
+        "Covadonga basilica Asturias",
+        "Asturian cider pouring",
+        "Cudillero fishing village Asturias"
+      ]
     },
-
     {
-      "id": "lisbon-pt", "name": "Lisbon", "country": "PT", "region": "Lisbon", "continent": "Europe",
-      "lat": 38.722, "lon": -9.139, "type": "city", "arch": "coastal-city",
+      "id": "lisbon-pt",
+      "name": "Lisbon",
+      "country": "PT",
+      "region": "Lisbon",
+      "continent": "Europe",
+      "lat": 38.722,
+      "lon": -9.139,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Seven hills, yellow trams, tiled façades and fado in the back streets — with Atlantic surf beaches half an hour down the line.",
       "tags": ["city", "food", "surfing", "views"],
       "climate": {
         "tempHigh": [15, 16, 18, 20, 22, 26, 28, 29, 26, 22, 18, 15],
-        "tempLow":  [8, 9, 10, 12, 14, 17, 18, 19, 18, 15, 11, 9],
+        "tempLow": [8, 9, 10, 12, 14, 17, 18, 19, 18, 15, 11, 9],
         "rainDays": [10, 9, 8, 9, 7, 3, 1, 1, 4, 9, 10, 11],
         "sunHours": [5, 5, 6, 7, 9, 10, 11, 11, 8, 6, 5, 4],
         "humidity": [78, 76, 72, 70, 70, 66, 64, 64, 69, 75, 78, 79],
-        "seaTemp":  [15, 15, 15, 16, 17, 19, 20, 20, 20, 19, 17, 16]
+        "seaTemp": [15, 15, 15, 16, 17, 19, 20, 20, 20, 19, 17, 16]
       },
-      "crowd":      [40, 42, 55, 68, 75, 80, 88, 92, 82, 65, 45, 52],
+      "crowd": [40, 42, 55, 68, 75, 80, 88, 92, 82, 65, 45, 52],
       "priceIndex": [50, 52, 65, 78, 85, 90, 95, 98, 88, 70, 52, 62],
-      "cost": { "budget": 55, "mid": 115, "luxury": 280 },
+      "cost": {
+        "budget": 55,
+        "mid": 115,
+        "luxury": 280
+      },
       "r": {
         "architecture": 86, "historicSites": 80, "museums": 72, "artScene": 78, "foodScene": 88,
-        "markets": 82, "liveMusic": 80, "bars": 86, "clubbing": 84, "walkability": 76, "publicTransport": 78,
-        "scenery": 74, "beaches": 68, "surfing": 86, "swimming": 58, "romance": 80, "soloTravel": 84,
-        "backpacker": 86, "digitalNomad": 92, "valueForMoney": 82, "lgbtqScene": 78, "safety": 78,
-        "accessibility": 38, "familyYoungKids": 62, "coffee": 88, "wine": 88
+        "markets": 82, "liveMusic": 80, "bars": 86, "clubbing": 84, "walkability": 76,
+        "publicTransport": 78, "scenery": 74, "beaches": 68, "surfing": 86, "swimming": 58,
+        "romance": 80, "soloTravel": 84, "backpacker": 86, "digitalNomad": 92,
+        "valueForMoney": 82, "lgbtqScene": 78, "safety": 78, "accessibility": 38,
+        "familyYoungKids": 62, "coffee": 88, "wine": 88
       },
-      "photos": ["Tram 28 Lisbon Alfama", "Belem Tower Lisbon", "Miradouro Senhora do Monte Lisbon", "Praca do Comercio Lisbon", "Pasteis de Belem custard tarts", "LX Factory Lisbon street art"]
+      "photos": [
+        "Tram 28 Lisbon Alfama",
+        "Belem Tower Lisbon",
+        "Miradouro Senhora do Monte Lisbon",
+        "Praca do Comercio Lisbon",
+        "Pasteis de Belem custard tarts",
+        "LX Factory Lisbon street art"
+      ]
     },
     {
-      "id": "porto-pt", "name": "Porto", "country": "PT", "region": "Norte", "continent": "Europe",
-      "lat": 41.158, "lon": -8.629, "type": "city", "arch": "historic-city",
+      "id": "porto-pt",
+      "name": "Porto",
+      "country": "PT",
+      "region": "Norte",
+      "continent": "Europe",
+      "lat": 41.158,
+      "lon": -8.629,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Granite, port wine and azulejo tiles stacked above the Douro — smaller and grittier than Lisbon, and many people's favourite for it.",
       "tags": ["wine", "architecture", "food", "river"],
       "climate": {
         "tempHigh": [14, 15, 17, 18, 20, 23, 25, 25, 24, 21, 17, 14],
-        "tempLow":  [5, 5, 7, 8, 11, 14, 15, 15, 14, 11, 8, 6],
+        "tempLow": [5, 5, 7, 8, 11, 14, 15, 15, 14, 11, 8, 6],
         "rainDays": [13, 11, 10, 12, 10, 6, 3, 3, 5, 11, 12, 13],
         "sunHours": [4, 5, 6, 6, 7, 8, 9, 9, 7, 5, 4, 4],
         "humidity": [80, 77, 73, 73, 74, 73, 73, 74, 77, 80, 81, 81],
-        "seaTemp":  [14, 13, 14, 15, 16, 17, 18, 19, 19, 18, 16, 15]
+        "seaTemp": [14, 13, 14, 15, 16, 17, 18, 19, 19, 18, 16, 15]
       },
-      "crowd":      [35, 38, 48, 60, 68, 72, 82, 88, 75, 58, 42, 48],
+      "crowd": [35, 38, 48, 60, 68, 72, 82, 88, 75, 58, 42, 48],
       "priceIndex": [45, 48, 58, 68, 75, 82, 88, 92, 80, 62, 48, 55],
-      "cost": { "budget": 48, "mid": 100, "luxury": 240 },
-      "r": {
-        "wine": 96, "architecture": 88, "historicSites": 80, "foodScene": 84, "markets": 72, "bars": 80,
-        "liveMusic": 68, "walkability": 74, "scenery": 76, "lakesRivers": 72, "romance": 82,
-        "valueForMoney": 88, "backpacker": 82, "soloTravel": 78, "digitalNomad": 84, "beaches": 55,
-        "surfing": 78, "swimming": 45, "museums": 62, "coffee": 82, "accessibility": 32, "safety": 82,
-        "familyYoungKids": 58, "publicTransport": 70
+      "cost": {
+        "budget": 48,
+        "mid": 100,
+        "luxury": 240
       },
-      "photos": ["Dom Luis I Bridge Porto", "Ribeira Porto riverfront", "Livraria Lello Porto", "Port wine cellars Vila Nova de Gaia", "Sao Bento station azulejos Porto", "Douro Valley terraced vineyards"]
+      "r": {
+        "wine": 96, "architecture": 88, "historicSites": 80, "foodScene": 84, "markets": 72,
+        "bars": 80, "liveMusic": 68, "walkability": 74, "scenery": 76, "lakesRivers": 72,
+        "romance": 82, "valueForMoney": 88, "backpacker": 82, "soloTravel": 78,
+        "digitalNomad": 84, "beaches": 55, "surfing": 78, "swimming": 45, "museums": 62,
+        "coffee": 82, "accessibility": 32, "safety": 82, "familyYoungKids": 58,
+        "publicTransport": 70
+      },
+      "photos": [
+        "Dom Luis I Bridge Porto",
+        "Ribeira Porto riverfront",
+        "Livraria Lello Porto",
+        "Port wine cellars Vila Nova de Gaia",
+        "Sao Bento station azulejos Porto",
+        "Douro Valley terraced vineyards"
+      ]
     },
     {
-      "id": "algarve-pt", "name": "The Algarve", "country": "PT", "region": "Algarve", "continent": "Europe",
-      "lat": 37.102, "lon": -8.674, "type": "coast", "arch": "beach-resort",
+      "id": "algarve-pt",
+      "name": "The Algarve",
+      "country": "PT",
+      "region": "Algarve",
+      "continent": "Europe",
+      "lat": 37.102,
+      "lon": -8.674,
+      "type": "coast",
+      "arch": "beach-resort",
       "blurb": "Golden cliffs, sea caves and hidden coves along Portugal's south coast, with excellent golf and some of Europe's best-value sun.",
       "tags": ["beach", "golf", "family", "caves"],
       "climate": {
         "tempHigh": [16, 17, 19, 21, 23, 26, 29, 29, 27, 23, 19, 17],
-        "tempLow":  [8, 9, 10, 11, 14, 17, 19, 19, 18, 15, 12, 9],
+        "tempLow": [8, 9, 10, 11, 14, 17, 19, 19, 18, 15, 12, 9],
         "rainDays": [8, 7, 6, 6, 4, 1, 0, 0, 2, 6, 8, 9],
         "sunHours": [6, 6, 7, 8, 10, 11, 12, 11, 9, 7, 6, 5],
         "humidity": [76, 75, 72, 70, 70, 68, 66, 67, 70, 74, 76, 77],
-        "seaTemp":  [16, 15, 16, 17, 18, 20, 22, 22, 22, 20, 18, 17]
+        "seaTemp": [16, 15, 16, 17, 18, 20, 22, 22, 22, 20, 18, 17]
       },
-      "crowd":      [28, 30, 42, 58, 68, 82, 95, 98, 78, 55, 35, 32],
+      "crowd": [28, 30, 42, 58, 68, 82, 95, 98, 78, 55, 35, 32],
       "priceIndex": [42, 45, 58, 72, 80, 92, 100, 100, 82, 62, 45, 48],
-      "cost": { "budget": 52, "mid": 115, "luxury": 300 },
-      "r": {
-        "beaches": 94, "swimming": 84, "scenery": 84, "kayaking": 86, "surfing": 80, "sailing": 70,
-        "golf": 94, "waterSports": 76, "fishing": 72, "cycling": 68, "hiking": 66, "familyYoungKids": 90,
-        "seniors": 88, "romance": 76, "valueForMoney": 84, "foodScene": 76, "wine": 74, "englishSpoken": 88,
-        "bars": 72, "clubbing": 62, "groupParty": 72, "museums": 30, "historicSites": 48, "publicTransport": 38
+      "cost": {
+        "budget": 52,
+        "mid": 115,
+        "luxury": 300
       },
-      "photos": ["Benagil sea cave Algarve", "Ponta da Piedade Lagos Algarve", "Praia da Marinha Algarve", "Tavira old town Algarve", "Sagres cliffs Algarve", "Algarve golf course Vilamoura"]
+      "r": {
+        "beaches": 94, "swimming": 84, "scenery": 84, "kayaking": 86, "surfing": 80,
+        "sailing": 70, "golf": 94, "waterSports": 76, "fishing": 72, "cycling": 68, "hiking": 66,
+        "familyYoungKids": 90, "seniors": 88, "romance": 76, "valueForMoney": 84,
+        "foodScene": 76, "wine": 74, "englishSpoken": 88, "bars": 72, "clubbing": 62,
+        "groupParty": 72, "museums": 30, "historicSites": 48, "publicTransport": 38
+      },
+      "photos": [
+        "Benagil sea cave Algarve",
+        "Ponta da Piedade Lagos Algarve",
+        "Praia da Marinha Algarve",
+        "Tavira old town Algarve",
+        "Sagres cliffs Algarve",
+        "Algarve golf course Vilamoura"
+      ]
     },
     {
-      "id": "madeira-pt", "name": "Madeira", "country": "PT", "region": "Madeira", "continent": "Europe",
-      "lat": 32.665, "lon": -16.925, "type": "island", "arch": "island-volcanic",
+      "id": "madeira-pt",
+      "name": "Madeira",
+      "country": "PT",
+      "region": "Madeira",
+      "continent": "Europe",
+      "lat": 32.665,
+      "lon": -16.925,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "A vertical Atlantic garden island — levada walks through laurel forest, sheer sea cliffs and mild weather every single month.",
       "tags": ["hiking", "gardens", "year-round", "levadas"],
       "climate": {
         "tempHigh": [19, 19, 20, 20, 22, 24, 26, 27, 26, 25, 22, 20],
-        "tempLow":  [13, 13, 13, 14, 15, 17, 19, 20, 20, 18, 16, 14],
+        "tempLow": [13, 13, 13, 14, 15, 17, 19, 20, 20, 18, 16, 14],
         "rainDays": [8, 7, 7, 6, 4, 2, 1, 1, 3, 7, 9, 9],
         "sunHours": [5, 6, 6, 7, 8, 8, 9, 9, 7, 6, 5, 5],
         "humidity": [70, 70, 71, 71, 72, 74, 73, 73, 73, 72, 71, 70],
-        "seaTemp":  [19, 18, 18, 19, 20, 21, 22, 23, 24, 23, 22, 20]
+        "seaTemp": [19, 18, 18, 19, 20, 21, 22, 23, 24, 23, 22, 20]
       },
-      "crowd":      [45, 45, 48, 52, 55, 62, 75, 82, 72, 62, 52, 68],
+      "crowd": [45, 45, 48, 52, 55, 62, 75, 82, 72, 62, 52, 68],
       "priceIndex": [55, 55, 58, 62, 65, 72, 85, 92, 80, 68, 58, 78],
-      "cost": { "budget": 50, "mid": 105, "luxury": 260 },
-      "r": {
-        "hiking": 96, "scenery": 94, "forests": 88, "mountains": 86, "nationalParks": 82, "volcanic": 68,
-        "wildlife": 62, "beaches": 42, "swimming": 62, "scuba": 55, "kayaking": 58, "wine": 78,
-        "festivals": 78, "romance": 80, "seniors": 82, "valueForMoney": 82, "cleanliness": 84,
-        "roadTrip": 82, "adrenaline": 68, "safety": 90, "foodScene": 68, "clubbing": 35,
-        "familyYoungKids": 62, "digitalNomad": 76, "publicTransport": 48
+      "cost": {
+        "budget": 50,
+        "mid": 105,
+        "luxury": 260
       },
-      "photos": ["Levada walk Madeira laurel forest", "Pico do Arieiro sunrise Madeira", "Funchal harbour Madeira", "Cabo Girao skywalk Madeira", "Porto Moniz natural pools Madeira", "Madeira wine cellar Funchal"]
+      "r": {
+        "hiking": 96, "scenery": 94, "forests": 88, "mountains": 86, "nationalParks": 82,
+        "volcanic": 68, "wildlife": 62, "beaches": 42, "swimming": 62, "scuba": 55,
+        "kayaking": 58, "wine": 78, "festivals": 78, "romance": 80, "seniors": 82,
+        "valueForMoney": 82, "cleanliness": 84, "roadTrip": 82, "adrenaline": 68, "safety": 90,
+        "foodScene": 68, "clubbing": 35, "familyYoungKids": 62, "digitalNomad": 76,
+        "publicTransport": 48
+      },
+      "photos": [
+        "Levada walk Madeira laurel forest",
+        "Pico do Arieiro sunrise Madeira",
+        "Funchal harbour Madeira",
+        "Cabo Girao skywalk Madeira",
+        "Porto Moniz natural pools Madeira",
+        "Madeira wine cellar Funchal"
+      ]
     },
     {
-      "id": "azores-pt", "name": "The Azores", "country": "PT", "region": "Azores", "continent": "Europe",
-      "lat": 37.741, "lon": -25.676, "type": "island", "arch": "island-volcanic",
+      "id": "azores-pt",
+      "name": "The Azores",
+      "country": "PT",
+      "region": "Azores",
+      "continent": "Europe",
+      "lat": 37.741,
+      "lon": -25.676,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "Nine mid-Atlantic volcanic islands of crater lakes, hot springs and whale-watching — Europe's most convincing 'edge of the world'.",
       "tags": ["volcano", "whales", "hiking", "remote"],
       "climate": {
         "tempHigh": [17, 17, 18, 19, 20, 23, 25, 26, 25, 23, 20, 18],
-        "tempLow":  [11, 11, 11, 12, 13, 15, 17, 18, 18, 16, 14, 12],
+        "tempLow": [11, 11, 11, 12, 13, 15, 17, 18, 18, 16, 14, 12],
         "rainDays": [16, 14, 15, 13, 11, 9, 6, 7, 11, 15, 15, 17],
         "sunHours": [3, 4, 5, 5, 6, 7, 8, 8, 6, 4, 4, 3],
         "humidity": [80, 80, 79, 78, 78, 79, 79, 78, 79, 80, 80, 80],
-        "seaTemp":  [17, 16, 16, 17, 18, 20, 22, 23, 23, 22, 20, 18]
+        "seaTemp": [17, 16, 16, 17, 18, 20, 22, 23, 23, 22, 20, 18]
       },
-      "crowd":      [22, 22, 28, 35, 45, 58, 78, 88, 68, 45, 28, 28],
+      "crowd": [22, 22, 28, 35, 45, 58, 78, 88, 68, 45, 28, 28],
       "priceIndex": [38, 38, 45, 55, 62, 72, 88, 95, 75, 58, 42, 48],
-      "cost": { "budget": 52, "mid": 110, "luxury": 250 },
-      "r": {
-        "volcanic": 94, "scenery": 94, "lakesRivers": 90, "hiking": 90, "wildlife": 88, "nationalParks": 80,
-        "forests": 78, "wellness": 82, "kayaking": 72, "scuba": 76, "swimming": 58, "surfing": 62,
-        "fishing": 78, "stargazing": 78, "ecoFriendly": 92, "romance": 78,
-        "valueForMoney": 84, "roadTrip": 78, "cleanliness": 88, "beaches": 45, "foodScene": 62,
-        "clubbing": 18, "publicTransport": 25, "familyYoungKids": 55, "adrenaline": 62
+      "cost": {
+        "budget": 52,
+        "mid": 110,
+        "luxury": 250
       },
-      "photos": ["Sete Cidades crater lake Azores", "Whale watching Azores sperm whale", "Furnas hot springs Sao Miguel", "Lagoa do Fogo Sao Miguel", "Terceira Angra do Heroismo", "Azores tea plantation Gorreana"]
+      "r": {
+        "volcanic": 94, "scenery": 94, "lakesRivers": 90, "hiking": 90, "wildlife": 88,
+        "nationalParks": 80, "forests": 78, "wellness": 82, "kayaking": 72, "scuba": 76,
+        "swimming": 58, "surfing": 62, "fishing": 78, "stargazing": 78, "ecoFriendly": 92,
+        "romance": 78, "valueForMoney": 84, "roadTrip": 78, "cleanliness": 88, "beaches": 45,
+        "foodScene": 62, "clubbing": 18, "publicTransport": 25, "familyYoungKids": 55,
+        "adrenaline": 62
+      },
+      "photos": [
+        "Sete Cidades crater lake Azores",
+        "Whale watching Azores sperm whale",
+        "Furnas hot springs Sao Miguel",
+        "Lagoa do Fogo Sao Miguel",
+        "Terceira Angra do Heroismo",
+        "Azores tea plantation Gorreana"
+      ]
     }
   ]
 }

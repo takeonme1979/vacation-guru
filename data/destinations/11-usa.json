@@ -2,611 +2,1006 @@
   "_doc": "United States — cities, national parks and Hawaii.",
   "destinations": [
     {
-      "id": "new-york-us", "name": "New York City", "country": "US", "region": "New York", "continent": "North America",
-      "lat": 40.713, "lon": -74.006, "type": "city", "arch": "capital-city",
+      "id": "new-york-us",
+      "name": "New York City",
+      "country": "US",
+      "region": "New York",
+      "continent": "North America",
+      "lat": 40.713,
+      "lon": -74.006,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Still the densest concentration of things to do on earth — museums, Broadway, food from everywhere, and a park the size of a town in the middle.",
       "tags": ["museums", "broadway", "food", "iconic"],
       "climate": {
         "tempHigh": [4, 6, 11, 17, 22, 27, 29, 28, 25, 18, 12, 7],
-        "tempLow":  [-3, -2, 2, 7, 13, 18, 21, 20, 17, 11, 6, 0],
+        "tempLow": [-3, -2, 2, 7, 13, 18, 21, 20, 17, 11, 6, 0],
         "rainDays": [10, 9, 11, 11, 11, 11, 11, 10, 9, 9, 10, 10],
         "sunHours": [5, 6, 7, 7, 8, 9, 9, 8, 8, 7, 5, 5],
         "humidity": [61, 60, 58, 55, 62, 65, 65, 66, 67, 65, 64, 64],
         "snowDepth": [18, 20, 10, 1, 0, 0, 0, 0, 0, 0, 2, 12]
       },
-      "crowd":      [55, 52, 62, 72, 78, 85, 82, 80, 82, 78, 72, 85],
+      "crowd": [55, 52, 62, 72, 78, 85, 82, 80, 82, 78, 72, 85],
       "priceIndex": [62, 58, 70, 80, 85, 92, 88, 85, 88, 85, 80, 95],
-      "cost": { "budget": 75, "mid": 175, "luxury": 480 },
+      "cost": {
+        "budget": 75,
+        "mid": 175,
+        "luxury": 480
+      },
       "r": {
         "museums": 100, "theatre": 100, "artScene": 96, "liveMusic": 94, "architecture": 92,
         "foodScene": 96, "fineDining": 94, "streetFood": 84, "markets": 84, "shopping": 96,
         "bars": 92, "clubbing": 90, "lgbtqScene": 96, "sports": 92, "festivals": 84,
-        "publicTransport": 92, "walkability": 96, "historicSites": 74,
-        "familyTeens": 90, "soloTravel": 86, "digitalNomad": 72,
-        "valueForMoney": 28, "beaches": 35, "swimming": 32, "scenery": 42,
-        "cleanliness": 48, "safety": 62, "hiking": 22, "accessibility": 68
+        "publicTransport": 92, "walkability": 96, "historicSites": 74, "familyTeens": 90,
+        "soloTravel": 86, "digitalNomad": 72, "valueForMoney": 28, "beaches": 35, "swimming": 32,
+        "scenery": 42, "cleanliness": 48, "safety": 62, "hiking": 22, "accessibility": 68
       },
-      "photos": ["Manhattan skyline from Brooklyn Bridge", "Central Park autumn New York", "Times Square New York night", "Metropolitan Museum of Art New York", "Statue of Liberty New York", "Brooklyn brownstone street"]
+      "photos": [
+        "Manhattan skyline from Brooklyn Bridge",
+        "Central Park autumn New York",
+        "Times Square New York night",
+        "Metropolitan Museum of Art New York",
+        "Statue of Liberty New York",
+        "Brooklyn brownstone street"
+      ]
     },
     {
-      "id": "san-francisco-us", "name": "San Francisco", "country": "US", "region": "California", "continent": "North America",
-      "lat": 37.775, "lon": -122.419, "type": "city", "arch": "coastal-city",
+      "id": "san-francisco-us",
+      "name": "San Francisco",
+      "country": "US",
+      "region": "California",
+      "continent": "North America",
+      "lat": 37.775,
+      "lon": -122.419,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Fog, hills and the Golden Gate, with Alcatraz in the bay and the redwoods and Napa within two hours. Summer is the coldest season here.",
       "tags": ["golden gate", "food", "hills", "tech"],
       "climate": {
         "tempHigh": [14, 15, 16, 17, 18, 19, 19, 20, 22, 21, 17, 14],
-        "tempLow":  [8, 9, 9, 10, 11, 12, 13, 13, 13, 12, 10, 8],
+        "tempLow": [8, 9, 9, 10, 11, 12, 13, 13, 13, 12, 10, 8],
         "rainDays": [11, 10, 10, 6, 3, 1, 1, 1, 2, 4, 8, 11],
         "sunHours": [6, 7, 8, 9, 10, 11, 10, 9, 9, 8, 6, 5],
         "humidity": [78, 76, 74, 71, 72, 73, 76, 78, 74, 72, 76, 78],
-        "seaTemp":  [12, 12, 12, 12, 12, 13, 13, 14, 15, 15, 14, 13]
+        "seaTemp": [12, 12, 12, 12, 12, 13, 13, 14, 15, 15, 14, 13]
       },
-      "crowd":      [52, 52, 58, 65, 72, 82, 88, 85, 88, 78, 62, 62],
+      "crowd": [52, 52, 58, 65, 72, 82, 88, 85, 88, 78, 62, 62],
       "priceIndex": [62, 62, 68, 75, 82, 90, 95, 92, 95, 85, 72, 72],
-      "cost": { "budget": 85, "mid": 190, "luxury": 500 },
+      "cost": {
+        "budget": 85,
+        "mid": 190,
+        "luxury": 500
+      },
       "r": {
         "foodScene": 96, "fineDining": 94, "coffee": 92, "markets": 88, "museums": 86,
         "artScene": 88, "architecture": 84, "scenery": 82, "cycling": 80, "walkability": 88,
-        "historicSites": 68, "lgbtqScene": 98, "lgbtqSafety": 94, "bars": 84,
-        "liveMusic": 82, "wine": 92, "beer": 88, "vegan": 96, "vegetarian": 94,
-        "publicTransport": 80, "forests": 74, "hiking": 76, "roadTrip": 90,
-        "valueForMoney": 22, "beaches": 55, "swimming": 25, "safety": 48, "cleanliness": 42
+        "historicSites": 68, "lgbtqScene": 98, "lgbtqSafety": 94, "bars": 84, "liveMusic": 82,
+        "wine": 92, "beer": 88, "vegan": 96, "vegetarian": 94, "publicTransport": 80,
+        "forests": 74, "hiking": 76, "roadTrip": 90, "valueForMoney": 22, "beaches": 55,
+        "swimming": 25, "safety": 48, "cleanliness": 42
       },
-      "photos": ["Golden Gate Bridge San Francisco fog", "Painted Ladies San Francisco", "Alcatraz Island San Francisco", "San Francisco cable car", "Muir Woods redwoods California", "Lombard Street San Francisco"]
+      "photos": [
+        "Golden Gate Bridge San Francisco fog",
+        "Painted Ladies San Francisco",
+        "Alcatraz Island San Francisco",
+        "San Francisco cable car",
+        "Muir Woods redwoods California",
+        "Lombard Street San Francisco"
+      ]
     },
     {
-      "id": "los-angeles-us", "name": "Los Angeles", "country": "US", "region": "California", "continent": "North America",
-      "lat": 34.052, "lon": -118.244, "type": "city", "arch": "coastal-city",
+      "id": "los-angeles-us",
+      "name": "Los Angeles",
+      "country": "US",
+      "region": "California",
+      "continent": "North America",
+      "lat": 34.052,
+      "lon": -118.244,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Beaches, canyons, studios and the best Mexican and Korean food outside their home countries — spread over 80km, so hire a car.",
       "tags": ["beaches", "hollywood", "food", "hiking"],
       "climate": {
         "tempHigh": [20, 20, 21, 23, 24, 27, 29, 30, 28, 26, 23, 20],
-        "tempLow":  [9, 10, 11, 12, 15, 17, 19, 19, 18, 15, 11, 9],
+        "tempLow": [9, 10, 11, 12, 15, 17, 19, 19, 18, 15, 11, 9],
         "rainDays": [6, 6, 5, 3, 1, 1, 0, 0, 1, 2, 4, 6],
         "sunHours": [7, 8, 8, 9, 9, 10, 12, 11, 10, 8, 8, 7],
         "humidity": [62, 65, 68, 68, 72, 74, 74, 74, 72, 69, 63, 62],
-        "seaTemp":  [15, 15, 15, 16, 17, 19, 20, 21, 20, 19, 18, 16]
+        "seaTemp": [15, 15, 15, 16, 17, 19, 20, 21, 20, 19, 18, 16]
       },
-      "crowd":      [58, 58, 62, 65, 68, 78, 88, 88, 78, 68, 62, 68],
+      "crowd": [58, 58, 62, 65, 68, 78, 88, 88, 78, 68, 62, 68],
       "priceIndex": [68, 68, 72, 75, 78, 88, 95, 95, 88, 78, 72, 78],
-      "cost": { "budget": 75, "mid": 175, "luxury": 480 },
-      "r": {
-        "beaches": 84, "swimming": 76, "surfing": 88, "waterSports": 76,
-        "foodScene": 94, "streetFood": 90, "fineDining": 88, "markets": 82,
-        "museums": 88, "artScene": 88, "theatre": 82, "liveMusic": 92,
-        "shopping": 90, "themeParks": 96, "bars": 84, "clubbing": 86,
-        "lgbtqScene": 92, "hiking": 84, "mountains": 68, "scenery": 72,
-        "roadTrip": 92, "wellness": 88, "vegan": 96, "familyTeens": 88,
-        "valueForMoney": 32, "publicTransport": 42, "walkability": 42, "safety": 52
+      "cost": {
+        "budget": 75,
+        "mid": 175,
+        "luxury": 480
       },
-      "photos": ["Hollywood sign Los Angeles", "Santa Monica Pier California", "Griffith Observatory Los Angeles", "Venice Beach boardwalk", "Getty Center Los Angeles", "Malibu coast Pacific Coast Highway"]
+      "r": {
+        "beaches": 84, "swimming": 76, "surfing": 88, "waterSports": 76, "foodScene": 94,
+        "streetFood": 90, "fineDining": 88, "markets": 82, "museums": 88, "artScene": 88,
+        "theatre": 82, "liveMusic": 92, "shopping": 90, "themeParks": 96, "bars": 84,
+        "clubbing": 86, "lgbtqScene": 92, "hiking": 84, "mountains": 68, "scenery": 72,
+        "roadTrip": 92, "wellness": 88, "vegan": 96, "familyTeens": 88, "valueForMoney": 32,
+        "publicTransport": 42, "walkability": 42, "safety": 52
+      },
+      "photos": [
+        "Hollywood sign Los Angeles",
+        "Santa Monica Pier California",
+        "Griffith Observatory Los Angeles",
+        "Venice Beach boardwalk",
+        "Getty Center Los Angeles",
+        "Malibu coast Pacific Coast Highway"
+      ]
     },
     {
-      "id": "las-vegas-us", "name": "Las Vegas", "country": "US", "region": "Nevada", "continent": "North America",
-      "lat": 36.170, "lon": -115.140, "type": "city", "arch": "resort-city",
+      "id": "las-vegas-us",
+      "name": "Las Vegas",
+      "country": "US",
+      "region": "Nevada",
+      "continent": "North America",
+      "lat": 36.17,
+      "lon": -115.14,
+      "type": "city",
+      "arch": "resort-city",
       "blurb": "A neon fever dream in the Mojave — residencies, buffets, pool parties and casinos, with Red Rock and the Grand Canyon on the doorstep.",
       "tags": ["casinos", "shows", "nightlife", "desert"],
       "climate": {
         "tempHigh": [15, 18, 22, 27, 32, 38, 40, 39, 35, 28, 20, 14],
-        "tempLow":  [4, 6, 9, 13, 18, 23, 27, 26, 21, 15, 8, 3],
+        "tempLow": [4, 6, 9, 13, 18, 23, 27, 26, 21, 15, 8, 3],
         "rainDays": [3, 3, 2, 1, 1, 1, 2, 3, 2, 2, 2, 3],
         "sunHours": [8, 9, 10, 11, 13, 14, 13, 12, 11, 10, 8, 8],
         "humidity": [40, 36, 32, 26, 24, 20, 23, 26, 27, 32, 37, 41]
       },
-      "crowd":      [65, 68, 78, 82, 78, 68, 62, 62, 72, 82, 72, 72],
+      "crowd": [65, 68, 78, 82, 78, 68, 62, 62, 72, 82, 72, 72],
       "priceIndex": [72, 75, 88, 92, 88, 78, 68, 68, 80, 92, 82, 82],
-      "cost": { "budget": 60, "mid": 150, "luxury": 450 },
+      "cost": {
+        "budget": 60,
+        "mid": 150,
+        "luxury": 450
+      },
       "r": {
         "casinos": 100, "clubbing": 98, "bars": 94, "groupParty": 100, "theatre": 92,
-        "liveMusic": 94, "shopping": 94, "fineDining": 92, "foodScene": 88,
-        "luxury": 94, "wellness": 88, "themeParks": 74, "desert": 86,
-        "hiking": 74, "scenery": 68, "roadTrip": 88, "adrenaline": 78,
-        "golf": 86, "familyTeens": 74, "valueForMoney": 62, "englishSpoken": 100,
-        "beaches": 0, "swimming": 62, "museums": 52, "historicSites": 22,
+        "liveMusic": 94, "shopping": 94, "fineDining": 92, "foodScene": 88, "luxury": 94,
+        "wellness": 88, "themeParks": 74, "desert": 86, "hiking": 74, "scenery": 68,
+        "roadTrip": 88, "adrenaline": 78, "golf": 86, "familyTeens": 74, "valueForMoney": 62,
+        "englishSpoken": 100, "beaches": 0, "swimming": 62, "museums": 52, "historicSites": 22,
         "localCulture": 30, "familyYoungKids": 48, "ecoFriendly": 18, "publicTransport": 45
       },
-      "photos": ["Las Vegas Strip at night", "Bellagio fountains Las Vegas", "Red Rock Canyon Nevada", "Fremont Street Experience Las Vegas", "Las Vegas pool party", "Neon Museum Las Vegas"]
+      "photos": [
+        "Las Vegas Strip at night",
+        "Bellagio fountains Las Vegas",
+        "Red Rock Canyon Nevada",
+        "Fremont Street Experience Las Vegas",
+        "Las Vegas pool party",
+        "Neon Museum Las Vegas"
+      ]
     },
     {
-      "id": "miami-us", "name": "Miami", "country": "US", "region": "Florida", "continent": "North America",
-      "lat": 25.762, "lon": -80.192, "type": "city", "arch": "coastal-city",
+      "id": "miami-us",
+      "name": "Miami",
+      "country": "US",
+      "region": "Florida",
+      "continent": "North America",
+      "lat": 25.762,
+      "lon": -80.192,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Art Deco on South Beach, a Cuban-American culture that runs the city, and the Everglades and Keys within a couple of hours.",
       "tags": ["beach", "art deco", "latin", "nightlife"],
       "climate": {
         "tempHigh": [25, 26, 27, 29, 31, 32, 33, 33, 32, 30, 27, 25],
-        "tempLow":  [16, 17, 19, 21, 23, 25, 26, 26, 25, 23, 20, 17],
+        "tempLow": [16, 17, 19, 21, 23, 25, 26, 26, 25, 23, 20, 17],
         "rainDays": [6, 6, 6, 6, 10, 15, 15, 17, 16, 12, 7, 6],
         "sunHours": [7, 8, 9, 9, 9, 8, 9, 9, 7, 7, 7, 7],
         "humidity": [72, 70, 69, 67, 71, 76, 74, 76, 78, 74, 73, 72],
-        "seaTemp":  [24, 24, 25, 26, 28, 29, 30, 30, 29, 28, 26, 25]
+        "seaTemp": [24, 24, 25, 26, 28, 29, 30, 30, 29, 28, 26, 25]
       },
-      "crowd":      [88, 90, 88, 78, 62, 58, 62, 62, 55, 58, 72, 85],
+      "crowd": [88, 90, 88, 78, 62, 58, 62, 62, 55, 58, 72, 85],
       "priceIndex": [95, 98, 95, 85, 68, 62, 68, 68, 60, 65, 80, 92],
-      "cost": { "budget": 70, "mid": 165, "luxury": 480 },
+      "cost": {
+        "budget": 70,
+        "mid": 165,
+        "luxury": 480
+      },
       "r": {
         "beaches": 92, "swimming": 88, "waterSports": 86, "sailing": 82, "scuba": 74,
-        "snorkelling": 74, "architecture": 88, "artScene": 88, "museums": 76,
-        "bars": 92, "clubbing": 96, "groupParty": 94, "lgbtqScene": 92,
-        "liveMusic": 88, "foodScene": 90, "streetFood": 82, "localCulture": 84,
-        "shopping": 86, "luxury": 90, "wellness": 86, "wildlife": 72,
-        "familyYoungKids": 78, "valueForMoney": 38, "hiking": 30, "scenery": 58,
+        "snorkelling": 74, "architecture": 88, "artScene": 88, "museums": 76, "bars": 92,
+        "clubbing": 96, "groupParty": 94, "lgbtqScene": 92, "liveMusic": 88, "foodScene": 90,
+        "streetFood": 82, "localCulture": 84, "shopping": 86, "luxury": 90, "wellness": 86,
+        "wildlife": 72, "familyYoungKids": 78, "valueForMoney": 38, "hiking": 30, "scenery": 58,
         "safety": 48, "publicTransport": 45
       },
-      "photos": ["South Beach Art Deco Miami", "Miami skyline Biscayne Bay", "Wynwood Walls Miami street art", "Little Havana Calle Ocho Miami", "Everglades airboat Florida", "Miami Beach lifeguard tower"]
+      "photos": [
+        "South Beach Art Deco Miami",
+        "Miami skyline Biscayne Bay",
+        "Wynwood Walls Miami street art",
+        "Little Havana Calle Ocho Miami",
+        "Everglades airboat Florida",
+        "Miami Beach lifeguard tower"
+      ]
     },
     {
-      "id": "new-orleans-us", "name": "New Orleans", "country": "US", "region": "Louisiana", "continent": "North America",
-      "lat": 29.951, "lon": -90.072, "type": "city", "arch": "historic-city",
+      "id": "new-orleans-us",
+      "name": "New Orleans",
+      "country": "US",
+      "region": "Louisiana",
+      "continent": "North America",
+      "lat": 29.951,
+      "lon": -90.072,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Jazz born here, Creole and Cajun cooking, wrought-iron balconies in the French Quarter, and a Mardi Gras that swallows the city whole.",
       "tags": ["jazz", "creole", "mardi gras", "french quarter"],
       "climate": {
         "tempHigh": [17, 19, 23, 26, 30, 32, 33, 33, 31, 27, 22, 18],
-        "tempLow":  [7, 9, 12, 16, 20, 24, 25, 25, 23, 17, 12, 8],
+        "tempLow": [7, 9, 12, 16, 20, 24, 25, 25, 23, 17, 12, 8],
         "rainDays": [10, 9, 9, 7, 8, 11, 14, 13, 10, 7, 8, 10],
         "sunHours": [5, 6, 7, 8, 9, 9, 8, 8, 8, 8, 6, 5],
         "humidity": [76, 74, 73, 73, 74, 77, 80, 80, 79, 74, 76, 77]
       },
-      "crowd":      [65, 88, 78, 72, 62, 55, 52, 52, 58, 68, 62, 68],
+      "crowd": [65, 88, 78, 72, 62, 55, 52, 52, 58, 68, 62, 68],
       "priceIndex": [72, 100, 88, 80, 70, 62, 58, 58, 65, 75, 70, 78],
-      "cost": { "budget": 60, "mid": 140, "luxury": 400 },
-      "r": {
-        "liveMusic": 100, "festivals": 100, "foodScene": 96, "bars": 96,
-        "localCulture": 98, "architecture": 92, "historicSites": 84, "museums": 82,
-        "streetFood": 84, "markets": 78, "groupParty": 94, "clubbing": 82,
-        "walkability": 86, "lgbtqScene": 84, "romance": 82, "artScene": 82,
-        "valueForMoney": 68, "familyTeens": 68, "wildlife": 68,
-        "safety": 38, "cleanliness": 45, "beaches": 15, "swimming": 22,
-        "hiking": 15, "scenery": 42, "publicTransport": 52
+      "cost": {
+        "budget": 60,
+        "mid": 140,
+        "luxury": 400
       },
-      "photos": ["French Quarter balconies New Orleans", "Jazz band Frenchmen Street New Orleans", "St Louis Cathedral Jackson Square", "Mardi Gras parade New Orleans", "New Orleans streetcar St Charles", "Louisiana bayou swamp cypress"]
+      "r": {
+        "liveMusic": 100, "festivals": 100, "foodScene": 96, "bars": 96, "localCulture": 98,
+        "architecture": 92, "historicSites": 84, "museums": 82, "streetFood": 84, "markets": 78,
+        "groupParty": 94, "clubbing": 82, "walkability": 86, "lgbtqScene": 84, "romance": 82,
+        "artScene": 82, "valueForMoney": 68, "familyTeens": 68, "wildlife": 68, "safety": 38,
+        "cleanliness": 45, "beaches": 15, "swimming": 22, "hiking": 15, "scenery": 42,
+        "publicTransport": 52
+      },
+      "photos": [
+        "French Quarter balconies New Orleans",
+        "Jazz band Frenchmen Street New Orleans",
+        "St Louis Cathedral Jackson Square",
+        "Mardi Gras parade New Orleans",
+        "New Orleans streetcar St Charles",
+        "Louisiana bayou swamp cypress"
+      ]
     },
     {
-      "id": "chicago-us", "name": "Chicago", "country": "US", "region": "Illinois", "continent": "North America",
-      "lat": 41.878, "lon": -87.630, "type": "city", "arch": "capital-city",
+      "id": "chicago-us",
+      "name": "Chicago",
+      "country": "US",
+      "region": "Illinois",
+      "continent": "North America",
+      "lat": 41.878,
+      "lon": -87.63,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "The birthplace of the skyscraper, with a lakefront beach and cycle path, world-class museums and blues bars. Winters are genuinely brutal.",
       "tags": ["architecture", "blues", "museums", "lakefront"],
       "climate": {
         "tempHigh": [1, 3, 9, 16, 22, 27, 29, 28, 25, 17, 10, 3],
-        "tempLow":  [-8, -6, -1, 5, 11, 17, 20, 19, 15, 8, 2, -5],
+        "tempLow": [-8, -6, -1, 5, 11, 17, 20, 19, 15, 8, 2, -5],
         "rainDays": [10, 9, 11, 11, 11, 10, 10, 9, 8, 9, 10, 10],
         "sunHours": [4, 5, 6, 7, 9, 10, 10, 9, 8, 6, 4, 3],
         "humidity": [72, 71, 70, 66, 66, 68, 71, 73, 72, 69, 73, 75],
         "snowDepth": [25, 20, 12, 2, 0, 0, 0, 0, 0, 0, 5, 18]
       },
-      "crowd":      [42, 42, 52, 62, 72, 82, 88, 85, 78, 68, 52, 58],
+      "crowd": [42, 42, 52, 62, 72, 82, 88, 85, 78, 68, 52, 58],
       "priceIndex": [52, 52, 62, 72, 80, 90, 95, 92, 85, 75, 62, 68],
-      "cost": { "budget": 68, "mid": 155, "luxury": 420 },
-      "r": {
-        "architecture": 100, "museums": 94, "artScene": 88, "theatre": 92,
-        "liveMusic": 94, "foodScene": 92, "fineDining": 90, "bars": 90,
-        "beer": 90, "sports": 94, "shopping": 86, "festivals": 84,
-        "lakesRivers": 82, "cycling": 84, "walkability": 84, "publicTransport": 88,
-        "beaches": 62, "swimming": 55, "familyYoungKids": 80, "familyTeens": 84,
-        "valueForMoney": 55, "clubbing": 82, "safety": 48, "scenery": 52, "hiking": 22
+      "cost": {
+        "budget": 68,
+        "mid": 155,
+        "luxury": 420
       },
-      "photos": ["Chicago skyline from Lake Michigan", "Cloud Gate Bean Millennium Park", "Chicago River architecture boat tour", "Art Institute of Chicago", "Chicago deep dish pizza", "Chicago L train loop"]
+      "r": {
+        "architecture": 100, "museums": 94, "artScene": 88, "theatre": 92, "liveMusic": 94,
+        "foodScene": 92, "fineDining": 90, "bars": 90, "beer": 90, "sports": 94, "shopping": 86,
+        "festivals": 84, "lakesRivers": 82, "cycling": 84, "walkability": 84,
+        "publicTransport": 88, "beaches": 62, "swimming": 55, "familyYoungKids": 80,
+        "familyTeens": 84, "valueForMoney": 55, "clubbing": 82, "safety": 48, "scenery": 52,
+        "hiking": 22
+      },
+      "photos": [
+        "Chicago skyline from Lake Michigan",
+        "Cloud Gate Bean Millennium Park",
+        "Chicago River architecture boat tour",
+        "Art Institute of Chicago",
+        "Chicago deep dish pizza",
+        "Chicago L train loop"
+      ]
     },
     {
-      "id": "boston-us", "name": "Boston", "country": "US", "region": "Massachusetts", "continent": "North America",
-      "lat": 42.360, "lon": -71.058, "type": "city", "arch": "historic-city",
+      "id": "boston-us",
+      "name": "Boston",
+      "country": "US",
+      "region": "Massachusetts",
+      "continent": "North America",
+      "lat": 42.36,
+      "lon": -71.058,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "America's most walkable and most European city — revolutionary history on the Freedom Trail, Harvard across the river, and New England autumn.",
       "tags": ["history", "universities", "autumn", "walkable"],
       "climate": {
         "tempHigh": [2, 4, 8, 14, 20, 25, 28, 27, 23, 17, 11, 5],
-        "tempLow":  [-6, -5, -1, 4, 10, 15, 19, 18, 14, 8, 3, -3],
+        "tempLow": [-6, -5, -1, 4, 10, 15, 19, 18, 14, 8, 3, -3],
         "rainDays": [11, 10, 12, 11, 12, 11, 10, 9, 9, 9, 11, 11],
         "sunHours": [5, 6, 7, 7, 8, 9, 9, 9, 8, 6, 5, 5],
         "humidity": [64, 62, 62, 60, 64, 66, 66, 68, 70, 67, 66, 65],
         "snowDepth": [30, 28, 18, 3, 0, 0, 0, 0, 0, 0, 4, 20]
       },
-      "crowd":      [45, 45, 52, 62, 72, 82, 85, 82, 78, 82, 58, 58],
+      "crowd": [45, 45, 52, 62, 72, 82, 85, 82, 78, 82, 58, 58],
       "priceIndex": [55, 55, 62, 72, 80, 90, 92, 90, 85, 90, 68, 68],
-      "cost": { "budget": 75, "mid": 170, "luxury": 460 },
+      "cost": {
+        "budget": 75,
+        "mid": 170,
+        "luxury": 460
+      },
       "r": {
         "historicSites": 96, "museums": 90, "architecture": 86, "walkability": 94,
-        "artScene": 82, "theatre": 82, "liveMusic": 80, "foodScene": 86,
-        "fineDining": 84, "markets": 78, "bars": 84, "beer": 88, "sports": 94,
-        "publicTransport": 84, "cycling": 76, "forests": 68, "romance": 78,
-        "beaches": 58, "swimming": 45, "sailing": 78, "seniors": 76,
-        "valueForMoney": 35, "familyYoungKids": 78, "scenery": 58, "hiking": 45
+        "artScene": 82, "theatre": 82, "liveMusic": 80, "foodScene": 86, "fineDining": 84,
+        "markets": 78, "bars": 84, "beer": 88, "sports": 94, "publicTransport": 84,
+        "cycling": 76, "forests": 68, "romance": 78, "beaches": 58, "swimming": 45,
+        "sailing": 78, "seniors": 76, "valueForMoney": 35, "familyYoungKids": 78, "scenery": 58,
+        "hiking": 45
       },
-      "photos": ["Boston Freedom Trail Old State House", "Acorn Street Beacon Hill Boston", "Boston skyline Charles River", "Fenway Park Boston", "Harvard Yard Cambridge", "New England autumn foliage Massachusetts"]
+      "photos": [
+        "Boston Freedom Trail Old State House",
+        "Acorn Street Beacon Hill Boston",
+        "Boston skyline Charles River",
+        "Fenway Park Boston",
+        "Harvard Yard Cambridge",
+        "New England autumn foliage Massachusetts"
+      ]
     },
     {
-      "id": "washington-dc-us", "name": "Washington DC", "country": "US", "region": "District of Columbia", "continent": "North America",
-      "lat": 38.907, "lon": -77.037, "type": "city", "arch": "capital-city",
+      "id": "washington-dc-us",
+      "name": "Washington DC",
+      "country": "US",
+      "region": "District of Columbia",
+      "continent": "North America",
+      "lat": 38.907,
+      "lon": -77.037,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Nineteen Smithsonian museums, all free, plus the monuments and the cherry blossoms in early April. The best-value cultural city in America.",
       "tags": ["free museums", "monuments", "cherry blossom", "history"],
       "climate": {
         "tempHigh": [6, 8, 13, 19, 24, 29, 31, 30, 27, 20, 14, 8],
-        "tempLow":  [-3, -2, 2, 8, 13, 19, 22, 21, 17, 11, 5, 0],
+        "tempLow": [-3, -2, 2, 8, 13, 19, 22, 21, 17, 11, 5, 0],
         "rainDays": [9, 8, 10, 10, 11, 10, 10, 9, 8, 8, 8, 9],
         "sunHours": [5, 6, 7, 8, 9, 9, 9, 9, 8, 7, 5, 5],
         "humidity": [62, 60, 58, 56, 64, 66, 68, 70, 71, 68, 65, 64],
         "snowDepth": [12, 10, 4, 0, 0, 0, 0, 0, 0, 0, 1, 6]
       },
-      "crowd":      [45, 52, 78, 88, 72, 72, 72, 68, 68, 72, 55, 55],
+      "crowd": [45, 52, 78, 88, 72, 72, 72, 68, 68, 72, 55, 55],
       "priceIndex": [55, 62, 88, 98, 80, 80, 80, 78, 78, 80, 65, 65],
-      "cost": { "budget": 70, "mid": 160, "luxury": 440 },
-      "r": {
-        "museums": 100, "historicSites": 92, "architecture": 88, "artScene": 84,
-        "theatre": 82, "foodScene": 86, "fineDining": 84, "markets": 78,
-        "walkability": 88, "publicTransport": 88, "cycling": 82, "bars": 80,
-        "festivals": 78, "familyYoungKids": 84, "familyTeens": 86,
-        "valueForMoney": 66, "accessibility": 88, "lakesRivers": 62,
-        "beaches": 5, "swimming": 25, "scenery": 55, "hiking": 45,
-        "clubbing": 72, "safety": 52, "seniors": 78
+      "cost": {
+        "budget": 70,
+        "mid": 160,
+        "luxury": 440
       },
-      "photos": ["Lincoln Memorial Washington DC", "US Capitol building Washington", "Cherry blossoms Tidal Basin DC", "Smithsonian Air and Space Museum", "Washington Monument reflecting pool", "Georgetown waterfront DC"]
+      "r": {
+        "museums": 100, "historicSites": 92, "architecture": 88, "artScene": 84, "theatre": 82,
+        "foodScene": 86, "fineDining": 84, "markets": 78, "walkability": 88,
+        "publicTransport": 88, "cycling": 82, "bars": 80, "festivals": 78, "familyYoungKids": 84,
+        "familyTeens": 86, "valueForMoney": 66, "accessibility": 88, "lakesRivers": 62,
+        "beaches": 5, "swimming": 25, "scenery": 55, "hiking": 45, "clubbing": 72, "safety": 52,
+        "seniors": 78
+      },
+      "photos": [
+        "Lincoln Memorial Washington DC",
+        "US Capitol building Washington",
+        "Cherry blossoms Tidal Basin DC",
+        "Smithsonian Air and Space Museum",
+        "Washington Monument reflecting pool",
+        "Georgetown waterfront DC"
+      ]
     },
     {
-      "id": "seattle-us", "name": "Seattle", "country": "US", "region": "Washington", "continent": "North America",
-      "lat": 47.606, "lon": -122.332, "type": "city", "arch": "coastal-city",
+      "id": "seattle-us",
+      "name": "Seattle",
+      "country": "US",
+      "region": "Washington",
+      "continent": "North America",
+      "lat": 47.606,
+      "lon": -122.332,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Coffee, grunge and Pike Place, ringed by water and volcanoes — Rainier, the Olympics and the North Cascades all within reach. It really does rain.",
       "tags": ["coffee", "mountains", "music", "seafood"],
       "climate": {
         "tempHigh": [8, 9, 12, 15, 18, 21, 24, 25, 21, 15, 10, 7],
-        "tempLow":  [2, 2, 4, 6, 9, 12, 14, 14, 12, 8, 5, 2],
+        "tempLow": [2, 2, 4, 6, 9, 12, 14, 14, 12, 8, 5, 2],
         "rainDays": [19, 15, 17, 14, 11, 9, 5, 5, 8, 14, 19, 20],
         "sunHours": [2, 4, 5, 7, 8, 9, 10, 9, 7, 4, 2, 2],
         "humidity": [78, 76, 74, 71, 70, 69, 68, 70, 73, 77, 79, 80],
-        "seaTemp":  [9, 9, 9, 10, 11, 12, 13, 14, 13, 12, 11, 10]
+        "seaTemp": [9, 9, 9, 10, 11, 12, 13, 14, 13, 12, 11, 10]
       },
-      "crowd":      [42, 42, 48, 55, 65, 78, 88, 88, 72, 55, 45, 50],
+      "crowd": [42, 42, 48, 55, 65, 78, 88, 88, 72, 55, 45, 50],
       "priceIndex": [52, 52, 58, 65, 75, 88, 95, 95, 80, 65, 55, 60],
-      "cost": { "budget": 70, "mid": 160, "luxury": 420 },
-      "r": {
-        "coffee": 100, "foodScene": 90, "markets": 92, "liveMusic": 90,
-        "museums": 82, "artScene": 84, "beer": 92, "wine": 84, "bars": 82,
-        "mountains": 86, "hiking": 90, "forests": 88, "nationalParks": 88,
-        "kayaking": 84, "sailing": 80, "scenery": 86, "cycling": 78,
-        "walkability": 78, "publicTransport": 72, "roadTrip": 88,
-        "lgbtqScene": 86, "vegan": 92, "valueForMoney": 42,
-        "beaches": 42, "swimming": 30, "clubbing": 72, "safety": 52
+      "cost": {
+        "budget": 70,
+        "mid": 160,
+        "luxury": 420
       },
-      "photos": ["Space Needle Seattle Mount Rainier", "Pike Place Market Seattle", "Mount Rainier National Park wildflowers", "Seattle waterfront ferry", "Olympic National Park rainforest", "Chihuly Garden and Glass Seattle"]
+      "r": {
+        "coffee": 100, "foodScene": 90, "markets": 92, "liveMusic": 90, "museums": 82,
+        "artScene": 84, "beer": 92, "wine": 84, "bars": 82, "mountains": 86, "hiking": 90,
+        "forests": 88, "nationalParks": 88, "kayaking": 84, "sailing": 80, "scenery": 86,
+        "cycling": 78, "walkability": 78, "publicTransport": 72, "roadTrip": 88,
+        "lgbtqScene": 86, "vegan": 92, "valueForMoney": 42, "beaches": 42, "swimming": 30,
+        "clubbing": 72, "safety": 52
+      },
+      "photos": [
+        "Space Needle Seattle Mount Rainier",
+        "Pike Place Market Seattle",
+        "Mount Rainier National Park wildflowers",
+        "Seattle waterfront ferry",
+        "Olympic National Park rainforest",
+        "Chihuly Garden and Glass Seattle"
+      ]
     },
     {
-      "id": "san-diego-us", "name": "San Diego", "country": "US", "region": "California", "continent": "North America",
-      "lat": 32.716, "lon": -117.161, "type": "city", "arch": "coastal-city",
+      "id": "san-diego-us",
+      "name": "San Diego",
+      "country": "US",
+      "region": "California",
+      "continent": "North America",
+      "lat": 32.716,
+      "lon": -117.161,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "The most consistently pleasant weather in the US, 70 miles of beach, the best zoo in America and a serious craft beer scene.",
       "tags": ["beach", "surfing", "zoo", "beer"],
       "climate": {
         "tempHigh": [19, 19, 19, 21, 21, 22, 25, 26, 25, 24, 22, 19],
-        "tempLow":  [10, 11, 12, 13, 15, 17, 19, 20, 19, 16, 12, 10],
+        "tempLow": [10, 11, 12, 13, 15, 17, 19, 20, 19, 16, 12, 10],
         "rainDays": [6, 6, 5, 3, 2, 1, 0, 1, 1, 3, 4, 6],
         "sunHours": [8, 8, 9, 9, 8, 8, 10, 10, 9, 8, 8, 7],
         "humidity": [64, 68, 70, 70, 73, 76, 76, 76, 74, 70, 65, 63],
-        "seaTemp":  [15, 15, 16, 17, 18, 20, 21, 22, 21, 20, 18, 16]
+        "seaTemp": [15, 15, 16, 17, 18, 20, 21, 22, 21, 20, 18, 16]
       },
-      "crowd":      [55, 58, 62, 65, 68, 78, 88, 88, 75, 65, 58, 62],
+      "crowd": [55, 58, 62, 65, 68, 78, 88, 88, 75, 65, 58, 62],
       "priceIndex": [65, 68, 72, 75, 78, 88, 95, 95, 85, 75, 68, 72],
-      "cost": { "budget": 70, "mid": 160, "luxury": 440 },
+      "cost": {
+        "budget": 70,
+        "mid": 160,
+        "luxury": 440
+      },
       "r": {
         "beaches": 92, "swimming": 84, "surfing": 92, "waterSports": 84, "sailing": 82,
         "wildlife": 86, "themeParks": 88, "beer": 96, "foodScene": 88, "streetFood": 86,
-        "markets": 80, "museums": 80, "architecture": 76, "historicSites": 68,
-        "hiking": 78, "cycling": 82, "golf": 88, "wellness": 84,
-        "familyYoungKids": 92, "familyTeens": 86, "seniors": 84, "romance": 78,
-        "valueForMoney": 45, "publicTransport": 48, "clubbing": 74, "safety": 68
+        "markets": 80, "museums": 80, "architecture": 76, "historicSites": 68, "hiking": 78,
+        "cycling": 82, "golf": 88, "wellness": 84, "familyYoungKids": 92, "familyTeens": 86,
+        "seniors": 84, "romance": 78, "valueForMoney": 45, "publicTransport": 48, "clubbing": 74,
+        "safety": 68
       },
-      "photos": ["La Jolla Cove San Diego seals", "Balboa Park San Diego", "Coronado Beach San Diego", "San Diego skyline harbour", "Sunset Cliffs San Diego", "Gaslamp Quarter San Diego"]
+      "photos": [
+        "La Jolla Cove San Diego seals",
+        "Balboa Park San Diego",
+        "Coronado Beach San Diego",
+        "San Diego skyline harbour",
+        "Sunset Cliffs San Diego",
+        "Gaslamp Quarter San Diego"
+      ]
     },
     {
-      "id": "charleston-us", "name": "Charleston", "country": "US", "region": "South Carolina", "continent": "North America",
-      "lat": 32.777, "lon": -79.931, "type": "city", "arch": "historic-city",
+      "id": "charleston-us",
+      "name": "Charleston",
+      "country": "US",
+      "region": "South Carolina",
+      "continent": "North America",
+      "lat": 32.777,
+      "lon": -79.931,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "Pastel antebellum houses, cobbled streets and live oaks dripping Spanish moss — plus one of the best restaurant scenes in the country.",
       "tags": ["antebellum", "southern food", "beaches", "walkable"],
       "climate": {
         "tempHigh": [15, 17, 21, 25, 29, 32, 33, 32, 30, 25, 21, 17],
-        "tempLow":  [3, 5, 9, 13, 18, 22, 24, 23, 21, 15, 10, 5],
+        "tempLow": [3, 5, 9, 13, 18, 22, 24, 23, 21, 15, 10, 5],
         "rainDays": [9, 9, 9, 7, 8, 11, 13, 13, 10, 7, 7, 9],
         "sunHours": [6, 6, 7, 9, 9, 9, 8, 8, 7, 7, 6, 6],
         "humidity": [74, 72, 72, 71, 74, 77, 79, 80, 79, 76, 74, 74],
-        "seaTemp":  [13, 13, 16, 20, 24, 27, 28, 28, 27, 24, 19, 15]
+        "seaTemp": [13, 13, 16, 20, 24, 27, 28, 28, 27, 24, 19, 15]
       },
-      "crowd":      [45, 52, 72, 82, 72, 68, 68, 65, 62, 72, 58, 52],
+      "crowd": [45, 52, 72, 82, 72, 68, 68, 65, 62, 72, 58, 52],
       "priceIndex": [55, 62, 82, 92, 80, 78, 78, 75, 72, 82, 68, 62],
-      "cost": { "budget": 65, "mid": 150, "luxury": 400 },
+      "cost": {
+        "budget": 65,
+        "mid": 150,
+        "luxury": 400
+      },
       "r": {
         "architecture": 96, "historicSites": 92, "foodScene": 94, "fineDining": 92,
-        "walkability": 92, "museums": 76, "artScene": 78, "markets": 78,
-        "localCulture": 88, "romance": 90, "beaches": 78, "swimming": 74,
-        "sailing": 78, "golf": 86, "wildlife": 72, "bars": 82, "liveMusic": 78,
-        "seniors": 84, "familyYoungKids": 76, "valueForMoney": 55,
+        "walkability": 92, "museums": 76, "artScene": 78, "markets": 78, "localCulture": 88,
+        "romance": 90, "beaches": 78, "swimming": 74, "sailing": 78, "golf": 86, "wildlife": 72,
+        "bars": 82, "liveMusic": 78, "seniors": 84, "familyYoungKids": 76, "valueForMoney": 55,
         "clubbing": 55, "hiking": 42, "publicTransport": 38, "safety": 68
       },
-      "photos": ["Rainbow Row Charleston", "Charleston antebellum house piazza", "Angel Oak tree Charleston", "Charleston Battery waterfront", "Folly Beach South Carolina", "Magnolia Plantation gardens Charleston"]
+      "photos": [
+        "Rainbow Row Charleston",
+        "Charleston antebellum house piazza",
+        "Angel Oak tree Charleston",
+        "Charleston Battery waterfront",
+        "Folly Beach South Carolina",
+        "Magnolia Plantation gardens Charleston"
+      ]
     },
     {
-      "id": "nashville-us", "name": "Nashville", "country": "US", "region": "Tennessee", "continent": "North America",
-      "lat": 36.163, "lon": -86.781, "type": "city", "arch": "capital-city",
+      "id": "nashville-us",
+      "name": "Nashville",
+      "country": "US",
+      "region": "Tennessee",
+      "continent": "North America",
+      "lat": 36.163,
+      "lon": -86.781,
+      "type": "city",
+      "arch": "capital-city",
       "blurb": "Live music in every bar on Broadway from 10am, the Grand Ole Opry, hot chicken, and the Smoky Mountains three hours east.",
       "tags": ["country music", "live music", "bbq", "bachelorette"],
       "climate": {
         "tempHigh": [8, 10, 16, 21, 25, 30, 32, 32, 28, 22, 15, 9],
-        "tempLow":  [-2, 0, 4, 9, 14, 19, 21, 20, 16, 9, 4, 0],
+        "tempLow": [-2, 0, 4, 9, 14, 19, 21, 20, 16, 9, 4, 0],
         "rainDays": [10, 10, 11, 11, 11, 10, 10, 8, 8, 7, 9, 10],
         "sunHours": [5, 6, 7, 8, 9, 10, 9, 9, 8, 7, 5, 4],
         "humidity": [70, 68, 64, 62, 68, 70, 72, 72, 72, 70, 70, 71],
         "snowDepth": [4, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2]
       },
-      "crowd":      [48, 48, 58, 68, 72, 78, 82, 78, 72, 72, 58, 55],
+      "crowd": [48, 48, 58, 68, 72, 78, 82, 78, 72, 72, 58, 55],
       "priceIndex": [58, 58, 68, 78, 80, 85, 88, 85, 80, 80, 68, 65],
-      "cost": { "budget": 55, "mid": 130, "luxury": 350 },
-      "r": {
-        "liveMusic": 100, "bars": 94, "groupParty": 94, "foodScene": 86,
-        "festivals": 86, "museums": 78, "localCulture": 88, "theatre": 72,
-        "walkability": 74, "shopping": 76, "clubbing": 78, "beer": 84,
-        "hiking": 58, "forests": 62, "lakesRivers": 68, "roadTrip": 78,
-        "valueForMoney": 68, "familyTeens": 76, "seniors": 66,
-        "beaches": 0, "swimming": 32, "scenery": 48, "publicTransport": 38, "safety": 52
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 350
       },
-      "photos": ["Broadway honky tonks Nashville night", "Grand Ole Opry Nashville", "Ryman Auditorium Nashville", "Nashville hot chicken", "Country Music Hall of Fame", "Nashville skyline Cumberland River"]
+      "r": {
+        "liveMusic": 100, "bars": 94, "groupParty": 94, "foodScene": 86, "festivals": 86,
+        "museums": 78, "localCulture": 88, "theatre": 72, "walkability": 74, "shopping": 76,
+        "clubbing": 78, "beer": 84, "hiking": 58, "forests": 62, "lakesRivers": 68,
+        "roadTrip": 78, "valueForMoney": 68, "familyTeens": 76, "seniors": 66, "beaches": 0,
+        "swimming": 32, "scenery": 48, "publicTransport": 38, "safety": 52
+      },
+      "photos": [
+        "Broadway honky tonks Nashville night",
+        "Grand Ole Opry Nashville",
+        "Ryman Auditorium Nashville",
+        "Nashville hot chicken",
+        "Country Music Hall of Fame",
+        "Nashville skyline Cumberland River"
+      ]
     },
-
     {
-      "id": "grand-canyon-us", "name": "Grand Canyon", "country": "US", "region": "Arizona", "continent": "North America",
-      "lat": 36.107, "lon": -112.113, "type": "mountains", "arch": "wilderness-park",
+      "id": "grand-canyon-us",
+      "name": "Grand Canyon",
+      "country": "US",
+      "region": "Arizona",
+      "continent": "North America",
+      "lat": 36.107,
+      "lon": -112.113,
+      "type": "mountains",
+      "arch": "wilderness-park",
       "blurb": "446km long, 1.6km deep and genuinely impossible to photograph adequately. Rim-to-rim hikes, mule trains and rafting the Colorado below.",
       "tags": ["canyon", "hiking", "rafting", "iconic"],
       "climate": {
         "tempHigh": [7, 9, 13, 17, 23, 29, 32, 30, 27, 21, 13, 7],
-        "tempLow":  [-8, -6, -3, 0, 4, 9, 13, 12, 9, 3, -3, -7],
+        "tempLow": [-8, -6, -3, 0, 4, 9, 13, 12, 9, 3, -3, -7],
         "rainDays": [4, 4, 4, 3, 2, 1, 5, 6, 4, 3, 3, 4],
         "sunHours": [7, 8, 9, 10, 11, 12, 11, 10, 10, 9, 8, 7],
         "humidity": [50, 45, 38, 30, 26, 22, 32, 38, 34, 34, 42, 50],
         "snowDepth": [25, 22, 15, 4, 0, 0, 0, 0, 0, 1, 8, 20]
       },
-      "crowd":      [32, 35, 52, 68, 78, 88, 92, 90, 78, 68, 45, 38],
+      "crowd": [32, 35, 52, 68, 78, 88, 92, 90, 78, 68, 45, 38],
       "priceIndex": [45, 48, 65, 78, 88, 95, 98, 95, 88, 78, 58, 50],
-      "cost": { "budget": 55, "mid": 125, "luxury": 320 },
-      "r": {
-        "scenery": 100, "nationalParks": 100, "hiking": 96, "desert": 88,
-        "stargazing": 96, "adrenaline": 86, "kayaking": 82, "climbing": 68,
-        "roadTrip": 92, "wildlife": 68, "localCulture": 70, "romance": 80,
-        "familyTeens": 86, "valueForMoney": 78, "englishSpoken": 100,
-        "beaches": 0, "swimming": 22, "clubbing": 2, "bars": 25, "shopping": 25,
-        "museums": 45, "foodScene": 45, "publicTransport": 32, "walkability": 25
+      "cost": {
+        "budget": 55,
+        "mid": 125,
+        "luxury": 320
       },
-      "photos": ["Grand Canyon South Rim sunrise", "Grand Canyon Colorado River rafting", "Bright Angel Trail Grand Canyon", "Horseshoe Bend Arizona", "Grand Canyon night sky stars", "Antelope Canyon Arizona"]
+      "r": {
+        "scenery": 100, "nationalParks": 100, "hiking": 96, "desert": 88, "stargazing": 96,
+        "adrenaline": 86, "kayaking": 82, "climbing": 68, "roadTrip": 92, "wildlife": 68,
+        "localCulture": 70, "romance": 80, "familyTeens": 86, "valueForMoney": 78,
+        "englishSpoken": 100, "beaches": 0, "swimming": 22, "clubbing": 2, "bars": 25,
+        "shopping": 25, "museums": 45, "foodScene": 45, "publicTransport": 32, "walkability": 25
+      },
+      "photos": [
+        "Grand Canyon South Rim sunrise",
+        "Grand Canyon Colorado River rafting",
+        "Bright Angel Trail Grand Canyon",
+        "Horseshoe Bend Arizona",
+        "Grand Canyon night sky stars",
+        "Antelope Canyon Arizona"
+      ]
     },
     {
-      "id": "yellowstone-us", "name": "Yellowstone & Grand Teton", "country": "US", "region": "Wyoming", "continent": "North America",
-      "lat": 44.428, "lon": -110.588, "type": "mountains", "arch": "wilderness-park",
+      "id": "yellowstone-us",
+      "name": "Yellowstone & Grand Teton",
+      "country": "US",
+      "region": "Wyoming",
+      "continent": "North America",
+      "lat": 44.428,
+      "lon": -110.588,
+      "type": "mountains",
+      "arch": "wilderness-park",
       "blurb": "A supervolcano's worth of geysers and hot springs, bison herds and wolves, with the Tetons rising straight off the valley floor to the south.",
       "tags": ["geysers", "wildlife", "wolves", "mountains"],
       "climate": {
         "tempHigh": [-1, 1, 5, 11, 17, 22, 27, 26, 21, 13, 3, -1],
-        "tempLow":  [-14, -13, -9, -4, 1, 5, 8, 7, 3, -2, -9, -13],
+        "tempLow": [-14, -13, -9, -4, 1, 5, 8, 7, 3, -2, -9, -13],
         "rainDays": [10, 8, 9, 9, 11, 11, 7, 7, 7, 7, 10, 10],
         "sunHours": [4, 5, 7, 8, 9, 10, 11, 10, 9, 7, 4, 4],
         "humidity": [70, 66, 60, 55, 58, 58, 52, 50, 54, 58, 68, 72],
         "snowDepth": [60, 65, 55, 30, 5, 0, 0, 0, 0, 5, 30, 55]
       },
-      "crowd":      [22, 22, 25, 32, 52, 82, 95, 95, 72, 42, 20, 22],
+      "crowd": [22, 22, 25, 32, 52, 82, 95, 95, 72, 42, 20, 22],
       "priceIndex": [35, 35, 38, 48, 68, 92, 100, 100, 82, 55, 32, 35],
-      "cost": { "budget": 55, "mid": 130, "luxury": 340 },
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 340
+      },
       "r": {
-        "wildlife": 98, "volcanic": 96, "nationalParks": 100, "scenery": 98,
-        "hiking": 94, "mountains": 92, "stargazing": 94, "lakesRivers": 88,
-        "forests": 88, "fishing": 90, "kayaking": 74, "climbing": 78,
-        "roadTrip": 92, "skiing": 30, "adrenaline": 74, "familyYoungKids": 74,
-        "familyTeens": 88, "romance": 80, "valueForMoney": 72, "ecoFriendly": 72,
-        "beaches": 0, "swimming": 25, "clubbing": 2, "shopping": 22,
+        "wildlife": 98, "volcanic": 96, "nationalParks": 100, "scenery": 98, "hiking": 94,
+        "mountains": 92, "stargazing": 94, "lakesRivers": 88, "forests": 88, "fishing": 90,
+        "kayaking": 74, "climbing": 78, "roadTrip": 92, "skiing": 30, "adrenaline": 74,
+        "familyYoungKids": 74, "familyTeens": 88, "romance": 80, "valueForMoney": 72,
+        "ecoFriendly": 72, "beaches": 0, "swimming": 25, "clubbing": 2, "shopping": 22,
         "museums": 38, "publicTransport": 8, "walkability": 15
       },
-      "photos": ["Grand Prismatic Spring Yellowstone", "Old Faithful geyser Yellowstone", "Grand Teton mountains Wyoming", "Bison herd Yellowstone", "Yellowstone Lower Falls canyon", "Wolf Yellowstone National Park"]
+      "photos": [
+        "Grand Prismatic Spring Yellowstone",
+        "Old Faithful geyser Yellowstone",
+        "Grand Teton mountains Wyoming",
+        "Bison herd Yellowstone",
+        "Yellowstone Lower Falls canyon",
+        "Wolf Yellowstone National Park"
+      ]
     },
     {
-      "id": "yosemite-us", "name": "Yosemite", "country": "US", "region": "California", "continent": "North America",
-      "lat": 37.865, "lon": -119.538, "type": "mountains", "arch": "wilderness-park",
+      "id": "yosemite-us",
+      "name": "Yosemite",
+      "country": "US",
+      "region": "California",
+      "continent": "North America",
+      "lat": 37.865,
+      "lon": -119.538,
+      "type": "mountains",
+      "arch": "wilderness-park",
       "blurb": "Granite walls a kilometre high, giant sequoias and waterfalls at full roar in May. The birthplace of big-wall climbing, and of the national park idea.",
       "tags": ["granite", "waterfalls", "climbing", "sequoias"],
       "climate": {
         "tempHigh": [8, 11, 14, 18, 23, 28, 32, 32, 28, 22, 13, 8],
-        "tempLow":  [-3, -1, 1, 3, 7, 11, 15, 14, 11, 6, 1, -3],
+        "tempLow": [-3, -1, 1, 3, 7, 11, 15, 14, 11, 6, 1, -3],
         "rainDays": [10, 10, 9, 6, 4, 2, 1, 1, 2, 4, 7, 9],
         "sunHours": [5, 6, 8, 10, 11, 12, 12, 11, 10, 8, 6, 5],
         "humidity": [72, 68, 62, 55, 50, 42, 35, 36, 40, 48, 62, 72],
         "snowDepth": [45, 50, 40, 15, 2, 0, 0, 0, 0, 2, 15, 35]
       },
-      "crowd":      [28, 28, 38, 52, 72, 88, 95, 92, 72, 52, 32, 30],
+      "crowd": [28, 28, 38, 52, 72, 88, 95, 92, 72, 52, 32, 30],
       "priceIndex": [42, 42, 52, 68, 85, 95, 100, 98, 85, 65, 45, 45],
-      "cost": { "budget": 60, "mid": 140, "luxury": 360 },
-      "r": {
-        "scenery": 100, "nationalParks": 100, "hiking": 98, "climbing": 100,
-        "mountains": 94, "forests": 92, "lakesRivers": 88, "stargazing": 92,
-        "wildlife": 76, "cycling": 74, "roadTrip": 88, "skiing": 35,
-        "adrenaline": 82, "romance": 82, "familyTeens": 88,
-        "valueForMoney": 74, "beaches": 0, "swimming": 55,
-        "clubbing": 2, "shopping": 18, "museums": 32, "foodScene": 45,
-        "publicTransport": 32, "walkability": 22
+      "cost": {
+        "budget": 60,
+        "mid": 140,
+        "luxury": 360
       },
-      "photos": ["Yosemite Valley Tunnel View", "Half Dome Yosemite", "El Capitan Yosemite climbing", "Yosemite Falls spring", "Giant sequoia Mariposa Grove", "Glacier Point Yosemite sunset"]
+      "r": {
+        "scenery": 100, "nationalParks": 100, "hiking": 98, "climbing": 100, "mountains": 94,
+        "forests": 92, "lakesRivers": 88, "stargazing": 92, "wildlife": 76, "cycling": 74,
+        "roadTrip": 88, "skiing": 35, "adrenaline": 82, "romance": 82, "familyTeens": 88,
+        "valueForMoney": 74, "beaches": 0, "swimming": 55, "clubbing": 2, "shopping": 18,
+        "museums": 32, "foodScene": 45, "publicTransport": 32, "walkability": 22
+      },
+      "photos": [
+        "Yosemite Valley Tunnel View",
+        "Half Dome Yosemite",
+        "El Capitan Yosemite climbing",
+        "Yosemite Falls spring",
+        "Giant sequoia Mariposa Grove",
+        "Glacier Point Yosemite sunset"
+      ]
     },
     {
-      "id": "utah-parks-us", "name": "Utah's Mighty Five & Moab", "country": "US", "region": "Utah", "continent": "North America",
-      "lat": 38.573, "lon": -109.550, "type": "region", "arch": "desert",
+      "id": "utah-parks-us",
+      "name": "Utah's Mighty Five & Moab",
+      "country": "US",
+      "region": "Utah",
+      "continent": "North America",
+      "lat": 38.573,
+      "lon": -109.55,
+      "type": "region",
+      "arch": "desert",
       "blurb": "Arches, Canyonlands, Zion, Bryce and Capitol Reef on one road trip — red rock, slot canyons and some of the darkest skies in America.",
       "tags": ["red rock", "arches", "road trip", "dark skies"],
       "climate": {
         "tempHigh": [7, 12, 18, 22, 28, 34, 37, 36, 31, 23, 13, 7],
-        "tempLow":  [-7, -3, 2, 6, 11, 16, 20, 19, 14, 7, 0, -6],
+        "tempLow": [-7, -3, 2, 6, 11, 16, 20, 19, 14, 7, 0, -6],
         "rainDays": [4, 4, 4, 4, 3, 2, 4, 5, 4, 4, 3, 4],
         "sunHours": [7, 8, 9, 10, 12, 13, 12, 11, 10, 9, 7, 6],
         "humidity": [58, 50, 42, 35, 32, 26, 32, 36, 38, 42, 52, 60],
         "snowDepth": [10, 8, 3, 0, 0, 0, 0, 0, 0, 0, 2, 8]
       },
-      "crowd":      [22, 28, 55, 72, 72, 62, 58, 58, 72, 78, 42, 25],
+      "crowd": [22, 28, 55, 72, 72, 62, 58, 58, 72, 78, 42, 25],
       "priceIndex": [35, 42, 68, 85, 85, 75, 70, 70, 85, 90, 55, 38],
-      "cost": { "budget": 55, "mid": 125, "luxury": 330 },
-      "r": {
-        "desert": 100, "scenery": 100, "nationalParks": 98, "hiking": 96,
-        "stargazing": 100, "climbing": 92, "roadTrip": 100, "cycling": 88,
-        "adrenaline": 88, "mountains": 74, "kayaking": 68, "wildlife": 58,
-        "romance": 80, "familyTeens": 88, "valueForMoney": 78,
-        "beaches": 0, "swimming": 32, "clubbing": 2, "bars": 30, "shopping": 25,
-        "museums": 28, "foodScene": 52, "publicTransport": 8, "walkability": 15
+      "cost": {
+        "budget": 55,
+        "mid": 125,
+        "luxury": 330
       },
-      "photos": ["Delicate Arch Arches National Park", "Zion Narrows Utah", "Bryce Canyon hoodoos Utah", "Canyonlands Mesa Arch sunrise", "Utah red rock night sky Milky Way", "Monument Valley Utah Arizona"]
+      "r": {
+        "desert": 100, "scenery": 100, "nationalParks": 98, "hiking": 96, "stargazing": 100,
+        "climbing": 92, "roadTrip": 100, "cycling": 88, "adrenaline": 88, "mountains": 74,
+        "kayaking": 68, "wildlife": 58, "romance": 80, "familyTeens": 88, "valueForMoney": 78,
+        "beaches": 0, "swimming": 32, "clubbing": 2, "bars": 30, "shopping": 25, "museums": 28,
+        "foodScene": 52, "publicTransport": 8, "walkability": 15
+      },
+      "photos": [
+        "Delicate Arch Arches National Park",
+        "Zion Narrows Utah",
+        "Bryce Canyon hoodoos Utah",
+        "Canyonlands Mesa Arch sunrise",
+        "Utah red rock night sky Milky Way",
+        "Monument Valley Utah Arizona"
+      ]
     },
     {
-      "id": "maui-us", "name": "Maui", "country": "US", "region": "Hawaii", "continent": "North America",
-      "lat": 20.798, "lon": -156.332, "type": "island", "arch": "island-volcanic",
+      "id": "maui-us",
+      "name": "Maui",
+      "country": "US",
+      "region": "Hawaii",
+      "continent": "North America",
+      "lat": 20.798,
+      "lon": -156.332,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "The Road to Hana, sunrise above the clouds on Haleakalā, humpback whales in winter and some of the best snorkelling in the Pacific.",
       "tags": ["volcano", "whales", "snorkelling", "road to hana"],
       "climate": {
         "tempHigh": [27, 27, 27, 28, 29, 30, 31, 31, 31, 30, 29, 27],
-        "tempLow":  [18, 18, 19, 19, 20, 21, 22, 22, 22, 21, 20, 19],
+        "tempLow": [18, 18, 19, 19, 20, 21, 22, 22, 22, 21, 20, 19],
         "rainDays": [10, 9, 9, 8, 6, 4, 5, 5, 5, 7, 9, 10],
         "sunHours": [8, 8, 8, 8, 9, 10, 10, 10, 9, 8, 8, 7],
         "humidity": [72, 72, 72, 71, 70, 69, 70, 70, 71, 72, 74, 73],
-        "seaTemp":  [24, 24, 24, 25, 25, 26, 26, 27, 27, 27, 26, 25]
+        "seaTemp": [24, 24, 24, 25, 25, 26, 26, 27, 27, 27, 26, 25]
       },
-      "crowd":      [78, 78, 72, 68, 62, 72, 82, 82, 68, 62, 68, 85],
+      "crowd": [78, 78, 72, 68, 62, 72, 82, 82, 68, 62, 68, 85],
       "priceIndex": [88, 88, 82, 78, 72, 82, 92, 92, 78, 72, 78, 95],
-      "cost": { "budget": 90, "mid": 200, "luxury": 550 },
+      "cost": {
+        "budget": 90,
+        "mid": 200,
+        "luxury": 550
+      },
       "r": {
         "beaches": 96, "swimming": 92, "snorkelling": 94, "scuba": 88, "surfing": 90,
-        "waterSports": 90, "sailing": 82, "wildlife": 92, "volcanic": 92,
-        "scenery": 96, "hiking": 88, "forests": 84, "roadTrip": 96,
-        "stargazing": 90, "wellness": 86, "romance": 94, "luxury": 90,
-        "familyYoungKids": 88, "localCulture": 80, "foodScene": 82,
+        "waterSports": 90, "sailing": 82, "wildlife": 92, "volcanic": 92, "scenery": 96,
+        "hiking": 88, "forests": 84, "roadTrip": 96, "stargazing": 90, "wellness": 86,
+        "romance": 94, "luxury": 90, "familyYoungKids": 88, "localCulture": 80, "foodScene": 82,
         "valueForMoney": 30, "clubbing": 38, "museums": 42, "publicTransport": 25
       },
-      "photos": ["Road to Hana Maui coastline", "Haleakala sunrise above clouds Maui", "Molokini crater snorkelling Maui", "Napili Bay Maui beach", "Humpback whale Maui", "Iao Valley Maui green"]
+      "photos": [
+        "Road to Hana Maui coastline",
+        "Haleakala sunrise above clouds Maui",
+        "Molokini crater snorkelling Maui",
+        "Napili Bay Maui beach",
+        "Humpback whale Maui",
+        "Iao Valley Maui green"
+      ]
     },
     {
-      "id": "kauai-us", "name": "Kauai", "country": "US", "region": "Hawaii", "continent": "North America",
-      "lat": 22.096, "lon": -159.527, "type": "island", "arch": "island-volcanic",
+      "id": "kauai-us",
+      "name": "Kauai",
+      "country": "US",
+      "region": "Hawaii",
+      "continent": "North America",
+      "lat": 22.096,
+      "lon": -159.527,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "The oldest and greenest Hawaiian island — the Nā Pali cliffs, Waimea Canyon and a helicopter ride you will not forget. Very wet, very beautiful.",
       "tags": ["na pali", "canyon", "green", "helicopter"],
       "climate": {
         "tempHigh": [26, 26, 26, 27, 28, 29, 29, 30, 30, 29, 28, 26],
-        "tempLow":  [19, 19, 20, 21, 22, 23, 24, 24, 23, 23, 22, 20],
+        "tempLow": [19, 19, 20, 21, 22, 23, 24, 24, 23, 23, 22, 20],
         "rainDays": [16, 14, 15, 14, 12, 10, 13, 12, 12, 15, 17, 17],
         "sunHours": [7, 7, 7, 7, 8, 9, 9, 9, 8, 7, 7, 6],
         "humidity": [76, 76, 76, 75, 74, 73, 74, 74, 74, 76, 78, 77],
-        "seaTemp":  [24, 24, 24, 25, 26, 26, 27, 27, 27, 27, 26, 25]
+        "seaTemp": [24, 24, 24, 25, 26, 26, 27, 27, 27, 27, 26, 25]
       },
-      "crowd":      [72, 72, 68, 62, 58, 68, 78, 78, 62, 58, 62, 78],
+      "crowd": [72, 72, 68, 62, 58, 68, 78, 78, 62, 58, 62, 78],
       "priceIndex": [82, 82, 78, 72, 68, 78, 88, 88, 72, 68, 72, 90],
-      "cost": { "budget": 90, "mid": 200, "luxury": 550 },
+      "cost": {
+        "budget": 90,
+        "mid": 200,
+        "luxury": 550
+      },
       "r": {
         "scenery": 100, "beaches": 92, "swimming": 84, "snorkelling": 88, "surfing": 86,
-        "kayaking": 90, "hiking": 94, "forests": 94, "lakesRivers": 84,
-        "volcanic": 82, "wildlife": 84, "adrenaline": 88, "roadTrip": 82,
-        "romance": 96, "wellness": 82, "luxury": 86, "stargazing": 82,
-        "localCulture": 80, "familyYoungKids": 80, "valueForMoney": 28,
-        "clubbing": 15, "shopping": 42, "museums": 32, "publicTransport": 20
+        "kayaking": 90, "hiking": 94, "forests": 94, "lakesRivers": 84, "volcanic": 82,
+        "wildlife": 84, "adrenaline": 88, "roadTrip": 82, "romance": 96, "wellness": 82,
+        "luxury": 86, "stargazing": 82, "localCulture": 80, "familyYoungKids": 80,
+        "valueForMoney": 28, "clubbing": 15, "shopping": 42, "museums": 32,
+        "publicTransport": 20
       },
-      "photos": ["Na Pali Coast Kauai cliffs", "Waimea Canyon Kauai", "Hanalei Bay Kauai", "Kauai helicopter waterfall", "Tunnels Beach Kauai snorkelling", "Wailua Falls Kauai"]
+      "photos": [
+        "Na Pali Coast Kauai cliffs",
+        "Waimea Canyon Kauai",
+        "Hanalei Bay Kauai",
+        "Kauai helicopter waterfall",
+        "Tunnels Beach Kauai snorkelling",
+        "Wailua Falls Kauai"
+      ]
     },
     {
-      "id": "big-island-us", "name": "Hawaii — Big Island", "country": "US", "region": "Hawaii", "continent": "North America",
-      "lat": 19.599, "lon": -155.518, "type": "island", "arch": "island-volcanic",
+      "id": "big-island-us",
+      "name": "Hawaii — Big Island",
+      "country": "US",
+      "region": "Hawaii",
+      "continent": "North America",
+      "lat": 19.599,
+      "lon": -155.518,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "Active lava at Kīlauea, black and green sand beaches, and the world's best observatory site on Mauna Kea — where it also snows.",
       "tags": ["lava", "volcano", "stargazing", "black sand"],
       "climate": {
         "tempHigh": [27, 27, 27, 27, 28, 29, 29, 30, 30, 29, 28, 27],
-        "tempLow":  [18, 18, 18, 19, 19, 20, 21, 21, 21, 21, 20, 19],
+        "tempLow": [18, 18, 18, 19, 19, 20, 21, 21, 21, 21, 20, 19],
         "rainDays": [10, 9, 12, 13, 11, 8, 10, 10, 9, 10, 12, 11],
         "sunHours": [7, 7, 7, 7, 8, 9, 9, 9, 8, 8, 7, 7],
         "humidity": [72, 73, 74, 74, 73, 71, 72, 72, 72, 74, 76, 74],
-        "seaTemp":  [24, 24, 24, 25, 26, 26, 27, 27, 27, 27, 26, 25],
+        "seaTemp": [24, 24, 24, 25, 26, 26, 27, 27, 27, 27, 26, 25],
         "snowDepth": [10, 12, 10, 4, 0, 0, 0, 0, 0, 0, 2, 8]
       },
-      "crowd":      [72, 72, 65, 58, 55, 65, 78, 78, 62, 55, 62, 78],
+      "crowd": [72, 72, 65, 58, 55, 65, 78, 78, 62, 55, 62, 78],
       "priceIndex": [82, 82, 75, 68, 65, 75, 88, 88, 72, 65, 72, 90],
-      "cost": { "budget": 80, "mid": 180, "luxury": 480 },
-      "r": {
-        "volcanic": 100, "stargazing": 100, "scenery": 94, "nationalParks": 92,
-        "beaches": 84, "swimming": 84, "snorkelling": 92, "scuba": 90,
-        "hiking": 90, "mountains": 88, "wildlife": 86, "forests": 82,
-        "roadTrip": 90, "adrenaline": 78, "coffee": 92, "localCulture": 84,
-        "romance": 86, "wellness": 80, "familyTeens": 84, "skiing": 12,
-        "valueForMoney": 40, "clubbing": 20, "shopping": 38, "museums": 42, "publicTransport": 18
+      "cost": {
+        "budget": 80,
+        "mid": 180,
+        "luxury": 480
       },
-      "photos": ["Kilauea lava flow Hawaii", "Mauna Kea observatories sunset", "Punaluu black sand beach Hawaii", "Hawaii Volcanoes National Park crater", "Manta ray night dive Kona", "Waipio Valley Big Island"]
+      "r": {
+        "volcanic": 100, "stargazing": 100, "scenery": 94, "nationalParks": 92, "beaches": 84,
+        "swimming": 84, "snorkelling": 92, "scuba": 90, "hiking": 90, "mountains": 88,
+        "wildlife": 86, "forests": 82, "roadTrip": 90, "adrenaline": 78, "coffee": 92,
+        "localCulture": 84, "romance": 86, "wellness": 80, "familyTeens": 84, "skiing": 12,
+        "valueForMoney": 40, "clubbing": 20, "shopping": 38, "museums": 42,
+        "publicTransport": 18
+      },
+      "photos": [
+        "Kilauea lava flow Hawaii",
+        "Mauna Kea observatories sunset",
+        "Punaluu black sand beach Hawaii",
+        "Hawaii Volcanoes National Park crater",
+        "Manta ray night dive Kona",
+        "Waipio Valley Big Island"
+      ]
     },
     {
-      "id": "aspen-us", "name": "Aspen & the Rockies", "country": "US", "region": "Colorado", "continent": "North America",
-      "lat": 39.191, "lon": -106.818, "type": "mountains", "arch": "ski-resort",
+      "id": "aspen-us",
+      "name": "Aspen & the Rockies",
+      "country": "US",
+      "region": "Colorado",
+      "continent": "North America",
+      "lat": 39.191,
+      "lon": -106.818,
+      "type": "mountains",
+      "arch": "ski-resort",
       "blurb": "Four mountains, champagne powder and a former silver-mining town that became America's most glamorous ski resort. Superb hiking in summer too.",
       "tags": ["skiing", "powder", "luxury", "rockies"],
       "climate": {
         "tempHigh": [0, 2, 7, 11, 17, 23, 26, 25, 21, 14, 5, 0],
-        "tempLow":  [-13, -11, -7, -4, 1, 5, 8, 8, 4, -1, -8, -12],
+        "tempLow": [-13, -11, -7, -4, 1, 5, 8, 8, 4, -1, -8, -12],
         "rainDays": [8, 8, 9, 8, 9, 8, 10, 10, 8, 7, 7, 8],
         "sunHours": [6, 6, 7, 8, 9, 10, 9, 9, 9, 8, 6, 5],
         "humidity": [62, 60, 56, 52, 52, 48, 52, 55, 55, 55, 60, 63],
         "snowDepth": [95, 105, 100, 60, 15, 0, 0, 0, 0, 5, 45, 85]
       },
-      "crowd":      [88, 85, 78, 42, 32, 55, 72, 68, 62, 45, 38, 92],
+      "crowd": [88, 85, 78, 42, 32, 55, 72, 68, 62, 45, 38, 92],
       "priceIndex": [95, 92, 85, 48, 38, 65, 80, 78, 72, 52, 45, 100],
-      "cost": { "budget": 110, "mid": 250, "luxury": 650 },
+      "cost": {
+        "budget": 110,
+        "mid": 250,
+        "luxury": 650
+      },
       "r": {
         "skiing": 98, "mountains": 96, "scenery": 94, "hiking": 92, "climbing": 82,
-        "cycling": 88, "adrenaline": 84, "stargazing": 88, "forests": 86,
-        "lakesRivers": 78, "fishing": 82, "wellness": 90, "luxury": 96,
-        "fineDining": 92, "foodScene": 86, "bars": 82, "artScene": 78,
-        "festivals": 80, "romance": 86, "familyTeens": 84, "shopping": 82,
-        "valueForMoney": 20, "beaches": 0, "swimming": 25, "publicTransport": 55
+        "cycling": 88, "adrenaline": 84, "stargazing": 88, "forests": 86, "lakesRivers": 78,
+        "fishing": 82, "wellness": 90, "luxury": 96, "fineDining": 92, "foodScene": 86,
+        "bars": 82, "artScene": 78, "festivals": 80, "romance": 86, "familyTeens": 84,
+        "shopping": 82, "valueForMoney": 20, "beaches": 0, "swimming": 25, "publicTransport": 55
       },
-      "photos": ["Aspen Colorado ski slopes", "Maroon Bells Colorado autumn", "Aspen town main street winter", "Colorado Rockies powder skiing", "Aspen gondola Ajax mountain", "Colorado aspen trees golden"]
+      "photos": [
+        "Aspen Colorado ski slopes",
+        "Maroon Bells Colorado autumn",
+        "Aspen town main street winter",
+        "Colorado Rockies powder skiing",
+        "Aspen gondola Ajax mountain",
+        "Colorado aspen trees golden"
+      ]
     },
     {
-      "id": "alaska-us", "name": "Alaska", "country": "US", "region": "Alaska", "continent": "North America",
-      "lat": 61.218, "lon": -149.900, "type": "region", "arch": "wilderness-park",
+      "id": "alaska-us",
+      "name": "Alaska",
+      "country": "US",
+      "region": "Alaska",
+      "continent": "North America",
+      "lat": 61.218,
+      "lon": -149.9,
+      "type": "region",
+      "arch": "wilderness-park",
       "blurb": "Denali, tidewater glaciers calving into the sea, grizzlies catching salmon and the aurora from September. Vast, and only really open in summer.",
       "tags": ["glaciers", "bears", "denali", "aurora"],
       "climate": {
         "tempHigh": [-6, -3, 2, 9, 15, 19, 21, 20, 14, 6, -3, -6],
-        "tempLow":  [-14, -11, -7, -1, 5, 9, 11, 10, 6, -1, -9, -13],
+        "tempLow": [-14, -11, -7, -1, 5, 9, 11, 10, 6, -1, -9, -13],
         "rainDays": [8, 7, 6, 5, 7, 9, 11, 13, 14, 12, 10, 10],
         "sunHours": [3, 5, 7, 9, 10, 10, 9, 7, 5, 3, 2, 2],
         "humidity": [72, 70, 68, 64, 62, 64, 68, 72, 74, 74, 74, 73],
         "snowDepth": [45, 50, 42, 20, 2, 0, 0, 0, 0, 8, 30, 42]
       },
-      "crowd":      [18, 20, 25, 32, 55, 82, 95, 88, 58, 28, 18, 20],
+      "crowd": [18, 20, 25, 32, 55, 82, 95, 88, 58, 28, 18, 20],
       "priceIndex": [30, 32, 38, 48, 70, 92, 100, 95, 72, 42, 30, 32],
-      "cost": { "budget": 80, "mid": 180, "luxury": 450 },
-      "r": {
-        "wildlife": 98, "scenery": 100, "nationalParks": 98, "mountains": 96,
-        "hiking": 92, "northernLights": 88, "stargazing": 84, "fishing": 96,
-        "kayaking": 90, "forests": 88, "lakesRivers": 90, "adrenaline": 84,
-        "roadTrip": 86, "climbing": 84, "skiing": 35, "localCulture": 78,
-        "romance": 78, "familyTeens": 84, "ecoFriendly": 74, "englishSpoken": 100,
-        "valueForMoney": 42, "beaches": 25, "swimming": 12,
-        "clubbing": 8, "shopping": 30, "museums": 52, "publicTransport": 15
+      "cost": {
+        "budget": 80,
+        "mid": 180,
+        "luxury": 450
       },
-      "photos": ["Denali mountain Alaska", "Glacier calving Alaska Kenai Fjords", "Grizzly bear salmon Alaska", "Northern lights Alaska Fairbanks", "Alaska Railroad scenic", "Alaska humpback whale breaching"]
+      "r": {
+        "wildlife": 98, "scenery": 100, "nationalParks": 98, "mountains": 96, "hiking": 92,
+        "northernLights": 88, "stargazing": 84, "fishing": 96, "kayaking": 90, "forests": 88,
+        "lakesRivers": 90, "adrenaline": 84, "roadTrip": 86, "climbing": 84, "skiing": 35,
+        "localCulture": 78, "romance": 78, "familyTeens": 84, "ecoFriendly": 74,
+        "englishSpoken": 100, "valueForMoney": 42, "beaches": 25, "swimming": 12, "clubbing": 8,
+        "shopping": 30, "museums": 52, "publicTransport": 15
+      },
+      "photos": [
+        "Denali mountain Alaska",
+        "Glacier calving Alaska Kenai Fjords",
+        "Grizzly bear salmon Alaska",
+        "Northern lights Alaska Fairbanks",
+        "Alaska Railroad scenic",
+        "Alaska humpback whale breaching"
+      ]
     },
     {
-      "id": "napa-sonoma-us", "name": "Napa & Sonoma", "country": "US", "region": "California", "continent": "North America",
-      "lat": 38.298, "lon": -122.287, "type": "region", "arch": "wine-country",
+      "id": "napa-sonoma-us",
+      "name": "Napa & Sonoma",
+      "country": "US",
+      "region": "California",
+      "continent": "North America",
+      "lat": 38.298,
+      "lon": -122.287,
+      "type": "region",
+      "arch": "wine-country",
       "blurb": "The wine region that beat France in 1976 — hot-air balloons over the vines at dawn, three-star restaurants, and redwoods over the ridge.",
       "tags": ["wine", "fine dining", "balloons", "spa"],
       "climate": {
         "tempHigh": [14, 17, 19, 22, 25, 28, 29, 29, 29, 25, 18, 14],
-        "tempLow":  [3, 5, 6, 7, 10, 12, 13, 13, 12, 9, 5, 3],
+        "tempLow": [3, 5, 6, 7, 10, 12, 13, 13, 12, 9, 5, 3],
         "rainDays": [10, 9, 8, 5, 2, 1, 0, 0, 1, 3, 7, 9],
         "sunHours": [6, 7, 8, 10, 11, 12, 12, 11, 10, 8, 6, 5],
         "humidity": [78, 74, 70, 65, 62, 60, 62, 64, 64, 68, 74, 79]
       },
-      "crowd":      [38, 40, 48, 58, 68, 78, 85, 88, 92, 72, 48, 45],
+      "crowd": [38, 40, 48, 58, 68, 78, 85, 88, 92, 72, 48, 45],
       "priceIndex": [50, 52, 60, 70, 80, 88, 92, 95, 100, 82, 58, 55],
-      "cost": { "budget": 90, "mid": 200, "luxury": 550 },
+      "cost": {
+        "budget": 90,
+        "mid": 200,
+        "luxury": 550
+      },
       "r": {
-        "wine": 100, "fineDining": 98, "foodScene": 94, "wellness": 92,
-        "scenery": 86, "cycling": 86, "romance": 94, "luxury": 94,
-        "adrenaline": 74, "roadTrip": 88, "forests": 78, "hiking": 74,
-        "artScene": 76, "markets": 74, "seniors": 84, "valueForMoney": 25,
-        "beaches": 32, "swimming": 42, "clubbing": 12, "shopping": 68,
+        "wine": 100, "fineDining": 98, "foodScene": 94, "wellness": 92, "scenery": 86,
+        "cycling": 86, "romance": 94, "luxury": 94, "adrenaline": 74, "roadTrip": 88,
+        "forests": 78, "hiking": 74, "artScene": 76, "markets": 74, "seniors": 84,
+        "valueForMoney": 25, "beaches": 32, "swimming": 42, "clubbing": 12, "shopping": 68,
         "museums": 45, "familyYoungKids": 42, "backpacker": 18, "publicTransport": 22
       },
-      "photos": ["Napa Valley vineyards autumn", "Hot air balloons Napa Valley", "Sonoma wine tasting room", "Napa Valley wine train", "Californian redwoods Armstrong Grove", "Castello di Amorosa Napa"]
+      "photos": [
+        "Napa Valley vineyards autumn",
+        "Hot air balloons Napa Valley",
+        "Sonoma wine tasting room",
+        "Napa Valley wine train",
+        "Californian redwoods Armstrong Grove",
+        "Castello di Amorosa Napa"
+      ]
     }
   ]
 }

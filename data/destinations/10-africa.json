@@ -2,665 +2,1087 @@
   "_doc": "North, East, Southern and island Africa.",
   "destinations": [
     {
-      "id": "marrakech-ma", "name": "Marrakech", "country": "MA", "region": "Marrakech-Safi", "continent": "Africa",
-      "lat": 31.630, "lon": -7.981, "type": "city", "arch": "historic-city",
+      "id": "marrakech-ma",
+      "name": "Marrakech",
+      "country": "MA",
+      "region": "Marrakech-Safi",
+      "continent": "Africa",
+      "lat": 31.63,
+      "lon": -7.981,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "A walled medina of souks, riads and snake charmers under the Atlas Mountains. Sensory overload, and three hours from most of Europe.",
       "tags": ["souks", "riads", "atlas", "food"],
       "climate": {
         "tempHigh": [18, 20, 23, 26, 29, 33, 38, 38, 33, 28, 22, 19],
-        "tempLow":  [6, 8, 10, 12, 15, 18, 21, 21, 19, 15, 11, 7],
+        "tempLow": [6, 8, 10, 12, 15, 18, 21, 21, 19, 15, 11, 7],
         "rainDays": [4, 4, 4, 4, 3, 1, 0, 1, 2, 4, 5, 4],
         "sunHours": [7, 8, 8, 9, 10, 11, 11, 10, 9, 8, 7, 7],
         "humidity": [66, 62, 57, 52, 48, 42, 36, 39, 47, 56, 64, 68]
       },
-      "crowd":      [58, 62, 78, 82, 68, 52, 45, 48, 68, 82, 68, 62],
+      "crowd": [58, 62, 78, 82, 68, 52, 45, 48, 68, 82, 68, 62],
       "priceIndex": [68, 72, 88, 92, 78, 62, 52, 55, 78, 92, 78, 72],
-      "cost": { "budget": 28, "mid": 68, "luxury": 220 },
+      "cost": {
+        "budget": 28,
+        "mid": 68,
+        "luxury": 220
+      },
       "r": {
         "markets": 100, "localCulture": 94, "historicSites": 88, "architecture": 90,
-        "religiousSites": 78, "shopping": 94, "foodScene": 88, "streetFood": 88,
-        "wellness": 92, "artScene": 78, "mountains": 74, "hiking": 72, "desert": 80,
-        "luxury": 84, "romance": 82, "valueForMoney": 88, "backpacker": 84,
-        "halal": 100, "vegetarian": 76, "festivals": 76,
+        "religiousSites": 78, "shopping": 94, "foodScene": 88, "streetFood": 88, "wellness": 92,
+        "artScene": 78, "mountains": 74, "hiking": 72, "desert": 80, "luxury": 84, "romance": 82,
+        "valueForMoney": 88, "backpacker": 84, "halal": 100, "vegetarian": 76, "festivals": 76,
         "safety": 62, "soloFemaleSafety": 42, "cleanliness": 45, "englishSpoken": 52,
         "beaches": 0, "swimming": 30, "clubbing": 62, "bars": 48, "publicTransport": 45
       },
-      "photos": ["Jemaa el-Fnaa square Marrakech", "Marrakech souk spices", "Jardin Majorelle Marrakech", "Koutoubia Mosque Marrakech", "Riad courtyard Morocco", "Bahia Palace Marrakech"]
+      "photos": [
+        "Jemaa el-Fnaa square Marrakech",
+        "Marrakech souk spices",
+        "Jardin Majorelle Marrakech",
+        "Koutoubia Mosque Marrakech",
+        "Riad courtyard Morocco",
+        "Bahia Palace Marrakech"
+      ]
     },
     {
-      "id": "fes-ma", "name": "Fès", "country": "MA", "region": "Fès-Meknès", "continent": "Africa",
-      "lat": 34.034, "lon": -5.000, "type": "city", "arch": "historic-city",
+      "id": "fes-ma",
+      "name": "Fès",
+      "country": "MA",
+      "region": "Fès-Meknès",
+      "continent": "Africa",
+      "lat": 34.034,
+      "lon": -5.0,
+      "type": "city",
+      "arch": "historic-city",
       "blurb": "The largest car-free urban area on earth — a 1,200-year-old medina of 9,000 alleys, tanneries and the world's oldest university.",
       "tags": ["medina", "tanneries", "crafts", "history"],
       "climate": {
         "tempHigh": [16, 18, 21, 23, 28, 33, 37, 37, 32, 26, 20, 17],
-        "tempLow":  [5, 6, 8, 10, 13, 17, 20, 20, 18, 14, 10, 6],
+        "tempLow": [5, 6, 8, 10, 13, 17, 20, 20, 18, 14, 10, 6],
         "rainDays": [8, 8, 8, 8, 5, 2, 1, 1, 3, 6, 8, 8],
         "sunHours": [6, 7, 8, 9, 10, 11, 11, 10, 9, 7, 6, 5],
         "humidity": [76, 72, 66, 62, 56, 48, 40, 44, 54, 66, 74, 78]
       },
-      "crowd":      [45, 48, 68, 75, 62, 48, 42, 45, 62, 75, 58, 48],
+      "crowd": [45, 48, 68, 75, 62, 48, 42, 45, 62, 75, 58, 48],
       "priceIndex": [55, 58, 78, 85, 72, 58, 50, 52, 72, 85, 68, 58],
-      "cost": { "budget": 24, "mid": 58, "luxury": 175 },
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 175
+      },
       "r": {
         "historicSites": 96, "localCulture": 98, "architecture": 92, "markets": 96,
-        "religiousSites": 86, "shopping": 88, "artScene": 76, "museums": 68,
-        "foodScene": 86, "streetFood": 86, "wellness": 84, "walkability": 74,
-        "valueForMoney": 92, "backpacker": 82, "halal": 100, "vegetarian": 74,
-        "safety": 64, "soloFemaleSafety": 42, "cleanliness": 38, "englishSpoken": 45,
-        "beaches": 0, "swimming": 20, "clubbing": 25, "bars": 30, "accessibility": 15,
-        "hiking": 52, "publicTransport": 40, "romance": 74
+        "religiousSites": 86, "shopping": 88, "artScene": 76, "museums": 68, "foodScene": 86,
+        "streetFood": 86, "wellness": 84, "walkability": 74, "valueForMoney": 92,
+        "backpacker": 82, "halal": 100, "vegetarian": 74, "safety": 64, "soloFemaleSafety": 42,
+        "cleanliness": 38, "englishSpoken": 45, "beaches": 0, "swimming": 20, "clubbing": 25,
+        "bars": 30, "accessibility": 15, "hiking": 52, "publicTransport": 40, "romance": 74
       },
-      "photos": ["Fes tanneries Morocco", "Fes el Bali medina alley", "Al-Qarawiyyin university Fes", "Bou Inania Madrasa Fes", "Moroccan ceramic craft Fes", "Blue Gate Bab Boujloud Fes"]
+      "photos": [
+        "Fes tanneries Morocco",
+        "Fes el Bali medina alley",
+        "Al-Qarawiyyin university Fes",
+        "Bou Inania Madrasa Fes",
+        "Moroccan ceramic craft Fes",
+        "Blue Gate Bab Boujloud Fes"
+      ]
     },
     {
-      "id": "sahara-ma", "name": "Sahara & the Atlas", "country": "MA", "region": "Drâa-Tafilalet", "continent": "Africa",
-      "lat": 31.099, "lon": -4.014, "type": "region", "arch": "desert",
+      "id": "sahara-ma",
+      "name": "Sahara & the Atlas",
+      "country": "MA",
+      "region": "Drâa-Tafilalet",
+      "continent": "Africa",
+      "lat": 31.099,
+      "lon": -4.014,
+      "type": "region",
+      "arch": "desert",
       "blurb": "Camel out over the Erg Chebbi dunes to a desert camp, then drive back through Berber villages and the kasbahs of the High Atlas.",
       "tags": ["sahara", "dunes", "kasbahs", "stargazing"],
       "climate": {
         "tempHigh": [18, 21, 25, 29, 34, 39, 42, 41, 36, 29, 23, 19],
-        "tempLow":  [3, 5, 9, 13, 17, 22, 25, 25, 20, 14, 8, 4],
+        "tempLow": [3, 5, 9, 13, 17, 22, 25, 25, 20, 14, 8, 4],
         "rainDays": [2, 2, 2, 2, 1, 0, 0, 1, 2, 3, 2, 2],
         "sunHours": [8, 8, 9, 9, 10, 11, 11, 11, 9, 8, 8, 7],
         "humidity": [55, 48, 42, 36, 30, 24, 20, 23, 32, 42, 52, 58]
       },
-      "crowd":      [42, 48, 72, 78, 62, 42, 32, 35, 58, 78, 62, 48],
+      "crowd": [42, 48, 72, 78, 62, 42, 32, 35, 58, 78, 62, 48],
       "priceIndex": [52, 58, 82, 88, 72, 52, 42, 45, 68, 88, 72, 58],
-      "cost": { "budget": 25, "mid": 62, "luxury": 190 },
+      "cost": {
+        "budget": 25,
+        "mid": 62,
+        "luxury": 190
+      },
       "r": {
-        "desert": 100, "stargazing": 98, "scenery": 92, "localCulture": 92,
-        "roadTrip": 94, "mountains": 86, "hiking": 84, "historicSites": 84,
-        "adrenaline": 76, "romance": 88, "climbing": 62, "skiing": 25,
-        "valueForMoney": 90, "backpacker": 80, "halal": 100, "familyTeens": 80,
-        "safety": 72, "soloFemaleSafety": 48, "englishSpoken": 42,
+        "desert": 100, "stargazing": 98, "scenery": 92, "localCulture": 92, "roadTrip": 94,
+        "mountains": 86, "hiking": 84, "historicSites": 84, "adrenaline": 76, "romance": 88,
+        "climbing": 62, "skiing": 25, "valueForMoney": 90, "backpacker": 80, "halal": 100,
+        "familyTeens": 80, "safety": 72, "soloFemaleSafety": 48, "englishSpoken": 42,
         "beaches": 0, "swimming": 12, "clubbing": 3, "bars": 12, "shopping": 62,
         "publicTransport": 20, "accessibility": 12, "museums": 32, "wifi": 42
       },
-      "photos": ["Erg Chebbi dunes Morocco camel", "Ait Benhaddou kasbah Morocco", "Sahara desert camp night sky", "Todra Gorge Morocco", "Atlas Mountains Berber village", "Dades Valley road Morocco"]
+      "photos": [
+        "Erg Chebbi dunes Morocco camel",
+        "Ait Benhaddou kasbah Morocco",
+        "Sahara desert camp night sky",
+        "Todra Gorge Morocco",
+        "Atlas Mountains Berber village",
+        "Dades Valley road Morocco"
+      ]
     },
     {
-      "id": "essaouira-ma", "name": "Essaouira", "country": "MA", "region": "Marrakech-Safi", "continent": "Africa",
-      "lat": 31.513, "lon": -9.770, "type": "coast", "arch": "coastal-city",
+      "id": "essaouira-ma",
+      "name": "Essaouira",
+      "country": "MA",
+      "region": "Marrakech-Safi",
+      "continent": "Africa",
+      "lat": 31.513,
+      "lon": -9.77,
+      "type": "coast",
+      "arch": "coastal-city",
       "blurb": "A blue-and-white Atlantic port with ramparts, gnaoua music and relentless wind — Morocco's kitesurfing capital and its most relaxed medina.",
       "tags": ["kitesurfing", "port", "music", "relaxed"],
       "climate": {
         "tempHigh": [18, 18, 19, 20, 21, 22, 23, 24, 24, 23, 21, 19],
-        "tempLow":  [11, 12, 13, 14, 16, 18, 19, 19, 19, 17, 14, 12],
+        "tempLow": [11, 12, 13, 14, 16, 18, 19, 19, 19, 17, 14, 12],
         "rainDays": [6, 5, 5, 4, 2, 1, 0, 0, 1, 4, 6, 6],
         "sunHours": [7, 8, 8, 9, 9, 9, 9, 9, 8, 7, 7, 6],
         "humidity": [76, 77, 78, 79, 81, 82, 83, 83, 81, 78, 76, 76],
-        "seaTemp":  [17, 17, 17, 18, 18, 19, 20, 21, 21, 20, 19, 18]
+        "seaTemp": [17, 17, 17, 18, 18, 19, 20, 21, 21, 20, 19, 18]
       },
-      "crowd":      [48, 50, 58, 65, 62, 62, 72, 78, 65, 58, 50, 48],
+      "crowd": [48, 50, 58, 65, 62, 62, 72, 78, 65, 58, 50, 48],
       "priceIndex": [58, 60, 68, 75, 72, 72, 82, 88, 75, 68, 60, 58],
-      "cost": { "budget": 24, "mid": 58, "luxury": 170 },
-      "r": {
-        "waterSports": 96, "surfing": 82, "beaches": 76, "markets": 88,
-        "historicSites": 80, "architecture": 82, "localCulture": 90, "liveMusic": 90,
-        "festivals": 86, "artScene": 82, "foodScene": 84, "walkability": 88,
-        "wellness": 80, "romance": 80, "valueForMoney": 90, "backpacker": 86,
-        "halal": 100, "vegetarian": 74, "safety": 74, "soloFemaleSafety": 55,
-        "englishSpoken": 55, "swimming": 55, "cleanliness": 55,
-        "clubbing": 35, "publicTransport": 35, "hiking": 42, "familyYoungKids": 72
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 170
       },
-      "photos": ["Essaouira ramparts Morocco", "Essaouira blue fishing boats", "Kitesurfing Essaouira beach", "Essaouira medina street", "Gnaoua musicians Morocco", "Essaouira port seagulls"]
+      "r": {
+        "waterSports": 96, "surfing": 82, "beaches": 76, "markets": 88, "historicSites": 80,
+        "architecture": 82, "localCulture": 90, "liveMusic": 90, "festivals": 86, "artScene": 82,
+        "foodScene": 84, "walkability": 88, "wellness": 80, "romance": 80, "valueForMoney": 90,
+        "backpacker": 86, "halal": 100, "vegetarian": 74, "safety": 74, "soloFemaleSafety": 55,
+        "englishSpoken": 55, "swimming": 55, "cleanliness": 55, "clubbing": 35,
+        "publicTransport": 35, "hiking": 42, "familyYoungKids": 72
+      },
+      "photos": [
+        "Essaouira ramparts Morocco",
+        "Essaouira blue fishing boats",
+        "Kitesurfing Essaouira beach",
+        "Essaouira medina street",
+        "Gnaoua musicians Morocco",
+        "Essaouira port seagulls"
+      ]
     },
     {
-      "id": "cairo-eg", "name": "Cairo & Giza", "country": "EG", "region": "Cairo", "continent": "Africa",
-      "lat": 30.044, "lon": 31.236, "type": "city", "arch": "asian-megacity",
+      "id": "cairo-eg",
+      "name": "Cairo & Giza",
+      "country": "EG",
+      "region": "Cairo",
+      "continent": "Africa",
+      "lat": 30.044,
+      "lon": 31.236,
+      "type": "city",
+      "arch": "asian-megacity",
       "blurb": "The last surviving wonder of the ancient world on the edge of a city of 20 million — plus the Grand Egyptian Museum and Islamic Cairo.",
       "tags": ["pyramids", "museums", "ancient", "chaotic"],
       "climate": {
         "tempHigh": [19, 21, 24, 29, 33, 35, 35, 35, 33, 30, 25, 21],
-        "tempLow":  [9, 10, 12, 16, 19, 22, 23, 23, 22, 19, 15, 11],
+        "tempLow": [9, 10, 12, 16, 19, 22, 23, 23, 22, 19, 15, 11],
         "rainDays": [2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2],
         "sunHours": [7, 8, 9, 10, 11, 12, 12, 11, 10, 9, 8, 7],
         "humidity": [59, 54, 50, 44, 42, 46, 53, 57, 57, 56, 59, 61]
       },
-      "crowd":      [62, 65, 72, 68, 52, 42, 45, 48, 58, 78, 82, 72],
+      "crowd": [62, 65, 72, 68, 52, 42, 45, 48, 58, 78, 82, 72],
       "priceIndex": [72, 75, 82, 78, 62, 52, 55, 58, 68, 88, 92, 82],
-      "cost": { "budget": 22, "mid": 55, "luxury": 180 },
+      "cost": {
+        "budget": 22,
+        "mid": 55,
+        "luxury": 180
+      },
       "r": {
         "historicSites": 100, "museums": 98, "architecture": 88, "religiousSites": 88,
-        "markets": 92, "localCulture": 90, "streetFood": 86, "foodScene": 82,
-        "shopping": 82, "desert": 72, "valueForMoney": 94, "backpacker": 82,
-        "halal": 100, "vegetarian": 76, "familyTeens": 82,
-        "safety": 55, "soloFemaleSafety": 30, "cleanliness": 22, "healthHygiene": 42,
-        "englishSpoken": 58, "beaches": 0, "swimming": 15, "scenery": 45,
+        "markets": 92, "localCulture": 90, "streetFood": 86, "foodScene": 82, "shopping": 82,
+        "desert": 72, "valueForMoney": 94, "backpacker": 82, "halal": 100, "vegetarian": 76,
+        "familyTeens": 82, "safety": 55, "soloFemaleSafety": 30, "cleanliness": 22,
+        "healthHygiene": 42, "englishSpoken": 58, "beaches": 0, "swimming": 15, "scenery": 45,
         "clubbing": 42, "bars": 32, "accessibility": 18, "publicTransport": 48
       },
-      "photos": ["Pyramids of Giza Egypt", "Great Sphinx of Giza", "Grand Egyptian Museum Cairo", "Khan el-Khalili bazaar Cairo", "Islamic Cairo mosque minarets", "Nile felucca Cairo"]
+      "photos": [
+        "Pyramids of Giza Egypt",
+        "Great Sphinx of Giza",
+        "Grand Egyptian Museum Cairo",
+        "Khan el-Khalili bazaar Cairo",
+        "Islamic Cairo mosque minarets",
+        "Nile felucca Cairo"
+      ]
     },
     {
-      "id": "luxor-eg", "name": "Luxor & Aswan", "country": "EG", "region": "Upper Egypt", "continent": "Africa",
-      "lat": 25.687, "lon": 32.640, "type": "region", "arch": "desert",
+      "id": "luxor-eg",
+      "name": "Luxor & Aswan",
+      "country": "EG",
+      "region": "Upper Egypt",
+      "continent": "Africa",
+      "lat": 25.687,
+      "lon": 32.64,
+      "type": "region",
+      "arch": "desert",
       "blurb": "The greatest open-air museum on earth — Karnak, the Valley of the Kings and Abu Simbel — best seen from a slow boat down the Nile.",
       "tags": ["temples", "nile", "tombs", "cruise"],
       "climate": {
         "tempHigh": [23, 25, 29, 35, 39, 41, 41, 41, 39, 35, 29, 24],
-        "tempLow":  [6, 8, 11, 16, 21, 23, 24, 24, 22, 18, 13, 8],
+        "tempLow": [6, 8, 11, 16, 21, 23, 24, 24, 22, 18, 13, 8],
         "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         "sunHours": [9, 10, 10, 11, 12, 13, 12, 12, 11, 10, 9, 9],
         "humidity": [42, 36, 30, 24, 21, 20, 23, 26, 29, 33, 40, 44]
       },
-      "crowd":      [78, 78, 72, 58, 38, 28, 30, 32, 45, 68, 82, 82],
+      "crowd": [78, 78, 72, 58, 38, 28, 30, 32, 45, 68, 82, 82],
       "priceIndex": [88, 88, 82, 68, 48, 38, 40, 42, 55, 78, 92, 92],
-      "cost": { "budget": 25, "mid": 62, "luxury": 200 },
+      "cost": {
+        "budget": 25,
+        "mid": 62,
+        "luxury": 200
+      },
       "r": {
         "historicSites": 100, "architecture": 96, "religiousSites": 82, "museums": 84,
-        "lakesRivers": 86, "desert": 84, "stargazing": 84, "adrenaline": 78,
-        "localCulture": 84, "markets": 82, "sailing": 78, "romance": 80,
-        "valueForMoney": 92, "seniors": 68, "familyTeens": 82, "halal": 100,
-        "safety": 68, "soloFemaleSafety": 35, "cleanliness": 35, "healthHygiene": 42,
-        "englishSpoken": 58, "beaches": 0, "swimming": 25,
-        "clubbing": 12, "bars": 25, "hiking": 32, "publicTransport": 30
+        "lakesRivers": 86, "desert": 84, "stargazing": 84, "adrenaline": 78, "localCulture": 84,
+        "markets": 82, "sailing": 78, "romance": 80, "valueForMoney": 92, "seniors": 68,
+        "familyTeens": 82, "halal": 100, "safety": 68, "soloFemaleSafety": 35, "cleanliness": 35,
+        "healthHygiene": 42, "englishSpoken": 58, "beaches": 0, "swimming": 25, "clubbing": 12,
+        "bars": 25, "hiking": 32, "publicTransport": 30
       },
-      "photos": ["Karnak Temple columns Luxor", "Valley of the Kings Luxor", "Abu Simbel temple Egypt", "Hot air balloon Luxor Nile", "Philae Temple Aswan", "Nile felucca Aswan sunset"]
+      "photos": [
+        "Karnak Temple columns Luxor",
+        "Valley of the Kings Luxor",
+        "Abu Simbel temple Egypt",
+        "Hot air balloon Luxor Nile",
+        "Philae Temple Aswan",
+        "Nile felucca Aswan sunset"
+      ]
     },
     {
-      "id": "sharm-eg", "name": "Sharm el-Sheikh & the Red Sea", "country": "EG", "region": "South Sinai", "continent": "Africa",
-      "lat": 27.915, "lon": 34.330, "type": "coast", "arch": "beach-resort",
+      "id": "sharm-eg",
+      "name": "Sharm el-Sheikh & the Red Sea",
+      "country": "EG",
+      "region": "South Sinai",
+      "continent": "Africa",
+      "lat": 27.915,
+      "lon": 34.33,
+      "type": "coast",
+      "arch": "beach-resort",
       "blurb": "Some of the best and cheapest reef diving anywhere — Ras Mohammed and the Blue Hole — with guaranteed sun and all-inclusive resorts.",
       "tags": ["diving", "reefs", "winter sun", "value"],
       "climate": {
         "tempHigh": [22, 23, 26, 31, 34, 37, 38, 38, 35, 32, 28, 24],
-        "tempLow":  [13, 14, 16, 20, 24, 26, 28, 28, 26, 23, 19, 15],
+        "tempLow": [13, 14, 16, 20, 24, 26, 28, 28, 26, 23, 19, 15],
         "rainDays": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
         "sunHours": [8, 9, 9, 10, 11, 12, 12, 12, 11, 10, 9, 8],
         "humidity": [50, 46, 42, 36, 32, 32, 36, 40, 44, 48, 50, 52],
-        "seaTemp":  [22, 21, 22, 24, 26, 27, 28, 29, 29, 28, 26, 24]
+        "seaTemp": [22, 21, 22, 24, 26, 27, 28, 29, 29, 28, 26, 24]
       },
-      "crowd":      [68, 70, 72, 68, 58, 48, 52, 58, 65, 75, 72, 72],
+      "crowd": [68, 70, 72, 68, 58, 48, 52, 58, 65, 75, 72, 72],
       "priceIndex": [78, 80, 82, 78, 68, 55, 60, 65, 75, 85, 82, 82],
-      "cost": { "budget": 25, "mid": 62, "luxury": 210 },
+      "cost": {
+        "budget": 25,
+        "mid": 62,
+        "luxury": 210
+      },
       "r": {
         "scuba": 98, "snorkelling": 96, "beaches": 84, "swimming": 88, "waterSports": 86,
         "sailing": 74, "wildlife": 82, "desert": 82, "stargazing": 86, "hiking": 70,
         "mountains": 72, "wellness": 82, "familyYoungKids": 84, "seniors": 78,
-        "valueForMoney": 92, "englishSpoken": 68, "halal": 100,
-        "bars": 68, "clubbing": 66, "groupParty": 74, "romance": 78,
-        "historicSites": 45, "museums": 25, "localCulture": 42,
+        "valueForMoney": 92, "englishSpoken": 68, "halal": 100, "bars": 68, "clubbing": 66,
+        "groupParty": 74, "romance": 78, "historicSites": 45, "museums": 25, "localCulture": 42,
         "cleanliness": 58, "healthHygiene": 52, "publicTransport": 25
       },
-      "photos": ["Red Sea coral reef diving Egypt", "Blue Hole Dahab Egypt", "Ras Mohammed national park", "Sharm el Sheikh beach resort", "Mount Sinai sunrise Egypt", "Saint Catherine's Monastery Sinai"]
+      "photos": [
+        "Red Sea coral reef diving Egypt",
+        "Blue Hole Dahab Egypt",
+        "Ras Mohammed national park",
+        "Sharm el Sheikh beach resort",
+        "Mount Sinai sunrise Egypt",
+        "Saint Catherine's Monastery Sinai"
+      ]
     },
     {
-      "id": "tunisia-tn", "name": "Tunisia", "country": "TN", "region": "Tunisia", "continent": "Africa",
-      "lat": 36.800, "lon": 10.180, "type": "region", "arch": "beach-resort",
+      "id": "tunisia-tn",
+      "name": "Tunisia",
+      "country": "TN",
+      "region": "Tunisia",
+      "continent": "Africa",
+      "lat": 36.8,
+      "lon": 10.18,
+      "type": "region",
+      "arch": "beach-resort",
       "blurb": "Carthage and the vast Roman amphitheatre at El Djem, blue-and-white Sidi Bou Said, and the Sahara sets where Star Wars was filmed.",
       "tags": ["roman", "beach", "sahara", "value"],
       "climate": {
         "tempHigh": [16, 17, 19, 22, 26, 31, 34, 34, 31, 26, 21, 17],
-        "tempLow":  [7, 7, 9, 11, 15, 19, 22, 22, 20, 16, 12, 8],
+        "tempLow": [7, 7, 9, 11, 15, 19, 22, 22, 20, 16, 12, 8],
         "rainDays": [8, 7, 7, 5, 3, 2, 1, 2, 4, 6, 7, 8],
         "sunHours": [5, 6, 7, 8, 10, 11, 12, 11, 9, 7, 6, 5],
         "humidity": [74, 72, 70, 68, 65, 61, 58, 62, 68, 72, 74, 75],
-        "seaTemp":  [15, 14, 15, 17, 19, 23, 26, 27, 26, 23, 20, 17]
+        "seaTemp": [15, 14, 15, 17, 19, 23, 26, 27, 26, 23, 20, 17]
       },
-      "crowd":      [28, 30, 42, 55, 65, 78, 88, 92, 72, 55, 35, 30],
+      "crowd": [28, 30, 42, 55, 65, 78, 88, 92, 72, 55, 35, 30],
       "priceIndex": [40, 42, 55, 68, 78, 88, 95, 100, 82, 65, 45, 42],
-      "cost": { "budget": 25, "mid": 58, "luxury": 175 },
-      "r": {
-        "historicSites": 94, "architecture": 84, "beaches": 82, "swimming": 82,
-        "desert": 86, "museums": 80, "markets": 84, "localCulture": 84,
-        "stargazing": 82, "roadTrip": 82, "waterSports": 72, "golf": 72,
-        "wellness": 84, "valueForMoney": 94, "familyYoungKids": 78, "seniors": 72,
-        "halal": 100, "safety": 68, "soloFemaleSafety": 45, "englishSpoken": 42,
-        "cleanliness": 52, "clubbing": 52, "bars": 42, "publicTransport": 45
+      "cost": {
+        "budget": 25,
+        "mid": 58,
+        "luxury": 175
       },
-      "photos": ["El Djem amphitheatre Tunisia", "Sidi Bou Said blue white Tunisia", "Carthage ruins Tunisia", "Star Wars set Tatooine Tunisia", "Chott el Djerid salt flat", "Tunis medina souk"]
+      "r": {
+        "historicSites": 94, "architecture": 84, "beaches": 82, "swimming": 82, "desert": 86,
+        "museums": 80, "markets": 84, "localCulture": 84, "stargazing": 82, "roadTrip": 82,
+        "waterSports": 72, "golf": 72, "wellness": 84, "valueForMoney": 94,
+        "familyYoungKids": 78, "seniors": 72, "halal": 100, "safety": 68, "soloFemaleSafety": 45,
+        "englishSpoken": 42, "cleanliness": 52, "clubbing": 52, "bars": 42,
+        "publicTransport": 45
+      },
+      "photos": [
+        "El Djem amphitheatre Tunisia",
+        "Sidi Bou Said blue white Tunisia",
+        "Carthage ruins Tunisia",
+        "Star Wars set Tatooine Tunisia",
+        "Chott el Djerid salt flat",
+        "Tunis medina souk"
+      ]
     },
-
     {
-      "id": "cape-town-za", "name": "Cape Town", "country": "ZA", "region": "Western Cape", "continent": "Africa",
-      "lat": -33.925, "lon": 18.424, "type": "city", "arch": "coastal-city",
+      "id": "cape-town-za",
+      "name": "Cape Town",
+      "country": "ZA",
+      "region": "Western Cape",
+      "continent": "Africa",
+      "lat": -33.925,
+      "lon": 18.424,
+      "type": "city",
+      "arch": "coastal-city",
       "blurb": "Table Mountain rising straight out of a city between two oceans, with world-class wine half an hour away. Spectacular, and unequal.",
       "tags": ["table mountain", "wine", "beach", "hiking"],
       "climate": {
         "tempHigh": [27, 27, 26, 23, 20, 18, 18, 18, 19, 22, 24, 26],
-        "tempLow":  [16, 16, 15, 12, 10, 8, 7, 8, 9, 11, 13, 15],
+        "tempLow": [16, 16, 15, 12, 10, 8, 7, 8, 9, 11, 13, 15],
         "rainDays": [3, 3, 4, 8, 11, 13, 12, 12, 9, 7, 5, 4],
         "sunHours": [11, 11, 9, 8, 6, 6, 6, 7, 7, 9, 10, 11],
         "humidity": [71, 72, 74, 76, 79, 81, 81, 80, 77, 74, 71, 70],
-        "seaTemp":  [18, 19, 18, 17, 16, 15, 14, 14, 14, 15, 16, 17]
+        "seaTemp": [18, 19, 18, 17, 16, 15, 14, 14, 14, 15, 16, 17]
       },
-      "crowd":      [88, 82, 68, 52, 42, 38, 42, 45, 52, 65, 78, 92],
+      "crowd": [88, 82, 68, 52, 42, 38, 42, 45, 52, 65, 78, 92],
       "priceIndex": [95, 90, 78, 62, 52, 45, 50, 52, 62, 75, 85, 100],
-      "cost": { "budget": 32, "mid": 78, "luxury": 250 },
-      "r": {
-        "scenery": 98, "mountains": 90, "hiking": 92, "beaches": 84, "wine": 96,
-        "foodScene": 92, "fineDining": 90, "surfing": 80, "kayaking": 74,
-        "wildlife": 84, "climbing": 84, "cycling": 80, "adrenaline": 86,
-        "museums": 78, "historicSites": 80, "artScene": 84, "markets": 82,
-        "bars": 84, "clubbing": 80, "lgbtqScene": 84, "romance": 88,
-        "valueForMoney": 90, "englishSpoken": 96, "familyYoungKids": 76,
-        "safety": 32, "soloFemaleSafety": 28, "swimming": 55, "publicTransport": 35
+      "cost": {
+        "budget": 32,
+        "mid": 78,
+        "luxury": 250
       },
-      "photos": ["Table Mountain Cape Town", "Cape Point South Africa", "Bo-Kaap colourful houses Cape Town", "Boulders Beach penguins", "Stellenbosch vineyards South Africa", "Chapman's Peak Drive Cape Town"]
+      "r": {
+        "scenery": 98, "mountains": 90, "hiking": 92, "beaches": 84, "wine": 96, "foodScene": 92,
+        "fineDining": 90, "surfing": 80, "kayaking": 74, "wildlife": 84, "climbing": 84,
+        "cycling": 80, "adrenaline": 86, "museums": 78, "historicSites": 80, "artScene": 84,
+        "markets": 82, "bars": 84, "clubbing": 80, "lgbtqScene": 84, "romance": 88,
+        "valueForMoney": 90, "englishSpoken": 96, "familyYoungKids": 76, "safety": 32,
+        "soloFemaleSafety": 28, "swimming": 55, "publicTransport": 35
+      },
+      "photos": [
+        "Table Mountain Cape Town",
+        "Cape Point South Africa",
+        "Bo-Kaap colourful houses Cape Town",
+        "Boulders Beach penguins",
+        "Stellenbosch vineyards South Africa",
+        "Chapman's Peak Drive Cape Town"
+      ]
     },
     {
-      "id": "kruger-za", "name": "Kruger & the Lowveld", "country": "ZA", "region": "Mpumalanga", "continent": "Africa",
-      "lat": -24.007, "lon": 31.556, "type": "region", "arch": "safari",
+      "id": "kruger-za",
+      "name": "Kruger & the Lowveld",
+      "country": "ZA",
+      "region": "Mpumalanga",
+      "continent": "Africa",
+      "lat": -24.007,
+      "lon": 31.556,
+      "type": "region",
+      "arch": "safari",
       "blurb": "The most accessible Big Five safari on earth — you can self-drive it — plus the Blyde River Canyon on the escarpment above.",
       "tags": ["big five", "self drive", "safari", "value"],
       "climate": {
         "tempHigh": [33, 32, 31, 29, 27, 25, 25, 27, 30, 31, 31, 32],
-        "tempLow":  [21, 21, 20, 17, 13, 9, 9, 11, 15, 18, 19, 20],
+        "tempLow": [21, 21, 20, 17, 13, 9, 9, 11, 15, 18, 19, 20],
         "rainDays": [11, 9, 8, 5, 3, 2, 1, 1, 3, 7, 10, 11],
         "sunHours": [8, 8, 8, 8, 9, 9, 9, 9, 9, 8, 8, 8],
         "humidity": [72, 74, 74, 72, 68, 65, 62, 58, 58, 65, 70, 71]
       },
-      "crowd":      [52, 50, 48, 55, 62, 72, 82, 78, 68, 58, 52, 68],
+      "crowd": [52, 50, 48, 55, 62, 72, 82, 78, 68, 58, 52, 68],
       "priceIndex": [62, 60, 58, 65, 72, 82, 92, 88, 78, 68, 62, 78],
-      "cost": { "budget": 40, "mid": 105, "luxury": 380 },
-      "r": {
-        "wildlife": 100, "nationalParks": 98, "scenery": 88, "stargazing": 92,
-        "roadTrip": 92, "hiking": 74, "forests": 62,
-        "localCulture": 72, "adrenaline": 68, "luxury": 88, "romance": 86,
-        "familyTeens": 88, "valueForMoney": 88, "englishSpoken": 96,
-        "safety": 62, "healthHygiene": 68, "ecoFriendly": 78,
-        "beaches": 0, "swimming": 42, "clubbing": 5, "shopping": 25,
-        "museums": 28, "publicTransport": 12, "walkability": 10
+      "cost": {
+        "budget": 40,
+        "mid": 105,
+        "luxury": 380
       },
-      "photos": ["Kruger National Park lion", "African elephant Kruger", "Blyde River Canyon South Africa", "Leopard in tree South Africa", "Safari jeep game drive Kruger", "African sunset acacia silhouette"]
+      "r": {
+        "wildlife": 100, "nationalParks": 98, "scenery": 88, "stargazing": 92, "roadTrip": 92,
+        "hiking": 74, "forests": 62, "localCulture": 72, "adrenaline": 68, "luxury": 88,
+        "romance": 86, "familyTeens": 88, "valueForMoney": 88, "englishSpoken": 96, "safety": 62,
+        "healthHygiene": 68, "ecoFriendly": 78, "beaches": 0, "swimming": 42, "clubbing": 5,
+        "shopping": 25, "museums": 28, "publicTransport": 12, "walkability": 10
+      },
+      "photos": [
+        "Kruger National Park lion",
+        "African elephant Kruger",
+        "Blyde River Canyon South Africa",
+        "Leopard in tree South Africa",
+        "Safari jeep game drive Kruger",
+        "African sunset acacia silhouette"
+      ]
     },
     {
-      "id": "garden-route-za", "name": "Garden Route", "country": "ZA", "region": "Western Cape", "continent": "Africa",
-      "lat": -34.050, "lon": 23.370, "type": "coast", "arch": "wine-country",
+      "id": "garden-route-za",
+      "name": "Garden Route",
+      "country": "ZA",
+      "region": "Western Cape",
+      "continent": "Africa",
+      "lat": -34.05,
+      "lon": 23.37,
+      "type": "coast",
+      "arch": "wine-country",
       "blurb": "A 300km coastal drive of forest, lagoons and empty beaches, with bungee jumps, whale watching at Hermanus and elephant sanctuaries.",
       "tags": ["road trip", "whales", "forest", "adventure"],
       "climate": {
         "tempHigh": [25, 25, 24, 23, 21, 19, 19, 19, 20, 21, 23, 24],
-        "tempLow":  [15, 15, 14, 12, 10, 8, 7, 8, 10, 12, 13, 14],
+        "tempLow": [15, 15, 14, 12, 10, 8, 7, 8, 10, 12, 13, 14],
         "rainDays": [7, 7, 8, 9, 8, 8, 8, 9, 9, 9, 9, 8],
         "sunHours": [8, 8, 7, 7, 7, 6, 7, 7, 6, 7, 8, 8],
         "humidity": [76, 78, 79, 80, 80, 80, 80, 80, 79, 78, 77, 76],
-        "seaTemp":  [21, 22, 21, 20, 19, 18, 17, 17, 17, 18, 19, 20]
+        "seaTemp": [21, 22, 21, 20, 19, 18, 17, 17, 17, 18, 19, 20]
       },
-      "crowd":      [82, 75, 58, 45, 38, 35, 42, 48, 52, 58, 68, 88],
+      "crowd": [82, 75, 58, 45, 38, 35, 42, 48, 52, 58, 68, 88],
       "priceIndex": [92, 85, 68, 58, 50, 48, 55, 60, 62, 68, 78, 98],
-      "cost": { "budget": 32, "mid": 78, "luxury": 240 },
+      "cost": {
+        "budget": 32,
+        "mid": 78,
+        "luxury": 240
+      },
       "r": {
         "roadTrip": 98, "scenery": 92, "forests": 88, "beaches": 84, "wildlife": 88,
-        "adrenaline": 94, "hiking": 88, "kayaking": 80, "surfing": 78,
-        "lakesRivers": 82, "nationalParks": 86, "wine": 84, "foodScene": 82,
-        "cycling": 72, "romance": 84, "familyYoungKids": 80, "familyTeens": 88,
-        "valueForMoney": 90, "englishSpoken": 96, "swimming": 58,
-        "safety": 62, "clubbing": 30, "shopping": 48, "publicTransport": 18
+        "adrenaline": 94, "hiking": 88, "kayaking": 80, "surfing": 78, "lakesRivers": 82,
+        "nationalParks": 86, "wine": 84, "foodScene": 82, "cycling": 72, "romance": 84,
+        "familyYoungKids": 80, "familyTeens": 88, "valueForMoney": 90, "englishSpoken": 96,
+        "swimming": 58, "safety": 62, "clubbing": 30, "shopping": 48, "publicTransport": 18
       },
-      "photos": ["Knysna Heads Garden Route", "Tsitsikamma suspension bridge", "Bloukrans bungee jump South Africa", "Whale watching Hermanus", "Wilderness beach Garden Route", "Cango Caves Oudtshoorn"]
+      "photos": [
+        "Knysna Heads Garden Route",
+        "Tsitsikamma suspension bridge",
+        "Bloukrans bungee jump South Africa",
+        "Whale watching Hermanus",
+        "Wilderness beach Garden Route",
+        "Cango Caves Oudtshoorn"
+      ]
     },
-
     {
-      "id": "masai-mara-ke", "name": "Masai Mara", "country": "KE", "region": "Narok", "continent": "Africa",
-      "lat": -1.406, "lon": 35.008, "type": "region", "arch": "safari",
+      "id": "masai-mara-ke",
+      "name": "Masai Mara",
+      "country": "KE",
+      "region": "Narok",
+      "continent": "Africa",
+      "lat": -1.406,
+      "lon": 35.008,
+      "type": "region",
+      "arch": "safari",
       "blurb": "The Great Migration crossing the Mara River between July and October — nearly two million wildebeest, and the crocodiles waiting for them.",
       "tags": ["migration", "big cats", "safari", "balloon"],
       "climate": {
         "tempHigh": [28, 28, 28, 26, 25, 24, 24, 25, 27, 27, 26, 26],
-        "tempLow":  [13, 13, 14, 15, 14, 13, 12, 13, 13, 14, 14, 13],
+        "tempLow": [13, 13, 14, 15, 14, 13, 12, 13, 13, 14, 14, 13],
         "rainDays": [6, 7, 11, 16, 13, 7, 6, 7, 6, 10, 15, 10],
         "sunHours": [9, 9, 8, 7, 7, 8, 7, 7, 8, 8, 7, 8],
         "humidity": [62, 60, 66, 74, 74, 72, 72, 70, 66, 68, 74, 70]
       },
-      "crowd":      [62, 58, 45, 35, 38, 55, 88, 95, 88, 62, 45, 65],
+      "crowd": [62, 58, 45, 35, 38, 55, 88, 95, 88, 62, 45, 65],
       "priceIndex": [72, 68, 58, 48, 52, 68, 95, 100, 95, 72, 58, 78],
-      "cost": { "budget": 55, "mid": 150, "luxury": 550 },
+      "cost": {
+        "budget": 55,
+        "mid": 150,
+        "luxury": 550
+      },
       "r": {
         "wildlife": 100, "nationalParks": 96, "scenery": 90, "stargazing": 92,
-        "localCulture": 88, "adrenaline": 82, "romance": 88, "luxury": 92,
-        "familyTeens": 86, "hiking": 55, "roadTrip": 62, "ecoFriendly": 74,
-        "englishSpoken": 90, "valueForMoney": 62,
-        "safety": 62, "healthHygiene": 45, "beaches": 0, "swimming": 25,
-        "clubbing": 3, "shopping": 25, "museums": 12, "publicTransport": 8,
-        "walkability": 8, "wifi": 40, "accessibility": 20
+        "localCulture": 88, "adrenaline": 82, "romance": 88, "luxury": 92, "familyTeens": 86,
+        "hiking": 55, "roadTrip": 62, "ecoFriendly": 74, "englishSpoken": 90,
+        "valueForMoney": 62, "safety": 62, "healthHygiene": 45, "beaches": 0, "swimming": 25,
+        "clubbing": 3, "shopping": 25, "museums": 12, "publicTransport": 8, "walkability": 8,
+        "wifi": 40, "accessibility": 20
       },
-      "photos": ["Great Migration wildebeest Masai Mara", "Lion pride Masai Mara Kenya", "Hot air balloon safari Masai Mara", "Maasai warriors Kenya", "Cheetah Masai Mara", "Mara river crossing crocodile"]
+      "photos": [
+        "Great Migration wildebeest Masai Mara",
+        "Lion pride Masai Mara Kenya",
+        "Hot air balloon safari Masai Mara",
+        "Maasai warriors Kenya",
+        "Cheetah Masai Mara",
+        "Mara river crossing crocodile"
+      ]
     },
     {
-      "id": "diani-ke", "name": "Diani & the Kenyan Coast", "country": "KE", "region": "Kwale", "continent": "Africa",
-      "lat": -4.317, "lon": 39.576, "type": "coast", "arch": "beach-resort",
+      "id": "diani-ke",
+      "name": "Diani & the Kenyan Coast",
+      "country": "KE",
+      "region": "Kwale",
+      "continent": "Africa",
+      "lat": -4.317,
+      "lon": 39.576,
+      "type": "coast",
+      "arch": "beach-resort",
       "blurb": "White sand and Indian Ocean reef on the Swahili coast, with Mombasa's old town and colobus monkeys in the coastal forest.",
       "tags": ["beach", "swahili", "reef", "kitesurfing"],
       "climate": {
         "tempHigh": [32, 32, 33, 31, 29, 29, 28, 28, 29, 30, 31, 32],
-        "tempLow":  [24, 24, 25, 24, 23, 22, 21, 21, 22, 23, 24, 24],
+        "tempLow": [24, 24, 25, 24, 23, 22, 21, 21, 22, 23, 24, 24],
         "rainDays": [3, 2, 5, 12, 15, 10, 8, 8, 7, 8, 10, 7],
         "sunHours": [9, 9, 9, 7, 6, 7, 7, 7, 8, 8, 8, 8],
         "humidity": [76, 76, 78, 82, 84, 82, 80, 79, 78, 78, 79, 78],
-        "seaTemp":  [28, 29, 29, 29, 28, 27, 26, 26, 26, 27, 28, 28]
+        "seaTemp": [28, 29, 29, 29, 28, 27, 26, 26, 26, 27, 28, 28]
       },
-      "crowd":      [72, 72, 62, 42, 35, 45, 58, 68, 58, 52, 58, 78],
+      "crowd": [72, 72, 62, 42, 35, 45, 58, 68, 58, 52, 58, 78],
       "priceIndex": [82, 82, 72, 55, 48, 58, 68, 78, 68, 62, 68, 88],
-      "cost": { "budget": 32, "mid": 78, "luxury": 250 },
+      "cost": {
+        "budget": 32,
+        "mid": 78,
+        "luxury": 250
+      },
       "r": {
         "beaches": 92, "swimming": 88, "snorkelling": 84, "scuba": 82, "waterSports": 88,
-        "sailing": 76, "wildlife": 76, "forests": 72, "localCulture": 84,
-        "historicSites": 74, "markets": 78, "fishing": 78, "wellness": 78,
-        "romance": 84, "familyYoungKids": 78, "valueForMoney": 88,
-        "englishSpoken": 90, "safety": 55, "healthHygiene": 45,
+        "sailing": 76, "wildlife": 76, "forests": 72, "localCulture": 84, "historicSites": 74,
+        "markets": 78, "fishing": 78, "wellness": 78, "romance": 84, "familyYoungKids": 78,
+        "valueForMoney": 88, "englishSpoken": 90, "safety": 55, "healthHygiene": 45,
         "clubbing": 55, "bars": 68, "shopping": 45, "publicTransport": 25, "cleanliness": 52
       },
-      "photos": ["Diani Beach Kenya white sand", "Mombasa Old Town Fort Jesus", "Colobus monkey Kenya coast", "Dhow sailing Kenya coast", "Kenya coral reef snorkelling", "Swahili door carving Lamu"]
+      "photos": [
+        "Diani Beach Kenya white sand",
+        "Mombasa Old Town Fort Jesus",
+        "Colobus monkey Kenya coast",
+        "Dhow sailing Kenya coast",
+        "Kenya coral reef snorkelling",
+        "Swahili door carving Lamu"
+      ]
     },
     {
-      "id": "serengeti-tz", "name": "Serengeti & Ngorongoro", "country": "TZ", "region": "Arusha", "continent": "Africa",
-      "lat": -2.333, "lon": 34.833, "type": "region", "arch": "safari",
+      "id": "serengeti-tz",
+      "name": "Serengeti & Ngorongoro",
+      "country": "TZ",
+      "region": "Arusha",
+      "continent": "Africa",
+      "lat": -2.333,
+      "lon": 34.833,
+      "type": "region",
+      "arch": "safari",
       "blurb": "Endless plains and the Ngorongoro Crater — a collapsed caldera holding 25,000 animals inside its walls. The classic African safari.",
       "tags": ["serengeti", "crater", "migration", "big five"],
       "climate": {
         "tempHigh": [28, 29, 28, 26, 25, 24, 24, 25, 27, 28, 27, 27],
-        "tempLow":  [15, 15, 15, 16, 14, 12, 12, 12, 13, 14, 15, 15],
+        "tempLow": [15, 15, 15, 16, 14, 12, 12, 12, 13, 14, 15, 15],
         "rainDays": [8, 8, 12, 17, 12, 4, 2, 2, 4, 9, 15, 12],
         "sunHours": [9, 9, 8, 7, 8, 9, 9, 9, 9, 8, 7, 8],
         "humidity": [64, 62, 68, 74, 72, 66, 62, 60, 58, 62, 70, 68]
       },
-      "crowd":      [72, 72, 52, 35, 38, 62, 88, 92, 78, 62, 52, 72],
+      "crowd": [72, 72, 52, 35, 38, 62, 88, 92, 78, 62, 52, 72],
       "priceIndex": [82, 82, 65, 48, 52, 75, 95, 100, 88, 72, 62, 82],
-      "cost": { "budget": 60, "mid": 165, "luxury": 600 },
+      "cost": {
+        "budget": 60,
+        "mid": 165,
+        "luxury": 600
+      },
       "r": {
         "wildlife": 100, "nationalParks": 100, "scenery": 94, "stargazing": 94,
-        "localCulture": 86, "adrenaline": 78, "romance": 88, "luxury": 92,
-        "familyTeens": 86, "hiking": 62, "mountains": 74, "ecoFriendly": 78,
-        "englishSpoken": 78, "valueForMoney": 58, "roadTrip": 58,
-        "safety": 68, "healthHygiene": 42, "beaches": 0, "swimming": 20,
-        "clubbing": 3, "shopping": 28, "museums": 15, "publicTransport": 8,
+        "localCulture": 86, "adrenaline": 78, "romance": 88, "luxury": 92, "familyTeens": 86,
+        "hiking": 62, "mountains": 74, "ecoFriendly": 78, "englishSpoken": 78,
+        "valueForMoney": 58, "roadTrip": 58, "safety": 68, "healthHygiene": 42, "beaches": 0,
+        "swimming": 20, "clubbing": 3, "shopping": 28, "museums": 15, "publicTransport": 8,
         "walkability": 8, "wifi": 32, "accessibility": 18
       },
-      "photos": ["Serengeti plains Tanzania", "Ngorongoro Crater Tanzania", "Wildebeest migration Serengeti", "Black rhino Ngorongoro", "Serengeti acacia sunset", "Maasai village Tanzania"]
+      "photos": [
+        "Serengeti plains Tanzania",
+        "Ngorongoro Crater Tanzania",
+        "Wildebeest migration Serengeti",
+        "Black rhino Ngorongoro",
+        "Serengeti acacia sunset",
+        "Maasai village Tanzania"
+      ]
     },
     {
-      "id": "zanzibar-tz", "name": "Zanzibar", "country": "TZ", "region": "Zanzibar", "continent": "Africa",
-      "lat": -6.165, "lon": 39.203, "type": "island", "arch": "tropical-island",
+      "id": "zanzibar-tz",
+      "name": "Zanzibar",
+      "country": "TZ",
+      "region": "Zanzibar",
+      "continent": "Africa",
+      "lat": -6.165,
+      "lon": 39.203,
+      "type": "island",
+      "arch": "tropical-island",
       "blurb": "Stone Town's Swahili-Omani labyrinth of carved doors and spice markets, with turquoise sandbank beaches and dhows on the north coast.",
       "tags": ["stone town", "spices", "beach", "dhows"],
       "climate": {
         "tempHigh": [32, 33, 33, 31, 29, 29, 28, 29, 29, 30, 31, 32],
-        "tempLow":  [24, 24, 24, 24, 23, 22, 21, 21, 21, 22, 23, 24],
+        "tempLow": [24, 24, 24, 24, 23, 22, 21, 21, 21, 22, 23, 24],
         "rainDays": [6, 5, 10, 17, 14, 6, 5, 5, 6, 9, 13, 11],
         "sunHours": [8, 9, 8, 6, 6, 8, 8, 8, 9, 8, 7, 8],
         "humidity": [80, 80, 81, 84, 83, 80, 78, 78, 78, 79, 81, 81],
-        "seaTemp":  [29, 29, 29, 29, 28, 27, 26, 26, 26, 27, 28, 29]
+        "seaTemp": [29, 29, 29, 29, 28, 27, 26, 26, 26, 27, 28, 29]
       },
-      "crowd":      [78, 78, 62, 42, 35, 55, 78, 88, 72, 58, 58, 82],
+      "crowd": [78, 78, 62, 42, 35, 55, 78, 88, 72, 58, 58, 82],
       "priceIndex": [88, 88, 72, 55, 48, 68, 88, 95, 82, 68, 68, 92],
-      "cost": { "budget": 30, "mid": 72, "luxury": 240 },
+      "cost": {
+        "budget": 30,
+        "mid": 72,
+        "luxury": 240
+      },
       "r": {
         "beaches": 94, "swimming": 90, "snorkelling": 86, "scuba": 84, "sailing": 84,
         "waterSports": 84, "islands": 92, "historicSites": 90, "architecture": 88,
-        "localCulture": 92, "markets": 88, "foodScene": 82, "wildlife": 74,
-        "romance": 92, "wellness": 80, "valueForMoney": 88, "backpacker": 82,
-        "halal": 96, "englishSpoken": 72, "familyYoungKids": 74,
-        "safety": 62, "healthHygiene": 42, "cleanliness": 48,
+        "localCulture": 92, "markets": 88, "foodScene": 82, "wildlife": 74, "romance": 92,
+        "wellness": 80, "valueForMoney": 88, "backpacker": 82, "halal": 96, "englishSpoken": 72,
+        "familyYoungKids": 74, "safety": 62, "healthHygiene": 42, "cleanliness": 48,
         "clubbing": 48, "bars": 55, "hiking": 32, "publicTransport": 25
       },
-      "photos": ["Stone Town Zanzibar carved door", "Nakupenda sandbank Zanzibar", "Zanzibar dhow sunset", "Nungwi beach Zanzibar", "Zanzibar spice market", "Jozani forest red colobus Zanzibar"]
+      "photos": [
+        "Stone Town Zanzibar carved door",
+        "Nakupenda sandbank Zanzibar",
+        "Zanzibar dhow sunset",
+        "Nungwi beach Zanzibar",
+        "Zanzibar spice market",
+        "Jozani forest red colobus Zanzibar"
+      ]
     },
     {
-      "id": "kilimanjaro-tz", "name": "Kilimanjaro", "country": "TZ", "region": "Kilimanjaro", "continent": "Africa",
-      "lat": -3.067, "lon": 37.355, "type": "mountains", "arch": "wilderness-park",
+      "id": "kilimanjaro-tz",
+      "name": "Kilimanjaro",
+      "country": "TZ",
+      "region": "Kilimanjaro",
+      "continent": "Africa",
+      "lat": -3.067,
+      "lon": 37.355,
+      "type": "mountains",
+      "arch": "wilderness-park",
       "blurb": "The highest free-standing mountain in the world, and the only 5,895m summit an unroped walker can reach — through five climate zones in six days.",
       "tags": ["trekking", "summit", "altitude", "challenge"],
       "climate": {
         "tempHigh": [29, 29, 28, 26, 25, 24, 23, 24, 26, 28, 27, 28],
-        "tempLow":  [15, 15, 16, 16, 14, 12, 11, 12, 12, 14, 16, 15],
+        "tempLow": [15, 15, 16, 16, 14, 12, 11, 12, 12, 14, 16, 15],
         "rainDays": [6, 6, 12, 18, 13, 5, 3, 3, 4, 8, 16, 12],
         "sunHours": [9, 9, 8, 6, 7, 8, 8, 8, 9, 9, 7, 8],
         "humidity": [62, 60, 68, 78, 76, 70, 66, 62, 60, 64, 74, 70],
         "snowDepth": [5, 5, 6, 8, 6, 4, 4, 4, 3, 4, 6, 6]
       },
-      "crowd":      [72, 68, 45, 25, 32, 58, 82, 88, 78, 55, 38, 68],
+      "crowd": [72, 68, 45, 25, 32, 58, 82, 88, 78, 55, 38, 68],
       "priceIndex": [82, 78, 58, 38, 45, 72, 92, 95, 88, 68, 52, 78],
-      "cost": { "budget": 65, "mid": 150, "luxury": 380 },
-      "r": {
-        "hiking": 100, "mountains": 98, "scenery": 92, "adrenaline": 88,
-        "stargazing": 88, "forests": 82, "wildlife": 74, "nationalParks": 94,
-        "localCulture": 80, "climbing": 78, "familyTeens": 62,
-        "valueForMoney": 70, "englishSpoken": 78, "ecoFriendly": 68,
-        "safety": 70, "healthHygiene": 45, "beaches": 0, "swimming": 15,
-        "clubbing": 3, "shopping": 22, "museums": 12, "publicTransport": 12,
-        "accessibility": 5, "seniors": 20, "familyYoungKids": 10, "romance": 55
+      "cost": {
+        "budget": 65,
+        "mid": 150,
+        "luxury": 380
       },
-      "photos": ["Mount Kilimanjaro summit Uhuru Peak", "Kilimanjaro from Amboseli elephants", "Kilimanjaro trekking porters", "Barranco Wall Kilimanjaro", "Kilimanjaro glacier summit", "Shira plateau Kilimanjaro"]
+      "r": {
+        "hiking": 100, "mountains": 98, "scenery": 92, "adrenaline": 88, "stargazing": 88,
+        "forests": 82, "wildlife": 74, "nationalParks": 94, "localCulture": 80, "climbing": 78,
+        "familyTeens": 62, "valueForMoney": 70, "englishSpoken": 78, "ecoFriendly": 68,
+        "safety": 70, "healthHygiene": 45, "beaches": 0, "swimming": 15, "clubbing": 3,
+        "shopping": 22, "museums": 12, "publicTransport": 12, "accessibility": 5, "seniors": 20,
+        "familyYoungKids": 10, "romance": 55
+      },
+      "photos": [
+        "Mount Kilimanjaro summit Uhuru Peak",
+        "Kilimanjaro from Amboseli elephants",
+        "Kilimanjaro trekking porters",
+        "Barranco Wall Kilimanjaro",
+        "Kilimanjaro glacier summit",
+        "Shira plateau Kilimanjaro"
+      ]
     },
     {
-      "id": "namibia-na", "name": "Namibia", "country": "NA", "region": "Namibia", "continent": "Africa",
-      "lat": -24.700, "lon": 15.400, "type": "region", "arch": "desert",
+      "id": "namibia-na",
+      "name": "Namibia",
+      "country": "NA",
+      "region": "Namibia",
+      "continent": "Africa",
+      "lat": -24.7,
+      "lon": 15.4,
+      "type": "region",
+      "arch": "desert",
       "blurb": "The world's oldest desert meeting the Atlantic — 300m rust-red dunes at Sossusvlei, the Skeleton Coast, and Etosha's waterholes.",
       "tags": ["dunes", "self drive", "stars", "wildlife"],
       "climate": {
         "tempHigh": [33, 32, 31, 29, 26, 23, 23, 26, 30, 32, 33, 34],
-        "tempLow":  [17, 17, 16, 13, 9, 6, 5, 8, 12, 15, 16, 17],
+        "tempLow": [17, 17, 16, 13, 9, 6, 5, 8, 12, 15, 16, 17],
         "rainDays": [6, 7, 7, 3, 1, 0, 0, 0, 0, 1, 3, 5],
         "sunHours": [10, 10, 9, 10, 10, 10, 10, 11, 11, 11, 11, 11],
         "humidity": [45, 52, 52, 45, 38, 36, 32, 28, 26, 30, 36, 40]
       },
-      "crowd":      [42, 42, 45, 52, 62, 72, 82, 82, 68, 58, 48, 48],
+      "crowd": [42, 42, 45, 52, 62, 72, 82, 82, 68, 58, 48, 48],
       "priceIndex": [55, 55, 58, 65, 72, 82, 92, 92, 78, 68, 60, 60],
-      "cost": { "budget": 42, "mid": 105, "luxury": 320 },
+      "cost": {
+        "budget": 42,
+        "mid": 105,
+        "luxury": 320
+      },
       "r": {
-        "desert": 100, "scenery": 98, "stargazing": 100, "roadTrip": 98,
-        "wildlife": 88, "nationalParks": 92, "adrenaline": 82, "hiking": 80,
-        "mountains": 74, "localCulture": 82, "beaches": 55, "climbing": 62,
-        "romance": 86, "luxury": 80, "ecoFriendly": 82, "familyTeens": 84,
-        "valueForMoney": 78, "englishSpoken": 88, "safety": 76, "cleanliness": 78,
-        "swimming": 25, "clubbing": 8, "shopping": 25, "museums": 25,
+        "desert": 100, "scenery": 98, "stargazing": 100, "roadTrip": 98, "wildlife": 88,
+        "nationalParks": 92, "adrenaline": 82, "hiking": 80, "mountains": 74, "localCulture": 82,
+        "beaches": 55, "climbing": 62, "romance": 86, "luxury": 80, "ecoFriendly": 82,
+        "familyTeens": 84, "valueForMoney": 78, "englishSpoken": 88, "safety": 76,
+        "cleanliness": 78, "swimming": 25, "clubbing": 8, "shopping": 25, "museums": 25,
         "publicTransport": 10, "walkability": 12, "wifi": 45
       },
-      "photos": ["Sossusvlei Deadvlei Namibia", "Namib desert dunes sunrise", "Etosha waterhole elephants Namibia", "Skeleton Coast shipwreck Namibia", "Namibia Milky Way night sky", "Himba woman Namibia"]
+      "photos": [
+        "Sossusvlei Deadvlei Namibia",
+        "Namib desert dunes sunrise",
+        "Etosha waterhole elephants Namibia",
+        "Skeleton Coast shipwreck Namibia",
+        "Namibia Milky Way night sky",
+        "Himba woman Namibia"
+      ]
     },
     {
-      "id": "okavango-bw", "name": "Okavango Delta", "country": "BW", "region": "North-West", "continent": "Africa",
-      "lat": -19.283, "lon": 22.900, "type": "region", "arch": "safari",
+      "id": "okavango-bw",
+      "name": "Okavango Delta",
+      "country": "BW",
+      "region": "North-West",
+      "continent": "Africa",
+      "lat": -19.283,
+      "lon": 22.9,
+      "type": "region",
+      "arch": "safari",
       "blurb": "A river that never reaches the sea, flooding into the Kalahari and drawing enormous game — explored by mokoro canoe through the reeds.",
       "tags": ["delta", "mokoro", "elephants", "exclusive"],
       "climate": {
         "tempHigh": [32, 31, 31, 31, 29, 26, 26, 30, 34, 35, 34, 32],
-        "tempLow":  [19, 19, 18, 15, 10, 7, 6, 9, 14, 18, 19, 19],
+        "tempLow": [19, 19, 18, 15, 10, 7, 6, 9, 14, 18, 19, 19],
         "rainDays": [12, 10, 8, 3, 1, 0, 0, 0, 1, 4, 8, 11],
         "sunHours": [8, 8, 9, 9, 10, 10, 10, 10, 10, 9, 9, 8],
         "humidity": [72, 74, 72, 66, 58, 54, 48, 42, 40, 48, 62, 70]
       },
-      "crowd":      [38, 38, 42, 52, 68, 82, 88, 85, 72, 58, 45, 42],
+      "crowd": [38, 38, 42, 52, 68, 82, 88, 85, 72, 58, 45, 42],
       "priceIndex": [50, 50, 55, 65, 80, 92, 98, 95, 85, 70, 58, 55],
-      "cost": { "budget": 80, "mid": 220, "luxury": 850 },
-      "r": {
-        "wildlife": 100, "nationalParks": 96, "lakesRivers": 96, "kayaking": 92,
-        "scenery": 90, "stargazing": 96, "romance": 92,
-        "luxury": 96, "ecoFriendly": 90, "localCulture": 78, "fishing": 78,
-        "familyTeens": 78, "englishSpoken": 88, "hiking": 55,
-        "valueForMoney": 42, "safety": 78, "healthHygiene": 58,
-        "beaches": 0, "swimming": 15, "clubbing": 2, "shopping": 12,
-        "museums": 8, "publicTransport": 5, "walkability": 8, "backpacker": 22
+      "cost": {
+        "budget": 80,
+        "mid": 220,
+        "luxury": 850
       },
-      "photos": ["Okavango Delta aerial Botswana", "Mokoro canoe Okavango", "Elephants Chobe Botswana", "Okavango Delta wildlife lion", "Botswana safari camp sunset", "African fish eagle Okavango"]
+      "r": {
+        "wildlife": 100, "nationalParks": 96, "lakesRivers": 96, "kayaking": 92, "scenery": 90,
+        "stargazing": 96, "romance": 92, "luxury": 96, "ecoFriendly": 90, "localCulture": 78,
+        "fishing": 78, "familyTeens": 78, "englishSpoken": 88, "hiking": 55, "valueForMoney": 42,
+        "safety": 78, "healthHygiene": 58, "beaches": 0, "swimming": 15, "clubbing": 2,
+        "shopping": 12, "museums": 8, "publicTransport": 5, "walkability": 8, "backpacker": 22
+      },
+      "photos": [
+        "Okavango Delta aerial Botswana",
+        "Mokoro canoe Okavango",
+        "Elephants Chobe Botswana",
+        "Okavango Delta wildlife lion",
+        "Botswana safari camp sunset",
+        "African fish eagle Okavango"
+      ]
     },
     {
-      "id": "victoria-falls-zw", "name": "Victoria Falls", "country": "ZW", "region": "Matabeleland North", "continent": "Africa",
-      "lat": -17.925, "lon": 25.858, "type": "region", "arch": "wilderness-park",
+      "id": "victoria-falls-zw",
+      "name": "Victoria Falls",
+      "country": "ZW",
+      "region": "Matabeleland North",
+      "continent": "Africa",
+      "lat": -17.925,
+      "lon": 25.858,
+      "type": "region",
+      "arch": "wilderness-park",
       "blurb": "The largest sheet of falling water on earth, throwing spray 400m into the air — plus white-water rafting on the Zambezi below it.",
       "tags": ["waterfall", "rafting", "bungee", "adventure"],
       "climate": {
         "tempHigh": [30, 29, 30, 30, 28, 26, 26, 29, 33, 35, 33, 31],
-        "tempLow":  [19, 19, 18, 15, 11, 8, 7, 10, 15, 19, 20, 19],
+        "tempLow": [19, 19, 18, 15, 11, 8, 7, 10, 15, 19, 20, 19],
         "rainDays": [15, 13, 9, 3, 1, 0, 0, 0, 1, 3, 9, 14],
         "sunHours": [7, 7, 8, 9, 10, 10, 10, 11, 10, 9, 8, 7],
         "humidity": [76, 78, 74, 66, 58, 54, 50, 44, 40, 45, 62, 73]
       },
-      "crowd":      [45, 45, 52, 68, 72, 68, 72, 75, 72, 62, 52, 48],
+      "crowd": [45, 45, 52, 68, 72, 68, 72, 75, 72, 62, 52, 48],
       "priceIndex": [58, 58, 65, 78, 82, 78, 82, 85, 82, 72, 65, 60],
-      "cost": { "budget": 42, "mid": 105, "luxury": 320 },
-      "r": {
-        "adrenaline": 100, "scenery": 94, "lakesRivers": 96, "wildlife": 86,
-        "nationalParks": 84, "kayaking": 92, "stargazing": 84, "hiking": 68,
-        "localCulture": 80, "fishing": 78, "romance": 82, "familyTeens": 88,
-        "luxury": 78, "englishSpoken": 88, "valueForMoney": 78,
-        "safety": 62, "healthHygiene": 42, "beaches": 0, "swimming": 62,
-        "clubbing": 25, "shopping": 42, "museums": 25, "publicTransport": 15
+      "cost": {
+        "budget": 42,
+        "mid": 105,
+        "luxury": 320
       },
-      "photos": ["Victoria Falls Zimbabwe", "Devils Pool Victoria Falls", "White water rafting Zambezi", "Victoria Falls bridge bungee", "Victoria Falls rainbow spray", "Zambezi sunset cruise elephants"]
+      "r": {
+        "adrenaline": 100, "scenery": 94, "lakesRivers": 96, "wildlife": 86, "nationalParks": 84,
+        "kayaking": 92, "stargazing": 84, "hiking": 68, "localCulture": 80, "fishing": 78,
+        "romance": 82, "familyTeens": 88, "luxury": 78, "englishSpoken": 88, "valueForMoney": 78,
+        "safety": 62, "healthHygiene": 42, "beaches": 0, "swimming": 62, "clubbing": 25,
+        "shopping": 42, "museums": 25, "publicTransport": 15
+      },
+      "photos": [
+        "Victoria Falls Zimbabwe",
+        "Devils Pool Victoria Falls",
+        "White water rafting Zambezi",
+        "Victoria Falls bridge bungee",
+        "Victoria Falls rainbow spray",
+        "Zambezi sunset cruise elephants"
+      ]
     },
     {
-      "id": "rwanda-rw", "name": "Rwanda", "country": "RW", "region": "Northern Province", "continent": "Africa",
-      "lat": -1.484, "lon": 29.567, "type": "region", "arch": "jungle-eco",
+      "id": "rwanda-rw",
+      "name": "Rwanda",
+      "country": "RW",
+      "region": "Northern Province",
+      "continent": "Africa",
+      "lat": -1.484,
+      "lon": 29.567,
+      "type": "region",
+      "arch": "jungle-eco",
       "blurb": "Mountain gorilla trekking in the Virunga volcanoes — an hour on foot to sit with a habituated family. Also the cleanest country in Africa.",
       "tags": ["gorillas", "volcanoes", "clean", "conservation"],
       "climate": {
         "tempHigh": [27, 27, 27, 26, 26, 27, 28, 28, 28, 27, 26, 26],
-        "tempLow":  [15, 15, 16, 16, 16, 15, 15, 15, 15, 16, 16, 15],
+        "tempLow": [15, 15, 16, 16, 16, 15, 15, 15, 15, 16, 16, 15],
         "rainDays": [13, 13, 17, 20, 16, 5, 3, 8, 15, 19, 19, 15],
         "sunHours": [6, 6, 6, 5, 6, 7, 7, 7, 6, 6, 5, 6],
         "humidity": [76, 76, 78, 82, 80, 72, 68, 70, 76, 80, 82, 78]
       },
-      "crowd":      [52, 52, 42, 35, 42, 72, 82, 78, 62, 45, 42, 55],
+      "crowd": [52, 52, 42, 35, 42, 72, 82, 78, 62, 45, 42, 55],
       "priceIndex": [65, 65, 55, 48, 55, 82, 92, 88, 75, 58, 55, 68],
-      "cost": { "budget": 45, "mid": 120, "luxury": 480 },
-      "r": {
-        "wildlife": 100, "forests": 94, "nationalParks": 94, "hiking": 88,
-        "mountains": 86, "volcanic": 84, "scenery": 90, "lakesRivers": 82,
-        "localCulture": 84, "museums": 78, "ecoFriendly": 94, "romance": 78,
-        "cleanliness": 92, "safety": 84, "luxury": 82, "coffee": 88,
-        "englishSpoken": 74, "valueForMoney": 55, "familyTeens": 74,
-        "beaches": 0, "swimming": 42, "clubbing": 32, "shopping": 35,
-        "publicTransport": 42, "accessibility": 20, "healthHygiene": 58
+      "cost": {
+        "budget": 45,
+        "mid": 120,
+        "luxury": 480
       },
-      "photos": ["Mountain gorilla Rwanda Volcanoes", "Volcanoes National Park Rwanda", "Lake Kivu Rwanda", "Kigali Genocide Memorial", "Nyungwe forest canopy walk Rwanda", "Rwanda tea plantation hills"]
+      "r": {
+        "wildlife": 100, "forests": 94, "nationalParks": 94, "hiking": 88, "mountains": 86,
+        "volcanic": 84, "scenery": 90, "lakesRivers": 82, "localCulture": 84, "museums": 78,
+        "ecoFriendly": 94, "romance": 78, "cleanliness": 92, "safety": 84, "luxury": 82,
+        "coffee": 88, "englishSpoken": 74, "valueForMoney": 55, "familyTeens": 74, "beaches": 0,
+        "swimming": 42, "clubbing": 32, "shopping": 35, "publicTransport": 42,
+        "accessibility": 20, "healthHygiene": 58
+      },
+      "photos": [
+        "Mountain gorilla Rwanda Volcanoes",
+        "Volcanoes National Park Rwanda",
+        "Lake Kivu Rwanda",
+        "Kigali Genocide Memorial",
+        "Nyungwe forest canopy walk Rwanda",
+        "Rwanda tea plantation hills"
+      ]
     },
     {
-      "id": "mauritius-mu", "name": "Mauritius", "country": "MU", "region": "Mauritius", "continent": "Africa",
-      "lat": -20.348, "lon": 57.552, "type": "island", "arch": "tropical-island",
+      "id": "mauritius-mu",
+      "name": "Mauritius",
+      "country": "MU",
+      "region": "Mauritius",
+      "continent": "Africa",
+      "lat": -20.348,
+      "lon": 57.552,
+      "type": "island",
+      "arch": "tropical-island",
       "blurb": "Lagoons inside a near-continuous reef, sugarcane and volcanic peaks inland, and a Creole-Indian-Chinese-French food culture all its own.",
       "tags": ["lagoon", "reef", "creole", "family"],
       "climate": {
         "tempHigh": [30, 30, 30, 29, 27, 26, 25, 25, 26, 28, 29, 30],
-        "tempLow":  [23, 23, 23, 22, 20, 19, 18, 18, 19, 20, 21, 22],
+        "tempLow": [23, 23, 23, 22, 20, 19, 18, 18, 19, 20, 21, 22],
         "rainDays": [15, 14, 15, 12, 10, 10, 11, 10, 7, 6, 8, 12],
         "sunHours": [8, 8, 8, 7, 7, 6, 6, 7, 8, 8, 9, 8],
         "humidity": [79, 80, 80, 79, 78, 78, 78, 77, 75, 73, 74, 77],
-        "seaTemp":  [28, 28, 28, 28, 26, 25, 24, 24, 24, 25, 26, 27]
+        "seaTemp": [28, 28, 28, 28, 26, 25, 24, 24, 24, 25, 26, 27]
       },
-      "crowd":      [58, 55, 52, 55, 58, 62, 72, 72, 62, 68, 72, 78],
+      "crowd": [58, 55, 52, 55, 58, 62, 72, 72, 62, 68, 72, 78],
       "priceIndex": [68, 65, 62, 65, 68, 72, 82, 82, 72, 78, 82, 88],
-      "cost": { "budget": 42, "mid": 105, "luxury": 350 },
+      "cost": {
+        "budget": 42,
+        "mid": 105,
+        "luxury": 350
+      },
       "r": {
         "beaches": 94, "swimming": 92, "snorkelling": 88, "scuba": 84, "waterSports": 88,
         "sailing": 82, "islands": 90, "scenery": 86, "hiking": 80, "mountains": 78,
         "wildlife": 70, "golf": 84, "wellness": 86, "foodScene": 88, "markets": 80,
-        "localCulture": 86, "romance": 92, "luxury": 92, "familyYoungKids": 90,
-        "seniors": 82, "englishSpoken": 88, "safety": 82, "halal": 88,
-        "vegetarian": 86, "valueForMoney": 58, "clubbing": 48, "publicTransport": 48
+        "localCulture": 86, "romance": 92, "luxury": 92, "familyYoungKids": 90, "seniors": 82,
+        "englishSpoken": 88, "safety": 82, "halal": 88, "vegetarian": 86, "valueForMoney": 58,
+        "clubbing": 48, "publicTransport": 48
       },
-      "photos": ["Le Morne Brabant Mauritius", "Mauritius lagoon turquoise beach", "Chamarel seven coloured earths", "Mauritius underwater waterfall aerial", "Port Louis market Mauritius", "Ile aux Cerfs Mauritius"]
+      "photos": [
+        "Le Morne Brabant Mauritius",
+        "Mauritius lagoon turquoise beach",
+        "Chamarel seven coloured earths",
+        "Mauritius underwater waterfall aerial",
+        "Port Louis market Mauritius",
+        "Ile aux Cerfs Mauritius"
+      ]
     },
     {
-      "id": "seychelles-sc", "name": "Seychelles", "country": "SC", "region": "Seychelles", "continent": "Africa",
-      "lat": -4.679, "lon": 55.492, "type": "island", "arch": "tropical-island",
+      "id": "seychelles-sc",
+      "name": "Seychelles",
+      "country": "SC",
+      "region": "Seychelles",
+      "continent": "Africa",
+      "lat": -4.679,
+      "lon": 55.492,
+      "type": "island",
+      "arch": "tropical-island",
       "blurb": "Granite boulders on pink-white sand at Anse Source d'Argent — probably the most photographed beach on earth — and giant tortoises on Aldabra.",
       "tags": ["beaches", "granite", "tortoises", "honeymoon"],
       "climate": {
         "tempHigh": [30, 31, 31, 31, 30, 29, 28, 29, 29, 30, 30, 30],
-        "tempLow":  [24, 25, 25, 25, 25, 24, 24, 24, 24, 24, 24, 24],
+        "tempLow": [24, 25, 25, 25, 25, 24, 24, 24, 24, 24, 24, 24],
         "rainDays": [17, 12, 12, 12, 10, 9, 9, 9, 10, 12, 13, 17],
         "sunHours": [6, 7, 7, 8, 8, 7, 7, 7, 8, 7, 7, 6],
         "humidity": [82, 80, 79, 80, 79, 79, 79, 79, 79, 79, 80, 82],
-        "seaTemp":  [28, 29, 29, 29, 28, 27, 26, 26, 27, 27, 28, 28]
+        "seaTemp": [28, 29, 29, 29, 28, 27, 26, 26, 27, 27, 28, 28]
       },
-      "crowd":      [62, 58, 55, 58, 58, 55, 68, 72, 62, 58, 58, 72],
+      "crowd": [62, 58, 55, 58, 58, 55, 68, 72, 62, 58, 58, 72],
       "priceIndex": [72, 68, 65, 68, 68, 65, 78, 82, 72, 68, 68, 82],
-      "cost": { "budget": 70, "mid": 180, "luxury": 600 },
+      "cost": {
+        "budget": 70,
+        "mid": 180,
+        "luxury": 600
+      },
       "r": {
         "beaches": 100, "swimming": 94, "snorkelling": 94, "scuba": 88, "islands": 96,
         "sailing": 86, "kayaking": 82, "scenery": 96, "wildlife": 84, "hiking": 78,
-        "forests": 78, "romance": 98, "luxury": 96, "wellness": 84,
-        "fishing": 80, "ecoFriendly": 78, "cleanliness": 90, "safety": 88,
-        "englishSpoken": 90, "seniors": 74, "familyYoungKids": 76,
-        "valueForMoney": 25, "backpacker": 32, "clubbing": 18, "shopping": 25,
-        "museums": 15, "historicSites": 25, "publicTransport": 35
+        "forests": 78, "romance": 98, "luxury": 96, "wellness": 84, "fishing": 80,
+        "ecoFriendly": 78, "cleanliness": 90, "safety": 88, "englishSpoken": 90, "seniors": 74,
+        "familyYoungKids": 76, "valueForMoney": 25, "backpacker": 32, "clubbing": 18,
+        "shopping": 25, "museums": 15, "historicSites": 25, "publicTransport": 35
       },
-      "photos": ["Anse Source d'Argent La Digue", "Seychelles granite boulders beach", "Anse Lazio Praslin Seychelles", "Giant tortoise Seychelles", "Vallee de Mai coco de mer", "Seychelles aerial island turquoise"]
+      "photos": [
+        "Anse Source d'Argent La Digue",
+        "Seychelles granite boulders beach",
+        "Anse Lazio Praslin Seychelles",
+        "Giant tortoise Seychelles",
+        "Vallee de Mai coco de mer",
+        "Seychelles aerial island turquoise"
+      ]
     },
     {
-      "id": "cape-verde-cv", "name": "Cape Verde", "country": "CV", "region": "Cape Verde", "continent": "Africa",
-      "lat": 16.538, "lon": -23.043, "type": "island", "arch": "island-volcanic",
+      "id": "cape-verde-cv",
+      "name": "Cape Verde",
+      "country": "CV",
+      "region": "Cape Verde",
+      "continent": "Africa",
+      "lat": 16.538,
+      "lon": -23.043,
+      "type": "island",
+      "arch": "island-volcanic",
       "blurb": "Ten Atlantic volcanic islands with year-round warmth six hours from Europe — Sal's windsurfing, Santo Antão's hiking, and morna music everywhere.",
       "tags": ["year-round sun", "windsurfing", "music", "hiking"],
       "climate": {
         "tempHigh": [24, 24, 25, 25, 26, 27, 28, 29, 30, 29, 28, 26],
-        "tempLow":  [19, 19, 19, 19, 20, 21, 22, 23, 24, 24, 22, 21],
+        "tempLow": [19, 19, 19, 19, 20, 21, 22, 23, 24, 24, 22, 21],
         "rainDays": [1, 0, 0, 0, 0, 0, 1, 4, 5, 2, 1, 1],
         "sunHours": [7, 8, 8, 9, 9, 9, 8, 7, 7, 8, 7, 7],
         "humidity": [68, 68, 68, 69, 71, 74, 76, 79, 79, 76, 72, 70],
-        "seaTemp":  [23, 22, 22, 22, 23, 24, 25, 26, 27, 27, 26, 24]
+        "seaTemp": [23, 22, 22, 22, 23, 24, 25, 26, 27, 27, 26, 24]
       },
-      "crowd":      [72, 72, 68, 62, 58, 55, 62, 68, 58, 58, 65, 78],
+      "crowd": [72, 72, 68, 62, 58, 55, 62, 68, 58, 58, 65, 78],
       "priceIndex": [82, 82, 78, 72, 68, 65, 72, 78, 68, 68, 75, 88],
-      "cost": { "budget": 32, "mid": 78, "luxury": 240 },
+      "cost": {
+        "budget": 32,
+        "mid": 78,
+        "luxury": 240
+      },
       "r": {
         "beaches": 86, "swimming": 84, "waterSports": 96, "surfing": 82, "scuba": 76,
-        "snorkelling": 72, "sailing": 74, "fishing": 82, "islands": 92,
-        "hiking": 88, "mountains": 82, "volcanic": 88, "scenery": 86,
-        "liveMusic": 92, "localCulture": 88, "festivals": 80, "romance": 78,
-        "familyYoungKids": 76, "valueForMoney": 78, "englishSpoken": 45,
-        "safety": 76, "cleanliness": 55, "clubbing": 58, "publicTransport": 32,
-        "museums": 25, "shopping": 32, "healthHygiene": 55
+        "snorkelling": 72, "sailing": 74, "fishing": 82, "islands": 92, "hiking": 88,
+        "mountains": 82, "volcanic": 88, "scenery": 86, "liveMusic": 92, "localCulture": 88,
+        "festivals": 80, "romance": 78, "familyYoungKids": 76, "valueForMoney": 78,
+        "englishSpoken": 45, "safety": 76, "cleanliness": 55, "clubbing": 58,
+        "publicTransport": 32, "museums": 25, "shopping": 32, "healthHygiene": 55
       },
-      "photos": ["Sal island beach Cape Verde", "Santo Antao hiking Cape Verde", "Pico do Fogo volcano Cape Verde", "Mindelo Sao Vicente Cape Verde", "Cape Verde windsurfing", "Cape Verde colourful colonial street"]
+      "photos": [
+        "Sal island beach Cape Verde",
+        "Santo Antao hiking Cape Verde",
+        "Pico do Fogo volcano Cape Verde",
+        "Mindelo Sao Vicente Cape Verde",
+        "Cape Verde windsurfing",
+        "Cape Verde colourful colonial street"
+      ]
     },
     {
-      "id": "madagascar-mg", "name": "Madagascar", "country": "MG", "region": "Madagascar", "continent": "Africa",
-      "lat": -18.766, "lon": 46.869, "type": "island", "arch": "jungle-eco",
+      "id": "madagascar-mg",
+      "name": "Madagascar",
+      "country": "MG",
+      "region": "Madagascar",
+      "continent": "Africa",
+      "lat": -18.766,
+      "lon": 46.869,
+      "type": "island",
+      "arch": "jungle-eco",
       "blurb": "An island that split off 88 million years ago — 90% of its wildlife exists nowhere else. Lemurs, baobabs and spiny forest. Infrastructure is hard.",
       "tags": ["lemurs", "baobabs", "endemic", "adventure"],
       "climate": {
         "tempHigh": [30, 30, 30, 29, 27, 25, 25, 26, 28, 30, 31, 31],
-        "tempLow":  [21, 21, 21, 20, 17, 15, 14, 15, 16, 18, 20, 21],
+        "tempLow": [21, 21, 21, 20, 17, 15, 14, 15, 16, 18, 20, 21],
         "rainDays": [18, 16, 15, 8, 4, 3, 3, 3, 3, 6, 11, 17],
         "sunHours": [6, 6, 7, 8, 8, 8, 8, 8, 9, 9, 8, 7],
         "humidity": [80, 82, 82, 78, 74, 74, 74, 72, 70, 70, 74, 78],
-        "seaTemp":  [28, 28, 28, 28, 27, 25, 24, 24, 25, 26, 27, 28]
+        "seaTemp": [28, 28, 28, 28, 27, 25, 24, 24, 25, 26, 27, 28]
       },
-      "crowd":      [28, 28, 32, 42, 55, 62, 72, 78, 68, 58, 42, 32],
+      "crowd": [28, 28, 32, 42, 55, 62, 72, 78, 68, 58, 42, 32],
       "priceIndex": [42, 42, 45, 55, 68, 75, 85, 90, 80, 70, 55, 45],
-      "cost": { "budget": 30, "mid": 75, "luxury": 240 },
-      "r": {
-        "wildlife": 100, "forests": 94, "nationalParks": 90, "scenery": 90,
-        "beaches": 80, "swimming": 78, "scuba": 78, "snorkelling": 78,
-        "hiking": 86, "localCulture": 88, "stargazing": 86, "kayaking": 70,
-        "ecoFriendly": 74, "romance": 76, "valueForMoney": 88, "backpacker": 78,
-        "adrenaline": 68, "englishSpoken": 42, "safety": 55,
-        "healthHygiene": 35, "cleanliness": 38, "wifi": 45,
-        "clubbing": 25, "shopping": 32, "museums": 25, "publicTransport": 18,
-        "accessibility": 10, "seniors": 32
+      "cost": {
+        "budget": 30,
+        "mid": 75,
+        "luxury": 240
       },
-      "photos": ["Avenue of the Baobabs Madagascar", "Ring-tailed lemur Madagascar", "Tsingy de Bemaraha Madagascar", "Indri lemur Andasibe", "Nosy Be beach Madagascar", "Madagascar chameleon"]
+      "r": {
+        "wildlife": 100, "forests": 94, "nationalParks": 90, "scenery": 90, "beaches": 80,
+        "swimming": 78, "scuba": 78, "snorkelling": 78, "hiking": 86, "localCulture": 88,
+        "stargazing": 86, "kayaking": 70, "ecoFriendly": 74, "romance": 76, "valueForMoney": 88,
+        "backpacker": 78, "adrenaline": 68, "englishSpoken": 42, "safety": 55,
+        "healthHygiene": 35, "cleanliness": 38, "wifi": 45, "clubbing": 25, "shopping": 32,
+        "museums": 25, "publicTransport": 18, "accessibility": 10, "seniors": 32
+      },
+      "photos": [
+        "Avenue of the Baobabs Madagascar",
+        "Ring-tailed lemur Madagascar",
+        "Tsingy de Bemaraha Madagascar",
+        "Indri lemur Andasibe",
+        "Nosy Be beach Madagascar",
+        "Madagascar chameleon"
+      ]
     },
     {
-      "id": "ethiopia-et", "name": "Ethiopia", "country": "ET", "region": "Amhara & Tigray", "continent": "Africa",
-      "lat": 12.030, "lon": 39.043, "type": "region", "arch": "mountain-town",
+      "id": "ethiopia-et",
+      "name": "Ethiopia",
+      "country": "ET",
+      "region": "Amhara & Tigray",
+      "continent": "Africa",
+      "lat": 12.03,
+      "lon": 39.043,
+      "type": "region",
+      "arch": "mountain-town",
       "blurb": "Rock-hewn churches at Lalibela, castles at Gondar and the Simien Mountains — never colonised, with its own calendar, script and coffee ceremony.",
       "tags": ["rock churches", "highlands", "coffee", "ancient"],
       "climate": {
         "tempHigh": [23, 24, 25, 25, 25, 23, 21, 21, 22, 23, 23, 22],
-        "tempLow":  [6, 7, 9, 10, 11, 11, 11, 11, 10, 9, 7, 6],
+        "tempLow": [6, 7, 9, 10, 11, 11, 11, 11, 10, 9, 7, 6],
         "rainDays": [2, 2, 5, 6, 6, 12, 22, 22, 12, 4, 2, 1],
         "sunHours": [9, 9, 8, 8, 8, 6, 4, 4, 6, 9, 9, 9],
         "humidity": [50, 46, 48, 52, 54, 66, 80, 80, 70, 56, 52, 52],
         "snowDepth": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
-      "crowd":      [58, 55, 48, 42, 38, 32, 25, 28, 42, 62, 58, 62],
+      "crowd": [58, 55, 48, 42, 38, 32, 25, 28, 42, 62, 58, 62],
       "priceIndex": [68, 65, 58, 55, 50, 45, 38, 40, 55, 72, 68, 72],
-      "cost": { "budget": 24, "mid": 58, "luxury": 180 },
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 180
+      },
       "r": {
         "religiousSites": 100, "historicSites": 96, "architecture": 92, "localCulture": 98,
         "coffee": 100, "mountains": 90, "hiking": 90, "scenery": 90, "wildlife": 78,
-        "nationalParks": 82, "markets": 84, "festivals": 90, "museums": 74,
-        "vegetarian": 96, "vegan": 92, "stargazing": 82, "valueForMoney": 90,
-        "backpacker": 76, "skiing": 0, "englishSpoken": 58,
-        "safety": 52, "healthHygiene": 35, "cleanliness": 38, "wifi": 40,
+        "nationalParks": 82, "markets": 84, "festivals": 90, "museums": 74, "vegetarian": 96,
+        "vegan": 92, "stargazing": 82, "valueForMoney": 90, "backpacker": 76, "skiing": 0,
+        "englishSpoken": 58, "safety": 52, "healthHygiene": 35, "cleanliness": 38, "wifi": 40,
         "beaches": 0, "swimming": 12, "clubbing": 32, "publicTransport": 30, "accessibility": 10
       },
-      "photos": ["Lalibela rock hewn church Ethiopia", "Simien Mountains Ethiopia gelada", "Gondar castle Ethiopia", "Ethiopian coffee ceremony", "Danakil Depression Ethiopia", "Blue Nile Falls Ethiopia"]
+      "photos": [
+        "Lalibela rock hewn church Ethiopia",
+        "Simien Mountains Ethiopia gelada",
+        "Gondar castle Ethiopia",
+        "Ethiopian coffee ceremony",
+        "Danakil Depression Ethiopia",
+        "Blue Nile Falls Ethiopia"
+      ]
     }
   ]
 }
