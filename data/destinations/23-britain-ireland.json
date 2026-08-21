@@ -1,0 +1,730 @@
+{
+  "_doc": "Britain and Ireland beyond London and Edinburgh — the cities people actually go to, and the coasts and hills they should.",
+  "destinations": [
+    {
+      "id": "manchester-gb",
+      "name": "Manchester",
+      "country": "GB",
+      "region": "North West England",
+      "continent": "Europe",
+      "lat": 53.481,
+      "lon": -2.242,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "The first industrial city in the world, now living off music, football and red brick. Two of the biggest clubs on earth, the Northern Quarter, and an unrepentant amount of rain.",
+      "tags": ["northern quarter", "football", "music", "red brick"],
+      "climate": {
+        "tempHigh": [7, 8, 10, 13, 17, 19, 21, 21, 18, 14, 10, 8],
+        "tempLow": [2, 2, 3, 5, 8, 11, 13, 13, 11, 8, 5, 3],
+        "rainDays": [16, 13, 14, 12, 12, 12, 13, 14, 12, 15, 16, 16],
+        "sunHours": [1, 2, 3, 5, 6, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [86, 83, 79, 74, 73, 74, 75, 77, 80, 84, 86, 87]
+      },
+      "crowd": [58, 58, 62, 66, 70, 74, 76, 76, 74, 68, 64, 72],
+      "priceIndex": [74, 74, 78, 82, 86, 90, 92, 92, 90, 84, 80, 88],
+      "cost": {
+        "budget": 55,
+        "mid": 128,
+        "luxury": 330
+      },
+      "r": {
+        "liveMusic": 96, "bars": 92, "clubbing": 92, "sports": 98, "festivals": 88,
+        "museums": 88, "artScene": 88, "theatre": 85, "architecture": 82, "historicSites": 78,
+        "foodScene": 88, "streetFood": 82, "markets": 85, "shopping": 90, "coffee": 85,
+        "beer": 92, "vegan": 90, "vegetarian": 88, "lgbtqScene": 94, "walkability": 82,
+        "publicTransport": 82, "englishSpoken": 100, "wifi": 96, "groupParty": 88,
+        "valueForMoney": 68, "digitalNomad": 82, "familyYoungKids": 72
+      },
+      "photos": [
+        "Manchester Northern Quarter street art",
+        "Manchester town hall architecture",
+        "Old Trafford Manchester stadium",
+        "Manchester canal Castlefield",
+        "Manchester music venue crowd",
+        "Manchester Science Industry Museum"
+      ]
+    },
+    {
+      "id": "liverpool-gb",
+      "name": "Liverpool",
+      "country": "GB",
+      "region": "Merseyside",
+      "continent": "Europe",
+      "lat": 53.408,
+      "lon": -2.992,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "A great Victorian port that got very rich, then very poor, and is now neither — with more listed buildings than anywhere outside London and a sense of humour about all of it.",
+      "tags": ["the beatles", "albert dock", "football", "waterfront"],
+      "climate": {
+        "tempHigh": [7, 8, 10, 13, 16, 19, 20, 20, 18, 14, 10, 8],
+        "tempLow": [3, 3, 4, 6, 9, 12, 14, 14, 12, 9, 6, 4],
+        "rainDays": [15, 12, 13, 11, 11, 11, 12, 13, 12, 14, 15, 16],
+        "sunHours": [2, 2, 4, 5, 6, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [85, 82, 79, 75, 74, 75, 76, 78, 80, 83, 85, 86],
+        "seaTemp": [8, 7, 8, 9, 12, 14, 16, 17, 16, 14, 11, 9]
+      },
+      "crowd": [55, 55, 60, 65, 70, 74, 78, 78, 72, 66, 60, 68],
+      "priceIndex": [70, 70, 74, 78, 84, 88, 92, 92, 86, 80, 76, 84],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 300
+      },
+      "r": {
+        "museums": 92, "historicSites": 88, "architecture": 92, "artScene": 88, "liveMusic": 96,
+        "bars": 90, "clubbing": 88, "sports": 96, "festivals": 85, "theatre": 82,
+        "foodScene": 82, "markets": 78, "shopping": 82, "coffee": 82, "beer": 88, "beaches": 55,
+        "walkability": 88, "publicTransport": 78, "englishSpoken": 100, "lgbtqScene": 82,
+        "groupParty": 88, "valueForMoney": 80, "familyYoungKids": 78, "vegan": 82
+      },
+      "photos": [
+        "Liverpool Albert Dock waterfront",
+        "Liverpool Royal Liver Building",
+        "Cavern Club Liverpool",
+        "Liverpool cathedral gothic",
+        "Anfield stadium Liverpool",
+        "Crosby beach Gormley statues"
+      ]
+    },
+    {
+      "id": "york-gb",
+      "name": "York",
+      "country": "GB",
+      "region": "Yorkshire",
+      "continent": "Europe",
+      "lat": 53.96,
+      "lon": -1.081,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Two thousand years of city inside a complete set of medieval walls — Roman fortress, Viking capital, and a cathedral with the largest expanse of medieval stained glass in the world.",
+      "tags": ["city walls", "the shambles", "minster", "viking"],
+      "climate": {
+        "tempHigh": [7, 8, 10, 13, 17, 19, 22, 21, 19, 14, 10, 7],
+        "tempLow": [1, 1, 2, 4, 7, 10, 12, 12, 10, 7, 4, 2],
+        "rainDays": [13, 10, 11, 10, 10, 10, 11, 11, 10, 12, 13, 13],
+        "sunHours": [1, 2, 4, 5, 6, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [86, 83, 79, 74, 73, 73, 74, 76, 79, 84, 86, 87]
+      },
+      "crowd": [45, 45, 55, 68, 74, 80, 86, 88, 76, 65, 55, 78],
+      "priceIndex": [66, 66, 74, 84, 88, 92, 96, 98, 90, 80, 74, 92],
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 340
+      },
+      "r": {
+        "historicSites": 98, "architecture": 96, "museums": 92, "religiousSites": 92,
+        "walkability": 96, "localCulture": 85, "markets": 82, "artScene": 72, "foodScene": 85,
+        "fineDining": 82, "beer": 92, "coffee": 85, "bars": 82, "shopping": 82, "romance": 85,
+        "festivals": 78, "theatre": 72, "cycling": 78, "englishSpoken": 100, "safety": 92,
+        "seniors": 88, "familyYoungKids": 85, "valueForMoney": 65, "accessibility": 68
+      },
+      "photos": [
+        "York Minster cathedral England",
+        "The Shambles York medieval street",
+        "York city walls walk",
+        "York riverside Ouse",
+        "Jorvik viking York",
+        "York Christmas market"
+      ]
+    },
+    {
+      "id": "oxford-cambridge-gb",
+      "name": "Oxford & Cambridge",
+      "country": "GB",
+      "region": "The university towns",
+      "continent": "Europe",
+      "lat": 51.752,
+      "lon": -1.258,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Eight hundred years of college quadrangles, punts on the river, libraries you need permission to enter, and an intense unspoken rivalry that surfaces once a year on the Thames.",
+      "tags": ["colleges", "punting", "libraries", "the boat race"],
+      "climate": {
+        "tempHigh": [8, 8, 11, 14, 18, 21, 23, 23, 20, 15, 11, 8],
+        "tempLow": [2, 2, 3, 5, 8, 11, 13, 13, 11, 8, 5, 2],
+        "rainDays": [13, 10, 11, 10, 10, 9, 9, 9, 9, 12, 13, 13],
+        "sunHours": [2, 2, 4, 5, 6, 7, 6, 6, 5, 3, 2, 1],
+        "humidity": [88, 84, 79, 73, 72, 71, 70, 73, 78, 84, 87, 89]
+      },
+      "crowd": [48, 48, 58, 70, 76, 82, 88, 88, 76, 66, 55, 58],
+      "priceIndex": [70, 70, 78, 88, 92, 96, 100, 100, 92, 82, 76, 80],
+      "cost": {
+        "budget": 62,
+        "mid": 148,
+        "luxury": 380
+      },
+      "r": {
+        "historicSites": 96, "architecture": 98, "museums": 94, "religiousSites": 88,
+        "artScene": 82, "theatre": 82, "localCulture": 88, "walkability": 94, "cycling": 92,
+        "romance": 88, "foodScene": 82, "fineDining": 82, "beer": 88, "coffee": 88, "bars": 78,
+        "shopping": 78, "markets": 78, "lakesRivers": 78, "kayaking": 62, "englishSpoken": 100,
+        "safety": 92, "seniors": 85, "familyYoungKids": 75, "valueForMoney": 52
+      },
+      "photos": [
+        "Oxford Radcliffe Camera dome",
+        "Cambridge punting River Cam",
+        "Kings College Chapel Cambridge",
+        "Oxford college quadrangle",
+        "Bridge of Sighs Cambridge",
+        "Bodleian Library Oxford interior"
+      ]
+    },
+    {
+      "id": "bristol-gb",
+      "name": "Bristol",
+      "country": "GB",
+      "region": "South West England",
+      "continent": "Europe",
+      "lat": 51.455,
+      "lon": -2.587,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "A harbour city that funded itself on the slave trade and has spent recent decades reckoning with it — now Banksy's home town, with balloons over Brunel's bridge every August.",
+      "tags": ["banksy", "clifton bridge", "harbourside", "balloon fiesta"],
+      "climate": {
+        "tempHigh": [8, 9, 11, 14, 17, 20, 22, 22, 19, 15, 11, 9],
+        "tempLow": [3, 3, 4, 5, 8, 11, 13, 13, 11, 9, 5, 3],
+        "rainDays": [14, 11, 12, 11, 10, 10, 10, 11, 10, 13, 14, 14],
+        "sunHours": [2, 3, 4, 6, 6, 7, 7, 6, 5, 3, 2, 2],
+        "humidity": [87, 84, 79, 74, 74, 73, 73, 75, 79, 84, 87, 88]
+      },
+      "crowd": [52, 52, 58, 65, 70, 76, 82, 88, 74, 65, 58, 62],
+      "priceIndex": [70, 70, 76, 82, 86, 90, 94, 100, 88, 80, 74, 80],
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 335
+      },
+      "r": {
+        "artScene": 96, "liveMusic": 92, "bars": 90, "clubbing": 88, "festivals": 92,
+        "museums": 85, "historicSites": 82, "architecture": 88, "theatre": 82, "foodScene": 90,
+        "streetFood": 88, "markets": 88, "coffee": 92, "beer": 92, "vegan": 96, "vegetarian": 92,
+        "walkability": 82, "cycling": 88, "lakesRivers": 72, "kayaking": 68, "lgbtqScene": 88,
+        "englishSpoken": 100, "digitalNomad": 85, "valueForMoney": 68, "ecoFriendly": 88
+      },
+      "photos": [
+        "Clifton Suspension Bridge Bristol",
+        "Bristol balloon fiesta",
+        "Banksy street art Bristol",
+        "Bristol harbourside colourful houses",
+        "SS Great Britain Bristol",
+        "Bristol Stokes Croft murals"
+      ]
+    },
+    {
+      "id": "glasgow-gb",
+      "name": "Glasgow",
+      "country": "GB",
+      "region": "Scotland",
+      "continent": "Europe",
+      "lat": 55.864,
+      "lon": -4.252,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "Edinburgh's rougher, funnier, friendlier neighbour — Mackintosh architecture, free world-class museums, and a live music scene per head that beats almost anywhere.",
+      "tags": ["mackintosh", "live music", "kelvingrove", "banter"],
+      "climate": {
+        "tempHigh": [7, 7, 9, 12, 16, 18, 19, 19, 17, 13, 9, 6],
+        "tempLow": [1, 1, 2, 4, 7, 10, 12, 12, 10, 7, 4, 2],
+        "rainDays": [18, 15, 16, 13, 13, 14, 15, 16, 15, 18, 18, 18],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 2, 1, 1],
+        "humidity": [86, 84, 81, 77, 75, 76, 78, 79, 82, 85, 86, 87]
+      },
+      "crowd": [52, 52, 56, 62, 68, 72, 76, 78, 70, 62, 56, 66],
+      "priceIndex": [68, 68, 72, 78, 84, 88, 92, 94, 86, 78, 72, 82],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 300
+      },
+      "r": {
+        "liveMusic": 98, "bars": 92, "clubbing": 88, "museums": 94, "artScene": 92,
+        "architecture": 92, "theatre": 88, "festivals": 88, "historicSites": 78, "foodScene": 88,
+        "markets": 78, "shopping": 90, "coffee": 85, "beer": 90, "vegan": 88, "walkability": 82,
+        "publicTransport": 78, "sports": 88, "lgbtqScene": 85, "englishSpoken": 100,
+        "localCulture": 92, "valueForMoney": 82, "groupParty": 88, "familyYoungKids": 75
+      },
+      "photos": [
+        "Glasgow Kelvingrove museum",
+        "Glasgow School of Art Mackintosh",
+        "Glasgow West End Ashton Lane",
+        "Glasgow George Square",
+        "Glasgow music venue gig",
+        "Necropolis Glasgow cathedral"
+      ]
+    },
+    {
+      "id": "belfast-gb",
+      "name": "Belfast & the Causeway Coast",
+      "country": "GB",
+      "region": "Northern Ireland",
+      "continent": "Europe",
+      "lat": 54.597,
+      "lon": -5.93,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "A city that has changed beyond recognition in thirty years, with the Titanic story told properly and, an hour north, forty thousand basalt columns going into the sea.",
+      "tags": ["giant's causeway", "titanic", "murals", "dark hedges"],
+      "climate": {
+        "tempHigh": [7, 7, 9, 12, 15, 18, 19, 19, 17, 13, 10, 7],
+        "tempLow": [2, 2, 3, 4, 7, 10, 12, 12, 10, 7, 4, 2],
+        "rainDays": [17, 14, 15, 13, 13, 13, 15, 15, 14, 17, 17, 18],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [86, 84, 81, 77, 76, 77, 78, 79, 81, 84, 86, 87],
+        "seaTemp": [8, 7, 8, 9, 11, 13, 15, 16, 15, 13, 11, 9]
+      },
+      "crowd": [45, 45, 52, 60, 68, 76, 82, 82, 72, 62, 52, 58],
+      "priceIndex": [66, 66, 72, 78, 84, 90, 94, 94, 86, 78, 70, 78],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 300
+      },
+      "r": {
+        "historicSites": 88, "museums": 90, "architecture": 78, "localCulture": 92,
+        "artScene": 78, "liveMusic": 88, "bars": 88, "beer": 90, "foodScene": 85, "markets": 85,
+        "scenery": 92, "hiking": 85, "cycling": 78, "roadTrip": 92, "nationalParks": 72,
+        "walkability": 82, "wildlife": 68, "englishSpoken": 100, "safety": 82,
+        "valueForMoney": 80, "familyYoungKids": 80, "seniors": 78, "beaches": 62
+      },
+      "photos": [
+        "Giants Causeway Northern Ireland",
+        "Belfast Titanic museum",
+        "Dark Hedges Northern Ireland",
+        "Carrick-a-Rede rope bridge",
+        "Belfast murals political",
+        "Antrim coast road cliffs"
+      ]
+    },
+    {
+      "id": "snowdonia-gb",
+      "name": "Snowdonia & North Wales",
+      "country": "GB",
+      "region": "Wales",
+      "continent": "Europe",
+      "lat": 53.068,
+      "lon": -3.995,
+      "type": "mountains",
+      "arch": "wilderness-park",
+      "blurb": "Slate, sheep and serious mountains — the training ground for Everest, the fastest zip line in the world, and castles Edward I built to make a point.",
+      "tags": ["yr wyddfa", "slate", "castles", "zip lines"],
+      "climate": {
+        "tempHigh": [6, 6, 8, 11, 14, 17, 18, 18, 16, 12, 9, 6],
+        "tempLow": [1, 1, 2, 4, 7, 10, 12, 12, 10, 7, 4, 2],
+        "rainDays": [19, 16, 17, 14, 13, 13, 14, 15, 15, 18, 19, 20],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [88, 86, 83, 79, 78, 79, 81, 82, 84, 87, 88, 89]
+      },
+      "crowd": [32, 32, 42, 58, 68, 78, 88, 90, 72, 55, 38, 34],
+      "priceIndex": [58, 58, 66, 78, 86, 92, 98, 100, 88, 74, 62, 60],
+      "cost": {
+        "budget": 48,
+        "mid": 112,
+        "luxury": 290
+      },
+      "r": {
+        "mountains": 94, "hiking": 96, "scenery": 96, "nationalParks": 94, "climbing": 92,
+        "adrenaline": 92, "lakesRivers": 88, "cycling": 88, "kayaking": 78, "historicSites": 88,
+        "architecture": 78, "localCulture": 88, "forests": 78, "beaches": 72, "wildlife": 72,
+        "stargazing": 88, "roadTrip": 88, "englishSpoken": 100, "valueForMoney": 78,
+        "familyYoungKids": 85, "beer": 78, "skiing": 0
+      },
+      "photos": [
+        "Snowdon summit Wales",
+        "Snowdonia lake mountains Wales",
+        "Caernarfon Castle Wales",
+        "Welsh slate quarry landscape",
+        "Zip line Snowdonia Wales",
+        "Portmeirion village Wales"
+      ]
+    },
+    {
+      "id": "pembrokeshire-gb",
+      "name": "Pembrokeshire",
+      "country": "GB",
+      "region": "West Wales",
+      "continent": "Europe",
+      "lat": 51.879,
+      "lon": -5.212,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "Britain's only coastal national park: 186 miles of clifftop path, puffins on Skomer, and beaches that on the four good days a year could pass for the Caribbean.",
+      "tags": ["coast path", "puffins", "st davids", "surf"],
+      "climate": {
+        "tempHigh": [9, 9, 10, 13, 16, 18, 20, 20, 18, 15, 12, 9],
+        "tempLow": [4, 4, 5, 6, 9, 12, 14, 14, 12, 10, 7, 5],
+        "rainDays": [17, 14, 15, 12, 11, 11, 12, 13, 13, 16, 17, 18],
+        "sunHours": [2, 3, 4, 6, 7, 7, 6, 6, 5, 3, 2, 2],
+        "humidity": [87, 85, 83, 80, 79, 80, 81, 82, 83, 85, 87, 88],
+        "seaTemp": [9, 8, 8, 10, 12, 14, 16, 17, 16, 14, 12, 10]
+      },
+      "crowd": [22, 22, 32, 48, 60, 75, 92, 94, 68, 45, 28, 24],
+      "priceIndex": [52, 52, 62, 76, 84, 92, 100, 100, 86, 70, 58, 54],
+      "cost": {
+        "budget": 48,
+        "mid": 112,
+        "luxury": 285
+      },
+      "r": {
+        "beaches": 90, "hiking": 96, "scenery": 94, "nationalParks": 92, "wildlife": 92,
+        "surfing": 82, "kayaking": 88, "swimming": 58, "climbing": 82, "adrenaline": 85,
+        "sailing": 78, "fishing": 78, "historicSites": 82, "religiousSites": 78, "cycling": 82,
+        "stargazing": 88, "englishSpoken": 100, "familyYoungKids": 88, "valueForMoney": 75,
+        "romance": 78, "foodScene": 78
+      },
+      "photos": [
+        "Pembrokeshire coast path cliffs",
+        "Barafundle Bay Wales beach",
+        "Puffins Skomer Island Wales",
+        "St Davids cathedral Wales",
+        "Pembrokeshire kayaking sea caves",
+        "Tenby colourful harbour Wales"
+      ]
+    },
+    {
+      "id": "northumberland-gb",
+      "name": "Northumberland & Hadrian's Wall",
+      "country": "GB",
+      "region": "North East England",
+      "continent": "Europe",
+      "lat": 55.03,
+      "lon": -2.15,
+      "type": "region",
+      "arch": "wilderness-park",
+      "blurb": "The edge of the Roman empire, running 73 miles coast to coast, with the darkest skies in England above it and castles on empty beaches to the east.",
+      "tags": ["hadrian's wall", "dark skies", "bamburgh", "holy island"],
+      "climate": {
+        "tempHigh": [6, 6, 9, 12, 15, 18, 20, 19, 17, 13, 9, 6],
+        "tempLow": [0, 0, 2, 3, 6, 9, 11, 11, 9, 6, 3, 1],
+        "rainDays": [14, 11, 12, 11, 11, 11, 12, 13, 12, 14, 15, 15],
+        "sunHours": [1, 2, 3, 5, 6, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [85, 83, 80, 76, 75, 76, 77, 78, 80, 83, 85, 86],
+        "seaTemp": [7, 6, 6, 8, 10, 12, 14, 15, 14, 12, 10, 8],
+        "snowDepth": [6, 6, 3, 0, 0, 0, 0, 0, 0, 0, 1, 4]
+      },
+      "crowd": [22, 22, 30, 45, 58, 72, 85, 85, 65, 45, 28, 25],
+      "priceIndex": [52, 52, 60, 72, 82, 90, 98, 98, 84, 68, 56, 54],
+      "cost": {
+        "budget": 45,
+        "mid": 108,
+        "luxury": 275
+      },
+      "r": {
+        "historicSites": 96, "museums": 82, "architecture": 82, "scenery": 90, "hiking": 92,
+        "nationalParks": 88, "stargazing": 98, "cycling": 88, "beaches": 82, "wildlife": 82,
+        "forests": 78, "religiousSites": 82, "roadTrip": 88, "englishSpoken": 100, "safety": 92,
+        "valueForMoney": 85, "familyYoungKids": 82, "seniors": 78, "romance": 78, "beer": 82
+      },
+      "photos": [
+        "Hadrians Wall Sycamore Gap",
+        "Bamburgh Castle Northumberland beach",
+        "Holy Island Lindisfarne causeway",
+        "Northumberland dark sky stars",
+        "Roman fort Housesteads wall",
+        "Northumberland empty beach dunes"
+      ]
+    },
+    {
+      "id": "cotswolds-gb",
+      "name": "The Cotswolds",
+      "country": "GB",
+      "region": "Central England",
+      "continent": "Europe",
+      "lat": 51.83,
+      "lon": -1.83,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "Honey-coloured limestone villages in rolling hills, grown rich on wool six hundred years ago and preserved by having nothing much happen since.",
+      "tags": ["limestone villages", "wool churches", "pubs", "gardens"],
+      "climate": {
+        "tempHigh": [7, 8, 10, 13, 17, 20, 22, 22, 19, 15, 10, 8],
+        "tempLow": [1, 1, 3, 4, 7, 10, 12, 12, 10, 8, 4, 2],
+        "rainDays": [14, 11, 12, 11, 11, 10, 10, 10, 10, 13, 14, 14],
+        "sunHours": [2, 2, 4, 5, 6, 7, 6, 6, 5, 3, 2, 1],
+        "humidity": [88, 85, 80, 75, 74, 73, 72, 75, 79, 85, 88, 89]
+      },
+      "crowd": [35, 35, 48, 65, 74, 82, 88, 88, 76, 62, 45, 48],
+      "priceIndex": [62, 62, 74, 86, 92, 96, 100, 100, 92, 80, 68, 72],
+      "cost": {
+        "budget": 60,
+        "mid": 145,
+        "luxury": 400
+      },
+      "r": {
+        "architecture": 92, "historicSites": 88, "scenery": 90, "localCulture": 82,
+        "walkability": 85, "hiking": 88, "cycling": 88, "romance": 92, "foodScene": 88,
+        "fineDining": 88, "beer": 90, "markets": 78, "religiousSites": 82, "shopping": 78,
+        "wildlife": 68, "forests": 68, "englishSpoken": 100, "safety": 94, "seniors": 90,
+        "valueForMoney": 45, "familyYoungKids": 75, "luxury": 82
+      },
+      "photos": [
+        "Cotswolds village honey stone cottages",
+        "Bibury Arlington Row Cotswolds",
+        "Cotswolds rolling hills sheep",
+        "English country pub Cotswolds",
+        "Cotswold manor garden",
+        "Castle Combe village England"
+      ]
+    },
+    {
+      "id": "peak-district-gb",
+      "name": "The Peak District",
+      "country": "GB",
+      "region": "Central England",
+      "continent": "Europe",
+      "lat": 53.36,
+      "lon": -1.79,
+      "type": "mountains",
+      "arch": "wilderness-park",
+      "blurb": "Britain's first national park and still its busiest — gritstone edges for climbers, limestone dales for walkers, and Chatsworth if the weather turns, which it will.",
+      "tags": ["gritstone edges", "dales", "chatsworth", "kinder scout"],
+      "climate": {
+        "tempHigh": [5, 5, 8, 11, 14, 17, 19, 19, 16, 12, 8, 5],
+        "tempLow": [0, 0, 1, 3, 6, 9, 11, 11, 9, 6, 3, 1],
+        "rainDays": [17, 14, 15, 13, 13, 13, 14, 15, 14, 16, 17, 17],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [88, 86, 82, 78, 77, 78, 79, 80, 83, 86, 88, 89],
+        "snowDepth": [8, 9, 5, 1, 0, 0, 0, 0, 0, 0, 2, 6]
+      },
+      "crowd": [42, 42, 52, 68, 75, 82, 88, 90, 75, 62, 48, 45],
+      "priceIndex": [60, 60, 68, 80, 86, 92, 96, 100, 88, 76, 64, 62],
+      "cost": {
+        "budget": 45,
+        "mid": 108,
+        "luxury": 275
+      },
+      "r": {
+        "mountains": 82, "hiking": 96, "climbing": 96, "scenery": 90, "nationalParks": 94,
+        "cycling": 92, "adrenaline": 78, "lakesRivers": 72, "historicSites": 85,
+        "architecture": 82, "wildlife": 72, "forests": 68, "stargazing": 82, "roadTrip": 82,
+        "beer": 88, "foodScene": 78, "englishSpoken": 100, "safety": 94, "familyYoungKids": 85,
+        "valueForMoney": 82, "seniors": 72, "walkability": 62, "skiing": 0
+      },
+      "photos": [
+        "Peak District Stanage Edge",
+        "Mam Tor Peak District ridge",
+        "Chatsworth House Derbyshire",
+        "Peak District limestone dale river",
+        "Peak District dry stone walls",
+        "Bakewell Derbyshire village"
+      ]
+    },
+    {
+      "id": "brighton-gb",
+      "name": "Brighton",
+      "country": "GB",
+      "region": "South East England",
+      "continent": "Europe",
+      "lat": 50.822,
+      "lon": -0.137,
+      "type": "coast",
+      "arch": "resort-city",
+      "blurb": "London-by-the-sea: a Regency seafront, an Indian-palace pavilion built by a prince with more money than taste, and the least buttoned-up city in England.",
+      "tags": ["the lanes", "royal pavilion", "pride", "pebble beach"],
+      "climate": {
+        "tempHigh": [8, 8, 10, 13, 16, 19, 21, 21, 19, 15, 11, 9],
+        "tempLow": [3, 3, 4, 6, 9, 12, 14, 15, 13, 10, 6, 4],
+        "rainDays": [12, 9, 10, 9, 8, 8, 8, 8, 9, 12, 13, 13],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 2],
+        "humidity": [84, 82, 79, 76, 76, 76, 76, 78, 80, 83, 84, 85],
+        "seaTemp": [9, 8, 8, 10, 12, 15, 17, 18, 17, 15, 12, 10]
+      },
+      "crowd": [45, 45, 55, 68, 76, 85, 92, 94, 78, 62, 52, 58],
+      "priceIndex": [68, 68, 76, 86, 92, 96, 100, 100, 90, 78, 72, 78],
+      "cost": {
+        "budget": 58,
+        "mid": 138,
+        "luxury": 355
+      },
+      "r": {
+        "lgbtqScene": 100, "bars": 92, "clubbing": 90, "liveMusic": 90, "festivals": 92,
+        "artScene": 92, "shopping": 90, "markets": 88, "foodScene": 90, "vegan": 96,
+        "vegetarian": 94, "coffee": 90, "beer": 85, "beaches": 68, "swimming": 62, "surfing": 55,
+        "architecture": 88, "museums": 78, "theatre": 82, "walkability": 92,
+        "englishSpoken": 100, "groupParty": 90, "valueForMoney": 58, "romance": 78
+      },
+      "photos": [
+        "Brighton Palace Pier",
+        "Royal Pavilion Brighton",
+        "Brighton Lanes shops",
+        "Brighton beach pebbles seafront",
+        "Brighton Pride parade",
+        "Brighton i360 seafront"
+      ]
+    },
+    {
+      "id": "jurassic-coast-gb",
+      "name": "The Jurassic Coast",
+      "country": "GB",
+      "region": "Dorset & East Devon",
+      "continent": "Europe",
+      "lat": 50.62,
+      "lon": -2.25,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "Ninety-five miles of cliff recording 185 million years of geology, with Durdle Door, a fossil beach where Mary Anning changed palaeontology, and unexpectedly good swimming.",
+      "tags": ["durdle door", "fossils", "chesil beach", "lulworth"],
+      "climate": {
+        "tempHigh": [9, 9, 10, 13, 16, 19, 21, 21, 19, 16, 12, 9],
+        "tempLow": [4, 4, 5, 6, 9, 12, 14, 15, 13, 10, 7, 5],
+        "rainDays": [13, 10, 11, 10, 9, 9, 9, 9, 10, 13, 14, 14],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 2],
+        "humidity": [86, 84, 81, 78, 78, 78, 78, 79, 81, 84, 86, 87],
+        "seaTemp": [10, 9, 9, 11, 13, 15, 17, 18, 17, 15, 13, 11]
+      },
+      "crowd": [22, 22, 32, 52, 65, 80, 94, 96, 70, 48, 30, 25],
+      "priceIndex": [54, 54, 64, 80, 88, 94, 100, 100, 86, 70, 60, 58],
+      "cost": {
+        "budget": 52,
+        "mid": 122,
+        "luxury": 320
+      },
+      "r": {
+        "beaches": 88, "scenery": 96, "hiking": 94, "nationalParks": 82, "swimming": 65,
+        "kayaking": 85, "sailing": 78, "surfing": 55, "wildlife": 78, "museums": 78,
+        "historicSites": 78, "cycling": 78, "adrenaline": 68, "stargazing": 82, "fishing": 72,
+        "englishSpoken": 100, "safety": 92, "familyYoungKids": 90, "valueForMoney": 68,
+        "seniors": 78, "romance": 82, "foodScene": 80
+      },
+      "photos": [
+        "Durdle Door Dorset",
+        "Lulworth Cove Dorset",
+        "Jurassic Coast cliffs Dorset",
+        "Chesil Beach Dorset aerial",
+        "Lyme Regis fossil beach",
+        "Corfe Castle Dorset ruins"
+      ]
+    },
+    {
+      "id": "outer-hebrides-gb",
+      "name": "The Outer Hebrides",
+      "country": "GB",
+      "region": "Scotland",
+      "continent": "Europe",
+      "lat": 57.75,
+      "lon": -7.15,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "A hundred-mile chain of islands off the Atlantic edge — white shell beaches over turquoise water, standing stones older than Stonehenge, and Gaelic still the everyday language.",
+      "tags": ["callanish stones", "machair", "harris tweed", "gaelic"],
+      "climate": {
+        "tempHigh": [7, 7, 8, 10, 13, 15, 17, 17, 15, 12, 9, 7],
+        "tempLow": [3, 3, 3, 5, 7, 10, 12, 12, 10, 8, 5, 4],
+        "rainDays": [21, 17, 19, 15, 13, 13, 15, 16, 17, 20, 21, 22],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 2, 1, 1],
+        "humidity": [86, 85, 84, 81, 80, 82, 84, 84, 84, 85, 86, 87],
+        "seaTemp": [8, 7, 7, 8, 10, 12, 14, 15, 14, 12, 10, 9]
+      },
+      "crowd": [12, 12, 18, 30, 45, 65, 82, 82, 55, 32, 18, 14],
+      "priceIndex": [46, 46, 54, 66, 78, 90, 100, 100, 80, 62, 52, 48],
+      "cost": {
+        "budget": 52,
+        "mid": 122,
+        "luxury": 300
+      },
+      "r": {
+        "beaches": 94, "scenery": 96, "wildlife": 90, "hiking": 88, "historicSites": 90,
+        "localCulture": 94, "stargazing": 94, "kayaking": 82, "surfing": 78, "cycling": 85,
+        "fishing": 82, "swimming": 42, "sailing": 72, "nationalParks": 68, "englishSpoken": 100,
+        "safety": 96, "romance": 85, "roadTrip": 92, "valueForMoney": 62, "seniors": 68,
+        "familyYoungKids": 68, "northernLights": 72
+      },
+      "photos": [
+        "Luskentyre beach Harris Scotland",
+        "Callanish standing stones Lewis",
+        "Outer Hebrides machair flowers",
+        "Harris tweed weaving Scotland",
+        "Hebrides white beach turquoise",
+        "Blackhouse Lewis Scotland"
+      ]
+    },
+    {
+      "id": "cork-ie",
+      "name": "Cork & West Cork",
+      "country": "IE",
+      "region": "Munster",
+      "continent": "Europe",
+      "lat": 51.898,
+      "lon": -8.476,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "Ireland's food capital, built on islands in a river, with the English Market at its centre and a coastline west of it of coves, islands and very good seafood.",
+      "tags": ["english market", "kinsale", "seafood", "west cork"],
+      "climate": {
+        "tempHigh": [9, 9, 11, 13, 16, 18, 20, 20, 18, 15, 11, 9],
+        "tempLow": [4, 4, 5, 6, 9, 11, 13, 13, 11, 9, 6, 5],
+        "rainDays": [18, 14, 16, 13, 13, 12, 14, 14, 14, 17, 17, 19],
+        "sunHours": [2, 2, 4, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [87, 85, 83, 79, 79, 80, 81, 82, 83, 85, 87, 88],
+        "seaTemp": [10, 9, 9, 10, 12, 14, 16, 17, 16, 14, 12, 11]
+      },
+      "crowd": [40, 40, 48, 58, 66, 76, 84, 84, 70, 58, 46, 52],
+      "priceIndex": [66, 66, 72, 80, 86, 92, 98, 98, 88, 78, 70, 76],
+      "cost": {
+        "budget": 58,
+        "mid": 138,
+        "luxury": 350
+      },
+      "r": {
+        "foodScene": 94, "markets": 96, "fineDining": 88, "streetFood": 82, "beer": 92,
+        "bars": 90, "liveMusic": 92, "coffee": 85, "festivals": 85, "historicSites": 82,
+        "architecture": 78, "museums": 75, "localCulture": 90, "beaches": 68, "scenery": 88,
+        "hiking": 82, "sailing": 82, "kayaking": 78, "wildlife": 78, "walkability": 85,
+        "roadTrip": 90, "englishSpoken": 100, "valueForMoney": 62, "seniors": 78
+      },
+      "photos": [
+        "English Market Cork Ireland",
+        "Kinsale colourful harbour Ireland",
+        "Cork city river Lee",
+        "West Cork coastline Ireland",
+        "Irish pub live music Cork",
+        "Mizen Head Ireland cliffs"
+      ]
+    },
+    {
+      "id": "donegal-ie",
+      "name": "Donegal",
+      "country": "IE",
+      "region": "Ulster",
+      "continent": "Europe",
+      "lat": 54.95,
+      "lon": -8.35,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "Ireland's forgotten corner: Slieve League's cliffs are three times the height of the Cliffs of Moher, and almost nobody is standing on them.",
+      "tags": ["slieve league", "gaeltacht", "surf", "empty"],
+      "climate": {
+        "tempHigh": [8, 8, 9, 12, 15, 17, 19, 19, 17, 13, 10, 8],
+        "tempLow": [3, 3, 4, 5, 8, 10, 12, 12, 11, 8, 5, 4],
+        "rainDays": [20, 16, 18, 14, 14, 14, 16, 16, 16, 19, 20, 21],
+        "sunHours": [1, 2, 3, 5, 6, 6, 5, 5, 4, 3, 2, 1],
+        "humidity": [87, 85, 84, 80, 79, 81, 82, 83, 84, 86, 87, 88],
+        "seaTemp": [9, 8, 8, 9, 11, 13, 15, 16, 15, 13, 11, 10]
+      },
+      "crowd": [15, 15, 22, 35, 48, 65, 82, 82, 58, 35, 20, 18],
+      "priceIndex": [48, 48, 56, 68, 78, 88, 98, 98, 80, 62, 52, 50],
+      "cost": {
+        "budget": 48,
+        "mid": 115,
+        "luxury": 290
+      },
+      "r": {
+        "scenery": 98, "hiking": 92, "beaches": 88, "wildlife": 82, "surfing": 85,
+        "kayaking": 82, "cycling": 85, "fishing": 82, "mountains": 82, "nationalParks": 85,
+        "stargazing": 92, "historicSites": 78, "localCulture": 92, "liveMusic": 90, "beer": 88,
+        "roadTrip": 94, "englishSpoken": 100, "valueForMoney": 78, "romance": 82, "swimming": 42,
+        "northernLights": 55
+      },
+      "photos": [
+        "Slieve League cliffs Donegal",
+        "Donegal beach Atlantic Ireland",
+        "Glenveagh national park Donegal",
+        "Donegal coastline aerial",
+        "Irish traditional music session",
+        "Malin Head Donegal"
+      ]
+    }
+  ]
+}

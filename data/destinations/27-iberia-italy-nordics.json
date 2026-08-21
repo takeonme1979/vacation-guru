@@ -1,0 +1,944 @@
+{
+  "_doc": "Iberia, Italy and the Nordics, second pass — Galicia and the green north, the Italian regions, and Scandinavia beyond the capitals.",
+  "destinations": [
+    {
+      "id": "galicia-es",
+      "name": "Galicia & Santiago",
+      "country": "ES",
+      "region": "Northwest Spain",
+      "continent": "Europe",
+      "lat": 42.878,
+      "lon": -8.545,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "Green, Celtic and wet — the end of the Camino, drowned river valleys full of shellfish, Albariño from vines trained overhead, and the wildest coast in Spain.",
+      "tags": ["camino de santiago", "rías baixas", "albariño", "percebes"],
+      "climate": {
+        "tempHigh": [11, 12, 15, 16, 19, 22, 24, 24, 22, 18, 14, 12],
+        "tempLow": [5, 5, 6, 8, 10, 13, 15, 15, 13, 11, 8, 6],
+        "rainDays": [16, 14, 13, 14, 12, 8, 6, 7, 9, 15, 17, 17],
+        "sunHours": [3, 4, 5, 6, 7, 8, 9, 8, 6, 4, 3, 3],
+        "humidity": [82, 80, 77, 76, 76, 76, 76, 78, 79, 82, 84, 84],
+        "seaTemp": [13, 13, 13, 14, 15, 17, 19, 20, 19, 17, 15, 14]
+      },
+      "crowd": [28, 28, 38, 55, 65, 78, 92, 94, 72, 52, 34, 32],
+      "priceIndex": [54, 54, 62, 76, 84, 92, 100, 100, 86, 70, 58, 58],
+      "cost": {
+        "budget": 42,
+        "mid": 98,
+        "luxury": 250
+      },
+      "r": {
+        "religiousSites": 96, "historicSites": 92, "architecture": 92, "museums": 78,
+        "hiking": 96, "scenery": 92, "beaches": 85, "forests": 85, "localCulture": 94,
+        "markets": 92, "foodScene": 96, "fineDining": 90, "wine": 92, "cycling": 82,
+        "surfing": 78, "kayaking": 78, "sailing": 78, "walkability": 85, "festivals": 85,
+        "wildlife": 72, "roadTrip": 88, "valueForMoney": 90, "backpacker": 85
+      },
+      "photos": [
+        "Santiago de Compostela cathedral",
+        "Rias Baixas Galicia coast",
+        "Galician seafood percebes",
+        "Camino de Santiago pilgrims",
+        "Cies islands Galicia beach",
+        "Galicia horreo granary stone"
+      ]
+    },
+    {
+      "id": "bilbao-es",
+      "name": "Bilbao & the Basque Coast",
+      "country": "ES",
+      "region": "País Vasco",
+      "continent": "Europe",
+      "lat": 43.263,
+      "lon": -2.935,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "A steel town that bet everything on a titanium art museum and won, with pintxos bars in the old quarter and a coast of surf beaches and a hermitage on a rock.",
+      "tags": ["guggenheim", "pintxos", "gaztelugatxe", "surf"],
+      "climate": {
+        "tempHigh": [13, 14, 16, 17, 21, 23, 25, 26, 24, 20, 16, 13],
+        "tempLow": [6, 6, 8, 9, 12, 15, 17, 18, 16, 13, 9, 7],
+        "rainDays": [14, 12, 13, 14, 13, 10, 9, 10, 11, 13, 15, 15],
+        "sunHours": [3, 4, 5, 5, 6, 7, 7, 7, 6, 5, 3, 3],
+        "humidity": [80, 78, 76, 77, 78, 78, 78, 79, 79, 80, 81, 81],
+        "seaTemp": [13, 13, 13, 14, 16, 19, 21, 22, 21, 19, 16, 14]
+      },
+      "crowd": [42, 42, 50, 60, 70, 80, 92, 94, 72, 58, 46, 48],
+      "priceIndex": [64, 64, 70, 80, 88, 94, 100, 100, 88, 76, 66, 68],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 300
+      },
+      "r": {
+        "museums": 96, "artScene": 94, "architecture": 96, "foodScene": 98, "fineDining": 96,
+        "streetFood": 94, "markets": 92, "wine": 90, "bars": 92, "localCulture": 94,
+        "walkability": 92, "historicSites": 78, "publicTransport": 90, "beaches": 78,
+        "surfing": 88, "swimming": 68, "hiking": 82, "mountains": 78, "scenery": 88,
+        "festivals": 88, "valueForMoney": 78, "safety": 85, "cycling": 78
+      },
+      "photos": [
+        "Guggenheim Bilbao titanium",
+        "Bilbao old town pintxos bar",
+        "San Juan de Gaztelugatxe Basque",
+        "Bilbao Zubizuri bridge",
+        "Basque coast cliffs Spain",
+        "Pintxos counter Basque Spain"
+      ]
+    },
+    {
+      "id": "cordoba-es",
+      "name": "Córdoba",
+      "country": "ES",
+      "region": "Andalucía",
+      "continent": "Europe",
+      "lat": 37.888,
+      "lon": -4.779,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "The Mezquita — a forest of eight hundred candy-striped arches with a cathedral dropped into the middle — plus flower-filled patios and the hottest summers in Europe.",
+      "tags": ["mezquita", "patios", "moorish", "very hot"],
+      "climate": {
+        "tempHigh": [15, 18, 21, 24, 28, 34, 37, 37, 32, 25, 19, 15],
+        "tempLow": [4, 5, 7, 10, 13, 18, 21, 21, 18, 13, 8, 5],
+        "rainDays": [7, 6, 5, 6, 4, 2, 0, 1, 3, 6, 7, 8],
+        "sunHours": [5, 6, 7, 8, 10, 11, 12, 11, 9, 7, 5, 5],
+        "humidity": [78, 72, 65, 60, 55, 46, 40, 43, 52, 65, 74, 79]
+      },
+      "crowd": [38, 38, 55, 82, 88, 65, 45, 42, 62, 72, 52, 45],
+      "priceIndex": [58, 58, 74, 96, 100, 82, 62, 58, 80, 88, 70, 64],
+      "cost": {
+        "budget": 42,
+        "mid": 95,
+        "luxury": 245
+      },
+      "r": {
+        "historicSites": 98, "religiousSites": 98, "architecture": 98, "museums": 82,
+        "localCulture": 92, "walkability": 94, "markets": 82, "festivals": 92, "foodScene": 92,
+        "fineDining": 85, "wine": 88, "bars": 85, "streetFood": 85, "artScene": 78,
+        "romance": 90, "scenery": 72, "cycling": 72, "valueForMoney": 88, "seniors": 78,
+        "familyYoungKids": 72, "backpacker": 82, "safety": 85
+      },
+      "photos": [
+        "Mezquita Cordoba arches",
+        "Cordoba patio flowers courtyard",
+        "Roman bridge Cordoba",
+        "Cordoba Jewish quarter street",
+        "Medina Azahara Cordoba ruins",
+        "Cordoba Alcazar gardens"
+      ]
+    },
+    {
+      "id": "toledo-es",
+      "name": "Toledo & Segovia",
+      "country": "ES",
+      "region": "Castilla",
+      "continent": "Europe",
+      "lat": 39.862,
+      "lon": -4.027,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Two fortress towns an hour from Madrid: Toledo in a river gorge, where Christians, Muslims and Jews built side by side, and Segovia under a Roman aqueduct with no mortar in it.",
+      "tags": ["aqueduct", "el greco", "three cultures", "cochinillo"],
+      "climate": {
+        "tempHigh": [11, 14, 18, 20, 25, 32, 35, 35, 29, 21, 15, 11],
+        "tempLow": [2, 3, 5, 7, 11, 16, 19, 19, 15, 10, 6, 3],
+        "rainDays": [6, 6, 5, 7, 6, 3, 1, 1, 3, 7, 7, 7],
+        "sunHours": [5, 6, 7, 8, 9, 11, 12, 11, 9, 7, 5, 4],
+        "humidity": [76, 68, 58, 55, 52, 42, 35, 37, 47, 62, 72, 78]
+      },
+      "crowd": [40, 40, 52, 72, 80, 72, 62, 62, 72, 72, 52, 48],
+      "priceIndex": [58, 58, 70, 88, 94, 88, 80, 80, 88, 88, 70, 66],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 265
+      },
+      "r": {
+        "historicSites": 98, "architecture": 96, "religiousSites": 96, "museums": 90,
+        "localCulture": 88, "walkability": 90, "scenery": 85, "artScene": 82, "foodScene": 90,
+        "fineDining": 88, "wine": 88, "markets": 78, "festivals": 82, "hiking": 68,
+        "mountains": 62, "romance": 88, "valueForMoney": 82, "seniors": 78,
+        "familyYoungKids": 72, "safety": 90, "roadTrip": 78, "backpacker": 72
+      },
+      "photos": [
+        "Toledo Spain gorge city view",
+        "Segovia Roman aqueduct",
+        "Toledo cathedral interior",
+        "Alcazar Segovia castle",
+        "Toledo narrow medieval street",
+        "Cochinillo roast suckling pig Segovia"
+      ]
+    },
+    {
+      "id": "menorca-es",
+      "name": "Menorca",
+      "country": "ES",
+      "region": "The Balearics",
+      "continent": "Europe",
+      "lat": 39.95,
+      "lon": 4.11,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "The quiet Balearic — a biosphere reserve with no high-rises, a bridle path running the whole way round the island, and coves you can only reach on foot.",
+      "tags": ["cami de cavalls", "calas", "biosphere reserve", "no high-rises"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 18, 22, 26, 29, 29, 26, 22, 18, 15],
+        "tempLow": [7, 7, 8, 10, 14, 18, 21, 22, 19, 15, 11, 9],
+        "rainDays": [8, 7, 6, 6, 4, 2, 1, 3, 6, 9, 10, 10],
+        "sunHours": [5, 6, 7, 8, 10, 11, 12, 11, 8, 6, 5, 4],
+        "humidity": [76, 75, 73, 72, 71, 68, 66, 69, 73, 76, 77, 77],
+        "seaTemp": [14, 14, 14, 16, 19, 22, 25, 26, 24, 22, 19, 16]
+      },
+      "crowd": [12, 12, 20, 38, 58, 80, 96, 98, 70, 42, 20, 14],
+      "priceIndex": [42, 42, 52, 70, 84, 94, 100, 100, 84, 62, 48, 44],
+      "cost": {
+        "budget": 48,
+        "mid": 112,
+        "luxury": 320
+      },
+      "r": {
+        "beaches": 96, "swimming": 94, "islands": 94, "sailing": 90, "snorkelling": 85,
+        "kayaking": 88, "hiking": 92, "cycling": 88, "scenery": 92, "wildlife": 82,
+        "historicSites": 85, "nationalParks": 82, "foodScene": 88, "fineDining": 82, "wine": 78,
+        "localCulture": 82, "romance": 90, "ecoFriendly": 88, "valueForMoney": 78,
+        "familyYoungKids": 88, "seniors": 75
+      },
+      "photos": [
+        "Menorca cala turquoise cove",
+        "Cami de Cavalls Menorca path",
+        "Ciutadella Menorca harbour",
+        "Menorca lighthouse coast",
+        "Menorca prehistoric taula",
+        "Menorca beach pine trees"
+      ]
+    },
+    {
+      "id": "ronda-es",
+      "name": "Ronda & the White Towns",
+      "country": "ES",
+      "region": "Andalucía",
+      "continent": "Europe",
+      "lat": 36.742,
+      "lon": -5.166,
+      "type": "region",
+      "arch": "historic-city",
+      "blurb": "A town split by a 120-metre gorge with a bridge across it, and a scattering of whitewashed villages through the hills behind — one of them painted entirely blue.",
+      "tags": ["puente nuevo", "pueblos blancos", "sherry", "grazalema"],
+      "climate": {
+        "tempHigh": [14, 16, 19, 21, 25, 30, 34, 34, 29, 23, 18, 15],
+        "tempLow": [4, 5, 7, 9, 12, 17, 20, 20, 17, 13, 8, 5],
+        "rainDays": [8, 7, 6, 7, 4, 2, 0, 1, 3, 7, 8, 9],
+        "sunHours": [5, 6, 7, 8, 10, 11, 12, 11, 9, 7, 5, 5],
+        "humidity": [76, 72, 66, 62, 58, 50, 44, 47, 55, 66, 73, 77]
+      },
+      "crowd": [30, 30, 42, 62, 72, 68, 62, 62, 68, 62, 42, 35],
+      "priceIndex": [54, 54, 64, 82, 90, 86, 82, 82, 86, 82, 62, 58],
+      "cost": {
+        "budget": 42,
+        "mid": 95,
+        "luxury": 250
+      },
+      "r": {
+        "scenery": 96, "historicSites": 90, "architecture": 94, "localCulture": 90, "hiking": 92,
+        "mountains": 88, "nationalParks": 85, "climbing": 82, "walkability": 88, "roadTrip": 94,
+        "wine": 90, "foodScene": 90, "fineDining": 82, "markets": 78, "festivals": 85,
+        "wildlife": 75, "cycling": 78, "romance": 92, "stargazing": 85, "valueForMoney": 88,
+        "seniors": 75, "familyYoungKids": 72
+      },
+      "photos": [
+        "Ronda Puente Nuevo gorge Spain",
+        "Andalusian white village hills",
+        "Juzcar blue village Spain",
+        "Grazalema natural park Spain",
+        "Ronda bullring Spain",
+        "Setenil de las Bodegas rock houses"
+      ]
+    },
+    {
+      "id": "costa-brava-es",
+      "name": "The Costa Brava & Girona",
+      "country": "ES",
+      "region": "Catalonia",
+      "continent": "Europe",
+      "lat": 41.983,
+      "lon": 2.824,
+      "type": "coast",
+      "arch": "coastal-city",
+      "blurb": "Pine-backed coves between rocky headlands, a walled medieval city inland with a river of painted houses, and Dalí's museum an hour north in his home town.",
+      "tags": ["cami de ronda", "dalí", "cadaqués", "girona old town"],
+      "climate": {
+        "tempHigh": [13, 14, 17, 19, 22, 26, 29, 29, 26, 22, 17, 14],
+        "tempLow": [4, 5, 7, 9, 13, 17, 20, 20, 17, 13, 8, 5],
+        "rainDays": [5, 5, 5, 7, 7, 5, 3, 5, 6, 8, 7, 6],
+        "sunHours": [5, 6, 6, 7, 8, 9, 10, 9, 7, 6, 5, 4],
+        "humidity": [74, 72, 70, 70, 71, 70, 69, 71, 73, 75, 75, 75],
+        "seaTemp": [13, 12, 13, 15, 18, 22, 24, 25, 23, 20, 17, 15]
+      },
+      "crowd": [22, 22, 32, 52, 68, 85, 96, 98, 72, 48, 28, 25],
+      "priceIndex": [52, 52, 62, 78, 88, 96, 100, 100, 86, 68, 56, 54],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 320
+      },
+      "r": {
+        "beaches": 92, "swimming": 90, "kayaking": 90, "snorkelling": 82, "sailing": 85,
+        "hiking": 92, "scenery": 94, "cycling": 88, "historicSites": 92, "architecture": 92,
+        "museums": 88, "artScene": 90, "foodScene": 96, "fineDining": 96, "wine": 90,
+        "markets": 88, "localCulture": 88, "walkability": 88, "romance": 90, "festivals": 82,
+        "valueForMoney": 72, "familyYoungKids": 85
+      },
+      "photos": [
+        "Costa Brava cove pine trees",
+        "Girona colourful houses river",
+        "Cadaques white village Spain",
+        "Dali museum Figueres",
+        "Cami de Ronda coastal path",
+        "Costa Brava rocky coastline"
+      ]
+    },
+    {
+      "id": "asturias-es",
+      "name": "Asturias & the Green Coast",
+      "country": "ES",
+      "region": "Northern Spain",
+      "continent": "Europe",
+      "lat": 43.36,
+      "lon": -5.85,
+      "type": "coast",
+      "arch": "wine-country",
+      "blurb": "Cider poured from above the head, cliffs full of hidden beaches, and the Picos rising to 2,600 metres less than twenty miles from the sea. Nothing here looks like Spain.",
+      "tags": ["sidra", "cabrales", "hidden beaches", "green spain"],
+      "climate": {
+        "tempHigh": [13, 13, 15, 16, 18, 21, 23, 23, 22, 19, 15, 13],
+        "tempLow": [6, 6, 7, 9, 11, 14, 16, 17, 15, 12, 9, 7],
+        "rainDays": [14, 13, 13, 15, 14, 10, 9, 10, 11, 14, 15, 15],
+        "sunHours": [3, 4, 5, 5, 6, 7, 7, 7, 6, 5, 3, 3],
+        "humidity": [78, 77, 76, 77, 78, 79, 80, 80, 79, 79, 79, 79],
+        "seaTemp": [13, 12, 13, 14, 16, 18, 20, 21, 20, 18, 16, 14]
+      },
+      "crowd": [22, 22, 30, 45, 58, 75, 94, 96, 65, 42, 26, 24],
+      "priceIndex": [50, 50, 58, 72, 82, 92, 100, 100, 82, 64, 54, 52],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 265
+      },
+      "r": {
+        "beaches": 90, "scenery": 96, "mountains": 92, "hiking": 96, "nationalParks": 92,
+        "climbing": 85, "surfing": 85, "kayaking": 82, "forests": 90, "wildlife": 85,
+        "cycling": 82, "swimming": 62, "foodScene": 94, "fineDining": 88, "markets": 88,
+        "localCulture": 92, "historicSites": 85, "religiousSites": 82, "roadTrip": 94,
+        "valueForMoney": 88, "familyYoungKids": 82
+      },
+      "photos": [
+        "Asturias green coast cliffs Spain",
+        "Picos de Europa mountains",
+        "Asturian cider pouring",
+        "Playa del Silencio Asturias",
+        "Cudillero colourful village Spain",
+        "Cabrales cheese Asturias"
+      ]
+    },
+    {
+      "id": "douro-pt",
+      "name": "The Douro Valley",
+      "country": "PT",
+      "region": "Northern Portugal",
+      "continent": "Europe",
+      "lat": 41.16,
+      "lon": -7.79,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "The oldest demarcated wine region in the world — terraces cut into schist so steep the vines are worked by hand, and a river you can go up by train, boat or road.",
+      "tags": ["port wine", "terraces", "quintas", "douro line"],
+      "climate": {
+        "tempHigh": [12, 14, 18, 20, 24, 29, 32, 32, 27, 21, 15, 12],
+        "tempLow": [3, 4, 6, 8, 11, 15, 17, 17, 15, 11, 7, 4],
+        "rainDays": [12, 11, 9, 11, 9, 5, 2, 2, 5, 10, 12, 13],
+        "sunHours": [4, 5, 6, 7, 8, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [82, 78, 70, 68, 66, 58, 52, 53, 60, 72, 80, 83]
+      },
+      "crowd": [25, 25, 35, 55, 68, 78, 88, 88, 92, 68, 35, 28],
+      "priceIndex": [54, 54, 64, 80, 88, 92, 98, 98, 100, 86, 62, 56],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 285
+      },
+      "r": {
+        "wine": 100, "scenery": 98, "foodScene": 90, "fineDining": 88, "lakesRivers": 88,
+        "hiking": 85, "cycling": 78, "kayaking": 72, "roadTrip": 94, "localCulture": 88,
+        "historicSites": 78, "architecture": 78, "romance": 94, "stargazing": 85, "markets": 72,
+        "wellness": 78, "luxury": 82, "valueForMoney": 82, "seniors": 85, "familyYoungKids": 62,
+        "swimming": 55
+      },
+      "photos": [
+        "Douro valley terraced vineyards",
+        "Douro river boat Portugal",
+        "Port wine quinta Douro",
+        "Douro valley train line",
+        "Pinhao station azulejos",
+        "Douro vineyard harvest Portugal"
+      ]
+    },
+    {
+      "id": "sintra-pt",
+      "name": "Sintra & the Serra",
+      "country": "PT",
+      "region": "Lisbon district",
+      "continent": "Europe",
+      "lat": 38.797,
+      "lon": -9.391,
+      "type": "region",
+      "arch": "historic-city",
+      "blurb": "A cool green hill where Portuguese royalty and rich romantics competed to build the most ludicrous palace, plus Europe's westernmost cliffs and Atlantic surf beaches below.",
+      "tags": ["pena palace", "quinta da regaleira", "cabo da roca", "romanticism"],
+      "climate": {
+        "tempHigh": [14, 15, 17, 18, 20, 23, 25, 26, 24, 21, 17, 15],
+        "tempLow": [8, 8, 10, 11, 13, 16, 17, 18, 17, 14, 11, 9],
+        "rainDays": [12, 10, 9, 9, 7, 3, 1, 1, 4, 9, 12, 12],
+        "sunHours": [4, 5, 6, 7, 8, 10, 11, 10, 8, 6, 4, 4],
+        "humidity": [82, 80, 76, 74, 74, 72, 71, 72, 75, 79, 82, 83],
+        "seaTemp": [15, 14, 15, 15, 16, 18, 19, 20, 20, 18, 17, 16]
+      },
+      "crowd": [45, 45, 58, 72, 82, 90, 96, 98, 82, 65, 48, 45],
+      "priceIndex": [64, 64, 74, 86, 92, 96, 100, 100, 92, 78, 66, 64],
+      "cost": {
+        "budget": 48,
+        "mid": 112,
+        "luxury": 300
+      },
+      "r": {
+        "architecture": 98, "historicSites": 94, "museums": 82, "scenery": 94, "forests": 90,
+        "hiking": 88, "beaches": 85, "surfing": 88, "swimming": 62, "cycling": 72,
+        "localCulture": 85, "foodScene": 88, "wine": 85, "romance": 94, "walkability": 68,
+        "roadTrip": 82, "valueForMoney": 78, "familyYoungKids": 78, "seniors": 68,
+        "publicTransport": 78
+      },
+      "photos": [
+        "Pena Palace Sintra Portugal",
+        "Quinta da Regaleira well Sintra",
+        "Sintra forest palace mist",
+        "Cabo da Roca cliffs Portugal",
+        "Praia da Ursa beach Sintra",
+        "Moorish castle Sintra walls"
+      ]
+    },
+    {
+      "id": "alentejo-pt",
+      "name": "The Alentejo",
+      "country": "PT",
+      "region": "Southern Portugal",
+      "continent": "Europe",
+      "lat": 38.571,
+      "lon": -7.913,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "A third of Portugal, cork oaks and wheat to the horizon, marble towns, a Roman temple in Évora, and a wild Atlantic coast that the Algarve crowds never reach.",
+      "tags": ["cork oaks", "évora", "marble", "wild coast"],
+      "climate": {
+        "tempHigh": [15, 16, 19, 21, 25, 30, 33, 33, 29, 23, 18, 15],
+        "tempLow": [5, 6, 8, 9, 12, 16, 18, 18, 16, 13, 9, 6],
+        "rainDays": [10, 9, 7, 8, 6, 3, 1, 1, 3, 8, 10, 11],
+        "sunHours": [5, 6, 7, 8, 10, 11, 12, 11, 9, 7, 5, 4],
+        "humidity": [82, 78, 71, 68, 64, 56, 50, 51, 60, 71, 80, 83],
+        "seaTemp": [15, 14, 15, 16, 17, 18, 19, 20, 20, 18, 17, 16]
+      },
+      "crowd": [22, 22, 32, 48, 60, 72, 88, 90, 65, 45, 28, 25],
+      "priceIndex": [50, 50, 58, 72, 82, 90, 100, 100, 82, 66, 54, 52],
+      "cost": {
+        "budget": 42,
+        "mid": 98,
+        "luxury": 265
+      },
+      "r": {
+        "wine": 96, "foodScene": 92, "fineDining": 88, "historicSites": 94, "architecture": 90,
+        "religiousSites": 85, "museums": 78, "scenery": 88, "beaches": 85, "surfing": 85,
+        "hiking": 88, "cycling": 85, "wildlife": 78, "stargazing": 96, "roadTrip": 94,
+        "localCulture": 90, "markets": 80, "romance": 88, "wellness": 78, "valueForMoney": 90,
+        "seniors": 78, "familyYoungKids": 68
+      },
+      "photos": [
+        "Evora Roman temple Portugal",
+        "Alentejo cork oaks landscape",
+        "Alentejo white village Monsaraz",
+        "Alentejo wild coast beach",
+        "Alentejo wheat fields sunset",
+        "Marvao hilltop village Portugal"
+      ]
+    },
+    {
+      "id": "bologna-it",
+      "name": "Bologna & Emilia-Romagna",
+      "country": "IT",
+      "region": "Emilia-Romagna",
+      "continent": "Europe",
+      "lat": 44.494,
+      "lon": 11.343,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Forty kilometres of arcades, the oldest university in Europe, and the region that gave the world Parmigiano, prosciutto di Parma, balsamic and tagliatelle al ragù.",
+      "tags": ["porticoes", "ragù", "parmigiano", "oldest university"],
+      "climate": {
+        "tempHigh": [6, 8, 13, 18, 23, 27, 30, 30, 25, 19, 12, 7],
+        "tempLow": [-1, 0, 4, 8, 13, 17, 19, 19, 15, 10, 5, 0],
+        "rainDays": [7, 6, 7, 9, 9, 8, 5, 6, 7, 8, 9, 8],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 9, 7, 5, 2, 2],
+        "humidity": [84, 79, 71, 68, 68, 66, 63, 65, 71, 78, 85, 86]
+      },
+      "crowd": [42, 42, 52, 65, 74, 78, 76, 74, 74, 65, 50, 55],
+      "priceIndex": [64, 64, 72, 84, 90, 92, 90, 88, 90, 82, 68, 74],
+      "cost": {
+        "budget": 55,
+        "mid": 128,
+        "luxury": 330
+      },
+      "r": {
+        "foodScene": 100, "fineDining": 94, "markets": 96, "streetFood": 88, "wine": 92,
+        "architecture": 94, "historicSites": 92, "museums": 88, "artScene": 85,
+        "religiousSites": 85, "walkability": 96, "cycling": 88, "localCulture": 92, "bars": 88,
+        "coffee": 92, "theatre": 82, "festivals": 82, "publicTransport": 80, "shopping": 82,
+        "valueForMoney": 78, "backpacker": 78, "romance": 85, "seniors": 82
+      },
+      "photos": [
+        "Bologna porticoes arcade",
+        "Bologna two towers Italy",
+        "Parmigiano Reggiano wheels",
+        "Bologna Quadrilatero market",
+        "Bologna rooftops red terracotta",
+        "Tagliatelle al ragu Bologna"
+      ]
+    },
+    {
+      "id": "turin-it",
+      "name": "Turin & the Langhe",
+      "country": "IT",
+      "region": "Piedmont",
+      "continent": "Europe",
+      "lat": 45.07,
+      "lon": 7.686,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A baroque city of arcaded boulevards and historic cafés under the Alps, with Barolo country an hour south and white truffles in the autumn markets.",
+      "tags": ["barolo", "white truffles", "aperitivo", "egyptian museum"],
+      "climate": {
+        "tempHigh": [6, 9, 14, 18, 23, 27, 30, 29, 24, 18, 11, 6],
+        "tempLow": [-2, 0, 4, 8, 12, 16, 19, 18, 15, 10, 4, -1],
+        "rainDays": [5, 5, 7, 10, 11, 9, 6, 7, 6, 7, 7, 5],
+        "sunHours": [3, 4, 5, 6, 7, 8, 9, 8, 6, 5, 3, 3],
+        "humidity": [78, 72, 65, 65, 66, 64, 61, 63, 68, 74, 79, 80]
+      },
+      "crowd": [42, 42, 50, 62, 70, 72, 70, 68, 72, 68, 50, 55],
+      "priceIndex": [64, 64, 72, 82, 88, 90, 88, 86, 90, 86, 70, 74],
+      "cost": {
+        "budget": 55,
+        "mid": 128,
+        "luxury": 330
+      },
+      "r": {
+        "architecture": 94, "museums": 96, "historicSites": 88, "artScene": 88, "coffee": 98,
+        "foodScene": 96, "fineDining": 94, "wine": 98, "markets": 90, "bars": 90, "theatre": 85,
+        "walkability": 92, "publicTransport": 85, "localCulture": 90, "shopping": 85,
+        "mountains": 82, "skiing": 0, "hiking": 78, "scenery": 82, "cycling": 78, "romance": 88,
+        "valueForMoney": 78, "seniors": 82
+      },
+      "photos": [
+        "Turin Mole Antonelliana",
+        "Turin arcaded street Piedmont",
+        "Langhe vineyards Barolo",
+        "Turin historic cafe interior",
+        "White truffle Alba Piedmont",
+        "Turin Piazza San Carlo"
+      ]
+    },
+    {
+      "id": "verona-it",
+      "name": "Verona & Lake Garda",
+      "country": "IT",
+      "region": "Veneto",
+      "continent": "Europe",
+      "lat": 45.438,
+      "lon": 10.993,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A Roman arena still used for opera every summer, a river bend full of pink marble, and Italy's biggest lake half an hour north with Alps at the far end of it.",
+      "tags": ["arena opera", "lake garda", "valpolicella", "romeo and juliet"],
+      "climate": {
+        "tempHigh": [7, 9, 14, 18, 23, 27, 30, 29, 25, 19, 12, 8],
+        "tempLow": [-1, 1, 4, 9, 13, 17, 19, 19, 15, 11, 5, 0],
+        "rainDays": [6, 5, 7, 9, 10, 9, 7, 8, 6, 7, 8, 6],
+        "sunHours": [3, 4, 5, 6, 8, 9, 10, 9, 7, 5, 3, 2],
+        "humidity": [82, 76, 69, 68, 68, 67, 64, 66, 70, 77, 82, 84]
+      },
+      "crowd": [38, 38, 52, 68, 80, 90, 94, 94, 78, 62, 45, 48],
+      "priceIndex": [60, 60, 72, 86, 94, 98, 100, 100, 90, 78, 66, 68],
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 350
+      },
+      "r": {
+        "historicSites": 94, "architecture": 94, "theatre": 96, "museums": 82,
+        "religiousSites": 85, "walkability": 94, "localCulture": 88, "lakesRivers": 92,
+        "swimming": 82, "sailing": 88, "kayaking": 78, "waterSports": 88, "mountains": 78,
+        "hiking": 82, "cycling": 88, "wine": 94, "foodScene": 92, "fineDining": 88,
+        "markets": 82, "romance": 94, "scenery": 90, "valueForMoney": 72, "familyYoungKids": 85
+      },
+      "photos": [
+        "Verona arena opera Italy",
+        "Lake Garda Italy village",
+        "Verona Piazza delle Erbe",
+        "Sirmione Lake Garda castle",
+        "Valpolicella vineyards Italy",
+        "Verona Adige river bridge"
+      ]
+    },
+    {
+      "id": "matera-it",
+      "name": "Matera & Basilicata",
+      "country": "IT",
+      "region": "Southern Italy",
+      "continent": "Europe",
+      "lat": 40.667,
+      "lon": 16.6,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Cave dwellings carved into a ravine and lived in continuously for nine thousand years — cleared as a national disgrace in the 1950s, now a European Capital of Culture.",
+      "tags": ["sassi", "cave dwellings", "rupestrian churches", "basilicata"],
+      "climate": {
+        "tempHigh": [11, 12, 15, 19, 24, 29, 32, 32, 27, 21, 16, 12],
+        "tempLow": [3, 3, 5, 8, 12, 17, 19, 19, 16, 12, 8, 5],
+        "rainDays": [8, 8, 7, 7, 5, 3, 2, 2, 5, 8, 10, 9],
+        "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 8, 6, 4, 4],
+        "humidity": [78, 76, 72, 69, 65, 58, 53, 55, 63, 72, 78, 80]
+      },
+      "crowd": [32, 32, 45, 62, 72, 78, 82, 85, 72, 58, 38, 35],
+      "priceIndex": [56, 56, 68, 82, 90, 94, 96, 98, 88, 74, 62, 58],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 290
+      },
+      "r": {
+        "historicSites": 100, "architecture": 98, "religiousSites": 90, "museums": 82,
+        "localCulture": 92, "scenery": 92, "walkability": 85, "hiking": 82, "foodScene": 92,
+        "fineDining": 85, "wine": 88, "markets": 78, "romance": 94, "artScene": 78,
+        "stargazing": 88, "roadTrip": 85, "nationalParks": 72, "valueForMoney": 82,
+        "backpacker": 72, "accessibility": 32, "seniors": 55
+      },
+      "photos": [
+        "Matera sassi cave city Italy",
+        "Matera night lights ravine",
+        "Rupestrian church Matera fresco",
+        "Matera cave hotel interior",
+        "Basilicata landscape Italy",
+        "Matera stone streets steps"
+      ]
+    },
+    {
+      "id": "aeolian-it",
+      "name": "The Aeolian Islands",
+      "country": "IT",
+      "region": "Sicily",
+      "continent": "Europe",
+      "lat": 38.49,
+      "lon": 14.95,
+      "type": "island",
+      "arch": "island-volcanic",
+      "blurb": "Seven volcanic islands off Sicily, one of which has been erupting every twenty minutes for two thousand years and can be climbed at dusk to watch it.",
+      "tags": ["stromboli", "capers", "malvasia", "black sand"],
+      "climate": {
+        "tempHigh": [15, 15, 17, 19, 23, 27, 30, 30, 27, 24, 20, 17],
+        "tempLow": [11, 11, 12, 14, 17, 21, 24, 25, 22, 19, 16, 13],
+        "rainDays": [10, 8, 7, 5, 3, 1, 0, 1, 4, 8, 10, 11],
+        "sunHours": [4, 5, 6, 8, 10, 11, 12, 11, 9, 6, 5, 4],
+        "humidity": [74, 73, 72, 71, 70, 67, 65, 67, 70, 73, 75, 75],
+        "seaTemp": [16, 15, 15, 17, 20, 24, 26, 27, 26, 23, 20, 18]
+      },
+      "crowd": [8, 8, 15, 32, 55, 78, 94, 98, 68, 38, 15, 10],
+      "priceIndex": [40, 40, 50, 68, 84, 94, 100, 100, 84, 60, 46, 42],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 330
+      },
+      "r": {
+        "volcanic": 100, "islands": 96, "beaches": 82, "swimming": 92, "snorkelling": 88,
+        "scuba": 85, "sailing": 92, "kayaking": 85, "hiking": 94, "adrenaline": 90,
+        "scenery": 96, "climbing": 78, "foodScene": 92, "wine": 90, "fineDining": 82,
+        "localCulture": 88, "romance": 94, "stargazing": 92, "valueForMoney": 68, "seniors": 55,
+        "familyYoungKids": 62
+      },
+      "photos": [
+        "Stromboli volcano eruption night",
+        "Aeolian islands Sicily aerial",
+        "Lipari harbour Aeolian",
+        "Vulcano black sand beach",
+        "Salina island capers Sicily",
+        "Panarea white village Aeolian"
+      ]
+    },
+    {
+      "id": "siena-it",
+      "name": "Siena & the Val d'Orcia",
+      "country": "IT",
+      "region": "Tuscany",
+      "continent": "Europe",
+      "lat": 43.318,
+      "lon": 11.331,
+      "type": "region",
+      "arch": "historic-city",
+      "blurb": "A medieval city that runs a bareback horse race round its shell-shaped square twice a year, set in the cypress-and-hilltop landscape everyone pictures when they think of Tuscany.",
+      "tags": ["the palio", "piazza del campo", "cypresses", "brunello"],
+      "climate": {
+        "tempHigh": [10, 11, 15, 18, 23, 28, 31, 31, 26, 20, 14, 10],
+        "tempLow": [1, 2, 4, 7, 11, 15, 17, 17, 14, 10, 6, 2],
+        "rainDays": [8, 7, 8, 9, 8, 6, 3, 4, 6, 9, 10, 9],
+        "sunHours": [3, 4, 5, 7, 8, 10, 11, 10, 8, 6, 3, 3],
+        "humidity": [82, 78, 72, 70, 68, 63, 58, 60, 68, 76, 82, 84]
+      },
+      "crowd": [32, 32, 48, 68, 80, 88, 92, 92, 80, 62, 42, 38],
+      "priceIndex": [58, 58, 72, 88, 94, 98, 100, 100, 94, 78, 64, 62],
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 360
+      },
+      "r": {
+        "historicSites": 98, "architecture": 98, "museums": 88, "religiousSites": 92,
+        "scenery": 98, "localCulture": 94, "festivals": 96, "walkability": 92, "wine": 98,
+        "foodScene": 94, "fineDining": 92, "markets": 82, "cycling": 92, "hiking": 85,
+        "roadTrip": 96, "romance": 96, "artScene": 88, "wellness": 78, "stargazing": 82,
+        "valueForMoney": 62, "seniors": 82
+      },
+      "photos": [
+        "Piazza del Campo Siena",
+        "Val d'Orcia cypress road Tuscany",
+        "Siena cathedral striped marble",
+        "Palio di Siena horse race",
+        "Tuscan hilltop village Pienza",
+        "Brunello vineyard Montalcino"
+      ]
+    },
+    {
+      "id": "gothenburg-se",
+      "name": "Gothenburg & the West Coast",
+      "country": "SE",
+      "region": "Västra Götaland",
+      "continent": "Europe",
+      "lat": 57.708,
+      "lon": 11.974,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "Sweden's second city — canals, a serious seafood habit, and just north of it the Bohuslän archipelago, eight thousand granite islands scoured smooth by ice.",
+      "tags": ["bohuslän", "seafood", "haga", "archipelago"],
+      "climate": {
+        "tempHigh": [1, 2, 5, 11, 16, 20, 21, 21, 17, 11, 6, 2],
+        "tempLow": [-4, -4, -2, 2, 7, 11, 13, 13, 10, 6, 2, -2],
+        "rainDays": [16, 12, 12, 11, 11, 12, 13, 14, 14, 16, 17, 17],
+        "sunHours": [1, 2, 4, 6, 8, 9, 8, 7, 5, 3, 1, 1],
+        "humidity": [86, 84, 79, 74, 71, 73, 76, 78, 80, 84, 87, 88],
+        "seaTemp": [4, 3, 4, 7, 11, 15, 18, 18, 16, 12, 9, 6]
+      },
+      "crowd": [32, 32, 38, 50, 62, 78, 92, 88, 62, 45, 35, 48],
+      "priceIndex": [62, 62, 68, 78, 86, 94, 100, 98, 82, 70, 64, 76],
+      "cost": {
+        "budget": 68,
+        "mid": 158,
+        "luxury": 400
+      },
+      "r": {
+        "foodScene": 94, "fineDining": 92, "markets": 90, "coffee": 96, "museums": 85,
+        "artScene": 85, "architecture": 82, "localCulture": 85, "islands": 92, "sailing": 92,
+        "kayaking": 92, "swimming": 62, "beaches": 68, "cycling": 92, "walkability": 90,
+        "publicTransport": 90, "bars": 85, "beer": 88, "festivals": 85, "themeParks": 88,
+        "valueForMoney": 48, "familyYoungKids": 88, "safety": 94
+      },
+      "photos": [
+        "Gothenburg canal Sweden",
+        "Bohuslan archipelago granite islands",
+        "Gothenburg Haga wooden houses",
+        "Swedish seafood shrimp",
+        "Gothenburg fish church market",
+        "Bohuslan coastal village Sweden"
+      ]
+    },
+    {
+      "id": "aarhus-dk",
+      "name": "Aarhus & Jutland",
+      "country": "DK",
+      "region": "Jutland",
+      "continent": "Europe",
+      "lat": 56.163,
+      "lon": 10.203,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "Denmark's second city, young and cheap by Danish standards, with a rainbow walkway on top of its art museum and Jutland's dunes, Viking mounds and moving sand to the north.",
+      "tags": ["aros rainbow", "vikings", "shifting dunes", "student city"],
+      "climate": {
+        "tempHigh": [3, 3, 6, 11, 16, 19, 21, 21, 17, 12, 7, 4],
+        "tempLow": [-2, -2, 0, 3, 8, 11, 13, 13, 10, 7, 3, 0],
+        "rainDays": [15, 12, 12, 11, 11, 12, 14, 14, 14, 15, 16, 16],
+        "sunHours": [1, 2, 4, 6, 8, 8, 8, 7, 5, 3, 1, 1],
+        "humidity": [88, 86, 82, 76, 73, 74, 76, 78, 81, 85, 88, 89],
+        "seaTemp": [3, 2, 3, 6, 10, 14, 17, 18, 16, 12, 8, 5]
+      },
+      "crowd": [32, 32, 38, 48, 60, 74, 88, 85, 60, 45, 35, 45],
+      "priceIndex": [64, 64, 68, 76, 84, 92, 100, 98, 80, 70, 64, 74],
+      "cost": {
+        "budget": 65,
+        "mid": 152,
+        "luxury": 385
+      },
+      "r": {
+        "museums": 92, "artScene": 92, "architecture": 90, "foodScene": 92, "fineDining": 92,
+        "coffee": 94, "markets": 82, "bars": 88, "beer": 88, "cycling": 96, "walkability": 92,
+        "publicTransport": 85, "festivals": 88, "beaches": 82, "historicSites": 85,
+        "localCulture": 85, "hiking": 78, "wildlife": 72, "scenery": 78, "themeParks": 82,
+        "valueForMoney": 52, "familyYoungKids": 90, "safety": 96, "ecoFriendly": 92
+      },
+      "photos": [
+        "ARoS rainbow panorama Aarhus",
+        "Aarhus Den Gamle By old town",
+        "Rabjerg Mile shifting dunes Denmark",
+        "Grenen Skagen two seas",
+        "Aarhus harbour architecture",
+        "Danish beach huts dunes"
+      ]
+    },
+    {
+      "id": "alesund-no",
+      "name": "Ålesund & Geirangerfjord",
+      "country": "NO",
+      "region": "Møre og Romsdal",
+      "continent": "Europe",
+      "lat": 62.472,
+      "lon": 6.155,
+      "type": "coast",
+      "arch": "coastal-city",
+      "blurb": "An Art Nouveau town rebuilt after burning down in 1904, at the mouth of the fjord country — Geiranger, Trollstigen's eleven hairpins, and Norway's most photographed cliff.",
+      "tags": ["art nouveau", "geiranger", "trollstigen", "seven sisters"],
+      "climate": {
+        "tempHigh": [3, 3, 5, 8, 13, 16, 18, 18, 14, 10, 6, 4],
+        "tempLow": [-1, -1, 0, 3, 7, 10, 12, 12, 9, 6, 2, 0],
+        "rainDays": [18, 15, 16, 13, 12, 13, 14, 16, 18, 19, 18, 19],
+        "sunHours": [0, 2, 4, 6, 7, 8, 7, 6, 4, 2, 1, 0],
+        "humidity": [80, 78, 76, 74, 72, 74, 76, 78, 80, 82, 82, 81],
+        "seaTemp": [6, 5, 5, 6, 9, 12, 14, 15, 13, 11, 9, 7],
+        "snowDepth": [35, 40, 32, 12, 1, 0, 0, 0, 0, 2, 15, 30]
+      },
+      "crowd": [15, 15, 22, 38, 58, 82, 96, 92, 62, 35, 20, 16],
+      "priceIndex": [52, 52, 58, 70, 84, 96, 100, 98, 78, 62, 54, 52],
+      "cost": {
+        "budget": 75,
+        "mid": 172,
+        "luxury": 430
+      },
+      "r": {
+        "scenery": 100, "mountains": 96, "hiking": 96, "nationalParks": 88, "kayaking": 92,
+        "sailing": 85, "climbing": 88, "cycling": 82, "fishing": 88, "wildlife": 78,
+        "architecture": 92, "historicSites": 78, "roadTrip": 98, "adrenaline": 85, "skiing": 78,
+        "foodScene": 82, "localCulture": 80, "stargazing": 82, "valueForMoney": 32,
+        "familyYoungKids": 78, "romance": 88, "safety": 96
+      },
+      "photos": [
+        "Geirangerfjord Norway cruise ship",
+        "Alesund art nouveau Norway",
+        "Trollstigen road hairpins Norway",
+        "Seven Sisters waterfall Geiranger",
+        "Norwegian fjord kayak",
+        "Alesund harbour aerial Norway"
+      ]
+    },
+    {
+      "id": "turku-fi",
+      "name": "Turku & the Archipelago",
+      "country": "FI",
+      "region": "Southwest Finland",
+      "continent": "Europe",
+      "lat": 60.451,
+      "lon": 22.267,
+      "type": "coast",
+      "arch": "nordic-city",
+      "blurb": "Finland's oldest city, with a medieval castle and a river of moored restaurant ships, opening into an archipelago of forty thousand islands you can cycle round on ferries.",
+      "tags": ["archipelago trail", "medieval castle", "sauna", "moomins"],
+      "climate": {
+        "tempHigh": [-2, -3, 2, 9, 16, 20, 22, 20, 15, 8, 3, -1],
+        "tempLow": [-8, -9, -6, 0, 5, 10, 13, 12, 8, 3, -1, -6],
+        "rainDays": [14, 11, 10, 9, 9, 10, 11, 12, 12, 14, 15, 15],
+        "sunHours": [1, 2, 4, 7, 9, 10, 10, 8, 5, 3, 1, 0],
+        "humidity": [88, 86, 80, 72, 68, 71, 74, 78, 82, 86, 89, 90],
+        "seaTemp": [1, 0, 1, 3, 8, 14, 18, 18, 14, 9, 5, 2],
+        "snowDepth": [22, 28, 20, 4, 0, 0, 0, 0, 0, 0, 4, 15]
+      },
+      "crowd": [25, 25, 30, 42, 58, 80, 94, 88, 55, 38, 28, 38],
+      "priceIndex": [58, 58, 62, 72, 84, 96, 100, 96, 76, 64, 58, 68],
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 365
+      },
+      "r": {
+        "islands": 96, "sailing": 94, "kayaking": 92, "cycling": 96, "swimming": 62,
+        "fishing": 88, "forests": 90, "wildlife": 78, "scenery": 90, "wellness": 96,
+        "historicSites": 88, "architecture": 82, "museums": 85, "foodScene": 88, "markets": 82,
+        "coffee": 92, "beer": 85, "walkability": 88, "festivals": 85, "valueForMoney": 55,
+        "safety": 96, "familyYoungKids": 85
+      },
+      "photos": [
+        "Turku archipelago Finland islands",
+        "Turku castle Finland",
+        "Finnish sauna lakeside",
+        "Archipelago trail cycling Finland",
+        "Turku river restaurant boats",
+        "Finnish summer cottage island"
+      ]
+    },
+    {
+      "id": "bornholm-dk",
+      "name": "Bornholm",
+      "country": "DK",
+      "region": "The Baltic",
+      "continent": "Europe",
+      "lat": 55.13,
+      "lon": 14.9,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "A granite island closer to Sweden than Denmark, with four round fortress churches, smokehouses with white chimneys, and Northern Europe's best beach on its southern tip.",
+      "tags": ["round churches", "smoked herring", "dueodde sand", "crafts"],
+      "climate": {
+        "tempHigh": [2, 2, 4, 9, 14, 18, 21, 21, 17, 12, 7, 4],
+        "tempLow": [-2, -3, -1, 2, 7, 11, 14, 14, 11, 7, 3, 0],
+        "rainDays": [13, 10, 9, 8, 8, 9, 10, 11, 12, 13, 14, 14],
+        "sunHours": [1, 2, 4, 7, 9, 10, 9, 8, 6, 3, 1, 1],
+        "humidity": [87, 85, 82, 77, 74, 75, 77, 79, 82, 85, 88, 88],
+        "seaTemp": [3, 2, 3, 5, 10, 15, 18, 19, 16, 12, 8, 5]
+      },
+      "crowd": [10, 10, 16, 28, 48, 78, 96, 92, 52, 28, 14, 12],
+      "priceIndex": [44, 44, 52, 66, 82, 96, 100, 98, 74, 58, 48, 46],
+      "cost": {
+        "budget": 58,
+        "mid": 138,
+        "luxury": 350
+      },
+      "r": {
+        "beaches": 90, "islands": 92, "cycling": 98, "swimming": 68, "scenery": 88,
+        "forests": 85, "hiking": 85, "kayaking": 82, "historicSites": 90, "religiousSites": 88,
+        "architecture": 85, "artScene": 92, "foodScene": 92, "fineDining": 92, "markets": 85,
+        "localCulture": 88, "wildlife": 72, "valueForMoney": 58, "familyYoungKids": 88,
+        "safety": 96, "romance": 85
+      },
+      "photos": [
+        "Bornholm round church Denmark",
+        "Dueodde beach white sand Bornholm",
+        "Bornholm smokehouse chimneys",
+        "Hammershus castle ruins Bornholm",
+        "Bornholm cycling coastal path",
+        "Bornholm granite cliffs Baltic"
+      ]
+    }
+  ]
+}

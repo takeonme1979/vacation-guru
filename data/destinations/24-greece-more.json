@@ -1,0 +1,478 @@
+{
+  "_doc": "Greece beyond Santorini and Mykonos — the Cyclades that are still quiet, the Ionians, and the mainland nobody flies to.",
+  "destinations": [
+    {
+      "id": "milos-gr",
+      "name": "Milos",
+      "country": "GR",
+      "region": "The Cyclades",
+      "continent": "Europe",
+      "lat": 36.72,
+      "lon": 24.43,
+      "type": "island",
+      "arch": "island-volcanic",
+      "blurb": "A volcanic island with more than seventy beaches, no two alike — Sarakiniko's white lunar rock, Kleftiko's sea caves, and fishing villages with garage doors painted in every colour.",
+      "tags": ["sarakiniko", "kleftiko", "syrmata", "seventy beaches"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 19, 23, 28, 30, 30, 27, 23, 19, 16],
+        "tempLow": [9, 9, 10, 13, 17, 21, 23, 24, 21, 18, 14, 11],
+        "rainDays": [10, 8, 6, 4, 2, 1, 0, 0, 2, 5, 8, 11],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [74, 73, 71, 68, 65, 60, 58, 60, 64, 70, 74, 75],
+        "seaTemp": [16, 15, 15, 17, 20, 23, 25, 26, 25, 23, 20, 18]
+      },
+      "crowd": [12, 12, 18, 32, 48, 68, 88, 94, 68, 40, 20, 14],
+      "priceIndex": [44, 44, 52, 66, 78, 90, 100, 100, 82, 64, 50, 46],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 300
+      },
+      "r": {
+        "beaches": 98, "swimming": 96, "snorkelling": 85, "islands": 96, "kayaking": 88,
+        "sailing": 90, "scenery": 96, "volcanic": 92, "scuba": 78, "hiking": 78,
+        "historicSites": 78, "localCulture": 82, "foodScene": 88, "fineDining": 78, "wine": 78,
+        "romance": 92, "stargazing": 85, "valueForMoney": 72, "familyYoungKids": 72,
+        "seniors": 68, "backpacker": 62
+      },
+      "photos": [
+        "Sarakiniko beach Milos white rock",
+        "Kleftiko sea caves Milos",
+        "Klima Milos colourful syrmata",
+        "Milos beach turquoise Greece",
+        "Milos island coastline aerial",
+        "Greek fishing boat Milos"
+      ]
+    },
+    {
+      "id": "paros-gr",
+      "name": "Paros & Antiparos",
+      "country": "GR",
+      "region": "The Cyclades",
+      "continent": "Europe",
+      "lat": 37.084,
+      "lon": 25.149,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "The Cyclades done properly: a marble island with a Byzantine capital, the best windsurfing in Greece, and a village of white lanes that looks like everyone's idea of Greece.",
+      "tags": ["naoussa", "windsurfing", "marble", "antiparos"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 19, 23, 27, 29, 29, 26, 22, 19, 16],
+        "tempLow": [9, 9, 10, 13, 17, 21, 23, 23, 21, 17, 14, 11],
+        "rainDays": [10, 8, 6, 4, 2, 1, 0, 0, 2, 6, 9, 11],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [75, 74, 72, 69, 66, 61, 58, 60, 65, 71, 75, 76],
+        "seaTemp": [16, 15, 15, 17, 20, 23, 25, 26, 25, 23, 20, 18]
+      },
+      "crowd": [15, 15, 22, 38, 55, 75, 92, 96, 72, 45, 24, 17],
+      "priceIndex": [46, 46, 55, 70, 82, 92, 100, 100, 84, 66, 52, 48],
+      "cost": {
+        "budget": 48,
+        "mid": 112,
+        "luxury": 330
+      },
+      "r": {
+        "beaches": 94, "swimming": 94, "islands": 94, "sailing": 90, "waterSports": 96,
+        "surfing": 82, "kayaking": 82, "snorkelling": 78, "scenery": 90, "architecture": 90,
+        "historicSites": 82, "religiousSites": 85, "localCulture": 85, "foodScene": 90,
+        "fineDining": 85, "wine": 82, "bars": 85, "romance": 90, "walkability": 88,
+        "markets": 72, "valueForMoney": 72, "familyYoungKids": 82, "backpacker": 72,
+        "seniors": 72
+      },
+      "photos": [
+        "Naoussa Paros harbour Greece",
+        "Paros white lanes bougainvillea",
+        "Kolymbithres beach Paros",
+        "Antiparos village Greece",
+        "Paros windsurfing Golden Beach",
+        "Parikia Paros waterfront"
+      ]
+    },
+    {
+      "id": "sifnos-gr",
+      "name": "Sifnos & Folegandros",
+      "country": "GR",
+      "region": "The Cyclades",
+      "continent": "Europe",
+      "lat": 36.977,
+      "lon": 24.71,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Two islands the crowds have not found: Sifnos is where Greeks go to eat, and Folegandros has a cliff-top village 200 metres straight above the sea with no airport at all.",
+      "tags": ["chora", "greek cooking", "no airport", "cliff village"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 19, 23, 27, 29, 29, 26, 22, 19, 16],
+        "tempLow": [10, 9, 11, 13, 17, 21, 23, 24, 21, 18, 14, 11],
+        "rainDays": [11, 9, 6, 4, 2, 1, 0, 0, 2, 6, 9, 12],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [76, 75, 72, 69, 66, 61, 59, 61, 65, 71, 75, 77],
+        "seaTemp": [16, 15, 15, 17, 20, 23, 25, 26, 25, 23, 20, 18]
+      },
+      "crowd": [8, 8, 12, 24, 40, 62, 85, 90, 58, 30, 14, 10],
+      "priceIndex": [40, 40, 48, 62, 74, 88, 100, 100, 78, 58, 46, 42],
+      "cost": {
+        "budget": 42,
+        "mid": 98,
+        "luxury": 265
+      },
+      "r": {
+        "beaches": 88, "swimming": 90, "islands": 94, "sailing": 82, "scenery": 94, "hiking": 90,
+        "architecture": 92, "religiousSites": 90, "historicSites": 78, "localCulture": 92,
+        "foodScene": 96, "fineDining": 85, "wine": 78, "markets": 68, "walkability": 90,
+        "romance": 94, "stargazing": 90, "kayaking": 72, "valueForMoney": 82, "seniors": 72,
+        "familyYoungKids": 68, "backpacker": 68
+      },
+      "photos": [
+        "Folegandros chora cliff village Greece",
+        "Sifnos white church Greece",
+        "Sifnos hiking trail donkey path",
+        "Folegandros Panagia church cliff",
+        "Greek island taverna terrace",
+        "Sifnos pottery workshop"
+      ]
+    },
+    {
+      "id": "kefalonia-gr",
+      "name": "Kefalonia & Zakynthos",
+      "country": "GR",
+      "region": "The Ionian Islands",
+      "continent": "Europe",
+      "lat": 38.18,
+      "lon": 20.49,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Green Ionian islands with cypress on limestone: Myrtos beach a thousand feet below the road, Melissani's underground lake, and a shipwreck on sand the colour of icing sugar.",
+      "tags": ["myrtos", "shipwreck beach", "melissani cave", "loggerhead turtles"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 19, 24, 28, 31, 31, 27, 23, 19, 16],
+        "tempLow": [8, 8, 9, 12, 15, 19, 21, 22, 19, 16, 12, 10],
+        "rainDays": [15, 13, 11, 8, 5, 2, 1, 1, 4, 10, 15, 17],
+        "sunHours": [4, 5, 6, 8, 10, 11, 12, 11, 9, 6, 4, 3],
+        "humidity": [76, 75, 74, 72, 69, 63, 60, 62, 68, 74, 77, 78],
+        "seaTemp": [16, 15, 15, 17, 20, 23, 25, 26, 25, 23, 20, 18]
+      },
+      "crowd": [12, 12, 20, 38, 58, 78, 92, 95, 72, 42, 20, 14],
+      "priceIndex": [44, 44, 54, 70, 82, 92, 100, 100, 84, 62, 48, 46],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 290
+      },
+      "r": {
+        "beaches": 96, "swimming": 94, "islands": 94, "sailing": 88, "kayaking": 85,
+        "snorkelling": 82, "scuba": 78, "scenery": 96, "wildlife": 82, "hiking": 82,
+        "mountains": 78, "forests": 78, "historicSites": 68, "localCulture": 82, "foodScene": 85,
+        "wine": 85, "romance": 90, "valueForMoney": 78, "familyYoungKids": 85, "seniors": 72,
+        "adrenaline": 68, "waterSports": 78
+      },
+      "photos": [
+        "Myrtos beach Kefalonia Greece",
+        "Navagio shipwreck beach Zakynthos",
+        "Melissani cave lake Kefalonia",
+        "Assos village Kefalonia",
+        "Loggerhead turtle Zakynthos",
+        "Kefalonia coastal road cliffs"
+      ]
+    },
+    {
+      "id": "meteora-gr",
+      "name": "Meteora",
+      "country": "GR",
+      "region": "Thessaly",
+      "continent": "Europe",
+      "lat": 39.715,
+      "lon": 21.63,
+      "type": "mountains",
+      "arch": "historic-city",
+      "blurb": "Six working monasteries balanced on sandstone pillars up to 400 metres high, reached for centuries only by rope ladder and net. Now there are steps, which helps.",
+      "tags": ["monasteries", "rock pillars", "climbing", "byzantine"],
+      "climate": {
+        "tempHigh": [9, 11, 15, 20, 26, 31, 34, 33, 28, 21, 15, 10],
+        "tempLow": [1, 2, 4, 8, 12, 16, 19, 19, 15, 11, 6, 2],
+        "rainDays": [10, 9, 10, 10, 9, 6, 4, 4, 6, 9, 11, 12],
+        "sunHours": [3, 4, 5, 7, 9, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [78, 74, 70, 66, 62, 55, 50, 52, 60, 70, 78, 80]
+      },
+      "crowd": [28, 28, 40, 58, 70, 78, 85, 88, 72, 55, 35, 30],
+      "priceIndex": [52, 52, 62, 76, 84, 90, 96, 98, 86, 70, 58, 54],
+      "cost": {
+        "budget": 38,
+        "mid": 88,
+        "luxury": 230
+      },
+      "r": {
+        "religiousSites": 100, "historicSites": 96, "architecture": 96, "scenery": 98,
+        "mountains": 88, "climbing": 96, "hiking": 92, "museums": 72, "localCulture": 85,
+        "stargazing": 85, "adrenaline": 82, "cycling": 68, "foodScene": 82, "wine": 78,
+        "romance": 88, "valueForMoney": 88, "seniors": 62, "familyYoungKids": 68, "skiing": 0
+      },
+      "photos": [
+        "Meteora monastery rock pillars Greece",
+        "Meteora sunset monasteries",
+        "Meteora climbing sandstone",
+        "Meteora monastery interior frescoes",
+        "Meteora mist rock towers",
+        "Kalambaka town Meteora"
+      ]
+    },
+    {
+      "id": "thessaloniki-gr",
+      "name": "Thessaloniki",
+      "country": "GR",
+      "region": "Macedonia",
+      "continent": "Europe",
+      "lat": 40.64,
+      "lon": 22.944,
+      "type": "city",
+      "arch": "coastal-city",
+      "blurb": "Greece's second city and its best for eating — Byzantine walls, Ottoman baths, a huge student population, and a waterfront promenade built for the evening stroll.",
+      "tags": ["byzantine", "bougatsa", "waterfront", "students"],
+      "climate": {
+        "tempHigh": [9, 11, 14, 19, 25, 30, 32, 32, 27, 21, 15, 10],
+        "tempLow": [2, 3, 5, 9, 14, 18, 21, 21, 17, 12, 8, 4],
+        "rainDays": [8, 7, 8, 8, 7, 5, 4, 3, 4, 7, 9, 10],
+        "sunHours": [3, 4, 5, 7, 9, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [76, 72, 68, 64, 60, 54, 51, 53, 60, 70, 77, 79],
+        "seaTemp": [12, 11, 12, 15, 19, 23, 25, 26, 24, 21, 17, 14]
+      },
+      "crowd": [48, 48, 55, 65, 72, 78, 82, 82, 74, 65, 55, 58],
+      "priceIndex": [62, 62, 68, 78, 86, 92, 96, 96, 88, 78, 68, 70],
+      "cost": {
+        "budget": 40,
+        "mid": 92,
+        "luxury": 240
+      },
+      "r": {
+        "foodScene": 96, "streetFood": 94, "markets": 92, "fineDining": 85, "bars": 94,
+        "clubbing": 90, "liveMusic": 88, "coffee": 94, "wine": 88, "historicSites": 92,
+        "religiousSites": 90, "architecture": 85, "museums": 88, "artScene": 82,
+        "localCulture": 90, "festivals": 82, "walkability": 88, "beaches": 55, "swimming": 55,
+        "publicTransport": 68, "lgbtqScene": 78, "valueForMoney": 92, "backpacker": 82,
+        "digitalNomad": 82
+      },
+      "photos": [
+        "Thessaloniki White Tower waterfront",
+        "Thessaloniki Ano Poli old town",
+        "Greek bougatsa pastry",
+        "Rotunda Thessaloniki",
+        "Thessaloniki market Modiano",
+        "Thessaloniki seafront promenade sunset"
+      ]
+    },
+    {
+      "id": "peloponnese-gr",
+      "name": "The Peloponnese",
+      "country": "GR",
+      "region": "Southern mainland",
+      "continent": "Europe",
+      "lat": 37.57,
+      "lon": 22.8,
+      "type": "region",
+      "arch": "historic-city",
+      "blurb": "Ancient Olympia, Mycenae, Epidaurus and Sparta on one peninsula, plus the Mani's stone tower villages and Nafplio, which is the prettiest town in Greece.",
+      "tags": ["olympia", "mycenae", "nafplio", "the mani"],
+      "climate": {
+        "tempHigh": [13, 14, 16, 20, 25, 30, 33, 33, 29, 23, 18, 15],
+        "tempLow": [5, 5, 7, 10, 14, 18, 21, 21, 18, 14, 10, 7],
+        "rainDays": [12, 10, 9, 7, 5, 3, 1, 1, 4, 8, 12, 14],
+        "sunHours": [4, 5, 6, 8, 10, 11, 12, 11, 9, 6, 4, 4],
+        "humidity": [74, 73, 71, 68, 64, 58, 54, 56, 62, 70, 74, 76],
+        "seaTemp": [15, 15, 15, 17, 20, 23, 25, 26, 25, 22, 19, 17]
+      },
+      "crowd": [25, 25, 35, 52, 65, 75, 85, 88, 72, 52, 32, 28],
+      "priceIndex": [50, 50, 60, 74, 84, 90, 96, 98, 86, 68, 56, 52],
+      "cost": {
+        "budget": 40,
+        "mid": 92,
+        "luxury": 250
+      },
+      "r": {
+        "historicSites": 98, "architecture": 90, "museums": 90, "religiousSites": 85,
+        "theatre": 88, "localCulture": 90, "scenery": 92, "mountains": 85, "hiking": 88,
+        "beaches": 85, "swimming": 85, "sailing": 78, "roadTrip": 94, "foodScene": 90,
+        "wine": 88, "fineDining": 78, "cycling": 78, "wildlife": 68, "romance": 88,
+        "valueForMoney": 88, "familyYoungKids": 78, "seniors": 78, "skiing": 0
+      },
+      "photos": [
+        "Nafplio Greece harbour Palamidi",
+        "Ancient Olympia ruins Greece",
+        "Epidaurus theatre Greece",
+        "Mani stone towers Greece",
+        "Mycenae lion gate",
+        "Voidokilia beach Peloponnese"
+      ]
+    },
+    {
+      "id": "hydra-gr",
+      "name": "Hydra & the Saronic Gulf",
+      "country": "GR",
+      "region": "The Argo-Saronic",
+      "continent": "Europe",
+      "lat": 37.35,
+      "lon": 23.466,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "An island where cars are banned outright — donkeys carry the luggage, sea captains' mansions climb the amphitheatre of the harbour, and Athens is ninety minutes away.",
+      "tags": ["no cars", "donkeys", "captains' houses", "artists"],
+      "climate": {
+        "tempHigh": [13, 14, 16, 19, 24, 28, 31, 31, 27, 23, 18, 15],
+        "tempLow": [8, 8, 9, 12, 16, 20, 23, 23, 20, 17, 13, 10],
+        "rainDays": [11, 9, 8, 6, 3, 2, 1, 1, 3, 7, 10, 12],
+        "sunHours": [4, 5, 6, 8, 10, 11, 12, 11, 9, 6, 4, 4],
+        "humidity": [74, 73, 71, 68, 64, 58, 55, 57, 63, 70, 74, 76],
+        "seaTemp": [15, 15, 15, 17, 20, 23, 25, 26, 25, 22, 19, 17]
+      },
+      "crowd": [22, 22, 32, 52, 65, 78, 90, 92, 70, 48, 30, 25],
+      "priceIndex": [52, 52, 62, 78, 86, 94, 100, 100, 86, 68, 58, 54],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 330
+      },
+      "r": {
+        "architecture": 94, "historicSites": 85, "localCulture": 90, "artScene": 90,
+        "walkability": 96, "scenery": 92, "islands": 92, "swimming": 88, "sailing": 92,
+        "kayaking": 78, "hiking": 82, "foodScene": 88, "fineDining": 85, "wine": 82, "bars": 80,
+        "romance": 96, "museums": 72, "beaches": 62, "valueForMoney": 62, "seniors": 72,
+        "familyYoungKids": 62, "petFriendly": 62
+      },
+      "photos": [
+        "Hydra harbour Greece boats",
+        "Hydra donkeys stone steps",
+        "Hydra island Greece mansions",
+        "Greek island swimming rocks",
+        "Hydra sunset harbour",
+        "Saronic gulf sailing Greece"
+      ]
+    },
+    {
+      "id": "skiathos-gr",
+      "name": "The Sporades",
+      "country": "GR",
+      "region": "Skiathos, Skopelos & Alonissos",
+      "continent": "Europe",
+      "lat": 39.165,
+      "lon": 23.49,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Pine forest running down to sand, the clearest water in the Aegean, and a marine park protecting the last few hundred Mediterranean monk seals.",
+      "tags": ["koukounaries", "mamma mia", "monk seals", "pine forest"],
+      "climate": {
+        "tempHigh": [11, 12, 14, 18, 23, 28, 30, 30, 26, 21, 17, 13],
+        "tempLow": [5, 5, 7, 10, 15, 19, 21, 22, 19, 15, 11, 8],
+        "rainDays": [12, 10, 9, 7, 5, 3, 2, 2, 4, 8, 12, 14],
+        "sunHours": [4, 4, 5, 7, 9, 11, 12, 11, 9, 6, 4, 3],
+        "humidity": [76, 75, 73, 70, 66, 60, 57, 59, 65, 72, 77, 78],
+        "seaTemp": [15, 14, 14, 16, 19, 23, 25, 26, 24, 22, 19, 17]
+      },
+      "crowd": [8, 8, 14, 30, 52, 75, 92, 95, 65, 32, 14, 9],
+      "priceIndex": [40, 40, 48, 66, 80, 92, 100, 100, 80, 58, 46, 42],
+      "cost": {
+        "budget": 42,
+        "mid": 100,
+        "luxury": 275
+      },
+      "r": {
+        "beaches": 96, "swimming": 96, "islands": 94, "sailing": 88, "snorkelling": 85,
+        "kayaking": 85, "scuba": 78, "forests": 88, "scenery": 92, "wildlife": 85, "hiking": 82,
+        "religiousSites": 78, "localCulture": 82, "foodScene": 85, "wine": 78, "bars": 78,
+        "romance": 88, "valueForMoney": 80, "familyYoungKids": 85, "waterSports": 78,
+        "seniors": 70
+      },
+      "photos": [
+        "Koukounaries beach Skiathos",
+        "Skopelos church Mamma Mia Greece",
+        "Sporades pine forest beach",
+        "Alonissos marine park Greece",
+        "Skiathos harbour boats",
+        "Greek island turquoise cove pine"
+      ]
+    },
+    {
+      "id": "symi-gr",
+      "name": "Symi & the Dodecanese",
+      "country": "GR",
+      "region": "The eastern Aegean",
+      "continent": "Europe",
+      "lat": 36.61,
+      "lon": 27.84,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "A harbour of neoclassical mansions in ochre and terracotta stacked up both sides of a bay — built by sponge divers, abandoned, and now one of the prettiest arrivals in Greece.",
+      "tags": ["sponge divers", "neoclassical", "gialos", "panormitis"],
+      "climate": {
+        "tempHigh": [15, 15, 17, 20, 25, 29, 31, 32, 29, 25, 20, 17],
+        "tempLow": [10, 10, 11, 14, 18, 22, 24, 25, 22, 19, 15, 12],
+        "rainDays": [11, 9, 6, 4, 2, 1, 0, 0, 1, 5, 8, 12],
+        "sunHours": [4, 5, 7, 9, 11, 13, 13, 12, 10, 7, 5, 4],
+        "humidity": [72, 71, 69, 66, 62, 57, 55, 57, 61, 67, 71, 73],
+        "seaTemp": [17, 16, 16, 18, 21, 24, 26, 27, 26, 24, 21, 19]
+      },
+      "crowd": [10, 10, 16, 32, 52, 72, 88, 92, 68, 40, 18, 12],
+      "priceIndex": [42, 42, 50, 66, 78, 90, 100, 100, 82, 62, 48, 44],
+      "cost": {
+        "budget": 42,
+        "mid": 98,
+        "luxury": 270
+      },
+      "r": {
+        "architecture": 96, "scenery": 94, "islands": 94, "swimming": 92, "sailing": 88,
+        "snorkelling": 82, "kayaking": 80, "beaches": 80, "hiking": 85, "religiousSites": 88,
+        "historicSites": 78, "localCulture": 88, "foodScene": 88, "fineDining": 78, "wine": 75,
+        "romance": 94, "walkability": 78, "valueForMoney": 82, "seniors": 62,
+        "familyYoungKids": 62, "artScene": 72
+      },
+      "photos": [
+        "Symi harbour neoclassical houses Greece",
+        "Symi island Gialos bay",
+        "Panormitis monastery Symi",
+        "Symi colourful facades harbour",
+        "Dodecanese island swimming cove",
+        "Symi hillside houses sunset"
+      ]
+    },
+    {
+      "id": "naxos-inland-gr",
+      "name": "Ikaria & Samos",
+      "country": "GR",
+      "region": "The eastern Aegean",
+      "continent": "Europe",
+      "lat": 37.6,
+      "lon": 26.15,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Ikaria is one of the world's Blue Zones, where people forget to die and nobody keeps to a timetable. Samos next door grows the sweet muscat wine and has Pythagoras' birthplace.",
+      "tags": ["blue zone", "longevity", "muscat wine", "panigiria"],
+      "climate": {
+        "tempHigh": [14, 14, 16, 20, 24, 29, 31, 31, 28, 23, 19, 16],
+        "tempLow": [9, 9, 10, 13, 17, 21, 23, 24, 21, 18, 14, 11],
+        "rainDays": [12, 10, 7, 5, 3, 1, 0, 0, 2, 6, 10, 13],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [74, 73, 71, 68, 64, 58, 55, 57, 62, 69, 74, 76],
+        "seaTemp": [16, 15, 15, 17, 21, 24, 26, 26, 25, 23, 20, 18]
+      },
+      "crowd": [10, 10, 14, 26, 42, 62, 82, 88, 58, 32, 16, 11],
+      "priceIndex": [40, 40, 46, 60, 72, 85, 96, 100, 76, 56, 44, 42],
+      "cost": {
+        "budget": 38,
+        "mid": 88,
+        "luxury": 235
+      },
+      "r": {
+        "beaches": 88, "swimming": 90, "islands": 90, "hiking": 92, "scenery": 90,
+        "mountains": 82, "forests": 82, "wellness": 92, "localCulture": 96, "festivals": 92,
+        "liveMusic": 88, "foodScene": 90, "wine": 90, "historicSites": 78, "religiousSites": 78,
+        "sailing": 72, "kayaking": 72, "seniors": 82, "valueForMoney": 92, "romance": 82,
+        "backpacker": 78, "vegetarian": 88, "skiing": 0
+      },
+      "photos": [
+        "Ikaria Greece coastline village",
+        "Samos vineyards Greece",
+        "Greek village festival panigiri",
+        "Ikaria mountain village stone",
+        "Samos beach Greece turquoise",
+        "Greek elderly villagers taverna"
+      ]
+    }
+  ]
+}

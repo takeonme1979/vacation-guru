@@ -1,0 +1,693 @@
+{
+  "_doc": "Europe's odd corners — islands, microstates and crown dependencies. Nowhere here is difficult to visit; they are simply the places people forget exist.",
+  "destinations": [
+    {
+      "id": "gotland-se",
+      "name": "Gotland & Visby",
+      "country": "SE",
+      "region": "The Baltic",
+      "continent": "Europe",
+      "lat": 57.638,
+      "lon": 18.296,
+      "type": "island",
+      "arch": "historic-city",
+      "blurb": "A Hanseatic walled town of merchant warehouses and ruined churches on a limestone island, with sea stacks along the shore and more sunshine than anywhere else in Sweden.",
+      "tags": ["visby walls", "medieval week", "raukar sea stacks", "truffle"],
+      "climate": {
+        "tempHigh": [1, 1, 3, 8, 14, 18, 21, 20, 16, 11, 6, 3],
+        "tempLow": [-3, -4, -2, 2, 6, 10, 14, 14, 11, 7, 3, -1],
+        "rainDays": [13, 10, 9, 8, 7, 8, 9, 11, 12, 14, 15, 15],
+        "sunHours": [1, 2, 4, 7, 9, 10, 10, 8, 6, 3, 1, 1],
+        "humidity": [88, 86, 82, 77, 73, 74, 76, 79, 82, 86, 89, 89],
+        "seaTemp": [3, 2, 2, 4, 9, 14, 18, 18, 15, 11, 8, 5]
+      },
+      "crowd": [10, 10, 15, 26, 45, 78, 98, 88, 48, 26, 14, 12],
+      "priceIndex": [44, 44, 50, 64, 80, 94, 100, 96, 72, 56, 48, 46],
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 370
+      },
+      "r": {
+        "historicSites": 96, "architecture": 94, "religiousSites": 88, "museums": 85,
+        "walkability": 94, "cycling": 96, "beaches": 85, "swimming": 62, "scenery": 90,
+        "localCulture": 90, "festivals": 92, "artScene": 88, "foodScene": 92, "fineDining": 90,
+        "markets": 82, "wildlife": 78, "hiking": 82, "kayaking": 78, "romance": 90,
+        "valueForMoney": 52, "familyYoungKids": 85, "safety": 96, "seniors": 82
+      },
+      "photos": [
+        "Visby city walls Gotland Sweden",
+        "Visby medieval ruins church",
+        "Gotland raukar sea stacks",
+        "Gotland cycling coastal road",
+        "Visby rose covered cottage",
+        "Faro island Gotland beach"
+      ]
+    },
+    {
+      "id": "jersey-je",
+      "name": "Jersey",
+      "country": "JE",
+      "region": "The Channel Islands",
+      "continent": "Europe",
+      "lat": 49.214,
+      "lon": -2.131,
+      "type": "island",
+      "arch": "beach-resort",
+      "blurb": "Nine miles by five, closer to France than England and belonging to neither — a tidal range of twelve metres that doubles the island twice a day, and German tunnels underneath it.",
+      "tags": ["huge tides", "occupation tunnels", "jersey royals", "crown dependency"],
+      "climate": {
+        "tempHigh": [9, 9, 11, 13, 17, 19, 21, 22, 20, 16, 12, 10],
+        "tempLow": [5, 4, 5, 7, 10, 13, 15, 15, 14, 11, 8, 6],
+        "rainDays": [14, 11, 11, 9, 9, 8, 8, 8, 9, 13, 14, 15],
+        "sunHours": [2, 3, 5, 7, 8, 8, 8, 8, 6, 4, 3, 2],
+        "humidity": [85, 84, 82, 80, 80, 80, 80, 81, 82, 84, 85, 86],
+        "seaTemp": [10, 9, 9, 11, 13, 16, 18, 19, 18, 16, 13, 11]
+      },
+      "crowd": [22, 22, 32, 50, 65, 82, 92, 94, 70, 45, 28, 26],
+      "priceIndex": [58, 58, 66, 80, 88, 96, 100, 100, 86, 68, 60, 60],
+      "cost": {
+        "budget": 70,
+        "mid": 162,
+        "luxury": 420
+      },
+      "r": {
+        "beaches": 92, "swimming": 68, "surfing": 82, "kayaking": 88, "sailing": 85,
+        "cycling": 92, "hiking": 88, "wildlife": 82, "scenery": 90, "historicSites": 90,
+        "museums": 88, "architecture": 78, "islands": 88, "foodScene": 92, "fineDining": 92,
+        "markets": 82, "localCulture": 85, "englishSpoken": 100, "safety": 96,
+        "familyYoungKids": 90, "valueForMoney": 42, "seniors": 85, "romance": 82
+      },
+      "photos": [
+        "Jersey beach low tide Channel Islands",
+        "Corbiere lighthouse Jersey",
+        "Mont Orgueil castle Jersey",
+        "Jersey coastal path cliffs",
+        "Jersey Royal potatoes field",
+        "St Helier harbour Jersey"
+      ]
+    },
+    {
+      "id": "guernsey-je",
+      "name": "Guernsey, Sark & Herm",
+      "country": "JE",
+      "region": "The Channel Islands",
+      "continent": "Europe",
+      "lat": 49.456,
+      "lon": -2.588,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Quieter than Jersey, with Victor Hugo's exiled house in St Peter Port and Sark next door — no cars at all, and the first Dark Sky island in the world.",
+      "tags": ["sark dark sky", "no cars", "victor hugo", "shell beach"],
+      "climate": {
+        "tempHigh": [9, 8, 10, 12, 16, 18, 20, 21, 19, 16, 12, 10],
+        "tempLow": [5, 5, 6, 7, 10, 13, 15, 16, 14, 12, 8, 6],
+        "rainDays": [15, 12, 11, 9, 9, 8, 8, 8, 10, 13, 15, 16],
+        "sunHours": [2, 3, 5, 7, 8, 8, 8, 8, 6, 4, 2, 2],
+        "humidity": [86, 85, 83, 81, 81, 81, 81, 82, 83, 85, 86, 87],
+        "seaTemp": [10, 9, 9, 10, 13, 15, 17, 18, 18, 16, 13, 11]
+      },
+      "crowd": [15, 15, 24, 42, 58, 78, 88, 90, 62, 38, 20, 18],
+      "priceIndex": [52, 52, 60, 76, 84, 94, 100, 100, 82, 62, 54, 54],
+      "cost": {
+        "budget": 65,
+        "mid": 152,
+        "luxury": 390
+      },
+      "r": {
+        "beaches": 90, "islands": 92, "kayaking": 88, "sailing": 85, "cycling": 92, "hiking": 92,
+        "swimming": 62, "wildlife": 85, "scenery": 92, "stargazing": 96, "historicSites": 88,
+        "museums": 82, "foodScene": 88, "fineDining": 85, "localCulture": 88, "architecture": 78,
+        "englishSpoken": 100, "safety": 96, "romance": 90, "valueForMoney": 45, "seniors": 88,
+        "familyYoungKids": 85
+      },
+      "photos": [
+        "Sark island cliffs Channel Islands",
+        "St Peter Port Guernsey harbour",
+        "Herm island Shell Beach",
+        "Guernsey coastal cliff path",
+        "Sark night sky stars",
+        "Victor Hugo house Guernsey"
+      ]
+    },
+    {
+      "id": "isle-of-man-im",
+      "name": "The Isle of Man",
+      "country": "IM",
+      "region": "The Irish Sea",
+      "continent": "Europe",
+      "lat": 54.236,
+      "lon": -4.548,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "A self-governing island with the oldest continuous parliament on earth, a steam railway, tail-less cats, and for two weeks each year the most dangerous motorcycle race there is.",
+      "tags": ["tt races", "tynwald", "manx cats", "steam railway"],
+      "climate": {
+        "tempHigh": [7, 7, 8, 11, 14, 16, 18, 18, 16, 13, 10, 8],
+        "tempLow": [3, 2, 3, 5, 8, 11, 13, 13, 11, 9, 6, 4],
+        "rainDays": [17, 14, 14, 12, 11, 11, 12, 13, 14, 16, 17, 18],
+        "sunHours": [1, 2, 4, 6, 7, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [86, 85, 83, 80, 79, 80, 81, 82, 83, 85, 86, 87],
+        "seaTemp": [8, 7, 7, 9, 11, 13, 15, 16, 15, 13, 11, 9]
+      },
+      "crowd": [18, 18, 24, 38, 55, 92, 68, 62, 48, 32, 22, 20],
+      "priceIndex": [50, 50, 56, 68, 80, 100, 88, 84, 74, 60, 52, 52],
+      "cost": {
+        "budget": 55,
+        "mid": 128,
+        "luxury": 320
+      },
+      "r": {
+        "scenery": 92, "hiking": 92, "cycling": 88, "beaches": 78, "wildlife": 85,
+        "historicSites": 90, "museums": 82, "localCulture": 92, "sports": 92, "festivals": 85,
+        "stargazing": 90, "nationalParks": 78, "mountains": 72, "kayaking": 78, "fishing": 82,
+        "swimming": 42, "foodScene": 78, "beer": 82, "englishSpoken": 100, "safety": 95,
+        "valueForMoney": 62, "familyYoungKids": 82, "seniors": 80
+      },
+      "photos": [
+        "Isle of Man TT motorcycle race",
+        "Isle of Man coastal cliffs",
+        "Laxey Wheel Isle of Man",
+        "Manx steam railway",
+        "Peel castle Isle of Man",
+        "Isle of Man dark sky stars"
+      ]
+    },
+    {
+      "id": "aland-fi",
+      "name": "The Åland Islands",
+      "country": "FI",
+      "region": "Between Sweden and Finland",
+      "continent": "Europe",
+      "lat": 60.178,
+      "lon": 19.945,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "Six thousand islands that belong to Finland, speak Swedish, fly their own flag and have been demilitarised since 1856. Bicycles and inter-island ferries are the transport.",
+      "tags": ["demilitarised", "swedish-speaking", "island hopping", "red cottages"],
+      "climate": {
+        "tempHigh": [-1, -2, 2, 7, 14, 18, 21, 20, 15, 9, 4, 1],
+        "tempLow": [-6, -7, -4, 0, 5, 10, 13, 13, 9, 4, 0, -4],
+        "rainDays": [12, 10, 8, 8, 8, 9, 10, 11, 12, 14, 15, 14],
+        "sunHours": [1, 2, 4, 7, 9, 10, 10, 8, 5, 3, 1, 0],
+        "humidity": [88, 86, 81, 74, 70, 72, 75, 79, 82, 86, 89, 90],
+        "seaTemp": [1, 0, 1, 3, 8, 14, 18, 18, 14, 9, 5, 2]
+      },
+      "crowd": [10, 10, 14, 25, 42, 75, 94, 82, 42, 24, 14, 12],
+      "priceIndex": [44, 44, 50, 62, 76, 94, 100, 94, 68, 54, 46, 46],
+      "cost": {
+        "budget": 58,
+        "mid": 138,
+        "luxury": 350
+      },
+      "r": {
+        "islands": 98, "sailing": 96, "kayaking": 94, "cycling": 98, "fishing": 90,
+        "swimming": 62, "beaches": 72, "scenery": 90, "wildlife": 82, "forests": 82,
+        "hiking": 82, "historicSites": 82, "localCulture": 90, "foodScene": 85, "wellness": 88,
+        "stargazing": 88, "valueForMoney": 55, "safety": 98, "familyYoungKids": 85,
+        "romance": 85, "seniors": 78, "ecoFriendly": 88
+      },
+      "photos": [
+        "Aland islands Finland archipelago",
+        "Aland red wooden cottage sea",
+        "Aland cycling ferry islands",
+        "Kastelholm castle Aland",
+        "Baltic archipelago rocks sunset",
+        "Aland harbour sailing boats"
+      ]
+    },
+    {
+      "id": "saaremaa-ee",
+      "name": "Saaremaa & Hiiumaa",
+      "country": "EE",
+      "region": "The Estonian islands",
+      "continent": "Europe",
+      "lat": 58.25,
+      "lon": 22.5,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "Estonia's islands kept their own dialect and windmills through fifty years as a closed Soviet border zone, which is precisely why they still feel untouched.",
+      "tags": ["windmills", "kuressaare castle", "meteorite crater", "juniper"],
+      "climate": {
+        "tempHigh": [-1, -2, 2, 8, 14, 18, 21, 20, 16, 10, 4, 1],
+        "tempLow": [-6, -7, -4, 0, 5, 10, 13, 13, 9, 4, 0, -4],
+        "rainDays": [13, 11, 9, 8, 8, 9, 11, 12, 13, 14, 16, 15],
+        "sunHours": [1, 2, 4, 7, 9, 10, 9, 8, 5, 3, 1, 0],
+        "humidity": [89, 87, 82, 75, 71, 73, 76, 79, 83, 87, 90, 90],
+        "seaTemp": [1, 0, 1, 3, 8, 14, 18, 18, 14, 9, 5, 2]
+      },
+      "crowd": [12, 12, 16, 28, 45, 72, 92, 85, 45, 26, 15, 14],
+      "priceIndex": [46, 46, 52, 64, 76, 90, 100, 96, 70, 56, 48, 48],
+      "cost": {
+        "budget": 40,
+        "mid": 92,
+        "luxury": 235
+      },
+      "r": {
+        "islands": 92, "beaches": 80, "cycling": 92, "hiking": 85, "forests": 90, "wildlife": 85,
+        "scenery": 85, "kayaking": 80, "wellness": 92, "historicSites": 88, "architecture": 82,
+        "localCulture": 92, "foodScene": 82, "markets": 72, "stargazing": 88, "swimming": 55,
+        "sailing": 78, "nationalParks": 82, "valueForMoney": 88, "safety": 92,
+        "familyYoungKids": 82, "seniors": 78
+      },
+      "photos": [
+        "Angla windmills Saaremaa Estonia",
+        "Kuressaare castle Estonia",
+        "Kaali meteorite crater Estonia",
+        "Estonian island juniper coast",
+        "Hiiumaa lighthouse Estonia",
+        "Saaremaa spa Estonia"
+      ]
+    },
+    {
+      "id": "curonian-spit-lt",
+      "name": "The Curonian Spit",
+      "country": "LT",
+      "region": "The Baltic coast",
+      "continent": "Europe",
+      "lat": 55.44,
+      "lon": 21.1,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "A ninety-eight-kilometre sand bar barely a few hundred metres wide, with dunes that swallowed fourteen villages, a lagoon on one side and the open Baltic on the other.",
+      "tags": ["dead dunes", "nida", "amber", "thomas mann"],
+      "climate": {
+        "tempHigh": [0, 1, 4, 10, 16, 19, 22, 21, 17, 11, 5, 1],
+        "tempLow": [-5, -5, -2, 2, 7, 11, 14, 14, 10, 6, 1, -3],
+        "rainDays": [13, 11, 9, 8, 8, 9, 10, 11, 12, 14, 15, 15],
+        "sunHours": [1, 2, 4, 6, 8, 9, 9, 8, 5, 3, 1, 1],
+        "humidity": [88, 86, 82, 76, 73, 75, 77, 79, 83, 86, 89, 90],
+        "seaTemp": [3, 2, 2, 5, 10, 15, 19, 19, 16, 12, 8, 5]
+      },
+      "crowd": [12, 12, 18, 30, 48, 75, 96, 90, 48, 28, 16, 14],
+      "priceIndex": [44, 44, 52, 66, 78, 92, 100, 98, 70, 56, 48, 46],
+      "cost": {
+        "budget": 38,
+        "mid": 88,
+        "luxury": 225
+      },
+      "r": {
+        "beaches": 92, "scenery": 94, "desert": 68, "cycling": 96, "hiking": 88, "forests": 90,
+        "wildlife": 88, "kayaking": 78, "swimming": 62, "sailing": 72, "nationalParks": 92,
+        "wellness": 85, "historicSites": 78, "architecture": 82, "localCulture": 85,
+        "stargazing": 85, "foodScene": 78, "valueForMoney": 88, "familyYoungKids": 85,
+        "romance": 85, "seniors": 78
+      },
+      "photos": [
+        "Curonian Spit dunes Lithuania",
+        "Nida colourful wooden houses",
+        "Parnidis dune sundial Lithuania",
+        "Curonian lagoon fishing boat",
+        "Baltic beach pine forest",
+        "Amber Baltic Lithuania"
+      ]
+    },
+    {
+      "id": "trieste-it",
+      "name": "Trieste",
+      "country": "IT",
+      "region": "Friuli-Venezia Giulia",
+      "continent": "Europe",
+      "lat": 45.649,
+      "lon": 13.777,
+      "type": "coast",
+      "arch": "coastal-city",
+      "blurb": "Italy's least Italian city — a Habsburg seaport of grand cafés where Joyce wrote Ulysses, wedged between the Adriatic and a limestone plateau full of caves.",
+      "tags": ["habsburg", "grand cafés", "the bora", "miramare"],
+      "climate": {
+        "tempHigh": [8, 9, 12, 17, 22, 26, 28, 28, 23, 18, 13, 9],
+        "tempLow": [3, 4, 6, 10, 15, 18, 21, 21, 17, 13, 8, 4],
+        "rainDays": [7, 7, 8, 9, 9, 9, 7, 7, 7, 9, 10, 9],
+        "sunHours": [3, 4, 5, 6, 8, 9, 10, 9, 7, 5, 3, 3],
+        "humidity": [72, 70, 68, 68, 68, 68, 66, 68, 71, 74, 76, 74],
+        "seaTemp": [11, 10, 11, 14, 19, 23, 25, 25, 23, 19, 16, 13]
+      },
+      "crowd": [35, 35, 42, 52, 62, 72, 80, 80, 68, 55, 42, 45],
+      "priceIndex": [58, 58, 64, 74, 84, 90, 96, 96, 86, 74, 62, 66],
+      "cost": {
+        "budget": 50,
+        "mid": 118,
+        "luxury": 300
+      },
+      "r": {
+        "architecture": 94, "historicSites": 88, "museums": 88, "artScene": 85, "coffee": 100,
+        "foodScene": 92, "fineDining": 88, "wine": 92, "bars": 85, "markets": 82,
+        "localCulture": 94, "walkability": 92, "swimming": 82, "sailing": 88, "scuba": 68,
+        "kayaking": 72, "hiking": 82, "climbing": 78, "scenery": 85, "valueForMoney": 82,
+        "seniors": 85, "romance": 85, "publicTransport": 78
+      },
+      "photos": [
+        "Trieste Piazza Unita d'Italia",
+        "Miramare castle Trieste",
+        "Trieste historic cafe interior",
+        "Trieste seafront Adriatic",
+        "Grotta Gigante cave Trieste",
+        "Trieste canal grande"
+      ]
+    },
+    {
+      "id": "svalbard-no",
+      "name": "Svalbard",
+      "country": "NO",
+      "region": "The high Arctic",
+      "continent": "Europe",
+      "lat": 78.223,
+      "lon": 15.626,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "The northernmost town anyone lives in year-round, at 78°N — more polar bears than people, four months of unbroken darkness, and a law against dying there.",
+      "tags": ["polar bears", "polar night", "midnight sun", "seed vault"],
+      "climate": {
+        "tempHigh": [-12, -13, -12, -8, -1, 4, 7, 6, 2, -3, -8, -10],
+        "tempLow": [-19, -20, -20, -15, -6, 0, 3, 3, -1, -7, -13, -16],
+        "rainDays": [9, 9, 9, 7, 6, 6, 7, 9, 11, 11, 10, 10],
+        "sunHours": [0, 0, 4, 10, 12, 12, 11, 8, 3, 0, 0, 0],
+        "humidity": [74, 74, 75, 77, 82, 86, 87, 86, 84, 80, 77, 75],
+        "seaTemp": [-1, -1, -1, -1, 0, 2, 4, 5, 4, 2, 1, 0],
+        "snowDepth": [70, 85, 95, 90, 55, 8, 0, 0, 5, 30, 50, 62]
+      },
+      "crowd": [22, 28, 45, 55, 45, 68, 82, 78, 48, 32, 22, 25],
+      "priceIndex": [58, 64, 78, 84, 76, 92, 100, 96, 76, 62, 56, 60],
+      "cost": {
+        "budget": 95,
+        "mid": 215,
+        "luxury": 540
+      },
+      "r": {
+        "wildlife": 96, "scenery": 98, "northernLights": 98, "stargazing": 92, "adrenaline": 92,
+        "hiking": 82, "kayaking": 85, "sailing": 82, "skiing": 82, "nationalParks": 90,
+        "historicSites": 78, "museums": 78, "localCulture": 82, "climbing": 72,
+        "ecoFriendly": 78, "romance": 82, "valueForMoney": 25, "familyYoungKids": 32,
+        "seniors": 42, "safety": 72
+      },
+      "photos": [
+        "Svalbard polar bear ice",
+        "Longyearbyen Svalbard colourful houses",
+        "Svalbard glacier arctic landscape",
+        "Northern lights Svalbard polar night",
+        "Svalbard dog sledding",
+        "Global Seed Vault Svalbard"
+      ]
+    },
+    {
+      "id": "luxembourg-lu",
+      "name": "Luxembourg",
+      "country": "LU",
+      "region": "The Grand Duchy",
+      "continent": "Europe",
+      "lat": 49.611,
+      "lon": 6.131,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A fortress city on two gorges, tunnelled through with 17km of casemates, with free public transport across the whole country and Moselle vineyards down the eastern border.",
+      "tags": ["casemates", "free transport", "moselle riesling", "gorge city"],
+      "climate": {
+        "tempHigh": [4, 5, 10, 14, 18, 21, 23, 23, 19, 14, 8, 4],
+        "tempLow": [-1, -1, 2, 4, 8, 11, 13, 13, 10, 7, 3, 0],
+        "rainDays": [13, 11, 11, 10, 12, 11, 11, 11, 10, 12, 13, 14],
+        "sunHours": [1, 2, 4, 5, 6, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [88, 84, 78, 73, 74, 74, 73, 75, 80, 85, 88, 89]
+      },
+      "crowd": [38, 38, 45, 55, 65, 72, 76, 74, 68, 58, 45, 62],
+      "priceIndex": [70, 70, 76, 84, 90, 94, 96, 94, 90, 80, 72, 84],
+      "cost": {
+        "budget": 65,
+        "mid": 152,
+        "luxury": 390
+      },
+      "r": {
+        "historicSites": 92, "architecture": 90, "museums": 88, "artScene": 82, "scenery": 88,
+        "walkability": 90, "publicTransport": 100, "cycling": 82, "hiking": 88, "forests": 88,
+        "lakesRivers": 78, "foodScene": 90, "fineDining": 92, "wine": 90, "beer": 82,
+        "markets": 78, "festivals": 78, "localCulture": 82, "safety": 96, "valueForMoney": 48,
+        "familyYoungKids": 82, "seniors": 85, "wifi": 98
+      },
+      "photos": [
+        "Luxembourg City gorge Grund",
+        "Luxembourg casemates fortress",
+        "Luxembourg old town bridge",
+        "Moselle vineyards Luxembourg",
+        "Vianden castle Luxembourg",
+        "Luxembourg Mullerthal hiking"
+      ]
+    },
+    {
+      "id": "liechtenstein-li",
+      "name": "Liechtenstein",
+      "country": "LI",
+      "region": "The Rhine valley",
+      "continent": "Europe",
+      "lat": 47.166,
+      "lon": 9.555,
+      "type": "mountains",
+      "arch": "mountain-town",
+      "blurb": "A principality of 40,000 people between Switzerland and Austria, ruled from a castle above the capital, with a 75km trail from end to end and a ski village at the top.",
+      "tags": ["princely castle", "malbun", "walk the country", "stamps"],
+      "climate": {
+        "tempHigh": [4, 6, 11, 15, 19, 23, 25, 24, 20, 15, 8, 4],
+        "tempLow": [-3, -2, 1, 5, 9, 13, 15, 14, 11, 7, 2, -2],
+        "rainDays": [9, 9, 10, 11, 13, 14, 13, 13, 10, 9, 10, 10],
+        "sunHours": [2, 3, 4, 5, 6, 7, 8, 7, 6, 4, 2, 2],
+        "humidity": [82, 78, 72, 70, 72, 73, 72, 74, 78, 82, 84, 84],
+        "snowDepth": [25, 28, 15, 3, 0, 0, 0, 0, 0, 1, 8, 20]
+      },
+      "crowd": [42, 42, 40, 45, 55, 68, 78, 78, 62, 48, 38, 45],
+      "priceIndex": [70, 70, 68, 74, 82, 90, 96, 96, 86, 74, 66, 72],
+      "cost": {
+        "budget": 80,
+        "mid": 182,
+        "luxury": 460
+      },
+      "r": {
+        "mountains": 92, "hiking": 94, "scenery": 90, "skiing": 78, "cycling": 88,
+        "climbing": 78, "forests": 82, "historicSites": 82, "architecture": 78, "museums": 82,
+        "localCulture": 82, "wine": 82, "foodScene": 82, "fineDining": 82, "walkability": 85,
+        "lakesRivers": 68, "stargazing": 82, "wildlife": 68, "safety": 98, "valueForMoney": 30,
+        "familyYoungKids": 80, "seniors": 78, "publicTransport": 82
+      },
+      "photos": [
+        "Vaduz castle Liechtenstein",
+        "Liechtenstein Alps hiking trail",
+        "Malbun ski village Liechtenstein",
+        "Vaduz town centre Liechtenstein",
+        "Rhine valley Liechtenstein",
+        "Liechtenstein mountain panorama"
+      ]
+    },
+    {
+      "id": "san-marino-sm",
+      "name": "San Marino",
+      "country": "SM",
+      "region": "Inside Italy",
+      "continent": "Europe",
+      "lat": 43.936,
+      "lon": 12.447,
+      "type": "mountains",
+      "arch": "historic-city",
+      "blurb": "The world's oldest surviving republic, founded in 301 AD, sitting on a limestone crag with three towers along the ridge and a view to the Adriatic on a clear day.",
+      "tags": ["oldest republic", "three towers", "monte titano", "duty free"],
+      "climate": {
+        "tempHigh": [6, 7, 11, 15, 20, 24, 27, 27, 22, 17, 11, 7],
+        "tempLow": [0, 1, 3, 7, 11, 15, 18, 18, 14, 10, 5, 2],
+        "rainDays": [8, 8, 8, 9, 8, 7, 5, 6, 7, 9, 10, 9],
+        "sunHours": [3, 4, 5, 6, 8, 9, 10, 9, 7, 5, 3, 3],
+        "humidity": [80, 76, 72, 70, 68, 65, 62, 64, 70, 76, 81, 82]
+      },
+      "crowd": [32, 32, 45, 62, 72, 82, 88, 88, 72, 55, 38, 38],
+      "priceIndex": [56, 56, 68, 82, 90, 96, 100, 100, 88, 74, 62, 62],
+      "cost": {
+        "budget": 48,
+        "mid": 110,
+        "luxury": 280
+      },
+      "r": {
+        "historicSites": 94, "architecture": 92, "museums": 82, "scenery": 92, "walkability": 82,
+        "hiking": 82, "mountains": 78, "localCulture": 85, "shopping": 88, "foodScene": 88,
+        "wine": 88, "fineDining": 82, "romance": 82, "stargazing": 78, "festivals": 78,
+        "markets": 72, "safety": 95, "valueForMoney": 72, "familyYoungKids": 78, "seniors": 68,
+        "accessibility": 42, "cycling": 62
+      },
+      "photos": [
+        "San Marino three towers ridge",
+        "San Marino Guaita tower cliff",
+        "San Marino old town street",
+        "San Marino view Adriatic",
+        "Monte Titano San Marino",
+        "San Marino Palazzo Pubblico"
+      ]
+    },
+    {
+      "id": "gozo-mt",
+      "name": "Gozo & Comino",
+      "country": "MT",
+      "region": "The Maltese islands",
+      "continent": "Europe",
+      "lat": 36.044,
+      "lon": 14.251,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Malta's slower sister — a citadel on a hill, terraced fields, salt pans cut into the rock, and between the two islands a lagoon of implausible blue.",
+      "tags": ["blue lagoon", "citadella", "salt pans", "ġgantija temples"],
+      "climate": {
+        "tempHigh": [16, 16, 18, 20, 24, 28, 31, 32, 29, 25, 21, 17],
+        "tempLow": [10, 10, 11, 13, 16, 20, 23, 24, 22, 19, 15, 12],
+        "rainDays": [12, 9, 6, 4, 2, 1, 0, 1, 4, 8, 10, 13],
+        "sunHours": [5, 6, 7, 9, 10, 11, 12, 11, 9, 7, 6, 5],
+        "humidity": [78, 77, 75, 72, 70, 67, 65, 68, 72, 76, 78, 79],
+        "seaTemp": [16, 16, 16, 17, 20, 23, 26, 27, 26, 24, 21, 18]
+      },
+      "crowd": [20, 20, 30, 48, 65, 82, 94, 96, 75, 52, 30, 24],
+      "priceIndex": [46, 46, 56, 72, 84, 94, 100, 100, 86, 66, 52, 50],
+      "cost": {
+        "budget": 42,
+        "mid": 98,
+        "luxury": 250
+      },
+      "r": {
+        "beaches": 85, "swimming": 94, "islands": 92, "scuba": 96, "snorkelling": 92,
+        "kayaking": 85, "sailing": 82, "hiking": 88, "scenery": 90, "historicSites": 94,
+        "religiousSites": 90, "architecture": 88, "localCulture": 88, "foodScene": 85,
+        "wine": 78, "markets": 72, "englishSpoken": 95, "romance": 88, "stargazing": 82,
+        "valueForMoney": 82, "familyYoungKids": 82, "seniors": 75
+      },
+      "photos": [
+        "Blue Lagoon Comino Malta",
+        "Gozo Citadella Victoria",
+        "Gozo salt pans coast",
+        "Ggantija temples Gozo",
+        "Gozo Ramla Bay red sand",
+        "Gozo terraced fields church"
+      ]
+    },
+    {
+      "id": "texel-nl",
+      "name": "Texel & the Wadden Islands",
+      "country": "NL",
+      "region": "The Wadden Sea",
+      "continent": "Europe",
+      "lat": 53.083,
+      "lon": 4.83,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "A chain of sandy islands along a tidal sea so productive it is a World Heritage Site, where the local sport is walking out across the mud at low tide to the next island.",
+      "tags": ["mudflat walking", "seals", "dunes", "wadden sea"],
+      "climate": {
+        "tempHigh": [5, 5, 8, 11, 15, 18, 20, 21, 18, 14, 9, 6],
+        "tempLow": [1, 1, 2, 5, 9, 12, 14, 15, 13, 10, 6, 3],
+        "rainDays": [13, 11, 11, 9, 9, 10, 11, 11, 12, 14, 15, 15],
+        "sunHours": [2, 3, 4, 6, 8, 8, 8, 7, 5, 4, 2, 1],
+        "humidity": [88, 86, 83, 79, 78, 79, 80, 81, 83, 86, 89, 89],
+        "seaTemp": [5, 4, 5, 8, 12, 16, 18, 19, 18, 14, 10, 7]
+      },
+      "crowd": [18, 18, 26, 45, 60, 78, 94, 92, 58, 38, 22, 20],
+      "priceIndex": [48, 48, 58, 74, 84, 94, 100, 100, 76, 60, 52, 50],
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 340
+      },
+      "r": {
+        "beaches": 88, "islands": 90, "cycling": 100, "wildlife": 92, "hiking": 88,
+        "nationalParks": 90, "kayaking": 80, "swimming": 55, "sailing": 82, "scenery": 85,
+        "stargazing": 88, "wellness": 78, "foodScene": 82, "beer": 82, "localCulture": 80,
+        "historicSites": 72, "ecoFriendly": 92, "safety": 92, "valueForMoney": 58,
+        "familyYoungKids": 92, "seniors": 82, "petFriendly": 85
+      },
+      "photos": [
+        "Texel dunes beach Netherlands",
+        "Wadden Sea mudflat walking",
+        "Seals Wadden Sea Netherlands",
+        "Texel lighthouse red",
+        "Texel sheep dunes",
+        "Dutch island cycling path"
+      ]
+    },
+    {
+      "id": "westfjords-is",
+      "name": "The Westfjords",
+      "country": "IS",
+      "region": "Northwest Iceland",
+      "continent": "Europe",
+      "lat": 65.85,
+      "lon": -23.0,
+      "type": "coast",
+      "arch": "wilderness-park",
+      "blurb": "The part of Iceland the ring road misses — a shredded peninsula of table mountains and hot pools, Europe's largest bird cliff, and roads that close all winter.",
+      "tags": ["látrabjarg", "dynjandi", "hot pools", "arctic foxes"],
+      "climate": {
+        "tempHigh": [1, 1, 2, 5, 8, 11, 13, 13, 10, 6, 3, 1],
+        "tempLow": [-4, -4, -3, -1, 3, 6, 8, 8, 5, 2, -1, -3],
+        "rainDays": [17, 15, 16, 13, 11, 10, 11, 13, 15, 17, 17, 18],
+        "sunHours": [0, 2, 4, 6, 7, 8, 7, 6, 4, 2, 0, 0],
+        "humidity": [80, 79, 78, 77, 76, 78, 80, 81, 81, 81, 80, 80],
+        "seaTemp": [3, 2, 2, 3, 5, 8, 10, 11, 9, 7, 5, 4],
+        "snowDepth": [45, 50, 45, 25, 5, 0, 0, 0, 0, 8, 25, 40]
+      },
+      "crowd": [8, 8, 10, 20, 38, 68, 88, 82, 45, 20, 10, 8],
+      "priceIndex": [42, 42, 46, 58, 74, 92, 100, 96, 68, 50, 44, 44],
+      "cost": {
+        "budget": 78,
+        "mid": 178,
+        "luxury": 440
+      },
+      "r": {
+        "scenery": 98, "wildlife": 94, "hiking": 94, "wellness": 92, "nationalParks": 88,
+        "kayaking": 82, "northernLights": 92, "stargazing": 90, "mountains": 90, "beaches": 68,
+        "fishing": 85, "roadTrip": 96, "adrenaline": 78, "historicSites": 68, "museums": 68,
+        "localCulture": 82, "englishSpoken": 96, "safety": 96, "valueForMoney": 28,
+        "familyYoungKids": 62, "seniors": 52
+      },
+      "photos": [
+        "Dynjandi waterfall Westfjords Iceland",
+        "Latrabjarg puffin cliff Iceland",
+        "Westfjords Iceland road fjord",
+        "Iceland hot pool natural",
+        "Arctic fox Iceland",
+        "Rauðasandur red beach Iceland"
+      ]
+    },
+    {
+      "id": "helgoland-de",
+      "name": "Heligoland",
+      "country": "DE",
+      "region": "The German Bight",
+      "continent": "Europe",
+      "lat": 54.183,
+      "lon": 7.885,
+      "type": "island",
+      "arch": "wilderness-park",
+      "blurb": "A red sandstone rock 50km out in the North Sea — British until 1890, bombed almost out of existence, now duty-free, car-free, and covered in gannets each spring.",
+      "tags": ["lange anna", "gannets", "duty free", "car-free"],
+      "climate": {
+        "tempHigh": [4, 4, 5, 8, 12, 15, 18, 19, 17, 13, 9, 6],
+        "tempLow": [1, 1, 2, 4, 8, 11, 14, 15, 13, 10, 6, 3],
+        "rainDays": [14, 11, 11, 9, 8, 9, 10, 10, 11, 13, 15, 15],
+        "sunHours": [1, 2, 4, 6, 8, 8, 8, 7, 5, 3, 2, 1],
+        "humidity": [88, 87, 85, 83, 82, 83, 84, 85, 85, 86, 88, 88],
+        "seaTemp": [5, 4, 4, 7, 10, 14, 17, 18, 17, 14, 10, 7]
+      },
+      "crowd": [15, 15, 25, 45, 62, 78, 90, 88, 58, 35, 20, 18],
+      "priceIndex": [46, 46, 56, 74, 84, 92, 100, 98, 74, 58, 50, 48],
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 330
+      },
+      "r": {
+        "wildlife": 96, "islands": 88, "scenery": 88, "hiking": 78, "beaches": 72,
+        "swimming": 45, "historicSites": 85, "museums": 78, "shopping": 85, "localCulture": 85,
+        "foodScene": 78, "walkability": 92, "stargazing": 85, "wellness": 78, "kayaking": 55,
+        "fishing": 72, "safety": 92, "valueForMoney": 55, "familyYoungKids": 78, "seniors": 78,
+        "cycling": 22, "petFriendly": 32
+      },
+      "photos": [
+        "Lange Anna Heligoland rock",
+        "Heligoland red cliffs gannets",
+        "Heligoland colourful lobster huts",
+        "Gannet colony Heligoland",
+        "Heligoland island aerial North Sea",
+        "Heligoland dune beach seals"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,693 @@
+{
+  "_doc": "Central and Eastern Europe — the second cities of Poland and Czechia, the Adriatic beyond Dubrovnik, and the Balkans.",
+  "destinations": [
+    {
+      "id": "wroclaw-pl",
+      "name": "Wrocław",
+      "country": "PL",
+      "region": "Lower Silesia",
+      "continent": "Europe",
+      "lat": 51.11,
+      "lon": 17.032,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A city on twelve islands with more bridges than Venice, a market square rebuilt from rubble, and around three hundred small bronze dwarfs hidden at ankle height.",
+      "tags": ["the dwarfs", "market square", "islands", "silesia"],
+      "climate": {
+        "tempHigh": [2, 4, 9, 15, 20, 23, 25, 25, 19, 14, 7, 3],
+        "tempLow": [-3, -3, 0, 4, 9, 12, 14, 14, 10, 6, 2, -1],
+        "rainDays": [11, 9, 9, 9, 11, 11, 12, 11, 9, 9, 10, 12],
+        "sunHours": [1, 2, 4, 5, 7, 7, 7, 7, 5, 3, 2, 1],
+        "humidity": [86, 83, 76, 69, 68, 69, 70, 70, 76, 82, 87, 88]
+      },
+      "crowd": [42, 42, 48, 58, 68, 74, 78, 78, 70, 60, 48, 62],
+      "priceIndex": [62, 62, 68, 76, 84, 90, 94, 94, 86, 76, 66, 80],
+      "cost": {
+        "budget": 34,
+        "mid": 78,
+        "luxury": 195
+      },
+      "r": {
+        "architecture": 94, "historicSites": 88, "museums": 85, "artScene": 85,
+        "localCulture": 88, "markets": 82, "festivals": 85, "theatre": 82, "walkability": 92,
+        "cycling": 82, "lakesRivers": 78, "foodScene": 85, "streetFood": 78, "beer": 92,
+        "coffee": 88, "bars": 90, "clubbing": 82, "shopping": 78, "publicTransport": 82,
+        "wifi": 96, "romance": 82, "valueForMoney": 94, "backpacker": 82, "digitalNomad": 88,
+        "familyYoungKids": 82, "safety": 88
+      },
+      "photos": [
+        "Wroclaw market square colourful houses",
+        "Wroclaw dwarf bronze statue",
+        "Wroclaw Tumski bridge cathedral",
+        "Wroclaw Centennial Hall",
+        "Wroclaw Odra river islands",
+        "Wroclaw old town night lights"
+      ]
+    },
+    {
+      "id": "poznan-pl",
+      "name": "Poznań",
+      "country": "PL",
+      "region": "Greater Poland",
+      "continent": "Europe",
+      "lat": 52.407,
+      "lon": 16.925,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Where Poland began — a cathedral island holding the tombs of the first kings, a Renaissance town hall where two mechanical goats butt heads at noon, and croissants worth a detour.",
+      "tags": ["the goats", "ostrów tumski", "st martin croissants", "old brewery"],
+      "climate": {
+        "tempHigh": [2, 3, 8, 14, 19, 22, 24, 24, 19, 13, 7, 3],
+        "tempLow": [-3, -3, 0, 3, 8, 11, 13, 13, 9, 5, 1, -2],
+        "rainDays": [11, 9, 9, 8, 10, 10, 11, 10, 9, 9, 11, 12],
+        "sunHours": [1, 2, 4, 6, 7, 7, 7, 7, 5, 3, 2, 1],
+        "humidity": [87, 84, 77, 70, 68, 69, 70, 70, 76, 83, 88, 89]
+      },
+      "crowd": [38, 38, 44, 54, 62, 70, 74, 72, 66, 56, 44, 56],
+      "priceIndex": [60, 60, 64, 72, 80, 86, 90, 88, 82, 72, 64, 76],
+      "cost": {
+        "budget": 32,
+        "mid": 74,
+        "luxury": 185
+      },
+      "r": {
+        "historicSites": 90, "architecture": 90, "museums": 85, "religiousSites": 88,
+        "localCulture": 88, "markets": 82, "artScene": 78, "festivals": 82, "walkability": 90,
+        "cycling": 82, "lakesRivers": 72, "foodScene": 85, "streetFood": 78, "beer": 90,
+        "coffee": 85, "bars": 85, "clubbing": 78, "shopping": 78, "publicTransport": 80,
+        "wifi": 96, "valueForMoney": 95, "backpacker": 78, "digitalNomad": 85,
+        "familyYoungKids": 82, "safety": 88, "seniors": 78
+      },
+      "photos": [
+        "Poznan old market square town hall",
+        "Poznan goats clock tower",
+        "Ostrow Tumski Poznan cathedral",
+        "Poznan colourful merchant houses",
+        "St Martin croissant Poznan",
+        "Poznan Stary Browar"
+      ]
+    },
+    {
+      "id": "zakopane-pl",
+      "name": "Zakopane & the Polish Tatras",
+      "country": "PL",
+      "region": "Lesser Poland",
+      "continent": "Europe",
+      "lat": 49.299,
+      "lon": 19.949,
+      "type": "mountains",
+      "arch": "ski-resort",
+      "blurb": "Poland's winter capital, all carved timber and smoked sheep's cheese, with the Tatras rising straight behind it and a funicular up Gubałówka for the view back.",
+      "tags": ["góralski", "oscypek", "morskie oko", "wooden architecture"],
+      "climate": {
+        "tempHigh": [0, 1, 6, 11, 17, 19, 21, 21, 16, 11, 5, 1],
+        "tempLow": [-8, -7, -3, 1, 6, 9, 11, 11, 7, 3, -2, -6],
+        "rainDays": [12, 11, 12, 13, 14, 16, 15, 14, 11, 10, 12, 13],
+        "sunHours": [2, 3, 4, 5, 6, 6, 6, 6, 5, 4, 2, 2],
+        "humidity": [82, 80, 76, 73, 75, 78, 78, 78, 80, 81, 84, 85],
+        "snowDepth": [55, 60, 45, 18, 2, 0, 0, 0, 0, 3, 20, 45]
+      },
+      "crowd": [82, 82, 62, 45, 52, 68, 88, 92, 65, 48, 42, 78],
+      "priceIndex": [92, 92, 74, 62, 68, 82, 96, 100, 78, 64, 60, 88],
+      "cost": {
+        "budget": 34,
+        "mid": 78,
+        "luxury": 200
+      },
+      "r": {
+        "mountains": 94, "hiking": 96, "skiing": 88, "scenery": 94, "nationalParks": 90,
+        "climbing": 85, "lakesRivers": 88, "forests": 85, "cycling": 72, "adrenaline": 78,
+        "wellness": 85, "architecture": 85, "localCulture": 92, "foodScene": 82, "markets": 82,
+        "beer": 82, "stargazing": 78, "wildlife": 72, "valueForMoney": 90, "familyYoungKids": 85,
+        "backpacker": 78, "romance": 78
+      },
+      "photos": [
+        "Zakopane wooden architecture Poland",
+        "Morskie Oko lake Tatras",
+        "Tatra mountains Poland winter",
+        "Zakopane Krupowki street",
+        "Oscypek smoked cheese Poland",
+        "Polish Tatras hiking trail"
+      ]
+    },
+    {
+      "id": "masuria-pl",
+      "name": "The Masurian Lakes",
+      "country": "PL",
+      "region": "Warmia-Masuria",
+      "continent": "Europe",
+      "lat": 53.87,
+      "lon": 21.6,
+      "type": "lake",
+      "arch": "wilderness-park",
+      "blurb": "Two thousand lakes joined by canals in Poland's north-east, sailed rather than driven, with Teutonic castles on the shores and the Wolf's Lair rotting in the forest.",
+      "tags": ["sailing", "canals", "teutonic castles", "wolf's lair"],
+      "climate": {
+        "tempHigh": [0, 1, 6, 13, 19, 21, 23, 23, 18, 12, 5, 1],
+        "tempLow": [-6, -6, -3, 2, 7, 11, 13, 12, 8, 4, 0, -4],
+        "rainDays": [12, 10, 9, 8, 10, 11, 12, 11, 10, 11, 12, 13],
+        "sunHours": [1, 2, 4, 6, 8, 8, 8, 7, 5, 3, 1, 1],
+        "humidity": [88, 86, 79, 71, 69, 71, 73, 74, 79, 85, 89, 90]
+      },
+      "crowd": [15, 15, 20, 32, 48, 68, 88, 88, 52, 30, 18, 16],
+      "priceIndex": [45, 45, 52, 64, 76, 88, 100, 100, 76, 60, 50, 48],
+      "cost": {
+        "budget": 32,
+        "mid": 75,
+        "luxury": 190
+      },
+      "r": {
+        "lakesRivers": 98, "sailing": 96, "kayaking": 94, "swimming": 82, "scenery": 88,
+        "forests": 90, "wildlife": 85, "nationalParks": 78, "cycling": 85, "hiking": 78,
+        "fishing": 90, "historicSites": 82, "architecture": 72, "stargazing": 85, "wellness": 72,
+        "foodScene": 72, "beer": 78, "valueForMoney": 92, "familyYoungKids": 88, "romance": 78,
+        "seniors": 68
+      },
+      "photos": [
+        "Masurian lakes Poland sailing",
+        "Masuria lake sunset Poland",
+        "Polish lake district aerial",
+        "Teutonic castle Malbork Poland",
+        "Kayaking Krutynia river Poland",
+        "Masuria forest lake reeds"
+      ]
+    },
+    {
+      "id": "torun-pl",
+      "name": "Toruń & Białowieża",
+      "country": "PL",
+      "region": "Northern Poland",
+      "continent": "Europe",
+      "lat": 53.013,
+      "lon": 18.598,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A Gothic brick town the war somehow missed, where Copernicus was born and gingerbread has been baked to the same recipe since the 1300s — with Europe's last primeval forest east of it.",
+      "tags": ["copernicus", "gingerbread", "gothic brick", "bison"],
+      "climate": {
+        "tempHigh": [1, 3, 8, 14, 20, 22, 24, 24, 19, 13, 6, 2],
+        "tempLow": [-4, -4, -1, 3, 8, 11, 13, 13, 9, 5, 1, -2],
+        "rainDays": [11, 9, 8, 8, 10, 10, 11, 10, 9, 9, 11, 12],
+        "sunHours": [1, 2, 4, 6, 7, 8, 7, 7, 5, 3, 1, 1],
+        "humidity": [88, 85, 78, 70, 68, 70, 71, 72, 78, 84, 89, 90]
+      },
+      "crowd": [32, 32, 40, 52, 62, 70, 78, 78, 65, 52, 38, 48],
+      "priceIndex": [56, 56, 62, 72, 80, 86, 92, 92, 80, 70, 60, 70],
+      "cost": {
+        "budget": 30,
+        "mid": 70,
+        "luxury": 175
+      },
+      "r": {
+        "historicSites": 94, "architecture": 94, "museums": 85, "religiousSites": 85,
+        "localCulture": 88, "walkability": 92, "markets": 78, "artScene": 68, "forests": 92,
+        "wildlife": 94, "nationalParks": 88, "hiking": 78, "cycling": 82, "lakesRivers": 68,
+        "stargazing": 78, "foodScene": 80, "beer": 85, "coffee": 78, "shopping": 68,
+        "valueForMoney": 95, "familyYoungKids": 85, "safety": 88, "seniors": 78,
+        "backpacker": 72, "ecoFriendly": 82
+      },
+      "photos": [
+        "Torun Gothic old town Poland",
+        "Torun gingerbread Poland",
+        "Copernicus monument Torun",
+        "Bialowieza forest bison Poland",
+        "Torun riverside Vistula",
+        "Primeval forest Poland ancient oaks"
+      ]
+    },
+    {
+      "id": "brno-cz",
+      "name": "Brno & Moravia",
+      "country": "CZ",
+      "region": "South Moravia",
+      "continent": "Europe",
+      "lat": 49.195,
+      "lon": 16.608,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Czechia's second city, with a functionalist villa that changed architecture, a genuinely strange cathedral bell habit, and the country's wine region rolling away to the south.",
+      "tags": ["villa tugendhat", "moravian wine", "bar scene", "špilberk"],
+      "climate": {
+        "tempHigh": [2, 4, 9, 15, 20, 23, 26, 26, 20, 14, 7, 3],
+        "tempLow": [-4, -3, 0, 4, 9, 12, 14, 14, 10, 5, 1, -2],
+        "rainDays": [9, 8, 9, 9, 11, 11, 11, 10, 8, 8, 10, 11],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 8, 6, 4, 2, 1],
+        "humidity": [84, 80, 74, 67, 67, 68, 68, 69, 74, 80, 85, 86]
+      },
+      "crowd": [40, 40, 46, 55, 65, 72, 76, 74, 68, 58, 46, 55],
+      "priceIndex": [62, 62, 66, 74, 82, 88, 92, 90, 84, 74, 66, 74],
+      "cost": {
+        "budget": 36,
+        "mid": 82,
+        "luxury": 200
+      },
+      "r": {
+        "architecture": 92, "historicSites": 85, "museums": 82, "artScene": 88,
+        "localCulture": 88, "theatre": 82, "festivals": 82, "walkability": 90, "bars": 94,
+        "beer": 96, "coffee": 92, "wine": 90, "foodScene": 85, "clubbing": 82, "markets": 78,
+        "cycling": 78, "publicTransport": 85, "wifi": 96, "valueForMoney": 90,
+        "digitalNomad": 88, "backpacker": 82, "safety": 90, "familyYoungKids": 75
+      },
+      "photos": [
+        "Brno Villa Tugendhat",
+        "Brno Spilberk castle",
+        "Brno cathedral Petrov",
+        "Moravian vineyards Czech Republic",
+        "Brno cafe interior",
+        "Brno Freedom Square"
+      ]
+    },
+    {
+      "id": "karlovy-vary-cz",
+      "name": "Karlovy Vary & Bohemian Switzerland",
+      "country": "CZ",
+      "region": "Western & Northern Bohemia",
+      "continent": "Europe",
+      "lat": 50.232,
+      "lon": 12.872,
+      "type": "region",
+      "arch": "mountain-town",
+      "blurb": "A spa town of pastel colonnades where you sip hot mineral water from a special spouted cup, and to the north sandstone arches and gorges out of a Romantic painting.",
+      "tags": ["spa colonnades", "pravčická brána", "becherovka", "sandstone"],
+      "climate": {
+        "tempHigh": [1, 3, 8, 13, 18, 21, 23, 23, 18, 12, 6, 2],
+        "tempLow": [-5, -4, -1, 3, 7, 11, 12, 12, 9, 4, 0, -3],
+        "rainDays": [11, 9, 10, 10, 12, 12, 12, 11, 9, 9, 11, 12],
+        "sunHours": [1, 2, 4, 5, 6, 7, 7, 7, 5, 3, 1, 1],
+        "humidity": [86, 83, 77, 71, 71, 72, 72, 73, 78, 84, 87, 88],
+        "snowDepth": [18, 18, 8, 1, 0, 0, 0, 0, 0, 0, 4, 14]
+      },
+      "crowd": [40, 40, 45, 55, 68, 76, 85, 85, 70, 55, 42, 48],
+      "priceIndex": [64, 64, 68, 76, 86, 92, 98, 98, 86, 74, 66, 70],
+      "cost": {
+        "budget": 38,
+        "mid": 88,
+        "luxury": 235
+      },
+      "r": {
+        "wellness": 96, "architecture": 92, "historicSites": 82, "scenery": 92, "hiking": 92,
+        "forests": 92, "nationalParks": 88, "climbing": 85, "mountains": 78, "lakesRivers": 72,
+        "cycling": 82, "museums": 72, "romance": 85, "foodScene": 78, "beer": 92, "wine": 68,
+        "coffee": 82, "stargazing": 78, "valueForMoney": 82, "seniors": 88,
+        "familyYoungKids": 78, "adrenaline": 68, "skiing": 45
+      },
+      "photos": [
+        "Karlovy Vary colonnade Czech spa",
+        "Pravcicka Brana arch Czech",
+        "Bohemian Switzerland gorge boat",
+        "Karlovy Vary pastel buildings",
+        "Czech spa wafers",
+        "Elbe sandstone mountains hiking"
+      ]
+    },
+    {
+      "id": "zadar-hr",
+      "name": "Zadar",
+      "country": "HR",
+      "region": "North Dalmatia",
+      "continent": "Europe",
+      "lat": 44.119,
+      "lon": 15.231,
+      "type": "coast",
+      "arch": "coastal-city",
+      "blurb": "A Roman forum, a sea organ that plays the waves through pipes under the promenade, and what Hitchcock called the most beautiful sunset in the world. Also, no cruise ships.",
+      "tags": ["sea organ", "roman forum", "sunset", "kornati"],
+      "climate": {
+        "tempHigh": [10, 11, 14, 18, 23, 27, 30, 30, 25, 20, 15, 11],
+        "tempLow": [4, 4, 6, 10, 14, 18, 21, 21, 17, 13, 9, 6],
+        "rainDays": [9, 8, 8, 9, 8, 7, 4, 5, 7, 10, 12, 11],
+        "sunHours": [4, 5, 6, 7, 9, 10, 12, 11, 8, 6, 4, 3],
+        "humidity": [72, 70, 68, 68, 67, 63, 59, 61, 67, 71, 74, 74],
+        "seaTemp": [13, 12, 13, 15, 19, 23, 25, 25, 23, 20, 17, 15]
+      },
+      "crowd": [22, 22, 32, 48, 65, 82, 94, 96, 72, 48, 30, 25],
+      "priceIndex": [50, 50, 60, 74, 86, 94, 100, 100, 86, 68, 56, 52],
+      "cost": {
+        "budget": 42,
+        "mid": 98,
+        "luxury": 260
+      },
+      "r": {
+        "historicSites": 90, "architecture": 88, "religiousSites": 82, "museums": 78,
+        "beaches": 85, "swimming": 90, "sailing": 92, "islands": 90, "kayaking": 82,
+        "snorkelling": 72, "scenery": 88, "nationalParks": 85, "localCulture": 85,
+        "foodScene": 88, "wine": 85, "bars": 85, "walkability": 92, "artScene": 78,
+        "romance": 88, "waterSports": 78, "valueForMoney": 85, "familyYoungKids": 82,
+        "backpacker": 80
+      },
+      "photos": [
+        "Zadar sea organ waterfront",
+        "Zadar Roman forum church",
+        "Zadar sunset Adriatic",
+        "Kornati islands Croatia sailing",
+        "Zadar old town streets",
+        "Zadar Greeting to the Sun"
+      ]
+    },
+    {
+      "id": "plitvice-hr",
+      "name": "Plitvice & Krka",
+      "country": "HR",
+      "region": "Inland Croatia",
+      "continent": "Europe",
+      "lat": 44.881,
+      "lon": 15.616,
+      "type": "region",
+      "arch": "wilderness-park",
+      "blurb": "Sixteen terraced lakes falling into one another over travertine barriers that are still growing, connected by miles of boardwalk laid inches above turquoise water.",
+      "tags": ["terraced lakes", "boardwalks", "travertine", "waterfalls"],
+      "climate": {
+        "tempHigh": [3, 5, 10, 15, 20, 23, 26, 26, 21, 15, 9, 4],
+        "tempLow": [-4, -3, 0, 4, 9, 12, 14, 14, 10, 6, 2, -2],
+        "rainDays": [11, 10, 11, 12, 12, 12, 9, 9, 10, 11, 14, 13],
+        "sunHours": [2, 3, 4, 6, 7, 8, 9, 8, 6, 4, 2, 2],
+        "humidity": [84, 80, 76, 74, 74, 74, 71, 73, 78, 82, 86, 86],
+        "snowDepth": [22, 20, 8, 1, 0, 0, 0, 0, 0, 0, 4, 16]
+      },
+      "crowd": [22, 22, 35, 58, 78, 90, 98, 98, 80, 55, 30, 24],
+      "priceIndex": [48, 48, 60, 78, 90, 96, 100, 100, 90, 68, 54, 50],
+      "cost": {
+        "budget": 40,
+        "mid": 92,
+        "luxury": 240
+      },
+      "r": {
+        "lakesRivers": 98, "nationalParks": 98, "scenery": 98, "forests": 94, "hiking": 92,
+        "wildlife": 82, "swimming": 62, "kayaking": 55, "cycling": 68, "stargazing": 78,
+        "romance": 85, "adrenaline": 55, "foodScene": 72, "localCulture": 72,
+        "historicSites": 55, "valueForMoney": 78, "familyYoungKids": 88, "seniors": 72,
+        "accessibility": 55, "ecoFriendly": 82, "skiing": 0
+      },
+      "photos": [
+        "Plitvice lakes waterfalls Croatia",
+        "Plitvice boardwalk turquoise water",
+        "Krka waterfalls Croatia",
+        "Plitvice autumn colours lakes",
+        "Croatia national park forest river",
+        "Plitvice aerial terraced lakes"
+      ]
+    },
+    {
+      "id": "zagreb-hr",
+      "name": "Zagreb",
+      "country": "HR",
+      "region": "Central Croatia",
+      "continent": "Europe",
+      "lat": 45.815,
+      "lon": 15.982,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "An Austro-Hungarian capital that most people fly straight past — café culture on a par with Vienna at a third of the price, and the world's only Museum of Broken Relationships.",
+      "tags": ["café culture", "broken relationships", "advent", "upper town"],
+      "climate": {
+        "tempHigh": [4, 7, 12, 17, 22, 25, 28, 27, 22, 16, 9, 4],
+        "tempLow": [-2, -1, 3, 7, 12, 15, 17, 17, 13, 8, 4, -1],
+        "rainDays": [10, 9, 10, 11, 12, 11, 9, 9, 9, 11, 13, 12],
+        "sunHours": [2, 3, 4, 6, 7, 8, 9, 8, 6, 4, 2, 1],
+        "humidity": [82, 78, 72, 68, 68, 69, 67, 69, 74, 79, 84, 85]
+      },
+      "crowd": [45, 45, 50, 58, 65, 72, 74, 72, 68, 58, 48, 72],
+      "priceIndex": [64, 64, 68, 76, 82, 88, 90, 88, 84, 74, 66, 88],
+      "cost": {
+        "budget": 38,
+        "mid": 88,
+        "luxury": 220
+      },
+      "r": {
+        "coffee": 96, "bars": 90, "foodScene": 88, "markets": 92, "festivals": 90, "museums": 90,
+        "artScene": 88, "architecture": 88, "historicSites": 82, "theatre": 82,
+        "localCulture": 88, "walkability": 90, "shopping": 78, "beer": 82, "wine": 85,
+        "streetFood": 78, "publicTransport": 82, "cycling": 72, "clubbing": 78, "wifi": 94,
+        "valueForMoney": 88, "digitalNomad": 88, "familyYoungKids": 78, "safety": 90
+      },
+      "photos": [
+        "Zagreb upper town St Marks church",
+        "Zagreb Dolac market",
+        "Zagreb cafe terrace Tkalciceva",
+        "Zagreb cathedral spires",
+        "Zagreb advent Christmas market",
+        "Zagreb funicular old town"
+      ]
+    },
+    {
+      "id": "vis-hr",
+      "name": "Vis & Korčula",
+      "country": "HR",
+      "region": "Central Dalmatia",
+      "continent": "Europe",
+      "lat": 43.06,
+      "lon": 16.19,
+      "type": "island",
+      "arch": "tropical-island",
+      "blurb": "Vis was closed to foreigners as a military base until 1989 and is still the least spoiled Adriatic island. Korčula claims Marco Polo and makes very good white wine.",
+      "tags": ["blue cave", "marco polo", "grk wine", "stiniva"],
+      "climate": {
+        "tempHigh": [12, 12, 14, 18, 22, 26, 29, 29, 25, 21, 16, 13],
+        "tempLow": [7, 7, 9, 12, 16, 20, 23, 23, 19, 16, 12, 9],
+        "rainDays": [10, 9, 8, 8, 6, 4, 2, 3, 6, 9, 12, 12],
+        "sunHours": [4, 5, 6, 8, 10, 11, 12, 11, 9, 6, 4, 3],
+        "humidity": [72, 71, 70, 69, 68, 64, 60, 62, 67, 71, 74, 74],
+        "seaTemp": [14, 13, 14, 16, 20, 23, 25, 26, 24, 21, 18, 16]
+      },
+      "crowd": [8, 8, 15, 32, 55, 78, 94, 96, 70, 40, 18, 10],
+      "priceIndex": [42, 42, 52, 70, 84, 94, 100, 100, 86, 62, 48, 44],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 290
+      },
+      "r": {
+        "beaches": 92, "swimming": 96, "islands": 96, "sailing": 94, "snorkelling": 88,
+        "scuba": 85, "kayaking": 88, "scenery": 92, "historicSites": 85, "architecture": 88,
+        "localCulture": 88, "foodScene": 92, "wine": 92, "fineDining": 82, "cycling": 78,
+        "hiking": 78, "romance": 92, "fishing": 78, "valueForMoney": 82, "seniors": 68,
+        "familyYoungKids": 75
+      },
+      "photos": [
+        "Stiniva cove Vis Croatia",
+        "Blue Cave Bisevo Croatia",
+        "Korcula old town aerial Croatia",
+        "Vis harbour boats Croatia",
+        "Croatian vineyard island",
+        "Adriatic swimming cove clear water"
+      ]
+    },
+    {
+      "id": "sarajevo-ba",
+      "name": "Sarajevo & Mostar",
+      "country": "BA",
+      "region": "Bosnia & Herzegovina",
+      "continent": "Europe",
+      "lat": 43.856,
+      "lon": 18.413,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A city where a mosque, a synagogue, an Orthodox and a Catholic church stand within a few hundred metres, still marked by the longest siege in modern history — and Mostar's bridge, rebuilt.",
+      "tags": ["baščaršija", "stari most", "ottoman", "siege history"],
+      "climate": {
+        "tempHigh": [3, 6, 11, 16, 21, 24, 27, 27, 22, 16, 9, 4],
+        "tempLow": [-4, -3, 1, 5, 9, 12, 14, 14, 11, 6, 2, -2],
+        "rainDays": [12, 11, 12, 12, 13, 12, 9, 8, 9, 11, 13, 13],
+        "sunHours": [2, 3, 4, 5, 7, 8, 9, 8, 6, 4, 2, 1],
+        "humidity": [80, 76, 71, 68, 70, 71, 68, 69, 74, 78, 82, 83],
+        "snowDepth": [20, 18, 8, 1, 0, 0, 0, 0, 0, 0, 4, 14]
+      },
+      "crowd": [38, 38, 45, 55, 65, 74, 82, 82, 70, 55, 42, 48],
+      "priceIndex": [56, 56, 62, 72, 82, 88, 94, 94, 84, 72, 60, 66],
+      "cost": {
+        "budget": 28,
+        "mid": 65,
+        "luxury": 165
+      },
+      "r": {
+        "historicSites": 94, "religiousSites": 94, "architecture": 90, "museums": 90,
+        "localCulture": 96, "markets": 90, "foodScene": 90, "streetFood": 88, "coffee": 96,
+        "walkability": 88, "mountains": 85, "hiking": 85, "skiing": 78, "scenery": 85,
+        "lakesRivers": 78, "adrenaline": 72, "halal": 92, "beer": 78, "bars": 78,
+        "nationalParks": 72, "valueForMoney": 96, "backpacker": 88, "digitalNomad": 78,
+        "safety": 72
+      },
+      "photos": [
+        "Sarajevo Bascarsija old bazaar",
+        "Stari Most Mostar bridge",
+        "Sarajevo city hall Vijecnica",
+        "Bosnian coffee set Sarajevo",
+        "Sarajevo hills cemetery view",
+        "Kravice waterfalls Bosnia"
+      ]
+    },
+    {
+      "id": "ohrid-mk",
+      "name": "Lake Ohrid",
+      "country": "MK",
+      "region": "North Macedonia",
+      "continent": "Europe",
+      "lat": 41.117,
+      "lon": 20.802,
+      "type": "lake",
+      "arch": "historic-city",
+      "blurb": "One of the oldest and deepest lakes in Europe, with a town of 365 churches on the shore, Byzantine frescoes, and water clear enough to see thirty metres down.",
+      "tags": ["365 churches", "byzantine frescoes", "ancient lake", "endemic trout"],
+      "climate": {
+        "tempHigh": [6, 8, 12, 17, 22, 27, 30, 30, 25, 19, 12, 7],
+        "tempLow": [-1, 0, 3, 6, 11, 14, 16, 16, 13, 9, 4, 0],
+        "rainDays": [11, 10, 11, 11, 10, 7, 4, 4, 6, 9, 13, 13],
+        "sunHours": [3, 4, 5, 6, 8, 10, 11, 11, 8, 6, 3, 2],
+        "humidity": [80, 76, 71, 68, 66, 60, 55, 56, 64, 73, 81, 83],
+        "seaTemp": [8, 7, 9, 12, 16, 20, 23, 24, 21, 17, 13, 10]
+      },
+      "crowd": [22, 22, 30, 45, 58, 72, 90, 92, 62, 42, 26, 24],
+      "priceIndex": [48, 48, 56, 68, 78, 88, 100, 100, 80, 64, 52, 50],
+      "cost": {
+        "budget": 26,
+        "mid": 62,
+        "luxury": 160
+      },
+      "r": {
+        "lakesRivers": 96, "swimming": 88, "religiousSites": 96, "historicSites": 92,
+        "architecture": 88, "museums": 78, "scenery": 92, "localCulture": 90, "hiking": 82,
+        "mountains": 82, "cycling": 78, "kayaking": 82, "beaches": 78, "sailing": 68,
+        "nationalParks": 82, "wildlife": 72, "foodScene": 85, "wine": 85, "bars": 72,
+        "walkability": 88, "valueForMoney": 96, "romance": 85, "backpacker": 85,
+        "familyYoungKids": 78
+      },
+      "photos": [
+        "Lake Ohrid church cliff Macedonia",
+        "Ohrid old town lakeside",
+        "Saint Naum monastery Ohrid",
+        "Lake Ohrid clear water boats",
+        "Ohrid Byzantine fresco",
+        "Ohrid sunset lake Macedonia"
+      ]
+    },
+    {
+      "id": "berat-al",
+      "name": "Berat & Gjirokastër",
+      "country": "AL",
+      "region": "Southern Albania",
+      "continent": "Europe",
+      "lat": 40.708,
+      "lon": 19.944,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Two Ottoman towns of stacked stone houses — Berat's thousand windows climbing the hillside, Gjirokastër's slate roofs — both still lived in rather than curated.",
+      "tags": ["thousand windows", "ottoman", "slate roofs", "castles"],
+      "climate": {
+        "tempHigh": [11, 13, 16, 20, 26, 30, 33, 33, 28, 22, 16, 12],
+        "tempLow": [2, 3, 5, 8, 13, 16, 18, 18, 15, 11, 7, 3],
+        "rainDays": [13, 12, 12, 11, 8, 5, 3, 3, 6, 10, 15, 15],
+        "sunHours": [4, 5, 6, 7, 9, 11, 12, 11, 9, 6, 4, 3],
+        "humidity": [76, 74, 71, 69, 66, 60, 55, 57, 65, 72, 78, 79]
+      },
+      "crowd": [20, 20, 28, 42, 58, 72, 85, 88, 68, 45, 26, 22],
+      "priceIndex": [46, 46, 54, 66, 78, 88, 96, 98, 82, 64, 50, 48],
+      "cost": {
+        "budget": 24,
+        "mid": 58,
+        "luxury": 150
+      },
+      "r": {
+        "historicSites": 94, "architecture": 96, "religiousSites": 85, "museums": 78,
+        "localCulture": 92, "markets": 78, "scenery": 88, "mountains": 85, "hiking": 85,
+        "lakesRivers": 78, "walkability": 82, "cycling": 62, "foodScene": 85, "wine": 82,
+        "streetFood": 78, "coffee": 88, "valueForMoney": 98, "backpacker": 88, "romance": 82,
+        "safety": 78, "seniors": 62, "familyYoungKids": 68
+      },
+      "photos": [
+        "Berat thousand windows Albania",
+        "Gjirokaster stone town Albania",
+        "Berat castle hillside",
+        "Albanian Ottoman house interior",
+        "Gjirokaster slate roofs",
+        "Osumi canyon Albania"
+      ]
+    },
+    {
+      "id": "durmitor-me",
+      "name": "Durmitor & the Tara Canyon",
+      "country": "ME",
+      "region": "Northern Montenegro",
+      "continent": "Europe",
+      "lat": 43.145,
+      "lon": 19.05,
+      "type": "mountains",
+      "arch": "wilderness-park",
+      "blurb": "Forty-eight peaks over two thousand metres, eighteen glacial lakes, and the deepest river canyon in Europe running 1,300 metres down through the middle of it.",
+      "tags": ["tara canyon", "black lake", "rafting", "glacial lakes"],
+      "climate": {
+        "tempHigh": [1, 2, 6, 11, 16, 20, 23, 23, 18, 13, 6, 2],
+        "tempLow": [-7, -6, -3, 1, 5, 9, 11, 11, 7, 3, -1, -5],
+        "rainDays": [13, 12, 13, 13, 12, 10, 7, 7, 9, 11, 14, 14],
+        "sunHours": [2, 3, 4, 5, 7, 8, 10, 9, 7, 5, 2, 2],
+        "humidity": [82, 79, 75, 72, 72, 71, 66, 67, 74, 79, 84, 85],
+        "snowDepth": [70, 75, 55, 22, 3, 0, 0, 0, 0, 4, 25, 55]
+      },
+      "crowd": [25, 25, 25, 32, 45, 68, 88, 88, 58, 35, 25, 28],
+      "priceIndex": [50, 50, 52, 60, 72, 86, 100, 100, 76, 58, 50, 54],
+      "cost": {
+        "budget": 30,
+        "mid": 70,
+        "luxury": 180
+      },
+      "r": {
+        "mountains": 96, "hiking": 96, "scenery": 96, "nationalParks": 94, "lakesRivers": 92,
+        "climbing": 88, "adrenaline": 94, "kayaking": 92, "forests": 90, "skiing": 78,
+        "wildlife": 78, "cycling": 78, "stargazing": 90, "roadTrip": 90, "localCulture": 78,
+        "foodScene": 72, "valueForMoney": 92, "backpacker": 85, "familyYoungKids": 68,
+        "romance": 78
+      },
+      "photos": [
+        "Durmitor Black Lake Montenegro",
+        "Tara canyon river Montenegro",
+        "Durmitor peaks Montenegro",
+        "Tara bridge Montenegro",
+        "Rafting Tara river Montenegro",
+        "Montenegro mountain hut alpine"
+      ]
+    },
+    {
+      "id": "cluj-ro",
+      "name": "Cluj-Napoca & Timișoara",
+      "country": "RO",
+      "region": "Transylvania & the Banat",
+      "continent": "Europe",
+      "lat": 46.771,
+      "lon": 23.6,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Romania's student capital and its most European city — a huge tech scene, one of the biggest music festivals on the continent, and Timișoara's Habsburg squares to the west.",
+      "tags": ["untold festival", "students", "habsburg squares", "tech city"],
+      "climate": {
+        "tempHigh": [1, 3, 9, 15, 21, 24, 26, 26, 21, 15, 7, 2],
+        "tempLow": [-6, -5, -1, 4, 9, 12, 13, 13, 9, 5, 1, -4],
+        "rainDays": [9, 8, 9, 11, 13, 13, 11, 9, 8, 8, 10, 10],
+        "sunHours": [2, 3, 4, 6, 7, 8, 9, 8, 6, 5, 2, 2],
+        "humidity": [84, 80, 73, 68, 70, 71, 70, 70, 74, 79, 84, 86],
+        "snowDepth": [12, 11, 3, 0, 0, 0, 0, 0, 0, 0, 2, 8]
+      },
+      "crowd": [42, 42, 48, 56, 65, 74, 82, 82, 68, 58, 46, 52],
+      "priceIndex": [60, 60, 64, 72, 80, 88, 94, 94, 82, 72, 62, 68],
+      "cost": {
+        "budget": 30,
+        "mid": 68,
+        "luxury": 175
+      },
+      "r": {
+        "architecture": 88, "historicSites": 82, "museums": 78, "artScene": 88,
+        "localCulture": 85, "festivals": 96, "liveMusic": 92, "theatre": 82, "bars": 90,
+        "clubbing": 90, "coffee": 92, "foodScene": 85, "beer": 85, "wine": 82, "walkability": 88,
+        "wifi": 100, "publicTransport": 78, "mountains": 72, "hiking": 78, "cycling": 68,
+        "shopping": 75, "valueForMoney": 94, "digitalNomad": 92, "backpacker": 82,
+        "groupParty": 88
+      },
+      "photos": [
+        "Cluj Napoca main square Romania",
+        "Timisoara Union Square Romania",
+        "Untold festival Cluj crowd",
+        "Cluj Napoca cathedral",
+        "Romanian cafe terrace Cluj",
+        "Timisoara colourful baroque buildings"
+      ]
+    }
+  ]
+}

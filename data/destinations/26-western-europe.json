@@ -1,0 +1,812 @@
+{
+  "_doc": "Western Europe, second pass — the French regions, Germany beyond Berlin and Munich, the Low Countries, and the Alpine states.",
+  "destinations": [
+    {
+      "id": "alsace-fr",
+      "name": "Alsace & Strasbourg",
+      "country": "FR",
+      "region": "Grand Est",
+      "continent": "Europe",
+      "lat": 48.573,
+      "lon": 7.752,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "Half-timbered villages under vine-covered hills, a cathedral with an astronomical clock, and a cuisine that cannot decide whether it is French or German and is better for it.",
+      "tags": ["riesling", "half-timbered", "christmas markets", "choucroute"],
+      "climate": {
+        "tempHigh": [4, 6, 11, 16, 20, 24, 26, 25, 21, 15, 8, 5],
+        "tempLow": [-1, 0, 3, 6, 10, 14, 15, 15, 12, 8, 3, 0],
+        "rainDays": [10, 9, 9, 9, 11, 11, 10, 10, 8, 9, 10, 11],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 1],
+        "humidity": [86, 82, 74, 69, 71, 71, 70, 72, 78, 84, 87, 88]
+      },
+      "crowd": [42, 42, 50, 62, 72, 78, 84, 84, 74, 62, 52, 92],
+      "priceIndex": [66, 66, 74, 84, 90, 94, 98, 98, 90, 78, 70, 100],
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 375
+      },
+      "r": {
+        "wine": 98, "foodScene": 94, "fineDining": 92, "architecture": 96, "historicSites": 90,
+        "religiousSites": 92, "museums": 85, "markets": 92, "festivals": 92, "localCulture": 90,
+        "walkability": 92, "cycling": 92, "beer": 90, "coffee": 82, "shopping": 82,
+        "scenery": 88, "mountains": 72, "hiking": 82, "forests": 82, "romance": 92,
+        "valueForMoney": 62, "familyYoungKids": 82, "seniors": 85, "safety": 90
+      },
+      "photos": [
+        "Alsace half timbered village flowers",
+        "Strasbourg Petite France canal",
+        "Alsace vineyards autumn",
+        "Strasbourg cathedral astronomical clock",
+        "Colmar Christmas market Alsace",
+        "Alsace wine route villages"
+      ]
+    },
+    {
+      "id": "normandy-fr",
+      "name": "Normandy",
+      "country": "FR",
+      "region": "Northern France",
+      "continent": "Europe",
+      "lat": 49.18,
+      "lon": -0.37,
+      "type": "coast",
+      "arch": "wine-country",
+      "blurb": "Mont-Saint-Michel cut off by the tide, the D-Day beaches, Bayeux's embroidered account of 1066, and cream, cider and Camembert in between.",
+      "tags": ["mont-saint-michel", "d-day beaches", "camembert", "bayeux tapestry"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 13, 17, 20, 22, 22, 20, 16, 11, 8],
+        "tempLow": [2, 2, 4, 6, 9, 12, 14, 14, 12, 9, 5, 3],
+        "rainDays": [13, 11, 11, 10, 10, 9, 9, 9, 10, 13, 14, 14],
+        "sunHours": [2, 3, 4, 6, 7, 7, 7, 7, 5, 4, 2, 2],
+        "humidity": [86, 84, 80, 77, 77, 77, 77, 79, 81, 85, 87, 88],
+        "seaTemp": [9, 8, 9, 10, 13, 16, 18, 19, 18, 16, 13, 11]
+      },
+      "crowd": [28, 28, 38, 55, 68, 80, 90, 92, 72, 52, 34, 30],
+      "priceIndex": [56, 56, 66, 80, 88, 94, 100, 100, 88, 72, 60, 58],
+      "cost": {
+        "budget": 58,
+        "mid": 138,
+        "luxury": 355
+      },
+      "r": {
+        "historicSites": 98, "museums": 94, "architecture": 92, "religiousSites": 92,
+        "scenery": 90, "beaches": 78, "cycling": 88, "hiking": 82, "foodScene": 94,
+        "fineDining": 90, "markets": 92, "wine": 68, "beer": 78, "localCulture": 88,
+        "roadTrip": 92, "wildlife": 68, "englishSpoken": 62, "valueForMoney": 65,
+        "familyYoungKids": 85, "seniors": 85, "romance": 85
+      },
+      "photos": [
+        "Mont Saint Michel Normandy tide",
+        "Normandy D-Day beach memorial",
+        "Bayeux tapestry Normandy",
+        "Etretat cliffs Normandy",
+        "Normandy half timbered Honfleur",
+        "Camembert cheese Normandy"
+      ]
+    },
+    {
+      "id": "loire-fr",
+      "name": "The Loire Valley",
+      "country": "FR",
+      "region": "Centre-Val de Loire",
+      "continent": "Europe",
+      "lat": 47.395,
+      "lon": 1.03,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "Three hundred châteaux along one river, built when French kings had more money than sense — Chambord has 440 rooms and a double-helix staircase possibly designed by Leonardo.",
+      "tags": ["châteaux", "chambord", "sancerre", "river cycling"],
+      "climate": {
+        "tempHigh": [7, 9, 13, 16, 20, 24, 26, 26, 22, 17, 11, 8],
+        "tempLow": [1, 1, 3, 5, 9, 12, 14, 14, 11, 8, 4, 2],
+        "rainDays": [11, 9, 10, 9, 10, 8, 7, 7, 8, 11, 12, 12],
+        "sunHours": [2, 3, 5, 6, 7, 8, 8, 8, 6, 4, 2, 2],
+        "humidity": [88, 84, 78, 73, 74, 72, 70, 72, 77, 84, 88, 89]
+      },
+      "crowd": [25, 25, 38, 58, 70, 80, 88, 88, 70, 52, 32, 28],
+      "priceIndex": [56, 56, 68, 82, 90, 96, 100, 100, 88, 72, 60, 58],
+      "cost": {
+        "budget": 58,
+        "mid": 138,
+        "luxury": 380
+      },
+      "r": {
+        "historicSites": 98, "architecture": 100, "museums": 85, "scenery": 88, "wine": 96,
+        "foodScene": 92, "fineDining": 92, "markets": 88, "cycling": 96, "lakesRivers": 85,
+        "walkability": 72, "hiking": 68, "kayaking": 72, "romance": 94, "localCulture": 85,
+        "roadTrip": 90, "englishSpoken": 55, "valueForMoney": 62, "familyYoungKids": 82,
+        "seniors": 88
+      },
+      "photos": [
+        "Chateau de Chambord Loire",
+        "Chenonceau castle river Loire",
+        "Loire valley vineyards",
+        "Loire cycling path river",
+        "Villandry gardens Loire",
+        "Amboise Loire village"
+      ]
+    },
+    {
+      "id": "burgundy-fr",
+      "name": "Burgundy",
+      "country": "FR",
+      "region": "Bourgogne",
+      "continent": "Europe",
+      "lat": 47.05,
+      "lon": 4.85,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "The most obsessively subdivided vineyards on earth, where a single road separates wines that cost £30 and £3,000, plus Romanesque abbeys and Beaune's tiled hospice roof.",
+      "tags": ["pinot noir", "climats", "beaune", "canal boats"],
+      "climate": {
+        "tempHigh": [5, 7, 12, 16, 20, 24, 27, 26, 22, 16, 9, 6],
+        "tempLow": [-1, 0, 2, 5, 9, 13, 15, 15, 11, 8, 3, 0],
+        "rainDays": [11, 9, 10, 10, 12, 10, 8, 8, 9, 11, 12, 12],
+        "sunHours": [2, 3, 5, 6, 7, 8, 9, 8, 6, 4, 2, 1],
+        "humidity": [86, 82, 76, 71, 73, 71, 69, 71, 77, 84, 87, 88]
+      },
+      "crowd": [25, 25, 35, 52, 66, 76, 84, 84, 78, 58, 32, 28],
+      "priceIndex": [58, 58, 68, 80, 88, 94, 98, 98, 96, 76, 62, 60],
+      "cost": {
+        "budget": 62,
+        "mid": 148,
+        "luxury": 420
+      },
+      "r": {
+        "wine": 100, "foodScene": 96, "fineDining": 96, "markets": 90, "architecture": 92,
+        "historicSites": 90, "religiousSites": 90, "museums": 78, "cycling": 94, "scenery": 88,
+        "hiking": 78, "lakesRivers": 78, "romance": 92, "localCulture": 88, "roadTrip": 88,
+        "sailing": 55, "englishSpoken": 52, "valueForMoney": 55, "seniors": 88,
+        "familyYoungKids": 62, "luxury": 85
+      },
+      "photos": [
+        "Burgundy vineyards Cote de Nuits",
+        "Hospices de Beaune tiled roof",
+        "Burgundy village stone church",
+        "Burgundy wine cellar barrels",
+        "Canal du Nivernais boat Burgundy",
+        "Vezelay abbey Burgundy"
+      ]
+    },
+    {
+      "id": "marseille-fr",
+      "name": "Marseille & the Calanques",
+      "country": "FR",
+      "region": "Provence",
+      "continent": "Europe",
+      "lat": 43.296,
+      "lon": 5.37,
+      "type": "coast",
+      "arch": "coastal-city",
+      "blurb": "France's oldest and least polite city — a Greek port that became Algerian, Italian and Comorian all at once — with white limestone fjords starting where the suburbs stop.",
+      "tags": ["calanques", "bouillabaisse", "le panier", "mediterranean"],
+      "climate": {
+        "tempHigh": [11, 12, 15, 18, 22, 26, 29, 29, 25, 20, 15, 12],
+        "tempLow": [3, 4, 6, 9, 13, 17, 19, 19, 16, 12, 7, 4],
+        "rainDays": [6, 5, 5, 6, 5, 4, 2, 3, 5, 7, 7, 6],
+        "sunHours": [5, 6, 7, 8, 9, 11, 12, 11, 8, 6, 5, 4],
+        "humidity": [70, 68, 66, 66, 67, 64, 60, 62, 67, 71, 72, 71],
+        "seaTemp": [14, 13, 13, 15, 18, 21, 24, 25, 23, 20, 17, 15]
+      },
+      "crowd": [45, 45, 55, 66, 76, 86, 94, 94, 76, 60, 50, 48],
+      "priceIndex": [68, 68, 76, 84, 90, 96, 100, 100, 88, 76, 70, 70],
+      "cost": {
+        "budget": 58,
+        "mid": 138,
+        "luxury": 350
+      },
+      "r": {
+        "beaches": 78, "swimming": 88, "hiking": 94, "climbing": 92, "kayaking": 90,
+        "sailing": 90, "scuba": 82, "snorkelling": 78, "scenery": 94, "nationalParks": 90,
+        "historicSites": 85, "museums": 88, "architecture": 82, "artScene": 88,
+        "localCulture": 96, "markets": 92, "foodScene": 94, "streetFood": 88, "fineDining": 85,
+        "wine": 85, "bars": 85, "publicTransport": 78, "walkability": 78, "valueForMoney": 72,
+        "safety": 52, "backpacker": 82
+      },
+      "photos": [
+        "Calanques Marseille limestone cove",
+        "Marseille Vieux Port boats",
+        "Notre Dame de la Garde Marseille",
+        "Marseille Le Panier colourful street",
+        "Bouillabaisse Marseille seafood",
+        "Calanque d'En-Vau turquoise"
+      ]
+    },
+    {
+      "id": "dordogne-fr",
+      "name": "The Dordogne",
+      "country": "FR",
+      "region": "Nouvelle-Aquitaine",
+      "continent": "Europe",
+      "lat": 44.85,
+      "lon": 1.22,
+      "type": "region",
+      "arch": "wine-country",
+      "blurb": "Honey-stone villages on limestone cliffs above a slow river, foie gras and walnuts, and cave paintings at Lascaux made seventeen thousand years before any of it.",
+      "tags": ["lascaux", "bastides", "walnuts", "canoeing"],
+      "climate": {
+        "tempHigh": [9, 11, 14, 17, 21, 25, 27, 27, 23, 18, 13, 9],
+        "tempLow": [1, 2, 4, 6, 10, 13, 15, 15, 12, 9, 4, 2],
+        "rainDays": [12, 10, 10, 11, 11, 8, 7, 8, 8, 11, 12, 12],
+        "sunHours": [3, 4, 5, 6, 7, 8, 9, 8, 7, 5, 3, 2],
+        "humidity": [88, 84, 78, 75, 76, 73, 71, 73, 78, 85, 88, 89]
+      },
+      "crowd": [22, 22, 32, 50, 65, 80, 94, 94, 68, 48, 28, 25],
+      "priceIndex": [52, 52, 62, 78, 88, 96, 100, 100, 86, 68, 56, 54],
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 340
+      },
+      "r": {
+        "historicSites": 94, "architecture": 94, "museums": 90, "scenery": 92, "lakesRivers": 90,
+        "kayaking": 94, "cycling": 88, "hiking": 85, "forests": 85, "climbing": 78, "wine": 88,
+        "foodScene": 96, "fineDining": 90, "markets": 96, "localCulture": 88, "romance": 90,
+        "roadTrip": 90, "swimming": 72, "englishSpoken": 52, "valueForMoney": 72,
+        "familyYoungKids": 88, "seniors": 82
+      },
+      "photos": [
+        "Dordogne village cliff river France",
+        "Lascaux cave painting replica",
+        "Dordogne canoe river castle",
+        "Sarlat market Dordogne",
+        "Rocamadour cliff village France",
+        "Dordogne walnut foie gras market"
+      ]
+    },
+    {
+      "id": "annecy-fr",
+      "name": "Annecy & the Haute-Savoie",
+      "country": "FR",
+      "region": "Auvergne-Rhône-Alpes",
+      "continent": "Europe",
+      "lat": 45.899,
+      "lon": 6.129,
+      "type": "lake",
+      "arch": "mountain-town",
+      "blurb": "The cleanest lake in Europe, turquoise and ringed by Alps, with a canal-threaded old town on one shore and paragliders coming off the ridge above it all day.",
+      "tags": ["lake annecy", "paragliding", "canals", "reblochon"],
+      "climate": {
+        "tempHigh": [5, 7, 12, 16, 20, 24, 27, 26, 21, 16, 9, 5],
+        "tempLow": [-2, -1, 2, 5, 10, 13, 15, 15, 11, 8, 2, -1],
+        "rainDays": [10, 9, 10, 11, 12, 10, 9, 9, 8, 10, 11, 11],
+        "sunHours": [2, 3, 5, 6, 7, 8, 9, 8, 6, 4, 2, 2],
+        "humidity": [84, 80, 74, 71, 73, 71, 68, 71, 77, 83, 86, 86]
+      },
+      "crowd": [45, 45, 48, 58, 70, 82, 94, 94, 72, 55, 45, 55],
+      "priceIndex": [70, 70, 72, 82, 90, 96, 100, 100, 88, 76, 70, 78],
+      "cost": {
+        "budget": 62,
+        "mid": 148,
+        "luxury": 380
+      },
+      "r": {
+        "lakesRivers": 98, "swimming": 88, "kayaking": 90, "sailing": 85, "mountains": 94,
+        "hiking": 94, "cycling": 96, "climbing": 88, "skiing": 0, "adrenaline": 96,
+        "scenery": 98, "architecture": 92, "historicSites": 82, "walkability": 92,
+        "foodScene": 90, "fineDining": 85, "markets": 88, "wine": 78, "romance": 94,
+        "nationalParks": 78, "valueForMoney": 55, "familyYoungKids": 88, "seniors": 78,
+        "wellness": 78
+      },
+      "photos": [
+        "Lake Annecy turquoise mountains",
+        "Annecy old town canals",
+        "Paragliding Annecy lake",
+        "Annecy Pont des Amours",
+        "Haute Savoie alpine village",
+        "Lake Annecy cycling path"
+      ]
+    },
+    {
+      "id": "biarritz-fr",
+      "name": "Biarritz & the French Basque Country",
+      "country": "FR",
+      "region": "Nouvelle-Aquitaine",
+      "continent": "Europe",
+      "lat": 43.483,
+      "lon": -1.559,
+      "type": "coast",
+      "arch": "beach-resort",
+      "blurb": "Where European surfing began, in a town Napoleon III built for an empress, with Basque villages of red-and-white timber a few miles inland and pintxos across the border.",
+      "tags": ["surfing", "basque", "belle époque", "espelette"],
+      "climate": {
+        "tempHigh": [12, 13, 15, 17, 20, 23, 25, 25, 24, 20, 15, 13],
+        "tempLow": [5, 5, 7, 9, 12, 15, 17, 17, 15, 12, 8, 6],
+        "rainDays": [13, 12, 12, 13, 13, 10, 9, 10, 10, 13, 15, 14],
+        "sunHours": [3, 4, 5, 6, 7, 7, 7, 7, 6, 5, 3, 3],
+        "humidity": [80, 78, 76, 76, 77, 78, 78, 79, 79, 80, 81, 81],
+        "seaTemp": [13, 12, 13, 14, 17, 19, 21, 22, 21, 19, 16, 14]
+      },
+      "crowd": [32, 32, 42, 55, 68, 82, 94, 96, 74, 52, 38, 35],
+      "priceIndex": [62, 62, 70, 82, 90, 96, 100, 100, 88, 74, 66, 64],
+      "cost": {
+        "budget": 60,
+        "mid": 142,
+        "luxury": 380
+      },
+      "r": {
+        "surfing": 98, "beaches": 90, "swimming": 78, "waterSports": 88, "foodScene": 96,
+        "fineDining": 92, "markets": 92, "wine": 88, "architecture": 90, "historicSites": 78,
+        "museums": 78, "localCulture": 94, "festivals": 88, "scenery": 88, "hiking": 82,
+        "mountains": 78, "cycling": 82, "walkability": 88, "romance": 88, "bars": 85,
+        "valueForMoney": 58, "familyYoungKids": 82, "seniors": 78, "wellness": 82
+      },
+      "photos": [
+        "Biarritz beach surf France",
+        "Biarritz Belle Epoque hotel",
+        "Basque village Espelette peppers",
+        "Saint Jean de Luz harbour",
+        "Basque pintxos plates",
+        "Biarritz lighthouse coast"
+      ]
+    },
+    {
+      "id": "cologne-de",
+      "name": "Cologne & the Rhine",
+      "country": "DE",
+      "region": "North Rhine-Westphalia",
+      "continent": "Europe",
+      "lat": 50.938,
+      "lon": 6.96,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A cathedral that took 632 years and is worth every one of them, a beer served in small glasses by waiters who keep bringing more, and castles up the river all the way to Mainz.",
+      "tags": ["cathedral", "kölsch", "carnival", "rhine castles"],
+      "climate": {
+        "tempHigh": [6, 7, 11, 15, 19, 22, 24, 24, 20, 15, 10, 6],
+        "tempLow": [1, 1, 3, 6, 9, 13, 14, 14, 11, 8, 4, 2],
+        "rainDays": [12, 10, 11, 10, 11, 11, 11, 10, 10, 11, 12, 13],
+        "sunHours": [2, 2, 4, 5, 6, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [86, 82, 76, 71, 71, 71, 71, 72, 78, 84, 87, 88]
+      },
+      "crowd": [55, 78, 55, 62, 70, 74, 78, 78, 72, 62, 55, 88],
+      "priceIndex": [72, 92, 74, 80, 86, 90, 94, 94, 88, 78, 72, 98],
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 340
+      },
+      "r": {
+        "religiousSites": 96, "architecture": 92, "historicSites": 88, "museums": 92,
+        "artScene": 88, "festivals": 96, "beer": 96, "bars": 90, "clubbing": 85, "foodScene": 85,
+        "markets": 88, "shopping": 88, "walkability": 88, "publicTransport": 92,
+        "lakesRivers": 82, "cycling": 88, "lgbtqScene": 92, "theatre": 82, "liveMusic": 85,
+        "roadTrip": 82, "scenery": 72, "valueForMoney": 72, "familyYoungKids": 78, "safety": 85
+      },
+      "photos": [
+        "Cologne cathedral Germany",
+        "Cologne Rhine bridge old town",
+        "Kolsch beer Cologne",
+        "Rhine valley castle Germany",
+        "Cologne carnival parade",
+        "Cologne Christmas market cathedral"
+      ]
+    },
+    {
+      "id": "dresden-de",
+      "name": "Dresden & Saxon Switzerland",
+      "country": "DE",
+      "region": "Saxony",
+      "continent": "Europe",
+      "lat": 51.05,
+      "lon": 13.738,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A baroque capital burned to the ground in 1945 and rebuilt stone by numbered stone, with sandstone towers and a bridge across a gorge in the national park east of it.",
+      "tags": ["frauenkirche", "baroque", "bastei bridge", "green vault"],
+      "climate": {
+        "tempHigh": [3, 4, 9, 15, 20, 23, 25, 25, 20, 14, 7, 3],
+        "tempLow": [-3, -2, 1, 5, 9, 13, 15, 14, 11, 6, 2, -1],
+        "rainDays": [10, 9, 9, 9, 11, 11, 11, 10, 9, 9, 10, 11],
+        "sunHours": [2, 2, 4, 6, 7, 7, 7, 7, 5, 4, 2, 1],
+        "humidity": [86, 82, 75, 69, 69, 70, 70, 71, 77, 83, 87, 88],
+        "snowDepth": [8, 7, 2, 0, 0, 0, 0, 0, 0, 0, 2, 6]
+      },
+      "crowd": [45, 45, 52, 62, 70, 76, 82, 82, 72, 60, 48, 78],
+      "priceIndex": [66, 66, 72, 80, 86, 90, 94, 94, 86, 76, 68, 92],
+      "cost": {
+        "budget": 52,
+        "mid": 122,
+        "luxury": 310
+      },
+      "r": {
+        "architecture": 98, "historicSites": 92, "museums": 94, "religiousSites": 88,
+        "artScene": 88, "theatre": 90, "localCulture": 85, "walkability": 90, "festivals": 85,
+        "foodScene": 82, "beer": 88, "markets": 85, "wine": 78, "mountains": 78, "hiking": 90,
+        "climbing": 92, "nationalParks": 88, "scenery": 88, "cycling": 88, "lakesRivers": 78,
+        "publicTransport": 88, "valueForMoney": 82, "familyYoungKids": 80, "seniors": 85,
+        "skiing": 0
+      },
+      "photos": [
+        "Dresden Frauenkirche baroque skyline",
+        "Bastei bridge Saxon Switzerland",
+        "Dresden Zwinger palace",
+        "Elbe sandstone mountains Germany",
+        "Dresden Christmas Striezelmarkt",
+        "Dresden Semperoper opera house"
+      ]
+    },
+    {
+      "id": "heidelberg-de",
+      "name": "Heidelberg & the Rhine-Neckar",
+      "country": "DE",
+      "region": "Baden-Württemberg",
+      "continent": "Europe",
+      "lat": 49.399,
+      "lon": 8.672,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Germany's oldest university under a ruined red castle on a wooded hill, with a philosophers' walk on the far bank and the Neckar valley opening east.",
+      "tags": ["castle ruins", "oldest university", "philosophers' walk", "romanticism"],
+      "climate": {
+        "tempHigh": [5, 7, 12, 17, 21, 24, 26, 26, 21, 16, 9, 6],
+        "tempLow": [0, 1, 3, 7, 11, 14, 16, 16, 12, 8, 4, 1],
+        "rainDays": [11, 9, 10, 10, 11, 10, 10, 9, 9, 10, 11, 12],
+        "sunHours": [2, 3, 4, 6, 7, 7, 8, 7, 5, 4, 2, 1],
+        "humidity": [85, 81, 74, 69, 70, 70, 69, 71, 77, 83, 86, 87]
+      },
+      "crowd": [40, 40, 50, 62, 72, 80, 86, 86, 74, 60, 46, 62],
+      "priceIndex": [64, 64, 72, 82, 88, 92, 96, 96, 88, 76, 68, 78],
+      "cost": {
+        "budget": 55,
+        "mid": 130,
+        "luxury": 330
+      },
+      "r": {
+        "architecture": 94, "historicSites": 92, "museums": 82, "religiousSites": 82,
+        "scenery": 90, "walkability": 94, "hiking": 85, "cycling": 88, "lakesRivers": 78,
+        "forests": 82, "localCulture": 85, "romance": 92, "foodScene": 85, "beer": 90,
+        "wine": 88, "markets": 82, "bars": 85, "festivals": 80, "publicTransport": 85,
+        "theatre": 75, "valueForMoney": 68, "familyYoungKids": 78, "seniors": 85, "safety": 90
+      },
+      "photos": [
+        "Heidelberg castle Neckar river",
+        "Heidelberg old town bridge",
+        "Philosophers walk Heidelberg view",
+        "Heidelberg university library",
+        "Neckar valley Germany autumn",
+        "Heidelberg Christmas market"
+      ]
+    },
+    {
+      "id": "leipzig-de",
+      "name": "Leipzig",
+      "country": "DE",
+      "region": "Saxony",
+      "continent": "Europe",
+      "lat": 51.34,
+      "lon": 12.375,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "Where Bach worked for 27 years and where the Monday demonstrations brought the GDR down — now a city of converted cotton mills, cheap studios and very good coffee.",
+      "tags": ["bach", "spinnerei", "peaceful revolution", "hypezig"],
+      "climate": {
+        "tempHigh": [3, 4, 9, 15, 20, 23, 25, 25, 20, 14, 8, 3],
+        "tempLow": [-3, -2, 1, 4, 9, 12, 14, 14, 10, 6, 2, -1],
+        "rainDays": [10, 8, 9, 8, 10, 10, 11, 10, 9, 9, 10, 11],
+        "sunHours": [2, 2, 4, 6, 7, 7, 7, 7, 5, 4, 2, 1],
+        "humidity": [86, 82, 75, 69, 69, 70, 70, 71, 77, 83, 87, 88]
+      },
+      "crowd": [42, 42, 48, 56, 65, 70, 74, 74, 68, 58, 46, 62],
+      "priceIndex": [62, 62, 66, 74, 82, 86, 90, 90, 84, 74, 64, 76],
+      "cost": {
+        "budget": 48,
+        "mid": 112,
+        "luxury": 285
+      },
+      "r": {
+        "liveMusic": 96, "artScene": 94, "museums": 88, "theatre": 88, "architecture": 88,
+        "historicSites": 88, "festivals": 88, "localCulture": 88, "bars": 90, "clubbing": 88,
+        "coffee": 92, "beer": 88, "foodScene": 85, "markets": 82, "vegan": 90, "walkability": 88,
+        "cycling": 92, "publicTransport": 88, "lakesRivers": 78, "swimming": 68, "wifi": 96,
+        "valueForMoney": 88, "digitalNomad": 90, "lgbtqScene": 85
+      },
+      "photos": [
+        "Leipzig Spinnerei art gallery",
+        "Leipzig Nikolaikirche",
+        "Leipzig old town hall market",
+        "Bach monument Leipzig",
+        "Leipzig lakes former mine",
+        "Leipzig Karl-Heine canal"
+      ]
+    },
+    {
+      "id": "rugen-de",
+      "name": "Rügen & the Baltic Coast",
+      "country": "DE",
+      "region": "Mecklenburg-Vorpommern",
+      "continent": "Europe",
+      "lat": 54.42,
+      "lon": 13.42,
+      "type": "coast",
+      "arch": "beach-resort",
+      "blurb": "Chalk cliffs above beech forest that Caspar David Friedrich painted, sixty kilometres of white sand, and resort towns of white filigree villas from the 1880s.",
+      "tags": ["chalk cliffs", "seaside villas", "beech forest", "strandkorb"],
+      "climate": {
+        "tempHigh": [3, 3, 5, 10, 15, 18, 21, 21, 17, 12, 8, 4],
+        "tempLow": [-1, -2, 0, 3, 8, 11, 14, 14, 11, 7, 4, 1],
+        "rainDays": [11, 9, 8, 8, 8, 9, 10, 10, 10, 11, 12, 12],
+        "sunHours": [1, 2, 4, 6, 8, 8, 8, 7, 5, 3, 2, 1],
+        "humidity": [87, 85, 81, 76, 74, 76, 77, 78, 81, 85, 88, 88],
+        "seaTemp": [3, 2, 3, 6, 11, 15, 18, 19, 17, 13, 9, 5]
+      },
+      "crowd": [18, 18, 25, 42, 62, 82, 96, 96, 68, 42, 24, 22],
+      "priceIndex": [48, 48, 56, 72, 86, 94, 100, 100, 84, 64, 52, 52],
+      "cost": {
+        "budget": 52,
+        "mid": 122,
+        "luxury": 315
+      },
+      "r": {
+        "beaches": 92, "swimming": 72, "scenery": 92, "forests": 90, "nationalParks": 88,
+        "hiking": 88, "cycling": 96, "sailing": 85, "kayaking": 78, "wildlife": 82,
+        "architecture": 88, "historicSites": 78, "wellness": 88, "foodScene": 78,
+        "stargazing": 80, "publicTransport": 72, "valueForMoney": 68, "familyYoungKids": 92,
+        "seniors": 88, "romance": 80, "accessibility": 72
+      },
+      "photos": [
+        "Rugen chalk cliffs Germany",
+        "Baltic beach Strandkorb Germany",
+        "Rugen beech forest Jasmund",
+        "Binz seaside villas Rugen",
+        "Rugen Kap Arkona lighthouse",
+        "Baltic coast Germany dunes"
+      ]
+    },
+    {
+      "id": "ghent-antwerp-be",
+      "name": "Ghent & Antwerp",
+      "country": "BE",
+      "region": "Flanders",
+      "continent": "Europe",
+      "lat": 51.054,
+      "lon": 3.717,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Bruges without the coach parties: Ghent has the guild houses and a huge student population, Antwerp has Rubens, diamonds and the best fashion school in Europe.",
+      "tags": ["guild houses", "rubens", "fashion", "beer"],
+      "climate": {
+        "tempHigh": [6, 7, 10, 14, 18, 21, 23, 23, 19, 15, 10, 7],
+        "tempLow": [1, 1, 3, 5, 9, 12, 14, 14, 11, 8, 4, 2],
+        "rainDays": [13, 11, 12, 11, 11, 11, 11, 11, 11, 13, 14, 14],
+        "sunHours": [2, 2, 4, 5, 6, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [87, 84, 79, 74, 74, 74, 74, 76, 80, 85, 88, 89]
+      },
+      "crowd": [42, 42, 50, 60, 70, 76, 82, 82, 72, 60, 48, 62],
+      "priceIndex": [70, 70, 76, 82, 88, 92, 96, 96, 88, 78, 72, 82],
+      "cost": {
+        "budget": 58,
+        "mid": 135,
+        "luxury": 345
+      },
+      "r": {
+        "architecture": 96, "historicSites": 92, "museums": 92, "artScene": 92,
+        "religiousSites": 88, "walkability": 94, "cycling": 96, "localCulture": 88, "beer": 98,
+        "foodScene": 90, "fineDining": 88, "markets": 85, "coffee": 85, "bars": 90,
+        "shopping": 92, "festivals": 88, "theatre": 82, "publicTransport": 88, "lakesRivers": 72,
+        "clubbing": 82, "valueForMoney": 68, "familyYoungKids": 78, "safety": 85, "romance": 88
+      },
+      "photos": [
+        "Ghent Graslei guild houses",
+        "Antwerp central station interior",
+        "Ghent canal medieval towers",
+        "Belgian beer cafe glasses",
+        "Antwerp cathedral Rubens",
+        "Ghent castle Gravensteen"
+      ]
+    },
+    {
+      "id": "rotterdam-nl",
+      "name": "Rotterdam & Utrecht",
+      "country": "NL",
+      "region": "The Randstad",
+      "continent": "Europe",
+      "lat": 51.924,
+      "lon": 4.478,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "Rotterdam was flattened in 1940 and rebuilt as an architectural experiment; Utrecht kept its medieval centre and put cafés on the wharves below street level.",
+      "tags": ["modern architecture", "markthal", "canal wharves", "cycling"],
+      "climate": {
+        "tempHigh": [6, 7, 10, 14, 18, 20, 22, 22, 19, 15, 10, 7],
+        "tempLow": [1, 1, 3, 5, 9, 12, 14, 14, 11, 8, 4, 2],
+        "rainDays": [13, 11, 12, 10, 11, 11, 11, 11, 12, 13, 14, 14],
+        "sunHours": [2, 2, 4, 6, 7, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [88, 85, 80, 75, 75, 76, 77, 79, 82, 86, 89, 89]
+      },
+      "crowd": [45, 45, 52, 62, 70, 76, 80, 80, 72, 62, 50, 58],
+      "priceIndex": [72, 72, 78, 84, 90, 94, 96, 96, 90, 80, 74, 80],
+      "cost": {
+        "budget": 62,
+        "mid": 145,
+        "luxury": 370
+      },
+      "r": {
+        "architecture": 96, "museums": 92, "artScene": 92, "foodScene": 90, "markets": 92,
+        "cycling": 100, "walkability": 90, "publicTransport": 94, "historicSites": 78,
+        "bars": 88, "clubbing": 88, "coffee": 90, "beer": 88, "shopping": 88, "festivals": 88,
+        "lakesRivers": 82, "theatre": 82, "lgbtqScene": 90, "wifi": 98, "vegan": 90,
+        "englishSpoken": 96, "valueForMoney": 62, "digitalNomad": 90, "safety": 88
+      },
+      "photos": [
+        "Rotterdam cube houses architecture",
+        "Rotterdam Markthal interior",
+        "Utrecht canal wharf cafes",
+        "Erasmus bridge Rotterdam",
+        "Utrecht Dom tower",
+        "Dutch cycling city street"
+      ]
+    },
+    {
+      "id": "ljubljana-si",
+      "name": "Ljubljana & Piran",
+      "country": "SI",
+      "region": "Central Slovenia & the coast",
+      "continent": "Europe",
+      "lat": 46.056,
+      "lon": 14.505,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A capital small enough to cross on foot, remodelled by one architect with a dragon fixation, and forty kilometres of Adriatic coast ending in a Venetian town on a spit.",
+      "tags": ["plečnik", "dragon bridge", "piran", "car-free centre"],
+      "climate": {
+        "tempHigh": [4, 6, 12, 17, 22, 25, 28, 27, 22, 16, 9, 4],
+        "tempLow": [-3, -2, 2, 6, 11, 14, 16, 16, 12, 8, 3, -1],
+        "rainDays": [9, 8, 10, 12, 13, 13, 11, 11, 10, 11, 13, 11],
+        "sunHours": [2, 3, 4, 6, 7, 8, 9, 8, 6, 4, 2, 2],
+        "humidity": [84, 79, 72, 70, 71, 72, 70, 73, 78, 83, 86, 87]
+      },
+      "crowd": [40, 40, 48, 60, 70, 78, 86, 86, 72, 58, 45, 58],
+      "priceIndex": [64, 64, 70, 80, 88, 92, 98, 98, 88, 76, 66, 74],
+      "cost": {
+        "budget": 45,
+        "mid": 105,
+        "luxury": 265
+      },
+      "r": {
+        "architecture": 94, "historicSites": 85, "museums": 82, "artScene": 85,
+        "walkability": 98, "cycling": 92, "localCulture": 88, "markets": 88, "foodScene": 90,
+        "fineDining": 85, "coffee": 92, "wine": 90, "beer": 85, "bars": 88, "festivals": 85,
+        "lakesRivers": 82, "beaches": 68, "swimming": 78, "mountains": 78, "hiking": 82,
+        "ecoFriendly": 94, "valueForMoney": 85, "safety": 94, "familyYoungKids": 85
+      },
+      "photos": [
+        "Ljubljana dragon bridge Slovenia",
+        "Ljubljana riverside cafes",
+        "Piran Slovenia Venetian town aerial",
+        "Ljubljana castle view",
+        "Ljubljana central market Plecnik",
+        "Slovenian coast Piran sunset"
+      ]
+    },
+    {
+      "id": "graz-at",
+      "name": "Graz & Styria",
+      "country": "AT",
+      "region": "Styria",
+      "continent": "Europe",
+      "lat": 47.071,
+      "lon": 15.439,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "Austria's second city, with a Renaissance old town, a bright blue blob of a modern art museum dropped next to it, and the pumpkin-seed-oil country rolling south.",
+      "tags": ["kunsthaus blob", "schlossberg", "pumpkin seed oil", "styrian wine"],
+      "climate": {
+        "tempHigh": [3, 6, 11, 16, 21, 24, 26, 26, 21, 15, 8, 3],
+        "tempLow": [-4, -3, 1, 5, 10, 13, 15, 15, 11, 6, 2, -2],
+        "rainDays": [8, 7, 9, 11, 13, 14, 13, 12, 10, 9, 10, 10],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 8, 6, 4, 2, 2],
+        "humidity": [82, 77, 71, 68, 70, 72, 71, 73, 78, 82, 85, 85]
+      },
+      "crowd": [38, 38, 45, 55, 65, 72, 76, 76, 70, 58, 45, 62],
+      "priceIndex": [64, 64, 70, 78, 86, 90, 94, 94, 88, 76, 66, 80],
+      "cost": {
+        "budget": 55,
+        "mid": 128,
+        "luxury": 320
+      },
+      "r": {
+        "architecture": 92, "historicSites": 88, "museums": 88, "artScene": 90,
+        "localCulture": 88, "markets": 92, "foodScene": 92, "fineDining": 88, "wine": 94,
+        "beer": 85, "coffee": 90, "bars": 85, "walkability": 92, "cycling": 88, "festivals": 85,
+        "theatre": 82, "publicTransport": 85, "mountains": 78, "hiking": 85, "scenery": 82,
+        "wellness": 82, "valueForMoney": 78, "familyYoungKids": 80, "safety": 92, "seniors": 82
+      },
+      "photos": [
+        "Graz old town rooftops Austria",
+        "Kunsthaus Graz blue blob",
+        "Graz Schlossberg clock tower",
+        "Styrian vineyards Austria",
+        "Graz farmers market",
+        "Styria pumpkin seed oil"
+      ]
+    },
+    {
+      "id": "engadin-ch",
+      "name": "St Moritz & the Engadin",
+      "country": "CH",
+      "region": "Graubünden",
+      "continent": "Europe",
+      "lat": 46.498,
+      "lon": 9.838,
+      "type": "mountains",
+      "arch": "ski-resort",
+      "blurb": "A high valley of lakes and larch at 1,800 metres, with 322 days of sun a year, the oldest winter resort in the world, and Romansh still spoken in the villages.",
+      "tags": ["romansh", "sgraffito", "cresta run", "larch forest"],
+      "climate": {
+        "tempHigh": [0, 2, 5, 9, 14, 17, 19, 18, 15, 11, 4, 1],
+        "tempLow": [-13, -12, -8, -4, 1, 4, 6, 6, 3, -1, -7, -11],
+        "rainDays": [7, 6, 8, 9, 12, 13, 13, 13, 9, 8, 8, 8],
+        "sunHours": [4, 5, 5, 6, 6, 7, 7, 7, 6, 5, 4, 4],
+        "humidity": [72, 70, 68, 66, 68, 70, 70, 72, 74, 74, 74, 74],
+        "snowDepth": [80, 90, 85, 45, 10, 0, 0, 0, 0, 8, 35, 65]
+      },
+      "crowd": [88, 88, 72, 40, 35, 55, 78, 82, 58, 38, 32, 78],
+      "priceIndex": [98, 100, 88, 62, 58, 74, 92, 96, 76, 60, 56, 94],
+      "cost": {
+        "budget": 88,
+        "mid": 195,
+        "luxury": 550
+      },
+      "r": {
+        "skiing": 98, "mountains": 98, "scenery": 98, "hiking": 96, "lakesRivers": 92,
+        "cycling": 92, "climbing": 88, "nationalParks": 88, "wellness": 96, "forests": 88,
+        "adrenaline": 85, "stargazing": 92, "architecture": 88, "localCulture": 90,
+        "fineDining": 94, "foodScene": 88, "luxury": 96, "wildlife": 78, "romance": 90,
+        "safety": 98, "valueForMoney": 25, "seniors": 82, "familyYoungKids": 78
+      },
+      "photos": [
+        "St Moritz lake Engadin Switzerland",
+        "Engadin larch forest autumn",
+        "Engadin sgraffito house facade",
+        "Swiss alps Bernina railway",
+        "St Moritz ski slopes",
+        "Engadin valley lakes aerial"
+      ]
+    },
+    {
+      "id": "ticino-ch",
+      "name": "Ticino & Lugano",
+      "country": "CH",
+      "region": "Italian Switzerland",
+      "continent": "Europe",
+      "lat": 46.005,
+      "lon": 8.951,
+      "type": "lake",
+      "arch": "mountain-town",
+      "blurb": "Switzerland with palm trees and Italian menus — lakes Lugano and Maggiore under steep green mountains, grotti serving polenta, and the Verzasca's water impossibly clear.",
+      "tags": ["verzasca", "grotti", "palm trees", "italian switzerland"],
+      "climate": {
+        "tempHigh": [6, 8, 12, 16, 20, 24, 27, 26, 22, 16, 10, 7],
+        "tempLow": [-1, 0, 3, 7, 11, 15, 17, 17, 13, 9, 4, 0],
+        "rainDays": [6, 6, 8, 11, 13, 12, 10, 10, 8, 9, 9, 6],
+        "sunHours": [4, 5, 5, 6, 6, 7, 8, 7, 6, 4, 3, 3],
+        "humidity": [72, 68, 66, 68, 70, 71, 70, 72, 74, 76, 76, 74]
+      },
+      "crowd": [32, 32, 42, 55, 68, 80, 92, 92, 70, 50, 36, 34],
+      "priceIndex": [72, 72, 80, 88, 92, 96, 100, 100, 90, 78, 72, 74],
+      "cost": {
+        "budget": 78,
+        "mid": 178,
+        "luxury": 460
+      },
+      "r": {
+        "lakesRivers": 98, "swimming": 90, "kayaking": 88, "sailing": 82, "mountains": 94,
+        "hiking": 96, "cycling": 88, "climbing": 88, "scenery": 96, "forests": 88,
+        "adrenaline": 92, "nationalParks": 78, "architecture": 85, "historicSites": 78,
+        "localCulture": 88, "foodScene": 92, "fineDining": 90, "wine": 88, "markets": 82,
+        "romance": 90, "wellness": 85, "valueForMoney": 32, "familyYoungKids": 82, "skiing": 0
+      },
+      "photos": [
+        "Verzasca valley river Switzerland",
+        "Lake Lugano Switzerland palm",
+        "Ticino stone village Switzerland",
+        "Lavertezzo bridge Verzasca",
+        "Lake Maggiore Brissago islands",
+        "Ticino grotto restaurant"
+      ]
+    }
+  ]
+}
