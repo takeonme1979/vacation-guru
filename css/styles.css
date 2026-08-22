@@ -27,6 +27,17 @@
   --grey:          #64748b;
   --grey-bg:       #e8ecf1;
 
+  /* How much a criterion matters to YOU — deliberately not the RAG palette.
+     Red/amber/green already mean "how well this place scores", so borrowing
+     amber for "Important" made a chip that reads as a bad match when it means
+     the opposite. One hue, three weights: neutral, tinted, filled. */
+  --imp-1:         #5c6879;
+  --imp-1-bg:      #e8ecf1;
+  --imp-2:         #0e7490;
+  --imp-2-bg:      #e0f2f7;
+  --imp-3:         #ffffff;
+  --imp-3-bg:      #0e7490;
+
   --radius:        14px;
   --radius-sm:     9px;
   --radius-lg:     20px;
@@ -64,6 +75,13 @@
     --grey:        #94a3b8;
     --grey-bg:     #1b2434;
 
+    --imp-1:       #94a3b8;
+    --imp-1-bg:    #1b2434;
+    --imp-2:       #38bdf8;
+    --imp-2-bg:    #10314a;
+    --imp-3:       #06202e;
+    --imp-3-bg:    #38bdf8;
+
     --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
     --shadow-lg:   0 2px 6px rgba(0,0,0,.45), 0 24px 48px -20px rgba(0,0,0,.7);
   }
@@ -91,6 +109,13 @@
   --red-bg:      #3a1414;
   --grey:        #94a3b8;
   --grey-bg:     #1b2434;
+
+  --imp-1:       #94a3b8;
+  --imp-1-bg:    #1b2434;
+  --imp-2:       #38bdf8;
+  --imp-2-bg:    #10314a;
+  --imp-3:       #06202e;
+  --imp-3-bg:    #38bdf8;
 
   --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
   --shadow-lg:   0 2px 6px rgba(0,0,0,.45), 0 24px 48px -20px rgba(0,0,0,.7);
@@ -347,9 +372,9 @@ a { color: var(--accent); }
   min-width: 30px; text-align: center; padding: 2px 5px; border-radius: 6px;
   font-size: 9px; letter-spacing: 1px; background: var(--bg-sunk); color: var(--text-faint);
 }
-.legend__dot--1 { background: var(--grey-bg); color: var(--grey); }
-.legend__dot--2 { background: var(--amber-bg); color: var(--amber); }
-.legend__dot--3 { background: var(--accent-soft); color: var(--accent); }
+.legend__dot--1 { background: var(--imp-1-bg); color: var(--imp-1); }
+.legend__dot--2 { background: var(--imp-2-bg); color: var(--imp-2); }
+.legend__dot--3 { background: var(--imp-3-bg); color: var(--imp-3); }
 
 .cat {
   background: var(--bg-elev); border: 1px solid var(--line-soft);
@@ -392,9 +417,11 @@ a { color: var(--accent); }
 .imp__btn:hover { background: var(--bg-elev); }
 .imp__btn.is-on { background: var(--bg-elev); box-shadow: var(--shadow); }
 .imp__btn--0.is-on { color: var(--text-soft); }
-.imp__btn--1.is-on { color: var(--grey); }
-.imp__btn--2.is-on { color: var(--amber); }
-.imp__btn--3.is-on { color: var(--accent); }
+.imp__btn--1.is-on { color: var(--imp-1); }
+.imp__btn--2.is-on { color: var(--imp-2); }
+/* Must have is the only one that fills: the strongest setting should look it,
+   and it keeps a selected level readable without leaning on hue alone. */
+.imp__btn--3.is-on { background: var(--imp-3-bg); color: var(--imp-3); }
 
 /* --- results -------------------------------------------------------------- */
 
