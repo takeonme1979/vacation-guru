@@ -6,7 +6,9 @@ import {
   scoreDestination, monthCurve, MONTHS, MONTHS_SHORT, estimateFlightHours, dailyCost, crowdWord,
   COST_TIERS, costTierLabel, periodLabel
 } from '../scoring.js';
-import { scoreRing, breakdownTable, ragChip, toggleButton, infoButton, hasInfo, openInfo } from './components.js';
+import {
+  scoreRing, breakdownTable, ragChip, toggleButton, infoButton, hasInfo, openInfo, mapsLink
+} from './components.js';
 
 export function renderDetail(root, id, { go }) {
   const { destById, criteriaById } = data();
@@ -97,6 +99,9 @@ export function renderDetail(root, id, { go }) {
         : null,
 
       h('p', { class: 'detail__blurb' }, dest.blurb),
+
+      // The hero caption says where this is; this says where that is.
+      mapsLink(dest, { className: 'detail__map', label: '🗺 Show on Google Maps' }),
 
       hasInfo(dest)
         ? h('button', { class: 'detail__source', onclick: () => openInfo(dest) },

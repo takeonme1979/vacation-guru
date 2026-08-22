@@ -1,5 +1,5 @@
 {
-  "_doc": "Selectable worlds. Each is a complete, independent dataset — its own criteria, archetypes, universes and destinations — scored by the exact same engine. `standInPhotos` marks a world whose photographs are stand-ins for somewhere that does not exist, so their real subjects are named only in the credits.",
+  "_doc": "Selectable worlds. Each is a complete, independent dataset — its own criteria, archetypes, universes and destinations — scored by the exact same engine. `mappable` marks a world whose places exist on Earth, so they can be linked to a map. `standInPhotos` marks a world whose photographs are stand-ins for somewhere that does not exist, so their real subjects are named only in the credits.",
   "worlds": [
     {
       "id": "real",
@@ -11,7 +11,8 @@
       "tagline": "Places you can actually book a flight to.",
       "photoPolicy": "photo",
       "timeModel": "months",
-      "standInPhotos": false
+      "standInPhotos": false,
+      "mappable": true
     },
     {
       "id": "fiction",
@@ -53,7 +54,8 @@
       },
       "photoPolicy": "any",
       "timeModel": "none",
-      "standInPhotos": true
+      "standInPhotos": true,
+      "mappable": false
     }
   ]
 }

@@ -163,10 +163,38 @@ export function destinationCard(result, { rank = null, onOpen, onToggle = () => 
           state: () => store.isComparing(d.id),
           after: onToggle
         }),
+        mapsLink(d),
         h('button', { class: 'btn btn--primary', onclick: () => onOpen(d.id) }, 'Details')
       )
     )
   );
+}
+
+/**
+ * "Where actually is this?" — a link out to Google Maps.
+ *
+ * Only for worlds whose places exist: `mappable` is false for fiction, where
+ * the honest answer is that there is nowhere to point at.
+ *
+ * Linked by coordinate rather than by name. The lat/lon is curated per
+ * destination, so it is unambiguous where a name search is not — there is more
+ * than one Georgetown, and "Golden Bay & Farewell Spit" is not a search term —
+ * and it lands correctly on a region like the Cotswolds as well as on a city.
+ */
+export function mapsLink(dest, { className = 'btn btn--ghost', label = '🗺 Map' } = {}) {
+  if (!data().world.mappable) return null;
+  if (!Number.isFinite(dest.lat) || !Number.isFinite(dest.lon)) return null;
+  return h('a', {
+    class: className,
+    href: `https://www.google.com/maps/search/?api=1&query=${dest.lat}%2C${dest.lon}`,
+    target: '_blank',
+    rel: 'noopener noreferrer',
+    title: `Show ${dest.name} on Google Maps`,
+    'aria-label': `Show ${dest.name} on Google Maps — opens in a new tab`,
+    // Cards and rows are clickable in their own right; opening a map should not
+    // also open the destination behind it.
+    onclick: (e) => e.stopPropagation()
+  }, label);
 }
 
 /** A button that repaints only itself when toggled. */

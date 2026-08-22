@@ -3,7 +3,7 @@ import { data } from '../data.js';
 import * as store from '../state.js';
 import { scoreDestination, prefsSummary, ragOf, costTierLabel } from '../scoring.js';
 import { heroPhoto, imgEl } from '../images.js';
-import { infoButton, segmented, emptyState } from './components.js';
+import { infoButton, segmented, emptyState, mapsLink } from './components.js';
 
 /**
  * The full catalogue.
@@ -357,6 +357,7 @@ function row(d, { go, scored, scores }) {
         ? h('span', { class: `browse__pct browse__pct--${ragOf(pct / 100)}` }, pct + '%')
         : null
     ),
+    mapsLink(d, { className: 'browse__map', label: '🗺' }),
     infoButton(d, { className: 'info-btn info-btn--row' }),
     star
   );
