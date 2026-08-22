@@ -29,6 +29,7 @@ const MODULES = [
   'scoring.js',
   'data.js',
   'images.js',
+  'maps.js',
   'state.js',
   'ui/components.js',
   'ui/setup.js',

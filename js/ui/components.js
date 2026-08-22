@@ -5,6 +5,7 @@ import {
   COST_TIERS, costTierLabel, SEASONS, seasonOf, periodLabel
 } from '../scoring.js';
 import { data } from '../data.js';
+import { mapsUrl } from '../maps.js';
 import * as store from '../state.js';
 
 /**
@@ -176,17 +177,16 @@ export function destinationCard(result, { rank = null, onOpen, onToggle = () => 
  * Only for worlds whose places exist: `mappable` is false for fiction, where
  * the honest answer is that there is nowhere to point at.
  *
- * Linked by coordinate rather than by name. The lat/lon is curated per
- * destination, so it is unambiguous where a name search is not — there is more
- * than one Georgetown, and "Golden Bay & Farewell Spit" is not a search term —
- * and it lands correctly on a region like the Cotswolds as well as on a city.
+ * Framed at the scale of the place: see js/maps.js. The link searches for the
+ * feature by name so Google fits its own bounds — an island frames as an
+ * island — and carries the curated coordinates as the starting viewport.
  */
 export function mapsLink(dest, { className = 'btn btn--ghost', label = '🗺 Map' } = {}) {
   if (!data().world.mappable) return null;
   if (!Number.isFinite(dest.lat) || !Number.isFinite(dest.lon)) return null;
   return h('a', {
     class: className,
-    href: `https://www.google.com/maps/search/?api=1&query=${dest.lat}%2C${dest.lon}`,
+    href: mapsUrl(dest),
     target: '_blank',
     rel: 'noopener noreferrer',
     title: `Show ${dest.name} on Google Maps`,
