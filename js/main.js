@@ -264,8 +264,39 @@ async function bootApp() {
   if (typeof window !== 'undefined') window.__vgBooted = true;
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register(new URL('../sw.js', import.meta.url)).catch(() => { /* offline cache is optional */ });
+    registerWorker();
   }
+}
+
+/**
+ * Register the offline cache, and reload once when a new version takes over.
+ *
+ * The worker serves the app shell stale-while-revalidate: a cached copy comes
+ * back immediately and the network copy replaces it in the background. That is
+ * right for speed and wrong for deploys — the first load after one renders the
+ * PREVIOUS build, and only a second reload shows the new one. Every change
+ * shipped therefore looked like it had not shipped.
+ *
+ * `controllerchange` fires when a new worker claims this page, which is exactly
+ * the moment the old assets became stale. Reloading then collapses those two
+ * refreshes into one.
+ */
+function registerWorker() {
+  const nav = navigator;
+  // On the very first visit there is no controller yet; the worker claiming an
+  // uncontrolled page is not an update, and reloading for it would be a pointless
+  // flash on someone's first impression of the app.
+  const hadController = !!nav.serviceWorker.controller;
+  let reloading = false;
+
+  nav.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloading) return;
+    reloading = true;                    // guard: the event can fire more than once
+    location.reload();
+  });
+
+  nav.serviceWorker.register(new URL('../sw.js', import.meta.url))
+    .catch(() => { /* offline cache is optional */ });
 }
 
 boot();
