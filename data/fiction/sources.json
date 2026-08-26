@@ -1,7 +1,6 @@
 {
   "_doc": "Where each universe comes from — shown behind the ⓘ button on a destination. One entry per country/universe code in countries.json. `work` is the title, `creator` the author or studio, `year` first publication or release, `medium` the form it first took, `text` a short plain-English note in our own words. Optional `also` lists notable adaptations.",
   "schemaVersion": 1,
-
   "sources": {
     "ME": {
       "work": "The Hobbit and The Lord of the Rings",
@@ -339,6 +338,44 @@
       "year": 1961,
       "medium": "Novel",
       "text": "A planet-wide ocean that is a single intelligence, and a century of human science that has learned nothing about it. Lem's point is that a genuinely alien mind would be unreachable, and that our attempts to understand it would only reflect us back at ourselves."
+    },
+    "ORV": {
+      "work": "The Orville",
+      "creator": "Seth MacFarlane",
+      "year": 2017,
+      "medium": "Television",
+      "text": "Began as a Star Trek parody and quietly stopped being one, ending up a sincere episodic show about a mid-tier exploratory vessel and the civilisations it blunders into. The jokes stayed; the planets got serious."
+    },
+    "SG1": {
+      "work": "Stargate",
+      "creator": "Dean Devlin and Roland Emmerich",
+      "year": 1994,
+      "medium": "Film",
+      "also": "SG-1, Atlantis and Universe on television",
+      "text": "A ring buried in Egypt turns out to be a door to anywhere, which is a premise built for one planet a week. The galaxy is full of human cultures transplanted from Earth by aliens posing as gods, which is a tidy excuse for filming in British Columbia."
+    },
+    "B5": {
+      "work": "Babylon 5",
+      "creator": "J. Michael Straczynski",
+      "year": 1993,
+      "medium": "Television",
+      "text": "A five-mile diplomatic station in neutral space, plotted as a single five-year novel before the first episode aired. Less about exploring than about everyone having to live together, which turns out to be harder."
+    },
+    "FIRE": {
+      "work": "Firefly",
+      "creator": "Joss Whedon",
+      "year": 2002,
+      "medium": "Television",
+      "also": "Concluded in the film Serenity",
+      "text": "One system, terraformed hundreds of times over, with no aliens and no faster-than-light travel. The core worlds are rich and governed; the rim is a frontier, and the crew are on the losing side of a war that already ended."
+    },
+    "BSG": {
+      "work": "Battlestar Galactica",
+      "creator": "Glen A. Larson",
+      "year": 1978,
+      "medium": "Television",
+      "also": "Reimagined by Ronald D. Moore in 2003",
+      "text": "Twelve colonies destroyed in an afternoon by machines their own people built, leaving a convoy of survivors looking for a planet most of them consider a myth. The 2003 version is the one that hurts."
     }
   }
 }
