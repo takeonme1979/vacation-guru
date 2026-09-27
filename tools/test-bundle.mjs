@@ -154,5 +154,55 @@ check('the world switch shows fiction as the active one', () => {
   return on[0];
 });
 
+// ---------------------------------------------------------------------------
+// A shared link reproduces a Browse search.
+//
+// Browse's search box, filters, grouping and sort used to live only in
+// memory: copying the address bar while looking at "Orville" handed whoever
+// received it a bare, unfiltered Browse screen. The query string is now the
+// other half of that state — read once on a deep link, and written back
+// after every change so the address bar always matches what is on screen.
+
+console.log('\nA shared link reproduces a Browse search');
+
+const third = installDom({ hash: '#/browse?q=orville', search: '?world=fiction' });
+delete global.fetch;
+
+check('a deep link with a search term boots straight into it', () => {
+  runInThisContext(appScript, { filename: 'vacation-guru.html#browse' });
+  return 'bundle re-executed against a Browse search link';
+});
+
+await new Promise((r) => setTimeout(r, 60));
+
+check('the search box carries the term from the link', () => {
+  const input = third.screen.querySelector('.search');
+  assert(input, 'no search box rendered');
+  assert(/orville/i.test(input.attributes.value || ''), `search box reads "${input.attributes.value}"`);
+  return `search box reads "${input.attributes.value}"`;
+});
+
+check('only matching rows are shown', () => {
+  const rows = third.screen.querySelectorAll('.browse__row').length;
+  assert(rows > 0, 'no rows matched "orville"');
+  assert(/Orville/i.test(third.screen.textContent), 'no Orville content on screen');
+  return `${rows} row(s) shown`;
+});
+
+check('typing a new search updates the address bar', () => {
+  const input = third.screen.querySelector('.search');
+  input.fire('input', { target: { value: 'atlantis' } });
+  return 'input fired';
+});
+
+// The search box is debounced 140ms so a fast typist doesn't repaint on every
+// keystroke; the address bar only catches up once that settles.
+await new Promise((r) => setTimeout(r, 220));
+
+check('the URL now reflects the typed search, not the one from the link', () => {
+  assert(/q=atlantis/.test(global.location.hash), `hash is "${global.location.hash}"`);
+  return global.location.hash;
+});
+
 console.log(`\n${passed} passed, ${failures.length} failed\n`);
 if (failures.length) { for (const f of failures) console.error('  FAIL ' + f); process.exit(1); }

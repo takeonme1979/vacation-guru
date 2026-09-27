@@ -11,6 +11,7 @@
       "lon": -62.54,
       "type": "region",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "The tallest waterfall on earth, a kilometre of unbroken drop off a tabletop mountain older than the continents around it — reached only by small plane and dugout canoe.",
       "tags": ["tallest waterfall", "tepuis", "no roads in", "lost world"],
       "climate": {
@@ -52,6 +53,7 @@
       "lon": -66.67,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1.5,
       "blurb": "A national park of forty-two cays and a lagoon so pale turquoise it barely looks real, once ranked among the best beaches in the world and reachable only by small plane.",
       "tags": ["coral cays", "bonefishing", "no cars", "turquoise lagoon"],
       "climate": {
@@ -93,6 +95,7 @@
       "lon": -59.48,
       "type": "region",
       "arch": "wilderness-park",
+      "transfer": 1.5,
       "blurb": "Five times the height of Niagara and four times the width, in rainforest so untouched you can fly there for the day and see almost nobody else at all.",
       "tags": ["single-drop waterfall", "untouched rainforest", "cock-of-the-rock", "day trip flight"],
       "climate": {
@@ -150,6 +153,7 @@
         "luxury": 155
       },
       "r": {
+        "oldTown": 30,
         "historicSites": 88, "architecture": 82, "museums": 68, "religiousSites": 85,
         "localCulture": 92, "markets": 82, "foodScene": 78, "streetFood": 82, "walkability": 68,
         "roadTrip": 72, "valueForMoney": 96, "backpacker": 82, "safety": 65,
@@ -174,6 +178,7 @@
       "lon": -60.5,
       "type": "wilderness",
       "arch": "wilderness-park",
+      "transfer": 6,
       "blurb": "A vast dry thornforest twice the size of England, home to Mennonite farming colonies, jaguars, and roads so straight and empty they disappear into heat shimmer.",
       "tags": ["mennonite colonies", "jaguars", "dry forest", "empty roads"],
       "climate": {
@@ -256,6 +261,7 @@
       "lon": -41.4,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 4,
       "blurb": "A plateau of table mountains, underground rivers you can swim through by torchlight, and a waterfall that free-falls so far the water turns to mist before it lands.",
       "tags": ["cave swimming", "table mountains", "fumaça waterfall", "diamond rush history"],
       "climate": {
@@ -297,6 +303,7 @@
       "lon": -40.5,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 2,
       "blurb": "Sand streets, no traffic lights, a dune you climb every evening to watch the sunset with everyone else in town, and consistent kitesurfing wind almost year-round.",
       "tags": ["sand streets", "kitesurfing", "sunset dune", "no cars"],
       "climate": {
@@ -339,6 +346,7 @@
       "lon": -68.2,
       "type": "desert",
       "arch": "desert",
+      "transfer": 1.25,
       "blurb": "The driest non-polar desert on earth, ringed by 6,000m volcanoes, with geysers steaming at dawn, salt flats full of flamingos, and clearer skies than almost anywhere for astronomy.",
       "tags": ["driest desert", "geysers", "flamingos", "astro tourism"],
       "climate": {
@@ -379,6 +387,7 @@
       "lon": -73.9,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "Wooden churches built without a single nail, stilt houses in fishing coves, and folklore about a ghost ship that still shapes how people talk about the sea.",
       "tags": ["unesco churches", "stilt houses", "mythology", "curanto"],
       "climate": {
@@ -421,6 +430,7 @@
       "lon": -65.97,
       "type": "mountains",
       "arch": "wine-country",
+      "transfer": 3.5,
       "blurb": "The world's highest-altitude wine region, red rock canyons carved into shapes with names like the amphitheatre and the devil's throat, and torrontés grown nowhere else quite like this.",
       "tags": ["high-altitude wine", "torrontés", "red canyons", "quebrada de cafayate"],
       "climate": {
@@ -438,6 +448,7 @@
         "luxury": 195
       },
       "r": {
+        "oldTown": 30,
         "wine": 96, "scenery": 96, "roadTrip": 96, "hiking": 78, "mountains": 82, "desert": 68,
         "stargazing": 88, "localCulture": 78, "foodScene": 82, "fineDining": 72, "markets": 68,
         "romance": 82, "valueForMoney": 88, "safety": 78, "familyYoungKids": 55
@@ -501,6 +512,7 @@
       "lon": -78.26,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 2,
       "blurb": "The largest indigenous market in the Americas, held every Saturday beneath a ring of volcanoes, with weavers still using techniques unchanged since before the Inca arrived.",
       "tags": ["saturday market", "kichwa weavers", "volcanoes", "highland lakes"],
       "climate": {
@@ -518,6 +530,7 @@
         "luxury": 165
       },
       "r": {
+        "oldTown": 30,
         "markets": 100, "localCulture": 96, "historicSites": 62, "mountains": 88, "volcanic": 78,
         "hiking": 85, "lakesRivers": 78, "scenery": 88, "foodScene": 72, "streetFood": 78,
         "valueForMoney": 94, "backpacker": 85, "romance": 62, "safety": 68,
@@ -542,6 +555,7 @@
       "lon": -78.42,
       "type": "region",
       "arch": "mountain-town",
+      "transfer": 3.5,
       "blurb": "A small town wedged between an active volcano and a gorge, where hot springs, canyoning and a swing hung off a tree house at the edge of a cliff draw every adrenaline traveller in Ecuador.",
       "tags": ["swing at the end of the world", "hot springs", "canyoning", "active volcano"],
       "climate": {

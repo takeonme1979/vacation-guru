@@ -56,6 +56,7 @@
       "lon": 116.324,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1.5,
       "blurb": "Bali twenty years ago: an active volcano to trek, empty south-coast surf beaches, and three car-free islands with turtles offshore.",
       "tags": ["volcano", "turtles", "surf", "quiet"],
       "climate": {
@@ -117,6 +118,7 @@
         "luxury": 145
       },
       "r": {
+        "oldTown": 45,
         "historicSites": 96, "religiousSites": 94, "architecture": 88, "localCulture": 96,
         "artScene": 86, "museums": 78, "markets": 86, "theatre": 82, "festivals": 82,
         "streetFood": 88, "foodScene": 84, "volcanic": 86, "hiking": 76, "scenery": 70,
@@ -187,6 +189,7 @@
       "lon": 130.517,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 3,
       "blurb": "The most biodiverse marine environment on the planet — 1,500 islands, 75% of all known coral species, and almost nobody there. Hard to reach, worth it.",
       "tags": ["diving", "remote", "biodiversity", "reefs"],
       "climate": {
@@ -293,6 +296,7 @@
         "luxury": 160
       },
       "r": {
+        "oldTown": 88,
         "streetFood": 100, "foodScene": 98, "markets": 90, "historicSites": 90,
         "architecture": 90, "artScene": 88, "religiousSites": 86, "localCulture": 92,
         "museums": 74, "walkability": 84, "beaches": 58, "swimming": 58, "forests": 70,
@@ -363,6 +367,7 @@
       "lon": 116.073,
       "type": "region",
       "arch": "jungle-eco",
+      "transfer": 1,
       "blurb": "Orangutans and proboscis monkeys on the Kinabatangan river, Southeast Asia's highest peak, and Sipadan — one of the world's great dive sites.",
       "tags": ["orangutans", "jungle", "diving", "trekking"],
       "climate": {
@@ -426,6 +431,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 35,
         "streetFood": 96, "foodScene": 96, "fineDining": 90, "markets": 82, "architecture": 92,
         "museums": 82, "artScene": 80, "shopping": 94, "themeParks": 88, "bars": 86,
         "clubbing": 80, "forests": 74, "wildlife": 72, "publicTransport": 98, "walkability": 84,
@@ -453,6 +459,7 @@
       "lon": 119.417,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 4,
       "blurb": "Limestone islands in impossibly clear lagoons, reached by bangka boat — plus an underground river and the wreck diving of Coron.",
       "tags": ["lagoons", "island hopping", "diving", "karst"],
       "climate": {
@@ -497,6 +504,7 @@
       "lon": 121.925,
       "type": "island",
       "arch": "beach-resort",
+      "transfer": 1.5,
       "blurb": "White Beach is four kilometres of powder-fine sand and legendary sunsets — closed and cleaned up in 2018, and much better for it.",
       "tags": ["beach", "sunsets", "nightlife", "kitesurfing"],
       "climate": {

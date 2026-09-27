@@ -118,6 +118,7 @@
       "crowd":      [42, 42, 45, 48, 52, 55, 58, 58, 54, 48, 44, 42],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 62,
         "timeStrange": 96, "magic": 92, "localCulture": 96, "festivals": 88,
         "feasting": 88, "pipeweed": 82, "forests": 72, "beasts": 88,
         "intrigue": 78, "peoples": 88, "revels": 82, "music": 68, "gambling": 62,
@@ -170,6 +171,7 @@
       "crowd":      [25, 25, 28, 32, 36, 40, 42, 42, 38, 32, 28, 25],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 55,
         "islands": 92, "coast": 88, "swimming": 82, "sailing": 88, "seaMonsters": 78,
         "forests": 78, "adrenaline": 96, "combat": 88, "questing": 88,
         "timeStrange": 96, "magic": 88, "peoples": 78, "beasts": 78,
@@ -332,6 +334,7 @@
       "crowd":      [22, 22, 30, 42, 55, 65, 70, 70, 60, 45, 30, 24],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 25,
         "islands": 96, "coast": 96, "sailing": 100, "swimming": 82, "seaMonsters": 92,
         "scenery": 92, "monsters": 88, "combat": 82, "questing": 96, "prophecy": 92,
         "magic": 82, "temples": 88, "history": 92, "localCulture": 88, "hospitality": 78,
@@ -357,6 +360,7 @@
       "crowd":      [42, 42, 48, 55, 62, 68, 70, 68, 62, 52, 45, 45],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 48,
         "cities": 82, "architecture": 88, "history": 88, "combat": 92, "questing": 96,
         "artefacts": 96, "prophecy": 92, "magic": 78, "wizards": 82, "intrigue": 88,
         "festivals": 88, "feasting": 92, "music": 82, "temples": 72, "romance": 82,
@@ -382,6 +386,7 @@
       "crowd":      [12, 12, 15, 18, 22, 26, 28, 26, 22, 18, 14, 12],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 96,
         "forests": 92, "wilderness": 42, "beasts": 88, "scenery": 78, "rivers": 68,
         "hospitality": 100, "safety": 98, "warRisk": 98, "comfort": 82,
         "familyFriendly": 100, "seniors": 92, "localCulture": 88, "festivals": 72,
@@ -408,6 +413,7 @@
       "crowd":      [32, 32, 34, 36, 38, 40, 42, 42, 39, 36, 33, 32],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 38,
         "architecture": 100, "cities": 78, "history": 92, "libraries": 92,
         "ruins": 82, "underground": 82, "intrigue": 96, "localCulture": 96,
         "festivals": 62, "temples": 55, "artefacts": 62, "climbing": 72,

@@ -113,6 +113,7 @@
         "luxury": 480
       },
       "r": {
+        "oldTown": 30,
         "beaches": 88, "swimming": 90, "snorkelling": 82, "scuba": 78, "islands": 88,
         "sailing": 82, "kayaking": 72, "hiking": 78, "mountains": 62, "historicSites": 90,
         "architecture": 78, "scenery": 85, "wildlife": 62, "romance": 92, "foodScene": 75,
@@ -138,6 +139,7 @@
       "lon": -64.62,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1,
       "blurb": "The Caribbean's sailing capital — sixty islands close enough together to hop between under sail every day, with the Baths' giant granite boulders forming grottoes you swim through.",
       "tags": ["the baths", "sailing capital", "bareboat charter", "island hopping"],
       "climate": {

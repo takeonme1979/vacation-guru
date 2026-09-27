@@ -28,6 +28,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 15,
         "foodScene": 96, "streetFood": 98, "beer": 100, "coffee": 96, "wine": 88, "bars": 92,
         "artScene": 88, "museums": 78, "shopping": 82, "markets": 82, "walkability": 88,
         "cycling": 96, "publicTransport": 82, "lakesRivers": 78, "hiking": 85, "mountains": 78,
@@ -53,6 +54,7 @@
       "lon": -105.938,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "Adobe architecture protected by law, the oldest capital city in the US, a genuinely serious art market, and green chile on absolutely everything.",
       "tags": ["adobe architecture", "green chile", "art market", "pueblo"],
       "climate": {
@@ -71,6 +73,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 80,
         "artScene": 98, "museums": 92, "architecture": 92, "historicSites": 88,
         "religiousSites": 78, "localCulture": 92, "markets": 82, "shopping": 82, "foodScene": 92,
         "fineDining": 88, "wine": 68, "mountains": 78, "hiking": 85, "skiing": 68, "scenery": 88,
@@ -96,6 +99,7 @@
       "lon": -75.47,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 2,
       "blurb": "A hundred miles of barrier islands where the Wright brothers first flew, wild ponies still roam a beach with no road, and lighthouses mark a coast known for wrecking ships.",
       "tags": ["wild ponies", "wright brothers", "lighthouses", "barrier islands"],
       "climate": {
@@ -138,6 +142,7 @@
       "lon": -111.76,
       "type": "region",
       "arch": "desert",
+      "transfer": 2,
       "blurb": "Red rock buttes glowing at sunset, said by some to sit on energy vortexes, with world-class mountain biking and Slide Rock's natural water chute for when it gets hot.",
       "tags": ["red rocks", "vortexes", "mountain biking", "slide rock"],
       "climate": {
@@ -180,6 +185,7 @@
       "lon": -80.9,
       "type": "wetland",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "A river of grass sixty miles wide, alligators and manatees in the same water, and a highway running 113 miles across bridges to a bar in Key West at the end of it.",
       "tags": ["alligators", "airboat", "overseas highway", "key west"],
       "climate": {
@@ -223,6 +229,7 @@
       "lon": -113.8,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "A hundred jagged peaks straddling the US-Canada border on the Going-to-the-Sun Road, with grizzlies, mountain goats, and glaciers that are visibly disappearing.",
       "tags": ["going-to-the-sun road", "grizzlies", "glaciers", "border park"],
       "climate": {
@@ -265,6 +272,7 @@
       "lon": -123.6,
       "type": "wilderness",
       "arch": "wilderness-park",
+      "transfer": 3,
       "blurb": "Rainforest, glaciated mountains and a wild Pacific coast in a single park — moss-draped Hoh Rainforest gets twelve feet of rain a year, and the coastline nearby gets none of the crowds.",
       "tags": ["hoh rainforest", "pacific coast", "moss", "tide pools"],
       "climate": {
@@ -306,6 +314,7 @@
       "lon": -72.58,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 1,
       "blurb": "Covered bridges, maple syrup and white church spires, at their absolute best for two weeks in October when the whole state turns red and gold.",
       "tags": ["fall foliage", "covered bridges", "maple syrup", "ski towns"],
       "climate": {
@@ -348,6 +357,7 @@
       "lon": -121.81,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2.5,
       "blurb": "Ninety miles of Highway 1 clinging to cliffs above the Pacific, redwoods running down to the sea, and a bridge that has appeared in more car adverts than any road in the world.",
       "tags": ["highway 1", "bixby bridge", "redwoods", "mcway falls"],
       "climate": {
@@ -391,6 +401,7 @@
       "lon": -84.62,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 3,
       "blurb": "A freshwater island where cars have been banned since 1898 — fudge shops, horse-drawn carriages, and Lake Michigan's dune-backed coast a ferry ride away.",
       "tags": ["no cars", "fudge", "sand dunes", "freshwater"],
       "climate": {
@@ -452,6 +463,7 @@
         "luxury": 310
       },
       "r": {
+        "oldTown": 55,
         "historicSites": 94, "museums": 85, "architecture": 82, "religiousSites": 82,
         "localCulture": 92, "markets": 82, "foodScene": 92, "streetFood": 88, "walkability": 88,
         "bars": 82, "liveMusic": 82, "festivals": 88, "familyYoungKids": 85, "themeParks": 85,
@@ -476,6 +488,7 @@
       "lon": -89.36,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 1,
       "blurb": "Central America's most consistent point breaks, volcanoes you can climb before breakfast, and pupusas griddled fresh on every corner — still years behind Costa Rica on price.",
       "tags": ["surfing", "pupusas", "volcanoes", "el tunco"],
       "climate": {
@@ -519,6 +532,7 @@
       "lon": -91.98,
       "type": "region",
       "arch": "jungle-eco",
+      "transfer": 1.25,
       "blurb": "Maya temples rising out of jungle canopy, a canyon a thousand metres deep with crocodiles at the bottom, and San Cristóbal's highland markets in cloud most mornings.",
       "tags": ["palenque", "sumidero canyon", "san cristobal", "maya"],
       "climate": {
@@ -536,6 +550,7 @@
         "luxury": 175
       },
       "r": {
+        "oldTown": 80,
         "historicSites": 96, "architecture": 90, "museums": 68, "religiousSites": 62,
         "forests": 92, "wildlife": 88, "nationalParks": 85, "hiking": 82, "lakesRivers": 85,
         "kayaking": 72, "scenery": 90, "localCulture": 92, "markets": 88, "foodScene": 82,
@@ -578,6 +593,7 @@
         "luxury": 190
       },
       "r": {
+        "oldTown": 60,
         "architecture": 88, "historicSites": 85, "museums": 82, "religiousSites": 82,
         "localCulture": 92, "markets": 88, "liveMusic": 92, "festivals": 88, "foodScene": 92,
         "streetFood": 90, "wine": 88, "bars": 88, "clubbing": 82, "walkability": 82,
@@ -603,6 +619,7 @@
       "lon": -107.65,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 5,
       "blurb": "A canyon system four times the size of the Grand Canyon, crossed by a railway engineers said could not be built, through Tarahumara country where people still run a hundred miles for fun.",
       "tags": ["el chepe railway", "tarahumara", "bigger than grand canyon", "zip lines"],
       "climate": {
@@ -665,6 +682,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 30,
         "beaches": 88, "swimming": 55, "scenery": 88, "cycling": 88, "hiking": 78, "sailing": 78,
         "kayaking": 78, "fishing": 88, "localCulture": 88, "historicSites": 78, "roadTrip": 85,
         "foodScene": 85, "englishSpoken": 100, "safety": 96, "valueForMoney": 78,
@@ -689,6 +707,7 @@
       "lon": -125.9,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 4,
       "blurb": "A surf town at the edge of the temperate rainforest, storm-watching in winter, whale watching in summer, and old-growth cedars a few minutes from the beach.",
       "tags": ["surfing", "storm watching", "old growth", "whale watching"],
       "climate": {

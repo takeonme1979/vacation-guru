@@ -11,6 +11,7 @@
       "lon": -75.57,
       "type": "region",
       "arch": "mountain-town",
+      "transfer": 1,
       "blurb": "Steep green Andean valleys covered in coffee, with the Cocora Valley's 60-metre wax palms standing above the cloud like something that got the scale wrong.",
       "tags": ["wax palms", "coffee fincas", "salento", "jeep willys"],
       "climate": {
@@ -52,6 +53,7 @@
       "lon": -74.06,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 1,
       "blurb": "Jungle running straight into the Caribbean, with the Sierra Nevada rising to 5,700m behind it — snow and coral within forty miles of each other.",
       "tags": ["tayrona", "sierra nevada", "lost city", "jungle beaches"],
       "climate": {
@@ -112,6 +114,7 @@
         "luxury": 185
       },
       "r": {
+        "oldTown": 60,
         "museums": 92, "historicSites": 82, "architecture": 78, "artScene": 92,
         "localCulture": 88, "markets": 85, "theatre": 78, "liveMusic": 88, "festivals": 85,
         "foodScene": 88, "streetFood": 85, "fineDining": 82, "coffee": 96, "bars": 88,
@@ -155,6 +158,7 @@
         "luxury": 165
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 92, "architecture": 94, "museums": 82, "religiousSites": 88,
         "localCulture": 88, "markets": 85, "mountains": 92, "volcanic": 92, "hiking": 90,
         "climbing": 82, "scenery": 92, "wildlife": 78, "nationalParks": 82, "adrenaline": 78,
@@ -180,6 +184,7 @@
       "lon": -77.53,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 7,
       "blurb": "The highest tropical mountain range on earth: sixteen peaks over 6,000m, glacial lakes the colour of antifreeze, and the Santa Cruz trek to walk between them.",
       "tags": ["cordillera blanca", "laguna 69", "santa cruz trek", "6000m peaks"],
       "climate": {
@@ -239,6 +244,7 @@
         "luxury": 125
       },
       "r": {
+        "oldTown": 40,
         "mountains": 88, "scenery": 88, "hiking": 85, "cycling": 92, "adrenaline": 94,
         "markets": 92, "localCulture": 94, "historicSites": 78, "museums": 72,
         "architecture": 68, "publicTransport": 88, "streetFood": 85, "foodScene": 78,
@@ -282,6 +288,7 @@
         "luxury": 115
       },
       "r": {
+        "oldTown": 90,
         "historicSites": 92, "architecture": 92, "museums": 82, "religiousSites": 85,
         "localCulture": 92, "markets": 88, "walkability": 88, "mountains": 72, "hiking": 68,
         "scenery": 72, "foodScene": 68, "streetFood": 78, "festivals": 82, "backpacker": 88,
@@ -306,6 +313,7 @@
       "lon": -71.62,
       "type": "city",
       "arch": "coastal-city",
+      "transfer": 1.5,
       "blurb": "Forty-two hills of corrugated-iron houses painted every colour there is, joined by Victorian funiculars, with the best street art in the hemisphere on every wall.",
       "tags": ["cerros", "funiculars", "street art", "neruda"],
       "climate": {
@@ -324,6 +332,7 @@
         "luxury": 200
       },
       "r": {
+        "oldTown": 70,
         "artScene": 96, "architecture": 88, "historicSites": 82, "museums": 78,
         "localCulture": 90, "liveMusic": 82, "bars": 85, "festivals": 78, "beaches": 55,
         "scenery": 90, "walkability": 72, "foodScene": 85, "fineDining": 78, "wine": 92,
@@ -349,6 +358,7 @@
       "lon": -71.955,
       "type": "lake",
       "arch": "mountain-town",
+      "transfer": 1.5,
       "blurb": "A perfect cone of a volcano you can climb in a day and ski down in winter, ringed by lakes, hot springs and the last of the monkey-puzzle forests.",
       "tags": ["villarrica volcano", "hot springs", "araucaria", "mapuche"],
       "climate": {
@@ -392,6 +402,7 @@
       "lon": -44.713,
       "type": "coast",
       "arch": "historic-city",
+      "transfer": 4,
       "blurb": "A Portuguese gold-rush port of white houses and cobbles so uneven they were designed to flood at spring tide, with 65 islands and 300 beaches offshore.",
       "tags": ["colonial", "schooner trips", "cachaça", "atlantic forest"],
       "climate": {
@@ -410,6 +421,7 @@
         "luxury": 230
       },
       "r": {
+        "oldTown": 90,
         "historicSites": 90, "architecture": 90, "localCulture": 85, "artScene": 78,
         "beaches": 88, "swimming": 82, "sailing": 92, "snorkelling": 68, "kayaking": 82,
         "islands": 88, "forests": 90, "hiking": 82, "wildlife": 78, "scenery": 92,
@@ -435,6 +447,7 @@
       "lon": -43.128,
       "type": "region",
       "arch": "desert",
+      "transfer": 4,
       "blurb": "1,500 square kilometres of white dunes that fill with rainwater every July, becoming a desert full of turquoise freshwater lagoons you can swim across.",
       "tags": ["dunes", "lagoons", "seasonal", "atins"],
       "climate": {
@@ -476,6 +489,7 @@
       "lon": -56.6,
       "type": "region",
       "arch": "wilderness-park",
+      "transfer": 4,
       "blurb": "The world's largest wetland, and by some distance the best place on earth to see a jaguar. Down the road, rivers so clear you snorkel them like an aquarium.",
       "tags": ["jaguars", "wetland", "snorkelling rivers", "caiman"],
       "climate": {
@@ -535,6 +549,7 @@
         "luxury": 185
       },
       "r": {
+        "oldTown": 70,
         "desert": 92, "mountains": 92, "scenery": 96, "roadTrip": 96, "hiking": 85,
         "nationalParks": 85, "stargazing": 94, "wine": 92, "historicSites": 82,
         "architecture": 78, "localCulture": 92, "markets": 85, "festivals": 78, "liveMusic": 88,

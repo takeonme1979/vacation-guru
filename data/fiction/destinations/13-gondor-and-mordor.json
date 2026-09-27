@@ -1,0 +1,229 @@
+{
+  "_doc": "The rest of Gondor and the rest of Mordor. Minas Tirith and Osgiliath were already here; this is the sea-fief, the river-haven, the herb country on the border, the two ways in over the mountains, and the mountain everything is walking towards. Photo topics name real places, as everywhere in this world.",
+  "destinations": [
+    {
+      "id": "dol-amroth", "name": "Dol Amroth", "country": "ME", "region": "Belfalas", "continent": "High Fantasy",
+      "type": "coast", "arch": "island-kingdom",
+      "blurb": "A white castle on a green headland above a warm sea, with knights in swan-winged helms and the only beach holiday in Gondor. The princes here have elvish blood and better manners than anyone in Minas Tirith.",
+      "about": "Dol Amroth is the one part of Gondor that reads like a holiday: a sea-fief with its own fleet, its own accent and a ruling house said to descend from a marriage with the elves of the vanished haven up the coast. Imrahil brings its swan-knights to the siege of Minas Tirith, and they are the only reinforcements that arrive on time.",
+      "tags": ["swan knights", "sea castle", "beaches", "princes"],
+      "climate": {
+        "tempHigh": [13, 13, 15, 18, 22, 26, 29, 29, 26, 21, 17, 14],
+        "tempLow":  [7, 7, 8, 10, 14, 18, 20, 20, 18, 14, 10, 8],
+        "rainDays": [10, 9, 8, 6, 4, 2, 1, 1, 4, 8, 10, 11],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 9, 7, 5, 4],
+        "humidity": [76, 75, 74, 73, 71, 68, 66, 68, 71, 75, 77, 77],
+        "seaTemp":  [14, 13, 14, 15, 18, 22, 25, 26, 24, 21, 18, 16]
+      },
+      "crowd":      [42, 42, 48, 55, 65, 75, 82, 82, 72, 58, 45, 45],
+      "costTier": 3,
+      "r": {
+        "soloFemaleSafety": 82,
+        "swimming": 88, "sailing": 92, "coast": 98, "islands": 55, "scenery": 92,
+        "architecture": 88, "luxury": 88, "comfort": 82, "romance": 85, "seniors": 78,
+        "foodScene": 85, "wine": 88, "feasting": 82, "festivals": 78, "music": 82,
+        "history": 88, "localCulture": 88, "cities": 68, "markets": 68, "shopping": 62,
+        "safety": 68, "warRisk": 42, "lawAndOrder": 72, "commonTongue": 92, "healing": 68,
+        "gettingThere": 62, "gettingBack": 72, "familyFriendly": 78, "combat": 45,
+        "monsters": 12, "undead": 8, "magic": 32, "seaMonsters": 42, "questing": 32
+      },
+      "photos": ["Dunnottar Castle Scotland cliffs", "Turquoise bay limestone cliffs Mediterranean", "Coastal fortress ramparts sea", "Knight in plate armour reenactment", "Sandy beach green headland Cornwall", "Whitewashed harbour town sea wall"]
+    },
+    {
+      "id": "ithilien", "name": "Ithilien", "country": "ME", "region": "Eastern Gondor", "continent": "High Fantasy",
+      "type": "forest", "arch": "pastoral-idyll",
+      "blurb": "The garden of Gondor gone feral — olive, bay and terebinth growing over abandoned terraces, rabbit stewed with herbs, and an enemy border two valleys east.",
+      "about": "Tolkien spends pages here on the smell of crushed leaves precisely because it is the last green thing before Mordor. Faramir's rangers keep a lodging behind the waterfall at Henneth Annûn and blindfold anyone they bring in. After the war it was cleared and made a princedom, which is as close as the book comes to a happy ending for a landscape.",
+      "tags": ["herbs", "rangers", "henneth annûn", "borderland"],
+      "climate": {
+        "tempHigh": [11, 12, 15, 19, 24, 29, 32, 31, 27, 21, 16, 12],
+        "tempLow":  [3, 4, 6, 9, 13, 17, 20, 19, 16, 11, 7, 4],
+        "rainDays": [11, 10, 9, 7, 5, 2, 1, 2, 4, 8, 11, 12],
+        "sunHours": [4, 5, 6, 8, 10, 12, 12, 11, 9, 6, 4, 3],
+        "humidity": [78, 76, 73, 70, 67, 60, 55, 57, 64, 72, 77, 79]
+      },
+      "crowd":      [8, 8, 10, 14, 18, 22, 24, 22, 20, 15, 10, 8],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 45,
+        "forests": 92, "scenery": 92, "wilderness": 82, "hiking": 88, "rivers": 82,
+        "wandering": 92, "stargazing": 78, "beasts": 72, "ruins": 62, "history": 78,
+        "foodScene": 78, "vegetarian": 88, "wine": 55, "ale": 32, "feasting": 45,
+        "questing": 68, "combat": 55, "monsters": 48, "warRisk": 18, "safety": 32,
+        "lawAndOrder": 32, "hospitality": 55, "comfort": 32, "luxury": 12, "healing": 55,
+        "cities": 5, "markets": 5, "taverns": 8, "shopping": 3, "festivals": 15,
+        "familyFriendly": 22, "seniors": 25, "soloTravel": 42, "gettingThere": 32, "gettingBack": 45
+      },
+      "photos": ["Olive grove terraces Greece", "Mediterranean maquis scrubland flowering", "Waterfall over cave mouth", "Wild rosemary flowering hillside", "Overgrown terraced hillside ruins", "Cypress trees valley Tuscany"]
+    },
+    {
+      "id": "pelargir", "name": "Pelargir", "country": "ME", "region": "Lebennin", "continent": "High Fantasy",
+      "type": "city", "arch": "island-kingdom",
+      "blurb": "Gondor's great river-haven: shipyards, salt air, ten miles of quay, and a corsair problem that was eventually solved by hiring the dead.",
+      "about": "Pelargir was the port of the Faithful before Gondor existed, and it is where Aragorn brings the Oathbreakers ashore to take the corsair fleet — the hour the war stops being lost. The reinforcements that turn the Pelennor sail up the Anduin from here, which is why the black ships coming into view are the most frightening thing Minas Tirith sees all day.",
+      "tags": ["harbour", "shipyards", "corsairs", "black ships"],
+      "climate": {
+        "tempHigh": [13, 14, 17, 21, 26, 30, 33, 33, 29, 23, 18, 14],
+        "tempLow":  [6, 7, 9, 12, 16, 20, 23, 23, 20, 15, 11, 7],
+        "rainDays": [11, 10, 9, 6, 4, 1, 0, 1, 3, 7, 10, 12],
+        "sunHours": [4, 5, 6, 8, 10, 12, 13, 12, 10, 7, 5, 4],
+        "humidity": [80, 78, 76, 73, 70, 66, 64, 66, 71, 76, 80, 81],
+        "seaTemp":  [15, 14, 15, 17, 20, 24, 27, 28, 26, 22, 19, 16]
+      },
+      "crowd":      [58, 58, 62, 68, 72, 78, 82, 82, 78, 68, 60, 58],
+      "costTier": 2,
+      "r": {
+        "soloFemaleSafety": 48,
+        "coast": 92, "sailing": 96, "rivers": 88, "cities": 82, "markets": 88,
+        "shopping": 78, "foodScene": 82, "feasting": 78, "taverns": 88, "ale": 82,
+        "wine": 82, "festivals": 68, "architecture": 72, "history": 92, "ruins": 45,
+        "undead": 62, "intrigue": 72, "combat": 62, "warRisk": 25, "safety": 48,
+        "lawAndOrder": 55, "commonTongue": 92, "gettingThere": 68, "gettingBack": 72,
+        "swimming": 62, "seaMonsters": 35, "luxury": 55, "comfort": 62,
+        "familyFriendly": 55, "seniors": 52, "magic": 25, "gambling": 68
+      },
+      "photos": ["Historic tall ships in harbour", "Old Mediterranean port waterfront", "Wooden shipyard slipway construction", "River delta aerial marshes", "Stone quay mooring bollards", "Rowing galley replica oars"]
+    },
+    {
+      "id": "minas-morgul", "name": "Minas Morgul", "country": "ME", "region": "The Morgul Vale", "continent": "High Fantasy",
+      "type": "city", "arch": "dark-realm",
+      "blurb": "A beautiful white city lit from the inside by a corpse-light, in a flowering valley that smells of rot. Every window is open. Nothing that looks out of them is anyone you want to meet.",
+      "about": "It was Minas Ithil, the Tower of the Rising Moon, and Gondor built it to watch Mordor. The Nazgûl took it in 2002 of the Third Age and have held it since. The flowers in the valley are Tolkien's own detail — beautiful and yet horrible of shape, like the demented forms in an uneasy dream — and the road out of the city climbs the stairs towards Shelob.",
+      "tags": ["nazgûl", "corpse light", "dead city", "the stairs"],
+      "climate": {
+        "tempHigh": [9, 10, 13, 17, 21, 25, 28, 27, 24, 18, 13, 10],
+        "tempLow":  [2, 2, 4, 7, 11, 15, 17, 17, 14, 9, 5, 2],
+        "rainDays": [13, 12, 12, 11, 9, 6, 4, 5, 8, 11, 13, 14],
+        "sunHours": [2, 2, 3, 4, 5, 6, 6, 6, 4, 3, 2, 1],
+        "humidity": [90, 89, 87, 85, 83, 79, 76, 78, 83, 87, 90, 91]
+      },
+      "crowd":      [30, 30, 32, 35, 38, 42, 45, 45, 42, 36, 32, 30],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 0,
+        "cities": 78, "architecture": 88, "ruins": 68, "undead": 96, "monsters": 92,
+        "magic": 88, "artefacts": 68, "prophecy": 78, "intrigue": 72, "combat": 92,
+        "questing": 92, "timeStrange": 45, "scenery": 55, "forests": 25, "rivers": 42,
+        "safety": 1, "survivability": 4, "gettingBack": 6, "gettingThere": 18,
+        "comfort": 2, "healing": 2, "hospitality": 1, "foodScene": 1, "feasting": 1,
+        "vegetarian": 8, "taverns": 1, "ale": 2, "music": 3, "revels": 1, "gambling": 8,
+        "familyFriendly": 0, "seniors": 0, "romance": 2, "luxury": 3, "warRisk": 2,
+        "lawAndOrder": 5, "stargazing": 8, "libraries": 12
+      },
+      "photos": ["Abandoned palace at night fog", "Stone tower in moonlight", "Derelict grand hall interior decay", "Green fog forest night", "Gothic spires silhouette moon", "Deep mountain valley at dusk"]
+    },
+    {
+      "id": "cirith-ungol", "name": "Cirith Ungol", "country": "ME", "region": "The Ephel Dúath", "continent": "High Fantasy",
+      "type": "fortress", "arch": "dark-realm",
+      "blurb": "A stair, a tunnel and a tower, in that order. The tunnel is occupied. Nobody has ever recommended this route and two hobbits took it anyway.",
+      "about": "Shelob is older than Sauron's service and keeps the pass for reasons of her own. The tower above was built by Gondor to keep things in, and now holds a garrison that wipes itself out in a quarrel over a mithril shirt — the one piece of luck in the whole journey. It is the most claustrophobic thing Tolkien wrote and the only way into Mordor on foot.",
+      "tags": ["shelob", "the stairs", "tower", "orcs"],
+      "climate": {
+        "tempHigh": [14, 16, 20, 25, 31, 36, 39, 38, 33, 26, 19, 15],
+        "tempLow":  [4, 5, 8, 12, 17, 22, 25, 24, 20, 14, 9, 5],
+        "rainDays": [3, 3, 2, 1, 0, 0, 0, 0, 0, 1, 2, 3],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 8, 6, 5, 4, 3],
+        "humidity": [40, 38, 34, 28, 22, 16, 14, 15, 20, 28, 36, 40]
+      },
+      "crowd":      [15, 15, 16, 18, 20, 24, 26, 26, 22, 18, 16, 15],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 0,
+        "climbing": 92, "adrenaline": 92, "monsters": 100, "combat": 92, "questing": 96,
+        "underground": 92, "mountains": 88, "ruins": 55, "artefacts": 72, "magic": 62,
+        "fellowship": 88, "scenery": 45, "stargazing": 25, "wilderness": 78,
+        "safety": 0, "survivability": 2, "gettingBack": 4, "gettingThere": 8,
+        "comfort": 1, "healing": 1, "hospitality": 0, "foodScene": 0, "feasting": 0,
+        "vegetarian": 5, "taverns": 0, "ale": 2, "wine": 0, "music": 1, "revels": 0,
+        "familyFriendly": 0, "seniors": 0, "romance": 1, "luxury": 0, "libraries": 2,
+        "cities": 5, "markets": 2, "shopping": 0, "warRisk": 3, "lawAndOrder": 2
+      },
+      "photos": ["Narrow rock stairway cliff face", "Dark cave tunnel entrance rock", "Spider web covered in dew", "Ruined watchtower mountain pass", "Rocky mountain pass Atlas", "Cave passage lantern light"]
+    },
+    {
+      "id": "rauros", "name": "The Argonath & Rauros", "country": "ME", "region": "The Anduin", "continent": "High Fantasy",
+      "type": "valley", "arch": "lost-world",
+      "blurb": "Two colossal stone kings guarding a river gorge, a long lake, and a waterfall that ends the boat journey for everybody. Best seen at dawn from something small, which is exactly how it is meant to be seen.",
+      "about": "The Argonath are Isildur and Anárion, left hands raised in warning, carved when Gondor's northern border still meant something. Above the falls the Fellowship breaks: Frodo climbs Amon Hen, sits in the Seat of Seeing, and decides to go on alone. Rauros itself is a drop nobody portages in a hurry, and Boromir goes over it in a boat.",
+      "tags": ["argonath", "waterfall", "amon hen", "the breaking"],
+      "climate": {
+        "tempHigh": [7, 8, 12, 17, 22, 26, 29, 28, 24, 18, 12, 8],
+        "tempLow":  [0, 1, 3, 7, 11, 15, 17, 17, 14, 9, 4, 1],
+        "rainDays": [10, 9, 9, 8, 7, 6, 5, 5, 7, 9, 10, 11],
+        "sunHours": [3, 4, 5, 7, 8, 9, 10, 9, 7, 5, 3, 3],
+        "humidity": [82, 80, 77, 74, 71, 68, 65, 67, 72, 78, 82, 83]
+      },
+      "crowd":      [10, 10, 14, 20, 28, 35, 40, 38, 30, 20, 12, 10],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 35,
+        "rivers": 98, "scenery": 96, "architecture": 88, "history": 88, "ruins": 62,
+        "sailing": 55, "wilderness": 88, "hiking": 78, "climbing": 62, "forests": 72,
+        "questing": 88, "prophecy": 78, "timeStrange": 45, "adrenaline": 68, "stargazing": 82,
+        "artefacts": 55, "magic": 32, "monsters": 45, "combat": 55, "wandering": 88,
+        "soloTravel": 55, "romance": 62, "safety": 32, "survivability": 45, "comfort": 18,
+        "hospitality": 18, "foodScene": 15, "feasting": 12, "taverns": 2, "markets": 2,
+        "cities": 2, "luxury": 8, "familyFriendly": 18, "seniors": 12,
+        "gettingThere": 42, "gettingBack": 55
+      },
+      "photos": ["Abu Simbel colossal statues Egypt", "Large waterfall river gorge", "Dettifoss waterfall Iceland", "River canyon cliffs from water", "Canoe on wide river dawn", "Carved rock monument cliff face"]
+    },
+    {
+      "id": "orodruin", "name": "Orodruin", "country": "ME", "region": "Mordor", "continent": "High Fantasy",
+      "type": "volcanic", "arch": "dark-realm",
+      "blurb": "Mount Doom: a cinder cone with a road up it, a chamber cut into its side, and the only fire in the world hot enough to unmake the Ring. Nothing else to see, and everyone goes anyway.",
+      "about": "The Sammath Naur is the place the entire book walks towards, and when Frodo finally stands in it he fails — he claims the Ring, and it is Gollum's greed and a misplaced foot that finish the errand. Tolkien thought that the point: the quest is completed by a mercy shown years earlier, not by anybody's strength of will.",
+      "tags": ["mount doom", "sammath naur", "cracks of doom", "the errand"],
+      "climate": {
+        "tempHigh": [30, 32, 36, 41, 46, 50, 52, 51, 47, 40, 34, 30],
+        "tempLow":  [18, 19, 22, 26, 31, 35, 37, 36, 33, 27, 22, 18],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "humidity": [18, 17, 15, 12, 10, 8, 8, 9, 11, 14, 17, 18]
+      },
+      "crowd":      [6, 6, 7, 8, 10, 12, 14, 14, 11, 8, 7, 6],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 0,
+        "volcanic": 100, "mountains": 92, "adrenaline": 88, "questing": 100, "artefacts": 100,
+        "prophecy": 96, "magic": 92, "undead": 42, "monsters": 88, "combat": 82,
+        "climbing": 88, "underground": 88, "ruins": 32, "wilderness": 92, "hiking": 55,
+        "fellowship": 92, "timeStrange": 25, "scenery": 42, "stargazing": 5,
+        "safety": 0, "survivability": 1, "gettingBack": 3, "gettingThere": 5,
+        "comfort": 0, "healing": 1, "hospitality": 0, "foodScene": 0, "feasting": 0,
+        "vegetarian": 2, "ale": 0, "wine": 0, "taverns": 0, "music": 0, "revels": 0,
+        "gambling": 0, "familyFriendly": 0, "seniors": 0, "romance": 2, "luxury": 0,
+        "libraries": 0, "cities": 2, "markets": 0, "shopping": 0, "warRisk": 2, "lawAndOrder": 2
+      },
+      "photos": ["Volcano crater glowing lava night", "Mount Etna eruption Sicily", "Molten lava flow close up", "Cinder cone volcanic slope ash", "Fumarole steam crater rim", "Lava tube cave interior"]
+    },
+    {
+      "id": "nurn", "name": "Nurn", "country": "ME", "region": "Southern Mordor", "continent": "High Fantasy",
+      "type": "plains", "arch": "dark-realm",
+      "blurb": "Mordor's breadbasket: irrigated fields around a bitter inland sea, worked by slaves, feeding the armies. Grim, fertile, and startlingly ordinary for the address.",
+      "about": "Armies have to eat, and Tolkien did not forget it: the great slave-worked fields around the Sea of Núrnen are what make Mordor a country rather than a monster's lair. Nurn is also the site of the war's quietest good decision — Aragorn freed the land and gave it outright to the people who had been farming it, which is the only land reform in the legendarium.",
+      "tags": ["núrnen", "slave fields", "irrigation", "freed after the war"],
+      "climate": {
+        "tempHigh": [18, 20, 25, 30, 35, 39, 41, 40, 36, 29, 23, 19],
+        "tempLow":  [8, 9, 13, 17, 22, 26, 28, 27, 24, 18, 13, 9],
+        "rainDays": [4, 4, 3, 2, 1, 0, 0, 0, 1, 2, 3, 4],
+        "sunHours": [4, 5, 6, 7, 8, 8, 8, 8, 7, 6, 5, 4],
+        "humidity": [55, 52, 48, 42, 36, 30, 28, 30, 36, 44, 52, 56],
+        "seaTemp":  [10, 10, 13, 18, 23, 27, 29, 29, 26, 21, 16, 12]
+      },
+      "crowd":      [48, 48, 52, 58, 62, 65, 68, 68, 65, 58, 52, 48],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 12,
+        "plains": 88, "rivers": 62, "coast": 55, "desert": 55, "wilderness": 62,
+        "localCulture": 68, "history": 62, "ruins": 42, "intrigue": 55, "combat": 62,
+        "questing": 55, "monsters": 55, "undead": 22, "magic": 32, "stargazing": 45,
+        "markets": 42, "taverns": 22, "ale": 32, "feasting": 22, "foodScene": 32,
+        "vegetarian": 55, "sailing": 32, "swimming": 15, "seaMonsters": 12, "scenery": 32,
+        "warRisk": 12, "safety": 18, "lawAndOrder": 22, "comfort": 12, "luxury": 3,
+        "hospitality": 32, "familyFriendly": 8, "seniors": 8, "gettingThere": 12, "gettingBack": 25
+      },
+      "photos": ["Irrigated fields desert oasis", "Dead Sea shoreline salt", "Farm workers harvesting by hand", "Dead Sea salt shoreline", "Irrigation channel through fields", "Dried lake bed cracked mud"]
+    }
+  ]
+}

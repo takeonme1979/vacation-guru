@@ -11,6 +11,7 @@
       "lon": -5.264,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 3,
       "blurb": "A mountain town painted every shade of blue, small enough to walk in an afternoon and pleasant enough that most people stay three days longer than planned.",
       "tags": ["blue city", "rif mountains", "medina", "slow"],
       "climate": {
@@ -28,6 +29,7 @@
         "luxury": 150
       },
       "r": {
+        "oldTown": 93,
         "mountains": 82, "scenery": 88, "hiking": 78, "nationalParks": 62, "historicSites": 68,
         "architecture": 88, "localCulture": 88, "markets": 82, "walkability": 88, "artScene": 62,
         "romance": 78, "foodScene": 68, "streetFood": 72, "vegetarian": 72, "coffee": 72,
@@ -70,6 +72,7 @@
         "luxury": 175
       },
       "r": {
+        "oldTown": 78,
         "beaches": 68, "swimming": 62, "scenery": 72, "historicSites": 78, "architecture": 78,
         "museums": 62, "artScene": 72, "localCulture": 88, "markets": 85, "foodScene": 78,
         "streetFood": 78, "walkability": 78, "publicTransport": 62, "bars": 68, "liveMusic": 68,
@@ -136,6 +139,7 @@
       "lon": 34.513,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 1.25,
       "blurb": "A Bedouin town on the Gulf of Aqaba where the reef starts a few metres offshore and the Blue Hole draws divers who really ought to know better.",
       "tags": ["diving", "blue hole", "bedouin", "red sea"],
       "climate": {
@@ -196,6 +200,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 35,
         "historicSites": 88, "museums": 72, "localCulture": 92, "markets": 88, "liveMusic": 90,
         "bars": 78, "artScene": 82, "festivals": 82, "beaches": 62, "swimming": 45,
         "foodScene": 72, "streetFood": 85, "englishSpoken": 88, "soloTravel": 68,
@@ -238,6 +243,7 @@
         "luxury": 190
       },
       "r": {
+        "oldTown": 50,
         "historicSites": 82, "museums": 72, "localCulture": 92, "markets": 88, "liveMusic": 94,
         "bars": 72, "artScene": 85, "festivals": 78, "beaches": 68, "surfing": 82,
         "swimming": 62, "sailing": 62, "foodScene": 78, "streetFood": 82, "halal": 92,
@@ -262,6 +268,7 @@
       "lon": 29.628,
       "type": "region",
       "arch": "safari",
+      "transfer": 3,
       "blurb": "Mountain gorillas in a forest that has been standing for 25,000 years, plus chimpanzees at Kibale and tree-climbing lions in Queen Elizabeth. Green, steep and very wet.",
       "tags": ["gorillas", "chimpanzees", "rift valley", "impenetrable forest"],
       "climate": {
@@ -303,6 +310,7 @@
       "lon": 31.79,
       "type": "region",
       "arch": "safari",
+      "transfer": 1,
       "blurb": "The birthplace of the walking safari, and still the best place to do one. Leopards at a density found almost nowhere else, and a river full of hippos to fall asleep to.",
       "tags": ["walking safari", "leopards", "luangwa river", "few vehicles"],
       "climate": {
@@ -344,6 +352,7 @@
       "lon": 35.34,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 1.5,
       "blurb": "A thousand miles of Indian Ocean that most people fly over. Dhows, whale sharks off Tofo, and the Bazaruto archipelago's sandbars turning turquoise at low tide.",
       "tags": ["whale sharks", "dhows", "bazaruto", "prawns"],
       "climate": {
@@ -404,6 +413,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 25,
         "mountains": 96, "hiking": 98, "scenery": 98, "volcanic": 98, "nationalParks": 92,
         "climbing": 85, "adrenaline": 88, "beaches": 68, "swimming": 55, "snorkelling": 68,
         "forests": 88, "wildlife": 62, "localCulture": 82, "foodScene": 82, "vegetarian": 68,
@@ -428,6 +438,7 @@
       "lon": 29.4,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 3,
       "blurb": "A 200km basalt escarpment with the world's second-highest waterfall down one side and 40,000 San rock paintings tucked into the caves along it.",
       "tags": ["escarpment", "rock art", "amphitheatre", "hiking"],
       "climate": {
@@ -488,6 +499,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 92,
         "beaches": 85, "swimming": 82, "sailing": 92, "snorkelling": 68, "islands": 90,
         "historicSites": 92, "architecture": 90, "localCulture": 94, "markets": 78,
         "walkability": 92, "romance": 90, "scenery": 82, "foodScene": 78, "halal": 90,
@@ -512,6 +524,7 @@
       "lon": 38.07,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 3,
       "blurb": "Escarpments dropping 1,500 metres in one go, troops of gelada monkeys grazing on the edge, and thin cold air at 4,000 metres. Trek it; there is no other way to see it.",
       "tags": ["geladas", "escarpment", "trekking", "high altitude"],
       "climate": {
@@ -595,6 +608,7 @@
       "lon": 25.0,
       "type": "region",
       "arch": "desert",
+      "transfer": 2,
       "blurb": "Salt pans the size of Switzerland, so flat and empty that you can see the curve of the earth. Meerkats that will stand on your head, and one of the last places with genuine silence.",
       "tags": ["salt pans", "meerkats", "silence", "zebra migration"],
       "climate": {
@@ -636,6 +650,7 @@
       "lon": -5.106,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 1,
       "blurb": "Cedar forests full of Barbary macaques, alpine-looking towns with red-tiled roofs, and snow in winter — the Morocco that surprises people who came for the desert.",
       "tags": ["cedar forest", "macaques", "snow", "alpine morocco"],
       "climate": {

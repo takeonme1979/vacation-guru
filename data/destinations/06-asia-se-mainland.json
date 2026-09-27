@@ -28,6 +28,7 @@
         "luxury": 200
       },
       "r": {
+        "oldTown": 40,
         "streetFood": 100, "foodScene": 96, "markets": 98, "religiousSites": 94,
         "historicSites": 82, "architecture": 78, "shopping": 92, "bars": 92, "clubbing": 90,
         "groupParty": 90, "lgbtqScene": 92, "wellness": 92, "museums": 66, "publicTransport": 80,
@@ -71,6 +72,7 @@
         "luxury": 165
       },
       "r": {
+        "oldTown": 70,
         "religiousSites": 96, "historicSites": 86, "localCulture": 90, "markets": 92,
         "streetFood": 94, "foodScene": 92, "wellness": 92, "mountains": 76, "hiking": 80,
         "forests": 82, "wildlife": 76, "adrenaline": 74, "cycling": 74, "festivals": 90,
@@ -229,6 +231,7 @@
       "lon": 99.048,
       "type": "island",
       "arch": "beach-resort",
+      "transfer": 2,
       "blurb": "The antidote to Phuket: long quiet west-facing beaches, sunset bars with no bass, and easy diving on Hin Daeng. Half of it shuts in low season.",
       "tags": ["quiet beach", "diving", "sunsets", "value"],
       "climate": {
@@ -290,6 +293,7 @@
         "luxury": 175
       },
       "r": {
+        "oldTown": 80,
         "streetFood": 100, "foodScene": 94, "coffee": 96, "markets": 90, "historicSites": 86,
         "architecture": 80, "museums": 76, "localCulture": 92, "religiousSites": 76,
         "lakesRivers": 72, "bars": 82, "valueForMoney": 96, "backpacker": 94, "soloTravel": 82,
@@ -359,6 +363,7 @@
       "lon": 107.184,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2.5,
       "blurb": "Nearly 2,000 limestone islands rising from jade water, seen from an overnight junk. Go to quieter Lan Ha Bay if you can.",
       "tags": ["karst", "cruise", "kayaking", "unesco"],
       "climate": {
@@ -421,6 +426,7 @@
         "luxury": 170
       },
       "r": {
+        "oldTown": 97,
         "historicSites": 92, "architecture": 90, "localCulture": 90, "foodScene": 94,
         "streetFood": 92, "markets": 86, "shopping": 88, "walkability": 92, "romance": 90,
         "cycling": 86, "beaches": 72, "swimming": 74, "festivals": 84, "coffee": 88,
@@ -447,6 +453,7 @@
       "lon": 103.844,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 5,
       "blurb": "Terraced rice valleys in the far north, trekked between homestays in Hmong and Dao villages, under Vietnam's highest peak.",
       "tags": ["trekking", "rice terraces", "hill tribes", "homestay"],
       "climate": {
@@ -506,6 +513,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 20,
         "historicSites": 100, "religiousSites": 96, "architecture": 96, "localCulture": 82,
         "museums": 74, "markets": 82, "streetFood": 84, "foodScene": 80, "bars": 80,
         "wellness": 84, "cycling": 78, "adrenaline": 58, "valueForMoney": 96, "backpacker": 92,
@@ -549,6 +557,7 @@
         "luxury": 150
       },
       "r": {
+        "oldTown": 92,
         "religiousSites": 96, "historicSites": 88, "architecture": 88, "localCulture": 94,
         "walkability": 90, "markets": 86, "foodScene": 80, "coffee": 84, "lakesRivers": 84,
         "scenery": 82, "forests": 78, "hiking": 74, "kayaking": 72, "wellness": 82,

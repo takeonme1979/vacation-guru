@@ -1,0 +1,119 @@
+{
+  "_doc": "Númenor — the island given to Men after the First Age, at the height of it and shortly before the end. Everything here is under two miles of water by the Third Age, which is worth bearing in mind when booking.",
+  "destinations": [
+    {
+      "id": "armenelos", "name": "Armenelos", "country": "NUM", "region": "Arandor", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "The City of the Kings: gardens on every terrace, a fountain court, a silver crown and a white tree in the middle that everybody is extremely careful about. Peak Númenor, shortly before the fall.",
+      "about": "Armenelos was the richest city any mortal built, and by the end it had a temple to Morgoth in it with black smoke going up. Ar-Pharazôn's fleet sailed from here to make war on the Valar and the island went under nine days later. What survives is nine ships, four heirlooms, a seedling of the white tree, and a family that becomes the kings of Gondor.",
+      "tags": ["kings of men", "the white tree", "ar-pharazôn", "before the fall"],
+      "climate": {
+        "tempHigh": [16, 17, 19, 22, 26, 29, 31, 31, 28, 24, 20, 17],
+        "tempLow":  [9, 9, 11, 13, 17, 20, 22, 22, 20, 16, 13, 10],
+        "rainDays": [8, 7, 6, 5, 3, 2, 1, 1, 3, 6, 8, 9],
+        "sunHours": [6, 7, 8, 10, 11, 12, 13, 12, 10, 8, 7, 6],
+        "humidity": [72, 71, 70, 68, 65, 62, 60, 62, 66, 70, 72, 73]
+      },
+      "crowd":      [72, 72, 75, 78, 82, 85, 88, 88, 84, 78, 74, 72],
+      "costTier": 3,
+      "r": {
+        "cities": 100, "architecture": 96, "luxury": 96, "comfort": 96, "markets": 92,
+        "shopping": 92, "foodScene": 92, "feasting": 92, "wine": 92, "festivals": 88,
+        "music": 88, "libraries": 96, "history": 96, "artefacts": 92, "temples": 78,
+        "intrigue": 96, "technology": 72, "healing": 92, "safety": 78, "lawAndOrder": 82,
+        "warRisk": 42, "hospitality": 62, "commonTongue": 88, "scenery": 88, "romance": 78,
+        "familyFriendly": 78, "seniors": 82, "soloFemaleSafety": 78, "magic": 32,
+        "wizards": 25, "prophecy": 88, "timeStrange": 32, "taverns": 78, "revels": 78,
+        "gambling": 55, "combat": 68, "monsters": 8, "undead": 22, "dragons": 2,
+        "coast": 55, "sailing": 82, "gettingThere": 22, "gettingBack": 3
+      },
+      "photos": ["Renaissance palace gardens terraces", "Marble fountain courtyard palace", "White marble colonnade", "Terraced garden hillside villa", "Ancient city ruins aerial", "Ornamental tree in stone courtyard"]
+    },
+    {
+      "id": "meneltarma", "name": "The Meneltarma", "country": "NUM", "region": "Mittalmar", "continent": "High Fantasy",
+      "type": "mountains", "arch": "elven-refuge",
+      "blurb": "The Pillar of Heaven: a mountain in the middle of the island climbed three times a year in complete silence, with eagles overhead and no building of any kind on top.",
+      "about": "Númenor had no temple and no priests — only a summit where the king spoke to Ilúvatar three times a year, and a rule that nobody says a word on the way up. Then the last kings stopped going and built a temple to Morgoth instead. When the island sank the peak may have been left as an island; mariners looked for it for centuries and never found it.",
+      "tags": ["pillar of heaven", "silence", "eagles", "three prayers"],
+      "climate": {
+        "tempHigh": [6, 7, 9, 12, 16, 19, 21, 21, 18, 14, 10, 7],
+        "tempLow":  [-1, 0, 2, 5, 9, 12, 14, 14, 12, 8, 4, 1],
+        "rainDays": [7, 6, 6, 5, 4, 3, 2, 2, 4, 6, 7, 8],
+        "sunHours": [7, 8, 9, 10, 12, 13, 13, 12, 11, 9, 8, 7],
+        "humidity": [66, 65, 64, 62, 60, 57, 55, 57, 61, 64, 66, 67]
+      },
+      "crowd":      [18, 18, 35, 22, 20, 45, 24, 22, 40, 24, 20, 18],
+      "costTier": 1,
+      "r": {
+        "mountains": 96, "temples": 100, "scenery": 96, "stargazing": 92, "hiking": 88,
+        "climbing": 68, "prophecy": 96, "history": 92, "magic": 42, "wizards": 22,
+        "healing": 72, "safety": 88, "comfort": 32, "luxury": 8, "soloFemaleSafety": 88,
+        "wilderness": 62, "plains": 55, "coast": 45, "music": 62, "beasts": 78,
+        "foodScene": 12, "feasting": 8, "ale": 3, "wine": 8, "taverns": 0, "markets": 0,
+        "shopping": 0, "cities": 2, "libraries": 25, "festivals": 62, "localCulture": 92,
+        "familyFriendly": 55, "seniors": 62, "artefacts": 32, "combat": 5, "monsters": 2,
+        "undead": 2, "timeStrange": 55, "romance": 45, "wandering": 62,
+        "gettingThere": 25, "gettingBack": 5
+      },
+      "photos": ["Volcanic cone island mountain", "Mountain summit above clouds", "Eagle soaring over mountains", "Steep mountain path walkers", "Pico volcano Azores", "Summit view over island sea"]
+    },
+    {
+      "id": "andunie", "name": "Andúnië", "country": "NUM", "region": "The Bay of Eldalondë", "continent": "High Fantasy",
+      "type": "coast", "arch": "island-kingdom",
+      "blurb": "The sunset coast: a bay of fragrant evergreens brought from the West, elven ships arriving with gifts, and the last households in Númenor still on speaking terms with the elves once that stopped being wise.",
+      "about": "The Lords of Andúnië led the Faithful, and Tolkien plainly loved the place — Eldalondë the Green, where the trees out of Tol Eressëa grew and the whole bay smelled of them. When the kings turned, the Faithful were moved to the far side of the island for being suspicious, and the line of Andúnië became the line of Elendil, which is to say the line of Aragorn.",
+      "tags": ["the faithful", "eldalondë", "elven ships", "fragrant trees"],
+      "climate": {
+        "tempHigh": [15, 15, 17, 19, 22, 25, 27, 27, 25, 22, 19, 16],
+        "tempLow":  [9, 9, 10, 12, 15, 18, 20, 20, 18, 15, 12, 10],
+        "rainDays": [10, 9, 8, 6, 4, 2, 1, 2, 4, 7, 9, 11],
+        "sunHours": [5, 6, 7, 9, 11, 12, 13, 12, 10, 8, 6, 5],
+        "humidity": [76, 75, 74, 72, 70, 67, 65, 67, 70, 74, 76, 77],
+        "seaTemp":  [15, 14, 15, 16, 18, 21, 23, 24, 23, 20, 18, 16]
+      },
+      "crowd":      [38, 38, 42, 50, 58, 68, 72, 72, 64, 52, 42, 38],
+      "costTier": 3,
+      "r": {
+        "coast": 96, "sailing": 92, "swimming": 78, "islands": 78, "scenery": 96,
+        "forests": 82, "romance": 92, "luxury": 82, "comfort": 88, "foodScene": 88,
+        "wine": 92, "feasting": 82, "music": 92, "festivals": 72, "hospitality": 82,
+        "healing": 88, "safety": 82, "lawAndOrder": 78, "soloFemaleSafety": 88,
+        "artefacts": 78, "history": 92, "libraries": 82, "prophecy": 88, "magic": 55,
+        "intrigue": 78, "markets": 68, "shopping": 62, "taverns": 62, "cities": 55,
+        "architecture": 82, "familyFriendly": 78, "seniors": 78, "stargazing": 88,
+        "technology": 62, "seaMonsters": 12, "warRisk": 55, "commonTongue": 78,
+        "gettingThere": 25, "gettingBack": 4
+      },
+      "photos": ["Sunset over ocean bay cliffs", "Madeira coast green cliffs", "Cypress and pine coastal bay", "White sailing ship at sunset", "Coastal village terraced hillside", "Laurel forest Madeira"]
+    },
+    {
+      "id": "romenna", "name": "Rómenna", "country": "NUM", "region": "Orrostar", "continent": "High Fantasy",
+      "type": "coast", "arch": "island-kingdom",
+      "blurb": "The eastern haven: deep water, shipyards, and the harbour where the Faithful were quietly resettled so somebody could keep an eye on them. Nine of those ships got away.",
+      "about": "Rómenna is where the story turns. Elendil's people were moved here under suspicion, and while the great fleet sailed west to attack the Valar, they were loading. Nine ships left this harbour carrying the palantíri, a seedling of Nimloth and the sword of Elendil, and the storm carried them east to Middle-earth, where they founded Arnor and Gondor. All of The Lord of the Rings comes out of this quay.",
+      "tags": ["elendil", "nine ships", "shipyards", "the escape"],
+      "climate": {
+        "tempHigh": [15, 16, 18, 21, 25, 28, 30, 30, 27, 23, 19, 16],
+        "tempLow":  [8, 8, 10, 12, 16, 19, 21, 21, 19, 15, 12, 9],
+        "rainDays": [9, 8, 7, 5, 4, 2, 1, 1, 3, 6, 8, 10],
+        "sunHours": [5, 6, 8, 9, 11, 12, 13, 12, 10, 8, 6, 5],
+        "humidity": [75, 74, 73, 71, 68, 65, 63, 65, 68, 72, 74, 75],
+        "seaTemp":  [15, 14, 15, 17, 19, 22, 24, 25, 23, 21, 18, 16]
+      },
+      "crowd":      [52, 52, 56, 62, 68, 74, 78, 78, 72, 64, 56, 52],
+      "costTier": 2,
+      "r": {
+        "coast": 92, "sailing": 100, "swimming": 62, "islands": 62, "technology": 82,
+        "cities": 68, "markets": 78, "shopping": 62, "architecture": 72, "history": 96,
+        "artefacts": 92, "libraries": 72, "prophecy": 92, "intrigue": 92, "foodScene": 78,
+        "feasting": 72, "wine": 78, "ale": 68, "taverns": 78, "music": 68,
+        "hospitality": 68, "comfort": 72, "safety": 62, "lawAndOrder": 55, "warRisk": 32,
+        "soloFemaleSafety": 72, "healing": 82, "luxury": 62, "familyFriendly": 62,
+        "seniors": 62, "combat": 62, "monsters": 5, "undead": 12, "questing": 78,
+        "stargazing": 78, "seaMonsters": 15, "commonTongue": 82,
+        "gettingThere": 32, "gettingBack": 8
+      },
+      "photos": ["Deep water harbour with ships", "Shipyard wooden hulls under repair", "Stone harbour breakwater", "Fleet of sailing ships anchored", "Old port warehouses quayside", "Ship leaving harbour in storm"]
+    }
+  ]
+}

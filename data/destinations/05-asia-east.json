@@ -57,6 +57,7 @@
       "lon": 135.768,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.25,
       "blurb": "Two thousand temples, geisha districts and raked gravel gardens. Transcendent in November; shoulder-to-shoulder during cherry blossom.",
       "tags": ["temples", "gardens", "geisha", "autumn"],
       "climate": {
@@ -74,6 +75,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 88,
         "religiousSites": 100, "historicSites": 98, "architecture": 94, "localCulture": 98,
         "museums": 76, "artScene": 78, "festivals": 88, "markets": 80, "foodScene": 92,
         "fineDining": 92, "wellness": 82, "walkability": 86, "cycling": 82, "romance": 90,
@@ -143,6 +145,7 @@
       "lon": 139.107,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 2,
       "blurb": "Volcanic hot-spring country in the shadow of Fuji — open-air onsen, a lake with a pirate ship, and outstanding modern art museums.",
       "tags": ["onsen", "fuji", "art", "hot springs"],
       "climate": {
@@ -187,6 +190,7 @@
       "lon": 140.687,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 2.5,
       "blurb": "The deepest, driest, most reliable powder on the planet — 15 metres a season — with onsen at the bottom of the run.",
       "tags": ["powder", "skiing", "onsen", "japow"],
       "climate": {
@@ -275,6 +279,7 @@
       "lon": 132.455,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "A moving Peace Memorial and a rebuilt, warm-hearted city — with the floating torii gate of Miyajima a short ferry away.",
       "tags": ["history", "peace", "torii", "oysters"],
       "climate": {
@@ -293,6 +298,7 @@
         "luxury": 280
       },
       "r": {
+        "oldTown": 40,
         "historicSites": 92, "museums": 90, "religiousSites": 86, "localCulture": 82,
         "foodScene": 84, "streetFood": 80, "scenery": 72, "islands": 68, "hiking": 66,
         "walkability": 82, "publicTransport": 84, "cleanliness": 94, "safety": 96,
@@ -336,6 +342,7 @@
         "luxury": 290
       },
       "r": {
+        "oldTown": 45,
         "foodScene": 94, "streetFood": 92, "markets": 90, "shopping": 94, "bars": 92,
         "clubbing": 92, "groupParty": 88, "liveMusic": 86, "historicSites": 84, "museums": 80,
         "architecture": 78, "artScene": 82, "wellness": 88, "mountains": 62, "hiking": 78,
@@ -423,6 +430,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 65,
         "historicSites": 100, "architecture": 90, "museums": 86, "religiousSites": 82,
         "localCulture": 86, "foodScene": 92, "streetFood": 88, "markets": 84, "shopping": 82,
         "hiking": 68, "publicTransport": 90, "walkability": 68, "valueForMoney": 84,
@@ -466,6 +474,7 @@
         "luxury": 270
       },
       "r": {
+        "oldTown": 45,
         "architecture": 92, "artScene": 88, "museums": 84, "foodScene": 94, "fineDining": 90,
         "streetFood": 86, "markets": 82, "shopping": 94, "bars": 90, "clubbing": 88,
         "lgbtqScene": 62, "historicSites": 70, "publicTransport": 96, "walkability": 74,
@@ -492,6 +501,7 @@
       "lon": 110.497,
       "type": "region",
       "arch": "wilderness-park",
+      "transfer": 1.25,
       "blurb": "The karst peaks from every Chinese scroll painting, rising out of the Li River — best seen from a bamboo raft or a bike in the paddy fields.",
       "tags": ["karst", "river", "cycling", "scenery"],
       "climate": {
@@ -595,6 +605,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 30,
         "foodScene": 98, "fineDining": 94, "streetFood": 92, "markets": 90, "shopping": 96,
         "architecture": 88, "scenery": 84, "hiking": 86, "islands": 82, "beaches": 62,
         "swimming": 68, "sailing": 74, "bars": 90, "clubbing": 84, "museums": 74,
@@ -664,6 +675,7 @@
       "lon": 121.49,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 2.5,
       "blurb": "A marble canyon carved 1,000m deep, with tunnels and swing bridges cut into the cliffs, running down to a wild Pacific coast.",
       "tags": ["gorge", "hiking", "marble", "coast"],
       "climate": {

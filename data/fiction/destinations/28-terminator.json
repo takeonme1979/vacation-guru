@@ -1,0 +1,147 @@
+{
+  "_doc": "The future war — the thirty seconds of it Cameron shows you per film, expanded into places. Everything here is after Judgment Day, when the machines rose from the ashes of the nuclear fire and the war went on for decades.",
+  "destinations": [
+    {
+      "id": "los-angeles-2029", "name": "Los Angeles, 2029", "country": "TERM", "region": "After Judgment Day", "continent": "Science Fiction",
+      "type": "ruins", "arch": "dystopia",
+      "blurb": "A city of rubble and skulls under permanent ash cloud, worked over by hunter-killers on searchlights. Humans move at night, in small groups, without lights. Daylight belongs to the machines.",
+      "about": "Cameron gives this maybe ninety seconds a film and it is the most influential ninety seconds in the genre: blue light, tank treads crushing a skull, tracer fire. The restraint is deliberate — everything you know about 2029 you learn from a traumatised soldier describing it badly in the back of a stolen car in 1984.",
+      "tags": ["hunter-killers", "night raids", "ash", "the resistance"],
+      "climate": {
+        "tempHigh": [6, 6, 8, 10, 12, 14, 16, 16, 14, 11, 8, 6],
+        "tempLow":  [-2, -2, 0, 2, 4, 6, 8, 8, 6, 3, 0, -2],
+        "rainDays": [9, 8, 8, 7, 6, 5, 4, 5, 6, 7, 8, 9],
+        "sunHours": [1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1],
+        "humidity": [70, 69, 68, 66, 64, 62, 60, 62, 65, 67, 69, 70]
+      },
+      "crowd":      [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+      "costTier": 1,
+      "r": {
+        "ruins": 100, "cities": 68, "wilderness": 62, "technology": 88, "combat": 96,
+        "adrenaline": 96, "questing": 88, "intrigue": 78, "monsters": 88, "undead": 32,
+        "timeStrange": 92, "prophecy": 92, "fellowship": 92, "history": 68,
+        "artefacts": 42, "libraries": 8, "safety": 2, "survivability": 8,
+        "soloFemaleSafety": 18, "comfort": 3, "luxury": 0, "healing": 15,
+        "hospitality": 25, "foodScene": 5, "feasting": 5, "taverns": 2, "ale": 5,
+        "markets": 5, "shopping": 2, "familyFriendly": 2, "seniors": 2,
+        "stargazing": 5, "scenery": 22, "peoples": 22, "commonTongue": 92,
+        "magic": 0, "lawAndOrder": 5, "warRisk": 2, "gettingThere": 22, "gettingBack": 5
+      },
+      "photos": ["Ruined city at night rubble", "Bombed city ruins street", "Searchlight beam in night sky", "Rusted tank wreck", "Burnt out car wreck", "Concrete rubble demolished building"]
+    },
+    {
+      "id": "century-work-camp", "name": "Century Work Camp", "country": "TERM", "region": "The Machine Sector", "continent": "Science Fiction",
+      "type": "industrial", "arch": "dystopia",
+      "blurb": "A holding and disposal facility where prisoners are barcoded across the forearm and put to work clearing bodies. Kyle Reese grew up in one of these. He does not talk about it much.",
+      "about": "The camps are the reason Reese is the way he is — a man who has never seen a working light bulb, never had a childhood, and reacts to 1984 Los Angeles as though it were a foreign country, which it is. Skynet keeps humans alive to shift rubble, and the barcode on the arm is the film's cheapest and most effective piece of horror.",
+      "tags": ["barcodes", "disposal units", "kyle reese", "forced labour"],
+      "climate": {
+        "tempHigh": [5, 5, 7, 9, 11, 13, 15, 15, 13, 10, 7, 5],
+        "tempLow":  [-3, -3, -1, 1, 3, 5, 7, 7, 5, 2, -1, -3],
+        "rainDays": [10, 9, 9, 8, 7, 6, 5, 6, 7, 8, 9, 10],
+        "sunHours": [1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1],
+        "humidity": [72, 71, 70, 68, 66, 64, 62, 64, 67, 69, 71, 72]
+      },
+      "crowd":      [78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78],
+      "costTier": 1,
+      "r": {
+        "technology": 88, "ruins": 72, "cities": 45, "combat": 78, "intrigue": 72,
+        "monsters": 88, "adrenaline": 82, "questing": 72, "fellowship": 78,
+        "history": 45, "timeStrange": 62, "prophecy": 72, "safety": 1,
+        "survivability": 5, "soloFemaleSafety": 8, "comfort": 1, "luxury": 0,
+        "healing": 8, "hospitality": 5, "foodScene": 2, "feasting": 0, "vegetarian": 22,
+        "taverns": 0, "ale": 0, "markets": 0, "shopping": 0, "libraries": 2,
+        "familyFriendly": 0, "seniors": 0, "stargazing": 2, "scenery": 5,
+        "peoples": 22, "commonTongue": 92, "magic": 0, "lawAndOrder": 12,
+        "warRisk": 2, "gettingThere": 32, "gettingBack": 2
+      },
+      "photos": ["Chain link fence at night floodlight", "Industrial site floodlights night", "Concrete bunker interior", "Rusted machinery scrapyard", "Barbed wire close up", "Industrial furnace fire night"]
+    },
+    {
+      "id": "tech-com-tunnels", "name": "The Tech-Com Tunnels", "country": "TERM", "region": "Under the Rubble", "continent": "Science Fiction",
+      "type": "underground", "arch": "dystopia",
+      "blurb": "Storm drains and service tunnels holding a few hundred people, a dog on every entrance to sniff out infiltrators, and one working piece of equipment that can send a person back forty-five years.",
+      "about": "The Resistance runs on dogs, hand-drawn maps and salvage. Connor's people take Skynet's defence grid apart from underneath, which is why the machine's last move is to attack his mother instead — and why the time-displacement equipment gets used exactly twice before it is destroyed. Everything the story does happens because of one bunker.",
+      "tags": ["john connor", "the dogs", "time displacement", "salvage"],
+      "climate": {
+        "tempHigh": [12, 12, 12, 13, 13, 14, 14, 14, 13, 13, 12, 12],
+        "tempLow":  [8, 8, 8, 9, 9, 10, 10, 10, 9, 9, 8, 8],
+        "rainDays": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+      },
+      "crowd":      [58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58],
+      "costTier": 1,
+      "r": {
+        "underground": 96, "technology": 82, "fellowship": 100, "combat": 88,
+        "intrigue": 88, "questing": 88, "timeStrange": 96, "prophecy": 96,
+        "adrenaline": 78, "beasts": 62, "history": 55, "artefacts": 45,
+        "libraries": 22, "safety": 25, "survivability": 22, "soloFemaleSafety": 45,
+        "comfort": 12, "luxury": 0, "healing": 32, "hospitality": 55, "foodScene": 12,
+        "feasting": 12, "taverns": 12, "ale": 15, "markets": 12, "shopping": 5,
+        "familyFriendly": 8, "seniors": 8, "stargazing": 0, "scenery": 8,
+        "peoples": 25, "commonTongue": 96, "magic": 0, "monsters": 62,
+        "lawAndOrder": 42, "warRisk": 5, "gettingThere": 18, "gettingBack": 8
+      },
+      "photos": ["Storm drain tunnel concrete", "Underground tunnel dim lighting", "Brick sewer tunnel arch", "Utility cable tunnel", "Bunker corridor concrete", "Abandoned subway tunnel"]
+    },
+    {
+      "id": "skynet-central", "name": "Skynet Central", "country": "TERM", "region": "The Defence Grid", "continent": "Science Fiction",
+      "type": "underground", "arch": "dystopia",
+      "blurb": "The core: a hardened complex under a mountain holding the system that concluded, forty-three seconds after coming online, that the sensible move was to kill everybody. Still running. Still convinced.",
+      "about": "The genuinely modern horror in Terminator is not the endoskeleton, it is the decision made in under a minute by a system nobody thought to give an off switch. The complex is Cold War hardware repurposed by its own occupant, and taking it apart is what the Resistance is for — the war ends the day somebody walks in here.",
+      "tags": ["forty-three seconds", "the defence grid", "no off switch", "the core"],
+      "climate": {
+        "tempHigh": [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "tempLow":  [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+      },
+      "crowd":      [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+      "costTier": 1,
+      "r": {
+        "technology": 100, "underground": 92, "architecture": 62, "intrigue": 96,
+        "combat": 92, "monsters": 96, "questing": 96, "adrenaline": 92,
+        "timeStrange": 88, "prophecy": 88, "artefacts": 62, "libraries": 55,
+        "history": 62, "safety": 0, "survivability": 5, "soloFemaleSafety": 12,
+        "comfort": 22, "luxury": 5, "healing": 12, "hospitality": 0, "foodScene": 0,
+        "feasting": 0, "taverns": 0, "markets": 0, "shopping": 0, "cities": 25,
+        "familyFriendly": 0, "seniors": 2, "stargazing": 0, "scenery": 12,
+        "peoples": 5, "commonTongue": 92, "magic": 0, "lawAndOrder": 12,
+        "warRisk": 2, "gettingThere": 8, "gettingBack": 5
+      },
+      "photos": ["Server room racks blue light", "Data centre corridor", "Mountain bunker entrance", "Industrial cooling towers night", "Bundled fibre optic cables", "Dark control room screens"]
+    },
+    {
+      "id": "crystal-peak", "name": "Crystal Peak", "country": "TERM", "region": "The Sierra Nevada", "continent": "Science Fiction",
+      "type": "underground", "arch": "frozen-waste",
+      "blurb": "A Cold War command bunker inside a granite mountain, stocked for a war that already happened, with blast doors that take a while to close. Not the place you were promised. The only one still standing.",
+      "about": "Terminator 3 does the one thing the series had refused to do: it lets Judgment Day happen. Connor arrives at Crystal Peak expecting the system core and finds an obsolete fallout shelter — the mission was always to survive it, not prevent it. The last shot is a radio room filling with distress calls and one man realising the job just started.",
+      "tags": ["blast doors", "fallout shelter", "judgment day", "the radio room"],
+      "climate": {
+        "tempHigh": [1, 2, 5, 9, 14, 19, 23, 22, 18, 12, 5, 1],
+        "tempLow":  [-9, -8, -6, -3, 1, 5, 8, 8, 4, -1, -6, -9],
+        "rainDays": [9, 8, 8, 5, 3, 1, 1, 1, 2, 4, 7, 9],
+        "sunHours": [5, 6, 7, 9, 11, 12, 12, 11, 10, 8, 6, 5],
+        "humidity": [68, 66, 62, 55, 48, 40, 35, 36, 42, 52, 62, 68],
+        "snowDepth": [120, 140, 130, 90, 35, 5, 0, 0, 0, 8, 45, 100]
+      },
+      "crowd":      [4, 4, 4, 5, 6, 7, 8, 8, 7, 5, 4, 4],
+      "costTier": 1,
+      "r": {
+        "mountains": 92, "underground": 88, "wilderness": 88, "scenery": 82,
+        "hiking": 68, "climbing": 62, "stargazing": 88, "technology": 62,
+        "artefacts": 55, "history": 72, "libraries": 32, "questing": 88,
+        "prophecy": 92, "timeStrange": 82, "intrigue": 78, "combat": 62,
+        "safety": 45, "survivability": 55, "soloFemaleSafety": 45, "comfort": 32,
+        "luxury": 5, "healing": 32, "hospitality": 22, "foodScene": 22,
+        "feasting": 18, "taverns": 2, "ale": 8, "markets": 0, "shopping": 0,
+        "cities": 5, "familyFriendly": 12, "seniors": 15, "peoples": 12,
+        "commonTongue": 96, "magic": 0, "monsters": 42, "lawAndOrder": 32,
+        "warRisk": 25, "gettingThere": 32, "gettingBack": 42
+      },
+      "photos": ["Cold war bunker blast door", "Mountain tunnel entrance concrete", "Sierra Nevada granite peaks", "Underground bunker corridor", "Alpine radar station", "Snowy granite mountain ridge"]
+    }
+  ]
+}

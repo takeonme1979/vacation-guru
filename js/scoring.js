@@ -147,6 +147,141 @@ export function estimateFlightHours(from, to) {
   return Math.round(hours * 10) / 10;
 }
 
+/**
+ * Getting to the airport, checking in, waiting, reclaiming a bag at the far end
+ * and reaching where you are actually sleeping. None of it is flying, all of it
+ * is the holiday, and leaving it out makes a 2h flight look free.
+ */
+const DOOR_TO_DOOR_OVERHEAD_H = 3.5;
+
+/**
+ * The airport-to-hotel hop that overhead already allows for. A destination's
+ * own `transferHours` only costs you the part beyond this.
+ */
+const TYPICAL_TRANSFER_H = 0.75;
+
+/**
+ * Hours on the ground from the arrival airport, when the place is far enough
+ * from one to matter: Český Krumlov is Prague's flight plus three hours by
+ * road. Zero for anywhere with its own airport or an ordinary hop into town.
+ */
+export function extraGroundHours(dest) {
+  const t = dest?.transferHours;
+  return isNum(t) ? Math.max(0, t - TYPICAL_TRANSFER_H) : 0;
+}
+
+/** " + ~3h overland" when the airport is a real journey away, else "". */
+export function groundNote(dest) {
+  if (extraGroundHours(dest) < 0.5) return '';
+  return ` + ~${Math.round(dest.transferHours * 2) / 2}h overland`;
+}
+
+/** The top of the max-flight slider, which means "no limit". The default. */
+export const NO_FLIGHT_LIMIT = 24;
+
+/** Waking hours in a day you could otherwise have spent on holiday. */
+const USEFUL_HOURS_PER_DAY = 12;
+
+/**
+ * The most one leg can cost you. Beyond about half a day of travelling you are
+ * also arriving wrecked, so a very long haul takes more than the day it fills —
+ * but not without limit.
+ */
+const MAX_DAY_FRACTION = 1.5;
+
+/** Share of a trip that can go on travel before it is worth mentioning. */
+const BURDEN_FINE = 0.15;
+const BURDEN_NOTICEABLE = 0.30;
+
+/**
+ * How much of the holiday the travelling actually eats.
+ *
+ * Flight time on its own is not a judgement — nine hours is nothing on a
+ * fortnight and ruinous on a long weekend. This turns the two numbers the user
+ * has already given us, distance and trip length, into the thing they actually
+ * want to know: how many days are left once you have got there and back.
+ *
+ * Returns null when there is nothing to judge — no home airport set, or a
+ * world without flights.
+ */
+export function travelBurden(dest, prefs) {
+  const nights = prefs.targets?.tripNights;
+  if (!isNum(nights) || nights < 1) return null;
+
+  const hours = estimateFlightHours(prefs.home, dest);
+  if (hours == null) return null;
+
+  const eachWay = hours > 0 ? hours + DOOR_TO_DOOR_OVERHEAD_H + extraGroundHours(dest) : 0;
+  const perLeg = Math.min(MAX_DAY_FRACTION, eachWay / USEFUL_HOURS_PER_DAY);
+  const daysLost = Math.round(perLeg * 2 * 10) / 10;
+
+  // Seven nights away is eight days of holiday: you arrive on the first and
+  // leave on the last.
+  const tripDays = nights + 1;
+  const share = clamp01(daysLost / tripDays);
+
+  return {
+    flightHours: hours,
+    eachWayHours: Math.round(eachWay * 10) / 10,
+    tripDays,
+    daysLost,
+    usableDays: Math.round(Math.max(0, tripDays - daysLost) * 10) / 10,
+    share,
+    verdict: share <= BURDEN_FINE ? 'fine' : share <= BURDEN_NOTICEABLE ? 'noticeable' : 'heavy'
+  };
+}
+
+/**
+ * The longest flight that still leaves a trip of this length mostly intact.
+ *
+ * The inverse of travelBurden, so the Trip screen can warn you before you have
+ * picked anywhere: at four nights, anything past a short hop is a large slice
+ * of the holiday. Returns null when the trip is long enough that no flight in
+ * the catalogue would eat a meaningful share of it.
+ */
+export function sensibleFlightHours(nights) {
+  if (!isNum(nights) || nights < 1) return null;
+  const perLeg = (BURDEN_FINE * (nights + 1)) / 2;
+  if (perLeg >= MAX_DAY_FRACTION) return null;             // any flight is fine
+  const hours = perLeg * USEFUL_HOURS_PER_DAY - DOOR_TO_DOOR_OVERHEAD_H;
+  return hours <= 0 ? 0 : Math.round(hours * 10) / 10;
+}
+
+/** How the travelling reads on a card, in plain words. */
+export function burdenSummary(b) {
+  if (!b) return null;
+  if (b.daysLost <= 0) return 'No travelling to speak of';
+  const days = b.daysLost === 1 ? '1 day' : `${b.daysLost} days`;
+  return `~${days} of ${b.tripDays} spent travelling — about ${b.usableDays} there`;
+}
+
+/**
+ * Which travel style a daily budget actually buys.
+ *
+ * Style and budget used to be two controls, on two different parts of the
+ * screen, and nothing stopped them contradicting each other — luxury at £50 a
+ * day being the obvious one. They are not really two questions: what you are
+ * prepared to spend per day IS your travel style. This derives one from the
+ * other against the live catalogue, so the boundaries move with the month
+ * rather than being hard-coded.
+ */
+export function styleForBudget(destinations, budgetPerDay, month = 6, opts = {}) {
+  if (!isNum(budgetPerDay)) return 'mid';
+  const medians = BUDGET_STYLES.map((st) => {
+    const sp = budgetSpread(destinations, st.id, month, opts);
+    return { id: st.id, median: sp ? sp.median : null };
+  }).filter((x) => isNum(x.median));
+  if (!medians.length) return 'mid';
+
+  // Geometric midpoints: cost tiers are multiplicative, not additive, so the
+  // boundary between £43 and £101 belongs at £66, not £72.
+  for (let i = 0; i < medians.length - 1; i++) {
+    const boundary = Math.sqrt(medians[i].median * medians[i + 1].median);
+    if (budgetPerDay < boundary) return medians[i].id;
+  }
+  return medians[medians.length - 1].id;
+}
+
 /** Normalise a raw value onto 0..1 given a [worst, best] scale (either direction). */
 function normaliseScale(value, scale) {
   const [worst, best] = scale;
@@ -384,10 +519,34 @@ export function scoreCriterion(criterion, dest, prefs) {
       if (!home || !isNum(home.lat)) return { score: null, detail: 'Set a home airport', value: null };
       const hrs = estimateFlightHours(home, dest);
       if (hrs == null) return { score: null, detail: 'No data', value: null };
-      const max = prefs.targets?.maxFlightHours ?? 8;
-      if (hrs <= max) return { score: 1, detail: hrs < 0.3 ? 'No flight needed' : `~${hrs}h flight`, value: hrs };
-      const over = hrs - max;
-      return { score: clamp01(1 - over / 7), detail: `~${hrs}h flight, ${Math.round(over * 10) / 10}h over your limit`, value: hrs };
+
+      // Your stated ceiling, first — if you set one. By default there is none:
+      // a 13h flight is only a problem if it eats too much of THIS trip, which
+      // the burden below already judges.
+      const max = prefs.targets?.maxFlightHours ?? NO_FLIGHT_LIMIT;
+      const over = max >= NO_FLIGHT_LIMIT ? 0 : Math.max(0, hrs - max);
+      const withinLimit = clamp01(1 - over / 7);
+
+      // Then the question a ceiling in hours cannot answer: what does that
+      // flight cost you as a share of THIS trip? Nine hours is nothing on a
+      // fortnight and most of a long weekend, and the old scoring called both
+      // of them "9h" and left it there.
+      const burden = travelBurden(dest, prefs);
+      const shareFactor = burden
+        ? clamp01(1 - Math.max(0, burden.share - BURDEN_FINE) / 0.6)
+        : 1;
+      const score = withinLimit * shareFactor;
+
+      if (hrs < 0.3) return { score, detail: 'No flight needed', value: hrs };
+      const toll = burden && burden.verdict !== 'fine' ? ` — ${burdenSummary(burden)}` : '';
+      const ground = groundNote(dest);
+      return {
+        score,
+        detail: over > 0
+          ? `~${hrs}h flight${ground}, ${Math.round(over * 10) / 10}h over your limit${toll}`
+          : `~${hrs}h flight${ground}${toll}`,
+        value: hrs
+      };
     }
 
     default:
@@ -561,15 +720,26 @@ export function rankDestinations(destinations, prefs, criteriaById) {
     a.dest.name.localeCompare(b.dest.name));
 
   const capped = prefs.maxPerCountry > 0
-    ? applyCountryCap(results, prefs.maxPerCountry)
-    : results;
+    ? applyCountryCap(results, prefs.maxPerCountry, prefs)
+    : { results, more: new Map() };
 
-  return { results: capped, filteredOut, strictDropped, total: destinations.length };
+  return {
+    results: capped.results,
+    moreByCountry: capped.more,
+    filteredOut,
+    strictDropped,
+    total: destinations.length
+  };
 }
 
 /**
- * Keeps the list from becoming "eight Greek islands". Overflow entries are not
- * discarded, just pushed below everything that made the cap.
+ * Keeps the list from becoming "eight Greek islands".
+ *
+ * Capped entries are not discarded. Those that still genuinely answer the
+ * question asked are handed back separately, grouped by country, so the UI can
+ * offer them on demand — "show 10 more in Greece" — rather than burying them
+ * two hundred places down. Everything else keeps the old behaviour: pushed
+ * below whatever made the cap.
  */
 /**
  * How many results one country may hold near the top of the list when "Mix it
@@ -578,17 +748,60 @@ export function rankDestinations(destinations, prefs, criteriaById) {
  */
 export const MAX_PER_COUNTRY = 3;
 
-function applyCountryCap(results, cap) {
+/**
+ * How far behind its country's best a capped entry may fall and still count as
+ * a real alternative, in the one case where there is no must-have to judge it
+ * by. Wide, because it only has to separate "another option" from "a different
+ * holiday".
+ */
+const SIBLING_BAND = 15;
+
+/**
+ * Is this result still an answer to the question that was actually asked?
+ *
+ * Asking to see the rest of Greece on a beach search should get you all fifteen
+ * Greek beach destinations and still not offer you Athens. No score threshold
+ * separates those: Athens scores 61 on a beach search — ahead of plenty of
+ * genuine beach destinations elsewhere — and trips no dealbreaker, because its
+ * beaches are mediocre rather than absent.
+ *
+ * The must-have is what tells them apart. If you said beaches were a Must have,
+ * somewhere with merely amber beaches is not a beach destination at any overall
+ * score. Failing that — a search with no must-haves at all — fall back to how
+ * far the entry has fallen behind the best its country offers.
+ */
+export function isRelevantMatch(result, prefs, leaderScore) {
+  if (result.dealbreakers > 0) return false;
+  const hasMustHaves = Object.values(prefs.weights || {}).some((v) => v === 3);
+  if (!hasMustHaves) return result.overall >= leaderScore - SIBLING_BAND;
+  return result.breakdown.every((b) =>
+    b.importance !== 3 || (b.score != null && b.score >= RAG.green));
+}
+
+function applyCountryCap(results, cap, prefs) {
   const seen = new Map();
+  const best = new Map();
   const primary = [];
-  const overflow = [];
+  const buried = [];
+  const more = new Map();
+
   for (const r of results) {
     const key = r.dest.country || r.dest.id;
+    // Sorted by score already, so the first entry seen is that country's best.
+    if (!best.has(key)) best.set(key, r.overall);
+
     const n = seen.get(key) || 0;
-    if (n < cap) { primary.push(r); seen.set(key, n + 1); }
-    else overflow.push(r);
+    if (n < cap) {
+      primary.push(r);
+      seen.set(key, n + 1);
+    } else if (isRelevantMatch(r, prefs, best.get(key))) {
+      if (!more.has(key)) more.set(key, []);
+      more.get(key).push(r);
+    } else {
+      buried.push(r);
+    }
   }
-  return primary.concat(overflow);
+  return { results: primary.concat(buried), more };
 }
 
 // ---------------------------------------------------------------------------
@@ -605,14 +818,14 @@ export function emptyPrefs() {
       budgetStyle: 'mid',
       noHostels: false,
       costTier: 2,
-      maxFlightHours: 8,
+      maxFlightHours: NO_FLIGHT_LIMIT,
       tripNights: 7
     },
     month: new Date().getMonth(),
     home: null,
     strict: false,
     filters: { continents: [], excludeIds: [], types: [] },
-    maxPerCountry: 0
+    maxPerCountry: MAX_PER_COUNTRY
   };
 }
 

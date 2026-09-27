@@ -1,0 +1,322 @@
+{
+  "_doc": "Wilderland east of the Misty Mountains, and the lands the books only ever describe from a distance — Harad, Umbar and the country round the Sea of Rhûn. The Hobbit's route is here in full, which is the one journey in the legendarium made for fun.",
+  "destinations": [
+    {
+      "id": "mirkwood", "name": "Mirkwood", "country": "ME", "region": "Rhovanion", "continent": "High Fantasy",
+      "type": "forest", "arch": "lost-world",
+      "blurb": "Sixty leagues of black woodland with one path through it, and the path is the good news. Do not leave it, do not drink the water, do not follow the lights, and do not on any account fall asleep.",
+      "about": "It was Greenwood the Great until a shadow settled at Dol Guldur in the south and turned it — the Necromancer there being, as it turns out, Sauron. The spiders are his overspill. After the war the wood was cleansed and renamed Eryn Lasgalen, and the elves and the Beornings divided it between them, which is the tidiest ending in the Appendices.",
+      "tags": ["spiders", "the enchanted river", "dol guldur", "one path"],
+      "climate": {
+        "tempHigh": [-1, 1, 6, 12, 18, 21, 23, 22, 18, 11, 4, 0],
+        "tempLow":  [-8, -7, -3, 2, 7, 11, 13, 12, 9, 4, -1, -6],
+        "rainDays": [12, 11, 11, 11, 12, 12, 11, 11, 11, 13, 13, 13],
+        "sunHours": [1, 2, 3, 4, 5, 6, 6, 5, 4, 2, 1, 1],
+        "humidity": [88, 86, 84, 82, 81, 82, 82, 84, 86, 89, 90, 90],
+        "snowDepth": [30, 32, 20, 5, 0, 0, 0, 0, 0, 2, 12, 25]
+      },
+      "crowd":      [8, 8, 10, 14, 18, 22, 25, 24, 20, 14, 10, 8],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 15,
+        "forests": 100, "wilderness": 92, "monsters": 92, "beasts": 78, "magic": 62,
+        "timeStrange": 55, "questing": 88, "hiking": 68, "wandering": 25, "scenery": 62,
+        "history": 78, "prophecy": 45, "undead": 32, "combat": 72, "rivers": 68,
+        "ruins": 42, "artefacts": 32, "safety": 12, "survivability": 22, "comfort": 8,
+        "healing": 12, "hospitality": 15, "foodScene": 8, "feasting": 8, "vegetarian": 32,
+        "ale": 8, "taverns": 2, "music": 22, "cities": 2, "markets": 2, "shopping": 0,
+        "luxury": 3, "familyFriendly": 5, "seniors": 5, "libraries": 5, "stargazing": 5,
+        "gettingThere": 45, "gettingBack": 32, "lawAndOrder": 12, "warRisk": 22
+      },
+      "photos": ["Dark dense pine forest gloom", "Forest path through dark trees", "Spider webs on branches", "Black spruce forest fog", "Tree roots forest floor", "Still black forest pool"]
+    },
+    {
+      "id": "woodland-realm", "name": "The Woodland Realm", "country": "ME", "region": "Northern Mirkwood", "continent": "High Fantasy",
+      "type": "underground", "arch": "elven-refuge",
+      "blurb": "Thranduil's halls under a hill behind a river gate: torchlight, singing, seriously good wine and a king with a grievance. Also a very well-appointed set of cells, as thirteen dwarves found out.",
+      "about": "The Silvan elves are the least lofty in the books and by some distance the most fun — feasts in the open woods, Dorwinion wine strong enough to put a butler to sleep, a king openly and pettily interested in gems. Thranduil is also the only leader in The Hobbit who marches on Erebor for a share of the treasure and then drops the claim the moment it stops being reasonable.",
+      "tags": ["thranduil", "dorwinion wine", "the cells", "silvan elves"],
+      "climate": {
+        "tempHigh": [6, 6, 7, 8, 10, 12, 13, 13, 11, 9, 7, 6],
+        "tempLow":  [3, 3, 4, 5, 7, 9, 10, 10, 8, 6, 4, 3],
+        "rainDays": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "sunHours": [1, 1, 2, 2, 3, 3, 3, 3, 2, 2, 1, 1],
+        "humidity": [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80]
+      },
+      "crowd":      [35, 35, 38, 44, 52, 60, 65, 62, 55, 45, 38, 40],
+      "costTier": 2,
+      "r": {
+        "soloFemaleSafety": 85,
+        "underground": 88, "forests": 92, "architecture": 82, "music": 96, "wine": 100,
+        "feasting": 92, "revels": 88, "festivals": 82, "foodScene": 82, "ale": 68,
+        "hospitality": 55, "comfort": 78, "healing": 82, "safety": 78, "magic": 78,
+        "artefacts": 82, "history": 88, "libraries": 62, "intrigue": 68, "combat": 62,
+        "monsters": 25, "luxury": 78, "romance": 78, "markets": 32, "shopping": 32,
+        "cities": 45, "vegetarian": 88, "stargazing": 42, "rivers": 78, "questing": 45,
+        "timeStrange": 62, "commonTongue": 55, "familyFriendly": 42, "seniors": 55,
+        "gettingThere": 32, "gettingBack": 68
+      },
+      "photos": ["Cave hall carved pillars torchlight", "Stone bridge inside cavern", "Oak wine barrels cellar", "Lanterns hanging in trees", "Beech forest autumn light", "Carved wooden throne hall"]
+    },
+    {
+      "id": "esgaroth", "name": "Lake-town", "country": "ME", "region": "The Long Lake", "continent": "High Fantasy",
+      "type": "town", "arch": "island-kingdom",
+      "blurb": "A timber town standing on posts in a lake, kept afloat by the barrel trade and a certain flexibility about who is in charge. The old town is still down there under the water. So is the dragon.",
+      "about": "Esgaroth lives off the wine and barrel traffic between Dorwinion and the wood-elves, which is exactly how the dwarves get out of Thranduil's cells. The Master is a coward and an embezzler and Tolkien plainly enjoys writing him. Bard shoots Smaug from the burning town and then leads the survivors upriver to refound Dale — the only disaster relief effort in the legendarium that works.",
+      "tags": ["stilts", "barrels", "bard the bowman", "smaug"],
+      "climate": {
+        "tempHigh": [-4, -2, 4, 11, 17, 21, 23, 22, 17, 10, 2, -2],
+        "tempLow":  [-12, -11, -5, 1, 6, 10, 12, 11, 8, 2, -3, -9],
+        "rainDays": [9, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 5, 3, 2, 1],
+        "humidity": [85, 83, 79, 74, 72, 72, 72, 74, 79, 84, 86, 87],
+        "snowDepth": [45, 50, 35, 12, 0, 0, 0, 0, 0, 3, 22, 40],
+        "seaTemp":  [1, 1, 2, 6, 12, 17, 19, 19, 15, 9, 5, 2]
+      },
+      "crowd":      [45, 45, 50, 58, 66, 72, 76, 74, 68, 58, 48, 46],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 52,
+        "coast": 62, "islands": 45, "sailing": 78, "swimming": 55, "rivers": 88,
+        "cities": 55, "markets": 82, "shopping": 72, "taverns": 88, "ale": 88,
+        "wine": 92, "foodScene": 72, "feasting": 78, "festivals": 62, "music": 68,
+        "gambling": 62, "intrigue": 78, "localCulture": 82, "hospitality": 68, "comfort": 55,
+        "commonTongue": 88, "safety": 55, "lawAndOrder": 42, "dragons": 55, "combat": 45,
+        "monsters": 32, "history": 78, "ruins": 42, "architecture": 62, "artefacts": 45,
+        "seaMonsters": 12, "luxury": 32, "familyFriendly": 62, "seniors": 55,
+        "stargazing": 55, "magic": 12, "gettingThere": 62, "gettingBack": 72
+      },
+      "photos": ["Stilt houses over water village", "Wooden village on pilings lake", "Floating village Southeast Asia", "Wooden bridge over lake", "Barrels floating in river", "Lake with mountain backdrop"]
+    },
+    {
+      "id": "dale", "name": "Dale", "country": "ME", "region": "Wilderland", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "A city of bells and toymakers rebuilt out of its own ashes, with the best market between the Mountains and the Sea. Everything is new, everything is bright, and everyone can tell you exactly how long they were homeless.",
+      "about": "Old Dale was burned by Smaug and stood empty for two centuries; Bard rebuilt it after the Battle of Five Armies with dwarf money and dwarf masons. By the War of the Ring it is rich enough to matter, and it fights its own siege alongside Erebor while everyone in the south is busy — Brand and Dáin both die at the gate, which the book records in a single sentence.",
+      "tags": ["bells", "toys", "markets", "rebuilt"],
+      "climate": {
+        "tempHigh": [-2, 0, 5, 11, 16, 20, 22, 21, 17, 11, 4, 0],
+        "tempLow":  [-10, -9, -4, 1, 6, 10, 12, 11, 7, 2, -3, -8],
+        "rainDays": [9, 8, 8, 8, 9, 9, 8, 8, 8, 9, 10, 10],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 5, 4, 2, 2],
+        "humidity": [80, 77, 74, 70, 68, 68, 67, 69, 73, 78, 81, 82],
+        "snowDepth": [48, 52, 38, 14, 1, 0, 0, 0, 0, 4, 24, 42]
+      },
+      "crowd":      [52, 52, 58, 65, 72, 78, 82, 80, 74, 64, 55, 58],
+      "costTier": 2,
+      "r": {
+        "soloFemaleSafety": 75,
+        "cities": 92, "markets": 96, "shopping": 92, "architecture": 82, "festivals": 88,
+        "music": 82, "foodScene": 85, "feasting": 88, "ale": 82, "wine": 78,
+        "taverns": 85, "localCulture": 88, "hospitality": 78, "comfort": 78, "luxury": 68,
+        "familyFriendly": 88, "seniors": 68, "safety": 68, "lawAndOrder": 78, "commonTongue": 92,
+        "history": 78, "ruins": 32, "artefacts": 62, "libraries": 55, "dragons": 42,
+        "combat": 55, "warRisk": 32, "mountains": 68, "intrigue": 55, "healing": 62,
+        "magic": 15, "gettingThere": 55, "gettingBack": 72
+      },
+      "photos": ["Medieval market square town", "Bell tower above town square", "Wooden toys on market stall", "Colourful timber framed houses", "Market stalls awnings crowd", "Hallstatt Austria village"]
+    },
+    {
+      "id": "beorns-house", "name": "Beorn's House", "country": "ME", "region": "The Vales of Anduin", "continent": "High Fantasy",
+      "type": "village", "arch": "pastoral-idyll",
+      "blurb": "A wooden hall in a clover meadow with bees the size of your thumb, honey-cakes, cream, and a host who is a very large man in the evening and something else after dark. House rule: stay indoors.",
+      "about": "Beorn is a skin-changer, a vegetarian, keeps animals that wait at table, and hates goblins with a completeness that settles the Battle of Five Armies when he turns up in bear-shape at the end of it. His descendants the Beornings hold the High Pass and the Old Ford afterwards and charge a stiff toll for both. Best meal in The Hobbit, and there is real competition.",
+      "tags": ["skin-changer", "bees", "honey cakes", "stay indoors"],
+      "climate": {
+        "tempHigh": [1, 3, 8, 14, 19, 23, 25, 24, 20, 13, 6, 2],
+        "tempLow":  [-7, -6, -2, 3, 8, 12, 14, 13, 10, 5, 0, -5],
+        "rainDays": [10, 9, 9, 9, 10, 10, 9, 9, 9, 10, 11, 11],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 2],
+        "humidity": [86, 84, 80, 75, 73, 73, 73, 75, 79, 84, 87, 88],
+        "snowDepth": [25, 26, 15, 3, 0, 0, 0, 0, 0, 1, 8, 20]
+      },
+      "crowd":      [8, 8, 12, 20, 30, 38, 42, 40, 32, 20, 12, 8],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 88,
+        "plains": 78, "forests": 72, "rivers": 82, "beasts": 100, "foodScene": 92,
+        "vegetarian": 100, "feasting": 92, "hospitality": 82, "comfort": 72, "safety": 62,
+        "healing": 62, "music": 78, "localCulture": 78, "scenery": 82, "hiking": 72,
+        "wandering": 78, "magic": 55, "timeStrange": 42, "monsters": 32, "combat": 45,
+        "familyFriendly": 68, "seniors": 62, "stargazing": 82, "ale": 55, "wine": 25,
+        "taverns": 22, "markets": 15, "shopping": 8, "cities": 2, "libraries": 5,
+        "luxury": 25, "mountains": 55, "questing": 42, "gettingThere": 42, "gettingBack": 62
+      },
+      "photos": ["Timber hall turf roof Norway", "Beehives in clover meadow", "Honeycomb dripping honey", "Wooden longhouse interior fire", "Brown bear in meadow", "Wildflower meadow summer"]
+    },
+    {
+      "id": "withered-heath", "name": "The Withered Heath", "country": "ME", "region": "The Grey Mountains", "continent": "High Fantasy",
+      "type": "badlands", "arch": "frozen-waste",
+      "blurb": "A dry valley in the Grey Mountains where the great worms breed. This is where dragons come from, and every dwarf-hall in the north was emptied by something that started here.",
+      "about": "Tolkien mentions the Withered Heath twice and never takes you there, which is why it is the most frightening address in the north. Scatha came out of these mountains, and so did the cold-drake that killed Dáin I and drove the Longbeards south to Erebor — the migration that puts a dwarf-kingdom under a lonely mountain and, eventually, a dragon on top of it. The Hobbit starts here.",
+      "tags": ["dragons", "cold-drakes", "breeding ground", "grey mountains"],
+      "climate": {
+        "tempHigh": [-9, -8, -3, 3, 9, 14, 17, 16, 11, 4, -3, -7],
+        "tempLow":  [-19, -18, -13, -6, 0, 5, 8, 7, 3, -4, -11, -17],
+        "rainDays": [8, 7, 7, 7, 8, 8, 7, 7, 7, 8, 9, 9],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 5, 3, 2, 1],
+        "humidity": [78, 76, 74, 72, 70, 69, 68, 70, 74, 78, 80, 80],
+        "snowDepth": [95, 105, 95, 60, 25, 5, 0, 1, 8, 38, 72, 92]
+      },
+      "crowd":      [2, 2, 3, 4, 6, 8, 10, 9, 7, 4, 3, 2],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 6,
+        "dragons": 100, "mountains": 92, "wilderness": 96, "desert": 45, "monsters": 88,
+        "adrenaline": 88, "combat": 82, "questing": 88, "artefacts": 72, "scenery": 62,
+        "climbing": 78, "hiking": 62, "stargazing": 78, "history": 78, "ruins": 62,
+        "undead": 12, "magic": 45, "beasts": 45, "fellowship": 72, "safety": 3,
+        "survivability": 8, "comfort": 3, "healing": 5, "hospitality": 2, "foodScene": 3,
+        "feasting": 2, "vegetarian": 5, "ale": 3, "taverns": 0, "music": 2, "cities": 0,
+        "markets": 0, "shopping": 0, "luxury": 2, "familyFriendly": 0, "seniors": 1,
+        "libraries": 2, "gettingThere": 12, "gettingBack": 22, "warRisk": 55, "lawAndOrder": 2
+      },
+      "photos": ["Barren rocky valley mountains", "Lava field cracked rock", "Grey rocky mountain ridge", "Dry stony riverbed valley", "Bare scree slope mountainside", "Snow dusted rocky waste"]
+    },
+    {
+      "id": "gladden-fields", "name": "The Gladden Fields", "country": "ME", "region": "The Vales of Anduin", "continent": "High Fantasy",
+      "type": "wetland", "arch": "lost-world",
+      "blurb": "Miles of yellow iris in a slow green river, loud with birds, and somewhere in the mud the reason the whole story happens. Bring waders and a very long memory.",
+      "about": "Isildur was ambushed here by orcs two years after the Ring was cut from Sauron's hand. He put it on, swam for it, and the Ring slipped off his finger and let him be shot in the water. It lay in the riverbed for two and a half thousand years until a Stoor named Déagol found it and his cousin Sméagol strangled him for it. Nothing at the site says any of this.",
+      "tags": ["irises", "isildur", "déagol", "where the ring was lost"],
+      "climate": {
+        "tempHigh": [0, 2, 7, 13, 18, 22, 24, 23, 19, 12, 5, 1],
+        "tempLow":  [-8, -7, -2, 3, 8, 12, 14, 13, 10, 4, -1, -6],
+        "rainDays": [12, 11, 11, 11, 11, 10, 9, 9, 10, 12, 13, 13],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 7, 5, 3, 2, 1],
+        "humidity": [90, 88, 86, 83, 82, 81, 81, 83, 86, 89, 91, 91]
+      },
+      "crowd":      [6, 6, 9, 15, 22, 28, 30, 28, 22, 14, 8, 6],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 45,
+        "rivers": 96, "plains": 62, "forests": 45, "beasts": 88, "scenery": 78,
+        "wilderness": 82, "history": 92, "artefacts": 78, "prophecy": 72, "timeStrange": 32,
+        "hiking": 55, "wandering": 72, "stargazing": 72, "questing": 68, "monsters": 55,
+        "undead": 22, "combat": 42, "magic": 42, "swimming": 42, "vegetarian": 62,
+        "safety": 38, "survivability": 55, "comfort": 15, "hospitality": 12, "foodScene": 15,
+        "feasting": 8, "taverns": 0, "ale": 3, "cities": 0, "markets": 0, "luxury": 3,
+        "familyFriendly": 32, "seniors": 22, "libraries": 3, "gettingThere": 42, "gettingBack": 55
+      },
+      "photos": ["Yellow iris flowers marsh", "River reeds marshland birds", "Slow river through wetland", "Marsh at sunrise mist", "Water lilies and reeds", "Grey heron in reed bed"]
+    },
+    {
+      "id": "dunland", "name": "Dunland", "country": "ME", "region": "The Hillmen's Country", "continent": "High Fantasy",
+      "type": "highland", "arch": "pastoral-idyll",
+      "blurb": "Wet green hills full of people with a three-hundred-year grievance about who owns Rohan, and they are not entirely wrong. Warm enough welcome, provided you are not blond and on a horse.",
+      "about": "The Dunlendings were pushed out of Calenardhon when Gondor handed it to Eorl, and have wanted it back ever since, which is why Saruman finds them so easy to recruit. Tolkien gives them a real case and then has Erkenbrand's riders cut them to pieces at the Fords — and afterwards Erkenbrand feeds the prisoners and sends them home, which is as near to a peace settlement as the book gets.",
+      "tags": ["hillmen", "grievance", "moorland", "saruman's recruits"],
+      "climate": {
+        "tempHigh": [4, 5, 8, 12, 16, 19, 21, 21, 18, 13, 8, 5],
+        "tempLow":  [-2, -2, 0, 3, 6, 9, 11, 11, 9, 5, 1, -1],
+        "rainDays": [15, 13, 14, 13, 12, 11, 11, 12, 13, 15, 16, 16],
+        "sunHours": [2, 2, 3, 5, 6, 6, 6, 6, 4, 3, 2, 1],
+        "humidity": [88, 86, 84, 81, 79, 79, 79, 81, 84, 87, 89, 89],
+        "snowDepth": [12, 10, 4, 0, 0, 0, 0, 0, 0, 0, 2, 8]
+      },
+      "crowd":      [15, 15, 18, 24, 30, 36, 40, 38, 32, 24, 18, 15],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 42,
+        "plains": 62, "mountains": 62, "forests": 55, "wilderness": 78, "hiking": 78,
+        "scenery": 72, "rivers": 72, "localCulture": 88, "peoples": 45, "hospitality": 42,
+        "feasting": 62, "ale": 78, "foodScene": 55, "music": 72, "festivals": 55,
+        "history": 78, "combat": 68, "questing": 55, "warRisk": 32, "safety": 38,
+        "lawAndOrder": 25, "comfort": 32, "luxury": 8, "cities": 5, "markets": 25,
+        "taverns": 32, "shopping": 8, "libraries": 3, "commonTongue": 32, "magic": 15,
+        "beasts": 62, "stargazing": 68, "wandering": 78, "familyFriendly": 38, "seniors": 32,
+        "gettingThere": 55, "gettingBack": 62
+      },
+      "photos": ["Welsh hills sheep moorland", "Green hills under rain clouds", "Stone hut on hillside moor", "Highland cattle on moorland", "Rainy upland valley Wales", "Peat moor rolling hills"]
+    },
+    {
+      "id": "harad", "name": "Harad", "country": "ME", "region": "The Sunlands", "continent": "High Fantasy",
+      "type": "desert", "arch": "desert-world",
+      "blurb": "Spice markets, red silk, war-elephants the size of houses, and an old, deep and entirely reasonable dislike of Gondor. The books never take you here, which tells you who is holding the pen.",
+      "about": "The Haradrim are the enemy the story never troubles to understand, and Tolkien knew it: the one moment he gives them is Sam looking at a dead southron and wondering what lies he was told to bring him so far from home. The mûmakil are real and enormous. Númenor colonised these coasts and was hated for it, and Sauron simply inherited the grudge and put it to work.",
+      "tags": ["mûmakil", "spice", "sunlands", "southrons"],
+      "climate": {
+        "tempHigh": [24, 26, 30, 35, 40, 44, 45, 45, 41, 35, 29, 25],
+        "tempLow":  [10, 12, 15, 19, 24, 28, 29, 29, 26, 20, 15, 11],
+        "rainDays": [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+        "sunHours": [9, 10, 11, 12, 13, 13, 13, 12, 11, 10, 9, 8],
+        "humidity": [32, 30, 26, 20, 16, 13, 14, 16, 20, 25, 30, 33]
+      },
+      "crowd":      [55, 58, 62, 60, 52, 42, 38, 40, 48, 58, 62, 58],
+      "costTier": 2,
+      "r": {
+        "soloFemaleSafety": 28,
+        "desert": 100, "scenery": 82, "stargazing": 96, "beasts": 92, "wilderness": 88,
+        "markets": 92, "shopping": 88, "foodScene": 88, "localCulture": 92, "festivals": 78,
+        "music": 82, "peoples": 62, "intrigue": 78, "combat": 78, "questing": 72,
+        "cities": 62, "architecture": 72, "ruins": 68, "temples": 68, "history": 82,
+        "artefacts": 62, "hospitality": 62, "luxury": 68, "comfort": 45, "wine": 22,
+        "ale": 25, "taverns": 55, "gambling": 68, "magic": 45, "adrenaline": 72,
+        "vegetarian": 62, "safety": 32, "warRisk": 25, "lawAndOrder": 35, "commonTongue": 22,
+        "healing": 42, "survivability": 42, "familyFriendly": 32, "seniors": 25,
+        "gettingThere": 25, "gettingBack": 42
+      },
+      "photos": ["Sahara desert dunes Morocco", "Spice market stall Marrakesh", "Decorated elephant procession India", "Camel caravan desert dunes", "Mud brick desert city Mali", "Desert night sky stars"]
+    },
+    {
+      "id": "umbar", "name": "Umbar", "country": "ME", "region": "The Haven of the Corsairs", "continent": "High Fantasy",
+      "type": "coast", "arch": "island-kingdom",
+      "blurb": "The greatest natural harbour in the world, full of black ships crewed by people whose great-grandparents were Gondorians and who would burn Gondor to the waterline given a fair wind.",
+      "about": "Umbar is where the Black Númenóreans went — the faction that stayed loyal to Sauron — so the war with Gondor is a family quarrel three thousand years old. Ar-Pharazôn landed here to take Sauron prisoner, which worked for about fifty years and then destroyed Númenor. The great pillar raised to commemorate it stood over the haven until the corsairs pulled it down.",
+      "tags": ["corsairs", "black númenóreans", "harbour", "grudge"],
+      "climate": {
+        "tempHigh": [19, 20, 23, 27, 31, 34, 36, 36, 33, 29, 24, 20],
+        "tempLow":  [11, 11, 13, 16, 20, 24, 26, 26, 24, 20, 16, 12],
+        "rainDays": [7, 6, 4, 2, 1, 0, 0, 0, 1, 3, 6, 8],
+        "sunHours": [6, 7, 8, 10, 11, 12, 12, 12, 10, 8, 7, 6],
+        "humidity": [70, 69, 68, 66, 64, 62, 62, 64, 66, 68, 70, 71],
+        "seaTemp":  [18, 17, 18, 20, 23, 26, 28, 29, 27, 25, 22, 19]
+      },
+      "crowd":      [58, 58, 62, 68, 72, 75, 78, 78, 74, 68, 62, 58],
+      "costTier": 2,
+      "r": {
+        "soloFemaleSafety": 18,
+        "coast": 96, "sailing": 98, "swimming": 72, "islands": 62, "cities": 78,
+        "markets": 88, "shopping": 82, "gambling": 88, "taverns": 88, "ale": 72,
+        "wine": 82, "foodScene": 82, "feasting": 78, "festivals": 68, "music": 72,
+        "intrigue": 92, "combat": 78, "questing": 68, "ruins": 72, "history": 92,
+        "architecture": 78, "artefacts": 68, "seaMonsters": 45, "luxury": 62, "comfort": 55,
+        "safety": 22, "lawAndOrder": 18, "warRisk": 22, "hospitality": 42, "commonTongue": 62,
+        "familyFriendly": 25, "seniors": 32, "magic": 32, "soloTravel": 42,
+        "gettingThere": 45, "gettingBack": 52
+      },
+      "photos": ["Natural harbour bay with ships", "Sailing ship dark sails sea", "Fortified port town Mediterranean", "Harbour at sunset fishing boats", "Stone lighthouse on harbour wall", "Sea fort ramparts waves"]
+    },
+    {
+      "id": "sea-of-rhun", "name": "The Sea of Rhûn", "country": "ME", "region": "The East", "continent": "High Fantasy",
+      "type": "coast", "arch": "desert-world",
+      "blurb": "A freshwater sea in the middle of an ocean of grass, with wain-riders on the shore, horse herds, chariots, and the road that brings Dorwinion wine west. Everything Gondor calls the East begins here.",
+      "about": "The Easterlings have come west three times in recorded history; the Wainriders nearly finished Gondor in 1944 and killed a king doing it. Dorwinion, on the south-western shore, grows the wine that eventually gets thirteen dwarves out of Thranduil's cells. Beyond the sea the maps stop, and it is out there that two of the five wizards went and never came back.",
+      "tags": ["wainriders", "dorwinion", "steppe", "the blue wizards"],
+      "climate": {
+        "tempHigh": [-2, 1, 8, 16, 23, 28, 31, 30, 24, 16, 7, 0],
+        "tempLow":  [-12, -10, -4, 3, 9, 14, 17, 16, 10, 3, -3, -9],
+        "rainDays": [7, 6, 7, 7, 8, 6, 4, 4, 5, 7, 8, 8],
+        "sunHours": [3, 4, 6, 7, 9, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [78, 75, 68, 60, 55, 50, 47, 48, 54, 64, 74, 79],
+        "snowDepth": [20, 22, 10, 1, 0, 0, 0, 0, 0, 0, 6, 16],
+        "seaTemp":  [2, 2, 5, 10, 16, 22, 25, 25, 21, 15, 9, 4]
+      },
+      "crowd":      [12, 12, 18, 28, 38, 48, 52, 50, 42, 30, 18, 12],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 38,
+        "coast": 78, "sailing": 62, "swimming": 55, "plains": 96, "wilderness": 88,
+        "beasts": 92, "scenery": 72, "stargazing": 96, "wine": 96, "feasting": 78,
+        "ale": 62, "foodScene": 68, "markets": 78, "shopping": 62, "localCulture": 88,
+        "peoples": 68, "festivals": 62, "music": 78, "history": 78, "ruins": 42,
+        "combat": 72, "questing": 68, "intrigue": 68, "wizards": 62, "magic": 42,
+        "hospitality": 62, "comfort": 32, "luxury": 32, "cities": 32, "libraries": 12,
+        "commonTongue": 22, "safety": 32, "warRisk": 25, "lawAndOrder": 25, "temples": 42,
+        "desert": 42, "hiking": 62, "wandering": 88, "familyFriendly": 32, "seniors": 25,
+        "gettingThere": 18, "gettingBack": 38
+      },
+      "photos": ["Steppe grassland to horizon", "Inland sea shore steppe", "Horse drawn cart on grassland", "Vineyard rows on hillside", "Yurt camp on the steppe", "Sunset over inland lake"]
+    }
+  ]
+}

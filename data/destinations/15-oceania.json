@@ -29,6 +29,7 @@
         "luxury": 440
       },
       "r": {
+        "oldTown": 35,
         "beaches": 94, "swimming": 90, "surfing": 92, "sailing": 92, "kayaking": 82,
         "waterSports": 84, "scenery": 88, "architecture": 88, "foodScene": 92, "fineDining": 90,
         "coffee": 96, "markets": 84, "museums": 82, "artScene": 84, "theatre": 88,
@@ -73,6 +74,7 @@
         "luxury": 420
       },
       "r": {
+        "oldTown": 20,
         "coffee": 100, "foodScene": 96, "fineDining": 92, "markets": 90, "artScene": 96,
         "museums": 88, "theatre": 90, "liveMusic": 96, "festivals": 92, "sports": 100,
         "bars": 92, "clubbing": 88, "lgbtqScene": 90, "shopping": 88, "walkability": 88,
@@ -143,6 +145,7 @@
       "lon": 148.717,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1,
       "blurb": "Seventy-four islands in the reef, and Whitehaven Beach — seven kilometres of silica sand so pure it squeaks. Best seen from a bareboat charter.",
       "tags": ["whitehaven", "sailing", "reef", "islands"],
       "climate": {
@@ -230,6 +233,7 @@
       "lon": 153.612,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 1,
       "blurb": "Australia's easternmost point — long surf beaches, a lighthouse walk with whales offshore, and a wellness-and-markets culture that defines the place.",
       "tags": ["surfing", "wellness", "whales", "hinterland"],
       "climate": {
@@ -337,6 +341,7 @@
         "luxury": 410
       },
       "r": {
+        "oldTown": 25,
         "beaches": 96, "swimming": 88, "surfing": 90, "snorkelling": 80, "scuba": 78,
         "sailing": 82, "waterSports": 84, "wildlife": 90, "wine": 94, "foodScene": 86,
         "coffee": 92, "markets": 80, "scenery": 82, "hiking": 76, "nationalParks": 82,
@@ -451,6 +456,7 @@
       "lon": 167.926,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 3.5,
       "blurb": "Mitre Peak rising 1,700m straight out of the water, waterfalls everywhere after rain — and it rains 200 days a year, which is when it's best.",
       "tags": ["fjords", "milford track", "waterfalls", "rainforest"],
       "climate": {
@@ -558,6 +564,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 15,
         "sailing": 98, "beaches": 88, "swimming": 78, "surfing": 88, "islands": 92,
         "kayaking": 84, "waterSports": 82, "fishing": 88, "volcanic": 84, "scenery": 84,
         "hiking": 82, "forests": 84, "wine": 90, "foodScene": 88, "coffee": 92, "markets": 80,
@@ -584,6 +591,7 @@
       "lon": 173.017,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "New Zealand's sunniest corner — golden-sand coves you kayak between on the Abel Tasman track, and the Sauvignon Blanc vineyards of Marlborough.",
       "tags": ["kayaking", "coastal track", "wine", "sunshine"],
       "climate": {

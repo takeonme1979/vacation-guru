@@ -1,0 +1,463 @@
+{
+  "_doc": "Old towns the catalogue was missing — Kosovo and Skopje first, then walled, cobbled and Ottoman-era centres elsewhere that are the reason to go.",
+  "destinations": [
+    {
+      "id": "pristina-xk",
+      "name": "Pristina",
+      "country": "XK",
+      "region": "Kosovo",
+      "continent": "Europe",
+      "lat": 42.663, "lon": 21.165,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "Europe's youngest capital and some of its best coffee — macchiato culture on every pavement, Ottoman mosques and an old bazaar quarter beside a Brutalist library, and the frescoed monastery of Gračanica ten minutes out.",
+      "tags": ["macchiato", "ottoman mosques", "gracanica", "youngest capital", "value"],
+      "climate": {
+        "tempHigh": [3, 6, 11, 17, 22, 26, 29, 29, 24, 18, 10, 4],
+        "tempLow": [-5, -4, 0, 4, 9, 12, 14, 14, 10, 5, 1, -3],
+        "rainDays": [12, 11, 11, 12, 13, 10, 7, 6, 7, 9, 12, 13],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 10, 8, 5, 3, 2],
+        "humidity": [83, 78, 70, 67, 68, 66, 62, 62, 68, 75, 82, 85]
+      },
+      "crowd": [20, 20, 25, 35, 42, 50, 65, 70, 48, 35, 25, 30],
+      "priceIndex": [60, 60, 65, 72, 78, 85, 100, 100, 80, 70, 62, 68],
+      "cost": { "budget": 25, "mid": 55, "luxury": 140 },
+      "r": {
+        "oldTown": 72, "historicSites": 72, "architecture": 62, "religiousSites": 80, "museums": 55,
+        "localCulture": 86, "coffee": 98, "bars": 78, "clubbing": 62, "liveMusic": 60, "festivals": 70,
+        "foodScene": 74, "markets": 62, "shopping": 55, "walkability": 72, "publicTransport": 45,
+        "valueForMoney": 96, "backpacker": 72, "soloTravel": 72, "digitalNomad": 70,
+        "mountains": 55, "hiking": 55, "scenery": 50, "lakesRivers": 20, "beaches": 0, "swimming": 15,
+        "familyYoungKids": 50, "romance": 50, "luxury": 40, "cleanliness": 50
+      },
+      "photos": [
+        "Jashar Pasha Mosque Pristina",
+        "Gracanica Monastery Kosovo",
+        "National Library of Kosovo Pristina",
+        "Mother Teresa Boulevard Pristina",
+        "Newborn monument Pristina",
+        "Pristina old bazaar mosque"
+      ]
+    },
+    {
+      "id": "prizren-xk",
+      "name": "Prizren",
+      "country": "XK",
+      "region": "Kosovo",
+      "continent": "Europe",
+      "lat": 42.214, "lon": 20.741,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 1.25,
+      "blurb": "The prettiest town in Kosovo — an Ottoman stone bridge, minarets and church towers under a hilltop fortress, and a riverside that becomes one long café in summer, when DokuFest fills the old town with outdoor screens.",
+      "tags": ["stone bridge", "ottoman old town", "fortress", "dokufest", "sharr mountains"],
+      "climate": {
+        "tempHigh": [5, 8, 13, 18, 23, 27, 30, 30, 25, 19, 12, 6],
+        "tempLow": [-3, -2, 1, 5, 10, 13, 15, 15, 11, 7, 2, -2],
+        "rainDays": [11, 10, 11, 12, 12, 9, 6, 5, 7, 9, 12, 13],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 10, 8, 5, 3, 2],
+        "humidity": [80, 76, 69, 66, 66, 63, 58, 58, 65, 73, 80, 83]
+      },
+      "crowd": [15, 15, 22, 32, 42, 55, 75, 85, 50, 32, 20, 22],
+      "priceIndex": [55, 55, 62, 70, 78, 86, 100, 100, 78, 66, 58, 60],
+      "cost": { "budget": 22, "mid": 50, "luxury": 120 },
+      "r": {
+        "oldTown": 94, "historicSites": 88, "architecture": 88, "religiousSites": 88, "museums": 55,
+        "localCulture": 92, "festivals": 84, "liveMusic": 58, "walkability": 92, "coffee": 96,
+        "foodScene": 78, "markets": 66, "bars": 70, "clubbing": 45, "shopping": 45,
+        "valueForMoney": 98, "romance": 80, "backpacker": 82, "soloTravel": 76,
+        "scenery": 76, "mountains": 72, "hiking": 72, "lakesRivers": 45, "beaches": 0, "swimming": 20,
+        "publicTransport": 40, "familyYoungKids": 58, "seniors": 65, "luxury": 30, "cleanliness": 55
+      },
+      "photos": [
+        "Prizren old stone bridge",
+        "Sinan Pasha Mosque Prizren",
+        "Prizren fortress view",
+        "Shadervan square Prizren",
+        "Church of Our Lady of Ljevis Prizren",
+        "Prizren old town Bistrica river"
+      ]
+    },
+    {
+      "id": "skopje-mk",
+      "name": "Skopje",
+      "country": "MK",
+      "region": "North Macedonia",
+      "continent": "Europe",
+      "lat": 41.998, "lon": 21.425,
+      "type": "city",
+      "arch": "capital-city",
+      "blurb": "A capital of two halves — one of the biggest Ottoman bazaars left in the Balkans below a hilltop fortress, and across the Stone Bridge a baffling rebuilt centre of statues and neoclassical façades. Matka Canyon is twenty minutes away.",
+      "tags": ["old bazaar", "stone bridge", "kale fortress", "matka canyon", "value"],
+      "climate": {
+        "tempHigh": [5, 8, 13, 19, 24, 29, 32, 32, 27, 20, 12, 6],
+        "tempLow": [-3, -2, 2, 6, 10, 14, 16, 16, 12, 7, 2, -2],
+        "rainDays": [10, 9, 10, 11, 11, 8, 5, 4, 5, 8, 11, 12],
+        "sunHours": [2, 4, 5, 7, 8, 10, 11, 10, 8, 5, 3, 2],
+        "humidity": [82, 76, 68, 64, 64, 58, 54, 55, 62, 72, 80, 84]
+      },
+      "crowd": [18, 18, 24, 35, 45, 52, 60, 62, 48, 36, 22, 26],
+      "priceIndex": [60, 60, 66, 74, 80, 86, 95, 95, 82, 70, 62, 68],
+      "cost": { "budget": 25, "mid": 58, "luxury": 150 },
+      "r": {
+        "oldTown": 84, "historicSites": 76, "architecture": 70, "religiousSites": 72, "museums": 62,
+        "markets": 88, "localCulture": 84, "festivals": 62, "coffee": 84, "foodScene": 78,
+        "streetFood": 74, "bars": 75, "clubbing": 62, "shopping": 62, "walkability": 78,
+        "publicTransport": 55, "valueForMoney": 96, "backpacker": 78, "soloTravel": 72,
+        "lakesRivers": 78, "kayaking": 72, "hiking": 72, "mountains": 72, "scenery": 62,
+        "beaches": 0, "swimming": 20, "romance": 50, "luxury": 45, "familyYoungKids": 55,
+        "cleanliness": 52
+      },
+      "photos": [
+        "Old Bazaar Skopje",
+        "Stone Bridge Skopje",
+        "Skopje Fortress Kale",
+        "Matka Canyon Macedonia",
+        "Mustafa Pasha Mosque Skopje",
+        "Macedonia Square Skopje"
+      ]
+    },
+    {
+      "id": "bitola-mk",
+      "name": "Bitola",
+      "country": "MK",
+      "region": "North Macedonia",
+      "continent": "Europe",
+      "lat": 41.031, "lon": 21.335,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 1.5,
+      "blurb": "The 'city of consuls' — a long pedestrian promenade of pastel neoclassical townhouses built for the European consulates, an Ottoman bazaar and clock tower, Roman mosaics at Heraclea on the edge of town, and Pelister's pine forests above.",
+      "tags": ["sirok sokak", "city of consuls", "heraclea lyncestis", "pelister", "cafe culture"],
+      "climate": {
+        "tempHigh": [4, 7, 12, 17, 22, 27, 30, 30, 25, 18, 11, 5],
+        "tempLow": [-4, -3, 0, 4, 9, 12, 14, 14, 10, 6, 2, -2],
+        "rainDays": [10, 9, 10, 11, 11, 8, 5, 4, 5, 8, 11, 12],
+        "sunHours": [3, 4, 5, 6, 8, 10, 11, 10, 8, 5, 3, 2],
+        "humidity": [82, 77, 70, 66, 66, 61, 56, 57, 64, 73, 81, 84]
+      },
+      "crowd": [15, 15, 20, 30, 38, 45, 58, 62, 42, 32, 20, 22],
+      "priceIndex": [58, 58, 62, 70, 76, 84, 95, 95, 80, 68, 60, 64],
+      "cost": { "budget": 22, "mid": 50, "luxury": 120 },
+      "r": {
+        "oldTown": 86, "historicSites": 88, "architecture": 86, "religiousSites": 72, "museums": 62,
+        "localCulture": 84, "coffee": 90, "bars": 70, "clubbing": 40, "walkability": 86,
+        "markets": 72, "festivals": 72, "foodScene": 76, "valueForMoney": 96, "romance": 72,
+        "mountains": 80, "hiking": 82, "nationalParks": 80, "forests": 72, "lakesRivers": 55,
+        "scenery": 72, "backpacker": 70, "soloTravel": 70, "publicTransport": 40,
+        "beaches": 0, "swimming": 20, "skiing": 20, "familyYoungKids": 55, "seniors": 68,
+        "luxury": 30, "cleanliness": 55
+      },
+      "photos": [
+        "Širok Sokak Bitola",
+        "Heraclea Lyncestis mosaic",
+        "Bitola clock tower",
+        "Bitola Old Bazaar",
+        "Pelister National Park",
+        "Yeni Mosque Bitola"
+      ]
+    },
+    {
+      "id": "veliko-tarnovo-bg",
+      "name": "Veliko Tarnovo",
+      "country": "BG",
+      "region": "Central Bulgaria",
+      "continent": "Europe",
+      "lat": 43.081, "lon": 25.629,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 3,
+      "blurb": "Bulgaria's medieval capital, its red-roofed houses stacked up the cliffs of a looping river gorge opposite the walls of the Tsarevets fortress — lit up in colour on show nights.",
+      "tags": ["tsarevets", "medieval capital", "yantra gorge", "arbanasi", "crafts street"],
+      "climate": {
+        "tempHigh": [3, 6, 12, 18, 23, 27, 30, 30, 25, 18, 11, 5],
+        "tempLow": [-5, -3, 1, 6, 11, 14, 16, 16, 12, 7, 2, -3],
+        "rainDays": [8, 8, 8, 9, 10, 9, 6, 5, 5, 6, 8, 9],
+        "sunHours": [2, 3, 5, 6, 8, 9, 10, 10, 8, 5, 3, 2],
+        "humidity": [82, 78, 71, 67, 68, 66, 62, 62, 67, 74, 81, 84]
+      },
+      "crowd": [15, 15, 22, 35, 48, 58, 72, 75, 55, 38, 20, 22],
+      "priceIndex": [55, 55, 60, 70, 78, 86, 96, 96, 82, 68, 58, 62],
+      "cost": { "budget": 24, "mid": 55, "luxury": 130 },
+      "r": {
+        "oldTown": 92, "historicSites": 92, "architecture": 86, "religiousSites": 82, "museums": 62,
+        "markets": 65, "localCulture": 84, "festivals": 65, "walkability": 76, "scenery": 82,
+        "lakesRivers": 70, "hiking": 70, "valueForMoney": 96, "romance": 82, "backpacker": 74,
+        "foodScene": 70, "wine": 72, "publicTransport": 40, "cleanliness": 60,
+        "beaches": 0, "swimming": 15
+      },
+      "photos": [
+        "Tsarevets fortress Veliko Tarnovo",
+        "Veliko Tarnovo houses Yantra river",
+        "Samovodska charshiya Veliko Tarnovo",
+        "Arbanasi village Bulgaria",
+        "Veliko Tarnovo old town",
+        "Patriarchal Cathedral Tsarevets"
+      ]
+    },
+    {
+      "id": "gorlitz-de",
+      "name": "Görlitz",
+      "country": "DE",
+      "region": "Saxony",
+      "continent": "Europe",
+      "lat": 51.152, "lon": 14.987,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 1.5,
+      "blurb": "Germany's best-preserved old town, untouched by the war — four thousand listed buildings from Gothic to Art Nouveau, so intact that Hollywood uses it as a ready-made set, with Poland across a footbridge over the Neisse.",
+      "tags": ["listed buildings", "film location", "neisse", "poland next door", "quiet"],
+      "climate": {
+        "tempHigh": [2, 4, 8, 14, 19, 22, 24, 24, 19, 13, 7, 3],
+        "tempLow": [-4, -3, 0, 3, 8, 11, 13, 13, 9, 5, 1, -2],
+        "rainDays": [9, 8, 9, 8, 9, 10, 10, 9, 8, 8, 9, 10],
+        "sunHours": [2, 3, 4, 6, 7, 7, 7, 7, 5, 4, 2, 1],
+        "humidity": [85, 82, 77, 70, 70, 71, 71, 72, 77, 82, 86, 87]
+      },
+      "crowd": [15, 15, 22, 35, 45, 50, 58, 58, 45, 35, 22, 35],
+      "priceIndex": [65, 65, 70, 78, 84, 88, 92, 92, 85, 75, 68, 78],
+      "cost": { "budget": 50, "mid": 105, "luxury": 220 },
+      "r": {
+        "oldTown": 94, "historicSites": 86, "architecture": 96, "religiousSites": 70, "museums": 64,
+        "walkability": 88, "romance": 80, "localCulture": 62, "valueForMoney": 82, "beer": 80,
+        "coffee": 70, "bars": 50, "clubbing": 20, "publicTransport": 60, "cycling": 72,
+        "lakesRivers": 60, "seniors": 80, "familyYoungKids": 58, "beaches": 5, "swimming": 25
+      },
+      "photos": [
+        "Görlitz Untermarkt",
+        "Görlitz old town houses",
+        "Görlitz Church of St Peter and Paul",
+        "Görlitz Altstadtbrücke Neisse",
+        "Görlitz Reichenbacher Turm",
+        "Görlitz Obermarkt"
+      ]
+    },
+    {
+      "id": "banska-stiavnica-sk",
+      "name": "Banská Štiavnica",
+      "country": "SK",
+      "region": "Central Slovakia",
+      "continent": "Europe",
+      "lat": 48.458, "lon": 18.896,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 2.5,
+      "blurb": "A silver-mining town that was once one of the richest in the Kingdom of Hungary, draped around the rim of an extinct volcano between two castles and a baroque calvary, with old mine reservoirs to swim in.",
+      "tags": ["silver mining", "two castles", "calvary", "tajchy lakes", "volcanic caldera"],
+      "climate": {
+        "tempHigh": [0, 3, 8, 14, 19, 22, 24, 24, 19, 13, 6, 1],
+        "tempLow": [-6, -5, -2, 2, 7, 10, 12, 12, 8, 4, 0, -4],
+        "rainDays": [11, 10, 10, 10, 12, 11, 10, 9, 8, 9, 11, 12],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 8, 6, 4, 2, 1],
+        "humidity": [85, 81, 74, 68, 70, 71, 70, 70, 75, 80, 86, 88]
+      },
+      "crowd": [15, 15, 20, 30, 45, 55, 70, 70, 45, 32, 18, 25],
+      "priceIndex": [60, 60, 62, 70, 80, 88, 98, 98, 82, 70, 62, 70],
+      "cost": { "budget": 35, "mid": 75, "luxury": 160 },
+      "r": {
+        "oldTown": 90, "historicSites": 88, "architecture": 86, "religiousSites": 70, "museums": 72,
+        "walkability": 72, "scenery": 82, "lakesRivers": 72, "swimming": 45, "hiking": 76,
+        "forests": 78, "mountains": 55, "volcanic": 40, "romance": 78, "localCulture": 72,
+        "valueForMoney": 90, "bars": 50, "publicTransport": 35, "familyYoungKids": 60, "seniors": 65,
+        "beaches": 0, "skiing": 20
+      },
+      "photos": [
+        "Banská Štiavnica panorama",
+        "Banská Štiavnica Old Castle",
+        "Banská Štiavnica Calvary",
+        "Banská Štiavnica Trinity Square",
+        "Počúvadlo lake Slovakia",
+        "Banská Štiavnica New Castle"
+      ]
+    },
+    {
+      "id": "guimaraes-braga-pt",
+      "name": "Guimarães & Braga",
+      "country": "PT",
+      "region": "Minho",
+      "continent": "Europe",
+      "lat": 41.444, "lon": -8.296,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 1,
+      "blurb": "The birthplace of Portugal — a granite medieval centre of arcaded squares below the castle of its first king, and next door Braga, the country's religious capital, with its baroque zig-zag stairway up to Bom Jesus.",
+      "tags": ["birthplace of portugal", "medieval centre", "bom jesus", "vinho verde", "geres"],
+      "climate": {
+        "tempHigh": [14, 15, 18, 19, 22, 26, 28, 28, 26, 21, 17, 14],
+        "tempLow": [5, 5, 7, 8, 11, 14, 15, 15, 14, 11, 8, 6],
+        "rainDays": [15, 13, 12, 13, 11, 6, 3, 4, 7, 13, 14, 15],
+        "sunHours": [4, 5, 6, 7, 8, 10, 11, 10, 8, 6, 4, 4],
+        "humidity": [85, 80, 75, 74, 73, 70, 68, 69, 73, 80, 84, 86]
+      },
+      "crowd": [22, 22, 30, 45, 55, 62, 75, 80, 60, 42, 25, 30],
+      "priceIndex": [58, 58, 64, 74, 82, 90, 100, 100, 86, 70, 60, 65],
+      "cost": { "budget": 40, "mid": 90, "luxury": 210 },
+      "r": {
+        "oldTown": 92, "historicSites": 90, "architecture": 88, "religiousSites": 90, "museums": 70,
+        "localCulture": 82, "walkability": 86, "festivals": 78, "foodScene": 82, "wine": 84,
+        "coffee": 80, "valueForMoney": 88, "romance": 80, "publicTransport": 60, "hiking": 60,
+        "nationalParks": 60, "scenery": 70, "bars": 65, "beaches": 20, "swimming": 25,
+        "seniors": 76, "familyYoungKids": 62
+      },
+      "photos": [
+        "Guimarães Largo da Oliveira",
+        "Guimarães Castle",
+        "Palace of the Dukes of Braganza Guimarães",
+        "Bom Jesus do Monte stairway",
+        "Braga Cathedral",
+        "Guimarães medieval street"
+      ]
+    },
+    {
+      "id": "safranbolu-tr",
+      "name": "Safranbolu",
+      "country": "TR",
+      "region": "Black Sea",
+      "continent": "Asia",
+      "lat": 41.246, "lon": 32.691,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 3,
+      "blurb": "An Ottoman caravan town of whitewashed timber mansions tumbling into a ravine, with a working caravanserai you can sleep in, saffron in everything, and a Turkish-delight shop on every corner.",
+      "tags": ["ottoman mansions", "caravanserai", "saffron", "turkish delight", "unesco"],
+      "climate": {
+        "tempHigh": [6, 8, 13, 18, 23, 27, 30, 30, 26, 20, 13, 8],
+        "tempLow": [-2, -1, 1, 5, 9, 12, 15, 15, 11, 7, 3, 0],
+        "rainDays": [13, 12, 12, 11, 10, 7, 4, 4, 5, 9, 11, 13],
+        "sunHours": [2, 3, 4, 6, 8, 9, 11, 10, 8, 5, 3, 2],
+        "humidity": [80, 77, 73, 70, 70, 67, 63, 64, 69, 76, 80, 82]
+      },
+      "crowd": [15, 15, 25, 45, 55, 50, 60, 62, 55, 48, 22, 18],
+      "priceIndex": [60, 60, 65, 78, 85, 82, 90, 90, 82, 78, 62, 62],
+      "cost": { "budget": 28, "mid": 62, "luxury": 140 },
+      "r": {
+        "oldTown": 92, "historicSites": 84, "architecture": 92, "religiousSites": 66, "museums": 55,
+        "markets": 78, "localCulture": 86, "walkability": 80, "scenery": 72, "forests": 70,
+        "hiking": 62, "romance": 82, "valueForMoney": 90, "foodScene": 70, "seniors": 72,
+        "bars": 20, "clubbing": 5, "beaches": 0, "swimming": 10, "publicTransport": 35,
+        "familyYoungKids": 55
+      },
+      "photos": [
+        "Safranbolu Ottoman houses",
+        "Safranbolu old town view",
+        "Cinci Han Safranbolu",
+        "Safranbolu bazaar",
+        "Tokatlı Canyon Safranbolu",
+        "Safranbolu mansion"
+      ]
+    },
+    {
+      "id": "mardin-tr",
+      "name": "Mardin",
+      "country": "TR",
+      "region": "Southeast Anatolia",
+      "continent": "Asia",
+      "lat": 37.313, "lon": 40.735,
+      "type": "city",
+      "arch": "historic-city",
+      "blurb": "A honey-coloured stone town cascading down a hillside over the Mesopotamian plain, with Syriac monasteries that still hold services in Aramaic and rooftop terraces looking out towards Syria.",
+      "tags": ["stone houses", "syriac monasteries", "mesopotamia", "midyat", "rooftops"],
+      "climate": {
+        "tempHigh": [7, 9, 14, 19, 26, 33, 37, 37, 32, 24, 15, 9],
+        "tempLow": [1, 2, 5, 10, 15, 21, 25, 25, 21, 15, 8, 3],
+        "rainDays": [10, 10, 10, 9, 6, 1, 0, 0, 1, 4, 7, 9],
+        "sunHours": [4, 5, 6, 7, 10, 12, 12, 12, 10, 7, 5, 4],
+        "humidity": [70, 67, 61, 57, 42, 28, 24, 25, 28, 40, 56, 68]
+      },
+      "crowd": [15, 15, 25, 45, 55, 40, 35, 35, 45, 50, 30, 18],
+      "priceIndex": [60, 60, 68, 80, 88, 80, 78, 78, 85, 85, 68, 62],
+      "cost": { "budget": 28, "mid": 60, "luxury": 150 },
+      "r": {
+        "oldTown": 92, "historicSites": 90, "architecture": 92, "religiousSites": 90, "museums": 62,
+        "localCulture": 88, "walkability": 62, "scenery": 80, "foodScene": 80, "markets": 78,
+        "valueForMoney": 92, "romance": 72, "safety": 66, "soloFemaleSafety": 55,
+        "bars": 30, "clubbing": 10, "beaches": 0, "swimming": 10, "stargazing": 55, "desert": 40,
+        "publicTransport": 35, "familyYoungKids": 45
+      },
+      "photos": [
+        "Mardin old town panorama",
+        "Mardin stone houses",
+        "Mor Hananyo Monastery Mardin",
+        "Kasımiye Madrasa Mardin",
+        "Mor Gabriel Monastery Midyat",
+        "Mardin bazaar"
+      ]
+    },
+    {
+      "id": "pingyao-cn",
+      "name": "Pingyao",
+      "country": "CN",
+      "region": "Shanxi",
+      "continent": "Asia",
+      "lat": 37.202, "lon": 112.178,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 1.25,
+      "blurb": "The best-preserved walled town in China — six kilometres of Ming ramparts around lantern-hung streets, the courtyard banks that financed the Qing empire, and nights spent in a converted merchant's house.",
+      "tags": ["ming walls", "courtyard hotels", "qing banks", "lanterns", "unesco"],
+      "climate": {
+        "tempHigh": [2, 6, 13, 21, 27, 31, 31, 29, 25, 18, 10, 3],
+        "tempLow": [-11, -7, -1, 6, 12, 17, 20, 18, 12, 5, -3, -9],
+        "rainDays": [2, 3, 4, 5, 6, 9, 13, 12, 9, 5, 3, 1],
+        "sunHours": [6, 6, 7, 8, 9, 9, 8, 7, 7, 6, 6, 6],
+        "humidity": [52, 52, 50, 48, 50, 56, 72, 76, 70, 62, 58, 52]
+      },
+      "crowd": [30, 65, 40, 55, 62, 55, 70, 72, 50, 85, 35, 30],
+      "priceIndex": [55, 90, 60, 70, 75, 70, 82, 85, 68, 100, 60, 55],
+      "cost": { "budget": 30, "mid": 70, "luxury": 180 },
+      "r": {
+        "oldTown": 95, "historicSites": 92, "architecture": 90, "religiousSites": 72, "museums": 70,
+        "localCulture": 85, "walkability": 82, "streetFood": 72, "foodScene": 72, "valueForMoney": 86,
+        "backpacker": 70, "romance": 70, "cycling": 72, "publicTransport": 50, "bars": 40,
+        "clubbing": 10, "beaches": 0, "swimming": 5
+      },
+      "photos": [
+        "Pingyao ancient city wall",
+        "Pingyao street lanterns",
+        "Rishengchang Pingyao",
+        "Pingyao city tower",
+        "Wang Family Compound Shanxi",
+        "Shuanglin Temple Pingyao"
+      ]
+    },
+    {
+      "id": "guanajuato-mx",
+      "name": "Guanajuato & San Miguel de Allende",
+      "country": "MX",
+      "region": "Bajío",
+      "continent": "North America",
+      "lat": 21.019, "lon": -101.257,
+      "type": "city",
+      "arch": "historic-city",
+      "transfer": 1,
+      "blurb": "Two colonial silver towns in the highlands — Guanajuato's candy-coloured houses piled up a ravine above streets that run through tunnels, and San Miguel de Allende's pink Gothic parish church over cobbled lanes of galleries and rooftop bars.",
+      "tags": ["colonial", "silver towns", "cervantino", "callejoneadas", "rooftop bars"],
+      "climate": {
+        "tempHigh": [22, 24, 27, 29, 30, 28, 26, 26, 25, 25, 24, 22],
+        "tempLow": [6, 7, 9, 12, 14, 15, 14, 14, 14, 11, 8, 7],
+        "rainDays": [2, 2, 1, 2, 5, 12, 16, 15, 13, 6, 2, 2],
+        "sunHours": [8, 9, 9, 9, 9, 7, 7, 7, 6, 7, 8, 8],
+        "humidity": [52, 46, 40, 38, 42, 58, 66, 66, 68, 60, 55, 55]
+      },
+      "crowd": [45, 42, 55, 62, 48, 40, 50, 48, 42, 60, 65, 72],
+      "priceIndex": [80, 78, 85, 90, 80, 75, 82, 80, 75, 90, 90, 98],
+      "cost": { "budget": 40, "mid": 95, "luxury": 260 },
+      "r": {
+        "oldTown": 95, "historicSites": 88, "architecture": 94, "religiousSites": 84, "museums": 80,
+        "artScene": 88, "festivals": 88, "localCulture": 88, "walkability": 84, "foodScene": 84,
+        "streetFood": 82, "markets": 80, "bars": 78, "liveMusic": 76, "romance": 90, "coffee": 78,
+        "valueForMoney": 86, "digitalNomad": 78, "seniors": 78, "wellness": 66, "scenery": 70,
+        "shopping": 72, "luxury": 72, "backpacker": 65, "publicTransport": 45,
+        "beaches": 0, "swimming": 20
+      },
+      "photos": [
+        "Guanajuato city panorama",
+        "Callejón del Beso Guanajuato",
+        "Parroquia de San Miguel Arcángel",
+        "San Miguel de Allende street",
+        "Teatro Juárez Guanajuato",
+        "Basilica of Guanajuato"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "_doc": "Battlestar Galactica — the ship herself, the colonies that were lost in the first ninety minutes, and the four places the fleet actually stopped on the way. Caprica, Kobol and New Caprica were already here.",
+  "destinations": [
+    {
+      "id": "galactica", "name": "Battlestar Galactica", "country": "BSG", "region": "The Fleet", "continent": "Science Fiction",
+      "type": "vessel", "arch": "space-port",
+      "blurb": "A forty-year-old warship halfway through being turned into a museum, which is exactly why she is still flying: no networked computers, no wireless, nothing for a Cylon to walk into.",
+      "about": "The premise turns on obsolescence — Galactica survives the fall because Adama refused to network her systems, and everything modern died in minutes. She then spends four years as the only home fifty thousand people have: a flight deck, a memorial wall of photographs nobody takes down, and a commander who talks to her hull as it starts to fail.",
+      "tags": ["last warship", "no networked computers", "memorial wall", "so say we all"],
+      "climate": {
+        "tempHigh": [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+        "tempLow":  [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42]
+      },
+      "crowd":      [82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82],
+      "costTier": 1,
+      "r": {
+        "spaceTravel": 92, "technology": 72, "cities": 42, "fellowship": 96, "combat": 92,
+        "adrenaline": 82, "questing": 78, "intrigue": 88, "taverns": 62, "ale": 72,
+        "gambling": 78, "music": 68, "foodScene": 32, "feasting": 42, "hospitality": 62,
+        "healing": 62, "comfort": 32, "luxury": 8, "safety": 45, "lawAndOrder": 62,
+        "warRisk": 8, "soloFemaleSafety": 55, "survivability": 55, "familyFriendly": 25,
+        "seniors": 22, "history": 78, "artefacts": 45, "libraries": 32, "prophecy": 72,
+        "temples": 45, "stargazing": 88, "scenery": 25, "markets": 32, "shopping": 12,
+        "romance": 55, "soloTravel": 45, "peoples": 42, "commonTongue": 96, "magic": 2,
+        "monsters": 12, "undead": 5, "wilderness": 0, "gettingThere": 32, "gettingBack": 22
+      },
+      "photos": ["Aircraft carrier hangar deck", "Warship interior corridor", "Battleship interior compartment", "Military bunk room ship", "Naval operations room monitors", "Ship bridge controls navy"]
+    },
+    {
+      "id": "picon", "name": "Picon", "country": "BSG", "region": "The Twelve Colonies", "continent": "Science Fiction",
+      "type": "coast", "arch": "island-kingdom",
+      "blurb": "The Colonial Fleet's home water: island cities, deep anchorages, the Academy every pilot passes through, and the headquarters that was gone before anyone understood there was a war.",
+      "about": "Picon is the sea colony — Fleet HQ, the Academy, and enough coastline that the whole culture is boats. It also took the opening strike of the war: Picon Fleet Headquarters was hit first, which is why what survives of the Colonial Fleet is one museum piece and forty raptors.",
+      "tags": ["fleet headquarters", "the academy", "islands", "first strike"],
+      "climate": {
+        "tempHigh": [11, 11, 13, 15, 18, 21, 24, 24, 22, 18, 14, 12],
+        "tempLow":  [6, 6, 7, 9, 12, 15, 18, 18, 16, 13, 9, 7],
+        "rainDays": [14, 12, 12, 10, 9, 7, 5, 6, 8, 11, 13, 14],
+        "sunHours": [3, 4, 5, 7, 8, 9, 10, 9, 7, 5, 4, 3],
+        "humidity": [80, 79, 78, 77, 76, 74, 72, 73, 76, 78, 80, 81],
+        "seaTemp":  [12, 11, 12, 13, 15, 18, 20, 21, 20, 18, 15, 13]
+      },
+      "crowd":      [55, 55, 58, 62, 68, 74, 78, 78, 72, 64, 58, 55],
+      "costTier": 2,
+      "r": {
+        "coast": 96, "sailing": 92, "swimming": 72, "islands": 88, "cities": 78,
+        "technology": 82, "architecture": 72, "scenery": 82, "markets": 68, "shopping": 62,
+        "foodScene": 82, "feasting": 72, "wine": 72, "ale": 68, "taverns": 78,
+        "music": 68, "festivals": 62, "libraries": 78, "history": 72, "combat": 72,
+        "safety": 62, "lawAndOrder": 78, "warRisk": 25, "soloFemaleSafety": 68,
+        "comfort": 72, "luxury": 62, "healing": 78, "familyFriendly": 68, "seniors": 62,
+        "stargazing": 68, "romance": 68, "commonTongue": 96, "magic": 2,
+        "gettingThere": 55, "gettingBack": 45
+      },
+      "photos": ["Naval base harbour aerial", "Island city coastline aerial", "Naval academy building", "Deep water anchorage warships", "Ocean archipelago from the air", "Coastal city lights at night"]
+    },
+    {
+      "id": "tauron", "name": "Tauron", "country": "BSG", "region": "The Twelve Colonies", "continent": "Science Fiction",
+      "type": "plains", "arch": "desert-world",
+      "blurb": "Dust, tobacco, bull statues and a civil war every other generation. The colony that exports soldiers, criminals and the best food in the Twelve, and does not discuss its feelings.",
+      "about": "Adama is Tauron, which is why the story keeps coming back to it: a colony of farmers who fought a revolution, bury their dead in the ground rather than the sky, and are treated as gangsters everywhere richer. Caprica spends a season on the Ha'la'tha and on exactly what it costs a Tauron family to be respectable somewhere else.",
+      "tags": ["taurons don't cry", "tobacco", "blood feud", "adama"],
+      "climate": {
+        "tempHigh": [10, 12, 16, 21, 27, 33, 36, 35, 30, 23, 16, 11],
+        "tempLow":  [0, 1, 4, 8, 13, 18, 21, 20, 16, 10, 5, 1],
+        "rainDays": [7, 6, 6, 5, 4, 2, 1, 1, 3, 6, 7, 8],
+        "sunHours": [4, 5, 6, 8, 10, 12, 12, 11, 9, 7, 5, 4],
+        "humidity": [65, 62, 58, 54, 48, 40, 35, 37, 45, 55, 63, 67]
+      },
+      "crowd":      [42, 42, 45, 50, 55, 58, 60, 60, 56, 50, 45, 42],
+      "costTier": 1,
+      "r": {
+        "plains": 88, "desert": 62, "wilderness": 55, "scenery": 55, "foodScene": 88,
+        "feasting": 88, "wine": 82, "ale": 72, "taverns": 72, "localCulture": 92,
+        "peoples": 55, "history": 82, "ruins": 55, "combat": 82, "intrigue": 88,
+        "questing": 55, "markets": 68, "shopping": 45, "festivals": 62, "music": 72,
+        "safety": 32, "lawAndOrder": 25, "warRisk": 32, "soloFemaleSafety": 38,
+        "comfort": 42, "luxury": 22, "hospitality": 68, "healing": 45, "familyFriendly": 42,
+        "seniors": 45, "stargazing": 78, "technology": 62, "commonTongue": 88, "magic": 2,
+        "temples": 55, "gettingThere": 55, "gettingBack": 45
+      },
+      "photos": ["Dry farmland dust plain", "Tobacco field harvest", "Bronze bull statue", "Rural village arid landscape", "Dusty road cypress trees", "Stone farmhouse dry hills"]
+    },
+    {
+      "id": "gemenon", "name": "Gemenon", "country": "BSG", "region": "The Twelve Colonies", "continent": "Science Fiction",
+      "type": "highland", "arch": "dystopia",
+      "blurb": "The colony that still reads the Sacred Scrolls literally: temples, seminaries, a great deal of scripture, and the school every monotheist terrorist in the story turns out to have attended.",
+      "about": "Gemenon takes the Scrolls of Pythia as history rather than metaphor — which matters enormously, because by the third season those Scrolls are being read aloud on the bridge as navigation instructions and turn out to be broadly correct. Caprica shows the other half of it: the Soldiers of the One recruiting in Gemenese classrooms.",
+      "tags": ["the sacred scrolls", "seminaries", "pythia", "monotheists"],
+      "climate": {
+        "tempHigh": [8, 9, 12, 16, 21, 26, 29, 29, 25, 19, 13, 9],
+        "tempLow":  [1, 2, 4, 7, 11, 15, 18, 18, 15, 10, 6, 3],
+        "rainDays": [9, 8, 8, 7, 5, 3, 1, 2, 4, 7, 9, 10],
+        "sunHours": [4, 5, 6, 8, 9, 11, 12, 11, 9, 7, 5, 4],
+        "humidity": [72, 70, 67, 63, 58, 50, 45, 47, 55, 64, 71, 73]
+      },
+      "crowd":      [48, 48, 52, 56, 58, 60, 62, 62, 58, 54, 50, 48],
+      "costTier": 1,
+      "r": {
+        "temples": 96, "mountains": 68, "libraries": 88, "history": 88,
+        "prophecy": 96, "localCulture": 88, "architecture": 78, "ruins": 62, "scenery": 72,
+        "intrigue": 88, "hiking": 62, "stargazing": 78, "festivals": 68, "music": 72,
+        "foodScene": 55, "feasting": 55, "wine": 62, "ale": 42, "taverns": 32,
+        "safety": 45, "lawAndOrder": 62, "warRisk": 42, "soloFemaleSafety": 32,
+        "comfort": 42, "luxury": 25, "hospitality": 55, "healing": 45, "familyFriendly": 42,
+        "seniors": 55, "technology": 55, "commonTongue": 88, "magic": 12, "combat": 45,
+        "gettingThere": 52, "gettingBack": 45
+      },
+      "photos": ["Hillside monastery temple", "Meteora monastery Greece", "Ancient temple columns hillside", "Old library shelves manuscripts", "Candlelit chapel interior", "Stone steps up to temple"]
+    },
+    {
+      "id": "aerilon", "name": "Aerilon", "country": "BSG", "region": "The Twelve Colonies", "continent": "Science Fiction",
+      "type": "plains", "arch": "pastoral-idyll",
+      "blurb": "Cold fields, hard work and the accent Gaius Baltar spent an entire career pretending he did not have. Aerilon feeds the Colonies and is looked down on by every single one of them.",
+      "about": "The show's class politics live here. Aerilon is poor, agricultural and mocked, and its most famous son changed his voice to get out — so when Baltar's real accent slips in the final season it is the most revealing thing he ever does. The eleven colonies that eat Aerilon's food never once vote in its interest.",
+      "tags": ["breadbasket", "farm country", "baltar's accent", "poor relations"],
+      "climate": {
+        "tempHigh": [4, 5, 8, 12, 16, 19, 21, 21, 18, 13, 8, 5],
+        "tempLow":  [-1, -1, 1, 4, 7, 10, 12, 12, 10, 6, 3, 0],
+        "rainDays": [16, 14, 15, 13, 12, 11, 11, 12, 13, 15, 17, 17],
+        "sunHours": [1, 2, 3, 5, 6, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [88, 87, 85, 82, 80, 79, 79, 81, 84, 87, 89, 89]
+      },
+      "crowd":      [28, 28, 32, 38, 45, 52, 55, 55, 50, 40, 32, 28],
+      "costTier": 1,
+      "r": {
+        "plains": 92, "rivers": 68, "scenery": 55, "wilderness": 42, "foodScene": 72,
+        "feasting": 78, "ale": 82, "taverns": 68, "localCulture": 88, "hospitality": 82,
+        "festivals": 55, "music": 62, "history": 55, "safety": 72, "lawAndOrder": 62,
+        "warRisk": 55, "soloFemaleSafety": 58, "comfort": 45, "luxury": 12,
+        "familyFriendly": 72, "seniors": 62, "healing": 45, "stargazing": 72,
+        "technology": 45, "commonTongue": 88, "magic": 2, "cities": 22, "markets": 45,
+        "shopping": 22, "libraries": 32, "combat": 25, "intrigue": 32,
+        "gettingThere": 55, "gettingBack": 45
+      },
+      "photos": ["Ploughed fields grey sky", "Farm machinery harvest field", "Rural barn cold morning", "Wheat field overcast day", "Farm workers in field", "Village under grey clouds"]
+    },
+    {
+      "id": "sagittaron", "name": "Sagittaron", "country": "BSG", "region": "The Twelve Colonies", "continent": "Science Fiction",
+      "type": "highland", "arch": "dystopia",
+      "blurb": "Mountains, scripture, and a people who refuse medical treatment on principle and are policed for it by everybody else. Tom Zarek's home, and the reason he had a following.",
+      "about": "Sagittarons read the Scrolls as forbidding medicine and are treated as backward troublemakers by the other eleven colonies — the show's sharpest piece of prejudice, played entirely straight in an episode where a fleet doctor is quietly killing them. Zarek's terrorism starts here, and so does the fleet's least examined grievance.",
+      "tags": ["no medicine", "scripture", "tom zarek", "underclass"],
+      "climate": {
+        "tempHigh": [5, 6, 10, 14, 19, 24, 27, 27, 23, 17, 11, 7],
+        "tempLow":  [-3, -2, 1, 4, 8, 12, 15, 15, 12, 7, 3, -1],
+        "rainDays": [10, 9, 9, 8, 6, 4, 2, 3, 5, 8, 10, 11],
+        "sunHours": [4, 5, 6, 7, 9, 10, 11, 10, 8, 6, 4, 3],
+        "humidity": [75, 73, 70, 66, 61, 54, 48, 50, 58, 67, 74, 76],
+        "snowDepth": [25, 22, 12, 2, 0, 0, 0, 0, 0, 0, 6, 18]
+      },
+      "crowd":      [22, 22, 26, 32, 38, 44, 46, 46, 42, 34, 26, 22],
+      "costTier": 1,
+      "r": {
+        "mountains": 88, "wilderness": 78, "hiking": 82, "scenery": 82, "climbing": 62,
+        "localCulture": 88, "temples": 72, "prophecy": 78, "history": 68, "peoples": 45,
+        "music": 68, "foodScene": 45, "feasting": 45, "ale": 42, "taverns": 32,
+        "hospitality": 42, "safety": 42, "lawAndOrder": 22, "warRisk": 45,
+        "soloFemaleSafety": 42, "healing": 8, "comfort": 32, "luxury": 8,
+        "familyFriendly": 32, "seniors": 32, "stargazing": 88, "technology": 32,
+        "commonTongue": 88, "magic": 8, "intrigue": 72, "combat": 55, "wandering": 78,
+        "gettingThere": 42, "gettingBack": 42
+      },
+      "photos": ["Steep mountain village terraces", "Mountain settlement stone houses", "Highland valley village", "Rocky mountain road village", "Remote mountain chapel", "Terraced hillside farming"]
+    },
+    {
+      "id": "ragnar-anchorage", "name": "Ragnar Anchorage", "country": "BSG", "region": "A Gas Giant", "continent": "Science Fiction",
+      "type": "station", "arch": "space-port",
+      "blurb": "An ammunition depot inside a gas giant's permanent electrical storm. The radiation makes Cylons ill, which makes this the safest address in the galaxy for approximately six hours.",
+      "about": "Galactica runs here in the first hour because the storm blinds and poisons Cylon technology. It is also where Leoben is unmasked and where the fleet works out that the war is already over. Ragnar is the whole show in miniature: a hiding place that works, briefly, and costs something to leave.",
+      "tags": ["gas giant storm", "ammunition depot", "radiation", "the first hiding place"],
+      "climate": {
+        "tempHigh": [-45, -45, -45, -45, -45, -45, -45, -45, -45, -45, -45, -45],
+        "tempLow":  [-70, -70, -70, -70, -70, -70, -70, -70, -70, -70, -70, -70],
+        "rainDays": [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95]
+      },
+      "crowd":      [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],
+      "costTier": 1,
+      "r": {
+        "spaceTravel": 88, "technology": 68, "adrenaline": 82, "questing": 82,
+        "intrigue": 88, "combat": 78, "underground": 72, "safety": 38, "survivability": 25,
+        "soloFemaleSafety": 48, "comfort": 12, "luxury": 2, "foodScene": 8, "feasting": 5,
+        "taverns": 2, "ale": 12, "markets": 5, "shopping": 2, "cities": 12,
+        "libraries": 8, "hospitality": 22, "healing": 25, "familyFriendly": 5, "seniors": 8,
+        "stargazing": 32, "scenery": 45, "wilderness": 55, "history": 42, "artefacts": 32,
+        "commonTongue": 96, "magic": 2, "monsters": 22, "lawAndOrder": 32, "warRisk": 12,
+        "fellowship": 88, "gettingThere": 25, "gettingBack": 32
+      },
+      "photos": ["Jupiter storm clouds", "Lightning storm at night", "Ammunition bunker interior", "Industrial storage hall", "Gas giant atmosphere bands", "Storm over sea lightning"]
+    },
+    {
+      "id": "algae-planet", "name": "The Algae Planet", "country": "BSG", "region": "Under a Dying Star", "continent": "Science Fiction",
+      "type": "wilderness", "arch": "alien-world",
+      "blurb": "A barren world of algae fields and one four-thousand-year-old temple, orbiting a star that is going to explode on a schedule nobody controls. Bring a hazard suit and an open mind.",
+      "about": "The fleet stops here because the algae is food, and finds the Temple of Five, built by the Thirteenth Tribe on their way to Earth. What follows is the series' best mysticism — an eclipse, a chamber of five faces, and Baltar being informed he is an instrument of God, shortly before a supernova is used as a weapon.",
+      "tags": ["temple of five", "supernova", "algae", "the thirteenth tribe"],
+      "climate": {
+        "tempHigh": [12, 12, 13, 14, 15, 16, 17, 17, 16, 15, 13, 12],
+        "tempLow":  [2, 2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2],
+        "rainDays": [6, 6, 6, 5, 5, 4, 4, 4, 5, 6, 6, 6],
+        "sunHours": [5, 5, 6, 6, 7, 7, 7, 7, 6, 6, 5, 5],
+        "humidity": [62, 62, 61, 60, 59, 58, 57, 58, 59, 60, 61, 62]
+      },
+      "crowd":      [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+      "costTier": 1,
+      "r": {
+        "wilderness": 88, "temples": 92, "ruins": 82, "prophecy": 96, "history": 88,
+        "artefacts": 78, "questing": 82, "stargazing": 92, "scenery": 62, "hiking": 62,
+        "timeStrange": 62, "magic": 32, "technology": 45, "adrenaline": 68,
+        "safety": 32, "survivability": 32, "soloFemaleSafety": 45, "comfort": 15,
+        "luxury": 5, "foodScene": 22, "feasting": 18, "vegetarian": 88, "taverns": 2,
+        "ale": 5, "markets": 2, "cities": 2, "libraries": 22, "hospitality": 18,
+        "healing": 22, "familyFriendly": 12, "seniors": 15, "peoples": 8,
+        "commonTongue": 96, "combat": 45, "monsters": 8, "gettingThere": 25, "gettingBack": 32
+      },
+      "photos": ["Green algae bloom water", "Barren rocky planet surface", "Solar eclipse corona", "Ancient temple ruins desert", "Algae covered shoreline", "Supernova remnant nebula"]
+    },
+    {
+      "id": "the-colony", "name": "The Cylon Colony", "country": "BSG", "region": "A Naked Singularity", "continent": "Science Fiction",
+      "type": "megastructure", "arch": "dystopia",
+      "blurb": "A vast accreted structure orbiting the event horizon of a naked singularity, grown rather than built, held together by a civil war it is losing. The last address anyone in this story visits.",
+      "about": "The Colony is where the Cylons resurrect, where Hera is taken, and where the show finishes its shooting: Galactica jumps in alongside, rams it, and the two structures fall into the singularity together. It is one of the few sets in television science fiction that looks genuinely non-human — nothing is square and nothing was designed.",
+      "tags": ["singularity", "resurrection", "hera", "the last jump"],
+      "climate": {
+        "tempHigh": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "tempLow":  [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78]
+      },
+      "crowd":      [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72],
+      "costTier": 1,
+      "r": {
+        "technology": 96, "spaceTravel": 92, "architecture": 82, "cities": 68,
+        "underground": 78, "intrigue": 92, "combat": 92, "questing": 88, "adrenaline": 88,
+        "timeStrange": 68, "prophecy": 78, "monsters": 62, "undead": 55, "artefacts": 62,
+        "libraries": 45, "history": 68, "safety": 5, "survivability": 15, "lawAndOrder": 22,
+        "soloFemaleSafety": 12, "comfort": 22, "luxury": 15, "healing": 55, "foodScene": 5,
+        "feasting": 2, "taverns": 0, "ale": 0, "markets": 2, "shopping": 0,
+        "familyFriendly": 0, "seniors": 5, "hospitality": 5, "stargazing": 62,
+        "scenery": 55, "peoples": 25, "commonTongue": 92, "magic": 8, "warRisk": 5,
+        "gettingThere": 8, "gettingBack": 5
+      },
+      "photos": ["Tangled industrial pipework", "Rusted metal structure abstract", "Dark nebula deep space", "Space station exterior modules", "Industrial cooling towers night", "Complex steel scaffolding"]
+    },
+    {
+      "id": "earth-thirteenth", "name": "Earth, the Thirteenth Colony", "country": "BSG", "region": "The End of the Map", "continent": "Science Fiction",
+      "type": "ruins", "arch": "desert-world",
+      "blurb": "The planet at the end of the star map: a radioactive ruin two thousand years dead, found by people who had spent four years praying for it. The bleakest scene in the show, and the best.",
+      "about": "The Thirteenth Tribe were Cylons, they built a civilisation here, and they destroyed it — which the fleet discovers by walking through the glass. Adama standing in the rubble as the music drops is the series' whole argument: all of this has happened before is not a comfort, it is a warning. They leave, find another planet, and name that one Earth instead.",
+      "tags": ["radioactive", "the thirteenth tribe", "all this has happened before", "ruins"],
+      "climate": {
+        "tempHigh": [3, 5, 9, 15, 20, 25, 28, 27, 23, 16, 9, 4],
+        "tempLow":  [-4, -3, 0, 5, 10, 14, 17, 16, 12, 7, 2, -2],
+        "rainDays": [11, 10, 10, 9, 9, 8, 7, 7, 8, 10, 11, 12],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 6, 4, 2, 2],
+        "humidity": [80, 78, 75, 72, 70, 68, 67, 69, 73, 77, 80, 81],
+        "snowDepth": [12, 10, 4, 0, 0, 0, 0, 0, 0, 0, 3, 9]
+      },
+      "crowd":      [4, 4, 4, 5, 6, 7, 8, 8, 7, 5, 4, 4],
+      "costTier": 1,
+      "r": {
+        "ruins": 100, "cities": 55, "wilderness": 82, "history": 96, "artefacts": 72,
+        "prophecy": 88, "architecture": 62, "scenery": 45, "stargazing": 82, "hiking": 55,
+        "questing": 88, "timeStrange": 72, "technology": 42, "adrenaline": 55,
+        "safety": 25, "survivability": 12, "soloFemaleSafety": 32, "comfort": 8,
+        "luxury": 2, "healing": 5, "foodScene": 2, "feasting": 2, "taverns": 0,
+        "ale": 2, "markets": 0, "shopping": 2, "libraries": 25,
+        "hospitality": 5, "familyFriendly": 5, "seniors": 8, "peoples": 2,
+        "commonTongue": 55, "magic": 5, "monsters": 5, "undead": 12, "combat": 22,
+        "lawAndOrder": 2, "warRisk": 72, "gettingThere": 12, "gettingBack": 32
+      },
+      "photos": ["Ruined concrete city rubble", "Abandoned city overgrown ruins", "Desert nuclear test site ruins", "Broken skyline at dusk", "Cracked earth wasteland", "Rusted metal ruins field"]
+    }
+  ]
+}

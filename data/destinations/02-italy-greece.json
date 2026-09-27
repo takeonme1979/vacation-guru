@@ -29,6 +29,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 92,
         "historicSites": 100, "architecture": 96, "museums": 94, "religiousSites": 98,
         "artScene": 82, "foodScene": 94, "fineDining": 82, "markets": 78, "walkability": 82,
         "publicTransport": 62, "bars": 78, "clubbing": 62, "shopping": 80, "romance": 86,
@@ -73,6 +74,7 @@
         "luxury": 450
       },
       "r": {
+        "oldTown": 96,
         "architecture": 100, "historicSites": 94, "museums": 86, "artScene": 88,
         "religiousSites": 86, "romance": 96, "walkability": 90, "scenery": 88, "festivals": 82,
         "theatre": 68, "fineDining": 72, "foodScene": 74, "markets": 68, "sailing": 68,
@@ -116,6 +118,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 95,
         "museums": 98, "artScene": 94, "architecture": 96, "historicSites": 92,
         "religiousSites": 84, "foodScene": 88, "fineDining": 78, "wine": 96, "markets": 76,
         "walkability": 94, "shopping": 82, "romance": 88, "roadTrip": 82, "scenery": 72,
@@ -159,6 +162,7 @@
         "luxury": 360
       },
       "r": {
+        "oldTown": 50,
         "shopping": 96, "artScene": 86, "architecture": 82, "museums": 80, "theatre": 92,
         "fineDining": 88, "foodScene": 82, "bars": 86, "clubbing": 82, "publicTransport": 90,
         "walkability": 76, "historicSites": 66, "sports": 92, "luxury": 92, "digitalNomad": 74,
@@ -203,6 +207,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 82,
         "foodScene": 96, "streetFood": 94, "historicSites": 92, "museums": 84,
         "religiousSites": 82, "volcanic": 88, "localCulture": 94, "markets": 88,
         "architecture": 74, "liveMusic": 68, "bars": 72, "sports": 88, "valueForMoney": 92,
@@ -229,6 +234,7 @@
       "lon": 14.602,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 2,
       "blurb": "Pastel villages glued to vertical cliffs above impossibly blue water. Peerless in May and September; gridlocked and eye-watering in August.",
       "tags": ["scenery", "romance", "luxury", "coast"],
       "climate": {
@@ -247,6 +253,7 @@
         "luxury": 480
       },
       "r": {
+        "oldTown": 78,
         "scenery": 98, "romance": 96, "luxury": 92, "beaches": 68, "swimming": 78, "sailing": 86,
         "kayaking": 72, "hiking": 84, "foodScene": 88, "fineDining": 88, "wine": 82,
         "historicSites": 62, "architecture": 76, "wellness": 78, "roadTrip": 72,
@@ -291,6 +298,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 85,
         "historicSites": 94, "volcanic": 96, "foodScene": 92, "streetFood": 90, "markets": 88,
         "architecture": 84, "localCulture": 90, "scenery": 88, "beaches": 82, "swimming": 82,
         "hiking": 82, "scuba": 62, "sailing": 68, "wine": 88, "roadTrip": 88,
@@ -335,6 +343,7 @@
         "luxury": 520
       },
       "r": {
+        "oldTown": 60,
         "beaches": 96, "swimming": 92, "snorkelling": 78, "scuba": 76, "sailing": 92,
         "kayaking": 80, "waterSports": 82, "scenery": 88, "hiking": 82, "climbing": 78,
         "mountains": 72, "historicSites": 76, "localCulture": 82, "foodScene": 82, "wine": 80,
@@ -360,6 +369,7 @@
       "lon": 12.136,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 2.5,
       "blurb": "Pale limestone towers that turn pink at sunset, linked by the world's best ski circuit in winter and via ferrata in summer.",
       "tags": ["skiing", "hiking", "mountains", "scenery"],
       "climate": {
@@ -378,6 +388,7 @@
         "luxury": 420
       },
       "r": {
+        "oldTown": 40,
         "skiing": 98, "mountains": 98, "scenery": 98, "hiking": 96, "climbing": 96,
         "cycling": 92, "nationalParks": 88, "lakesRivers": 78, "stargazing": 80,
         "adrenaline": 82, "wellness": 86, "foodScene": 80, "wine": 78, "fineDining": 78,
@@ -404,6 +415,7 @@
       "lon": 9.257,
       "type": "lake",
       "arch": "wine-country",
+      "transfer": 1.25,
       "blurb": "Villas, gardens and steep wooded mountains dropping straight into deep blue water — the most theatrical of the Italian lakes.",
       "tags": ["scenery", "romance", "luxury", "lake"],
       "climate": {
@@ -421,6 +433,7 @@
         "luxury": 420
       },
       "r": {
+        "oldTown": 72,
         "scenery": 96, "lakesRivers": 98, "romance": 94, "luxury": 92, "architecture": 80,
         "hiking": 82, "mountains": 82, "kayaking": 78, "sailing": 78, "swimming": 62,
         "cycling": 78, "wellness": 82, "fineDining": 84, "foodScene": 80, "wine": 80,
@@ -446,6 +459,7 @@
       "lon": 9.71,
       "type": "coast",
       "arch": "historic-city",
+      "transfer": 2,
       "blurb": "Five stacked fishing villages on a vertiginous coast, linked by cliff paths and a train — tiny, gorgeous, and utterly swamped in summer.",
       "tags": ["hiking", "coast", "villages", "scenery"],
       "climate": {
@@ -464,6 +478,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 80,
         "scenery": 94, "hiking": 90, "beaches": 55, "swimming": 68, "kayaking": 74,
         "romance": 86, "foodScene": 84, "wine": 84, "architecture": 78, "localCulture": 72,
         "walkability": 72, "publicTransport": 62, "valueForMoney": 42, "accessibility": 15,
@@ -489,6 +504,7 @@
       "lon": 17.575,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1,
       "blurb": "Italy's heel: whitewashed hill towns, conical trulli houses, olive groves to the horizon and two coastlines with barely a high-rise.",
       "tags": ["food", "beach", "villages", "value"],
       "climate": {
@@ -507,6 +523,7 @@
         "luxury": 290
       },
       "r": {
+        "oldTown": 88,
         "foodScene": 92, "wine": 86, "beaches": 84, "swimming": 84, "architecture": 84,
         "historicSites": 78, "localCulture": 86, "scenery": 78, "roadTrip": 90, "cycling": 78,
         "markets": 76, "romance": 84, "valueForMoney": 90, "fineDining": 72, "snorkelling": 62,
@@ -550,6 +567,7 @@
         "luxury": 270
       },
       "r": {
+        "oldTown": 72,
         "historicSites": 100, "museums": 90, "architecture": 78, "religiousSites": 72,
         "foodScene": 84, "streetFood": 82, "markets": 82, "bars": 90, "clubbing": 82,
         "liveMusic": 76, "artScene": 78, "walkability": 76, "publicTransport": 78,
@@ -594,6 +612,7 @@
         "luxury": 520
       },
       "r": {
+        "oldTown": 70,
         "scenery": 98, "romance": 98, "volcanic": 92, "luxury": 94, "architecture": 84,
         "wine": 84, "fineDining": 84, "sailing": 82, "swimming": 72, "beaches": 62,
         "snorkelling": 55, "hiking": 74, "wellness": 80, "stargazing": 72, "historicSites": 68,
@@ -637,6 +656,7 @@
         "luxury": 580
       },
       "r": {
+        "oldTown": 70,
         "clubbing": 96, "bars": 94, "groupParty": 94, "lgbtqScene": 96, "beaches": 86,
         "swimming": 84, "luxury": 96, "fineDining": 88, "sailing": 84, "waterSports": 78,
         "shopping": 84, "romance": 78, "scenery": 80, "architecture": 78, "historicSites": 62,
@@ -680,6 +700,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 80,
         "beaches": 92, "swimming": 88, "hiking": 88, "mountains": 84, "scenery": 88,
         "historicSites": 88, "foodScene": 88, "localCulture": 88, "wine": 76, "snorkelling": 68,
         "scuba": 62, "sailing": 68, "roadTrip": 88, "climbing": 68, "valueForMoney": 90,
@@ -723,6 +744,7 @@
         "luxury": 270
       },
       "r": {
+        "oldTown": 95,
         "historicSites": 92, "architecture": 86, "beaches": 86, "swimming": 86,
         "waterSports": 88, "scuba": 62, "snorkelling": 62, "familyYoungKids": 86, "seniors": 78,
         "valueForMoney": 86, "foodScene": 76, "bars": 74, "clubbing": 68, "groupParty": 74,
@@ -766,6 +788,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 90,
         "beaches": 84, "swimming": 86, "forests": 68, "scenery": 80, "architecture": 82,
         "historicSites": 76, "sailing": 76, "kayaking": 68, "snorkelling": 62,
         "familyYoungKids": 86, "seniors": 76, "foodScene": 74, "valueForMoney": 84, "bars": 72,
@@ -791,6 +814,7 @@
       "lon": 25.377,
       "type": "island",
       "arch": "beach-resort",
+      "transfer": 1.5,
       "blurb": "The Cyclades without the price tag: enormous sandy beaches, a mountainous interior of marble villages, and a working island economy.",
       "tags": ["beach", "value", "hiking", "family"],
       "climate": {
@@ -809,6 +833,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 72,
         "beaches": 92, "swimming": 90, "waterSports": 84, "hiking": 78, "mountains": 68,
         "scenery": 78, "historicSites": 72, "localCulture": 82, "foodScene": 80,
         "valueForMoney": 90, "familyYoungKids": 86, "romance": 76, "backpacker": 68,
@@ -852,6 +877,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 97,
         "historicSites": 94, "architecture": 92, "scenery": 90, "walkability": 84,
         "swimming": 78, "beaches": 62, "sailing": 84, "kayaking": 82, "scuba": 58, "romance": 86,
         "foodScene": 74, "wine": 74, "bars": 70, "valueForMoney": 42, "familyYoungKids": 58,
@@ -895,6 +921,7 @@
         "luxury": 290
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 90, "architecture": 86, "sailing": 90, "islands": 88, "beaches": 68,
         "swimming": 82, "bars": 82, "clubbing": 74, "groupParty": 80, "foodScene": 76,
         "walkability": 82, "scenery": 78, "kayaking": 74, "hiking": 62, "valueForMoney": 70,
@@ -920,6 +947,7 @@
       "lon": 16.442,
       "type": "island",
       "arch": "beach-resort",
+      "transfer": 2,
       "blurb": "Lavender fields and hidden pebble coves by day, superyachts and famously messy bars by night — Croatia's most glamorous island.",
       "tags": ["nightlife", "sailing", "beach", "lavender"],
       "climate": {
@@ -938,6 +966,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 78,
         "clubbing": 88, "bars": 90, "groupParty": 88, "sailing": 92, "beaches": 76,
         "swimming": 86, "snorkelling": 68, "kayaking": 76, "scenery": 84, "wine": 82,
         "luxury": 84, "romance": 82, "historicSites": 68, "hiking": 66, "cycling": 62,
@@ -981,6 +1010,7 @@
         "luxury": 285
       },
       "r": {
+        "oldTown": 86,
         "foodScene": 90, "wine": 88, "fineDining": 82, "markets": 72, "architecture": 82,
         "historicSites": 80, "scenery": 80, "cycling": 84, "roadTrip": 84, "beaches": 62,
         "swimming": 76, "sailing": 74, "romance": 84, "valueForMoney": 76, "hiking": 66,
@@ -1024,6 +1054,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 94,
         "scenery": 92, "historicSites": 82, "architecture": 80, "mountains": 84, "hiking": 82,
         "kayaking": 78, "sailing": 78, "swimming": 74, "beaches": 58, "walkability": 78,
         "valueForMoney": 86, "romance": 80, "backpacker": 72, "roadTrip": 82,
@@ -1049,6 +1080,7 @@
       "lon": 20.007,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 4,
       "blurb": "The Ionian coast Greece and Italy already sold: turquoise coves, Ottoman-era Gjirokastër inland, and Europe's last genuinely cheap beach.",
       "tags": ["beach", "value", "emerging", "history"],
       "climate": {
@@ -1067,6 +1099,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 60,
         "beaches": 88, "swimming": 86, "scenery": 84, "valueForMoney": 96, "historicSites": 78,
         "snorkelling": 66, "kayaking": 68, "hiking": 74, "mountains": 76, "localCulture": 80,
         "foodScene": 72, "backpacker": 82, "romance": 68, "roadTrip": 76, "bars": 62,
@@ -1110,6 +1143,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 45,
         "lakesRivers": 96, "scenery": 94, "mountains": 90, "hiking": 92, "nationalParks": 88,
         "kayaking": 82, "cycling": 82, "climbing": 82, "adrenaline": 84, "swimming": 62,
         "skiing": 68, "forests": 84, "romance": 86, "familyYoungKids": 78, "wellness": 74,
@@ -1153,6 +1187,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 94, "architecture": 88, "religiousSites": 82, "scuba": 90,
         "snorkelling": 82, "swimming": 82, "beaches": 62, "sailing": 78, "kayaking": 70,
         "museums": 68, "walkability": 76, "englishSpoken": 96, "valueForMoney": 72, "bars": 74,
@@ -1197,6 +1232,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 55,
         "beaches": 88, "swimming": 90, "historicSites": 84, "scuba": 74, "waterSports": 78,
         "sailing": 68, "hiking": 72, "mountains": 70, "skiing": 42, "wine": 72,
         "englishSpoken": 92, "valueForMoney": 74, "familyYoungKids": 88, "seniors": 84,
@@ -1240,6 +1276,7 @@
         "luxury": 200
       },
       "r": {
+        "oldTown": 85,
         "historicSites": 98, "religiousSites": 96, "architecture": 94, "museums": 84,
         "markets": 98, "foodScene": 94, "streetFood": 94, "localCulture": 92, "shopping": 90,
         "wellness": 88, "bars": 74, "clubbing": 72, "liveMusic": 76, "walkability": 68,
@@ -1266,6 +1303,7 @@
       "lon": 34.828,
       "type": "region",
       "arch": "desert",
+      "transfer": 1,
       "blurb": "Volcanic 'fairy chimneys', rock-cut churches and underground cities — and a dawn sky filled with a hundred balloons.",
       "tags": ["scenery", "balloons", "history", "unique"],
       "climate": {
@@ -1284,6 +1322,7 @@
         "luxury": 190
       },
       "r": {
+        "oldTown": 45,
         "scenery": 96, "historicSites": 90, "religiousSites": 82, "adrenaline": 92, "hiking": 84,
         "stargazing": 86, "localCulture": 82, "romance": 90, "roadTrip": 74, "cycling": 68,
         "wellness": 68, "valueForMoney": 92, "markets": 68, "familyTeens": 78,
@@ -1327,6 +1366,7 @@
         "luxury": 210
       },
       "r": {
+        "oldTown": 78,
         "beaches": 86, "swimming": 88, "historicSites": 90, "scenery": 82, "mountains": 78,
         "hiking": 80, "waterSports": 82, "sailing": 82, "scuba": 68, "adrenaline": 78,
         "valueForMoney": 94, "familyYoungKids": 90, "themeParks": 76, "wellness": 84, "golf": 82,
@@ -1370,6 +1410,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 55,
         "beaches": 82, "swimming": 88, "sailing": 92, "clubbing": 86, "bars": 86,
         "groupParty": 86, "luxury": 84, "fineDining": 78, "waterSports": 82, "scuba": 68,
         "historicSites": 74, "scenery": 76, "shopping": 74, "wellness": 80, "valueForMoney": 78,

@@ -28,6 +28,7 @@
         "luxury": 220
       },
       "r": {
+        "oldTown": 92,
         "markets": 100, "localCulture": 94, "historicSites": 88, "architecture": 90,
         "religiousSites": 78, "shopping": 94, "foodScene": 88, "streetFood": 88, "wellness": 92,
         "artScene": 78, "mountains": 74, "hiking": 72, "desert": 80, "luxury": 84, "romance": 82,
@@ -71,6 +72,7 @@
         "luxury": 175
       },
       "r": {
+        "oldTown": 97,
         "historicSites": 96, "localCulture": 98, "architecture": 92, "markets": 96,
         "religiousSites": 86, "shopping": 88, "artScene": 76, "museums": 68, "foodScene": 86,
         "streetFood": 86, "wellness": 84, "walkability": 74, "valueForMoney": 92,
@@ -97,6 +99,7 @@
       "lon": -4.014,
       "type": "region",
       "arch": "desert",
+      "transfer": 5,
       "blurb": "Camel out over the Erg Chebbi dunes to a desert camp, then drive back through Berber villages and the kasbahs of the High Atlas.",
       "tags": ["sahara", "dunes", "kasbahs", "stargazing"],
       "climate": {
@@ -140,6 +143,7 @@
       "lon": -9.77,
       "type": "coast",
       "arch": "coastal-city",
+      "transfer": 2,
       "blurb": "A blue-and-white Atlantic port with ramparts, gnaoua music and relentless wind — Morocco's kitesurfing capital and its most relaxed medina.",
       "tags": ["kitesurfing", "port", "music", "relaxed"],
       "climate": {
@@ -158,6 +162,7 @@
         "luxury": 170
       },
       "r": {
+        "oldTown": 88,
         "waterSports": 96, "surfing": 82, "beaches": 76, "markets": 88, "historicSites": 80,
         "architecture": 82, "localCulture": 90, "liveMusic": 90, "festivals": 86, "artScene": 82,
         "foodScene": 84, "walkability": 88, "wellness": 80, "romance": 80, "valueForMoney": 90,
@@ -201,6 +206,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 78,
         "historicSites": 100, "museums": 98, "architecture": 88, "religiousSites": 88,
         "markets": 92, "localCulture": 90, "streetFood": 86, "foodScene": 82, "shopping": 82,
         "desert": 72, "valueForMoney": 94, "backpacker": 82, "halal": 100, "vegetarian": 76,
@@ -244,6 +250,7 @@
         "luxury": 200
       },
       "r": {
+        "oldTown": 30,
         "historicSites": 100, "architecture": 96, "religiousSites": 82, "museums": 84,
         "lakesRivers": 86, "desert": 84, "stargazing": 84, "adrenaline": 78, "localCulture": 84,
         "markets": 82, "sailing": 78, "romance": 80, "valueForMoney": 92, "seniors": 68,
@@ -332,6 +339,7 @@
         "luxury": 175
       },
       "r": {
+        "oldTown": 75,
         "historicSites": 94, "architecture": 84, "beaches": 82, "swimming": 82, "desert": 86,
         "museums": 80, "markets": 84, "localCulture": 84, "stargazing": 82, "roadTrip": 82,
         "waterSports": 72, "golf": 72, "wellness": 84, "valueForMoney": 94,
@@ -376,6 +384,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 55,
         "scenery": 98, "mountains": 90, "hiking": 92, "beaches": 84, "wine": 96, "foodScene": 92,
         "fineDining": 90, "surfing": 80, "kayaking": 74, "wildlife": 84, "climbing": 84,
         "cycling": 80, "adrenaline": 86, "museums": 78, "historicSites": 80, "artScene": 84,
@@ -402,6 +411,7 @@
       "lon": 31.556,
       "type": "region",
       "arch": "safari",
+      "transfer": 1,
       "blurb": "The most accessible Big Five safari on earth — you can self-drive it — plus the Blyde River Canyon on the escarpment above.",
       "tags": ["big five", "self drive", "safari", "value"],
       "climate": {
@@ -462,6 +472,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 15,
         "roadTrip": 98, "scenery": 92, "forests": 88, "beaches": 84, "wildlife": 88,
         "adrenaline": 94, "hiking": 88, "kayaking": 80, "surfing": 78, "lakesRivers": 82,
         "nationalParks": 86, "wine": 84, "foodScene": 82, "cycling": 72, "romance": 84,
@@ -487,6 +498,7 @@
       "lon": 35.008,
       "type": "region",
       "arch": "safari",
+      "transfer": 2,
       "blurb": "The Great Migration crossing the Mara River between July and October — nearly two million wildebeest, and the crocodiles waiting for them.",
       "tags": ["migration", "big cats", "safari", "balloon"],
       "climate": {
@@ -530,6 +542,7 @@
       "lon": 39.576,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 1.5,
       "blurb": "White sand and Indian Ocean reef on the Swahili coast, with Mombasa's old town and colobus monkeys in the coastal forest.",
       "tags": ["beach", "swahili", "reef", "kitesurfing"],
       "climate": {
@@ -573,6 +586,7 @@
       "lon": 34.833,
       "type": "region",
       "arch": "safari",
+      "transfer": 2,
       "blurb": "Endless plains and the Ngorongoro Crater — a collapsed caldera holding 25,000 animals inside its walls. The classic African safari.",
       "tags": ["serengeti", "crater", "migration", "big five"],
       "climate": {
@@ -634,6 +648,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 90,
         "beaches": 94, "swimming": 90, "snorkelling": 86, "scuba": 84, "sailing": 84,
         "waterSports": 84, "islands": 92, "historicSites": 90, "architecture": 88,
         "localCulture": 92, "markets": 88, "foodScene": 82, "wildlife": 74, "romance": 92,
@@ -660,6 +675,7 @@
       "lon": 37.355,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "The highest free-standing mountain in the world, and the only 5,895m summit an unroped walker can reach — through five climate zones in six days.",
       "tags": ["trekking", "summit", "altitude", "challenge"],
       "climate": {
@@ -747,6 +763,7 @@
       "lon": 22.9,
       "type": "region",
       "arch": "safari",
+      "transfer": 1,
       "blurb": "A river that never reaches the sea, flooding into the Kalahari and drawing enormous game — explored by mokoro canoe through the reeds.",
       "tags": ["delta", "mokoro", "elephants", "exclusive"],
       "climate": {
@@ -831,6 +848,7 @@
       "lon": 29.567,
       "type": "region",
       "arch": "jungle-eco",
+      "transfer": 2,
       "blurb": "Mountain gorilla trekking in the Virunga volcanoes — an hour on foot to sit with a habituated family. Also the cleanest country in Africa.",
       "tags": ["gorillas", "volcanoes", "clean", "conservation"],
       "climate": {
@@ -892,6 +910,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 20,
         "beaches": 94, "swimming": 92, "snorkelling": 88, "scuba": 84, "waterSports": 88,
         "sailing": 82, "islands": 90, "scenery": 86, "hiking": 80, "mountains": 78,
         "wildlife": 70, "golf": 84, "wellness": 86, "foodScene": 88, "markets": 80,
@@ -980,6 +999,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 30,
         "beaches": 86, "swimming": 84, "waterSports": 96, "surfing": 82, "scuba": 76,
         "snorkelling": 72, "sailing": 74, "fishing": 82, "islands": 92, "hiking": 88,
         "mountains": 82, "volcanic": 88, "scenery": 86, "liveMusic": 92, "localCulture": 88,
@@ -1024,6 +1044,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 15,
         "wildlife": 100, "forests": 94, "nationalParks": 90, "scenery": 90, "beaches": 80,
         "swimming": 78, "scuba": 78, "snorkelling": 78, "hiking": 86, "localCulture": 88,
         "stargazing": 86, "kayaking": 70, "ecoFriendly": 74, "romance": 76, "valueForMoney": 88,
@@ -1068,6 +1089,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 50,
         "religiousSites": 100, "historicSites": 96, "architecture": 92, "localCulture": 98,
         "coffee": 100, "mountains": 90, "hiking": 90, "scenery": 90, "wildlife": 78,
         "nationalParks": 82, "markets": 84, "festivals": 90, "museums": 74, "vegetarian": 96,

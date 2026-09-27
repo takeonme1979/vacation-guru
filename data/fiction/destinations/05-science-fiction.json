@@ -44,6 +44,7 @@
       "crowd":      [72, 72, 74, 76, 78, 80, 82, 82, 78, 75, 73, 72],
       "costTier": 3,
       "r": {
+        "soloFemaleSafety": 92,
         "coast": 98, "swimming": 96, "islands": 92, "sailing": 88, "scenery": 92,
         "luxury": 98, "comfort": 100, "hospitality": 100, "romance": 100,
         "foodScene": 92, "feasting": 88, "wine": 88, "revels": 92, "music": 88,
@@ -71,6 +72,7 @@
       "crowd":      [45, 45, 48, 52, 55, 58, 60, 58, 55, 50, 47, 45],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 25,
         "volcanic": 88, "mountains": 92, "wilderness": 82, "scenery": 78,
         "combat": 100, "monsters": 82, "beasts": 78, "questing": 82,
         "localCulture": 96, "history": 88, "music": 92, "festivals": 82,
@@ -123,6 +125,7 @@
       "crowd":      [22, 22, 24, 26, 28, 30, 32, 32, 29, 26, 24, 22],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 42,
         "desert": 100, "stargazing": 100, "wilderness": 96, "scenery": 92,
         "monsters": 96, "underground": 88, "questing": 92, "combat": 92,
         "prophecy": 100, "localCulture": 96, "artefacts": 78, "markets": 68,
@@ -151,6 +154,7 @@
       "crowd":      [22, 22, 26, 32, 38, 44, 48, 46, 40, 32, 25, 22],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 72,
         "coast": 96, "sailing": 92, "seaMonsters": 62, "islands": 72, "scenery": 92,
         "rivers": 72, "plains": 62, "swimming": 45, "architecture": 82,
         "history": 78, "localCulture": 88, "foodScene": 82, "feasting": 78,
@@ -176,6 +180,7 @@
       "crowd":      [72, 72, 72, 74, 74, 76, 76, 76, 75, 73, 72, 72],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 2,
         "cities": 88, "architecture": 78, "technology": 82, "spaceTravel": 78,
         "intrigue": 92, "combat": 78, "underground": 78, "markets": 62,
         "gambling": 72, "revels": 62, "history": 55,
@@ -231,6 +236,7 @@
       "crowd":      [48, 48, 50, 52, 55, 58, 60, 58, 55, 52, 50, 48],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 100,
         "technology": 100, "spaceTravel": 100, "comfort": 100, "healing": 100,
         "safety": 96, "survivability": 96, "hospitality": 92, "luxury": 96,
         "foodScene": 96, "feasting": 92, "wine": 92, "ale": 88, "vegetarian": 96,
@@ -284,6 +290,7 @@
       "crowd":      [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88],
       "costTier": 3,
       "r": {
+        "soloFemaleSafety": 78,
         "foodScene": 100, "feasting": 96, "wine": 96, "ale": 82, "luxury": 96,
         "comfort": 88, "music": 88, "revels": 82, "peoples": 96, "timeStrange": 100,
         "technology": 92, "spaceTravel": 88, "stargazing": 100, "scenery": 92,
@@ -445,6 +452,7 @@
       "crowd":      [45, 45, 42, 38, 32, 28, 32, 32, 26, 25, 32, 42],
       "costTier": 3,
       "r": {
+        "soloFemaleSafety": 15,
         "beasts": 100, "monsters": 92, "forests": 92, "islands": 88, "wilderness": 82,
         "scenery": 88, "coast": 78, "swimming": 62, "adrenaline": 92,
         "technology": 88, "rivers": 72, "hiking": 68, "climbing": 55,
@@ -498,6 +506,7 @@
       "crowd":      [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 8,
         "cities": 100, "architecture": 96, "temples": 100, "history": 96,
         "underground": 92, "technology": 78, "spaceTravel": 88, "artefacts": 88,
         "intrigue": 92, "combat": 88, "libraries": 78, "ruins": 72,

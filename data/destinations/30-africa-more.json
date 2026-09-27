@@ -11,6 +11,7 @@
       "lon": 34.5,
       "type": "lake",
       "arch": "safari",
+      "transfer": 3,
       "blurb": "The third-largest lake in Africa, warm as bathwater, with more species of fish than any other lake on earth and beaches nobody flies eleven hours to compete for.",
       "tags": ["cichlid fish", "warm heart of africa", "lake beaches", "snorkelling"],
       "climate": {
@@ -54,6 +55,7 @@
       "lon": 35.3,
       "type": "region",
       "arch": "safari",
+      "transfer": 2.5,
       "blurb": "A small park along the Shire River packed with elephants and reintroduced rhino, and far to the north a rolling highland plateau that looks more like Scotland than Africa.",
       "tags": ["shire river", "black rhino", "nyika plateau", "elephants"],
       "climate": {
@@ -95,6 +97,7 @@
       "lon": 29.28,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 3.5,
       "blurb": "An entire country above 1,000m, reachable by a switchback pass so steep only 4x4s attempt it, with Africa's highest pub at the top and pony trekking to villages with no roads at all.",
       "tags": ["sani pass", "pony trekking", "highest pub in africa", "basotho blankets"],
       "climate": {
@@ -137,6 +140,7 @@
       "lon": 31.2,
       "type": "region",
       "arch": "safari",
+      "transfer": 1.5,
       "blurb": "Africa's last absolute monarchy, small enough to cross by car in a morning, with rhino you can walk beside on foot and a reed dance ceremony held every year for the king.",
       "tags": ["walking safari", "reed dance", "swazi candles", "mkhaya reserve"],
       "climate": {
@@ -177,6 +181,7 @@
       "lon": 9.0,
       "type": "desert",
       "arch": "desert",
+      "transfer": 1,
       "blurb": "A sandstone plateau of rock arches and Neolithic art fifteen thousand years old, in a desert so empty the stars look artificial. Camel treks in, no roads at all.",
       "tags": ["rock art", "tassili n'ajjer", "camel trek", "empty quarter"],
       "climate": {
@@ -278,6 +283,7 @@
         "luxury": 235
       },
       "r": {
+        "oldTown": 45,
         "architecture": 78, "historicSites": 82, "museums": 68, "localCulture": 88,
         "markets": 88, "liveMusic": 88, "bars": 82, "foodScene": 85, "streetFood": 88,
         "beaches": 68, "swimming": 58, "festivals": 78, "englishSpoken": 25, "valueForMoney": 78,
@@ -302,6 +308,7 @@
       "lon": 15.35,
       "type": "desert",
       "arch": "desert",
+      "transfer": 5,
       "blurb": "The oldest desert on earth, with red dunes over 300 metres high and a granite outcrop called the Matterhorn of Africa where San rock art dates back two thousand years.",
       "tags": ["dune 45", "deadvlei", "san rock art", "oldest desert"],
       "climate": {
@@ -343,6 +350,7 @@
       "lon": 17.6,
       "type": "desert",
       "arch": "wilderness-park",
+      "transfer": 6,
       "blurb": "The second-largest canyon on earth, 160km long and 550m deep, crossed by a five-day hike with no facilities at all — a hot spring at the far end is the only reward.",
       "tags": ["second largest canyon", "multi-day hike", "hot springs", "remote"],
       "climate": {
@@ -384,6 +392,7 @@
       "lon": 34.35,
       "type": "region",
       "arch": "safari",
+      "transfer": 4,
       "blurb": "A park nearly wiped out by civil war and rebuilt from a few hundred surviving animals to one of Africa's great conservation comebacks — lions, elephants and a rainforest-topped mountain.",
       "tags": ["conservation success", "mount gorongosa", "civil war recovery", "e.o. wilson"],
       "climate": {
@@ -424,6 +433,7 @@
       "lon": 9.02,
       "type": "desert",
       "arch": "desert",
+      "transfer": 1,
       "blurb": "The gateway to the Sahara, with a hot spring bubbling straight out of the dunes and Star Wars sets left standing in the desert since 1976, slowly filling with sand again.",
       "tags": ["star wars sets", "ksar ghilane oasis", "camel trekking", "salt lake"],
       "climate": {
@@ -464,6 +474,7 @@
       "lon": 38.35,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 5,
       "blurb": "A cool, misty highland forest older than the Himalayas, with more endemic species than almost anywhere on earth and hiking between villages instead of lodges.",
       "tags": ["ancient forest", "endemic species", "village hikes", "chameleons"],
       "climate": {
@@ -546,6 +557,7 @@
       "lon": 36.3,
       "type": "region",
       "arch": "safari",
+      "transfer": 2,
       "blurb": "Home to some of the last traditional tribal cultures on earth, largely unchanged for centuries — the Mursi, Hamer and Karo peoples still practise lip plates and bull-jumping ceremonies.",
       "tags": ["mursi tribe", "bull jumping", "lip plates", "tribal markets"],
       "climate": {

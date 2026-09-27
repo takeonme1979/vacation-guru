@@ -1306,6 +1306,7 @@
         18
       ],
       "r": {
+        "soloFemaleSafety": 2,
         "underground": 96,
         "wilderness": 98,
         "scenery": 55,

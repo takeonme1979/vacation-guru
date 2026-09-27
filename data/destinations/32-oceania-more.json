@@ -95,6 +95,7 @@
       "lon": -149.83,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1,
       "blurb": "Bora Bora's less famous sister — jagged volcanic peaks over a lagoon of the same impossible turquoise, at a fraction of the price and twenty minutes by ferry from Tahiti.",
       "tags": ["heart shaped bay", "pineapple plantations", "lagoon", "shark snorkelling"],
       "climate": {
@@ -260,6 +261,7 @@
       "lon": 121.89,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "The whitest sand in Australia, kangaroos that actually sleep on the beach, and a national park coastline so far from anywhere it barely makes the tourist maps.",
       "tags": ["lucky bay kangaroos", "white sand", "cape le grand", "remote"],
       "climate": {
@@ -302,6 +304,7 @@
       "lon": 138.6,
       "type": "mountains",
       "arch": "desert",
+      "transfer": 5,
       "blurb": "Ancient folded mountains older than complex life on earth, a natural amphitheatre of peaks called Wilpena Pound, and fossils from half a billion years before dinosaurs.",
       "tags": ["wilpena pound", "ediacaran fossils", "outback", "stargazing"],
       "climate": {
@@ -343,6 +346,7 @@
       "lon": 137.28,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "A third the size of Wales with a third of its wildlife density — sea lions hauled out on the sand, koalas in every second tree, and remarkable granite boulders worn round by wind.",
       "tags": ["sea lions", "remarkable rocks", "koalas", "seafood"],
       "climate": {
@@ -385,6 +389,7 @@
       "lon": 172.7,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2.5,
       "blurb": "Golden sand coves at the top of the South Island, and beyond them a sand spit running thirty kilometres into the Tasman Sea, home to one of the largest gannet colonies on earth.",
       "tags": ["farewell spit", "gannet colony", "wharariki beach", "few tourists"],
       "climate": {

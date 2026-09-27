@@ -29,6 +29,7 @@
         "luxury": 450
       },
       "r": {
+        "oldTown": 35,
         "beaches": 94, "swimming": 92, "surfing": 82, "snorkelling": 82, "scuba": 78,
         "sailing": 84, "waterSports": 84, "fishing": 80, "localCulture": 86, "foodScene": 84,
         "streetFood": 80, "markets": 74, "liveMusic": 84, "festivals": 86, "bars": 84,
@@ -161,6 +162,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 92,
         "architecture": 96, "historicSites": 92, "localCulture": 100, "liveMusic": 100,
         "festivals": 84, "museums": 80, "artScene": 84, "walkability": 84, "bars": 88,
         "clubbing": 86, "beaches": 78, "swimming": 82, "scuba": 80, "snorkelling": 78,
@@ -293,6 +295,7 @@
         "luxury": 480
       },
       "r": {
+        "oldTown": 30,
         "beaches": 98, "swimming": 92, "sailing": 96, "snorkelling": 84, "scuba": 80,
         "waterSports": 84, "fishing": 78, "islands": 90, "historicSites": 82, "architecture": 74,
         "romance": 90, "luxury": 92, "wellness": 80, "englishSpoken": 96, "familyYoungKids": 80,
@@ -468,6 +471,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 80,
         "scuba": 96, "snorkelling": 94, "beaches": 88, "swimming": 90, "sailing": 80,
         "waterSports": 82, "architecture": 90, "historicSites": 82, "localCulture": 84,
         "museums": 68, "foodScene": 82, "bars": 80, "clubbing": 72, "lgbtqScene": 68,
@@ -512,6 +516,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 92, "architecture": 90, "localCulture": 92, "liveMusic": 92,
         "foodScene": 88, "streetFood": 84, "festivals": 86, "museums": 74, "beaches": 88,
         "swimming": 86, "surfing": 86, "snorkelling": 80, "scuba": 78, "kayaking": 88,

@@ -83,8 +83,70 @@ const activeFilterCount = () =>
   picked.continents.size + picked.countries.size + picked.types.size + picked.bands.size
   + (savedOnly ? 1 : 0) + (hideBeen ? 1 : 0);
 
-export function renderBrowse(root, { go }) {
-  const { destinations, criteriaById, world, meta } = data();
+// ---- sharable state <-> URL ------------------------------------------------
+//
+// A search only lives in memory, which made it unshareable: copying the link
+// while looking at "Orville" handed someone a bare, unfiltered Browse screen.
+// The query string is the other half of that state, read once per navigation
+// so a deep link can set it, and written back after every change so the link
+// in the address bar always matches what's on screen.
+//
+// Absence of these keys means "leave the in-session state alone", not "reset
+// it" — that's what lets clicking the Browse tab (whose href is the bare
+// `#/browse`) come back to where you left off instead of clearing filters.
+
+const QUERY_KEYS = ['q', 'g', 's', 'c', 'co', 't', 'b', 'sv', 'hb'];
+
+function applyQueryToState(query) {
+  if (!QUERY_KEYS.some((k) => query.has(k))) return;
+
+  filterText = query.get('q') || '';
+  const g = query.get('g');
+  grouping = GROUPINGS.some((x) => x.id === g) ? g : 'continent';
+  const s = query.get('s');
+  sortBy = SORTS.some((x) => x.id === s) ? s : 'name';
+
+  clearFilters();
+  const listed = (k) => (query.get(k) || '').split(',').filter(Boolean);
+  listed('c').forEach((v) => picked.continents.add(v));
+  listed('co').forEach((v) => picked.countries.add(v));
+  listed('t').forEach((v) => picked.types.add(v));
+  listed('b').forEach((v) => picked.bands.add(Number(v)));
+  savedOnly = query.get('sv') === '1';
+  hideBeen = query.get('hb') === '1';
+}
+
+/** Keeps `#/browse?...` in sync with the state above, without touching history. */
+function writeStateToUrl() {
+  if (typeof history === 'undefined' || typeof history.replaceState !== 'function') return;
+  if (String(location.protocol) === 'file:') return;
+  if (!(location.hash || '').startsWith('#/browse')) return;
+  try {
+    const p = new URLSearchParams();
+    if (filterText.trim()) p.set('q', filterText.trim());
+    if (grouping !== 'continent') p.set('g', grouping);
+    if (sortBy !== 'name') p.set('s', sortBy);
+    if (picked.continents.size) p.set('c', [...picked.continents].join(','));
+    if (picked.countries.size) p.set('co', [...picked.countries].join(','));
+    if (picked.types.size) p.set('t', [...picked.types].join(','));
+    if (picked.bands.size) p.set('b', [...picked.bands].join(','));
+    if (savedOnly) p.set('sv', '1');
+    if (hideBeen) p.set('hb', '1');
+
+    const qs = p.toString();
+    const newHash = '#/browse' + (qs ? '?' + qs : '');
+    if (newHash === location.hash) return;
+    const url = new URL(location.href);
+    url.hash = newHash;
+    history.replaceState(null, '', url.toString());
+  } catch {
+    /* URL sync is a nicety, not a mechanism. */
+  }
+}
+
+export function renderBrowse(root, { go, query }) {
+  if (query) applyQueryToState(query);
+  const { destinations, criteriaById, world, meta, sources } = data();
   const prefs = store.state.prefs;
   const scored = prefsSummary(prefs).chosen > 0;
 
@@ -113,7 +175,7 @@ export function renderBrowse(root, { go }) {
     type: 'search', class: 'search', value: filterText,
     placeholder: world.id === 'real'
       ? 'Search places, countries, tags…'
-      : 'Search realms, universes, tags…',
+      : 'Search realms, universes, authors…',
     oninput: debounce((e) => { filterText = e.target.value; paint(); }, 140)
   });
 
@@ -209,9 +271,27 @@ export function renderBrowse(root, { go }) {
     );
   }
 
+  /**
+   * What a destination can be found by, on top of its own fields.
+   *
+   * Many of these universes are named from inside the fiction — "The Verse",
+   * "Time and Space", "The Westlands" — so searching for Firefly, Doctor Who
+   * or Wheel of Time returned nothing at all, while the ⓘ panel had known the
+   * answer the whole time. This lets the search box read the same credit: the
+   * work, who wrote it, and the adaptations listed alongside.
+   */
+  const sourceText = {};
+  for (const [cc, s] of Object.entries(sources || {})) {
+    sourceText[cc] = [s.work, s.creator, s.also].filter(Boolean).join(' ')
+      // A release year is not a search term: without this, "2001" matched every
+      // universe whose adaptation happened to come out that year.
+      .replace(/\b(1[5-9]\d\d|20\d\d)\b/g, ' ')
+      .toLowerCase();
+  }
+
   function matches(d, needle) {
-    if (needle && ![d.name, d.country, d.region || '', d.type, ...(d.tags || [])]
-      .join(' ').toLowerCase().includes(needle)) return false;
+    if (needle && ![d.name, d.country, d.region || '', d.type, ...(d.tags || []),
+      sourceText[d.cc] || ''].join(' ').toLowerCase().includes(needle)) return false;
     if (picked.continents.size && !picked.continents.has(d.continent)) return false;
     if (picked.countries.size && !picked.countries.has(d.country)) return false;
     if (picked.types.size && !picked.types.has(d.type)) return false;
@@ -222,6 +302,7 @@ export function renderBrowse(root, { go }) {
   }
 
   function paint() {
+    writeStateToUrl();
     const needle = filterText.trim().toLowerCase();
     const hits = destinations.filter((d) => matches(d, needle));
     const narrowed = needle || activeFilterCount();
@@ -232,7 +313,7 @@ export function renderBrowse(root, { go }) {
 
     if (!hits.length) {
       mount(listEl, emptyState('🔍', 'Nothing left after that',
-        'Loosen a filter or try a shorter word — names, countries, kinds and tags are all searched.',
+        'Loosen a filter or try a shorter word — names, kinds, tags and the work each place comes from are all searched.',
         activeFilterCount()
           ? h('button', {
               class: 'btn btn--primary',

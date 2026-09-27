@@ -93,6 +93,9 @@ export async function restore() {
 
   for (const [id, w] of Object.entries(saved.byWorld || {})) {
     const base = emptyPrefs();
+    // 8h used to be a silent default ceiling, saved along with everything
+    // else. It was never a choice, so it does not survive into "no limit".
+    if (w.prefs?.targets?.maxFlightHours === 8) delete w.prefs.targets.maxFlightHours;
     state.byWorld[id] = {
       prefs: {
         ...base,

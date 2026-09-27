@@ -1,0 +1,120 @@
+{
+  "_doc": "Four more from the legendarium: the thing under Moria that Gandalf would not describe, the shore at the end of the voyage, the circle where the Valar pronounce judgement, and the forge where the Dwarves were made too early.",
+  "destinations": [
+    {
+      "id": "the-nameless-deeps", "name": "The Nameless Deeps", "country": "ME", "region": "Beneath the Roots of the Mountains", "continent": "High Fantasy",
+      "type": "underground", "arch": "underworld",
+      "blurb": "Far below the deepest delving of the dwarves, where the world is gnawed by things that have no name and no maker. Gandalf went down there, came back, and would not say what he saw.",
+      "about": "Far, far beneath the deepest delving of the Dwarves, the world is gnawed by nameless things. Even Sauron knows them not. They are older than he. Gandalf refuses to describe them — lest it darken the light of day — which is the most effective restraint in all of Tolkien: the only thing in the legendarium that frightens a Maia who has just fought a Balrog to a standstill.",
+      "tags": ["nameless things", "older than sauron", "the roots of the mountains", "he will not say"],
+      "climate": {
+        "tempHigh": [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "tempLow":  [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+      },
+      "crowd":      [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      "costTier": 1,
+      "r": {
+        "underground": 100, "monsters": 100, "undead": 62, "wilderness": 92,
+        "timeStrange": 88, "history": 96, "prophecy": 62, "magic": 88, "wizards": 78,
+        "artefacts": 32, "climbing": 78, "adrenaline": 96, "questing": 92, "combat": 92,
+        "rivers": 45, "dragons": 25, "beasts": 12, "fellowship": 42, "scenery": 12,
+        "safety": 0, "survivability": 0, "gettingBack": 0, "gettingThere": 4,
+        "soloFemaleSafety": 0, "comfort": 0, "healing": 0, "hospitality": 0,
+        "foodScene": 0, "feasting": 0, "vegetarian": 0, "ale": 0, "wine": 0,
+        "taverns": 0, "music": 0, "revels": 0, "familyFriendly": 0, "seniors": 0,
+        "romance": 0, "luxury": 0, "libraries": 0, "cities": 0, "markets": 0,
+        "shopping": 0, "stargazing": 0, "warRisk": 45, "lawAndOrder": 0,
+        "peoples": 2, "commonTongue": 2
+      },
+      "photos": ["Deep cave passage darkness", "Underground river cave black water", "Narrow cave squeeze passage", "Cave diver in flooded passage", "Blind cave fish", "Bottomless cave shaft"]
+    },
+    {
+      "id": "the-far-shore", "name": "The Far Shore", "country": "AMAN", "region": "The End of the Voyage", "continent": "High Fantasy",
+      "type": "coast", "arch": "elven-refuge",
+      "blurb": "White shores, and beyond them a far green country under a swift sunrise. The grey rain-curtain rolls back and the smell of the grass reaches you before the ship touches. Passage is one way.",
+      "about": "The passage everyone quotes, and Tolkien gives it to Frodo twice — once as a dream in Bombadil's house near the start, and once for real at the end. He deliberately never describes what is inland: the destination is weather, light and the smell of cut grass, because anything more specific would have been an explanation, and this is the one place he refused to explain.",
+      "tags": ["white shores", "a far green country", "the last ship", "frodo's dream"],
+      "climate": {
+        "tempHigh": [16, 16, 17, 19, 21, 23, 25, 25, 23, 21, 18, 17],
+        "tempLow":  [11, 11, 12, 13, 15, 17, 19, 19, 18, 16, 13, 12],
+        "rainDays": [7, 6, 6, 5, 4, 3, 2, 2, 4, 6, 7, 7],
+        "sunHours": [7, 8, 9, 10, 11, 12, 12, 12, 10, 9, 8, 7],
+        "humidity": [74, 73, 72, 71, 69, 67, 66, 67, 69, 71, 73, 74],
+        "seaTemp":  [16, 16, 16, 17, 19, 21, 23, 23, 22, 20, 18, 17]
+      },
+      "crowd":      [12, 12, 14, 16, 18, 20, 22, 22, 19, 16, 14, 12],
+      "costTier": 2,
+      "r": {
+        "coast": 100, "islands": 78, "sailing": 88, "swimming": 62, "scenery": 100,
+        "music": 96, "healing": 100, "romance": 88, "safety": 96, "comfort": 92,
+        "hospitality": 88, "seniors": 100, "vegetarian": 96, "foodScene": 78,
+        "prophecy": 96, "timeStrange": 96, "magic": 92, "history": 92, "libraries": 62,
+        "stargazing": 92, "forests": 78, "plains": 62, "artefacts": 62,
+        "soloFemaleSafety": 96, "familyFriendly": 62, "wandering": 55, "warRisk": 96,
+        "survivability": 92, "combat": 2, "monsters": 2, "undead": 2, "cities": 32,
+        "markets": 12, "taverns": 12, "luxury": 62, "peoples": 42, "commonTongue": 42,
+        "gettingThere": 5, "gettingBack": 0
+      },
+      "photos": ["White sand beach clear sea dawn", "Green hills above white cliffs", "Sunrise over calm sea horizon", "Rain clearing over the sea", "Coastal meadow above beach", "Sailing ship approaching shore"]
+    },
+    {
+      "id": "the-ring-of-doom", "name": "The Ring of Doom", "country": "AMAN", "region": "Máhanaxar, outside Valimar", "continent": "High Fantasy",
+      "type": "citadel", "arch": "utopia",
+      "blurb": "A circle of thrones on a hill outside the western gate of Valimar, unroofed, where the Powers of the world sit in council. Judgements pronounced here are not appealed, and have never once been overturned.",
+      "about": "The Máhanaxar is where the Valar summon Fëanor to answer for himself, where Melkor is released on parole against everybody's better judgement, and where Mandos pronounces the Doom of the Noldor over a shore full of people who then sail anyway. Nearly everything that goes wrong in the First Age is decided, or wrongly forgiven, inside this circle.",
+      "tags": ["máhanaxar", "the doom of the noldor", "the thrones", "mandos speaks"],
+      "climate": {
+        "tempHigh": [18, 19, 20, 22, 24, 26, 27, 27, 25, 22, 20, 18],
+        "tempLow":  [10, 10, 11, 13, 15, 17, 18, 18, 17, 14, 12, 10],
+        "rainDays": [6, 5, 5, 4, 3, 2, 1, 1, 3, 5, 6, 7],
+        "sunHours": [8, 9, 10, 11, 12, 13, 13, 12, 11, 10, 9, 8],
+        "humidity": [64, 63, 62, 60, 58, 55, 53, 54, 58, 62, 64, 65]
+      },
+      "crowd":      [16, 16, 18, 20, 22, 24, 25, 25, 23, 20, 18, 16],
+      "costTier": 2,
+      "r": {
+        "architecture": 92, "history": 100, "prophecy": 100, "magic": 100, "wizards": 100,
+        "timeStrange": 92, "temples": 96, "intrigue": 92, "libraries": 72,
+        "artefacts": 78, "scenery": 88, "stargazing": 96, "safety": 96,
+        "lawAndOrder": 100, "warRisk": 88, "soloFemaleSafety": 96, "comfort": 62,
+        "luxury": 55, "healing": 88, "hospitality": 55, "foodScene": 32,
+        "feasting": 32, "vegetarian": 96, "taverns": 5, "markets": 5, "shopping": 2,
+        "cities": 45, "familyFriendly": 42, "seniors": 78, "music": 82,
+        "combat": 5, "monsters": 2, "undead": 5, "peoples": 42, "commonTongue": 22,
+        "questing": 42, "gettingThere": 3, "gettingBack": 5
+      },
+      "photos": ["Stone circle standing stones", "Ancient amphitheatre stone seats", "Circle of thrones stone", "Ancient stone seats semicircle", "Hilltop stone circle sunset", "Marble seats ancient theatre"]
+    },
+    {
+      "id": "halls-of-aule", "name": "The Halls of Aulë", "country": "AMAN", "region": "Beneath the Pelóri", "continent": "High Fantasy",
+      "type": "underground", "arch": "high-city",
+      "blurb": "The smith's mansions under the mountains of Aman: forges, workshops, drawing tables, and the chamber where the Dwarves were made too early and in secret by somebody who could not wait.",
+      "about": "Aulë made the Seven Fathers of the Dwarves out of impatience, then offered to destroy them the moment he was caught — and Ilúvatar, who had been watching the whole time, adopted them instead and told him to put them back to sleep until the Elves had woken first. It is the warmest scene in The Silmarillion, and it is about a workaholic being forgiven.",
+      "tags": ["aulë", "the seven fathers", "the forges", "made too early"],
+      "climate": {
+        "tempHigh": [26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26],
+        "tempLow":  [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
+      },
+      "crowd":      [26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26],
+      "costTier": 2,
+      "r": {
+        "underground": 96, "architecture": 100, "technology": 92, "artefacts": 100,
+        "history": 96, "libraries": 88, "magic": 96, "wizards": 100, "prophecy": 82,
+        "markets": 45, "shopping": 55, "mountains": 78, "cities": 55, "scenery": 72,
+        "safety": 92, "lawAndOrder": 92, "soloFemaleSafety": 92, "comfort": 78,
+        "luxury": 78, "healing": 82, "hospitality": 68, "foodScene": 55,
+        "feasting": 62, "ale": 62, "wine": 68, "taverns": 25, "festivals": 45,
+        "music": 78, "familyFriendly": 55, "seniors": 68, "timeStrange": 78,
+        "combat": 25, "monsters": 5, "undead": 2, "peoples": 32, "commonTongue": 25,
+        "stargazing": 0, "questing": 55, "gettingThere": 3, "gettingBack": 8
+      },
+      "photos": ["Blacksmith forge glowing metal", "Stone vaulted cellar", "Anvil and hammer smithy", "Cave hall carved pillars", "Molten metal casting foundry", "Craftsman tools workbench"]
+    }
+  ]
+}

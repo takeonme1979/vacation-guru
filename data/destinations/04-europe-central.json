@@ -28,6 +28,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 80,
         "museums": 100, "artScene": 96, "architecture": 96, "historicSites": 90,
         "religiousSites": 82, "theatre": 86, "foodScene": 96, "fineDining": 98, "markets": 86,
         "coffee": 82, "wine": 96, "shopping": 94, "bars": 80, "clubbing": 74, "romance": 96,
@@ -73,6 +74,7 @@
         "luxury": 420
       },
       "r": {
+        "oldTown": 82,
         "beaches": 76, "swimming": 82, "sailing": 88, "waterSports": 76, "scenery": 80,
         "museums": 82, "artScene": 88, "architecture": 78, "foodScene": 86, "fineDining": 88,
         "markets": 84, "wine": 84, "luxury": 96, "casinos": 82, "romance": 88, "shopping": 84,
@@ -98,6 +100,7 @@
       "lon": 5.048,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1,
       "blurb": "Lavender rows, hilltop villages, Roman aqueducts and rosé — with the mistral wind and, in July, an awful lot of company.",
       "tags": ["lavender", "wine", "villages", "food"],
       "climate": {
@@ -115,6 +118,7 @@
         "luxury": 360
       },
       "r": {
+        "oldTown": 85,
         "scenery": 88, "wine": 94, "foodScene": 90, "fineDining": 86, "markets": 92,
         "historicSites": 86, "architecture": 84, "localCulture": 84, "artScene": 78,
         "cycling": 86, "hiking": 76, "roadTrip": 94, "romance": 92, "wellness": 74,
@@ -140,6 +144,7 @@
       "lon": 6.87,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 1.25,
       "blurb": "Under the summit of Mont Blanc: serious off-piste in winter, serious alpinism in summer, and a town that never pretends otherwise.",
       "tags": ["skiing", "alpinism", "mountains", "adventure"],
       "climate": {
@@ -158,6 +163,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 30,
         "skiing": 98, "mountains": 100, "climbing": 98, "hiking": 94, "scenery": 96,
         "adrenaline": 94, "cycling": 84, "nationalParks": 78, "stargazing": 76, "wellness": 76,
         "foodScene": 74, "bars": 78, "groupParty": 74, "familyTeens": 82, "romance": 76,
@@ -201,6 +207,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 70,
         "scenery": 94, "beaches": 92, "swimming": 88, "hiking": 96, "mountains": 90,
         "snorkelling": 74, "scuba": 72, "kayaking": 78, "sailing": 84, "climbing": 84,
         "nationalParks": 82, "forests": 74, "localCulture": 82, "foodScene": 80, "wine": 78,
@@ -244,6 +251,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 78,
         "wine": 100, "architecture": 90, "foodScene": 88, "fineDining": 84, "markets": 80,
         "historicSites": 78, "museums": 68, "walkability": 86, "cycling": 82,
         "publicTransport": 78, "bars": 78, "romance": 80, "roadTrip": 82, "seniors": 76,
@@ -286,6 +294,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 88,
         "foodScene": 96, "fineDining": 92, "markets": 86, "wine": 92, "historicSites": 86,
         "architecture": 86, "museums": 76, "walkability": 84, "publicTransport": 86,
         "festivals": 82, "bars": 76, "romance": 76, "valueForMoney": 62, "cycling": 76,
@@ -311,6 +320,7 @@
       "lon": -2.932,
       "type": "coast",
       "arch": "wine-country",
+      "transfer": 1.5,
       "blurb": "Celtic France: granite ports, megalithic stones, tidal islands and crêperies — cooler and wilder than the south, and far cheaper.",
       "tags": ["coast", "celtic", "seafood", "value"],
       "climate": {
@@ -329,6 +339,7 @@
         "luxury": 290
       },
       "r": {
+        "oldTown": 82,
         "beaches": 78, "scenery": 82, "historicSites": 84, "localCulture": 88, "foodScene": 84,
         "markets": 78, "hiking": 82, "cycling": 82, "sailing": 84, "kayaking": 76, "surfing": 74,
         "fishing": 78, "roadTrip": 86, "festivals": 80, "liveMusic": 76, "wildlife": 66,
@@ -372,6 +383,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 35,
         "clubbing": 100, "bars": 92, "liveMusic": 92, "artScene": 96, "museums": 94,
         "historicSites": 92, "architecture": 78, "festivals": 84, "streetFood": 82,
         "foodScene": 82, "vegan": 96, "vegetarian": 94, "markets": 82, "lgbtqScene": 96,
@@ -417,6 +429,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 70,
         "beer": 100, "festivals": 96, "museums": 90, "artScene": 82, "architecture": 82,
         "historicSites": 78, "foodScene": 78, "markets": 82, "bars": 86, "shopping": 82,
         "publicTransport": 92, "walkability": 82, "cycling": 88, "sports": 88, "mountains": 55,
@@ -443,6 +456,7 @@
       "lon": 11.096,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 1.5,
       "blurb": "Neuschwanstein, painted villages and Germany's highest peak — gentler and cheaper skiing than the big Alpine names.",
       "tags": ["mountains", "castles", "hiking", "skiing"],
       "climate": {
@@ -461,6 +475,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 55,
         "mountains": 90, "scenery": 92, "hiking": 92, "skiing": 82, "lakesRivers": 84,
         "climbing": 78, "cycling": 84, "forests": 82, "nationalParks": 74, "wellness": 84,
         "historicSites": 86, "architecture": 82, "localCulture": 82, "beer": 92, "romance": 84,
@@ -487,6 +502,7 @@
       "lon": 8.2,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1.5,
       "blurb": "Dense fir forest, cuckoo clocks, thermal spa towns and a surprising density of Michelin stars along a famous scenic drive.",
       "tags": ["forest", "spa", "food", "driving"],
       "climate": {
@@ -505,6 +521,7 @@
         "luxury": 280
       },
       "r": {
+        "oldTown": 60,
         "forests": 96, "hiking": 90, "scenery": 82, "cycling": 88, "wellness": 92,
         "lakesRivers": 74, "fineDining": 88, "foodScene": 80, "wine": 84, "beer": 84,
         "localCulture": 80, "roadTrip": 90, "skiing": 55, "mountains": 62, "stargazing": 70,
@@ -547,6 +564,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 45,
         "architecture": 86, "liveMusic": 92, "theatre": 86, "museums": 78, "artScene": 80,
         "bars": 88, "clubbing": 88, "groupParty": 88, "lgbtqScene": 82, "foodScene": 80,
         "markets": 78, "shopping": 82, "publicTransport": 90, "cycling": 84, "walkability": 80,
@@ -589,6 +607,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 88,
         "museums": 96, "artScene": 90, "architecture": 90, "historicSites": 78, "cycling": 100,
         "walkability": 88, "publicTransport": 90, "bars": 88, "clubbing": 84, "lgbtqScene": 94,
         "foodScene": 76, "vegan": 90, "markets": 78, "shopping": 80, "festivals": 82,
@@ -615,6 +634,7 @@
       "lon": 3.224,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.25,
       "blurb": "A perfectly preserved medieval merchant town of canals, belfries and Flemish primitives — plus the best beer and chocolate in Europe.",
       "tags": ["medieval", "beer", "chocolate", "romance"],
       "climate": {
@@ -632,6 +652,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 97,
         "architecture": 96, "historicSites": 92, "museums": 82, "artScene": 78,
         "religiousSites": 78, "beer": 100, "foodScene": 82, "fineDining": 82, "walkability": 96,
         "romance": 92, "cycling": 84, "shopping": 68, "festivals": 62, "seniors": 84,
@@ -675,6 +696,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 82,
         "museums": 96, "theatre": 96, "artScene": 88, "architecture": 94, "historicSites": 88,
         "liveMusic": 90, "religiousSites": 78, "coffee": 100, "foodScene": 80, "fineDining": 82,
         "markets": 80, "wine": 82, "festivals": 78, "shopping": 80, "walkability": 88,
@@ -719,6 +741,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 94,
         "architecture": 94, "historicSites": 88, "liveMusic": 94, "theatre": 84, "museums": 76,
         "festivals": 92, "religiousSites": 80, "walkability": 92, "scenery": 84, "mountains": 78,
         "hiking": 80, "lakesRivers": 84, "skiing": 72, "cycling": 78, "wellness": 78,
@@ -763,6 +786,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 70,
         "skiing": 94, "mountains": 96, "hiking": 92, "scenery": 92, "climbing": 88,
         "cycling": 86, "adrenaline": 84, "nationalParks": 78, "wellness": 82,
         "historicSites": 76, "architecture": 78, "museums": 62, "localCulture": 78, "bars": 74,
@@ -789,6 +813,7 @@
       "lon": 13.649,
       "type": "lake",
       "arch": "mountain-town",
+      "transfer": 1.5,
       "blurb": "The most photographed village in Austria, wedged between a mirror lake and a cliff, in a region of 76 lakes and salt mines.",
       "tags": ["lake", "village", "scenery", "hiking"],
       "climate": {
@@ -807,6 +832,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 80,
         "scenery": 96, "lakesRivers": 96, "romance": 88, "hiking": 88, "mountains": 84,
         "historicSites": 78, "architecture": 84, "kayaking": 78, "swimming": 62, "cycling": 76,
         "wellness": 76, "skiing": 62, "stargazing": 70, "localCulture": 74, "cleanliness": 92,
@@ -833,6 +859,7 @@
       "lon": 7.749,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 3.5,
       "blurb": "Car-free, under the Matterhorn, with skiing possible 365 days a year on the glacier. Superb, and priced for people who know it.",
       "tags": ["skiing", "matterhorn", "luxury", "hiking"],
       "climate": {
@@ -877,6 +904,7 @@
       "lon": 7.863,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 2,
       "blurb": "Between two lakes below the Eiger, Mönch and Jungfrau — Europe's adventure-sport capital and the highest railway station on the continent.",
       "tags": ["adventure", "mountains", "lakes", "paragliding"],
       "climate": {
@@ -920,6 +948,7 @@
       "lon": 8.306,
       "type": "lake",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "A covered wooden bridge, a painted old town and a lake ringed by mountains you can ride cogwheel trains up. Switzerland's greatest hits.",
       "tags": ["lake", "mountains", "old town", "scenic rail"],
       "climate": {
@@ -937,6 +966,7 @@
         "luxury": 410
       },
       "r": {
+        "oldTown": 88,
         "scenery": 92, "lakesRivers": 94, "mountains": 88, "architecture": 88,
         "historicSites": 82, "walkability": 90, "hiking": 84, "cycling": 78, "kayaking": 74,
         "sailing": 72, "museums": 74, "liveMusic": 78, "romance": 86, "seniors": 86,
@@ -981,6 +1011,7 @@
         "luxury": 460
       },
       "r": {
+        "oldTown": 76,
         "museums": 84, "artScene": 84, "architecture": 78, "lakesRivers": 86, "swimming": 78,
         "clubbing": 86, "bars": 82, "liveMusic": 78, "fineDining": 88, "foodScene": 78,
         "shopping": 92, "luxury": 96, "walkability": 86, "publicTransport": 96, "cycling": 78,
@@ -1025,6 +1056,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 98,
         "architecture": 98, "historicSites": 92, "museums": 76, "religiousSites": 82, "beer": 98,
         "bars": 88, "clubbing": 80, "groupParty": 88, "theatre": 78, "liveMusic": 82,
         "walkability": 88, "publicTransport": 88, "foodScene": 76, "markets": 70,
@@ -1051,6 +1083,7 @@
       "lon": 14.315,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 3,
       "blurb": "A tiny medieval town looped by a river beneath an enormous castle — a day trip from Prague that deserves an overnight.",
       "tags": ["medieval", "castle", "river", "quiet"],
       "climate": {
@@ -1069,6 +1102,7 @@
         "luxury": 230
       },
       "r": {
+        "oldTown": 97,
         "historicSites": 94, "architecture": 94, "walkability": 94, "romance": 86, "museums": 62,
         "theatre": 68, "kayaking": 82, "lakesRivers": 76, "forests": 72, "beer": 92,
         "foodScene": 70, "localCulture": 74, "valueForMoney": 88, "cycling": 74, "hiking": 68,
@@ -1112,6 +1146,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 72,
         "wellness": 100, "architecture": 94, "historicSites": 84, "museums": 78, "artScene": 76,
         "bars": 94, "clubbing": 86, "groupParty": 92, "liveMusic": 80, "theatre": 80,
         "foodScene": 82, "markets": 84, "wine": 82, "walkability": 84, "publicTransport": 88,
@@ -1156,6 +1191,7 @@
         "luxury": 225
       },
       "r": {
+        "oldTown": 97,
         "historicSites": 94, "architecture": 90, "museums": 86, "religiousSites": 82,
         "localCulture": 82, "foodScene": 82, "markets": 78, "bars": 88, "beer": 86,
         "clubbing": 82, "groupParty": 88, "walkability": 92, "valueForMoney": 94,
@@ -1200,6 +1236,7 @@
         "luxury": 230
       },
       "r": {
+        "oldTown": 92,
         "architecture": 88, "historicSites": 86, "museums": 92, "walkability": 88, "beaches": 74,
         "swimming": 55, "foodScene": 78, "markets": 72, "bars": 80, "beer": 82, "clubbing": 74,
         "shopping": 68, "valueForMoney": 92, "backpacker": 78, "sailing": 68, "romance": 76,
@@ -1243,6 +1280,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 84,
         "museums": 92, "historicSites": 82, "architecture": 76, "artScene": 78, "foodScene": 86,
         "fineDining": 80, "vegan": 88, "markets": 72, "bars": 84, "clubbing": 80,
         "liveMusic": 80, "theatre": 78, "shopping": 78, "publicTransport": 88, "walkability": 74,

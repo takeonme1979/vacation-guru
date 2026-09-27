@@ -11,6 +11,7 @@
       "lon": 18.296,
       "type": "island",
       "arch": "historic-city",
+      "transfer": 1.5,
       "blurb": "A Hanseatic walled town of merchant warehouses and ruined churches on a limestone island, with sea stacks along the shore and more sunshine than anywhere else in Sweden.",
       "tags": ["visby walls", "medieval week", "raukar sea stacks", "truffle"],
       "climate": {
@@ -29,6 +30,7 @@
         "luxury": 370
       },
       "r": {
+        "oldTown": 93,
         "historicSites": 96, "architecture": 94, "religiousSites": 88, "museums": 85,
         "walkability": 94, "cycling": 96, "beaches": 85, "swimming": 62, "scenery": 90,
         "localCulture": 90, "festivals": 92, "artScene": 88, "foodScene": 92, "fineDining": 90,
@@ -72,6 +74,7 @@
         "luxury": 420
       },
       "r": {
+        "oldTown": 50,
         "beaches": 92, "swimming": 68, "surfing": 82, "kayaking": 88, "sailing": 85,
         "cycling": 92, "hiking": 88, "wildlife": 82, "scenery": 90, "historicSites": 90,
         "museums": 88, "architecture": 78, "islands": 88, "foodScene": 92, "fineDining": 92,
@@ -115,6 +118,7 @@
         "luxury": 390
       },
       "r": {
+        "oldTown": 60,
         "beaches": 90, "islands": 92, "kayaking": 88, "sailing": 85, "cycling": 92, "hiking": 92,
         "swimming": 62, "wildlife": 85, "scenery": 92, "stargazing": 96, "historicSites": 88,
         "museums": 82, "foodScene": 88, "fineDining": 85, "localCulture": 88, "architecture": 78,
@@ -158,6 +162,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 30,
         "scenery": 92, "hiking": 92, "cycling": 88, "beaches": 78, "wildlife": 85,
         "historicSites": 90, "museums": 82, "localCulture": 92, "sports": 92, "festivals": 85,
         "stargazing": 90, "nationalParks": 78, "mountains": 72, "kayaking": 78, "fishing": 82,
@@ -183,6 +188,7 @@
       "lon": 19.945,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 1.5,
       "blurb": "Six thousand islands that belong to Finland, speak Swedish, fly their own flag and have been demilitarised since 1856. Bicycles and inter-island ferries are the transport.",
       "tags": ["demilitarised", "swedish-speaking", "island hopping", "red cottages"],
       "climate": {
@@ -201,6 +207,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 30,
         "islands": 98, "sailing": 96, "kayaking": 94, "cycling": 98, "fishing": 90,
         "swimming": 62, "beaches": 72, "scenery": 90, "wildlife": 82, "forests": 82,
         "hiking": 82, "historicSites": 82, "localCulture": 90, "foodScene": 85, "wellness": 88,
@@ -226,6 +233,7 @@
       "lon": 22.5,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 3,
       "blurb": "Estonia's islands kept their own dialect and windmills through fifty years as a closed Soviet border zone, which is precisely why they still feel untouched.",
       "tags": ["windmills", "kuressaare castle", "meteorite crater", "juniper"],
       "climate": {
@@ -244,6 +252,7 @@
         "luxury": 235
       },
       "r": {
+        "oldTown": 30,
         "islands": 92, "beaches": 80, "cycling": 92, "hiking": 85, "forests": 90, "wildlife": 85,
         "scenery": 85, "kayaking": 80, "wellness": 92, "historicSites": 88, "architecture": 82,
         "localCulture": 92, "foodScene": 82, "markets": 72, "stargazing": 88, "swimming": 55,
@@ -269,6 +278,7 @@
       "lon": 21.1,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 1.25,
       "blurb": "A ninety-eight-kilometre sand bar barely a few hundred metres wide, with dunes that swallowed fourteen villages, a lagoon on one side and the open Baltic on the other.",
       "tags": ["dead dunes", "nida", "amber", "thomas mann"],
       "climate": {
@@ -287,6 +297,7 @@
         "luxury": 225
       },
       "r": {
+        "oldTown": 20,
         "beaches": 92, "scenery": 94, "desert": 68, "cycling": 96, "hiking": 88, "forests": 90,
         "wildlife": 88, "kayaking": 78, "swimming": 62, "sailing": 72, "nationalParks": 92,
         "wellness": 85, "historicSites": 78, "architecture": 82, "localCulture": 85,
@@ -330,6 +341,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 65,
         "architecture": 94, "historicSites": 88, "museums": 88, "artScene": 85, "coffee": 100,
         "foodScene": 92, "fineDining": 88, "wine": 92, "bars": 85, "markets": 82,
         "localCulture": 94, "walkability": 92, "swimming": 82, "sailing": 88, "scuba": 68,
@@ -416,6 +428,7 @@
         "luxury": 390
       },
       "r": {
+        "oldTown": 86,
         "historicSites": 92, "architecture": 90, "museums": 88, "artScene": 82, "scenery": 88,
         "walkability": 90, "publicTransport": 100, "cycling": 82, "hiking": 88, "forests": 88,
         "lakesRivers": 78, "foodScene": 90, "fineDining": 92, "wine": 90, "beer": 82,
@@ -441,6 +454,7 @@
       "lon": 9.555,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 1.25,
       "blurb": "A principality of 40,000 people between Switzerland and Austria, ruled from a castle above the capital, with a 75km trail from end to end and a ski village at the top.",
       "tags": ["princely castle", "malbun", "walk the country", "stamps"],
       "climate": {
@@ -459,6 +473,7 @@
         "luxury": 460
       },
       "r": {
+        "oldTown": 30,
         "mountains": 92, "hiking": 94, "scenery": 90, "skiing": 78, "cycling": 88,
         "climbing": 78, "forests": 82, "historicSites": 82, "architecture": 78, "museums": 82,
         "localCulture": 82, "wine": 82, "foodScene": 82, "fineDining": 82, "walkability": 85,
@@ -484,6 +499,7 @@
       "lon": 12.447,
       "type": "mountains",
       "arch": "historic-city",
+      "transfer": 1.25,
       "blurb": "The world's oldest surviving republic, founded in 301 AD, sitting on a limestone crag with three towers along the ridge and a view to the Adriatic on a clear day.",
       "tags": ["oldest republic", "three towers", "monte titano", "duty free"],
       "climate": {
@@ -501,6 +517,7 @@
         "luxury": 280
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 94, "architecture": 92, "museums": 82, "scenery": 92, "walkability": 82,
         "hiking": 82, "mountains": 78, "localCulture": 85, "shopping": 88, "foodScene": 88,
         "wine": 88, "fineDining": 82, "romance": 82, "stargazing": 78, "festivals": 78,
@@ -526,6 +543,7 @@
       "lon": 14.251,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1.5,
       "blurb": "Malta's slower sister — a citadel on a hill, terraced fields, salt pans cut into the rock, and between the two islands a lagoon of implausible blue.",
       "tags": ["blue lagoon", "citadella", "salt pans", "ġgantija temples"],
       "climate": {
@@ -544,6 +562,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 55,
         "beaches": 85, "swimming": 94, "islands": 92, "scuba": 96, "snorkelling": 92,
         "kayaking": 85, "sailing": 82, "hiking": 88, "scenery": 90, "historicSites": 94,
         "religiousSites": 90, "architecture": 88, "localCulture": 88, "foodScene": 85,
@@ -569,6 +588,7 @@
       "lon": 4.83,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 1.75,
       "blurb": "A chain of sandy islands along a tidal sea so productive it is a World Heritage Site, where the local sport is walking out across the mud at low tide to the next island.",
       "tags": ["mudflat walking", "seals", "dunes", "wadden sea"],
       "climate": {
@@ -612,6 +632,7 @@
       "lon": -23.0,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 4,
       "blurb": "The part of Iceland the ring road misses — a shredded peninsula of table mountains and hot pools, Europe's largest bird cliff, and roads that close all winter.",
       "tags": ["látrabjarg", "dynjandi", "hot pools", "arctic foxes"],
       "climate": {
@@ -656,6 +677,7 @@
       "lon": 7.885,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 4,
       "blurb": "A red sandstone rock 50km out in the North Sea — British until 1890, bombed almost out of existence, now duty-free, car-free, and covered in gannets each spring.",
       "tags": ["lange anna", "gannets", "duty free", "car-free"],
       "climate": {

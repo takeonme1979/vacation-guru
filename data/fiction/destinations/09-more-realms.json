@@ -22,6 +22,7 @@
       "crowd": [58, 58, 60, 62, 65, 68, 70, 70, 66, 62, 60, 58],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 4,
         "architecture": 88, "ruins": 78, "underground": 88, "history": 88, "libraries": 82,
         "wizards": 92, "magic": 82, "artefacts": 85, "intrigue": 92, "technology": 62,
         "combat": 85, "monsters": 82, "questing": 78, "mountains": 72, "forests": 42,
@@ -60,6 +61,7 @@
       "crowd": [18, 18, 20, 24, 28, 32, 34, 34, 30, 26, 22, 18],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 28,
         "forests": 88, "plains": 78, "rivers": 88, "scenery": 92, "ruins": 92,
         "architecture": 85, "history": 90, "wilderness": 78, "hiking": 85, "wandering": 88,
         "artefacts": 68, "questing": 82, "combat": 72, "monsters": 62, "stargazing": 82,
@@ -97,6 +99,7 @@
       "crowd": [15, 15, 18, 24, 30, 34, 36, 36, 30, 24, 18, 16],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 96,
         "forests": 96, "rivers": 82, "wilderness": 78, "scenery": 82, "hiking": 78,
         "wandering": 72, "magic": 78, "timeStrange": 82, "monsters": 68, "beasts": 72,
         "prophecy": 55, "artefacts": 55, "taverns": 78, "ale": 88, "pipeweed": 92,
@@ -135,6 +138,7 @@
       "crowd": [42, 42, 48, 58, 68, 75, 78, 78, 70, 58, 48, 45],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 52,
         "plains": 92, "forests": 72, "rivers": 82, "scenery": 85, "coast": 62, "wine": 100,
         "feasting": 92, "foodScene": 88, "ale": 78, "taverns": 82, "festivals": 92, "music": 88,
         "revels": 82, "romance": 88, "architecture": 85, "history": 82, "libraries": 78,
@@ -172,6 +176,7 @@
       "crowd": [38, 38, 42, 48, 55, 62, 65, 65, 58, 50, 42, 38],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 45,
         "rivers": 96, "plains": 82, "forests": 78, "scenery": 78, "sailing": 68, "swimming": 55,
         "hiking": 68, "wandering": 78, "architecture": 78, "history": 88, "ruins": 72,
         "combat": 88, "intrigue": 88, "questing": 72, "taverns": 78, "ale": 82, "feasting": 68,
@@ -210,6 +215,7 @@
       "crowd": [28, 28, 28, 30, 30, 32, 32, 32, 30, 30, 28, 28],
       "costTier": 3,
       "r": {
+        "soloFemaleSafety": 5,
         "cities": 82, "architecture": 90, "magic": 100, "wizards": 96, "prophecy": 96,
         "undead": 92, "artefacts": 96, "intrigue": 96, "libraries": 88, "history": 88,
         "timeStrange": 88, "markets": 78, "coast": 68, "sailing": 62, "ruins": 72, "dragons": 62,
@@ -422,7 +428,7 @@
       ]
     },
     {
-      "id": "hogwarts-lake",
+      "id": "ministry-of-magic",
       "name": "The Ministry of Magic",
       "country": "HP",
       "region": "Under Whitehall",
@@ -482,6 +488,7 @@
       "crowd": [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 2,
         "islands": 62, "coast": 68, "architecture": 68, "ruins": 55, "undead": 96,
         "monsters": 92, "magic": 82, "intrigue": 78, "history": 62, "seaMonsters": 42,
         "wilderness": 55, "scenery": 32, "safety": 2, "survivability": 8, "hospitality": 0,

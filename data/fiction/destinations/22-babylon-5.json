@@ -1,0 +1,170 @@
+{
+  "_doc": "Babylon 5 beyond the station itself — the planet underneath it, the station that went missing in time, the homeworld nobody visits, Earth's unhappiest colony, and the Ranger city on Minbar. The station, Centauri Prime, Minbar, Narn and Z'ha'dum were already here.",
+  "destinations": [
+    {
+      "id": "epsilon-iii", "name": "Epsilon III", "country": "B5", "region": "Below the Station", "continent": "Science Fiction",
+      "type": "underground", "arch": "wonderland",
+      "blurb": "The planet under the station: hollow, packed with a million years of machinery, and run by a caretaker who plugged himself into it voluntarily and has never been happier about anything.",
+      "about": "Draal takes the Great Machine because it needs a living mind to run it, and gets in exchange the ability to see anywhere and lift almost anything. Its builders left it as a defence and it has been waiting ever since — under a planet that Earth surveyed, catalogued and declared uninhabited before parking a quarter of a million people above it.",
+      "tags": ["the great machine", "draal", "hollow planet", "caretaker"],
+      "climate": {
+        "tempHigh": [17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17],
+        "tempLow":  [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55]
+      },
+      "crowd":      [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+      "costTier": 1,
+      "r": {
+        "underground": 100, "technology": 100, "architecture": 88, "timeStrange": 88,
+        "prophecy": 88, "history": 92, "artefacts": 92, "libraries": 82, "magic": 62,
+        "wizards": 72, "questing": 78, "scenery": 72, "safety": 62, "survivability": 55,
+        "soloFemaleSafety": 62, "comfort": 45, "luxury": 25, "healing": 78,
+        "hospitality": 62, "foodScene": 22, "feasting": 18, "taverns": 5, "ale": 8,
+        "markets": 2, "shopping": 2, "cities": 32, "familyFriendly": 25, "seniors": 32,
+        "stargazing": 25, "peoples": 22, "commonTongue": 68, "combat": 32, "monsters": 22,
+        "wilderness": 45, "gettingThere": 42, "gettingBack": 55
+      },
+      "photos": ["Son Doong cave chamber Vietnam", "Underground machine hall turbines", "Vast cavern with light shaft", "Hydroelectric plant interior", "Ancient machinery gears", "Deep tunnel lit interior"]
+    },
+    {
+      "id": "babylon-4", "name": "Babylon 4", "country": "B5", "region": "Sector 14", "continent": "Science Fiction",
+      "type": "station", "arch": "space-port",
+      "blurb": "A station that vanished four hours after going online — twice: once forwards, and once a thousand years back, to be handed over as a war base to people who died long before you were born.",
+      "about": "Babylon 4's disappearance is set up in the first season and paid off in the third, when the crew steal it themselves and tow it into the past. Sinclair goes with it, becomes Valen, and wins a war that has been in the history books for a millennium. Closed time loops rarely get tidier, and nobody involved gets to keep the memory.",
+      "tags": ["sector 14", "time loop", "valen", "the shadow war"],
+      "climate": {
+        "tempHigh": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "tempLow":  [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48]
+      },
+      "crowd":      [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+      "costTier": 1,
+      "r": {
+        "spaceTravel": 92, "technology": 88, "timeStrange": 100, "prophecy": 92,
+        "history": 96, "architecture": 78, "cities": 55, "intrigue": 92, "questing": 88,
+        "adrenaline": 78, "artefacts": 62, "libraries": 45, "combat": 68, "ruins": 45,
+        "safety": 25, "survivability": 32, "soloFemaleSafety": 45, "comfort": 42,
+        "luxury": 22, "foodScene": 25, "feasting": 18, "taverns": 22, "ale": 32,
+        "markets": 22, "shopping": 15, "hospitality": 32, "healing": 42,
+        "familyFriendly": 12, "seniors": 15, "stargazing": 78, "scenery": 45,
+        "peoples": 42, "commonTongue": 78, "magic": 25, "fellowship": 82,
+        "gettingThere": 12, "gettingBack": 15
+      },
+      "photos": ["Space station exterior modules", "Empty station corridor", "Observation deck window stars", "Abandoned control room", "Industrial docking bay", "Rotating structure in space"]
+    },
+    {
+      "id": "vorlon-homeworld", "name": "The Vorlon Homeworld", "country": "B5", "region": "Beyond the Rim", "continent": "Science Fiction",
+      "type": "planet", "arch": "alien-world",
+      "blurb": "Nobody goes to the Vorlon homeworld. Nobody sees a Vorlon. Nobody asks a Vorlon a straight question and gets a straight answer, and understanding is, apparently, a three-edged sword.",
+      "about": "The Vorlons appear as angels to every younger race because they engineered themselves into everyone's mythology, and the series spends four years letting you assume they are the good side before showing what that arrangement costs. The homeworld is glimpsed once, briefly, and it does not look like anywhere.",
+      "tags": ["encounter suits", "who are you", "three-edged sword", "the first ones"],
+      "climate": {
+        "tempHigh": [26, 26, 27, 27, 28, 28, 29, 29, 28, 27, 26, 26],
+        "tempLow":  [19, 19, 19, 20, 20, 21, 21, 21, 21, 20, 19, 19],
+        "rainDays": [3, 3, 3, 2, 2, 2, 2, 2, 2, 3, 3, 3],
+        "sunHours": [9, 9, 9, 10, 10, 10, 10, 10, 10, 9, 9, 9],
+        "humidity": [58, 58, 57, 56, 55, 54, 53, 54, 55, 56, 57, 58]
+      },
+      "crowd":      [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+      "costTier": 3,
+      "r": {
+        "technology": 100, "magic": 78, "wizards": 92, "prophecy": 100, "timeStrange": 92,
+        "architecture": 96, "cities": 82, "scenery": 92, "history": 96, "artefacts": 88,
+        "libraries": 78, "intrigue": 96, "spaceTravel": 96, "healing": 88,
+        "safety": 25, "survivability": 45, "soloFemaleSafety": 42, "comfort": 62,
+        "luxury": 72, "hospitality": 12, "commonTongue": 12, "peoples": 25,
+        "foodScene": 22, "feasting": 12, "taverns": 2, "markets": 5, "shopping": 2,
+        "familyFriendly": 8, "seniors": 22, "stargazing": 88, "music": 82,
+        "combat": 62, "monsters": 32, "questing": 78, "gettingThere": 4, "gettingBack": 8
+      },
+      "photos": ["Jellyfish in dark water", "Organic architecture curved forms", "Iridescent shell surface macro", "Alien looking rock formations", "Comb jelly bioluminescence", "Light through translucent structure"]
+    },
+    {
+      "id": "mars-colony", "name": "Mars Colony", "country": "B5", "region": "Syria Planum", "continent": "Science Fiction",
+      "type": "badlands", "arch": "dystopia",
+      "blurb": "Pressure domes, red dust, tunnels, and a resistance movement that everyone on Earth calls terrorism and everyone on Mars calls the reason the water supply works at all.",
+      "about": "Mars is Babylon 5's Earth problem in miniature: a colony run for the benefit of a homeworld, then bombed by it when President Clark needs an example made. Free Mars runs through the whole series as the thing Earth would rather not talk about, and in the end Mars gets its independence written into the peace.",
+      "tags": ["free mars", "pressure domes", "red dust", "earth's colony"],
+      "climate": {
+        "tempHigh": [-5, -3, 0, 3, 6, 8, 9, 8, 5, 1, -3, -5],
+        "tempLow":  [-62, -60, -58, -55, -52, -50, -49, -50, -53, -57, -60, -62],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [8, 8, 9, 9, 10, 10, 10, 10, 9, 9, 8, 8],
+        "humidity": [3, 3, 3, 2, 2, 2, 2, 2, 2, 3, 3, 3]
+      },
+      "crowd":      [62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62],
+      "costTier": 2,
+      "r": {
+        "desert": 92, "technology": 82, "cities": 72, "underground": 78,
+        "intrigue": 92, "combat": 72, "questing": 68, "adrenaline": 62, "stargazing": 92,
+        "scenery": 72, "wilderness": 82, "markets": 55, "shopping": 45, "taverns": 62,
+        "ale": 62, "foodScene": 45, "feasting": 35, "gambling": 55, "music": 55,
+        "safety": 25, "lawAndOrder": 22, "warRisk": 18, "soloFemaleSafety": 38,
+        "comfort": 42, "luxury": 25, "healing": 55, "hospitality": 38,
+        "familyFriendly": 25, "seniors": 22, "survivability": 32, "peoples": 45,
+        "commonTongue": 92, "magic": 2, "history": 55, "libraries": 32,
+        "gettingThere": 62, "gettingBack": 62
+      },
+      "photos": ["Mars surface rover photograph", "Red rock desert landscape", "Geodesic dome habitat", "Underground tunnel concrete", "Dust storm red desert", "Industrial habitat interior"]
+    },
+    {
+      "id": "tuzanor", "name": "Tuzanor", "country": "B5", "region": "Minbar", "continent": "Science Fiction",
+      "type": "city", "arch": "school-of-magic",
+      "blurb": "The City of Sorrows on Minbar: gardens, thin cold air, a bell that rings for the dead of a war nobody won, and an academy that trains people to go out and not come back.",
+      "about": "Tuzanor is where the Anla'shok are made — Delenn's Rangers, drawn from Minbari and humans both, trained to watch and to report and, when it comes to it, to die quietly a long way from home. The show puts its most reflective scenes here: a city named for grief that keeps a very good garden.",
+      "tags": ["anla'shok", "the rangers", "city of sorrows", "delenn"],
+      "climate": {
+        "tempHigh": [4, 5, 8, 12, 16, 20, 22, 22, 18, 13, 8, 5],
+        "tempLow":  [-6, -5, -2, 2, 6, 10, 12, 12, 9, 4, 0, -4],
+        "rainDays": [8, 7, 7, 6, 6, 5, 4, 4, 5, 7, 8, 8],
+        "sunHours": [4, 5, 6, 7, 9, 10, 10, 9, 8, 6, 4, 3],
+        "humidity": [70, 68, 66, 63, 60, 57, 55, 56, 60, 65, 69, 71],
+        "snowDepth": [30, 28, 16, 4, 0, 0, 0, 0, 0, 2, 12, 25]
+      },
+      "crowd":      [32, 32, 36, 42, 48, 54, 56, 56, 50, 42, 36, 32],
+      "costTier": 2,
+      "r": {
+        "cities": 82, "architecture": 96, "scenery": 88, "temples": 88, "history": 92,
+        "libraries": 88, "music": 88, "localCulture": 92, "prophecy": 88, "fellowship": 92,
+        "combat": 78, "questing": 88, "intrigue": 78, "hospitality": 72, "healing": 82,
+        "comfort": 72, "safety": 78, "lawAndOrder": 82, "soloFemaleSafety": 82,
+        "vegetarian": 88, "foodScene": 62, "feasting": 55, "taverns": 25, "ale": 22,
+        "markets": 42, "shopping": 32, "festivals": 55, "luxury": 55, "romance": 72,
+        "familyFriendly": 55, "seniors": 62, "stargazing": 78, "technology": 88,
+        "commonTongue": 62, "magic": 32, "gettingThere": 42, "gettingBack": 55
+      },
+      "photos": ["Crystal architecture modern building", "Zen garden raked gravel", "Temple bell tower", "Mountain city terraces snow", "Monastery courtyard cloister", "Training hall wooden interior"]
+    },
+    {
+      "id": "sigma-957", "name": "Sigma 957", "country": "B5", "region": "Narn Space", "continent": "Science Fiction",
+      "type": "planet", "arch": "alien-world",
+      "blurb": "An empty world on a quiet shipping lane where something the size of a city occasionally appears, looks at you, and leaves. Do not attempt contact. Do not attempt to be interesting.",
+      "about": "Ivanova meets a First One out here — a ship so old and so large that the conversation is essentially with weather — and it asks her the only question the series really cares about: what do you want? The Narn hold the place sacred, and G'Kar's speech about the ant on the pavement is the best thing anyone says in four years.",
+      "tags": ["first ones", "what do you want", "g'kar", "the ants"],
+      "climate": {
+        "tempHigh": [-2, -1, 3, 8, 14, 19, 22, 21, 15, 8, 2, -2],
+        "tempLow":  [-30, -28, -24, -18, -11, -5, -2, -3, -9, -17, -25, -29],
+        "rainDays": [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1],
+        "sunHours": [6, 7, 8, 9, 10, 11, 11, 10, 9, 8, 7, 6],
+        "humidity": [12, 12, 11, 10, 9, 8, 7, 8, 9, 10, 11, 12]
+      },
+      "crowd":      [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+      "costTier": 1,
+      "r": {
+        "wilderness": 96, "desert": 82, "stargazing": 100, "scenery": 78, "timeStrange": 82,
+        "prophecy": 92, "history": 88, "magic": 62, "wizards": 78, "technology": 92,
+        "questing": 78, "adrenaline": 72, "monsters": 62, "artefacts": 55, "temples": 62,
+        "safety": 12, "survivability": 22, "soloFemaleSafety": 32, "comfort": 8,
+        "luxury": 2, "healing": 12, "hospitality": 5, "foodScene": 2, "feasting": 2,
+        "taverns": 0, "ale": 0, "markets": 0, "shopping": 0, "cities": 0, "libraries": 5,
+        "familyFriendly": 2, "seniors": 5, "peoples": 12, "commonTongue": 25,
+        "combat": 32, "spaceTravel": 78, "gettingThere": 25, "gettingBack": 28
+      },
+      "photos": ["Barren planet surface rocks", "Empty desert plain horizon", "Star field deep space", "Dust devil desert plain", "Rocky wasteland under stars", "Solar eclipse dark sky"]
+    }
+  ]
+}

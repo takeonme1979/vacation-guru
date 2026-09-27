@@ -47,6 +47,7 @@
     { "id": "wellness",        "cat": "adventure", "kind": "max", "icon": "🧘", "label": "Wellness & Spa",        "help": "Spas, thermal baths, yoga and retreats." },
     { "id": "roadTrip",        "cat": "adventure", "kind": "max", "icon": "🚗", "label": "Road Trips",            "help": "Great driving routes and easy self-drive touring." },
 
+    { "id": "oldTown",         "cat": "culture", "kind": "max", "icon": "🏘️", "label": "Old Towns",                "help": "A beautiful historic old town to wander — cobbled lanes, market squares, walls, bazaars and medinas." },
     { "id": "museums",         "cat": "culture", "kind": "max", "icon": "🖼️", "label": "Museums & Galleries",      "help": "Depth and quality of museum collections." },
     { "id": "historicSites",   "cat": "culture", "kind": "max", "icon": "🏺", "label": "History & Ruins",          "help": "Ancient sites, castles and heritage worth travelling for." },
     { "id": "architecture",    "cat": "culture", "kind": "max", "icon": "🏛️", "label": "Architecture",             "help": "Buildings and streetscapes that are themselves the attraction." },
@@ -85,7 +86,7 @@
     { "id": "seaTemperature",  "cat": "climate", "kind": "season", "src": "seaTemp",   "scale": [10, 29], "icon": "🌊", "label": "Warm Sea",    "help": "Sea temperature in your travel month." },
     { "id": "snowReliability", "cat": "climate", "kind": "season", "src": "snowDepth", "scale": [0, 70], "icon": "❄️", "label": "Snow Cover",  "help": "Reliable snow on the ground in your travel month." },
 
-    { "id": "cost",            "cat": "practical", "kind": "budget", "icon": "💷", "label": "Cost",              "help": "Daily cost at your chosen travel style, scored against your budget." },
+    { "id": "cost",            "cat": "practical", "kind": "budget", "icon": "💷", "label": "Cost",              "help": "What a day costs at the level you are spending, against what you said you can spend." },
     { "id": "valueForMoney",   "cat": "practical", "kind": "max",    "icon": "🏷️", "label": "Value for Money",   "help": "What you get relative to what you pay." },
     { "id": "safety",          "cat": "practical", "kind": "max",    "icon": "🛡️", "label": "General Safety",    "help": "Low crime and low hassle for visitors." },
     { "id": "soloFemaleSafety","cat": "practical", "kind": "max",    "icon": "👩", "label": "Solo Female Safety","help": "Comfort and safety travelling alone as a woman." },
@@ -99,7 +100,7 @@
     { "id": "accessibility",   "cat": "practical", "kind": "max",    "icon": "♿", "label": "Step-Free Access",  "help": "Wheelchair and reduced-mobility friendliness." },
     { "id": "cleanliness",     "cat": "practical", "kind": "max",    "icon": "🧹", "label": "Cleanliness",       "help": "Litter, air quality and general upkeep." },
     { "id": "ecoFriendly",     "cat": "practical", "kind": "max",    "icon": "♻️", "label": "Sustainable Tourism","help": "Responsible tourism and low environmental strain." },
-    { "id": "flightTime",      "cat": "practical", "kind": "flight", "icon": "✈️", "label": "Travel Time",       "help": "Estimated flight time from your home airport." },
+    { "id": "flightTime",      "cat": "practical", "kind": "flight", "icon": "✈️", "label": "Travel Time",       "help": "Flight time from your home airport, judged against how long you are going for." },
     { "id": "peacefulness",    "cat": "practical", "kind": "crowd",  "icon": "🕊️", "label": "Atmosphere",       "help": "How busy the place feels in your travel month, from deserted to heaving." },
 
     { "id": "familyYoungKids", "cat": "style", "kind": "max", "icon": "👶", "label": "Young Children",   "help": "Suitability for under-10s." },
@@ -117,7 +118,8 @@
   "presets": [
     { "id": "beach-chill",    "label": "Beach & Chill",       "icon": "🏖️", "prefs": { "beaches": 3, "swimming": 2, "seaTemperature": 2, "sunshine": 2, "peacefulness": 2, "foodScene": 1, "romance": 1 }, "targets": { "temperature": 28, "peacefulness": 30 } },
     { "id": "city-culture",   "label": "City & Culture",      "icon": "🏛️", "prefs": { "museums": 3, "historicSites": 3, "architecture": 2, "foodScene": 2, "walkability": 2, "publicTransport": 2, "artScene": 1 }, "targets": { "temperature": 20 } },
-    { "id": "adventure",      "label": "Adventure",           "icon": "🥾", "prefs": { "hiking": 3, "scenery": 3, "adrenaline": 2, "nationalParks": 2, "mountains": 2, "wildlife": 1 }, "targets": { "temperature": 18, "peacefulness": 25 } },
+    { "id": "old-towns",      "label": "Old Towns",           "icon": "🏰", "prefs": { "oldTown": 3, "architecture": 2, "historicSites": 2, "walkability": 2, "flightTime": 2, "localCulture": 1, "coffee": 1, "foodScene": 1 }, "targets": { "temperature": 21 } },
+    { "id": "adventure",      "label": "Adventure",          "icon": "🥾", "prefs": { "hiking": 3, "scenery": 3, "adrenaline": 2, "nationalParks": 2, "mountains": 2, "wildlife": 1 }, "targets": { "temperature": 18, "peacefulness": 25 } },
     { "id": "ski-week",       "label": "Ski Week",            "icon": "🎿", "prefs": { "skiing": 3, "snowReliability": 3, "mountains": 2, "scenery": 2, "wellness": 1, "bars": 1 }, "targets": { "temperature": 2 } },
     { "id": "family-summer",  "label": "Family Summer",       "icon": "👪", "prefs": { "familyYoungKids": 3, "beaches": 2, "safety": 2, "swimming": 2, "healthHygiene": 2, "themeParks": 1, "flightTime": 2 }, "targets": { "temperature": 26 } },
     { "id": "honeymoon",      "label": "Honeymoon",           "icon": "💍", "prefs": { "romance": 3, "scenery": 3, "luxury": 2, "beaches": 2, "peacefulness": 2, "fineDining": 2 }, "targets": { "temperature": 27, "peacefulness": 25 } },

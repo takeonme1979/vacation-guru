@@ -30,11 +30,25 @@ function go(hash) {
  */
 let lastList = '#/results';
 
+/**
+ * Split a hash into its path segments and its query string.
+ *
+ * Routes used to be pure paths, but Browse needs to put a search and its
+ * filters in the address bar too — `#/browse?q=orville` — so a shared link
+ * reproduces what was on screen, not just which tab it was on.
+ */
+function parseHash() {
+  const raw = (location.hash || '#/setup').replace(/^#\/?/, '');
+  const qIdx = raw.indexOf('?');
+  const parts = (qIdx === -1 ? raw : raw.slice(0, qIdx)).split('/');
+  const query = new URLSearchParams(qIdx === -1 ? '' : raw.slice(qIdx + 1));
+  return { parts, query };
+}
+
 function route() {
-  const raw = location.hash || '#/setup';
-  const parts = raw.replace(/^#\//, '').split('/');
+  const { parts, query } = parseHash();
   const root = screenEl();
-  const ctx = { go };
+  const ctx = { go, query };
 
   if (['results', 'browse', 'saved'].includes(parts[0])) lastList = '#/' + parts[0];
 

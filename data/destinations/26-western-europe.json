@@ -28,6 +28,7 @@
         "luxury": 375
       },
       "r": {
+        "oldTown": 94,
         "wine": 98, "foodScene": 94, "fineDining": 92, "architecture": 96, "historicSites": 90,
         "religiousSites": 92, "museums": 85, "markets": 92, "festivals": 92, "localCulture": 90,
         "walkability": 92, "cycling": 92, "beer": 90, "coffee": 82, "shopping": 82,
@@ -53,6 +54,7 @@
       "lon": -0.37,
       "type": "coast",
       "arch": "wine-country",
+      "transfer": 2.5,
       "blurb": "Mont-Saint-Michel cut off by the tide, the D-Day beaches, Bayeux's embroidered account of 1066, and cream, cider and Camembert in between.",
       "tags": ["mont-saint-michel", "d-day beaches", "camembert", "bayeux tapestry"],
       "climate": {
@@ -71,6 +73,7 @@
         "luxury": 355
       },
       "r": {
+        "oldTown": 75,
         "historicSites": 98, "museums": 94, "architecture": 92, "religiousSites": 92,
         "scenery": 90, "beaches": 78, "cycling": 88, "hiking": 82, "foodScene": 94,
         "fineDining": 90, "markets": 92, "wine": 68, "beer": 78, "localCulture": 88,
@@ -96,6 +99,7 @@
       "lon": 1.03,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1.5,
       "blurb": "Three hundred châteaux along one river, built when French kings had more money than sense — Chambord has 440 rooms and a double-helix staircase possibly designed by Leonardo.",
       "tags": ["châteaux", "chambord", "sancerre", "river cycling"],
       "climate": {
@@ -113,6 +117,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 70,
         "historicSites": 98, "architecture": 100, "museums": 85, "scenery": 88, "wine": 96,
         "foodScene": 92, "fineDining": 92, "markets": 88, "cycling": 96, "lakesRivers": 85,
         "walkability": 72, "hiking": 68, "kayaking": 72, "romance": 94, "localCulture": 85,
@@ -138,6 +143,7 @@
       "lon": 4.85,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 2,
       "blurb": "The most obsessively subdivided vineyards on earth, where a single road separates wines that cost £30 and £3,000, plus Romanesque abbeys and Beaune's tiled hospice roof.",
       "tags": ["pinot noir", "climats", "beaune", "canal boats"],
       "climate": {
@@ -155,6 +161,7 @@
         "luxury": 420
       },
       "r": {
+        "oldTown": 78,
         "wine": 100, "foodScene": 96, "fineDining": 96, "markets": 90, "architecture": 92,
         "historicSites": 90, "religiousSites": 90, "museums": 78, "cycling": 94, "scenery": 88,
         "hiking": 78, "lakesRivers": 78, "romance": 92, "localCulture": 88, "roadTrip": 88,
@@ -198,6 +205,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 65,
         "beaches": 78, "swimming": 88, "hiking": 94, "climbing": 92, "kayaking": 90,
         "sailing": 90, "scuba": 82, "snorkelling": 78, "scenery": 94, "nationalParks": 90,
         "historicSites": 85, "museums": 88, "architecture": 82, "artScene": 88,
@@ -224,6 +232,7 @@
       "lon": 1.22,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1,
       "blurb": "Honey-stone villages on limestone cliffs above a slow river, foie gras and walnuts, and cave paintings at Lascaux made seventeen thousand years before any of it.",
       "tags": ["lascaux", "bastides", "walnuts", "canoeing"],
       "climate": {
@@ -241,6 +250,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 94, "architecture": 94, "museums": 90, "scenery": 92, "lakesRivers": 90,
         "kayaking": 94, "cycling": 88, "hiking": 85, "forests": 85, "climbing": 78, "wine": 88,
         "foodScene": 96, "fineDining": 90, "markets": 96, "localCulture": 88, "romance": 90,
@@ -266,6 +276,7 @@
       "lon": 6.129,
       "type": "lake",
       "arch": "mountain-town",
+      "transfer": 1,
       "blurb": "The cleanest lake in Europe, turquoise and ringed by Alps, with a canal-threaded old town on one shore and paragliders coming off the ridge above it all day.",
       "tags": ["lake annecy", "paragliding", "canals", "reblochon"],
       "climate": {
@@ -283,6 +294,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 90,
         "lakesRivers": 98, "swimming": 88, "kayaking": 90, "sailing": 85, "mountains": 94,
         "hiking": 94, "cycling": 96, "climbing": 88, "skiing": 0, "adrenaline": 96,
         "scenery": 98, "architecture": 92, "historicSites": 82, "walkability": 92,
@@ -327,6 +339,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 55,
         "surfing": 98, "beaches": 90, "swimming": 78, "waterSports": 88, "foodScene": 96,
         "fineDining": 92, "markets": 92, "wine": 88, "architecture": 90, "historicSites": 78,
         "museums": 78, "localCulture": 94, "festivals": 88, "scenery": 88, "hiking": 82,
@@ -369,6 +382,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 68,
         "religiousSites": 96, "architecture": 92, "historicSites": 88, "museums": 92,
         "artScene": 88, "festivals": 96, "beer": 96, "bars": 90, "clubbing": 85, "foodScene": 85,
         "markets": 88, "shopping": 88, "walkability": 88, "publicTransport": 92,
@@ -394,6 +408,7 @@
       "lon": 13.738,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "A baroque capital burned to the ground in 1945 and rebuilt stone by numbered stone, with sandstone towers and a bridge across a gorge in the national park east of it.",
       "tags": ["frauenkirche", "baroque", "bastei bridge", "green vault"],
       "climate": {
@@ -412,6 +427,7 @@
         "luxury": 310
       },
       "r": {
+        "oldTown": 78,
         "architecture": 98, "historicSites": 92, "museums": 94, "religiousSites": 88,
         "artScene": 88, "theatre": 90, "localCulture": 85, "walkability": 90, "festivals": 85,
         "foodScene": 82, "beer": 88, "markets": 85, "wine": 78, "mountains": 78, "hiking": 90,
@@ -438,6 +454,7 @@
       "lon": 8.672,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "Germany's oldest university under a ruined red castle on a wooded hill, with a philosophers' walk on the far bank and the Neckar valley opening east.",
       "tags": ["castle ruins", "oldest university", "philosophers' walk", "romanticism"],
       "climate": {
@@ -455,6 +472,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 88,
         "architecture": 94, "historicSites": 92, "museums": 82, "religiousSites": 82,
         "scenery": 90, "walkability": 94, "hiking": 85, "cycling": 88, "lakesRivers": 78,
         "forests": 82, "localCulture": 85, "romance": 92, "foodScene": 85, "beer": 90,
@@ -497,6 +515,7 @@
         "luxury": 285
       },
       "r": {
+        "oldTown": 65,
         "liveMusic": 96, "artScene": 94, "museums": 88, "theatre": 88, "architecture": 88,
         "historicSites": 88, "festivals": 88, "localCulture": 88, "bars": 90, "clubbing": 88,
         "coffee": 92, "beer": 88, "foodScene": 85, "markets": 82, "vegan": 90, "walkability": 88,
@@ -522,6 +541,7 @@
       "lon": 13.42,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 3,
       "blurb": "Chalk cliffs above beech forest that Caspar David Friedrich painted, sixty kilometres of white sand, and resort towns of white filigree villas from the 1880s.",
       "tags": ["chalk cliffs", "seaside villas", "beech forest", "strandkorb"],
       "climate": {
@@ -582,6 +602,7 @@
         "luxury": 345
       },
       "r": {
+        "oldTown": 92,
         "architecture": 96, "historicSites": 92, "museums": 92, "artScene": 92,
         "religiousSites": 88, "walkability": 94, "cycling": 96, "localCulture": 88, "beer": 98,
         "foodScene": 90, "fineDining": 88, "markets": 85, "coffee": 85, "bars": 90,
@@ -624,6 +645,7 @@
         "luxury": 370
       },
       "r": {
+        "oldTown": 30,
         "architecture": 96, "museums": 92, "artScene": 92, "foodScene": 90, "markets": 92,
         "cycling": 100, "walkability": 90, "publicTransport": 94, "historicSites": 78,
         "bars": 88, "clubbing": 88, "coffee": 90, "beer": 88, "shopping": 88, "festivals": 88,
@@ -666,6 +688,7 @@
         "luxury": 265
       },
       "r": {
+        "oldTown": 88,
         "architecture": 94, "historicSites": 85, "museums": 82, "artScene": 85,
         "walkability": 98, "cycling": 92, "localCulture": 88, "markets": 88, "foodScene": 90,
         "fineDining": 85, "coffee": 92, "wine": 90, "beer": 85, "bars": 88, "festivals": 85,
@@ -708,6 +731,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 84,
         "architecture": 92, "historicSites": 88, "museums": 88, "artScene": 90,
         "localCulture": 88, "markets": 92, "foodScene": 92, "fineDining": 88, "wine": 94,
         "beer": 85, "coffee": 90, "bars": 85, "walkability": 92, "cycling": 88, "festivals": 85,
@@ -733,6 +757,7 @@
       "lon": 9.838,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 3,
       "blurb": "A high valley of lakes and larch at 1,800 metres, with 322 days of sun a year, the oldest winter resort in the world, and Romansh still spoken in the villages.",
       "tags": ["romansh", "sgraffito", "cresta run", "larch forest"],
       "climate": {
@@ -776,6 +801,7 @@
       "lon": 8.951,
       "type": "lake",
       "arch": "mountain-town",
+      "transfer": 1,
       "blurb": "Switzerland with palm trees and Italian menus — lakes Lugano and Maggiore under steep green mountains, grotti serving polenta, and the Verzasca's water impossibly clear.",
       "tags": ["verzasca", "grotti", "palm trees", "italian switzerland"],
       "climate": {

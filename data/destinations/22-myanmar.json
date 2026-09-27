@@ -28,6 +28,7 @@
         "luxury": 130
       },
       "r": {
+        "oldTown": 15,
         "historicSites": 100, "religiousSites": 98, "architecture": 96, "museums": 62,
         "localCulture": 92, "markets": 78, "scenery": 94, "stargazing": 82, "cycling": 90,
         "adrenaline": 62, "lakesRivers": 72, "sailing": 55, "foodScene": 78, "streetFood": 85,
@@ -54,6 +55,7 @@
       "lon": 96.91,
       "type": "lake",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "A shallow highland lake where fishermen row standing on one leg, whole villages sit on stilts, and tomatoes are grown on floating gardens of woven weed.",
       "tags": ["leg rowers", "floating gardens", "stilt villages", "shan hills"],
       "climate": {
@@ -114,6 +116,7 @@
         "luxury": 145
       },
       "r": {
+        "oldTown": 45,
         "religiousSites": 98, "historicSites": 88, "architecture": 90, "museums": 68,
         "localCulture": 94, "markets": 92, "foodScene": 88, "streetFood": 94, "vegetarian": 82,
         "artScene": 62, "publicTransport": 55, "walkability": 68, "shopping": 68, "bars": 55,
@@ -140,6 +143,7 @@
       "lon": 97.635,
       "type": "region",
       "arch": "jungle-eco",
+      "transfer": 5,
       "blurb": "Limestone karst towers standing straight out of green paddy, riddled with caves full of Buddhas and a lot of bats. Climb Mount Zwegabin at dawn and sleep at the monastery.",
       "tags": ["karst", "caves", "zwegabin", "paddy fields"],
       "climate": {

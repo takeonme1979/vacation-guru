@@ -29,6 +29,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 86,
         "religiousSites": 96, "historicSites": 92, "architecture": 92, "museums": 78,
         "hiking": 96, "scenery": 92, "beaches": 85, "forests": 85, "localCulture": 94,
         "markets": 92, "foodScene": 96, "fineDining": 90, "wine": 92, "cycling": 82,
@@ -72,6 +73,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 72,
         "museums": 96, "artScene": 94, "architecture": 96, "foodScene": 98, "fineDining": 96,
         "streetFood": 94, "markets": 92, "wine": 90, "bars": 92, "localCulture": 94,
         "walkability": 92, "historicSites": 78, "publicTransport": 90, "beaches": 78,
@@ -97,6 +99,7 @@
       "lon": -4.779,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.5,
       "blurb": "The Mezquita — a forest of eight hundred candy-striped arches with a cathedral dropped into the middle — plus flower-filled patios and the hottest summers in Europe.",
       "tags": ["mezquita", "patios", "moorish", "very hot"],
       "climate": {
@@ -114,6 +117,7 @@
         "luxury": 245
       },
       "r": {
+        "oldTown": 94,
         "historicSites": 98, "religiousSites": 98, "architecture": 98, "museums": 82,
         "localCulture": 92, "walkability": 94, "markets": 82, "festivals": 92, "foodScene": 92,
         "fineDining": 85, "wine": 88, "bars": 85, "streetFood": 85, "artScene": 78,
@@ -139,6 +143,7 @@
       "lon": -4.027,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.25,
       "blurb": "Two fortress towns an hour from Madrid: Toledo in a river gorge, where Christians, Muslims and Jews built side by side, and Segovia under a Roman aqueduct with no mortar in it.",
       "tags": ["aqueduct", "el greco", "three cultures", "cochinillo"],
       "climate": {
@@ -156,6 +161,7 @@
         "luxury": 265
       },
       "r": {
+        "oldTown": 95,
         "historicSites": 98, "architecture": 96, "religiousSites": 96, "museums": 90,
         "localCulture": 88, "walkability": 90, "scenery": 85, "artScene": 82, "foodScene": 90,
         "fineDining": 88, "wine": 88, "markets": 78, "festivals": 82, "hiking": 68,
@@ -199,6 +205,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 65,
         "beaches": 96, "swimming": 94, "islands": 94, "sailing": 90, "snorkelling": 85,
         "kayaking": 88, "hiking": 92, "cycling": 88, "scenery": 92, "wildlife": 82,
         "historicSites": 85, "nationalParks": 82, "foodScene": 88, "fineDining": 82, "wine": 78,
@@ -224,6 +231,7 @@
       "lon": -5.166,
       "type": "region",
       "arch": "historic-city",
+      "transfer": 1.75,
       "blurb": "A town split by a 120-metre gorge with a bridge across it, and a scattering of whitewashed villages through the hills behind — one of them painted entirely blue.",
       "tags": ["puente nuevo", "pueblos blancos", "sherry", "grazalema"],
       "climate": {
@@ -241,6 +249,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 88,
         "scenery": 96, "historicSites": 90, "architecture": 94, "localCulture": 90, "hiking": 92,
         "mountains": 88, "nationalParks": 85, "climbing": 82, "walkability": 88, "roadTrip": 94,
         "wine": 90, "foodScene": 90, "fineDining": 82, "markets": 78, "festivals": 85,
@@ -284,6 +293,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 82,
         "beaches": 92, "swimming": 90, "kayaking": 90, "snorkelling": 82, "sailing": 85,
         "hiking": 92, "scenery": 94, "cycling": 88, "historicSites": 92, "architecture": 92,
         "museums": 88, "artScene": 90, "foodScene": 96, "fineDining": 96, "wine": 90,
@@ -327,6 +337,7 @@
         "luxury": 265
       },
       "r": {
+        "oldTown": 55,
         "beaches": 90, "scenery": 96, "mountains": 92, "hiking": 96, "nationalParks": 92,
         "climbing": 85, "surfing": 85, "kayaking": 82, "forests": 90, "wildlife": 85,
         "cycling": 82, "swimming": 62, "foodScene": 94, "fineDining": 88, "markets": 88,
@@ -352,6 +363,7 @@
       "lon": -7.79,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1.5,
       "blurb": "The oldest demarcated wine region in the world — terraces cut into schist so steep the vines are worked by hand, and a river you can go up by train, boat or road.",
       "tags": ["port wine", "terraces", "quintas", "douro line"],
       "climate": {
@@ -369,6 +381,7 @@
         "luxury": 285
       },
       "r": {
+        "oldTown": 45,
         "wine": 100, "scenery": 98, "foodScene": 90, "fineDining": 88, "lakesRivers": 88,
         "hiking": 85, "cycling": 78, "kayaking": 72, "roadTrip": 94, "localCulture": 88,
         "historicSites": 78, "architecture": 78, "romance": 94, "stargazing": 85, "markets": 72,
@@ -412,6 +425,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 80,
         "architecture": 98, "historicSites": 94, "museums": 82, "scenery": 94, "forests": 90,
         "hiking": 88, "beaches": 85, "surfing": 88, "swimming": 62, "cycling": 72,
         "localCulture": 85, "foodScene": 88, "wine": 85, "romance": 94, "walkability": 68,
@@ -437,6 +451,7 @@
       "lon": -7.913,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1.5,
       "blurb": "A third of Portugal, cork oaks and wheat to the horizon, marble towns, a Roman temple in Évora, and a wild Atlantic coast that the Algarve crowds never reach.",
       "tags": ["cork oaks", "évora", "marble", "wild coast"],
       "climate": {
@@ -455,6 +470,7 @@
         "luxury": 265
       },
       "r": {
+        "oldTown": 85,
         "wine": 96, "foodScene": 92, "fineDining": 88, "historicSites": 94, "architecture": 90,
         "religiousSites": 85, "museums": 78, "scenery": 88, "beaches": 85, "surfing": 85,
         "hiking": 88, "cycling": 85, "wildlife": 78, "stargazing": 96, "roadTrip": 94,
@@ -497,6 +513,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 90,
         "foodScene": 100, "fineDining": 94, "markets": 96, "streetFood": 88, "wine": 92,
         "architecture": 94, "historicSites": 92, "museums": 88, "artScene": 85,
         "religiousSites": 85, "walkability": 96, "cycling": 88, "localCulture": 92, "bars": 88,
@@ -539,6 +556,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 70,
         "architecture": 94, "museums": 96, "historicSites": 88, "artScene": 88, "coffee": 98,
         "foodScene": 96, "fineDining": 94, "wine": 98, "markets": 90, "bars": 90, "theatre": 85,
         "walkability": 92, "publicTransport": 85, "localCulture": 90, "shopping": 85,
@@ -581,6 +599,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 90,
         "historicSites": 94, "architecture": 94, "theatre": 96, "museums": 82,
         "religiousSites": 85, "walkability": 94, "localCulture": 88, "lakesRivers": 92,
         "swimming": 82, "sailing": 88, "kayaking": 78, "waterSports": 88, "mountains": 78,
@@ -606,6 +625,7 @@
       "lon": 16.6,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.25,
       "blurb": "Cave dwellings carved into a ravine and lived in continuously for nine thousand years — cleared as a national disgrace in the 1950s, now a European Capital of Culture.",
       "tags": ["sassi", "cave dwellings", "rupestrian churches", "basilicata"],
       "climate": {
@@ -623,6 +643,7 @@
         "luxury": 290
       },
       "r": {
+        "oldTown": 95,
         "historicSites": 100, "architecture": 98, "religiousSites": 90, "museums": 82,
         "localCulture": 92, "scenery": 92, "walkability": 85, "hiking": 82, "foodScene": 92,
         "fineDining": 85, "wine": 88, "markets": 78, "romance": 94, "artScene": 78,
@@ -648,6 +669,7 @@
       "lon": 14.95,
       "type": "island",
       "arch": "island-volcanic",
+      "transfer": 3,
       "blurb": "Seven volcanic islands off Sicily, one of which has been erupting every twenty minutes for two thousand years and can be climbed at dusk to watch it.",
       "tags": ["stromboli", "capers", "malvasia", "black sand"],
       "climate": {
@@ -666,6 +688,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 45,
         "volcanic": 100, "islands": 96, "beaches": 82, "swimming": 92, "snorkelling": 88,
         "scuba": 85, "sailing": 92, "kayaking": 85, "hiking": 94, "adrenaline": 90,
         "scenery": 96, "climbing": 78, "foodScene": 92, "wine": 90, "fineDining": 82,
@@ -691,6 +714,7 @@
       "lon": 11.331,
       "type": "region",
       "arch": "historic-city",
+      "transfer": 1.5,
       "blurb": "A medieval city that runs a bareback horse race round its shell-shaped square twice a year, set in the cypress-and-hilltop landscape everyone pictures when they think of Tuscany.",
       "tags": ["the palio", "piazza del campo", "cypresses", "brunello"],
       "climate": {
@@ -708,6 +732,7 @@
         "luxury": 360
       },
       "r": {
+        "oldTown": 96,
         "historicSites": 98, "architecture": 98, "museums": 88, "religiousSites": 92,
         "scenery": 98, "localCulture": 94, "festivals": 96, "walkability": 92, "wine": 98,
         "foodScene": 94, "fineDining": 92, "markets": 82, "cycling": 92, "hiking": 85,
@@ -751,6 +776,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 45,
         "foodScene": 94, "fineDining": 92, "markets": 90, "coffee": 96, "museums": 85,
         "artScene": 85, "architecture": 82, "localCulture": 85, "islands": 92, "sailing": 92,
         "kayaking": 92, "swimming": 62, "beaches": 68, "cycling": 92, "walkability": 90,
@@ -794,6 +820,7 @@
         "luxury": 385
       },
       "r": {
+        "oldTown": 62,
         "museums": 92, "artScene": 92, "architecture": 90, "foodScene": 92, "fineDining": 92,
         "coffee": 94, "markets": 82, "bars": 88, "beer": 88, "cycling": 96, "walkability": 92,
         "publicTransport": 85, "festivals": 88, "beaches": 82, "historicSites": 85,
@@ -819,6 +846,7 @@
       "lon": 6.155,
       "type": "coast",
       "arch": "coastal-city",
+      "transfer": 1.5,
       "blurb": "An Art Nouveau town rebuilt after burning down in 1904, at the mouth of the fjord country — Geiranger, Trollstigen's eleven hairpins, and Norway's most photographed cliff.",
       "tags": ["art nouveau", "geiranger", "trollstigen", "seven sisters"],
       "climate": {
@@ -838,6 +866,7 @@
         "luxury": 430
       },
       "r": {
+        "oldTown": 60,
         "scenery": 100, "mountains": 96, "hiking": 96, "nationalParks": 88, "kayaking": 92,
         "sailing": 85, "climbing": 88, "cycling": 82, "fishing": 88, "wildlife": 78,
         "architecture": 92, "historicSites": 78, "roadTrip": 98, "adrenaline": 85, "skiing": 78,
@@ -882,6 +911,7 @@
         "luxury": 365
       },
       "r": {
+        "oldTown": 50,
         "islands": 96, "sailing": 94, "kayaking": 92, "cycling": 96, "swimming": 62,
         "fishing": 88, "forests": 90, "wildlife": 78, "scenery": 90, "wellness": 96,
         "historicSites": 88, "architecture": 82, "museums": 85, "foodScene": 88, "markets": 82,
@@ -907,6 +937,7 @@
       "lon": 14.9,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1.5,
       "blurb": "A granite island closer to Sweden than Denmark, with four round fortress churches, smokehouses with white chimneys, and Northern Europe's best beach on its southern tip.",
       "tags": ["round churches", "smoked herring", "dueodde sand", "crafts"],
       "climate": {

@@ -1,0 +1,335 @@
+{
+  "_doc": "The Marvel Universe beyond Asgard, New York and Wakanda — the cosmic addresses mostly, plus the two hidden civilisations and the office outside time. Asgard, New York and Wakanda were already here.",
+  "destinations": [
+    {
+      "id": "vormir", "name": "Vormir", "country": "MRVL", "region": "Beyond the Known", "continent": "Modern & Comics",
+      "type": "mountains", "arch": "dark-realm",
+      "blurb": "A dead red world with a cliff at the top of a mountain, permanent overcast, and a guide who knows your name, your history and exactly what the Soul Stone is going to cost you.",
+      "about": "Vormir's keeper is the Red Skull, exiled here by the Tesseract and made caretaker of a stone he can never hold — the tidiest piece of housekeeping in the whole franchise. The price is fixed and cannot be negotiated: a soul for a soul, someone you love, over the edge. Two films put their emotional weight on that cliff.",
+      "tags": ["soul stone", "the cliff", "a soul for a soul", "the stonekeeper"],
+      "climate": {
+        "tempHigh": [4, 4, 5, 6, 8, 9, 10, 10, 8, 7, 5, 4],
+        "tempLow":  [-8, -8, -7, -5, -3, -1, 0, 0, -2, -4, -6, -8],
+        "rainDays": [10, 10, 9, 9, 8, 8, 8, 8, 9, 9, 10, 10],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [72, 72, 71, 70, 69, 68, 68, 68, 69, 70, 71, 72]
+      },
+      "crowd":      [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+      "costTier": 1,
+      "r": {
+        "mountains": 92, "wilderness": 92, "ruins": 55, "scenery": 78, "prophecy": 96,
+        "magic": 92, "artefacts": 100, "timeStrange": 62, "history": 78, "temples": 62,
+        "climbing": 78, "questing": 96, "adrenaline": 82, "stargazing": 68,
+        "safety": 5, "survivability": 12, "soloFemaleSafety": 25, "comfort": 2,
+        "luxury": 0, "healing": 2, "hospitality": 12, "foodScene": 0, "feasting": 0,
+        "taverns": 0, "ale": 0, "markets": 0, "shopping": 0, "cities": 2, "libraries": 2,
+        "familyFriendly": 0, "seniors": 5, "romance": 25, "peoples": 5,
+        "commonTongue": 78, "combat": 22, "monsters": 22, "undead": 32,
+        "spaceTravel": 62, "technology": 12, "gettingThere": 8, "gettingBack": 12
+      },
+      "photos": ["Red sky over barren mountain", "Cliff edge above deep chasm", "Stone steps up mountain ruins", "Dead trees red light landscape", "Overcast peak silhouette", "Ancient stone altar on mountain"]
+    },
+    {
+      "id": "ego", "name": "Ego", "country": "MRVL", "region": "A Living Planet", "continent": "Modern & Comics",
+      "type": "planet", "arch": "wonderland",
+      "blurb": "A planet-sized garden of coloured stone, floating bubbles and perfect symmetry, every inch of it grown by one Celestial who is also the landscape, the weather and — if you stay long enough — you.",
+      "about": "Ego is the franchise's best bad father: a living planet who built himself a body to go looking for company, seeded a thousand worlds with his own expansion, and killed every child who could not power it. The paradise is genuinely beautiful and the ulterior motive is genuinely there, which is what the film is about.",
+      "tags": ["celestial", "living planet", "the expansion", "peter's father"],
+      "climate": {
+        "tempHigh": [23, 23, 23, 24, 24, 24, 25, 25, 24, 24, 23, 23],
+        "tempLow":  [16, 16, 16, 17, 17, 17, 18, 18, 17, 17, 16, 16],
+        "rainDays": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        "sunHours": [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "humidity": [62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62]
+      },
+      "crowd":      [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "costTier": 3,
+      "r": {
+        "scenery": 100, "forests": 62, "magic": 92, "wizards": 78, "timeStrange": 78,
+        "technology": 78, "spaceTravel": 72, "architecture": 92, "comfort": 88,
+        "luxury": 88, "healing": 78, "foodScene": 62, "vegetarian": 88, "music": 82,
+        "romance": 72, "hospitality": 78, "stargazing": 82, "wilderness": 55,
+        "hiking": 62, "artefacts": 62, "prophecy": 62, "history": 68, "libraries": 45,
+        "safety": 25, "survivability": 45, "soloFemaleSafety": 42, "familyFriendly": 32,
+        "seniors": 55, "cities": 32, "markets": 5, "monsters": 55, "combat": 62,
+        "questing": 82, "undead": 22, "peoples": 8, "commonTongue": 82,
+        "gettingThere": 22, "gettingBack": 15
+      },
+      "photos": ["Colourful mineral rock formations", "Soap bubbles floating in light", "Symmetrical formal garden aerial", "Crystal cave coloured minerals", "Rainbow mineral hot springs", "Ornamental rock garden landscape"]
+    },
+    {
+      "id": "knowhere", "name": "Knowhere", "country": "MRVL", "region": "A Severed Celestial Head", "continent": "Modern & Comics",
+      "type": "megastructure", "arch": "space-port",
+      "blurb": "A mining colony drilled into the severed head of a dead Celestial, where the bone is real estate, the brain tissue is the export, and a bar fight is included in the price of the ticket.",
+      "about": "Knowhere is the best set-piece idea the Guardians films have: a frontier town inside a skull, run by a collector, lit like a casino and mined for organic matter that is technically somebody's remains. It gets bought outright later and turned into a home, which is a lot of retail activity for one severed head.",
+      "tags": ["celestial skull", "the collector", "mining colony", "orloni racing"],
+      "climate": {
+        "tempHigh": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "tempLow":  [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [68, 68, 68, 68, 68, 68, 68, 68, 68, 68, 68, 68]
+      },
+      "crowd":      [76, 76, 76, 76, 76, 76, 76, 76, 76, 76, 76, 76],
+      "costTier": 2,
+      "r": {
+        "spaceTravel": 88, "technology": 78, "cities": 78, "markets": 92, "shopping": 88,
+        "gambling": 92, "taverns": 92, "ale": 88, "wine": 62, "foodScene": 72,
+        "feasting": 62, "revels": 88, "music": 78, "peoples": 92, "intrigue": 88,
+        "artefacts": 88, "libraries": 45, "history": 78, "underground": 82,
+        "combat": 68, "adrenaline": 72, "safety": 25, "lawAndOrder": 22,
+        "soloFemaleSafety": 32, "comfort": 42, "luxury": 45, "healing": 45,
+        "hospitality": 45, "familyFriendly": 22, "seniors": 25, "stargazing": 78,
+        "scenery": 55, "magic": 45, "monsters": 45, "questing": 72,
+        "commonTongue": 78, "gettingThere": 55, "gettingBack": 55
+      },
+      "photos": ["Industrial mining tunnel lit", "Neon market street at night", "Skull shaped rock formation", "Crowded bar interior neon", "Space station docking bay", "Quarry face heavy machinery"]
+    },
+    {
+      "id": "hala", "name": "Hala", "country": "MRVL", "region": "The Kree Empire", "continent": "Modern & Comics",
+      "type": "city", "arch": "dystopia",
+      "blurb": "The Kree capital: a blue-skinned empire, a Supreme Intelligence that appears to you wearing the face of whoever you most admire, and a sky that has been going out ever since somebody unplugged it.",
+      "about": "Hala runs on conquest and on an artificial intelligence that speaks to each citizen in the shape of the person they respected most — which is how you get a civilisation that only ever agrees with itself. Captain Marvel spends one film being told she is Kree and the next on a Hala with no sun, no water and a thoroughly earned grudge.",
+      "tags": ["kree", "supreme intelligence", "starforce", "the dying sun"],
+      "climate": {
+        "tempHigh": [26, 27, 29, 32, 35, 38, 40, 40, 36, 32, 28, 26],
+        "tempLow":  [12, 13, 15, 18, 21, 24, 26, 26, 23, 19, 15, 12],
+        "rainDays": [1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        "sunHours": [3, 3, 3, 4, 4, 4, 4, 4, 4, 3, 3, 3],
+        "humidity": [22, 21, 19, 16, 13, 11, 10, 11, 13, 16, 19, 22]
+      },
+      "crowd":      [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70],
+      "costTier": 2,
+      "r": {
+        "cities": 92, "technology": 96, "architecture": 88, "spaceTravel": 96,
+        "intrigue": 92, "combat": 88, "libraries": 72, "history": 82, "artefacts": 72,
+        "temples": 62, "markets": 62, "shopping": 55, "ruins": 55, "questing": 78,
+        "safety": 32, "lawAndOrder": 62, "warRisk": 15, "soloFemaleSafety": 45,
+        "comfort": 55, "luxury": 62, "healing": 72, "hospitality": 25,
+        "familyFriendly": 22, "seniors": 32, "foodScene": 45, "feasting": 42,
+        "magic": 32, "prophecy": 55, "peoples": 45, "commonTongue": 62,
+        "stargazing": 55, "scenery": 45, "gettingThere": 42, "gettingBack": 45
+      },
+      "photos": ["Futuristic city skyline dusk", "Brutalist monumental architecture", "Blue lit interior corridor", "Dry cracked lake bed", "Military parade ground", "City under dark red sky"]
+    },
+    {
+      "id": "sakaar", "name": "Sakaar", "country": "MRVL", "region": "The Wrong End of a Wormhole", "continent": "Modern & Comics",
+      "type": "badlands", "arch": "dystopia",
+      "blurb": "A junk planet at the wrong end of a hundred wormholes, ruled by an immortal impresario who settles every dispute with a gladiatorial contest and very good fireworks. Everything here arrived by falling.",
+      "about": "Ragnarok's best invention: a world made entirely of what other worlds threw away, with a ruling class of one, a champion who is the Hulk, and a scrapper who sells people to him. The Contest of Champions is a fairly devastating satire of the franchise containing it, staged under a fifty-foot portrait of the man running it.",
+      "tags": ["the grandmaster", "contest of champions", "scrap", "the devil's anus"],
+      "climate": {
+        "tempHigh": [24, 25, 27, 30, 33, 36, 38, 38, 34, 30, 26, 24],
+        "tempLow":  [13, 14, 16, 18, 21, 24, 26, 26, 23, 19, 16, 13],
+        "rainDays": [3, 3, 2, 2, 1, 1, 1, 1, 2, 2, 3, 3],
+        "sunHours": [6, 6, 7, 7, 8, 8, 8, 8, 7, 7, 6, 6],
+        "humidity": [38, 36, 33, 29, 25, 21, 19, 20, 24, 29, 34, 38]
+      },
+      "crowd":      [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72],
+      "costTier": 1,
+      "r": {
+        "desert": 78, "ruins": 92, "cities": 72, "technology": 68, "spaceTravel": 82,
+        "markets": 82, "shopping": 72, "gambling": 88, "taverns": 88, "ale": 82,
+        "revels": 92, "festivals": 88, "music": 82, "foodScene": 55, "peoples": 88,
+        "intrigue": 82, "combat": 92, "adrenaline": 92, "questing": 78, "artefacts": 62,
+        "safety": 15, "lawAndOrder": 12, "soloFemaleSafety": 22, "comfort": 32,
+        "luxury": 45, "healing": 42, "hospitality": 32, "familyFriendly": 12,
+        "seniors": 12, "stargazing": 62, "scenery": 45, "wilderness": 62, "magic": 32,
+        "monsters": 62, "libraries": 12, "commonTongue": 72,
+        "gettingThere": 62, "gettingBack": 15
+      },
+      "photos": ["Scrapyard mountains of waste", "Landfill site aerial view", "Neon arena crowd at night", "Rusted metal wasteland", "Gladiator arena reconstruction", "Industrial junk pile"]
+    },
+    {
+      "id": "titan", "name": "Titan", "country": "MRVL", "region": "Thanos' Homeworld", "continent": "Modern & Comics",
+      "type": "ruins", "arch": "desert-world",
+      "blurb": "A dead world with its own moons in pieces overhead and gravity that no longer agrees with itself, ruined by precisely the overpopulation its most famous son later proposed to fix everywhere else.",
+      "about": "Titan is the argument the whole Infinity Saga is built on. Thanos says he warned them, that his solution was random and dispassionate and would have saved the place, and the film lets him say it standing in the rubble of the evidence. The set is pure Dali: broken rings, floating masonry, a sun through dust.",
+      "tags": ["thanos", "broken moons", "overpopulation", "the snap"],
+      "climate": {
+        "tempHigh": [19, 21, 25, 29, 34, 38, 40, 39, 35, 29, 23, 19],
+        "tempLow":  [2, 3, 6, 10, 15, 19, 21, 20, 16, 11, 6, 2],
+        "rainDays": [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+        "sunHours": [5, 5, 6, 6, 7, 7, 7, 7, 6, 6, 5, 5],
+        "humidity": [18, 17, 15, 13, 11, 9, 8, 9, 11, 13, 16, 18]
+      },
+      "crowd":      [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+      "costTier": 1,
+      "r": {
+        "ruins": 96, "desert": 82, "wilderness": 88, "scenery": 78, "history": 88,
+        "architecture": 72, "artefacts": 62, "prophecy": 72, "stargazing": 92,
+        "questing": 88, "combat": 82, "adrenaline": 78, "technology": 55, "magic": 45,
+        "timeStrange": 55, "safety": 12, "survivability": 15, "soloFemaleSafety": 32,
+        "comfort": 5, "luxury": 2, "healing": 5, "hospitality": 2, "foodScene": 2,
+        "feasting": 0, "taverns": 0, "markets": 0, "cities": 32, "libraries": 12,
+        "familyFriendly": 5, "seniors": 8, "peoples": 2, "commonTongue": 62,
+        "spaceTravel": 68, "gettingThere": 15, "gettingBack": 22
+      },
+      "photos": ["Ruined city in dust storm", "Broken concrete structures desert", "Crumbling monumental architecture", "Rocky planet moons in sky", "Dust haze over ruins", "Desert ruins at sunset"]
+    },
+    {
+      "id": "xandar", "name": "Xandar", "country": "MRVL", "region": "The Nova Empire", "continent": "Modern & Comics",
+      "type": "city", "arch": "utopia",
+      "blurb": "The Nova Corps capital: clean plazas, competent police who fly in formation, and the best civic architecture in the galaxy. Later destroyed off-screen, which nobody has forgiven.",
+      "about": "Xandar is the one properly functional civilisation in the cosmic half of this universe — the Corps hold the line, the citizens are decent, and the film presents the place as worth defending, which is why the finale works. That it is then wiped out between films, in a line of dialogue, is the most casual destruction in the franchise.",
+      "tags": ["nova corps", "the orb", "civic pride", "destroyed off-screen"],
+      "climate": {
+        "tempHigh": [18, 19, 21, 23, 26, 28, 30, 30, 27, 24, 20, 18],
+        "tempLow":  [11, 11, 13, 15, 18, 20, 22, 22, 20, 17, 14, 12],
+        "rainDays": [6, 5, 5, 4, 3, 2, 2, 2, 3, 5, 6, 6],
+        "sunHours": [7, 8, 9, 10, 11, 12, 12, 11, 10, 9, 8, 7],
+        "humidity": [60, 59, 58, 56, 54, 52, 50, 51, 54, 57, 59, 60]
+      },
+      "crowd":      [68, 68, 70, 72, 75, 78, 80, 80, 76, 72, 70, 68],
+      "costTier": 3,
+      "r": {
+        "cities": 96, "architecture": 96, "technology": 92, "spaceTravel": 92,
+        "comfort": 88, "luxury": 78, "safety": 88, "lawAndOrder": 92, "warRisk": 55,
+        "soloFemaleSafety": 88, "healing": 88, "libraries": 82, "history": 72,
+        "artefacts": 78, "markets": 78, "shopping": 78, "foodScene": 82, "feasting": 72,
+        "festivals": 72, "music": 72, "familyFriendly": 82, "seniors": 78,
+        "hospitality": 72, "scenery": 78, "stargazing": 72, "peoples": 82,
+        "commonTongue": 82, "magic": 42, "combat": 55, "questing": 62, "intrigue": 62,
+        "gettingThere": 68, "gettingBack": 68
+      },
+      "photos": ["Modern civic plaza fountains", "Futuristic white architecture", "City park with tower blocks", "Government building colonnade", "Clean city street daylight", "Aerial view planned city"]
+    },
+    {
+      "id": "kamar-taj", "name": "Kamar-Taj", "country": "MRVL", "region": "Kathmandu", "continent": "Modern & Comics",
+      "type": "campus", "arch": "school-of-magic",
+      "blurb": "A courtyard behind an unmarked door in Kathmandu where they teach you to fold a city, open a doorway to anywhere, and read six dead languages. Tea is provided. The library is the dangerous part.",
+      "about": "The MCU's one school, and its best joke is that the librarian is the real authority: sanctums, sling rings, and a man who has lost colleagues to stolen books. The Ancient One's entire syllabus is a long campaign to persuade a brilliant surgeon that he is not the most important person in any given room.",
+      "tags": ["the ancient one", "sling rings", "the sanctums", "wong's library"],
+      "climate": {
+        "tempHigh": [19, 21, 25, 28, 29, 29, 28, 28, 28, 26, 23, 20],
+        "tempLow":  [3, 5, 8, 12, 16, 19, 20, 20, 19, 14, 8, 4],
+        "rainDays": [2, 2, 3, 5, 9, 16, 21, 20, 13, 4, 1, 1],
+        "sunHours": [7, 8, 8, 9, 8, 6, 4, 5, 6, 8, 8, 7],
+        "humidity": [72, 66, 58, 55, 62, 74, 84, 85, 82, 74, 72, 73]
+      },
+      "crowd":      [42, 42, 48, 52, 50, 42, 38, 38, 46, 58, 55, 45],
+      "costTier": 2,
+      "r": {
+        "libraries": 96, "magic": 96, "wizards": 96, "architecture": 82, "history": 88,
+        "artefacts": 92, "temples": 78, "healing": 88, "timeStrange": 88, "prophecy": 82,
+        "cities": 55, "localCulture": 88, "mountains": 62, "comfort": 62, "safety": 72,
+        "lawAndOrder": 72, "soloFemaleSafety": 82, "vegetarian": 88, "foodScene": 62,
+        "feasting": 45, "markets": 55, "shopping": 42, "hospitality": 68,
+        "familyFriendly": 45, "seniors": 55, "questing": 88, "combat": 72,
+        "monsters": 55, "fellowship": 82, "peoples": 62, "commonTongue": 78,
+        "technology": 32, "stargazing": 62, "gettingThere": 45, "gettingBack": 62
+      },
+      "photos": ["Kathmandu courtyard temple", "Buddhist monastery library", "Prayer wheels Nepal", "Monastery courtyard training", "Old library manuscript shelves", "Himalayan monastery mountains"]
+    },
+    {
+      "id": "nidavellir", "name": "Nidavellir", "country": "MRVL", "region": "A Dying Star", "continent": "Modern & Comics",
+      "type": "megastructure", "arch": "space-port",
+      "blurb": "A forge the size of a solar system built in a ring around a dying star, worked by dwarves who make weapons for gods and have been sitting in the dark since the last customer had them all killed.",
+      "about": "Infinity War's one piece of pure spectacle: a ring larger than a planet, a neutron star restarted by hand, and the last dwarf standing in a workshop full of his family's absence. Eitri made Mjolnir and he made the Gauntlet, which leaves him responsible for a remarkable amount of the plot in both directions.",
+      "tags": ["eitri", "the forge", "neutron star", "stormbreaker"],
+      "climate": {
+        "tempHigh": [38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38],
+        "tempLow":  [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        "humidity": [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
+      },
+      "crowd":      [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],
+      "costTier": 2,
+      "r": {
+        "technology": 96, "spaceTravel": 92, "architecture": 92, "artefacts": 100,
+        "history": 82, "ruins": 62, "underground": 62, "stargazing": 96, "scenery": 88,
+        "combat": 62, "questing": 82, "adrenaline": 78, "markets": 25, "shopping": 32,
+        "safety": 32, "survivability": 32, "soloFemaleSafety": 48, "comfort": 25,
+        "luxury": 32, "healing": 32, "hospitality": 45, "foodScene": 22, "feasting": 25,
+        "ale": 55, "taverns": 22, "familyFriendly": 12, "seniors": 15, "libraries": 22,
+        "magic": 62, "peoples": 22, "commonTongue": 78, "cities": 45,
+        "gettingThere": 22, "gettingBack": 32
+      },
+      "photos": ["Steel mill molten metal pour", "Foundry pouring molten iron", "Particle accelerator ring tunnel", "Blacksmith forge glowing metal", "Bright star field space", "Heavy industry machinery at night"]
+    },
+    {
+      "id": "quantum-realm", "name": "The Quantum Realm", "country": "MRVL", "region": "Below the Smallest Thing", "continent": "Modern & Comics",
+      "type": "region", "arch": "wonderland",
+      "blurb": "Underneath the smallest thing there is: a place with no time, its own weather, its own cities and civilisations, and a woman who spent thirty years down there learning things nobody wanted to hear.",
+      "about": "Ant-Man's subatomic layer began as a way to lose a character and turned into an entire cosmology — probability storms, freedom fighters, a conqueror in exile, and time behaving so badly that five hours down here is five years up there. It is also the sole mechanism by which the Infinity Saga is eventually undone.",
+      "tags": ["subatomic", "no time down here", "janet van dyne", "kang"],
+      "climate": {
+        "tempHigh": [22, 24, 19, 27, 21, 25, 18, 26, 23, 20, 24, 22],
+        "tempLow":  [11, 14, 8, 16, 10, 15, 7, 15, 12, 9, 13, 11],
+        "rainDays": [8, 3, 14, 5, 11, 2, 16, 4, 9, 12, 6, 8],
+        "sunHours": [4, 7, 2, 8, 3, 6, 1, 7, 5, 3, 6, 4],
+        "humidity": [70, 55, 85, 60, 78, 52, 88, 58, 72, 80, 62, 70]
+      },
+      "crowd":      [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+      "costTier": 2,
+      "r": {
+        "timeStrange": 100, "magic": 78, "technology": 88, "scenery": 96,
+        "wilderness": 82, "cities": 45, "peoples": 62, "questing": 88, "adrenaline": 88,
+        "monsters": 68, "combat": 62, "prophecy": 62, "artefacts": 55, "history": 45,
+        "libraries": 22, "safety": 12, "survivability": 22, "soloFemaleSafety": 38,
+        "comfort": 22, "luxury": 15, "healing": 32, "hospitality": 32, "foodScene": 25,
+        "feasting": 22, "taverns": 25, "markets": 32, "familyFriendly": 15,
+        "seniors": 8, "stargazing": 72, "romance": 45, "commonTongue": 32,
+        "spaceTravel": 45, "gettingThere": 12, "gettingBack": 8
+      },
+      "photos": ["Microscope crystal structures colour", "Bioluminescent plankton at night", "Abstract fractal light pattern", "Soap film colours macro", "Comb jelly bioluminescence", "Coloured smoke abstract"]
+    },
+    {
+      "id": "talokan", "name": "Talokan", "country": "MRVL", "region": "The Ocean Floor", "continent": "Modern & Comics",
+      "type": "undersea", "arch": "island-kingdom",
+      "blurb": "A luminous city on the sea floor, older than anything above it, built by people who took a herb instead of smallpox and have spent five hundred years down there thinking about the surface.",
+      "about": "Wakanda Forever's strongest idea is a second hidden civilisation with the same isolationist logic and a much worse memory of colonists: Namor's people fled a plague in the Yucatán and were changed by a plant into something that breathes water. The city is lit by an artificial sun, and the grievance behind it is entirely earned.",
+      "tags": ["namor", "yucatán", "vibranium", "the sun stone"],
+      "climate": {
+        "tempHigh": [16, 16, 16, 17, 17, 18, 18, 18, 18, 17, 17, 16],
+        "tempLow":  [12, 12, 12, 13, 13, 14, 14, 14, 14, 13, 13, 12],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
+        "seaTemp":  [16, 16, 16, 17, 17, 18, 18, 18, 18, 17, 17, 16]
+      },
+      "crowd":      [58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58],
+      "costTier": 2,
+      "r": {
+        "coast": 88, "swimming": 96, "sailing": 55, "islands": 62, "seaMonsters": 62,
+        "architecture": 96, "cities": 88, "scenery": 96, "history": 92, "artefacts": 88,
+        "localCulture": 96, "temples": 82, "music": 88, "festivals": 78, "technology": 82,
+        "magic": 55, "healing": 82, "safety": 42, "lawAndOrder": 78,
+        "soloFemaleSafety": 62, "comfort": 68, "luxury": 72, "foodScene": 72,
+        "feasting": 72, "vegetarian": 62, "markets": 55, "familyFriendly": 55,
+        "seniors": 52, "combat": 82, "questing": 72, "intrigue": 88, "peoples": 55,
+        "commonTongue": 32, "survivability": 25, "stargazing": 0, "libraries": 62,
+        "gettingThere": 12, "gettingBack": 25
+      },
+      "photos": ["Underwater ruins with diver", "Coral formations underwater city", "Cenote blue water Mexico", "Mayan stone relief carving", "Sunlight through ocean surface", "Underwater cave blue light"]
+    },
+    {
+      "id": "the-tva", "name": "The Time Variance Authority", "country": "MRVL", "region": "Outside Time", "continent": "Modern & Comics",
+      "type": "megastructure", "arch": "dystopia",
+      "blurb": "An office outside time with beige corridors, a ticketing system, a cartoon clock who cheerfully explains your execution, and an entire filing department for realities that were pruned for going off script.",
+      "about": "Bureaucratic dread played for laughs: mid-century office furniture, laminated procedure, and a workforce of abducted variants who have been told they were created for the job. For All Time. Always. is a motivational slogan on the wall of an organisation that deletes universes for administrative tidiness.",
+      "tags": ["for all time always", "pruning", "miss minutes", "variants"],
+      "climate": {
+        "tempHigh": [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+        "tempLow":  [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+      },
+      "crowd":      [64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64],
+      "costTier": 2,
+      "r": {
+        "timeStrange": 100, "technology": 78, "architecture": 82, "cities": 62,
+        "libraries": 92, "history": 96, "artefacts": 78, "prophecy": 88, "intrigue": 96,
+        "lawAndOrder": 88, "safety": 32, "soloFemaleSafety": 55, "comfort": 45,
+        "luxury": 25, "foodScene": 32, "feasting": 22, "taverns": 25, "markets": 12,
+        "shopping": 22, "hospitality": 25, "healing": 45, "familyFriendly": 15,
+        "seniors": 32, "questing": 88, "combat": 62, "monsters": 32, "magic": 62,
+        "peoples": 45, "commonTongue": 92, "survivability": 55, "stargazing": 12,
+        "scenery": 32, "wilderness": 0, "gettingThere": 5, "gettingBack": 12
+      },
+      "photos": ["Mid century modern office interior", "Endless office corridor", "Filing cabinets archive room", "Vintage mission control room", "Brutalist government interior", "1960s office interior"]
+    }
+  ]
+}

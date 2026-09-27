@@ -11,6 +11,7 @@
       "lon": 24.43,
       "type": "island",
       "arch": "island-volcanic",
+      "transfer": 1.5,
       "blurb": "A volcanic island with more than seventy beaches, no two alike — Sarakiniko's white lunar rock, Kleftiko's sea caves, and fishing villages with garage doors painted in every colour.",
       "tags": ["sarakiniko", "kleftiko", "syrmata", "seventy beaches"],
       "climate": {
@@ -54,6 +55,7 @@
       "lon": 25.149,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1.5,
       "blurb": "The Cyclades done properly: a marble island with a Byzantine capital, the best windsurfing in Greece, and a village of white lanes that looks like everyone's idea of Greece.",
       "tags": ["naoussa", "windsurfing", "marble", "antiparos"],
       "climate": {
@@ -72,6 +74,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 70,
         "beaches": 94, "swimming": 94, "islands": 94, "sailing": 90, "waterSports": 96,
         "surfing": 82, "kayaking": 82, "snorkelling": 78, "scenery": 90, "architecture": 90,
         "historicSites": 82, "religiousSites": 85, "localCulture": 85, "foodScene": 90,
@@ -98,6 +101,7 @@
       "lon": 24.71,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 3.5,
       "blurb": "Two islands the crowds have not found: Sifnos is where Greeks go to eat, and Folegandros has a cliff-top village 200 metres straight above the sea with no airport at all.",
       "tags": ["chora", "greek cooking", "no airport", "cliff village"],
       "climate": {
@@ -116,6 +120,7 @@
         "luxury": 265
       },
       "r": {
+        "oldTown": 60,
         "beaches": 88, "swimming": 90, "islands": 94, "sailing": 82, "scenery": 94, "hiking": 90,
         "architecture": 92, "religiousSites": 90, "historicSites": 78, "localCulture": 92,
         "foodScene": 96, "fineDining": 85, "wine": 78, "markets": 68, "walkability": 90,
@@ -184,6 +189,7 @@
       "lon": 21.63,
       "type": "mountains",
       "arch": "historic-city",
+      "transfer": 3,
       "blurb": "Six working monasteries balanced on sandstone pillars up to 400 metres high, reached for centuries only by rope ladder and net. Now there are steps, which helps.",
       "tags": ["monasteries", "rock pillars", "climbing", "byzantine"],
       "climate": {
@@ -201,6 +207,7 @@
         "luxury": 230
       },
       "r": {
+        "oldTown": 25,
         "religiousSites": 100, "historicSites": 96, "architecture": 96, "scenery": 98,
         "mountains": 88, "climbing": 96, "hiking": 92, "museums": 72, "localCulture": 85,
         "stargazing": 85, "adrenaline": 82, "cycling": 68, "foodScene": 82, "wine": 78,
@@ -243,6 +250,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 62,
         "foodScene": 96, "streetFood": 94, "markets": 92, "fineDining": 85, "bars": 94,
         "clubbing": 90, "liveMusic": 88, "coffee": 94, "wine": 88, "historicSites": 92,
         "religiousSites": 90, "architecture": 85, "museums": 88, "artScene": 82,
@@ -269,6 +277,7 @@
       "lon": 22.8,
       "type": "region",
       "arch": "historic-city",
+      "transfer": 2,
       "blurb": "Ancient Olympia, Mycenae, Epidaurus and Sparta on one peninsula, plus the Mani's stone tower villages and Nafplio, which is the prettiest town in Greece.",
       "tags": ["olympia", "mycenae", "nafplio", "the mani"],
       "climate": {
@@ -287,6 +296,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 85,
         "historicSites": 98, "architecture": 90, "museums": 90, "religiousSites": 85,
         "theatre": 88, "localCulture": 90, "scenery": 92, "mountains": 85, "hiking": 88,
         "beaches": 85, "swimming": 85, "sailing": 78, "roadTrip": 94, "foodScene": 90,
@@ -312,6 +322,7 @@
       "lon": 23.466,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 2.5,
       "blurb": "An island where cars are banned outright — donkeys carry the luggage, sea captains' mansions climb the amphitheatre of the harbour, and Athens is ninety minutes away.",
       "tags": ["no cars", "donkeys", "captains' houses", "artists"],
       "climate": {
@@ -330,6 +341,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 72,
         "architecture": 94, "historicSites": 85, "localCulture": 90, "artScene": 90,
         "walkability": 96, "scenery": 92, "islands": 92, "swimming": 88, "sailing": 92,
         "kayaking": 78, "hiking": 82, "foodScene": 88, "fineDining": 85, "wine": 82, "bars": 80,
@@ -398,6 +410,7 @@
       "lon": 27.84,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1.5,
       "blurb": "A harbour of neoclassical mansions in ochre and terracotta stacked up both sides of a bay — built by sponge divers, abandoned, and now one of the prettiest arrivals in Greece.",
       "tags": ["sponge divers", "neoclassical", "gialos", "panormitis"],
       "climate": {
@@ -416,6 +429,7 @@
         "luxury": 270
       },
       "r": {
+        "oldTown": 70,
         "architecture": 96, "scenery": 94, "islands": 94, "swimming": 92, "sailing": 88,
         "snorkelling": 82, "kayaking": 80, "beaches": 80, "hiking": 85, "religiousSites": 88,
         "historicSites": 78, "localCulture": 88, "foodScene": 88, "fineDining": 78, "wine": 75,

@@ -1,0 +1,170 @@
+{
+  "_doc": "More of the Wizarding World, restricted to places big enough to be a destination rather than a room: the bank and its vaults, the World Cup campsite, the two foreign schools, a whole village, and the train that gets you there. Hogwarts, Hogsmeade, Diagon Alley, the Forbidden Forest, the Ministry and Azkaban were already here.",
+  "destinations": [
+    {
+      "id": "gringotts", "name": "Gringotts", "country": "HP", "region": "Under Diagon Alley", "continent": "High Fantasy",
+      "type": "underground", "arch": "high-city",
+      "blurb": "A marble banking hall on top of miles of cart track, hundreds of fathoms down, where the vaults get older and worse the further you go and there is a blind dragon chained beneath the oldest of them.",
+      "about": "Goblin banking is the sharpest thing in the books and the most argued over: a people who have been robbed by wizards for centuries, hold all their money, and take the opposite view of who owns what. The security is genuinely good — the Thief's Downfall, the Gemino curse, and a dragon conditioned to flinch at a hand-held rattle.",
+      "tags": ["goblins", "the carts", "vault 713", "the dragon"],
+      "climate": {
+        "tempHigh": [13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13],
+        "tempLow":  [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "rainDays": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78]
+      },
+      "crowd":      [62, 62, 64, 66, 68, 72, 78, 82, 72, 66, 64, 68],
+      "costTier": 3,
+      "r": {
+        "underground": 96, "architecture": 92, "cities": 45, "markets": 62, "shopping": 55,
+        "artefacts": 96, "libraries": 45, "magic": 96, "wizards": 88, "history": 88,
+        "intrigue": 92, "adrenaline": 78, "questing": 88, "combat": 55, "monsters": 62,
+        "dragons": 88, "undead": 22, "lawAndOrder": 78, "safety": 42,
+        "soloFemaleSafety": 55, "comfort": 55, "luxury": 82, "healing": 32,
+        "hospitality": 22, "foodScene": 22, "feasting": 12, "taverns": 5,
+        "familyFriendly": 32, "seniors": 45, "peoples": 62, "commonTongue": 96,
+        "technology": 12, "stargazing": 0, "scenery": 55, "wilderness": 12, "rivers": 42,
+        "gettingThere": 68, "gettingBack": 55
+      },
+      "photos": ["Bank marble hall interior", "Mine cart tracks underground", "Bank vault door open", "Pile of gold coins treasure", "Underground cavern lake", "Historic bank interior counters"]
+    },
+    {
+      "id": "quidditch-world-cup", "name": "The Quidditch World Cup", "country": "HP", "region": "A Moor, Undisclosed", "continent": "High Fantasy",
+      "type": "town", "arch": "wonderland",
+      "blurb": "A hundred thousand witches and wizards camped on a moor around a stadium that was not there last week: a week of queues, souvenir hawkers, tents with four bedrooms inside, and one very good match.",
+      "about": "The campsite is the best sustained comedy in the books — wizards failing to dress as Muggles, an Irish supporter with a shamrock-shaped tent, a Ministry official arguing about a chimney. Then it turns, and masked men walk through the tents at midnight holding a family in the air. It is the chapter where the series stops being about school.",
+      "tags": ["the campsite", "veela and leprechauns", "bigger on the inside", "the dark mark"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 14, 17, 20, 22, 22, 19, 15, 10, 8],
+        "tempLow":  [2, 2, 3, 5, 8, 11, 13, 13, 11, 8, 4, 2],
+        "rainDays": [14, 12, 12, 11, 11, 10, 11, 11, 11, 13, 14, 15],
+        "sunHours": [2, 3, 4, 5, 6, 6, 6, 6, 4, 3, 2, 1],
+        "humidity": [86, 84, 82, 79, 77, 77, 78, 79, 82, 85, 87, 87]
+      },
+      "crowd":      [12, 12, 12, 14, 18, 28, 96, 98, 22, 14, 12, 12],
+      "costTier": 2,
+      "r": {
+        "festivals": 100, "revels": 92, "music": 82, "feasting": 82, "foodScene": 78,
+        "ale": 88, "markets": 92, "shopping": 92, "gambling": 88, "peoples": 88,
+        "localCulture": 92, "magic": 96, "wizards": 92, "adrenaline": 78,
+        "safety": 45, "lawAndOrder": 42, "soloFemaleSafety": 55, "comfort": 45,
+        "luxury": 42, "hospitality": 68, "familyFriendly": 72, "seniors": 45,
+        "plains": 72, "wilderness": 42, "stargazing": 68, "cities": 32, "taverns": 62,
+        "combat": 42, "monsters": 32, "intrigue": 78, "commonTongue": 92,
+        "technology": 5, "healing": 55, "gettingThere": 55, "gettingBack": 62
+      },
+      "photos": ["Festival campsite tents field", "Stadium crowd floodlights night", "Music festival crowd field", "Souvenir stalls at an event", "Tent city aerial view", "Fireworks over a stadium"]
+    },
+    {
+      "id": "beauxbatons", "name": "Beauxbatons", "country": "HP", "region": "The Pyrenees", "continent": "High Fantasy",
+      "type": "castle", "arch": "school-of-magic",
+      "blurb": "A palace of fountains and ice sculpture in the mountains of southern France, where the food is superb, the uniforms are silk, and everyone is unbearably polite about the draughts in your castle.",
+      "about": "Rowling gives Beauxbatons about six pages and every one of them is about class: a school that arrives in a flying carriage drawn by winged horses, asks whether the bouillabaisse is available, and finds Hogwarts cold. Madame Maxime is also the only head teacher in the series better dressed than the Minister for Magic.",
+      "tags": ["madame maxime", "the flying carriage", "bouillabaisse", "winged horses"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 14, 18, 22, 25, 25, 21, 16, 11, 8],
+        "tempLow":  [-1, -1, 1, 4, 8, 11, 14, 14, 11, 7, 3, 0],
+        "rainDays": [9, 8, 9, 10, 10, 8, 7, 8, 8, 10, 10, 10],
+        "sunHours": [4, 5, 6, 7, 8, 9, 10, 9, 7, 6, 4, 4],
+        "humidity": [74, 72, 70, 70, 70, 68, 65, 67, 71, 75, 76, 76],
+        "snowDepth": [35, 38, 25, 8, 0, 0, 0, 0, 0, 2, 15, 30]
+      },
+      "crowd":      [35, 35, 40, 45, 52, 58, 62, 62, 55, 45, 38, 36],
+      "costTier": 3,
+      "r": {
+        "architecture": 96, "scenery": 92, "mountains": 88, "luxury": 92, "comfort": 92,
+        "foodScene": 96, "feasting": 92, "wine": 92, "libraries": 88, "magic": 92,
+        "wizards": 92, "healing": 78, "safety": 82, "soloFemaleSafety": 82,
+        "familyFriendly": 68, "seniors": 62, "hospitality": 68, "festivals": 72,
+        "music": 82, "romance": 82, "forests": 62, "rivers": 62, "hiking": 68,
+        "markets": 32, "shopping": 45, "history": 78, "artefacts": 68, "intrigue": 72,
+        "combat": 32, "commonTongue": 55, "stargazing": 78,
+        "gettingThere": 42, "gettingBack": 62
+      },
+      "photos": ["French chateau formal gardens", "Pyrenees mountain landscape", "Ice sculpture fountain", "Grand dining hall chateau", "Formal garden fountains France", "Chateau in the mountains"]
+    },
+    {
+      "id": "durmstrang", "name": "Durmstrang", "country": "HP", "region": "The Far North", "continent": "High Fantasy",
+      "type": "castle", "arch": "school-of-magic",
+      "blurb": "A castle of four floors somewhere with a great deal of snow, fires lit only for light and warmth, a black lake in front of it, and a ship that surfaces out of the lake when the school goes travelling.",
+      "about": "Durmstrang is characterised almost entirely by that ship coming up through the bottom of a lake, which is the best entrance in the series. Karkaroff is a coward and a former Death Eater who gave up names to save himself, and the school's habit of teaching curses rather than defence against them is treated by everyone as a continental eccentricity.",
+      "tags": ["the ship", "the dark arts", "karkaroff", "krum"],
+      "climate": {
+        "tempHigh": [-6, -5, -1, 4, 10, 15, 18, 16, 11, 4, -2, -5],
+        "tempLow":  [-15, -14, -10, -4, 2, 7, 10, 9, 4, -2, -9, -13],
+        "rainDays": [11, 10, 9, 8, 8, 8, 9, 10, 11, 12, 12, 12],
+        "sunHours": [1, 2, 4, 6, 8, 9, 8, 6, 4, 2, 1, 0],
+        "humidity": [84, 83, 81, 78, 74, 73, 74, 77, 81, 84, 86, 86],
+        "snowDepth": [95, 105, 90, 55, 15, 0, 0, 0, 2, 25, 60, 88]
+      },
+      "crowd":      [30, 30, 32, 36, 42, 48, 50, 48, 42, 34, 30, 30],
+      "costTier": 2,
+      "r": {
+        "architecture": 82, "mountains": 78, "forests": 72, "wilderness": 78,
+        "scenery": 88, "magic": 92, "wizards": 92, "libraries": 78, "combat": 88,
+        "questing": 72, "intrigue": 88, "sailing": 62, "coast": 55, "history": 72,
+        "artefacts": 62, "safety": 55, "lawAndOrder": 62, "soloFemaleSafety": 55,
+        "comfort": 45, "luxury": 32, "healing": 62, "hospitality": 42, "foodScene": 55,
+        "feasting": 68, "ale": 62, "familyFriendly": 32, "seniors": 32,
+        "stargazing": 88, "monsters": 55, "undead": 42, "commonTongue": 42,
+        "gettingThere": 25, "gettingBack": 45
+      },
+      "photos": ["Snowy castle in forest", "Northern lights over a castle", "Tall ship in dark water", "Frozen lake and pine trees", "Stone castle in winter snow", "Snowy fjord cliffs"]
+    },
+    {
+      "id": "godrics-hollow", "name": "Godric's Hollow", "country": "HP", "region": "The West Country", "continent": "High Fantasy",
+      "type": "village", "arch": "pastoral-idyll",
+      "blurb": "A village where wizards and Muggles have lived side by side for centuries: a green with a war memorial that changes while you look at it, a church, a graveyard full of famous names, and one ruined cottage nobody has repaired.",
+      "about": "The best chapter in Deathly Hallows is a walk around a village on Christmas Eve. Two graves, a memorial that turns into a statue of a family of three, and a house left standing as a monument with a signboard covered in scrawled messages. It is also where Bathilda Bagshot turns out not to be Bathilda Bagshot.",
+      "tags": ["the potters' cottage", "the graveyard", "christmas eve", "bathilda"],
+      "climate": {
+        "tempHigh": [8, 8, 11, 13, 17, 20, 22, 22, 19, 15, 11, 8],
+        "tempLow":  [2, 2, 3, 4, 7, 10, 12, 12, 10, 8, 5, 3],
+        "rainDays": [14, 11, 12, 11, 10, 10, 10, 11, 11, 13, 14, 15],
+        "sunHours": [2, 3, 4, 6, 7, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [88, 86, 82, 78, 76, 76, 76, 79, 82, 86, 88, 89]
+      },
+      "crowd":      [22, 22, 26, 32, 40, 48, 55, 55, 45, 34, 26, 38],
+      "costTier": 1,
+      "r": {
+        "localCulture": 92, "history": 92, "architecture": 72, "ruins": 62,
+        "temples": 68, "foodScene": 72, "feasting": 68, "ale": 78, "taverns": 82,
+        "festivals": 72, "music": 68, "hospitality": 82, "safety": 68,
+        "soloFemaleSafety": 68, "comfort": 68, "familyFriendly": 78, "seniors": 78,
+        "magic": 78, "wizards": 72, "prophecy": 82, "undead": 42, "monsters": 42,
+        "intrigue": 72, "plains": 55, "forests": 55, "scenery": 68, "wandering": 62,
+        "markets": 42, "shopping": 42, "libraries": 45, "commonTongue": 96,
+        "romance": 55, "gettingThere": 78, "gettingBack": 82
+      },
+      "photos": ["English village green and church", "Snowy village street at night", "Country churchyard gravestones", "Ruined cottage covered in ivy", "War memorial on village green", "Cotswold village houses"]
+    },
+    {
+      "id": "hogwarts-express", "name": "The Hogwarts Express", "country": "HP", "region": "Platform Nine and Three-Quarters", "continent": "High Fantasy",
+      "type": "vessel", "arch": "wonderland",
+      "blurb": "A scarlet steam engine leaving King's Cross at eleven o'clock sharp and running eight hours north through increasingly dramatic scenery, with a trolley, a compartment of your own and nothing else to do.",
+      "about": "The best-designed object in the series: a hard border between one life and the other, crossed twice a year, with the plot of each book set up in a compartment on the way. Rowling has admitted she is not sure why the platform is at King's Cross rather than Euston, beyond her parents having met on a train.",
+      "tags": ["platform nine and three-quarters", "the trolley", "the compartment", "scarlet engine"],
+      "climate": {
+        "tempHigh": [7, 7, 10, 13, 16, 19, 21, 20, 18, 14, 10, 7],
+        "tempLow":  [1, 1, 2, 4, 7, 10, 12, 12, 10, 7, 4, 2],
+        "rainDays": [15, 13, 13, 12, 12, 12, 13, 13, 13, 15, 16, 16],
+        "sunHours": [1, 2, 3, 5, 6, 6, 6, 5, 4, 3, 2, 1],
+        "humidity": [88, 86, 84, 80, 78, 79, 80, 82, 84, 87, 89, 89]
+      },
+      "crowd":      [30, 30, 32, 45, 30, 30, 28, 92, 88, 35, 30, 62],
+      "costTier": 2,
+      "r": {
+        "scenery": 92, "mountains": 68, "forests": 62, "rivers": 55, "coast": 45,
+        "foodScene": 62, "feasting": 55, "comfort": 72, "safety": 68,
+        "soloFemaleSafety": 68, "familyFriendly": 92, "seniors": 68, "fellowship": 92,
+        "magic": 82, "wizards": 72, "technology": 42, "intrigue": 68, "romance": 62,
+        "music": 45, "markets": 25, "shopping": 32, "libraries": 22, "history": 68,
+        "hospitality": 62, "wandering": 45, "stargazing": 42, "combat": 32,
+        "monsters": 32, "undead": 32, "commonTongue": 96, "luxury": 55,
+        "gettingThere": 88, "gettingBack": 88
+      },
+      "photos": ["Jacobite steam train Glenfinnan viaduct", "Steam locomotive red engine", "Vintage train compartment interior", "Railway station platform vintage", "Steam train through Highlands", "Station clock and platform"]
+    }
+  ]
+}

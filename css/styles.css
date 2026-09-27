@@ -472,8 +472,47 @@ a { color: var(--accent); }
 .card__actions { display: flex; gap: 7px; margin-top: auto; padding-top: 4px; }
 .card__actions .btn { flex: 1; padding: 8px 6px; font-size: 12.5px; }
 
+/* --- travel from + what you'll spend -------------------------------------- */
+
+.origin__row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+.origin__row .input { flex: 1 1 auto; min-width: 0; }
+.origin__row .btn { flex: 0 0 auto; white-space: nowrap; }
+.origin .select { width: 100%; }
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  font: inherit; color: var(--text);
+  background: var(--bg-elev);
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+.input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.block__note {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  font-size: .9rem; line-height: 1.45; color: var(--text-soft);
+  background: var(--bg-sunk);
+  border-left: 3px solid var(--line);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.money__tier { margin: 8px 0 0; font-size: .92rem; color: var(--text-soft); }
+.money__tier strong { color: var(--text); }
+
 .more { display: flex; justify-content: center; padding: 6px 0 12px; }
 .more .btn { flex: 0 1 320px; }
+
+/* Reveals the rest of one country's matches, inline in the results grid. */
+.moreIn {
+  grid-column: 1 / -1;
+  display: flex; align-items: center; gap: 10px;
+  padding: 2px 0 4px;
+}
+.moreIn::before, .moreIn::after {
+  content: ''; flex: 1 1 auto; height: 1px; background: var(--line-soft);
+}
+.moreIn .btn { flex: 0 0 auto; }
 
 /* --- score ring ----------------------------------------------------------- */
 

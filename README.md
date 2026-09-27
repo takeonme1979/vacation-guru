@@ -111,7 +111,7 @@ data/destinations/*.json the individual place — identity, climate, costs,
 data/destinations.json   flat runtime file the app actually loads
 ```
 
-Only `max`-kind criteria carry a stored rating (79 of the 88). The rest are computed
+Only `max`-kind criteria carry a stored rating (80 of the 89). The rest are computed
 at scoring time and **cannot** be overridden — `build-data.mjs` rejects the file if
 you try.
 
@@ -129,6 +129,8 @@ Add an object to any file in `data/destinations/` and run `npm run build`:
   "lat": 35.011, "lon": 135.768,
   "type": "city",
   "arch": "historic-city",             // must exist in archetypes.json
+  "transfer": 1.25,                    // optional: hours overland from the nearest
+                                       // well-connected airport (default ~45 min)
   "blurb": "One or two sentences with a real point of view.",
   "tags": ["temples", "food"],
   "climate": {                         // all arrays are Jan..Dec, length 12
@@ -246,7 +248,7 @@ js/
   util/               dom.js (hyperscript), storage.js
 data/
   worlds.json         the world registry — one entry per dataset
-  criteria.json       88 criteria in 9 categories, + 10 presets
+  criteria.json       89 criteria in 9 categories, + 12 presets
   archetypes.json     17 place-shape baselines
   countries.json      158 country context baselines
   origins.json        80 home airports for flight-time estimates
@@ -481,18 +483,18 @@ Two complete worlds, one engine.
 
 | | Real | Fiction |
 | --- | --- | --- |
-| Destinations | 558 | 143 |
-| Countries / universes | 156 | 47 |
-| Criteria | 88 (79 rated) | 78 (70 rated) |
-| Rated data points | 44,082 | 10,010 |
-| Photographs resolved | 3,293 | 757 |
+| Destinations | 602 | 347 |
+| Countries / universes | 156 | 63 |
+| Criteria | 89 (80 rated) | 79 (71 rated) |
+| Rated data points | 47,558 | 24,637 |
+| Photographs resolved | 3,612 | 2,076 |
 
-**558 destinations across 156 countries:**
+**602 destinations across 156 countries:**
 
 | Region | Destinations |
 | --- | --- |
-| Europe | 219 |
-| Asia | 107 |
+| Europe | 261 |
+| Asia | 109 |
 | North America | 68 |
 | Africa | 55 |
 | South America | 49 |
@@ -503,13 +505,28 @@ Europe is deliberately the deepest region for a UK-facing app, and covers 44
 countries — from the cities everyone knows to Gotland, Jersey, Sark, the Isle of
 Man, the Åland Islands, Heligoland and San Marino.
 
-510 of the 558 destinations carry a full six photographs and none has fewer than
-four; unresolved topics are dropped rather than drawn as filler.
+It runs deliberately past the first rank of each country, because the second is
+often the better trip: Bamberg, Nuremberg, Regensburg and Quedlinburg as well as
+Berlin and Munich; Salamanca and Cáceres as well as Madrid; Olomouc, Košice,
+Lublin, Sibiu and Zagori, which between them see a fraction of the visitors of
+the capitals an hour away.
 
-The fictional catalogue spans 47 universes — Middle-earth, Westeros, the Star
-Wars galaxy, the Federation, Arrakis, Discworld, Narnia, Hogwarts, Earthsea,
-Tamriel, Hyrule, Faerûn, Azeroth, the Culture, Trantor, Gallifrey, Barsoom,
-Wakanda, Panem, Neverland, Airstrip One and the rest — with every work credited
-behind the ⓘ button.
+Every one of the 602 real destinations carries a full six photographs; in fiction
+it is 346 of 347. Unresolved topics are drawn as captioned placeholders rather
+than filler.
+
+The fictional catalogue spans 63 universes — Middle-earth, Beleriand, Númenor,
+the Undying Lands, Westeros, the Star Wars galaxy, the Federation, Arrakis,
+Discworld, Narnia, Hogwarts, Earthsea, Tamriel, Hyrule, Faerûn, Azeroth, the
+Culture, Trantor, Gallifrey, Barsoom, Wakanda, Panem, Neverland, Airstrip One,
+the Twelve Colonies, the Babylon 5 sector, the Verse, the Stargate network,
+Flatland, faction Chicago, Jurassic Park, the future war, Red Dwarf and the rest — with every work credited behind the ⓘ
+button.
+
+Tolkien is the deepest of them, at 75 destinations across five settings: the
+Third Age of the novels, First Age Beleriand, Númenor, Aman, and the halls
+outside the world where the Ainur were sung into being. The two halves of the
+catalogue now balance — High Fantasy 149, Science Fiction 161 — which is what
+the last two expansions were for.
 
 Engine, UI, offline support, photo pipeline and tooling are complete.

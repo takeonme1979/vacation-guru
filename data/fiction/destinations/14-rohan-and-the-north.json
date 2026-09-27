@@ -1,0 +1,290 @@
+{
+  "_doc": "Rohan beyond Edoras and Helm's Deep, the country the Rohirrim came from, and the ruined North — Arnor, Angmar, the Barrow-downs and the ice at the top of the map. Most of this is background in the books and half of it is a footnote in the Appendices, which is exactly why it is worth visiting.",
+  "destinations": [
+    {
+      "id": "eotheod", "name": "The Éothéod", "country": "ME", "region": "The Upper Anduin", "continent": "High Fantasy",
+      "type": "region", "arch": "pastoral-idyll",
+      "blurb": "Where the Rohirrim were before they were the Rohirrim: horse country in the cold north between the mountains and Mirkwood, a hall at Framsburg, and a family grudge involving a dragon.",
+      "about": "The Éothéod moved north to the sources of Anduin around 1977 of the Third Age. Fram of that house killed the dragon Scatha and made a necklace of its teeth, which started a feud with the dwarves that outlived everyone involved. In 2510 Eorl the Young rode two thousand miles south to answer Gondor's call at the Field of Celebrant; Gondor gave him Calenardhon, and that is where Rohan comes from.",
+      "tags": ["eorl the young", "horse lords", "framsburg", "scatha"],
+      "climate": {
+        "tempHigh": [-3, -1, 4, 10, 16, 20, 22, 21, 17, 10, 3, -2],
+        "tempLow":  [-12, -11, -6, 0, 5, 9, 11, 10, 7, 2, -4, -10],
+        "rainDays": [10, 9, 9, 9, 10, 10, 9, 9, 9, 10, 11, 11],
+        "sunHours": [2, 3, 4, 6, 7, 8, 8, 7, 5, 3, 2, 1],
+        "humidity": [84, 82, 78, 73, 70, 70, 69, 71, 76, 82, 85, 86],
+        "snowDepth": [60, 65, 50, 20, 3, 0, 0, 0, 0, 6, 30, 55]
+      },
+      "crowd":      [10, 10, 14, 22, 32, 40, 45, 42, 34, 22, 14, 10],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 72,
+        "plains": 92, "beasts": 96, "wilderness": 82, "scenery": 82, "mountains": 68,
+        "forests": 55, "rivers": 82, "localCulture": 92, "hospitality": 88, "feasting": 82,
+        "ale": 82, "music": 82, "festivals": 68, "history": 88, "combat": 72,
+        "questing": 62, "dragons": 55, "hiking": 72, "wandering": 92, "fellowship": 82,
+        "stargazing": 88, "foodScene": 62, "taverns": 32, "warRisk": 45, "safety": 55,
+        "comfort": 42, "luxury": 15, "cities": 8, "markets": 25, "libraries": 8,
+        "magic": 12, "gettingThere": 25, "gettingBack": 55, "familyFriendly": 62, "seniors": 45
+      },
+      "photos": ["Wild horses herd steppe", "Mongolian grassland horses riders", "Braided river valley New Zealand", "Turf roofed house Iceland", "Snow covered grassland winter", "Grassland below mountains"]
+    },
+    {
+      "id": "aglarond", "name": "The Glittering Caves", "country": "ME", "region": "Rohan", "continent": "High Fantasy",
+      "type": "underground", "arch": "wonderland",
+      "blurb": "The most beautiful place in Middle-earth according to the only dwarf who ever saw it, and he was not sentimental about scenery. Bring a light, and someone to hold it.",
+      "about": "Gimli finds Aglarond behind Helm's Deep during the battle and afterwards cannot stop talking about it — a rare passage where a character simply describes beauty for its own sake, and the argument that finally gets Legolas into a cave. He came back after the war with a company out of Erebor, founded a colony, and ended his life Lord of the Glittering Caves.",
+      "tags": ["gimli", "crystal", "caverns", "colony"],
+      "climate": {
+        "tempHigh": [11, 11, 11, 12, 12, 13, 13, 13, 12, 12, 11, 11],
+        "tempLow":  [8, 8, 8, 9, 9, 10, 10, 10, 9, 9, 8, 8],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+      },
+      "crowd":      [22, 22, 26, 32, 40, 48, 52, 50, 42, 32, 24, 24],
+      "costTier": 2,
+      "r": {
+        "soloFemaleSafety": 72,
+        "underground": 100, "scenery": 98, "architecture": 78, "magic": 45, "artefacts": 55,
+        "history": 62, "climbing": 55, "romance": 78, "music": 72, "safety": 72,
+        "comfort": 55, "hospitality": 68, "familyFriendly": 62, "seniors": 55,
+        "foodScene": 55, "feasting": 62, "ale": 88, "taverns": 55, "festivals": 45,
+        "markets": 45, "shopping": 55, "libraries": 32, "cities": 45, "luxury": 62,
+        "monsters": 12, "combat": 25, "undead": 5, "wilderness": 15, "forests": 2,
+        "stargazing": 0, "timeStrange": 32, "wandering": 32, "warRisk": 55,
+        "gettingThere": 55, "gettingBack": 82
+      },
+      "photos": ["Crystal cave formations lit", "Luray Caverns Virginia", "Underground lake cave reflection", "Calcite crystal cavern", "Stalactite chamber illuminated", "Marble caves Chile Patagonia"]
+    },
+    {
+      "id": "dunharrow", "name": "Dunharrow & the Paths of the Dead", "country": "ME", "region": "Harrowdale", "continent": "High Fantasy",
+      "type": "underground", "arch": "underworld",
+      "blurb": "A cliff refuge reached by a switchback road lined with carved figures nobody can explain, and a door in the mountain that the horses will not go through. The dead do keep their oath, eventually.",
+      "about": "The Púkel-men on the stair were carved by a people already forgotten when the Rohirrim arrived, and Tolkien leaves them unexplained on purpose. Behind the Dimholt door the Paths run under the Ered Nimrais to the Stone of Erech, where Isildur's oathbreakers have been waiting three thousand years for someone with the right to call them.",
+      "tags": ["púkel-men", "the dimholt", "oathbreakers", "the muster"],
+      "climate": {
+        "tempHigh": [1, 3, 7, 12, 17, 21, 23, 22, 18, 12, 6, 2],
+        "tempLow":  [-7, -6, -2, 2, 6, 10, 12, 11, 8, 3, -1, -5],
+        "rainDays": [10, 9, 10, 9, 9, 8, 7, 8, 9, 11, 11, 11],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 7, 6, 4, 3, 2],
+        "humidity": [80, 78, 75, 72, 70, 69, 68, 70, 74, 79, 81, 82],
+        "snowDepth": [45, 42, 28, 10, 1, 0, 0, 0, 0, 4, 20, 38]
+      },
+      "crowd":      [12, 12, 16, 22, 28, 34, 38, 36, 30, 22, 16, 12],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 25,
+        "underground": 96, "undead": 98, "mountains": 88, "ruins": 82, "history": 88,
+        "prophecy": 92, "artefacts": 62, "questing": 92, "climbing": 68, "hiking": 72,
+        "scenery": 82, "combat": 68, "monsters": 45, "magic": 78, "timeStrange": 68,
+        "fellowship": 88, "stargazing": 72, "localCulture": 78, "wilderness": 78,
+        "safety": 12, "survivability": 22, "comfort": 15, "hospitality": 32, "healing": 15,
+        "foodScene": 18, "feasting": 32, "ale": 42, "taverns": 12, "luxury": 8,
+        "familyFriendly": 5, "seniors": 8, "gettingThere": 32, "gettingBack": 42, "warRisk": 25
+      },
+      "photos": ["Standing stones on moorland", "Weathered carved stone figure ancient", "Switchback mountain road cliff", "Cave entrance dark rock face", "Misty mountain valley New Zealand", "Passage tomb interior Newgrange"]
+    },
+    {
+      "id": "angmar", "name": "Angmar", "country": "ME", "region": "The Ettenmoors", "continent": "High Fantasy",
+      "type": "ruins", "arch": "dark-realm",
+      "blurb": "The Witch-king's own realm, six centuries of it, now a scatter of frozen ruins at Carn Dûm where nothing grows and the wind does all the talking.",
+      "about": "Angmar existed to destroy Arnor, and did, kingdom by kingdom, over six hundred years. It was broken at Fornost in 1975 by Gondor's fleet and the elves of Lindon, and its sorcerer-king rode away laughing — to Minas Ithil, and the head of the Nazgûl. The barrow-wights he sent south into the Downs are still there, which tells you how thoroughly the place was cleaned up.",
+      "tags": ["witch-king", "carn dûm", "ruins", "cold"],
+      "climate": {
+        "tempHigh": [-8, -6, -1, 5, 11, 16, 18, 17, 12, 5, -2, -6],
+        "tempLow":  [-18, -17, -12, -5, 1, 6, 8, 7, 3, -3, -10, -16],
+        "rainDays": [11, 10, 10, 9, 9, 9, 9, 9, 9, 11, 12, 12],
+        "sunHours": [1, 2, 3, 5, 6, 7, 7, 6, 4, 2, 1, 0],
+        "humidity": [82, 80, 78, 75, 73, 72, 71, 73, 77, 81, 83, 83],
+        "snowDepth": [110, 120, 105, 65, 25, 4, 0, 1, 10, 45, 85, 105]
+      },
+      "crowd":      [3, 3, 4, 6, 9, 12, 14, 13, 10, 6, 4, 3],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 2,
+        "ruins": 92, "mountains": 88, "wilderness": 92, "undead": 88, "monsters": 82,
+        "magic": 82, "history": 88, "artefacts": 62, "combat": 82, "questing": 88,
+        "prophecy": 68, "climbing": 68, "hiking": 62, "scenery": 62, "stargazing": 62,
+        "timeStrange": 32, "safety": 5, "survivability": 12, "comfort": 3, "healing": 3,
+        "hospitality": 2, "foodScene": 2, "feasting": 2, "vegetarian": 8, "taverns": 1,
+        "ale": 3, "wine": 1, "music": 2, "revels": 1, "familyFriendly": 0, "seniors": 1,
+        "luxury": 2, "cities": 8, "markets": 2, "shopping": 1, "libraries": 8,
+        "gettingThere": 18, "gettingBack": 32, "warRisk": 12, "lawAndOrder": 5
+      },
+      "photos": ["Ruined castle in snow mountains", "Broken stone walls winter", "Bleak moorland winter fog", "Arctic mountain landscape stark", "Ruined tower in mist", "Snow covered rocks highland"]
+    },
+    {
+      "id": "forochel", "name": "The Ice Bay of Forochel", "country": "ME", "region": "Forodwaith", "continent": "High Fantasy",
+      "type": "ice", "arch": "frozen-waste",
+      "blurb": "A frozen bay at the top of the world where the Lossoth live on the ice, eat what they catch, and tell visitors not to sail in winter. The last king of Arnor did not listen.",
+      "about": "Arvedui, last king of the North, sheltered here after Angmar broke Fornost, and went down with his ship in the ice — the palantíri of Annúminas and Amon Sûl are still on the bottom of that bay. The Snowmen of Forochel stayed out of every war in the Third Age and are still there at the end of the book, which in this legendarium counts as winning.",
+      "tags": ["lossoth", "sea ice", "arvedui", "snowmen"],
+      "climate": {
+        "tempHigh": [-14, -13, -8, -2, 4, 10, 13, 12, 7, 0, -7, -12],
+        "tempLow":  [-25, -25, -20, -12, -3, 3, 6, 5, 1, -6, -15, -22],
+        "rainDays": [9, 8, 8, 7, 7, 8, 8, 9, 10, 11, 10, 9],
+        "sunHours": [0, 2, 4, 6, 8, 9, 9, 7, 4, 2, 1, 0],
+        "humidity": [84, 83, 81, 79, 76, 75, 74, 77, 81, 85, 86, 85],
+        "snowDepth": [140, 160, 155, 120, 60, 8, 0, 0, 12, 55, 100, 130],
+        "seaTemp":  [-2, -2, -2, -1, 1, 4, 7, 8, 6, 3, 1, -1]
+      },
+      "crowd":      [4, 4, 5, 7, 10, 14, 16, 15, 11, 7, 5, 4],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 55,
+        "coast": 82, "islands": 42, "wilderness": 96, "scenery": 88, "stargazing": 96,
+        "beasts": 72, "hiking": 72, "adrenaline": 68, "sailing": 45, "seaMonsters": 32,
+        "localCulture": 82, "peoples": 45, "hospitality": 55, "history": 68, "artefacts": 55,
+        "music": 45, "festivals": 25, "feasting": 42, "foodScene": 32, "vegetarian": 3,
+        "survivability": 22, "safety": 42, "warRisk": 82, "lawAndOrder": 45, "comfort": 12,
+        "healing": 15, "ale": 12, "wine": 2, "taverns": 8, "markets": 12, "shopping": 8,
+        "cities": 2, "libraries": 3, "luxury": 5, "familyFriendly": 8, "seniors": 5,
+        "swimming": 2, "romance": 32, "soloTravel": 25, "wandering": 78,
+        "gettingThere": 8, "gettingBack": 25, "undead": 12, "monsters": 32, "magic": 22
+      },
+      "photos": ["Pack ice arctic bay winter", "Ice fishing hole arctic", "Frozen coastline ice floes", "Aurora borealis over snow", "Dog sled team snow", "Polar night blue twilight"]
+    },
+    {
+      "id": "weathertop", "name": "Weathertop", "country": "ME", "region": "Eriador", "continent": "High Fantasy",
+      "type": "ruins", "arch": "lost-world",
+      "blurb": "A bare hill with a broken ring of stone on top and a clear view of the road in both directions — which is exactly why everyone camps there, and exactly why they should not.",
+      "about": "Amon Sûl held the chief palantír of the North and was burned in the wars with Angmar. What is left is a crown of tumbled masonry and a hollow where Frodo is stabbed with a Morgul blade and starts dying slowly for the next fortnight. The point of the hill was always that you can see anyone coming; nobody ever mentions that they can see you.",
+      "tags": ["amon sûl", "watchtower", "the great east road", "morgul blade"],
+      "climate": {
+        "tempHigh": [4, 5, 8, 13, 17, 20, 22, 21, 18, 13, 8, 5],
+        "tempLow":  [-2, -2, 0, 3, 7, 10, 12, 12, 9, 5, 2, -1],
+        "rainDays": [12, 10, 11, 10, 9, 8, 8, 9, 9, 12, 13, 13],
+        "sunHours": [3, 3, 4, 6, 7, 8, 7, 7, 5, 4, 3, 2],
+        "humidity": [84, 82, 80, 77, 75, 75, 75, 77, 80, 84, 85, 86],
+        "snowDepth": [10, 8, 3, 0, 0, 0, 0, 0, 0, 0, 2, 7]
+      },
+      "crowd":      [18, 18, 22, 28, 34, 40, 44, 42, 36, 28, 20, 18],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 35,
+        "ruins": 88, "history": 88, "scenery": 72, "hiking": 68, "plains": 62,
+        "stargazing": 88, "wandering": 88, "questing": 78, "artefacts": 62, "prophecy": 55,
+        "undead": 62, "monsters": 62, "combat": 62, "magic": 42, "soloTravel": 45,
+        "fellowship": 82, "safety": 25, "survivability": 55, "comfort": 12, "hospitality": 8,
+        "foodScene": 8, "feasting": 5, "taverns": 2, "ale": 5, "cities": 0, "markets": 0,
+        "shopping": 0, "luxury": 2, "libraries": 8, "familyFriendly": 15, "seniors": 12,
+        "gettingThere": 68, "gettingBack": 62, "warRisk": 45, "lawAndOrder": 15
+      },
+      "photos": ["Ruined hilltop stone circle", "Bare hill ruins moorland", "Ancient hillfort earthworks aerial", "Broken masonry on hilltop", "Empty road across moorland", "Campfire at night hillside"]
+    },
+    {
+      "id": "fornost", "name": "Fornost & Annúminas", "country": "ME", "region": "Arnor", "continent": "High Fantasy",
+      "type": "ruins", "arch": "lost-world",
+      "blurb": "Two dead capitals of a kingdom nobody in the south remembers: a hill of grass-grown foundations, and a lake city with its towers still standing in the water.",
+      "about": "Arnor split, fell to Angmar and stopped being a country in 1974 of the Third Age. The astonishing thing is that its line never ended — the shabby Rangers you meet in the Bree taproom are its remnant, and one of them is the heir. Aragorn rebuilt Annúminas by Lake Evendim and made it a royal seat again, which is the payoff to a background detail a thousand pages old.",
+      "tags": ["arnor", "lake evendim", "rangers", "dead kingdom"],
+      "climate": {
+        "tempHigh": [4, 5, 9, 13, 18, 21, 23, 22, 18, 13, 8, 4],
+        "tempLow":  [-3, -3, -1, 3, 6, 10, 12, 11, 9, 5, 1, -2],
+        "rainDays": [12, 10, 11, 10, 10, 9, 9, 10, 10, 12, 13, 13],
+        "sunHours": [2, 3, 4, 6, 7, 8, 7, 7, 5, 3, 2, 1],
+        "humidity": [86, 84, 82, 79, 77, 77, 77, 79, 82, 85, 87, 87],
+        "snowDepth": [18, 16, 8, 1, 0, 0, 0, 0, 0, 0, 4, 12]
+      },
+      "crowd":      [10, 10, 14, 20, 26, 32, 35, 34, 28, 20, 14, 10],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 38,
+        "ruins": 96, "history": 92, "architecture": 68, "plains": 62, "rivers": 72,
+        "scenery": 78, "stargazing": 82, "wandering": 82, "artefacts": 68, "prophecy": 62,
+        "libraries": 32, "undead": 42, "monsters": 45, "combat": 42, "questing": 72,
+        "magic": 32, "swimming": 42, "sailing": 45, "coast": 32, "soloTravel": 48,
+        "safety": 42, "survivability": 62, "comfort": 15, "hospitality": 12, "foodScene": 10,
+        "feasting": 8, "taverns": 3, "ale": 8, "cities": 12, "markets": 3, "luxury": 5,
+        "familyFriendly": 25, "seniors": 22, "gettingThere": 55, "gettingBack": 68,
+        "warRisk": 55, "lawAndOrder": 18
+      },
+      "photos": ["Grass covered ruined foundations", "Ruined lakeside castle water", "Overgrown ruins in grassland", "Lake and hills still water England", "Ancient grass mounds earthwork", "Ruined stone walls meadow"]
+    },
+    {
+      "id": "old-forest", "name": "The Old Forest", "country": "ME", "region": "The Withywindle", "continent": "High Fantasy",
+      "type": "forest", "arch": "wonderland",
+      "blurb": "A wood that moves its paths while you are walking them, a river that sings you to sleep, and a man in yellow boots older than all of it who sings back. Nothing here is on your side except him.",
+      "about": "Tom Bombadil has no explanation and Tolkien refused to supply one: he is Eldest, the Ring does nothing to him, and he is completely uninterested in the war. His wood is the oldest thing left in Eriador and it holds a grudge against anyone carrying an axe, which given the history is not unreasonable. The barrow-blades the hobbits are armed with come out of his house.",
+      "tags": ["tom bombadil", "old man willow", "paths that move", "goldberry"],
+      "climate": {
+        "tempHigh": [6, 7, 10, 14, 18, 21, 23, 22, 19, 14, 9, 6],
+        "tempLow":  [1, 1, 3, 5, 8, 11, 13, 13, 11, 7, 4, 2],
+        "rainDays": [14, 12, 13, 12, 11, 10, 10, 11, 11, 14, 15, 15],
+        "sunHours": [1, 2, 3, 4, 5, 6, 6, 5, 4, 2, 1, 1],
+        "humidity": [92, 90, 88, 86, 85, 85, 85, 87, 89, 91, 93, 93]
+      },
+      "crowd":      [5, 5, 7, 10, 14, 18, 20, 18, 15, 10, 7, 5],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 62,
+        "forests": 100, "timeStrange": 92, "magic": 88, "music": 96, "wilderness": 82,
+        "rivers": 88, "scenery": 82, "beasts": 78, "history": 92, "prophecy": 55,
+        "hospitality": 78, "healing": 72, "foodScene": 72, "vegetarian": 92, "feasting": 68,
+        "comfort": 55, "safety": 25, "survivability": 55, "monsters": 62, "combat": 25,
+        "undead": 22, "artefacts": 62, "hiking": 55, "wandering": 42, "romance": 62,
+        "revels": 45, "stargazing": 25, "localCulture": 55, "commonTongue": 88,
+        "gettingThere": 32, "gettingBack": 42, "cities": 0, "markets": 0, "taverns": 5,
+        "ale": 32, "gambling": 0, "shopping": 0, "luxury": 12, "familyFriendly": 32,
+        "seniors": 25, "libraries": 12
+      },
+      "photos": ["Ancient oak tree trunk", "Overgrown forest path brambles", "Weeping willow by river", "Mossy forest stream sunlight", "Foggy woodland floor autumn", "Water lilies on still river"]
+    },
+    {
+      "id": "barrow-downs", "name": "The Barrow-downs", "country": "ME", "region": "Eriador", "continent": "High Fantasy",
+      "type": "highland", "arch": "underworld",
+      "blurb": "Green hills, standing stones, a fog that arrives on schedule, and a great deal of gold in the ground with something cold sitting on it. Do not lie down against a stone.",
+      "about": "The mounds are graves of the Dúnedain of Cardolan, and the wights in them were sent by Angmar to spoil the dead. The hobbits are robbed, buried and rescued here — and leave with daggers out of the hoard, one of which turns out to be the only blade in the West that can hurt the Witch-king. The whole detour looks like a digression and quietly wins the war.",
+      "tags": ["barrow-wights", "fog", "grave goods", "cardolan"],
+      "climate": {
+        "tempHigh": [6, 7, 10, 14, 18, 21, 23, 22, 19, 14, 9, 6],
+        "tempLow":  [0, 0, 2, 4, 7, 10, 12, 12, 10, 6, 3, 1],
+        "rainDays": [13, 11, 12, 11, 10, 9, 9, 10, 10, 13, 14, 14],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [90, 88, 86, 84, 82, 81, 81, 84, 87, 90, 91, 91]
+      },
+      "crowd":      [6, 6, 8, 12, 16, 20, 22, 20, 17, 12, 8, 6],
+      "costTier": 1,
+      "r": {
+        "soloFemaleSafety": 8,
+        "undead": 96, "ruins": 82, "plains": 72, "history": 88, "artefacts": 92,
+        "prophecy": 55, "magic": 78, "monsters": 78, "combat": 55, "questing": 72,
+        "timeStrange": 55, "stargazing": 68, "scenery": 62, "hiking": 62, "wandering": 68,
+        "underground": 82, "safety": 12, "survivability": 32, "comfort": 8, "hospitality": 5,
+        "healing": 8, "foodScene": 5, "feasting": 3, "taverns": 0, "ale": 2, "cities": 0,
+        "markets": 0, "shopping": 2, "luxury": 5, "familyFriendly": 5, "seniors": 8,
+        "libraries": 5, "gettingThere": 55, "gettingBack": 45, "warRisk": 55, "lawAndOrder": 8
+      },
+      "photos": ["Neolithic burial mound grass", "Standing stones in fog", "Chalk downland rolling hills", "Fog over green hills dawn", "Ancient stone tomb entrance passage", "Bronze age gold torc jewellery"]
+    },
+    {
+      "id": "ered-luin", "name": "The Blue Mountains", "country": "ME", "region": "Ered Luin", "continent": "High Fantasy",
+      "type": "mountains", "arch": "high-city",
+      "blurb": "The dwarf-halls of the west: working mines, honest smiths, and the address Thorin Oakenshield used for a century and a half while he waited to get his mountain back. Cheaper than Erebor and half as smug.",
+      "about": "Nogrod and Belegost stood in this range in the First Age — the dwarves who carved Menegroth and set the Silmaril in the Nauglamír — and both were ruined when the sea broke Beleriand. The Longbeards resettled the mountains in exile after Smaug took Erebor, and it is from a house here that Thorin sets out for Bag End and the worst-planned expedition in fiction.",
+      "tags": ["thorin", "smiths", "mines", "exile"],
+      "climate": {
+        "tempHigh": [1, 2, 5, 9, 14, 17, 19, 19, 16, 11, 6, 2],
+        "tempLow":  [-6, -6, -3, 1, 5, 9, 11, 11, 8, 4, 0, -4],
+        "rainDays": [14, 12, 13, 12, 11, 10, 10, 11, 11, 14, 15, 15],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 6, 5, 3, 2, 1],
+        "humidity": [85, 83, 81, 79, 78, 78, 78, 80, 82, 85, 86, 86],
+        "snowDepth": [50, 48, 32, 10, 1, 0, 0, 0, 0, 3, 18, 40]
+      },
+      "crowd":      [32, 32, 36, 42, 50, 58, 62, 60, 52, 42, 34, 34],
+      "costTier": 2,
+      "r": {
+        "soloFemaleSafety": 68,
+        "mountains": 96, "underground": 92, "forests": 45, "architecture": 78, "cities": 62,
+        "markets": 72, "shopping": 78, "artefacts": 82, "history": 88, "ale": 88,
+        "feasting": 82, "taverns": 78, "foodScene": 62, "music": 68, "festivals": 62,
+        "hospitality": 62, "comfort": 62, "safety": 68, "lawAndOrder": 78, "climbing": 78,
+        "hiking": 78, "scenery": 78, "coast": 42, "wilderness": 55, "luxury": 55,
+        "libraries": 45, "magic": 22, "monsters": 25, "combat": 45, "stargazing": 62,
+        "vegetarian": 25, "gettingThere": 48, "gettingBack": 72, "familyFriendly": 48, "seniors": 42
+      },
+      "photos": ["Blue mountain range distant haze", "Mine entrance timber headframe", "Blacksmith hammering hot iron anvil", "Mountain valley pine forest snow", "Carved stone pillars great hall", "Underground mine tunnel rails"]
+    }
+  ]
+}

@@ -30,6 +30,7 @@
         "luxury": 420
       },
       "r": {
+        "oldTown": 30,
         "scenery": 90, "mountains": 86, "forests": 90, "hiking": 88, "skiing": 78,
         "kayaking": 88, "sailing": 82, "cycling": 88, "nationalParks": 84, "wildlife": 80,
         "foodScene": 92, "streetFood": 78, "markets": 84, "coffee": 86, "beer": 88,
@@ -56,6 +57,7 @@
       "lon": -115.571,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 1.5,
       "blurb": "Glacier-fed lakes an unreal shade of turquoise beneath the Canadian Rockies, with the Icefields Parkway running north to Jasper.",
       "tags": ["lakes", "rockies", "skiing", "wildlife"],
       "climate": {
@@ -100,6 +102,7 @@
       "lon": -122.955,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 2,
       "blurb": "North America's largest ski area across two mountains joined by a record-breaking gondola — and the continent's best bike park in summer.",
       "tags": ["skiing", "mountain biking", "olympics", "village"],
       "climate": {
@@ -162,6 +165,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 20,
         "foodScene": 94, "streetFood": 84, "markets": 86, "museums": 86, "artScene": 86,
         "theatre": 88, "liveMusic": 86, "festivals": 88, "localCulture": 88, "shopping": 86,
         "bars": 84, "clubbing": 84, "lgbtqScene": 92, "sports": 88, "architecture": 74,
@@ -206,6 +210,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 70,
         "festivals": 96, "foodScene": 94, "fineDining": 90, "streetFood": 82, "markets": 86,
         "liveMusic": 92, "theatre": 84, "artScene": 88, "museums": 84, "architecture": 86,
         "historicSites": 82, "localCulture": 92, "bars": 88, "clubbing": 88, "lgbtqScene": 92,
@@ -250,6 +255,7 @@
         "luxury": 360
       },
       "r": {
+        "oldTown": 94,
         "historicSites": 96, "architecture": 94, "localCulture": 92, "walkability": 94,
         "festivals": 88, "foodScene": 86, "fineDining": 84, "museums": 76, "romance": 92,
         "skiing": 72, "lakesRivers": 74, "scenery": 74, "hiking": 62, "cycling": 72,
@@ -276,6 +282,7 @@
       "lon": -56.0,
       "type": "region",
       "arch": "wilderness-park",
+      "transfer": 1.5,
       "blurb": "Icebergs drifting past fishing outports, whales in the bays, Gros Morne's fjords and the only confirmed Viking site in North America.",
       "tags": ["icebergs", "whales", "fjords", "vikings"],
       "climate": {
@@ -338,6 +345,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 72,
         "streetFood": 100, "foodScene": 98, "fineDining": 92, "markets": 94, "museums": 98,
         "artScene": 94, "historicSites": 94, "architecture": 90, "religiousSites": 82,
         "localCulture": 96, "festivals": 92, "bars": 90, "clubbing": 88, "liveMusic": 86,
@@ -426,6 +434,7 @@
         "luxury": 210
       },
       "r": {
+        "oldTown": 90,
         "foodScene": 100, "streetFood": 96, "markets": 98, "localCulture": 100, "festivals": 98,
         "historicSites": 90, "architecture": 88, "artScene": 90, "museums": 76, "shopping": 88,
         "religiousSites": 80, "walkability": 88, "bars": 80, "valueForMoney": 96,
@@ -469,6 +478,7 @@
         "luxury": 220
       },
       "r": {
+        "oldTown": 82,
         "historicSites": 96, "architecture": 90, "localCulture": 92, "markets": 88,
         "foodScene": 90, "streetFood": 88, "museums": 78, "festivals": 84, "lakesRivers": 88,
         "wildlife": 80, "swimming": 78, "walkability": 84, "religiousSites": 78,
@@ -583,6 +593,7 @@
       "lon": -83.753,
       "type": "region",
       "arch": "jungle-eco",
+      "transfer": 2,
       "blurb": "Five percent of the planet's biodiversity in a country the size of Wales — volcanoes, cloud forest, two coastlines and no army since 1948.",
       "tags": ["wildlife", "volcanoes", "zip lines", "eco"],
       "climate": {
@@ -627,6 +638,7 @@
       "lon": -88.497,
       "type": "region",
       "arch": "tropical-island",
+      "transfer": 1,
       "blurb": "The Great Blue Hole and the Caribbean's longest barrier reef, Maya temples in the jungle, and everyone speaks English.",
       "tags": ["blue hole", "reef", "maya", "english"],
       "climate": {
@@ -671,6 +683,7 @@
       "lon": -90.734,
       "type": "region",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "A pastel colonial town ringed by three volcanoes, with Lake Atitlán's Maya villages and the jungle temples of Tikal to the north.",
       "tags": ["volcanoes", "colonial", "maya", "lake"],
       "climate": {
@@ -688,6 +701,7 @@
         "luxury": 190
       },
       "r": {
+        "oldTown": 95,
         "volcanic": 96, "historicSites": 92, "architecture": 92, "localCulture": 96,
         "markets": 92, "scenery": 90, "lakesRivers": 90, "hiking": 88, "adrenaline": 84,
         "coffee": 96, "festivals": 92, "religiousSites": 86, "walkability": 88, "artScene": 80,
@@ -732,6 +746,7 @@
         "luxury": 270
       },
       "r": {
+        "oldTown": 75,
         "islands": 92, "beaches": 86, "swimming": 84, "snorkelling": 84, "scuba": 84,
         "surfing": 84, "forests": 92, "wildlife": 90, "nationalParks": 84, "historicSites": 84,
         "architecture": 82, "sailing": 82, "kayaking": 80, "foodScene": 82, "markets": 78,

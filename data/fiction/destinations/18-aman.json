@@ -1,0 +1,261 @@
+{
+  "_doc": "Aman, the Undying Lands — where the Ainur who entered the world came to live after Almaren was ruined, and where the elves sail to at the end. Reachable only by the Straight Road, and only if you are allowed. Photo topics stand in for places that are, by design, described from a distance and never shown.",
+  "destinations": [
+    {
+      "id": "valimar", "name": "Valimar", "country": "AMAN", "region": "Valinor", "continent": "High Fantasy",
+      "type": "city", "arch": "utopia",
+      "blurb": "The city of the Valar: bells, golden streets, and the powers of the world keeping house and holding council. Nobody who has been there has ever managed to describe it without going quiet.",
+      "about": "Valimar stands on the plain beyond the Pelóri, with the Two Trees outside its western gate and the halls of Manwë above it on Taniquetil. Galadriel's lament in Lothlórien is homesickness for this specific city — who now shall refill the cup for me? — and the whole grief of the Noldor is that they left it and cannot get back. The bells of Valimar are the last thing in her song.",
+      "tags": ["the valar", "bells", "the ring of doom", "galadriel's lament"],
+      "climate": {
+        "tempHigh": [18, 19, 20, 22, 24, 26, 27, 27, 25, 22, 20, 18],
+        "tempLow":  [10, 10, 11, 13, 15, 17, 18, 18, 17, 14, 12, 10],
+        "rainDays": [6, 5, 5, 4, 3, 2, 1, 1, 3, 5, 6, 7],
+        "sunHours": [8, 9, 10, 11, 12, 13, 13, 12, 11, 10, 9, 8],
+        "humidity": [64, 63, 62, 60, 58, 55, 53, 54, 58, 62, 64, 65]
+      },
+      "crowd":      [45, 45, 48, 52, 56, 60, 62, 62, 58, 52, 48, 45],
+      "costTier": 3,
+      "r": {
+        "cities": 96, "architecture": 100, "festivals": 92, "music": 100, "foodScene": 88,
+        "feasting": 92, "wine": 96, "luxury": 92, "comfort": 96, "healing": 100,
+        "safety": 100, "lawAndOrder": 100, "warRisk": 92, "hospitality": 82, "libraries": 96,
+        "history": 100, "artefacts": 92, "temples": 88, "magic": 100, "wizards": 100,
+        "prophecy": 100, "timeStrange": 96, "romance": 82, "familyFriendly": 88, "seniors": 92,
+        "soloFemaleSafety": 100, "markets": 45, "shopping": 42, "taverns": 42, "revels": 78,
+        "gambling": 5, "stargazing": 88, "scenery": 96, "vegetarian": 96, "survivability": 96,
+        "intrigue": 42, "combat": 5, "monsters": 2, "undead": 5, "technology": 55,
+        "peoples": 45, "commonTongue": 25, "gettingThere": 3, "gettingBack": 4
+      },
+      "photos": ["Golden city skyline sunrise", "Bell tower golden light", "White domed city aerial", "Golden mosaic basilica interior", "Grand marble hall columns", "City in golden light at dusk"]
+    },
+    {
+      "id": "tirion", "name": "Tirion upon Túna", "country": "AMAN", "region": "The Calacirya", "continent": "High Fantasy",
+      "type": "city", "arch": "high-city",
+      "blurb": "A white city on a green hill in a mountain pass, with a silver lamp on a tower that can be seen from the sea. Built by the Noldor, half-emptied by them in a single night, and still lit.",
+      "about": "Tirion is where Fëanor made the Silmarils and gave the speech that took a third of his people out of Aman for good. Finarfin turned back at the shore and rules what is left. Everything the Noldor do in Middle-earth over the next six centuries is an attempt to justify having walked out of this city, and most of them never see it again.",
+      "tags": ["noldor", "fëanor", "mindon eldaliéva", "the departure"],
+      "climate": {
+        "tempHigh": [16, 16, 18, 20, 22, 25, 26, 26, 24, 21, 18, 16],
+        "tempLow":  [9, 9, 10, 12, 14, 16, 18, 18, 16, 14, 11, 9],
+        "rainDays": [7, 6, 6, 5, 4, 2, 2, 2, 4, 6, 7, 8],
+        "sunHours": [7, 8, 9, 10, 12, 13, 13, 12, 11, 9, 8, 7],
+        "humidity": [70, 69, 68, 66, 64, 61, 59, 60, 64, 68, 70, 71]
+      },
+      "crowd":      [48, 48, 52, 56, 62, 66, 68, 68, 64, 58, 52, 48],
+      "costTier": 3,
+      "r": {
+        "cities": 96, "architecture": 100, "scenery": 96, "mountains": 78, "history": 100,
+        "artefacts": 100, "libraries": 100, "music": 96, "markets": 62, "shopping": 62,
+        "foodScene": 85, "feasting": 82, "wine": 92, "luxury": 92, "comfort": 92,
+        "healing": 92, "safety": 92, "lawAndOrder": 92, "intrigue": 82, "prophecy": 92,
+        "magic": 92, "wizards": 78, "timeStrange": 88, "romance": 78, "familyFriendly": 78,
+        "seniors": 82, "soloFemaleSafety": 96, "coast": 55, "sailing": 62, "stargazing": 92,
+        "festivals": 82, "taverns": 45, "revels": 62, "warRisk": 82, "technology": 72,
+        "combat": 42, "undead": 5, "monsters": 5, "commonTongue": 28,
+        "gettingThere": 5, "gettingBack": 8
+      },
+      "photos": ["White city on hilltop tower", "Hill town in mountain pass", "Lamp tower at night", "White marble city stairs", "Hill town at sunset Italy", "Green hill white buildings"]
+    },
+    {
+      "id": "taniquetil", "name": "Taniquetil", "country": "AMAN", "region": "The Pelóri", "continent": "High Fantasy",
+      "type": "mountains", "arch": "frozen-waste",
+      "blurb": "The highest mountain in the world with the halls of Manwë on top of it — above the air, above the cloud, above the weather. The view is literally everything there is. It is also thirty below, and you were not invited.",
+      "about": "From Ilmarin at the summit, Manwë and Varda can see the whole of Arda, and it was here that Varda made the stars. One mortal has ever reached those halls: Eärendil, arriving with a Silmaril bound to his brow to beg the Valar to intervene in the war. They did, and it ended the First Age and drowned a subcontinent doing it.",
+      "tags": ["manwë", "varda", "ilmarin", "eärendil"],
+      "climate": {
+        "tempHigh": [-20, -20, -18, -14, -9, -5, -3, -4, -8, -13, -17, -19],
+        "tempLow":  [-34, -34, -31, -26, -20, -15, -13, -14, -19, -25, -30, -33],
+        "rainDays": [4, 4, 4, 3, 3, 2, 2, 2, 3, 4, 4, 4],
+        "sunHours": [10, 10, 11, 12, 13, 14, 14, 13, 12, 11, 10, 10],
+        "humidity": [40, 40, 38, 36, 34, 32, 30, 32, 35, 38, 40, 40],
+        "snowDepth": [400, 410, 415, 405, 380, 350, 330, 335, 360, 385, 400, 405]
+      },
+      "crowd":      [4, 4, 5, 6, 8, 10, 12, 11, 8, 6, 5, 4],
+      "costTier": 1,
+      "r": {
+        "mountains": 100, "climbing": 96, "scenery": 100, "stargazing": 100, "wilderness": 88,
+        "temples": 92, "magic": 100, "wizards": 100, "prophecy": 100, "timeStrange": 92,
+        "history": 100, "artefacts": 78, "beasts": 78, "adrenaline": 78, "hiking": 72,
+        "music": 92, "safety": 45, "survivability": 25, "comfort": 15, "healing": 88,
+        "hospitality": 32, "foodScene": 8, "feasting": 12, "vegetarian": 88, "ale": 2,
+        "wine": 12, "taverns": 0, "cities": 8, "markets": 0, "shopping": 0, "luxury": 25,
+        "libraries": 62, "familyFriendly": 5, "seniors": 8, "soloFemaleSafety": 88,
+        "romance": 55, "wandering": 32, "combat": 5, "monsters": 2, "undead": 2,
+        "commonTongue": 22, "gettingThere": 1, "gettingBack": 5
+      },
+      "photos": ["Snow peak above the clouds", "Mountain summit sunrise clouds", "Eagle above snowy peaks", "Highest peak thin air snow", "Sea of cloud below summit", "Alpine summit ice ridge"]
+    },
+    {
+      "id": "ezellohar", "name": "Ezellohar", "country": "AMAN", "region": "Valinor", "continent": "High Fantasy",
+      "type": "garden", "arch": "wonderland",
+      "blurb": "A green mound outside Valimar with two trees on it, one silver and one gold, whose light is the light everything else in the world is a copy of. Best visited before the spider arrives.",
+      "about": "Telperion and Laurelin lit Aman for millennia in alternating shifts, mingling for an hour twice a day. That light is what Fëanor caught in the Silmarils, which is why Morgoth wanted them and why he came with Ungoliant and drank the Trees dry. The last flower and the last fruit became the Moon and the Sun; everything luminous in Tolkien afterwards is a fragment of this hill.",
+      "tags": ["telperion", "laurelin", "the light", "ungoliant"],
+      "climate": {
+        "tempHigh": [19, 19, 20, 22, 24, 26, 27, 27, 25, 23, 20, 19],
+        "tempLow":  [12, 12, 12, 14, 16, 18, 19, 19, 18, 16, 13, 12],
+        "rainDays": [5, 5, 4, 4, 3, 2, 1, 1, 2, 4, 5, 6],
+        "sunHours": [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "humidity": [62, 62, 61, 60, 58, 56, 54, 55, 58, 60, 62, 62]
+      },
+      "crowd":      [35, 35, 38, 42, 46, 50, 52, 52, 48, 42, 38, 35],
+      "costTier": 2,
+      "r": {
+        "scenery": 100, "forests": 62, "magic": 100, "timeStrange": 92, "prophecy": 96,
+        "history": 100, "artefacts": 100, "music": 96, "healing": 96, "romance": 92,
+        "safety": 92, "comfort": 82, "luxury": 78, "festivals": 88, "foodScene": 62,
+        "vegetarian": 96, "stargazing": 25, "wizards": 96, "temples": 82, "libraries": 45,
+        "soloFemaleSafety": 96, "familyFriendly": 82, "seniors": 88, "hospitality": 72,
+        "cities": 42, "markets": 12, "taverns": 8, "combat": 5, "monsters": 12,
+        "undead": 2, "beasts": 62, "peoples": 42, "wandering": 25, "commonTongue": 25,
+        "gettingThere": 2, "gettingBack": 5
+      },
+      "photos": ["Golden tree in autumn sunlight", "Birch trunks white bark forest", "Blossom tree in low sun", "Sunlit canopy golden leaves", "Old tree silhouette sunset", "Two trees on green mound"]
+    },
+    {
+      "id": "halls-of-mandos", "name": "The Halls of Mandos", "country": "AMAN", "region": "The Shores of the Outer Sea", "continent": "High Fantasy",
+      "type": "underworld", "arch": "underworld",
+      "blurb": "The houses of the dead: grey halls filling steadily with tapestries of everything that has ever happened, where the elves wait to be released and Men do not stay. Nobody arrives here on purpose.",
+      "about": "Námo speaks twice in the whole legendarium and both times it is a doom nobody escapes. Lúthien is the one exception: she sang her way through these halls, moved him to pity for the first and only time, and got Beren back on condition of becoming mortal herself. The tapestries are woven by Vairë, and they are still being added to.",
+      "tags": ["námo", "the houses of the dead", "lúthien", "the tapestries"],
+      "climate": {
+        "tempHigh": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "tempLow":  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60]
+      },
+      "crowd":      [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88],
+      "costTier": 1,
+      "r": {
+        "underground": 96, "undead": 78, "architecture": 92, "history": 100, "timeStrange": 100,
+        "prophecy": 100, "magic": 96, "music": 92, "libraries": 78, "artefacts": 55,
+        "ruins": 12, "safety": 55, "survivability": 8, "gettingBack": 2, "gettingThere": 6,
+        "comfort": 25, "healing": 62, "hospitality": 25, "foodScene": 0, "feasting": 0,
+        "vegetarian": 25, "ale": 0, "wine": 0, "taverns": 0, "revels": 0, "festivals": 0,
+        "markets": 0, "shopping": 0, "cities": 12, "luxury": 22, "familyFriendly": 2,
+        "seniors": 12, "soloFemaleSafety": 82, "romance": 62, "stargazing": 0, "scenery": 55,
+        "combat": 2, "monsters": 5, "dragons": 0, "wizards": 92, "coast": 42,
+        "peoples": 55, "commonTongue": 22
+      },
+      "photos": ["Empty stone hall columns", "Grey vaulted stone hall", "Medieval tapestry in long hall", "Cathedral nave interior", "Long stone colonnade shadows", "Great hall interior stone"]
+    },
+    {
+      "id": "gardens-of-lorien", "name": "The Gardens of Lórien", "country": "AMAN", "region": "Valinor", "continent": "High Fantasy",
+      "type": "garden", "arch": "wonderland",
+      "blurb": "Fountains, dim islands, drifting mist and the deepest sleep available anywhere in creation, kept by the Vala of dreams and his wife, who cures weariness. Purely a rest cure, and the best one there is.",
+      "about": "Irmo's gardens are where the Valar themselves go to be soothed, and where Melian danced before she went to Middle-earth and married a king. Estë sleeps by day on the island in the lake of Lórellin and heals hurts of the spirit rather than the body. The elves borrowed the name for the Golden Wood, which is why time behaves strangely in both places.",
+      "tags": ["irmo", "estë", "lórellin", "dreams"],
+      "climate": {
+        "tempHigh": [16, 16, 17, 18, 19, 20, 21, 21, 20, 18, 17, 16],
+        "tempLow":  [11, 11, 11, 12, 13, 14, 15, 15, 14, 13, 12, 11],
+        "rainDays": [8, 8, 7, 7, 6, 5, 5, 5, 6, 7, 8, 8],
+        "sunHours": [2, 2, 3, 3, 3, 4, 4, 4, 3, 3, 2, 2],
+        "humidity": [86, 86, 85, 84, 83, 82, 81, 82, 84, 85, 86, 86]
+      },
+      "crowd":      [15, 15, 16, 18, 20, 22, 24, 24, 21, 18, 16, 15],
+      "costTier": 2,
+      "r": {
+        "scenery": 96, "healing": 100, "comfort": 96, "safety": 96, "romance": 88,
+        "music": 92, "timeStrange": 96, "magic": 96, "forests": 78, "rivers": 92,
+        "wilderness": 25, "vegetarian": 96, "foodScene": 62, "hospitality": 82, "luxury": 78,
+        "seniors": 96, "familyFriendly": 72, "soloFemaleSafety": 96, "prophecy": 92,
+        "stargazing": 78, "libraries": 32, "history": 88, "artefacts": 42, "wizards": 92,
+        "temples": 55, "cities": 5, "markets": 2, "shopping": 0, "taverns": 2, "ale": 0,
+        "revels": 12, "festivals": 25, "gambling": 0, "combat": 0, "monsters": 2,
+        "undead": 5, "adrenaline": 2, "questing": 5, "wandering": 32, "commonTongue": 25,
+        "gettingThere": 3, "gettingBack": 8
+      },
+      "photos": ["Garden fountain in mist", "Water lily pond garden", "Fountain in mist garden", "Island in still lake mist", "Willow over pond twilight", "Formal garden fountains dusk"]
+    },
+    {
+      "id": "alqualonde", "name": "Alqualondë", "country": "AMAN", "region": "The Bay of Eldamar", "continent": "High Fantasy",
+      "type": "coast", "arch": "island-kingdom",
+      "blurb": "The Swanhaven: a harbour of pearl and lamplit arches, swan-prowed ships, and the finest mariners in the world. The quays remember the one night the Noldor came down and took the ships by force.",
+      "about": "The Teleri built Alqualondë out of pearl the Noldor gave them, and it is where the Kinslaying happened — elves killing elves on the quays over boats. That is the crime the Doom of Mandos hangs on, and the reason the war in Beleriand goes the way it does. The Teleri afterwards would not lend a ship to anybody for an age, and they were entitled.",
+      "tags": ["teleri", "swan ships", "pearl", "the kinslaying"],
+      "climate": {
+        "tempHigh": [17, 17, 18, 19, 21, 23, 25, 25, 23, 21, 19, 18],
+        "tempLow":  [11, 11, 12, 13, 15, 17, 18, 18, 17, 15, 13, 12],
+        "rainDays": [5, 5, 4, 3, 2, 1, 1, 1, 2, 4, 5, 6],
+        "sunHours": [8, 9, 10, 11, 12, 13, 13, 12, 11, 9, 8, 7],
+        "humidity": [72, 71, 70, 69, 68, 66, 65, 66, 68, 70, 72, 72],
+        "seaTemp":  [16, 15, 16, 17, 19, 21, 23, 23, 22, 20, 18, 17]
+      },
+      "crowd":      [50, 50, 54, 60, 66, 72, 75, 75, 68, 60, 54, 50],
+      "costTier": 3,
+      "r": {
+        "coast": 100, "sailing": 100, "swimming": 82, "islands": 68, "seaMonsters": 22,
+        "scenery": 96, "architecture": 96, "cities": 78, "markets": 62, "music": 100,
+        "foodScene": 88, "feasting": 88, "wine": 88, "festivals": 82, "romance": 88,
+        "luxury": 88, "comfort": 92, "healing": 92, "safety": 88, "lawAndOrder": 88,
+        "soloFemaleSafety": 96, "history": 100, "artefacts": 88, "libraries": 68,
+        "prophecy": 88, "magic": 92, "stargazing": 96, "timeStrange": 88, "familyFriendly": 82,
+        "seniors": 82, "taverns": 45, "revels": 62, "shopping": 55, "combat": 25,
+        "warRisk": 78, "technology": 68, "commonTongue": 25,
+        "gettingThere": 4, "gettingBack": 8
+      },
+      "photos": ["White harbour arches sea", "Swan on calm water", "Mother of pearl shell interior", "Sea arch cave coast", "Harbour lamps at night water", "White harbour town Mediterranean"]
+    },
+    {
+      "id": "tol-eressea", "name": "Tol Eressëa", "country": "AMAN", "region": "The Bay of Eldamar", "continent": "High Fantasy",
+      "type": "island", "arch": "elven-refuge",
+      "blurb": "The Lonely Isle, moored within sight of Aman, with the haven of Avallónë facing east and every ship that ever left Middle-earth for good tied up in it. This is where the elves you have been reading about went.",
+      "about": "Tol Eressëa was towed across the sea twice as a ferry and then anchored in the bay for good. Everyone who sails from the Grey Havens lands at Avallónë — Frodo and Bilbo, Sam long afterwards, and Gimli, the only dwarf ever to go. It is the nearest thing the legendarium has to a retirement, and Tolkien only ever lets you see it from the far side of the water.",
+      "tags": ["avallónë", "the last ship", "frodo", "the west"],
+      "climate": {
+        "tempHigh": [15, 15, 16, 18, 20, 22, 24, 24, 22, 20, 17, 16],
+        "tempLow":  [10, 10, 11, 12, 14, 16, 18, 18, 17, 15, 12, 11],
+        "rainDays": [9, 8, 7, 6, 4, 3, 2, 3, 5, 7, 9, 9],
+        "sunHours": [5, 6, 7, 9, 10, 11, 11, 10, 9, 7, 6, 5],
+        "humidity": [78, 77, 76, 74, 72, 70, 69, 70, 73, 76, 78, 78],
+        "seaTemp":  [15, 14, 15, 16, 18, 20, 22, 22, 21, 19, 17, 16]
+      },
+      "crowd":      [22, 22, 24, 28, 32, 36, 38, 38, 34, 28, 24, 22],
+      "costTier": 2,
+      "r": {
+        "islands": 100, "coast": 92, "sailing": 92, "swimming": 68, "scenery": 96,
+        "forests": 82, "music": 100, "healing": 100, "comfort": 92, "safety": 96,
+        "hospitality": 88, "romance": 82, "seniors": 100, "familyFriendly": 78,
+        "soloFemaleSafety": 96, "libraries": 96, "history": 100, "artefacts": 88,
+        "prophecy": 92, "magic": 92, "timeStrange": 96, "vegetarian": 96, "foodScene": 82,
+        "wine": 88, "feasting": 78, "festivals": 68, "stargazing": 96, "luxury": 78,
+        "cities": 45, "markets": 32, "taverns": 25, "combat": 2, "monsters": 2,
+        "undead": 2, "warRisk": 96, "wandering": 45, "commonTongue": 42,
+        "gettingThere": 5, "gettingBack": 1
+      },
+      "photos": ["Island seen across the sea", "Island harbour at dawn", "Lonely island still water", "White harbour town island", "Island cliffs green sea", "Ship approaching island at dawn"]
+    },
+    {
+      "id": "helcaraxe", "name": "The Helcaraxë", "country": "AMAN", "region": "Between Araman and Middle-earth", "continent": "High Fantasy",
+      "type": "ice", "arch": "frozen-waste",
+      "blurb": "The Grinding Ice: a moving strait of bergs and freezing fog between two continents, crossed on foot exactly once, out of pride. It killed a queen and much of a host, and the survivors arrived with the first moonrise.",
+      "about": "Fëanor burned the ships and left his half-brother's people on the far shore, so Fingolfin's host walked across the ice rather than turn back — the most stubborn act in a legendarium built out of them. Elenwë died in the crossing. They came into Middle-earth as the Moon first rose and blew their trumpets at the gates of Angband, which is the best entrance anybody makes in any of the books.",
+      "tags": ["fingolfin", "the grinding ice", "the crossing", "trumpets"],
+      "climate": {
+        "tempHigh": [-22, -24, -20, -14, -6, -1, 1, 0, -5, -12, -18, -21],
+        "tempLow":  [-38, -40, -36, -28, -18, -9, -6, -7, -14, -24, -32, -36],
+        "rainDays": [6, 5, 5, 5, 6, 6, 7, 7, 8, 8, 7, 6],
+        "sunHours": [0, 2, 5, 8, 11, 13, 12, 9, 5, 2, 0, 0],
+        "humidity": [78, 77, 76, 75, 74, 74, 75, 77, 79, 80, 79, 78],
+        "snowDepth": [300, 330, 340, 320, 260, 180, 140, 150, 200, 260, 290, 310],
+        "seaTemp":  [-2, -2, -2, -2, -1, 0, 1, 1, 0, -1, -2, -2]
+      },
+      "crowd":      [2, 2, 2, 3, 4, 5, 6, 5, 4, 3, 2, 2],
+      "costTier": 1,
+      "r": {
+        "islands": 32, "coast": 78, "wilderness": 100, "scenery": 92, "stargazing": 100,
+        "adrenaline": 92, "hiking": 82, "climbing": 78, "wandering": 82, "fellowship": 96,
+        "questing": 92, "history": 96, "prophecy": 88, "seaMonsters": 42, "monsters": 45,
+        "combat": 32, "magic": 62, "timeStrange": 55, "safety": 5, "survivability": 5,
+        "comfort": 1, "healing": 5, "hospitality": 5, "foodScene": 2, "feasting": 2,
+        "vegetarian": 2, "ale": 0, "wine": 0, "taverns": 0, "cities": 0, "markets": 0,
+        "shopping": 0, "luxury": 0, "libraries": 0, "familyFriendly": 0, "seniors": 0,
+        "soloFemaleSafety": 32, "romance": 12, "sailing": 15, "swimming": 0, "undead": 5,
+        "commonTongue": 22, "gettingThere": 5, "gettingBack": 8
+      },
+      "photos": ["Pack ice floes arctic sea", "Iceberg field cold sea", "Arctic ice expedition on foot", "Ice pressure ridges snow", "Frozen sea in fog", "Glacier front meeting sea"]
+    }
+  ]
+}

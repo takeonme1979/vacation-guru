@@ -2,7 +2,7 @@
   "name": "vacation-guru",
   "version": "0.1.0",
   "private": true,
-  "description": "Offline-first holiday destination matcher scored across 88 criteria.",
+  "description": "Offline-first holiday destination matcher scored across 89 criteria.",
   "type": "module",
   "scripts": {
     "start": "node tools/serve.mjs",

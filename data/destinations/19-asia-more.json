@@ -54,6 +54,7 @@
       "lon": 75.13,
       "type": "lake",
       "arch": "wilderness-park",
+      "transfer": 5,
       "blurb": "An alpine lake at 3,000m surrounded by summer pasture, where families still move up with their herds in June and you sleep in a yurt with no road worth the name to get there.",
       "tags": ["yurts", "jailoo", "horse trekking", "nomads"],
       "climate": {
@@ -115,6 +116,7 @@
         "luxury": 165
       },
       "r": {
+        "oldTown": 45,
         "historicSites": 94, "religiousSites": 96, "architecture": 85, "museums": 85,
         "localCulture": 90, "markets": 82, "mountains": 82, "hiking": 82, "scenery": 88,
         "nationalParks": 68, "lakesRivers": 72, "stargazing": 78, "foodScene": 88,
@@ -141,6 +143,7 @@
       "lon": 136.648,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "The Kyoto that the war never touched: intact samurai and geisha districts, one of Japan's three great gardens, and gold leaf on everything including the ice cream.",
       "tags": ["kenroku-en", "gold leaf", "geisha district", "seafood"],
       "climate": {
@@ -160,6 +163,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 72,
         "historicSites": 94, "architecture": 92, "museums": 90, "artScene": 90,
         "localCulture": 94, "markets": 90, "religiousSites": 85, "theatre": 82, "foodScene": 96,
         "fineDining": 92, "streetFood": 82, "coffee": 85, "walkability": 92,
@@ -272,6 +276,7 @@
       "lon": 76.46,
       "type": "region",
       "arch": "historic-city",
+      "transfer": 4,
       "blurb": "The ruins of a city that once held half a million people, scattered across 40 square kilometres of surreal granite boulders. Bouldering, temples and coracle rides.",
       "tags": ["vijayanagara", "boulders", "temples", "coracles"],
       "climate": {
@@ -289,6 +294,7 @@
         "luxury": 115
       },
       "r": {
+        "oldTown": 30,
         "historicSites": 98, "architecture": 96, "religiousSites": 94, "museums": 68,
         "localCulture": 90, "scenery": 92, "climbing": 94, "hiking": 82, "lakesRivers": 72,
         "cycling": 82, "stargazing": 85, "adrenaline": 72, "foodScene": 68, "vegetarian": 96,
@@ -314,6 +320,7 @@
       "lon": 92.94,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 2,
       "blurb": "India's Thailand, 1,400km east of the mainland — Radhanagar's white sand, some of the cheapest diving certification anywhere, and almost nobody from outside India.",
       "tags": ["havelock", "radhanagar", "diving", "far offshore"],
       "climate": {
@@ -357,6 +364,7 @@
       "lon": 91.73,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 3,
       "blurb": "The wettest place on earth, where the Khasi grow bridges out of living fig roots over rivers so clear the boats look like they are floating in air.",
       "tags": ["living root bridges", "wettest place", "khasi", "caves"],
       "climate": {
@@ -399,6 +407,7 @@
       "lon": 104.18,
       "type": "coast",
       "arch": "historic-city",
+      "transfer": 3,
       "blurb": "Riverside French shophouses going gently to seed, the pepper that French chefs still specify by name, and an abandoned hill station in the clouds above.",
       "tags": ["kampot pepper", "bokor", "riverside", "crab market"],
       "climate": {
@@ -417,6 +426,7 @@
         "luxury": 130
       },
       "r": {
+        "oldTown": 45,
         "architecture": 78, "historicSites": 72, "localCulture": 82, "markets": 82,
         "lakesRivers": 85, "kayaking": 85, "beaches": 62, "swimming": 62, "mountains": 72,
         "hiking": 72, "nationalParks": 78, "foodScene": 85, "streetFood": 82, "fineDining": 68,
@@ -527,6 +537,7 @@
       "lon": 80.026,
       "type": "region",
       "arch": "historic-city",
+      "transfer": 5,
       "blurb": "Tamil Sri Lanka, closed to visitors for thirty years and only now reachable: palmyra palms, an enormous Hindu temple complex, and a causeway to islands with wild ponies.",
       "tags": ["tamil", "nallur temple", "palmyra", "delft island"],
       "climate": {
@@ -545,6 +556,7 @@
         "luxury": 130
       },
       "r": {
+        "oldTown": 40,
         "religiousSites": 94, "historicSites": 85, "localCulture": 94, "markets": 85,
         "architecture": 78, "museums": 68, "beaches": 78, "swimming": 72, "islands": 82,
         "wildlife": 72, "cycling": 82, "foodScene": 88, "streetFood": 88, "vegetarian": 94,
@@ -588,6 +600,7 @@
         "luxury": 145
       },
       "r": {
+        "oldTown": 45,
         "historicSites": 96, "architecture": 88, "religiousSites": 88, "museums": 68,
         "localCulture": 88, "scenery": 85, "mountains": 78, "hiking": 72, "skiing": 62,
         "stargazing": 88, "wildlife": 62, "foodScene": 85, "markets": 78, "roadTrip": 85,

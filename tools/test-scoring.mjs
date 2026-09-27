@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   rankDestinations, scoreDestination, scoreCriterion, emptyPrefs, applyPreset,
-  monthCurve, estimateFlightHours, MONTHS, budgetSpread, dailyCost, MAX_PER_COUNTRY
+  monthCurve, estimateFlightHours, MONTHS, budgetSpread, dailyCost, MAX_PER_COUNTRY, travelBurden
 } from '../js/scoring.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -57,7 +57,9 @@ console.log('Sanity');
   // With the country cap on, order is deliberately not globally descending —
   // over-cap entries are demoted below everything that made the cut. Each
   // block must still be internally descending.
-  const capped = rankDestinations(destinations, { ...prefs, maxPerCountry: MAX_PER_COUNTRY }, criteriaById).results;
+  const ranked = rankDestinations(destinations, { ...prefs, maxPerCountry: MAX_PER_COUNTRY }, criteriaById);
+  const capped = ranked.results;
+  const heldBack = [...ranked.moreByCountry.values()].reduce((n, xs) => n + xs.length, 0);
   const seenCount = {};
   const primary = [], overflow = [];
   for (const r of capped) {
@@ -67,8 +69,38 @@ console.log('Sanity');
   check('diversity-capped results are descending within each block',
     primary.every((r, i) => i === 0 || primary[i - 1].overall >= r.overall) &&
     overflow.every((r, i) => i === 0 || overflow[i - 1].overall >= r.overall) &&
-    capped.length === destinations.length,
-    `${primary.length} primary + ${overflow.length} demoted`);
+    capped.length + heldBack === destinations.length,
+    `${primary.length} primary + ${overflow.length} demoted + ${heldBack} held back`);
+  // "Show more in Greece" on a beach search should offer you the rest of the
+  // Greek beaches and stop short of offering you Athens.
+  {
+    const beach = { ...applyPreset(emptyPrefs(), presets['beach-chill']), month: 7 };
+    const ranked = rankDestinations(destinations, beach, criteriaById);
+    const shown = new Set(ranked.results.slice(0, 12).map((r) => r.dest.id));
+    const moreInGreece = (ranked.moreByCountry.get('Greece') || []);
+    const offered = moreInGreece.map((r) => r.dest.name);
+
+    check('a capped country offers its remaining matches',
+      moreInGreece.length > 0 && moreInGreece.every((r) => r.dest.country === 'Greece'),
+      `${moreInGreece.length} more in Greece`);
+    check('and they are all genuinely beach destinations',
+      moreInGreece.every((r) => r.dest.ratings.beaches >= 70),
+      offered.join(', '));
+    check('and it does not offer Athens on a beach search',
+      !offered.includes('Athens') && !offered.includes('Meteora'),
+      offered.join(', '));
+    check('nothing is offered twice',
+      moreInGreece.every((r) => !shown.has(r.dest.id)));
+
+    // The same test in reverse: a culture search should offer the cities.
+    const culture = { ...applyPreset(emptyPrefs(), presets['city-culture']), month: 7 };
+    const cultureMore = (rankDestinations(destinations, culture, criteriaById)
+      .moreByCountry.get('Greece') || []).map((r) => r.dest.name);
+    check('a culture search offers culture, not islands',
+      !cultureMore.includes('Milos') && !cultureMore.includes('The Sporades'),
+      cultureMore.join(', ') || '(none)');
+  }
+
   check('no NaN in any breakdown',
     all.every((r) => r.breakdown.every((b) => b.score === null || Number.isFinite(b.score))));
   check('empty preferences score zero, not NaN',
@@ -213,6 +245,30 @@ console.log('\nFlight time');
   const nearTop = top(near, 5);
   check('a 3-hour limit keeps results close to home',
     nearTop.every((r) => estimateFlightHours(lhr, r.dest) <= 4.2), names(nearTop));
+
+  // Český Krumlov is the same flight as Prague and then three hours on a bus.
+  // On a weekend that has to show, or the two look interchangeable.
+  const prague = destinations.find((d) => d.id === 'prague-cz');
+  const krumlov = destinations.find((d) => d.id === 'cesky-krumlov-cz');
+  const weekend = { ...emptyPrefs(), home: lhr };
+  weekend.targets.tripNights = 2;
+  const bP = travelBurden(prague, weekend), bK = travelBurden(krumlov, weekend);
+  check('a long transfer from the airport costs days on a short trip',
+    bK.daysLost >= bP.daysLost + 0.4, `Prague ${bP.daysLost}d, Krumlov ${bK.daysLost}d`);
+  const sP = scoreCriterion(criteriaById.get('flightTime'), prague, weekend).score;
+  const sK = scoreCriterion(criteriaById.get('flightTime'), krumlov, weekend).score;
+  check('…and scores it lower on Travel Time', sK < sP - 0.15, `Prague ${sP}, Krumlov ${sK}`);
+
+  // No ceiling unless you set one: a 13h flight on a fortnight is fine.
+  const hoiAn = destinations.find((d) => d.id === 'hoi-an-vn');
+  const fortnight = { ...emptyPrefs(), home: lhr };
+  fortnight.targets.tripNights = 14;
+  const long = scoreCriterion(criteriaById.get('flightTime'), hoiAn, fortnight);
+  check('a long-haul flight is not capped by default', long.score >= 0.7 && !/limit/.test(long.detail),
+    `${long.score} — ${long.detail}`);
+  const capped = { ...fortnight, targets: { ...fortnight.targets, maxFlightHours: 8 } };
+  check('…but a limit you set still applies',
+    scoreCriterion(criteriaById.get('flightTime'), hoiAn, capped).score < long.score - 0.3);
 }
 
 // ---------------------------------------------------------------------------

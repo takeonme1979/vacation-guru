@@ -29,6 +29,7 @@
         "luxury": 450
       },
       "r": {
+        "oldTown": 35,
         "shopping": 100, "luxury": 98, "themeParks": 92, "fineDining": 92, "foodScene": 88,
         "architecture": 88, "beaches": 82, "swimming": 84, "waterSports": 82, "sailing": 78,
         "desert": 88, "adrenaline": 88, "wellness": 90, "bars": 80, "clubbing": 84, "golf": 88,
@@ -74,6 +75,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 15,
         "religiousSites": 94, "museums": 88, "architecture": 88, "artScene": 78, "luxury": 92,
         "themeParks": 90, "shopping": 88, "beaches": 80, "swimming": 82, "desert": 90,
         "adrenaline": 78, "wellness": 88, "golf": 84, "sports": 84, "familyYoungKids": 88,
@@ -119,6 +121,7 @@
         "luxury": 360
       },
       "r": {
+        "oldTown": 30,
         "museums": 94, "artScene": 86, "architecture": 88, "markets": 84, "religiousSites": 80,
         "desert": 88, "luxury": 90, "shopping": 86, "fineDining": 82, "sports": 90,
         "beaches": 68, "swimming": 74, "waterSports": 68, "adrenaline": 72, "safety": 96,
@@ -163,6 +166,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 55,
         "scenery": 88, "desert": 92, "mountains": 84, "hiking": 84, "roadTrip": 92,
         "lakesRivers": 82, "swimming": 82, "beaches": 80, "scuba": 78, "snorkelling": 78,
         "wildlife": 78, "kayaking": 72, "climbing": 76, "stargazing": 90, "historicSites": 86,
@@ -190,6 +194,7 @@
       "lon": 35.442,
       "type": "region",
       "arch": "desert",
+      "transfer": 3,
       "blurb": "A Nabataean city carved into rose sandstone, reached through a slot canyon — then Mars-red desert where you sleep in a Bedouin camp under the stars.",
       "tags": ["petra", "desert", "unesco", "stargazing"],
       "climate": {
@@ -233,6 +238,7 @@
       "lon": 35.473,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 1,
       "blurb": "The lowest point on dry land, 430m below sea level, where the water is so saline you cannot sink. Mineral mud, spa resorts and biblical history.",
       "tags": ["floating", "spa", "lowest point", "mud"],
       "climate": {
@@ -277,6 +283,7 @@
       "lon": 35.214,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "Four quarters, three faiths and three thousand years inside one square kilometre of walls. Nowhere else is as densely layered.",
       "tags": ["holy sites", "history", "walled city", "markets"],
       "climate": {
@@ -294,6 +301,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 97,
         "religiousSites": 100, "historicSites": 100, "architecture": 90, "museums": 92,
         "localCulture": 94, "markets": 90, "foodScene": 88, "streetFood": 86, "walkability": 84,
         "kosher": 100, "halal": 82, "vegetarian": 92, "vegan": 90, "festivals": 84,
@@ -338,6 +346,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 55,
         "beaches": 86, "swimming": 86, "surfing": 74, "waterSports": 76, "foodScene": 94,
         "streetFood": 88, "fineDining": 88, "markets": 88, "bars": 94, "clubbing": 94,
         "lgbtqScene": 98, "lgbtqSafety": 92, "liveMusic": 86, "architecture": 88, "artScene": 86,
@@ -382,6 +391,7 @@
         "luxury": 170
       },
       "r": {
+        "oldTown": 85,
         "wine": 96, "foodScene": 94, "wellness": 92, "architecture": 88, "historicSites": 84,
         "localCulture": 90, "markets": 84, "religiousSites": 82, "bars": 86, "clubbing": 88,
         "liveMusic": 78, "artScene": 80, "walkability": 80, "mountains": 68, "hiking": 72,
@@ -408,6 +418,7 @@
       "lon": 42.727,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 5,
       "blurb": "Medieval stone defence towers in villages under 5,000m Caucasus peaks — one of Europe's last genuinely remote mountain cultures.",
       "tags": ["caucasus", "towers", "trekking", "remote"],
       "climate": {
@@ -469,6 +480,7 @@
         "luxury": 170
       },
       "r": {
+        "oldTown": 93,
         "historicSites": 98, "architecture": 100, "religiousSites": 92, "localCulture": 92,
         "markets": 88, "museums": 76, "artScene": 74, "foodScene": 80, "desert": 68,
         "roadTrip": 74, "walkability": 78, "valueForMoney": 94, "backpacker": 82, "visaEase": 85,

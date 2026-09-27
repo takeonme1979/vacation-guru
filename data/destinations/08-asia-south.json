@@ -28,6 +28,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 65,
         "historicSites": 100, "architecture": 96, "religiousSites": 92, "museums": 78,
         "markets": 94, "streetFood": 94, "foodScene": 92, "localCulture": 92, "shopping": 84,
         "vegetarian": 100, "vegan": 88, "valueForMoney": 96, "backpacker": 84,
@@ -64,6 +65,7 @@
         "luxury": 170
       },
       "r": {
+        "oldTown": 82,
         "historicSites": 98, "architecture": 96, "localCulture": 94, "markets": 92,
         "shopping": 90, "desert": 78, "festivals": 88, "museums": 74, "religiousSites": 84,
         "luxury": 88, "romance": 84, "foodScene": 86, "vegetarian": 100, "vegan": 86,
@@ -107,6 +109,7 @@
         "luxury": 190
       },
       "r": {
+        "oldTown": 85,
         "romance": 96, "architecture": 94, "historicSites": 92, "lakesRivers": 90, "scenery": 82,
         "luxury": 92, "localCulture": 88, "markets": 86, "artScene": 82, "shopping": 82,
         "foodScene": 84, "vegetarian": 100, "vegan": 84, "walkability": 76, "valueForMoney": 92,
@@ -150,6 +153,7 @@
         "luxury": 140
       },
       "r": {
+        "oldTown": 85,
         "religiousSites": 100, "localCulture": 100, "historicSites": 88, "lakesRivers": 78,
         "markets": 88, "streetFood": 88, "festivals": 92, "artScene": 72, "vegetarian": 100,
         "vegan": 88, "valueForMoney": 98, "backpacker": 86, "walkability": 62, "museums": 58,
@@ -309,6 +313,7 @@
       "lon": 78.267,
       "type": "city",
       "arch": "mountain-town",
+      "transfer": 1,
       "blurb": "The yoga capital of the world on the Ganges where it leaves the Himalaya — ashrams, white-water rafting and no alcohol anywhere.",
       "tags": ["yoga", "rafting", "ganges", "spiritual"],
       "climate": {
@@ -370,6 +375,7 @@
         "luxury": 150
       },
       "r": {
+        "oldTown": 88,
         "religiousSites": 98, "historicSites": 94, "architecture": 92, "localCulture": 94,
         "markets": 86, "artScene": 78, "museums": 68, "mountains": 78, "hiking": 84,
         "adrenaline": 74, "shopping": 80, "vegetarian": 96, "vegan": 86, "valueForMoney": 96,
@@ -439,6 +445,7 @@
       "lon": 86.925,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 3,
       "blurb": "Two weeks on foot through Sherpa villages and monasteries to the foot of the highest mountain on earth. Not a holiday — an expedition.",
       "tags": ["trekking", "everest", "sherpa", "altitude"],
       "climate": {
@@ -484,6 +491,7 @@
       "lon": 80.771,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 3.5,
       "blurb": "Tea estates, waterfalls and the Nine Arch Bridge, linked by what may be the most beautiful train ride in the world.",
       "tags": ["tea", "train", "hiking", "temples"],
       "climate": {
@@ -527,6 +535,7 @@
       "lon": 80.217,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 2,
       "blurb": "A Dutch-walled fort town, surf breaks at Weligama, blue whales off Mirissa and stilt fishermen at sunset.",
       "tags": ["beach", "surfing", "whales", "colonial"],
       "climate": {
@@ -545,6 +554,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 88,
         "beaches": 88, "swimming": 82, "surfing": 90, "wildlife": 88, "snorkelling": 68,
         "scuba": 66, "historicSites": 88, "architecture": 86, "localCulture": 86, "wellness": 86,
         "foodScene": 84, "vegetarian": 90, "romance": 84, "valueForMoney": 92, "backpacker": 88,
@@ -571,6 +581,7 @@
       "lon": 81.501,
       "type": "region",
       "arch": "safari",
+      "transfer": 4,
       "blurb": "The highest density of leopards anywhere, plus wild elephants in herds — Asia's most accessible and affordable safari.",
       "tags": ["leopards", "elephants", "safari", "value"],
       "climate": {
@@ -613,6 +624,7 @@
       "lon": 73.22,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 1,
       "blurb": "Twenty-six atolls of overwater villas and house reefs. The single most reliable place on earth for a honeymoon — at a price.",
       "tags": ["honeymoon", "overwater", "diving", "luxury"],
       "climate": {

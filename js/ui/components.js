@@ -2,7 +2,8 @@ import { h, svg, mount } from '../util/dom.js';
 import { imgEl, heroPhoto } from '../images.js';
 import {
   MONTHS, MONTHS_SHORT, IMPORTANCE_LABELS, crowdWord, BUDGET_STYLES, budgetSpread,
-  COST_TIERS, costTierLabel, SEASONS, seasonOf, periodLabel
+  COST_TIERS, costTierLabel, SEASONS, seasonOf, periodLabel,
+  styleForBudget, sensibleFlightHours, NO_FLIGHT_LIMIT
 } from '../scoring.js';
 import { data } from '../data.js';
 import { mapsUrl } from '../maps.js';
@@ -369,8 +370,8 @@ function budgetNote(prefs) {
   const style = BUDGET_STYLES.find((b) => b.id === prefs.targets.budgetStyle);
   const plain = (style?.label || 'mid-range').toLowerCase();
   const label = prefs.targets.noHostels && prefs.targets.budgetStyle === 'budget'
-    ? `${plain} style without hostels`
-    : `${plain} style`;
+    ? `${plain} prices without hostels`
+    : `${plain} prices`;
   const noHostels = !!prefs.targets.noHostels;
   const spread = budgetSpread(data().destinations, prefs.targets.budgetStyle, prefs.month, { noHostels });
   if (!spread) return { text: `At ${label}, excluding flights.`, level: '' };
@@ -381,16 +382,229 @@ function budgetNote(prefs) {
     return {
       level: ' is-bad',
       text: `Nothing costs under £${value} a day at ${label} — the cheapest is £${spread.min}. `
-        + 'Everywhere will score badly on Cost. Raise the budget, or change travel style under Trip.'
+        + 'Everywhere will score badly on Cost.'
     };
   }
   const pct = Math.round((n / spread.count) * 100);
   return {
     level: pct < 10 ? ' is-warn' : '',
-    text: `${n} of ${spread.count} destinations (${pct}%) fit at ${label}. `
-      + `Typical is £${spread.median} a day. Travel style is set under Trip.`
+    text: `${n} of ${spread.count} destinations (${pct}%) fit at this budget. `
+      + `Typical is £${spread.median} a day, excluding flights.`
   };
 }
+
+/**
+ * What you spend, asked once.
+ *
+ * Travel style and daily budget used to be two controls in two different blocks
+ * of the same screen, each carrying a note explaining that the other one lived
+ * somewhere else. They were never two questions: what you are willing to spend
+ * per day IS whether you are in a dorm or a suite. So there is one slider now,
+ * and the tier under it is read off the live catalogue.
+ */
+export function moneyControl(onChange = () => {}) {
+  const wrap = h('div', { class: 'money' });
+
+  const paint = () => {
+    const prefs = store.state.prefs;
+    const styleId = prefs.targets.budgetStyle;
+    const style = BUDGET_STYLES.find((b) => b.id === styleId) || {};
+    const note = budgetNote(prefs);
+    const noteEl = h('p', { class: 'budget-note' + note.level }, note.text);
+
+    const slider = rangeField({
+      label: 'What you can spend, per person, per day',
+      min: 20, max: 700, step: 10,
+      value: prefs.targets.budgetPerDay,
+      format: (v) => '£' + v + (v >= 700 ? '+' : ''),
+      leftLabel: '\u2190 £20',
+      rightLabel: '£700+ \u2192',
+      onInput: (v) => {
+        const before = store.state.prefs.targets.budgetStyle;
+        store.update((s) => {
+          s.prefs.targets.budgetPerDay = v;
+          s.prefs.targets.budgetStyle = styleForBudget(data().destinations, v, s.prefs.month,
+            { noHostels: !!s.prefs.targets.noHostels });
+        });
+        // Repaint the whole control only when the tier itself changed, so
+        // dragging the slider does not rebuild it under the user's finger.
+        if (store.state.prefs.targets.budgetStyle !== before) { paint(); onChange(); return; }
+        const n = budgetNote(store.state.prefs);
+        noteEl.className = 'budget-note' + n.level;
+        noteEl.textContent = n.text;
+        onChange();
+      }
+    });
+
+    const children = [
+      slider,
+      h('p', { class: 'money__tier' },
+        h('strong', null, 'That is ' + (style.label || 'mid-range').toLowerCase() + ' travel'),
+        h('span', null, style.help ? ' \u2014 ' + style.help.toLowerCase() : ''))
+    ];
+
+    // Only the cheapest tier assumes a dorm bed, so only it gets the question.
+    if (styleId === 'budget') {
+      children.push(
+        h('label', { class: 'switch switch--inline' },
+          h('input', {
+            type: 'checkbox',
+            checked: !prefs.targets.noHostels,
+            onchange: (e) => {
+              store.update((s) => { s.prefs.targets.noHostels = !e.target.checked; });
+              paint();
+              onChange();
+            }
+          }),
+          h('span', null, 'Hostels are fine')),
+        h('p', { class: 'range__hint' },
+          prefs.targets.noHostels
+            ? 'Pricing the cheapest private room instead, which is the biggest single line on a budget day.'
+            : 'At this level prices assume a dorm bed. Untick to price the cheapest private room instead.')
+      );
+    }
+
+    children.push(noteEl);
+    mount(wrap, ...children);
+  };
+
+  paint();
+  return wrap;
+}
+
+/** The listed origin closest to a pair of coordinates. */
+function nearestOrigin(origins, lat, lon) {
+  let best = origins[0];
+  let bestD = Infinity;
+  for (const o of origins) {
+    const dx = (o.lon - lon) * Math.cos(lat * Math.PI / 180);
+    const d = (o.lat - lat) ** 2 + dx ** 2;
+    if (d < bestD) { bestD = d; best = o; }
+  }
+  return best;
+}
+
+/**
+ * Where you are travelling from.
+ *
+ * Seventy-eight airports in one flat select is a scroll, not a choice. This
+ * filters as you type, groups whatever is left by country, and will find the
+ * nearest listed airport if the browser is willing to say where you are.
+ */
+export function originPicker(origins, onChange = () => {}) {
+  const wrap = h('div', { class: 'origin' });
+  let query = '';
+  let status = null;
+
+  const choose = (o) => {
+    store.update((s) => {
+      s.prefs.home = o ? { id: o.id, label: o.label, lat: o.lat, lon: o.lon } : null;
+    });
+    query = '';
+    paint();
+    onChange();
+  };
+
+  const paint = () => {
+    const prefs = store.state.prefs;
+    const q = query.trim().toLowerCase();
+    const matches = origins.filter((o) => !q
+      || o.label.toLowerCase().includes(q)
+      || o.id.toLowerCase().includes(q)
+      || (o.country || '').toLowerCase().includes(q));
+
+    // Grouped by country, in the file's own order, so the likeliest answers
+    // stay at the top instead of being alphabetised into the middle.
+    const groups = new Map();
+    for (const o of matches) {
+      const k = o.country || 'Elsewhere';
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(o);
+    }
+
+    const select = h('select', {
+      class: 'select',
+      size: q ? Math.min(9, matches.length + groups.size) : 1,
+      'aria-label': 'Departure airport',
+      onchange: (e) => choose(origins.find((x) => x.id === e.target.value))
+    },
+      q ? null : h('option', { value: '' }, '\u2014 not bothered about flight time \u2014'),
+      [...groups.entries()].map(([country, list]) =>
+        h('optgroup', { label: country },
+          list.map((o) => h('option',
+            { value: o.id, selected: prefs.home && prefs.home.id === o.id },
+            o.label + ' (' + o.id + ')')))));
+
+    const search = h('input', {
+      type: 'search',
+      class: 'input',
+      value: query,
+      placeholder: 'Search airport, city or country\u2026',
+      'aria-label': 'Search for your departure airport',
+      oninput: (e) => { query = e.target.value; status = null; paint(); }
+    });
+
+    const locate = (typeof navigator !== 'undefined' && navigator.geolocation)
+      ? h('button', {
+          class: 'btn btn--ghost btn--sm',
+          type: 'button',
+          onclick: () => {
+            status = 'Finding you\u2026';
+            paint();
+            navigator.geolocation.getCurrentPosition(
+              (pos) => {
+                const near = nearestOrigin(origins, pos.coords.latitude, pos.coords.longitude);
+                status = 'Nearest listed airport: ' + near.label;
+                choose(near);
+              },
+              () => { status = 'Could not get your location \u2014 pick one below.'; paint(); },
+              { timeout: 8000, maximumAge: 600000 }
+            );
+          }
+        }, '\u{1F4CD} Use my location')
+      : null;
+
+    mount(wrap,
+      h('div', { class: 'origin__row' }, search, locate),
+      select,
+      status ? h('p', { class: 'field__hint' }, status) : null,
+      (q && !matches.length)
+        ? h('p', { class: 'field__hint' }, 'Nothing matches \u201C' + query + '\u201D.')
+        : null);
+  };
+
+  paint();
+  return wrap;
+}
+
+/**
+ * Whether a trip of this length can absorb the flight it takes to get there.
+ *
+ * Shown before any destination is picked, because the answer changes what is
+ * worth searching for at all: four nights and a twelve-hour flight is not a
+ * holiday with a long journey, it is a journey with a holiday attached.
+ */
+export function travelTimeNote(prefs) {
+  const nights = prefs.targets && prefs.targets.tripNights ? prefs.targets.tripNights : 7;
+  const ceiling = sensibleFlightHours(nights);
+  if (ceiling === null) {
+    return 'At ' + nightsPhrase(nights) + ', even the far side of the world is a small part of '
+      + 'the trip \u2014 travel time barely matters here.';
+  }
+  // Below a couple of hours the honest answer is qualitative: quoting a
+  // 1h ceiling reads as a glitch even though the arithmetic is right.
+  if (ceiling < 2) {
+    return nightsPhrase(nights, true) + ' is short enough that any flight is a real slice of it. '
+      + 'Somewhere close, or a longer trip.';
+  }
+  return 'At ' + nightsPhrase(nights) + ', a flight much over ' + ceiling + 'h costs you the best '
+    + 'part of a day at each end. Longer trips absorb longer flights.';
+}
+
+const nightsPhrase = (n, cap = false) => {
+  const s = n === 1 ? '1 night' : n + ' nights';
+  return cap ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+};
 
 /**
  * The inline "which end do you want?" control for criteria that are scored
@@ -431,56 +645,17 @@ export function targetControl(criterion, prefs, go) {
       );
 
     case 'budget': {
-      const noteEl = h('p', { class: 'budget-note' });
-      const paintNote = () => {
-        const n = budgetNote(store.state.prefs);
-        noteEl.className = 'budget-note' + n.level;
-        noteEl.textContent = n.text;
-      };
-
-      // Budget travel quietly assumed a dorm bed, which is not what a great
-      // many people travelling cheaply actually want. Only shown at budget
-      // style, because it is the only tier that assumes one.
-      const hostelRow = h('div', { class: 'crit__aside' });
-      const paintHostels = () => {
-        const p = store.state.prefs;
-        if (p.targets.budgetStyle !== 'budget') { mount(hostelRow); return; }
-        const box = h('input', {
-          type: 'checkbox',
-          checked: !p.targets.noHostels,
-          onchange: (e) => {
-            store.setTarget('noHostels', !e.target.checked);
-            paintHostels();
-            paintNote();
-          }
-        });
-        mount(hostelRow,
-          h('label', { class: 'switch switch--inline' },
-            box,
-            h('span', null, 'Hostels are fine')),
-          h('p', { class: 'range__hint' },
-            p.targets.noHostels
-              ? 'Pricing the cheapest private room instead, which is the biggest single line on a budget day.'
-              : 'Budget prices assume a dorm bed. Untick to price the cheapest private room instead.')
-        );
-      };
-
-      const block = h('div', { class: 'crit__target' },
-        rangeField({
-          label: 'Your budget per person, per day',
-          min: 20, max: 700, step: 10,
-          value: prefs.targets.budgetPerDay,
-          format: (v) => `£${v}${v >= 700 ? '+' : ''}`,
-          leftLabel: '← £20',
-          rightLabel: '£700+ →',
-          onInput: (v) => { store.setTarget('budgetPerDay', v); paintNote(); }
-        }),
-        hostelRow,
-        noteEl
+      // The slider itself lives once, in "What you'll spend" on the Trip screen.
+      // Repeating it here is what made money feel like two settings that could
+      // disagree with each other.
+      const style = BUDGET_STYLES.find((b) => b.id === prefs.targets.budgetStyle) || {};
+      return h('div', { class: 'crit__target' },
+        h('p', { class: 'range__hint' },
+          'Scored against £' + prefs.targets.budgetPerDay + ' a day ('
+          + (style.label || 'mid-range').toLowerCase() + '), set under ',
+          h('button', { class: 'linkish', onclick: () => go('#/setup') }, 'Trip'),
+          '.')
       );
-      paintHostels();
-      paintNote();
-      return block;
     }
 
     case 'tier': {
@@ -530,11 +705,12 @@ export function targetControl(criterion, prefs, go) {
       return h('div', { class: 'crit__target' },
         rangeField({
           label: `Maximum flight time from ${prefs.home.label}`,
-          min: 1, max: 24,
-          value: prefs.targets.maxFlightHours,
-          format: (v) => `${v}h${v >= 24 ? '+' : ''}`,
+          min: 1, max: NO_FLIGHT_LIMIT,
+          value: prefs.targets.maxFlightHours ?? NO_FLIGHT_LIMIT,
+          format: (v) => (v >= NO_FLIGHT_LIMIT ? 'No limit' : `${v}h`),
           leftLabel: '← 1h',
-          rightLabel: '24h+ →',
+          rightLabel: 'No limit →',
+          hint: 'At No limit, a long flight only counts against a place when it eats into a short trip.',
           onInput: (v) => store.setTarget('maxFlightHours', v)
         })
       );

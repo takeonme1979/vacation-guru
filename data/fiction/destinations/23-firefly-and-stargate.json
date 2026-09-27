@@ -1,0 +1,305 @@
+{
+  "_doc": "More of the Verse and more of the Stargate network — the ship, the valley the war was lost in, the mud moon, two Core worlds, the mountain the gate lives under, and four worlds on the other side of it.",
+  "destinations": [
+    {
+      "id": "serenity", "name": "Serenity", "country": "FIRE", "region": "Wherever She Lands", "continent": "Science Fiction",
+      "type": "vessel", "arch": "space-port",
+      "blurb": "A thirty-year-old Firefly-class transport with no weapons, no papers worth reading and a crew of eight. Nothing aboard works properly and she has never yet failed to fly.",
+      "about": "The ship is the argument: a home that keeps going because people keep patching it. She is shot like a working boat — catwalks, engine room, and a kitchen table that everything important happens around. She carries no guns at all, which means every single plan comes down to talking, running, or Jayne.",
+      "tags": ["firefly-class", "no guns", "the kitchen table", "still flying"],
+      "climate": {
+        "tempHigh": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "tempLow":  [17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45]
+      },
+      "crowd":      [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+      "costTier": 1,
+      "r": {
+        "spaceTravel": 88, "technology": 55, "fellowship": 100, "intrigue": 88,
+        "questing": 88, "combat": 72, "adrenaline": 72, "wandering": 92, "soloTravel": 62,
+        "foodScene": 42, "feasting": 62, "ale": 55, "taverns": 25, "gambling": 62,
+        "music": 62, "hospitality": 78, "comfort": 42, "luxury": 12, "safety": 42,
+        "lawAndOrder": 25, "warRisk": 55, "soloFemaleSafety": 62, "healing": 62,
+        "familyFriendly": 32, "seniors": 25, "stargazing": 82, "scenery": 32,
+        "romance": 68, "history": 42, "artefacts": 32, "libraries": 22, "markets": 32,
+        "shopping": 12, "peoples": 45, "commonTongue": 82, "magic": 2, "cities": 12,
+        "gettingThere": 45, "gettingBack": 52
+      },
+      "photos": ["Cargo ship hold interior", "Vintage aircraft cockpit", "Ship engine room machinery", "Galley table ship interior", "Rusty transport aircraft", "Industrial catwalk interior"]
+    },
+    {
+      "id": "hera-serenity-valley", "name": "Serenity Valley, Hera", "country": "FIRE", "region": "Hera", "continent": "Science Fiction",
+      "type": "badlands", "arch": "lost-world",
+      "blurb": "The valley where the Independents lost the war and Malcolm Reynolds stopped believing in anything: seven weeks with no air support, then a surrender he has never once accepted.",
+      "about": "Everything about Mal starts here — the cross he wears, the coat he will not take off, the flat refusal to be moved by anybody's authority. The valley itself is bones and scrap metal, and the war that ended in it is both why the Alliance runs everything and why this particular crew live outside it.",
+      "tags": ["the war", "independents", "browncoats", "mal"],
+      "climate": {
+        "tempHigh": [8, 10, 14, 19, 24, 29, 32, 31, 26, 19, 13, 9],
+        "tempLow":  [-2, 0, 3, 7, 12, 16, 19, 18, 14, 8, 3, -1],
+        "rainDays": [6, 5, 5, 4, 3, 2, 1, 1, 2, 4, 5, 6],
+        "sunHours": [5, 6, 7, 8, 10, 11, 11, 10, 9, 7, 6, 5],
+        "humidity": [55, 52, 48, 43, 38, 32, 28, 30, 36, 45, 52, 56]
+      },
+      "crowd":      [6, 6, 7, 8, 10, 11, 12, 12, 10, 8, 7, 6],
+      "costTier": 1,
+      "r": {
+        "wilderness": 88, "plains": 78, "ruins": 88, "history": 92, "scenery": 55,
+        "hiking": 62, "wandering": 78, "stargazing": 88, "artefacts": 55, "questing": 68,
+        "combat": 62, "adrenaline": 45, "safety": 32, "survivability": 45,
+        "soloFemaleSafety": 35, "comfort": 12, "luxury": 2, "healing": 12,
+        "hospitality": 15, "foodScene": 8, "feasting": 5, "taverns": 2, "ale": 8,
+        "markets": 2, "shopping": 2, "cities": 5, "libraries": 5, "familyFriendly": 8,
+        "seniors": 12, "peoples": 12, "commonTongue": 88, "magic": 0, "technology": 32,
+        "lawAndOrder": 12, "warRisk": 62, "fellowship": 82, "gettingThere": 32, "gettingBack": 42
+      },
+      "photos": ["Dry valley scrubland canyon", "Rusted military wreckage desert", "Battlefield memorial stones", "Arid valley scree slopes", "Wrecked aircraft in desert", "Empty valley under wide sky"]
+    },
+    {
+      "id": "canton", "name": "Canton, Higgins' Moon", "country": "FIRE", "region": "Higgins' Moon", "continent": "Science Fiction",
+      "type": "town", "arch": "dystopia",
+      "blurb": "A company town on a moon that produces exactly one thing — mud — worked by indentured labour who have made a folk hero of a mercenary who dropped stolen money on them by accident. There is a statue.",
+      "about": "Jaynestown is the funniest episode of Firefly and the meanest: the Mudders sing about a man who never intended to help anyone, and when they find out the truth they keep the song anyway. Higgins' Moon is what the Verse does to a workforce with no ship of its own — everything is owed to the company, and the mud is not optional.",
+      "tags": ["jaynestown", "mud", "indentured", "the hero of canton"],
+      "climate": {
+        "tempHigh": [18, 19, 21, 23, 25, 27, 28, 28, 26, 23, 20, 18],
+        "tempLow":  [12, 12, 14, 16, 18, 20, 21, 21, 19, 17, 14, 12],
+        "rainDays": [20, 19, 18, 17, 16, 15, 14, 15, 16, 18, 19, 20],
+        "sunHours": [2, 2, 3, 3, 4, 4, 4, 4, 3, 3, 2, 2],
+        "humidity": [92, 92, 91, 90, 89, 88, 88, 89, 90, 91, 92, 92]
+      },
+      "crowd":      [58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58, 58],
+      "costTier": 1,
+      "r": {
+        "localCulture": 92, "music": 88, "taverns": 78, "ale": 82, "peoples": 55,
+        "history": 45, "intrigue": 68, "combat": 45, "questing": 55,
+        "foodScene": 32, "feasting": 42, "markets": 32, "shopping": 15, "festivals": 55,
+        "safety": 32, "lawAndOrder": 18, "warRisk": 62, "soloFemaleSafety": 28,
+        "comfort": 15, "luxury": 2, "healing": 22, "hospitality": 55,
+        "familyFriendly": 25, "seniors": 22, "technology": 32, "commonTongue": 88,
+        "magic": 0, "scenery": 22, "wilderness": 42, "stargazing": 32, "cities": 32,
+        "libraries": 8, "gettingThere": 42, "gettingBack": 45
+      },
+      "photos": ["Mud flats industrial workings", "Clay pit quarry workers", "Shanty town wooden buildings", "Statue in small town square", "Muddy village street rain", "Frontier saloon interior"]
+    },
+    {
+      "id": "ariel", "name": "Ariel", "country": "FIRE", "region": "The Core", "continent": "Science Fiction",
+      "type": "city", "arch": "high-city",
+      "blurb": "A Core world of white towers and hovercars with the best hospitals in the Verse — all of it beautiful, none of it yours. Excellent medicine, provided you can produce identification.",
+      "about": "Ariel is the crew's one proper look at Core living, and they go there to rob a hospital. It is also where Simon finally gets his sister scanned and learns what was done to her brain: the plot of the whole show turns on a diagnosis obtained by fraud, in a building that would never have let any of them in the front door.",
+      "tags": ["core world", "hospitals", "hovercars", "the heist"],
+      "climate": {
+        "tempHigh": [17, 18, 20, 23, 26, 29, 31, 31, 28, 24, 20, 17],
+        "tempLow":  [9, 10, 11, 14, 17, 20, 22, 22, 20, 16, 12, 10],
+        "rainDays": [7, 6, 5, 4, 3, 2, 1, 1, 3, 5, 6, 7],
+        "sunHours": [6, 7, 8, 9, 11, 12, 12, 11, 10, 8, 7, 6],
+        "humidity": [62, 61, 60, 58, 56, 53, 50, 52, 56, 59, 61, 62]
+      },
+      "crowd":      [78, 78, 80, 82, 84, 86, 88, 88, 85, 82, 80, 78],
+      "costTier": 3,
+      "r": {
+        "cities": 96, "technology": 92, "architecture": 92, "healing": 96, "comfort": 92,
+        "luxury": 92, "foodScene": 92, "feasting": 82, "wine": 88, "markets": 82,
+        "shopping": 92, "festivals": 72, "music": 78, "libraries": 88, "history": 62,
+        "intrigue": 88, "safety": 72, "lawAndOrder": 88, "warRisk": 82,
+        "soloFemaleSafety": 72, "familyFriendly": 72, "seniors": 78, "hospitality": 45,
+        "romance": 68, "taverns": 68, "gambling": 55, "scenery": 62, "stargazing": 32,
+        "peoples": 55, "commonTongue": 92, "magic": 0, "combat": 32, "questing": 55,
+        "gettingThere": 78, "gettingBack": 78
+      },
+      "photos": ["Modern white city skyline", "Hospital corridor modern", "Glass towers blue sky", "Monorail city transit", "Clean modern plaza", "City skyline at night lights"]
+    },
+    {
+      "id": "beaumonde", "name": "Beaumonde", "country": "FIRE", "region": "The Kalidasa System", "continent": "Science Fiction",
+      "type": "industrial", "arch": "dystopia",
+      "blurb": "An industrial world of refinery haze and dockside bars, where a straightforward job goes wrong in a place called the Maidenhead and a girl who has been quiet all year takes down an entire room.",
+      "about": "Beaumonde is where the Verse actually works: refineries, docks, and the kind of bar nobody looks up in. It is also where River is triggered by a subliminal advertisement, which is the moment Serenity stops being a heist film and becomes a story about exactly what the Alliance did to a fourteen-year-old.",
+      "tags": ["the maidenhead", "refineries", "docks", "river"],
+      "climate": {
+        "tempHigh": [14, 15, 18, 22, 26, 30, 32, 32, 28, 23, 18, 15],
+        "tempLow":  [8, 9, 11, 14, 18, 21, 23, 23, 20, 16, 12, 9],
+        "rainDays": [12, 11, 10, 9, 8, 6, 5, 6, 8, 10, 11, 12],
+        "sunHours": [2, 3, 3, 4, 5, 6, 6, 5, 4, 3, 2, 2],
+        "humidity": [78, 77, 75, 73, 71, 68, 66, 68, 71, 74, 77, 78]
+      },
+      "crowd":      [82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82],
+      "costTier": 1,
+      "r": {
+        "cities": 88, "technology": 72, "markets": 88, "shopping": 68, "taverns": 92,
+        "ale": 88, "gambling": 78, "music": 72, "revels": 78, "foodScene": 72,
+        "feasting": 55, "peoples": 82, "localCulture": 78, "intrigue": 92, "combat": 68,
+        "questing": 72, "adrenaline": 62, "safety": 25, "lawAndOrder": 28,
+        "soloFemaleSafety": 25, "comfort": 38, "luxury": 25, "healing": 45,
+        "hospitality": 42, "familyFriendly": 12, "seniors": 22, "scenery": 22,
+        "stargazing": 8, "wilderness": 5, "history": 42, "libraries": 25,
+        "commonTongue": 82, "magic": 0, "gettingThere": 72, "gettingBack": 68
+      },
+      "photos": ["Refinery at night lights", "Industrial docks cranes", "Crowded night market street", "Dive bar interior neon", "Smoggy industrial skyline", "Shipping containers port"]
+    },
+    {
+      "id": "cheyenne-mountain", "name": "Stargate Command", "country": "SG1", "region": "Cheyenne Mountain, Earth", "continent": "Science Fiction",
+      "type": "underground", "arch": "space-port",
+      "blurb": "Twenty-eight levels under a mountain in Colorado, with a ring in the basement that opens onto anywhere in the galaxy. Concrete, klaxons, and the most consequential blast door on Earth.",
+      "about": "The joke that carries ten seasons is bureaucratic: humanity's gate to the galaxy is run by the US Air Force out of a converted missile complex, with budget meetings and paperwork. The gate room is the most familiar set in television science fiction, and the habit of dialling somewhere new every week is exactly what made the format work.",
+      "tags": ["the gate room", "twenty-eight levels", "the iris", "chevron seven"],
+      "climate": {
+        "tempHigh": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "tempLow":  [17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+      },
+      "crowd":      [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+      "costTier": 1,
+      "r": {
+        "underground": 96, "technology": 92, "spaceTravel": 88, "questing": 92,
+        "intrigue": 82, "combat": 68, "libraries": 62, "history": 68, "artefacts": 88,
+        "safety": 68, "lawAndOrder": 82, "warRisk": 45, "soloFemaleSafety": 72,
+        "comfort": 45, "luxury": 8, "healing": 78, "hospitality": 45, "foodScene": 32,
+        "feasting": 25, "taverns": 12, "ale": 22, "markets": 5, "shopping": 5,
+        "familyFriendly": 22, "seniors": 32, "fellowship": 92, "peoples": 55,
+        "commonTongue": 100, "magic": 12, "monsters": 32, "stargazing": 0, "scenery": 12,
+        "wilderness": 0, "cities": 25, "gettingThere": 88, "gettingBack": 82
+      },
+      "photos": ["Missile silo blast door", "Underground bunker corridor concrete", "Military control room monitors", "Cheyenne Mountain Colorado", "Reinforced tunnel entrance mountain", "Server room military facility"]
+    },
+    {
+      "id": "cimmeria-sg1", "name": "Cimmeria", "country": "SG1", "region": "Through the Gate", "continent": "Science Fiction",
+      "type": "forest", "arch": "pastoral-idyll",
+      "blurb": "A Norse-looking world of longhouses and standing stones, protected by a device that strips a Goa'uld out of its host and drops it in a labyrinth. The locals call it Thor's Hammer.",
+      "about": "Cimmeria is where Stargate's mythology clicks into place: the Asgard are the Norse gods, they protect human worlds from the Goa'uld, and the protection is a machine. Teal'c gets caught by it, and the team have to destroy the one thing keeping the whole planet safe in order to get him out — which comes back on them three seasons later.",
+      "tags": ["thor's hammer", "asgard", "longhouses", "the labyrinth"],
+      "climate": {
+        "tempHigh": [1, 2, 5, 9, 14, 18, 20, 19, 15, 10, 5, 2],
+        "tempLow":  [-6, -6, -3, 1, 5, 9, 11, 11, 8, 4, 0, -4],
+        "rainDays": [13, 11, 11, 10, 9, 8, 8, 9, 10, 12, 13, 13],
+        "sunHours": [1, 2, 4, 5, 7, 8, 7, 6, 4, 3, 1, 1],
+        "humidity": [86, 85, 83, 80, 78, 77, 77, 79, 82, 85, 87, 87],
+        "snowDepth": [45, 48, 32, 10, 1, 0, 0, 0, 0, 4, 20, 38]
+      },
+      "crowd":      [18, 18, 22, 28, 36, 44, 48, 46, 38, 28, 22, 18],
+      "costTier": 1,
+      "r": {
+        "forests": 92, "mountains": 72, "wilderness": 82, "scenery": 88, "hiking": 82,
+        "localCulture": 92, "history": 82, "artefacts": 78, "temples": 68, "technology": 72,
+        "feasting": 82, "ale": 82, "foodScene": 62, "music": 78, "festivals": 62,
+        "hospitality": 88, "safety": 62, "lawAndOrder": 62, "warRisk": 45,
+        "soloFemaleSafety": 68, "comfort": 45, "luxury": 15, "healing": 55,
+        "familyFriendly": 62, "seniors": 45, "stargazing": 82, "underground": 68,
+        "monsters": 55, "combat": 62, "questing": 78, "magic": 32, "commonTongue": 78,
+        "gettingThere": 62, "gettingBack": 68
+      },
+      "photos": ["Norwegian stave church", "Viking longhouse reconstruction", "Standing stones in snow forest", "Nordic forest winter light", "Turf roofed wooden houses", "Runestone carved standing"]
+    },
+    {
+      "id": "nox-forest", "name": "The Nox Forest", "country": "SG1", "region": "Through the Gate", "continent": "Science Fiction",
+      "type": "forest", "arch": "elven-refuge",
+      "blurb": "An old forest whose people are so far ahead of you that they have no interest in weapons, no interest in your war, and a city they keep hidden in the air above the trees until they need it.",
+      "about": "The Nox raise the dead, hide an entire floating city, and politely decline to help anybody's military — the first time Stargate suggests that being more advanced might mean caring less about the plot. The very young do not always do as they are told is the most graceful dressing-down in the franchise.",
+      "tags": ["the nox", "floating city", "pacifists", "raising the dead"],
+      "climate": {
+        "tempHigh": [10, 11, 14, 17, 21, 24, 26, 25, 22, 17, 13, 11],
+        "tempLow":  [4, 4, 6, 9, 12, 15, 17, 17, 14, 10, 7, 5],
+        "rainDays": [12, 11, 11, 10, 9, 8, 7, 8, 9, 11, 12, 12],
+        "sunHours": [3, 4, 5, 6, 7, 8, 8, 7, 6, 4, 3, 3],
+        "humidity": [85, 84, 82, 80, 78, 76, 75, 77, 80, 83, 85, 85]
+      },
+      "crowd":      [8, 8, 9, 11, 13, 15, 16, 16, 14, 11, 9, 8],
+      "costTier": 2,
+      "r": {
+        "forests": 100, "wilderness": 88, "scenery": 96, "beasts": 88, "hiking": 78,
+        "healing": 96, "magic": 78, "technology": 96, "timeStrange": 72, "music": 88,
+        "localCulture": 92, "history": 88, "vegetarian": 96, "foodScene": 62,
+        "safety": 88, "warRisk": 88, "soloFemaleSafety": 88, "comfort": 55,
+        "hospitality": 62, "luxury": 32, "familyFriendly": 72, "seniors": 68,
+        "cities": 32, "markets": 5, "shopping": 2, "taverns": 2, "ale": 5,
+        "libraries": 45, "stargazing": 72, "combat": 8, "monsters": 12,
+        "commonTongue": 55, "peoples": 42, "gettingThere": 42, "gettingBack": 62
+      },
+      "photos": ["Old growth forest moss light", "Mist through tall trees", "Sunbeams in ancient woodland", "Fern forest undergrowth", "Giant trees canopy from below", "Forest clearing morning light"]
+    },
+    {
+      "id": "tollana", "name": "Tollana", "country": "SG1", "region": "Through the Gate", "continent": "Science Fiction",
+      "type": "city", "arch": "utopia",
+      "blurb": "An immaculate city belonging to people who will not share their technology with you, at all, ever, and who turn out to have been entirely right about why. Ion cannons on the ridge; superb public transport.",
+      "about": "The Tollan refuse to give humans anything, because the last time they helped a neighbouring civilisation that civilisation destroyed itself within a generation. They are proved right, and then killed anyway when the Goa'uld arrive with ships their cannons cannot touch. Stargate's grimmest hour is about a smug people being correct and losing regardless.",
+      "tags": ["ion cannons", "no technology sharing", "the curia", "destroyed"],
+      "climate": {
+        "tempHigh": [15, 16, 18, 21, 24, 27, 29, 29, 26, 22, 18, 16],
+        "tempLow":  [7, 8, 9, 12, 15, 18, 20, 20, 18, 14, 10, 8],
+        "rainDays": [8, 7, 6, 5, 4, 3, 2, 2, 4, 6, 7, 8],
+        "sunHours": [6, 7, 8, 9, 10, 11, 11, 11, 9, 8, 7, 6],
+        "humidity": [65, 64, 63, 61, 58, 55, 53, 54, 58, 61, 64, 65]
+      },
+      "crowd":      [42, 42, 44, 48, 52, 56, 58, 58, 54, 48, 44, 42],
+      "costTier": 3,
+      "r": {
+        "cities": 92, "technology": 100, "architecture": 96, "comfort": 96, "luxury": 82,
+        "healing": 96, "libraries": 92, "history": 78, "scenery": 78, "safety": 92,
+        "lawAndOrder": 92, "warRisk": 62, "soloFemaleSafety": 92, "foodScene": 78,
+        "feasting": 62, "wine": 72, "markets": 45, "shopping": 45, "festivals": 45,
+        "music": 72, "intrigue": 72, "familyFriendly": 78, "seniors": 82,
+        "hospitality": 32, "stargazing": 72, "artefacts": 72, "combat": 42,
+        "commonTongue": 78, "magic": 5, "questing": 45, "peoples": 42,
+        "gettingThere": 55, "gettingBack": 62
+      },
+      "photos": ["Modernist white city buildings", "Clean city plaza fountains", "Minimalist architecture concrete", "Elevated monorail city", "Glass pavilion garden", "Ordered city aerial view"]
+    },
+    {
+      "id": "sateda", "name": "Sateda", "country": "SG1", "region": "The Pegasus Galaxy", "continent": "Science Fiction",
+      "type": "ruins", "arch": "lost-world",
+      "blurb": "A ruined industrial city on a world the Wraith emptied in a single day, silent now except for wind and whatever machinery the Wraith left running. Ronon Dex's home, revisited as a hunting ground.",
+      "about": "Sateda is Atlantis's best use of its own premise: a militarised, industrial society that fought hard and lost anyway, shown only after the fact. Ronon is brought back there to be hunted for sport, and the episode is really about a man walking down his own street and finding it exactly as he left it, minus every single person.",
+      "tags": ["the wraith", "ronon", "culled", "the runner"],
+      "climate": {
+        "tempHigh": [2, 3, 7, 12, 17, 21, 23, 22, 18, 12, 6, 3],
+        "tempLow":  [-7, -6, -3, 2, 6, 10, 12, 12, 9, 4, 0, -5],
+        "rainDays": [12, 11, 11, 10, 10, 9, 8, 9, 10, 12, 13, 13],
+        "sunHours": [2, 3, 4, 5, 7, 8, 8, 7, 5, 4, 2, 2],
+        "humidity": [84, 83, 81, 78, 76, 74, 73, 75, 79, 82, 84, 85],
+        "snowDepth": [35, 38, 25, 8, 0, 0, 0, 0, 0, 3, 15, 30]
+      },
+      "crowd":      [4, 4, 5, 6, 8, 9, 10, 10, 8, 6, 5, 4],
+      "costTier": 1,
+      "r": {
+        "ruins": 96, "cities": 62, "wilderness": 72, "history": 82, "artefacts": 68,
+        "technology": 62, "questing": 82, "combat": 78, "monsters": 82, "adrenaline": 78,
+        "architecture": 55, "scenery": 42, "safety": 12, "survivability": 32,
+        "soloFemaleSafety": 22, "comfort": 8, "luxury": 2, "healing": 12,
+        "hospitality": 8, "foodScene": 8, "feasting": 5, "taverns": 5, "ale": 12,
+        "markets": 2, "shopping": 5, "libraries": 22, "familyFriendly": 2, "seniors": 5,
+        "stargazing": 62, "peoples": 12, "commonTongue": 78, "magic": 5,
+        "lawAndOrder": 5, "warRisk": 22, "gettingThere": 45, "gettingBack": 48
+      },
+      "photos": ["Bombed city ruins street", "Abandoned industrial city", "Ruined apartment blocks snow", "Empty street rubble", "Derelict factory interior", "Overgrown ruined buildings"]
+    },
+    {
+      "id": "wraith-hive", "name": "A Wraith Hive Ship", "country": "SG1", "region": "The Pegasus Galaxy", "continent": "Science Fiction",
+      "type": "vessel", "arch": "dark-realm",
+      "blurb": "A grown ship the size of a city, with corridors that flex, dormitories of cocooned people being kept alive for later, and a queen who will ask you a question you are not able to lie to.",
+      "about": "The Wraith hibernate for centuries and wake to cull, and the hive is the best thing Atlantis ever designed: nothing is built, everything is grown, and the humans stored in the walls are livestock. The genuinely frightening idea underneath the show is that the Ancients fought these and lost, and left the galaxy to them.",
+      "tags": ["culling", "hive queen", "cocoons", "grown not built"],
+      "climate": {
+        "tempHigh": [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "tempLow":  [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+      },
+      "crowd":      [45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45],
+      "costTier": 1,
+      "r": {
+        "spaceTravel": 92, "technology": 88, "monsters": 100, "combat": 92, "undead": 72,
+        "adrenaline": 92, "questing": 88, "intrigue": 78, "architecture": 72,
+        "underground": 78, "safety": 0, "survivability": 2, "soloFemaleSafety": 5,
+        "comfort": 5, "luxury": 2, "healing": 8, "hospitality": 0, "foodScene": 0,
+        "feasting": 0, "vegetarian": 2, "taverns": 0, "ale": 0, "markets": 0,
+        "shopping": 0, "cities": 22, "libraries": 8, "familyFriendly": 0, "seniors": 0,
+        "stargazing": 42, "scenery": 25, "peoples": 25, "commonTongue": 45, "magic": 25,
+        "history": 55, "lawAndOrder": 12, "warRisk": 5, "gettingThere": 15, "gettingBack": 5
+      },
+      "photos": ["Cave wall smooth rock", "Termite mound Australia", "Coral polyps close up", "Cocoon chrysalis macro", "Dim red lit corridor", "Coral structure underwater"]
+    }
+  ]
+}

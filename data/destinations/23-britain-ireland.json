@@ -28,6 +28,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 30,
         "liveMusic": 96, "bars": 92, "clubbing": 92, "sports": 98, "festivals": 88,
         "museums": 88, "artScene": 88, "theatre": 85, "architecture": 82, "historicSites": 78,
         "foodScene": 88, "streetFood": 82, "markets": 85, "shopping": 90, "coffee": 85,
@@ -72,6 +73,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 45,
         "museums": 92, "historicSites": 88, "architecture": 92, "artScene": 88, "liveMusic": 96,
         "bars": 90, "clubbing": 88, "sports": 96, "festivals": 85, "theatre": 82,
         "foodScene": 82, "markets": 78, "shopping": 82, "coffee": 82, "beer": 88, "beaches": 55,
@@ -97,6 +99,7 @@
       "lon": -1.081,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "Two thousand years of city inside a complete set of medieval walls — Roman fortress, Viking capital, and a cathedral with the largest expanse of medieval stained glass in the world.",
       "tags": ["city walls", "the shambles", "minster", "viking"],
       "climate": {
@@ -114,6 +117,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 94,
         "historicSites": 98, "architecture": 96, "museums": 92, "religiousSites": 92,
         "walkability": 96, "localCulture": 85, "markets": 82, "artScene": 72, "foodScene": 85,
         "fineDining": 82, "beer": 92, "coffee": 85, "bars": 82, "shopping": 82, "romance": 85,
@@ -139,6 +143,7 @@
       "lon": -1.258,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.25,
       "blurb": "Eight hundred years of college quadrangles, punts on the river, libraries you need permission to enter, and an intense unspoken rivalry that surfaces once a year on the Thames.",
       "tags": ["colleges", "punting", "libraries", "the boat race"],
       "climate": {
@@ -156,6 +161,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 84,
         "historicSites": 96, "architecture": 98, "museums": 94, "religiousSites": 88,
         "artScene": 82, "theatre": 82, "localCulture": 88, "walkability": 94, "cycling": 92,
         "romance": 88, "foodScene": 82, "fineDining": 82, "beer": 88, "coffee": 88, "bars": 78,
@@ -198,6 +204,7 @@
         "luxury": 335
       },
       "r": {
+        "oldTown": 45,
         "artScene": 96, "liveMusic": 92, "bars": 90, "clubbing": 88, "festivals": 92,
         "museums": 85, "historicSites": 82, "architecture": 88, "theatre": 82, "foodScene": 90,
         "streetFood": 88, "markets": 88, "coffee": 92, "beer": 92, "vegan": 96, "vegetarian": 92,
@@ -240,6 +247,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 40,
         "liveMusic": 98, "bars": 92, "clubbing": 88, "museums": 94, "artScene": 92,
         "architecture": 92, "theatre": 88, "festivals": 88, "historicSites": 78, "foodScene": 88,
         "markets": 78, "shopping": 90, "coffee": 85, "beer": 90, "vegan": 88, "walkability": 82,
@@ -283,6 +291,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 30,
         "historicSites": 88, "museums": 90, "architecture": 78, "localCulture": 92,
         "artScene": 78, "liveMusic": 88, "bars": 88, "beer": 90, "foodScene": 85, "markets": 85,
         "scenery": 92, "hiking": 85, "cycling": 78, "roadTrip": 92, "nationalParks": 72,
@@ -308,6 +317,7 @@
       "lon": -3.995,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "Slate, sheep and serious mountains — the training ground for Everest, the fastest zip line in the world, and castles Edward I built to make a point.",
       "tags": ["yr wyddfa", "slate", "castles", "zip lines"],
       "climate": {
@@ -350,6 +360,7 @@
       "lon": -5.212,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2.5,
       "blurb": "Britain's only coastal national park: 186 miles of clifftop path, puffins on Skomer, and beaches that on the four good days a year could pass for the Caribbean.",
       "tags": ["coast path", "puffins", "st davids", "surf"],
       "climate": {
@@ -393,6 +404,7 @@
       "lon": -2.15,
       "type": "region",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "The edge of the Roman empire, running 73 miles coast to coast, with the darkest skies in England above it and castles on empty beaches to the east.",
       "tags": ["hadrian's wall", "dark skies", "bamburgh", "holy island"],
       "climate": {
@@ -412,6 +424,7 @@
         "luxury": 275
       },
       "r": {
+        "oldTown": 60,
         "historicSites": 96, "museums": 82, "architecture": 82, "scenery": 90, "hiking": 92,
         "nationalParks": 88, "stargazing": 98, "cycling": 88, "beaches": 82, "wildlife": 82,
         "forests": 78, "religiousSites": 82, "roadTrip": 88, "englishSpoken": 100, "safety": 92,
@@ -436,6 +449,7 @@
       "lon": -1.83,
       "type": "region",
       "arch": "wine-country",
+      "transfer": 1.5,
       "blurb": "Honey-coloured limestone villages in rolling hills, grown rich on wool six hundred years ago and preserved by having nothing much happen since.",
       "tags": ["limestone villages", "wool churches", "pubs", "gardens"],
       "climate": {
@@ -453,6 +467,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 70,
         "architecture": 92, "historicSites": 88, "scenery": 90, "localCulture": 82,
         "walkability": 85, "hiking": 88, "cycling": 88, "romance": 92, "foodScene": 88,
         "fineDining": 88, "beer": 90, "markets": 78, "religiousSites": 82, "shopping": 78,
@@ -478,6 +493,7 @@
       "lon": -1.79,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "Britain's first national park and still its busiest — gritstone edges for climbers, limestone dales for walkers, and Chatsworth if the weather turns, which it will.",
       "tags": ["gritstone edges", "dales", "chatsworth", "kinder scout"],
       "climate": {
@@ -539,6 +555,7 @@
         "luxury": 355
       },
       "r": {
+        "oldTown": 45,
         "lgbtqScene": 100, "bars": 92, "clubbing": 90, "liveMusic": 90, "festivals": 92,
         "artScene": 92, "shopping": 90, "markets": 88, "foodScene": 90, "vegan": 96,
         "vegetarian": 94, "coffee": 90, "beer": 85, "beaches": 68, "swimming": 62, "surfing": 55,
@@ -564,6 +581,7 @@
       "lon": -2.25,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 1.25,
       "blurb": "Ninety-five miles of cliff recording 185 million years of geology, with Durdle Door, a fossil beach where Mary Anning changed palaeontology, and unexpectedly good swimming.",
       "tags": ["durdle door", "fossils", "chesil beach", "lulworth"],
       "climate": {
@@ -607,6 +625,7 @@
       "lon": -7.15,
       "type": "island",
       "arch": "wilderness-park",
+      "transfer": 1.5,
       "blurb": "A hundred-mile chain of islands off the Atlantic edge — white shell beaches over turquoise water, standing stones older than Stonehenge, and Gaelic still the everyday language.",
       "tags": ["callanish stones", "machair", "harris tweed", "gaelic"],
       "climate": {
@@ -668,6 +687,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 50,
         "foodScene": 94, "markets": 96, "fineDining": 88, "streetFood": 82, "beer": 92,
         "bars": 90, "liveMusic": 92, "coffee": 85, "festivals": 85, "historicSites": 82,
         "architecture": 78, "museums": 75, "localCulture": 90, "beaches": 68, "scenery": 88,
@@ -693,6 +713,7 @@
       "lon": -8.35,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "Ireland's forgotten corner: Slieve League's cliffs are three times the height of the Cliffs of Moher, and almost nobody is standing on them.",
       "tags": ["slieve league", "gaeltacht", "surf", "empty"],
       "climate": {

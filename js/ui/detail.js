@@ -4,7 +4,7 @@ import * as store from '../state.js';
 import { photosFor, imgEl } from '../images.js';
 import {
   scoreDestination, monthCurve, MONTHS, MONTHS_SHORT, estimateFlightHours, dailyCost, crowdWord,
-  COST_TIERS, costTierLabel, periodLabel
+  COST_TIERS, costTierLabel, periodLabel, groundNote
 } from '../scoring.js';
 import {
   scoreRing, breakdownTable, ragChip, toggleButton, infoButton, hasInfo, openInfo, mapsLink
@@ -141,7 +141,10 @@ export function renderDetail(root, id, { go }) {
           dest.costTier
             ? null
             : fact('🧾', `${nights} nights`, `£${(dayCost * nights).toLocaleString('en-GB')}`, 'excl. flights'),
-          flightHours != null ? fact('✈️', 'Flight', `~${flightHours}h`, prefs.home.label) : null
+          flightHours != null ? fact('✈️', 'Flight', `~${flightHours}h`, prefs.home.label) : null,
+          groundNote(dest)
+            ? fact('🚌', 'From the airport', `~${Math.round(dest.transferHours * 2) / 2}h`, 'by road, rail or ferry')
+            : null
         )
       ),
 

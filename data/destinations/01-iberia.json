@@ -29,6 +29,7 @@
         "luxury": 330
       },
       "r": {
+        "oldTown": 85,
         "architecture": 98, "museums": 80, "artScene": 90, "historicSites": 74, "foodScene": 92,
         "fineDining": 86, "markets": 90, "beaches": 72, "swimming": 70, "bars": 88,
         "clubbing": 88, "liveMusic": 78, "festivals": 80, "shopping": 85, "sports": 94,
@@ -73,6 +74,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 70,
         "museums": 96, "artScene": 88, "architecture": 80, "historicSites": 72, "theatre": 82,
         "foodScene": 92, "fineDining": 88, "markets": 82, "bars": 92, "clubbing": 90,
         "liveMusic": 80, "festivals": 76, "shopping": 84, "sports": 96, "walkability": 84,
@@ -116,6 +118,7 @@
         "luxury": 270
       },
       "r": {
+        "oldTown": 92,
         "historicSites": 94, "architecture": 92, "religiousSites": 88, "museums": 62,
         "localCulture": 92, "festivals": 94, "liveMusic": 82, "foodScene": 88, "markets": 72,
         "bars": 82, "walkability": 92, "publicTransport": 62, "romance": 88, "safety": 76,
@@ -141,6 +144,7 @@
       "lon": -3.598,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.25,
       "blurb": "The Alhambra above, free tapas below, and the Sierra Nevada close enough to ski in the morning and sit in the sun by lunch.",
       "tags": ["history", "architecture", "tapas", "mountains"],
       "climate": {
@@ -159,6 +163,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 94,
         "historicSites": 96, "architecture": 94, "religiousSites": 82, "localCulture": 86,
         "foodScene": 84, "markets": 68, "bars": 78, "walkability": 88, "mountains": 78,
         "skiing": 62, "hiking": 78, "scenery": 76, "valueForMoney": 90, "backpacker": 78,
@@ -202,6 +207,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 80,
         "architecture": 82, "foodScene": 88, "markets": 88, "beaches": 76, "swimming": 74,
         "cycling": 92, "walkability": 84, "publicTransport": 80, "festivals": 88, "bars": 78,
         "clubbing": 72, "safety": 78, "valueForMoney": 84, "digitalNomad": 84,
@@ -227,6 +233,7 @@
       "lon": -1.981,
       "type": "city",
       "arch": "coastal-city",
+      "transfer": 1,
       "blurb": "A perfect shell-shaped bay, more Michelin stars per head than almost anywhere, and pintxos bars you could happily never leave.",
       "tags": ["food", "beach", "surfing", "elegant"],
       "climate": {
@@ -245,6 +252,7 @@
         "luxury": 350
       },
       "r": {
+        "oldTown": 78,
         "foodScene": 99, "fineDining": 98, "markets": 78, "beaches": 88, "swimming": 72,
         "surfing": 82, "walkability": 92, "scenery": 82, "romance": 86, "bars": 84,
         "localCulture": 82, "wine": 82, "safety": 88, "cleanliness": 86, "valueForMoney": 40,
@@ -288,6 +296,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 72,
         "beaches": 92, "swimming": 88, "sailing": 88, "snorkelling": 62, "kayaking": 78,
         "waterSports": 78, "cycling": 96, "hiking": 84, "mountains": 78, "scenery": 88,
         "climbing": 68, "golf": 78, "foodScene": 78, "fineDining": 76, "wine": 72,
@@ -332,6 +341,7 @@
         "luxury": 480
       },
       "r": {
+        "oldTown": 75,
         "clubbing": 100, "bars": 94, "groupParty": 98, "beaches": 88, "swimming": 86,
         "sailing": 88, "snorkelling": 62, "waterSports": 78, "liveMusic": 88, "luxury": 92,
         "romance": 72, "scenery": 78, "hiking": 55, "foodScene": 76, "fineDining": 82,
@@ -376,6 +386,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 55,
         "volcanic": 95, "mountains": 88, "hiking": 88, "scenery": 90, "stargazing": 96,
         "nationalParks": 88, "beaches": 72, "swimming": 78, "wildlife": 62, "snorkelling": 58,
         "scuba": 62, "surfing": 62, "waterSports": 68, "roadTrip": 82, "themeParks": 82,
@@ -420,6 +431,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 55,
         "beaches": 86, "swimming": 84, "desert": 62, "volcanic": 78, "mountains": 78,
         "hiking": 82, "scenery": 82, "stargazing": 82, "surfing": 62, "waterSports": 72,
         "scuba": 58, "roadTrip": 78, "lgbtqScene": 92, "familyYoungKids": 86, "seniors": 84,
@@ -463,6 +475,7 @@
         "luxury": 230
       },
       "r": {
+        "oldTown": 25,
         "volcanic": 98, "scenery": 88, "nationalParks": 85, "desert": 68, "stargazing": 88,
         "hiking": 74, "beaches": 80, "swimming": 78, "surfing": 72, "waterSports": 88,
         "scuba": 68, "kayaking": 62, "artScene": 78, "architecture": 72, "wine": 72,
@@ -506,6 +519,7 @@
         "luxury": 400
       },
       "r": {
+        "oldTown": 55,
         "beaches": 82, "swimming": 84, "golf": 96, "luxury": 92, "sailing": 82,
         "waterSports": 74, "bars": 82, "clubbing": 80, "groupParty": 84, "shopping": 82,
         "fineDining": 84, "wellness": 82, "familyYoungKids": 84, "seniors": 86, "hiking": 62,
@@ -531,6 +545,7 @@
       "lon": -4.858,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 1.5,
       "blurb": "Green, wet, wildly under-visited limestone mountains twenty miles from the sea — cider, blue cheese and some of Spain's best walking.",
       "tags": ["hiking", "mountains", "wildlife", "quiet"],
       "climate": {
@@ -592,6 +607,7 @@
         "luxury": 280
       },
       "r": {
+        "oldTown": 88,
         "architecture": 86, "historicSites": 80, "museums": 72, "artScene": 78, "foodScene": 88,
         "markets": 82, "liveMusic": 80, "bars": 86, "clubbing": 84, "walkability": 76,
         "publicTransport": 78, "scenery": 74, "beaches": 68, "surfing": 86, "swimming": 58,
@@ -636,6 +652,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 93,
         "wine": 96, "architecture": 88, "historicSites": 80, "foodScene": 84, "markets": 72,
         "bars": 80, "liveMusic": 68, "walkability": 74, "scenery": 76, "lakesRivers": 72,
         "romance": 82, "valueForMoney": 88, "backpacker": 82, "soloTravel": 78,
@@ -680,6 +697,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 60,
         "beaches": 94, "swimming": 84, "scenery": 84, "kayaking": 86, "surfing": 80,
         "sailing": 70, "golf": 94, "waterSports": 76, "fishing": 72, "cycling": 68, "hiking": 66,
         "familyYoungKids": 90, "seniors": 88, "romance": 76, "valueForMoney": 84,
@@ -723,6 +741,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 45,
         "hiking": 96, "scenery": 94, "forests": 88, "mountains": 86, "nationalParks": 82,
         "volcanic": 68, "wildlife": 62, "beaches": 42, "swimming": 62, "scuba": 55,
         "kayaking": 58, "wine": 78, "festivals": 78, "romance": 80, "seniors": 82,
@@ -767,6 +786,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 55,
         "volcanic": 94, "scenery": 94, "lakesRivers": 90, "hiking": 90, "wildlife": 88,
         "nationalParks": 80, "forests": 78, "wellness": 82, "kayaking": 72, "scuba": 76,
         "swimming": 58, "surfing": 62, "fishing": 78, "stargazing": 78, "ecoFriendly": 92,

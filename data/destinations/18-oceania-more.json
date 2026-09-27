@@ -11,6 +11,7 @@
       "lon": 143.104,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "243km of road built by returning soldiers, running past limestone stacks, rainforest gullies full of koalas, and surf beaches that face straight into the Southern Ocean.",
       "tags": ["twelve apostles", "koalas", "surf coast", "road trip"],
       "climate": {
@@ -72,6 +73,7 @@
         "luxury": 360
       },
       "r": {
+        "oldTown": 20,
         "wine": 98, "foodScene": 90, "fineDining": 88, "markets": 90, "coffee": 90,
         "festivals": 94, "artScene": 85, "museums": 82, "theatre": 85, "liveMusic": 85,
         "architecture": 78, "walkability": 88, "cycling": 82, "beaches": 78, "swimming": 68,
@@ -201,6 +203,7 @@
         "luxury": 370
       },
       "r": {
+        "oldTown": 10,
         "beaches": 82, "swimming": 82, "surfing": 88, "sailing": 78, "kayaking": 78,
         "islands": 82, "wildlife": 82, "nationalParks": 82, "hiking": 78, "scenery": 78,
         "museums": 82, "artScene": 82, "theatre": 78, "foodScene": 85, "coffee": 92, "bars": 82,
@@ -245,6 +248,7 @@
         "luxury": 340
       },
       "r": {
+        "oldTown": 20,
         "museums": 92, "artScene": 88, "theatre": 88, "liveMusic": 88, "festivals": 85,
         "coffee": 98, "beer": 94, "foodScene": 90, "fineDining": 82, "bars": 88, "markets": 78,
         "walkability": 92, "publicTransport": 78, "cycling": 68, "hiking": 82, "scenery": 85,
@@ -288,6 +292,7 @@
         "luxury": 320
       },
       "r": {
+        "oldTown": 40,
         "wine": 96, "foodScene": 88, "fineDining": 85, "markets": 85, "architecture": 92,
         "historicSites": 82, "festivals": 85, "artScene": 78, "cycling": 92, "beaches": 68,
         "wildlife": 82, "hiking": 72, "scenery": 82, "walkability": 85, "romance": 88,
@@ -313,6 +318,7 @@
       "lon": 173.68,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 2.5,
       "blurb": "A submarine canyon a kilometre offshore brings sperm whales, dusky dolphins and albatross within sight of snow-capped mountains. Crayfish straight off the boat.",
       "tags": ["sperm whales", "dolphins", "crayfish", "seals"],
       "climate": {

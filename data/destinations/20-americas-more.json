@@ -28,6 +28,7 @@
         "luxury": 380
       },
       "r": {
+        "oldTown": 10,
         "liveMusic": 100, "bars": 92, "festivals": 96, "foodScene": 92, "streetFood": 88,
         "artScene": 85, "museums": 72, "theatre": 72, "coffee": 88, "beer": 92, "markets": 78,
         "walkability": 68, "cycling": 78, "swimming": 82, "lakesRivers": 85, "hiking": 72,
@@ -113,6 +114,7 @@
         "luxury": 370
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 94, "architecture": 96, "museums": 78, "artScene": 82,
         "walkability": 94, "localCulture": 88, "scenery": 88, "romance": 92, "foodScene": 88,
         "fineDining": 85, "bars": 88, "liveMusic": 82, "markets": 72, "beaches": 68,
@@ -138,6 +140,7 @@
       "lon": -68.273,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 1.5,
       "blurb": "Granite headlands, spruce and 45 miles of carriage roads built by a Rockefeller who hated cars. The first place in the United States to see the sunrise.",
       "tags": ["cadillac mountain", "lobster", "carriage roads", "leaf peeping"],
       "climate": {
@@ -182,6 +185,7 @@
       "lon": -83.489,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 1.25,
       "blurb": "The most visited national park in America and still enormous enough to lose yourself in — 800 miles of trail, 1,500 bears, and the blue haze the Cherokee named it for.",
       "tags": ["blue ridge", "black bears", "appalachian trail", "wildflowers"],
       "climate": {
@@ -225,6 +229,7 @@
       "lon": -60.7,
       "type": "coast",
       "arch": "wilderness-park",
+      "transfer": 1.5,
       "blurb": "The Cabot Trail winding along cliffs above the Atlantic, fishing villages painted in primary colours, Gaelic still spoken in places, and the world's highest tides next door.",
       "tags": ["cabot trail", "lobster", "gaelic", "bay of fundy"],
       "climate": {
@@ -269,6 +274,7 @@
       "lon": -89.623,
       "type": "region",
       "arch": "jungle-eco",
+      "transfer": 1,
       "blurb": "Maya temples pushing up through rainforest canopy, with howler monkeys at dawn and toucans overhead. Climb Temple IV at sunrise and there is nothing above the trees but pyramids.",
       "tags": ["maya", "rainforest", "howler monkeys", "temple iv"],
       "climate": {
@@ -311,6 +317,7 @@
       "lon": -85.956,
       "type": "lake",
       "arch": "historic-city",
+      "transfer": 1,
       "blurb": "A candy-coloured colonial city on a freshwater sea, with an island of two volcanoes in the middle of it and Pacific surf ninety minutes west. Central America at half the price.",
       "tags": ["colonial", "two volcanoes", "lake nicaragua", "cheap"],
       "climate": {
@@ -328,6 +335,7 @@
         "luxury": 140
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 88, "architecture": 92, "localCulture": 88, "markets": 82,
         "religiousSites": 78, "volcanic": 94, "lakesRivers": 92, "hiking": 88, "kayaking": 85,
         "swimming": 72, "scenery": 88, "wildlife": 82, "surfing": 85, "adrenaline": 82,
@@ -525,6 +533,7 @@
       "lon": -65.44,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 2,
       "blurb": "Two small islands off Puerto Rico with wild horses on the roads, Flamenco Beach on every list of the world's best, and the brightest bioluminescent bay on earth.",
       "tags": ["bioluminescent bay", "wild horses", "flamenco beach", "former navy range"],
       "climate": {

@@ -28,6 +28,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 92,
         "historicSites": 100, "architecture": 92, "localCulture": 96, "religiousSites": 84,
         "mountains": 94, "hiking": 96, "scenery": 96, "markets": 90, "museums": 76,
         "adrenaline": 82, "stargazing": 84, "festivals": 88, "foodScene": 88, "streetFood": 86,
@@ -72,6 +73,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 65,
         "foodScene": 100, "fineDining": 98, "streetFood": 92, "markets": 88, "museums": 86,
         "historicSites": 86, "architecture": 84, "artScene": 80, "surfing": 86, "beaches": 62,
         "adrenaline": 78, "bars": 84, "clubbing": 84, "localCulture": 88, "shopping": 76,
@@ -98,6 +100,7 @@
       "lon": -73.253,
       "type": "region",
       "arch": "jungle-eco",
+      "transfer": 2,
       "blurb": "Riverboat and lodge country upstream of Iquitos — pink river dolphins, canopy walkways and the densest birdlife on the planet.",
       "tags": ["amazon", "wildlife", "riverboat", "canopy"],
       "climate": {
@@ -159,6 +162,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 35,
         "beaches": 92, "swimming": 84, "surfing": 82, "scenery": 100, "mountains": 86,
         "hiking": 84, "forests": 82, "climbing": 84, "adrenaline": 88, "liveMusic": 96,
         "festivals": 100, "localCulture": 94, "bars": 92, "clubbing": 92, "groupParty": 94,
@@ -203,6 +207,7 @@
         "luxury": 230
       },
       "r": {
+        "oldTown": 90,
         "localCulture": 100, "liveMusic": 98, "festivals": 100, "historicSites": 92,
         "architecture": 94, "religiousSites": 86, "artScene": 84, "museums": 72, "foodScene": 88,
         "streetFood": 88, "markets": 86, "beaches": 84, "swimming": 84, "surfing": 74,
@@ -332,6 +337,7 @@
         "luxury": 250
       },
       "r": {
+        "oldTown": 55,
         "foodScene": 94, "fineDining": 88, "wine": 96, "markets": 84, "architecture": 94,
         "museums": 86, "artScene": 90, "theatre": 92, "liveMusic": 92, "localCulture": 94,
         "historicSites": 78, "bars": 92, "clubbing": 94, "lgbtqScene": 90, "lgbtqSafety": 86,
@@ -358,6 +364,7 @@
       "lon": -72.263,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 1,
       "blurb": "The Perito Moreno glacier calving into a lake, and the granite spires of Fitz Roy above El Chaltén — Argentina's trekking capital.",
       "tags": ["glaciers", "trekking", "fitz roy", "wild"],
       "climate": {
@@ -464,6 +471,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 20,
         "wine": 100, "fineDining": 92, "foodScene": 92, "scenery": 88, "mountains": 92,
         "hiking": 84, "climbing": 86, "adrenaline": 86, "cycling": 88, "roadTrip": 88,
         "skiing": 62, "kayaking": 78, "wellness": 82, "romance": 90, "stargazing": 84,
@@ -507,6 +515,7 @@
         "luxury": 300
       },
       "r": {
+        "oldTown": 30,
         "wine": 96, "foodScene": 88, "fineDining": 84, "markets": 84, "museums": 84,
         "artScene": 82, "architecture": 76, "historicSites": 72, "mountains": 92, "skiing": 82,
         "hiking": 82, "cycling": 78, "bars": 84, "clubbing": 82, "shopping": 82,
@@ -533,6 +542,7 @@
       "lon": -68.2,
       "type": "region",
       "arch": "desert",
+      "transfer": 1.25,
       "blurb": "The driest non-polar desert on earth — salt flats with flamingos, geysers at dawn at 4,300m, and skies so clear the world's biggest telescopes live here.",
       "tags": ["stargazing", "salt flats", "geysers", "altitude"],
       "climate": {
@@ -576,6 +586,7 @@
       "lon": -73.407,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 3,
       "blurb": "Three granite towers over a turquoise lake, with the W and O circuits beneath them — arguably the finest trekking park on the planet. Ferocious wind.",
       "tags": ["trekking", "granite towers", "guanacos", "wind"],
       "climate": {
@@ -682,6 +693,7 @@
         "luxury": 280
       },
       "r": {
+        "oldTown": 96,
         "historicSites": 96, "architecture": 96, "localCulture": 92, "walkability": 90,
         "liveMusic": 90, "festivals": 86, "foodScene": 88, "streetFood": 86, "markets": 82,
         "bars": 90, "clubbing": 90, "groupParty": 88, "beaches": 72, "swimming": 78,
@@ -725,6 +737,7 @@
         "luxury": 220
       },
       "r": {
+        "oldTown": 25,
         "localCulture": 88, "artScene": 88, "museums": 80, "liveMusic": 88, "festivals": 90,
         "foodScene": 86, "streetFood": 86, "markets": 84, "coffee": 96, "bars": 90,
         "clubbing": 92, "groupParty": 88, "publicTransport": 88, "mountains": 80, "hiking": 76,
@@ -812,6 +825,7 @@
         "luxury": 220
       },
       "r": {
+        "oldTown": 92,
         "historicSites": 96, "architecture": 94, "religiousSites": 92, "localCulture": 90,
         "museums": 80, "markets": 88, "artScene": 76, "volcanic": 94, "mountains": 92,
         "hiking": 88, "scenery": 88, "adrenaline": 82, "climbing": 84, "wildlife": 76,
@@ -881,6 +895,7 @@
       "lon": -54.958,
       "type": "coast",
       "arch": "beach-resort",
+      "transfer": 2,
       "blurb": "Montevideo's easy pace, José Ignacio's low-key glamour and Punta del Este's high season — plus the most progressive society in Latin America.",
       "tags": ["beaches", "relaxed", "asado", "progressive"],
       "climate": {

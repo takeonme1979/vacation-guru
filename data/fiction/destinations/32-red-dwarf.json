@@ -1,0 +1,228 @@
+{
+  "_doc": "Red Dwarf — the ship, the shuttle, and six of the places the crew blunder into. The show's science-fiction ideas are consistently better than its budget, which is why a planet populated entirely by one man's clones still works thirty-five years later.",
+  "destinations": [
+    {
+      "id": "red-dwarf", "name": "Red Dwarf", "country": "RD", "region": "The Mining Ship", "continent": "Science Fiction",
+      "type": "vessel", "arch": "space-port",
+      "blurb": "Six miles long, five miles wide, four miles high, and empty. A JMC ore hauler crewed by one living human, one hologram of a dead one, a creature descended from a cat, and a computer with an IQ of six thousand who has forgotten most of it.",
+      "about": "The premise is grief played as farce: everyone Lister knew died of a radiation leak while he was in stasis for smuggling a pregnant cat aboard, and he wakes three million years later with the least helpful company imaginable. The ship is a corridor, a bunk room and a drive room, and it is one of the most convincingly lived-in spacecraft on television precisely because it is so obviously cheap.",
+      "tags": ["jmc mining ship", "stasis booth", "holly", "the last human"],
+      "climate": {
+        "tempHigh": [19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19],
+        "tempLow":  [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45]
+      },
+      "crowd":      [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+      "costTier": 1,
+      "r": {
+        "spaceTravel": 96, "technology": 78, "cities": 25, "architecture": 42,
+        "underground": 62, "wilderness": 32, "fellowship": 92, "intrigue": 55,
+        "questing": 62, "timeStrange": 82, "combat": 45, "monsters": 55, "undead": 45,
+        "adrenaline": 55, "foodScene": 32, "feasting": 42, "ale": 68, "taverns": 32,
+        "gambling": 45, "music": 42, "revels": 45, "comfort": 42, "luxury": 12,
+        "safety": 42, "lawAndOrder": 15, "soloFemaleSafety": 45, "healing": 45,
+        "hospitality": 45, "familyFriendly": 25, "seniors": 22, "libraries": 32,
+        "history": 45, "artefacts": 32, "stargazing": 78, "scenery": 25,
+        "markets": 12, "shopping": 22, "peoples": 25, "commonTongue": 92, "magic": 5,
+        "survivability": 55, "soloTravel": 45, "gettingThere": 22, "gettingBack": 8
+      },
+      "photos": ["Cargo ship engine room", "Red lit industrial corridor", "Metal bunk beds cabin", "Ship control room panels", "Vast empty warehouse interior", "Rusty industrial ship interior"]
+    },
+    {
+      "id": "starbug", "name": "Starbug", "country": "RD", "region": "The Shuttle Bay", "continent": "Science Fiction",
+      "type": "vessel", "arch": "space-port",
+      "blurb": "A squat green transport with four legs, a permanent hull breach, tinned food, and a cockpit that has crashed on considerably more planets than it has landed on.",
+      "about": "Starbug becomes the show's real home for its middle years: two rooms, a table for arguments, and a hull that survives things it should not. The crash sequence — console sparking, everyone thrown left, then right, then a caption card — gets used so often it develops its own rhythm and eventually its own punchlines.",
+      "tags": ["hull breach", "the cockpit", "tinned food", "crashing"],
+      "climate": {
+        "tempHigh": [17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17],
+        "tempLow":  [13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55]
+      },
+      "crowd":      [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+      "costTier": 1,
+      "r": {
+        "spaceTravel": 88, "technology": 62, "fellowship": 96, "questing": 82,
+        "adrenaline": 78, "timeStrange": 72, "combat": 42, "intrigue": 62,
+        "comfort": 25, "luxury": 2, "foodScene": 22, "feasting": 25, "ale": 55,
+        "taverns": 12, "gambling": 55, "music": 42, "safety": 25, "survivability": 32,
+        "soloFemaleSafety": 45, "healing": 32, "hospitality": 42, "familyFriendly": 12,
+        "seniors": 8, "stargazing": 88, "scenery": 32, "libraries": 12, "markets": 5,
+        "shopping": 5, "cities": 2, "wilderness": 5, "monsters": 42, "peoples": 15,
+        "commonTongue": 92, "magic": 2, "gettingThere": 32, "gettingBack": 22
+      },
+      "photos": ["Small aircraft cockpit interior", "Helicopter cockpit controls", "Cramped submarine interior", "Green military transport vehicle", "Aircraft galley interior", "Cockpit windows at night"]
+    },
+    {
+      "id": "rimmerworld", "name": "Rimmerworld", "country": "RD", "region": "A Terraformed Colony", "continent": "Science Fiction",
+      "type": "planet", "arch": "dystopia",
+      "blurb": "A planet colonised entirely by clones of one man, six hundred years deep, with a legal system, a costume budget, and a total population who share one personality and one very long grudge.",
+      "about": "Rimmer is stranded, uses the cloning equipment to manufacture company, and by the time the others arrive there are millions of him running a paranoid feudal state. The joke is airtight: a society composed exclusively of Arnold Rimmer would still find somebody to look down on, and it does — the visitors, immediately, in a dungeon.",
+      "tags": ["clones", "six hundred years", "one personality", "the dungeons"],
+      "climate": {
+        "tempHigh": [8, 9, 12, 16, 20, 24, 26, 25, 22, 17, 12, 9],
+        "tempLow":  [1, 2, 4, 7, 11, 14, 16, 16, 13, 9, 5, 2],
+        "rainDays": [10, 9, 9, 8, 7, 6, 5, 5, 7, 9, 10, 11],
+        "sunHours": [3, 4, 5, 6, 8, 9, 9, 8, 7, 5, 3, 3],
+        "humidity": [78, 76, 74, 71, 68, 65, 63, 65, 70, 75, 78, 79]
+      },
+      "crowd":      [66, 66, 66, 68, 70, 72, 72, 72, 70, 68, 66, 66],
+      "costTier": 1,
+      "r": {
+        "cities": 68, "architecture": 62, "technology": 55, "intrigue": 88,
+        "combat": 62, "lawAndOrder": 62, "safety": 22, "soloFemaleSafety": 25,
+        "comfort": 32, "luxury": 25, "foodScene": 32, "feasting": 42, "ale": 45,
+        "taverns": 45, "markets": 45, "shopping": 32, "festivals": 42, "music": 32,
+        "peoples": 5, "localCulture": 62, "history": 68, "libraries": 45,
+        "familyFriendly": 12, "seniors": 22, "hospitality": 12, "healing": 32,
+        "questing": 68, "adrenaline": 62, "plains": 55, "wilderness": 45,
+        "scenery": 45, "stargazing": 62, "commonTongue": 92, "magic": 0,
+        "timeStrange": 55, "gettingThere": 25, "gettingBack": 15
+      },
+      "photos": ["Medieval walled town street", "Renaissance town square", "Stone dungeon interior", "Terraced hillside town", "Historical costume reenactment crowd", "Old town rooftops"]
+    },
+    {
+      "id": "backwards-earth", "name": "Backwards Earth", "country": "RD", "region": "A Parallel Earth", "continent": "Science Fiction",
+      "type": "planet", "arch": "wonderland",
+      "blurb": "An Earth where time runs the other way: meals are un-eaten, haircuts grow back in, and a bar brawl starts with everyone bleeding and ends with the furniture repaired and everybody friends.",
+      "about": "The best idea the show ever had and the cheapest to film — run the tape backwards and have the cast learn their lines phonetically. The crew stage a reverse pub fight as a public service, beginning with a wrecked bar and finishing with an orderly room, and it still works because the logic is followed all the way through.",
+      "tags": ["time runs backwards", "reverse bar brawl", "un-eating", "phonetic dialogue"],
+      "climate": {
+        "tempHigh": [7, 8, 11, 14, 17, 20, 22, 22, 19, 15, 10, 8],
+        "tempLow":  [2, 2, 3, 5, 8, 11, 13, 13, 11, 8, 5, 3],
+        "rainDays": [15, 12, 13, 12, 12, 11, 12, 12, 12, 14, 15, 16],
+        "sunHours": [2, 3, 4, 5, 6, 7, 6, 6, 5, 3, 2, 1],
+        "humidity": [86, 84, 81, 78, 76, 76, 77, 79, 82, 85, 87, 87]
+      },
+      "crowd":      [58, 58, 60, 62, 65, 68, 70, 70, 66, 62, 60, 60],
+      "costTier": 2,
+      "r": {
+        "timeStrange": 100, "cities": 78, "localCulture": 92, "peoples": 72,
+        "foodScene": 62, "feasting": 55, "ale": 72, "taverns": 82, "revels": 68,
+        "music": 62, "markets": 62, "shopping": 55, "festivals": 62, "comfort": 62,
+        "safety": 62, "lawAndOrder": 55, "soloFemaleSafety": 55, "healing": 88,
+        "hospitality": 68, "familyFriendly": 55, "seniors": 62, "scenery": 62,
+        "plains": 55, "forests": 45, "history": 72, "libraries": 55, "magic": 25,
+        "technology": 45, "adrenaline": 55, "questing": 55, "commonTongue": 32,
+        "stargazing": 45, "gettingThere": 25, "gettingBack": 32
+      },
+      "photos": ["English high street shops", "Traditional pub interior", "Village street with parked cars", "Town square on market day", "Suburban street houses", "Old station clock face"]
+    },
+    {
+      "id": "waxworld", "name": "Waxworld", "country": "RD", "region": "A Theme Park Gone Feral", "continent": "Science Fiction",
+      "type": "region", "arch": "wonderland",
+      "blurb": "An abandoned waxwork theme park on a colony world, left running long enough for the droids to declare war: Hero World against Villain World, Elvis and Gandhi against Caligula and the Third Reich, in earnest.",
+      "about": "The concept is the whole episode — wax droids carrying the memories of the people they depict, no supervision, and enough centuries to develop politics. Rimmer takes command of the good side because he has always wanted to be a general and marches them into a massacre, and Kryten wins the war by rewiring a pacifist.",
+      "tags": ["wax droids", "hero world", "villain world", "rimmer takes command"],
+      "climate": {
+        "tempHigh": [14, 15, 17, 19, 22, 25, 27, 27, 24, 20, 16, 14],
+        "tempLow":  [6, 6, 8, 10, 13, 16, 18, 18, 16, 12, 9, 7],
+        "rainDays": [8, 7, 7, 6, 5, 4, 3, 3, 5, 7, 8, 9],
+        "sunHours": [5, 6, 7, 8, 9, 10, 11, 10, 8, 7, 5, 5],
+        "humidity": [70, 69, 68, 66, 64, 61, 58, 60, 64, 67, 69, 70]
+      },
+      "crowd":      [34, 34, 34, 36, 38, 40, 42, 42, 38, 36, 34, 34],
+      "costTier": 1,
+      "r": {
+        "cities": 55, "architecture": 62, "ruins": 62, "technology": 62, "combat": 88,
+        "monsters": 55, "questing": 78, "adrenaline": 78, "intrigue": 72,
+        "history": 78, "localCulture": 82, "festivals": 55, "music": 68,
+        "markets": 42, "shopping": 45, "foodScene": 32, "feasting": 32,
+        "safety": 22, "lawAndOrder": 22, "soloFemaleSafety": 32, "comfort": 32,
+        "luxury": 22, "healing": 25, "hospitality": 32, "familyFriendly": 25,
+        "seniors": 22, "plains": 55, "forests": 45, "wilderness": 45, "scenery": 55,
+        "stargazing": 55, "libraries": 32, "peoples": 72, "commonTongue": 88,
+        "magic": 5, "timeStrange": 45, "gettingThere": 32, "gettingBack": 42
+      },
+      "photos": ["Waxwork museum figures", "Abandoned theme park ruins", "Historical reenactment battle", "Mannequins in storage", "Derelict amusement park", "Statues in a park"]
+    },
+    {
+      "id": "psi-moon", "name": "The Psi-Moon", "country": "RD", "region": "A Terraformed Psyche", "continent": "Science Fiction",
+      "type": "wetland", "arch": "dark-realm",
+      "blurb": "A moon terraformed to mirror the mind of whoever lands on it. Land one self-loathing hologram and you get a swamp of low self-esteem, a gothic fortress of his hang-ups, and a hooded thing called the Unspeakable One.",
+      "about": "Psi-moons were built so psychiatric patients could walk around inside their own heads. Rimmer's turns out to be a bog, with his self-respect held prisoner in a castle and his cowardice riding about as a knight. It is the most literal joke the show ever made and somehow its most sympathetic: the landscape is an honest diagnosis.",
+      "tags": ["the unspeakable one", "swamp of self-loathing", "terrorform", "his own head"],
+      "climate": {
+        "tempHigh": [13, 13, 15, 17, 19, 21, 22, 22, 20, 17, 15, 13],
+        "tempLow":  [7, 7, 8, 10, 12, 14, 15, 15, 13, 11, 9, 8],
+        "rainDays": [20, 19, 19, 18, 17, 16, 15, 16, 17, 19, 20, 20],
+        "sunHours": [1, 1, 2, 2, 3, 3, 3, 3, 2, 2, 1, 1],
+        "humidity": [96, 96, 95, 94, 93, 92, 91, 92, 94, 95, 96, 96]
+      },
+      "crowd":      [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+      "costTier": 1,
+      "r": {
+        "rivers": 55, "forests": 55, "wilderness": 88, "monsters": 92, "undead": 62,
+        "magic": 78, "timeStrange": 88, "prophecy": 55, "combat": 72, "questing": 82,
+        "adrenaline": 82, "architecture": 62, "ruins": 55, "safety": 8,
+        "survivability": 22, "soloFemaleSafety": 22, "comfort": 5, "luxury": 2,
+        "healing": 12, "hospitality": 8, "foodScene": 2, "feasting": 2, "taverns": 0,
+        "markets": 0, "cities": 12, "libraries": 22, "familyFriendly": 2, "seniors": 5,
+        "scenery": 42, "stargazing": 42, "history": 45, "peoples": 12,
+        "commonTongue": 82, "technology": 45, "gettingThere": 25, "gettingBack": 32
+      },
+      "photos": ["Misty swamp dead trees", "Gothic castle in fog", "Bog pools on moorland", "Dark marsh at dusk", "Ruined castle silhouette", "Mangrove swamp roots"]
+    },
+    {
+      "id": "justice-world", "name": "Justice World", "country": "RD", "region": "A Penal Station", "continent": "Science Fiction",
+      "type": "station", "arch": "dystopia",
+      "blurb": "A prison station with a field that reflects any crime straight back onto whoever commits it. Punch someone and you break your own nose. Superb public order. No fun whatsoever.",
+      "about": "A proper science-fiction idea inside a sitcom: a penal colony that needs no guards because harm becomes self-administering. It also puts Rimmer on trial for killing the entire crew, a charge he insists on pleading guilty to out of sheer vanity, and the court's eventual verdict is the kindest assessment anyone ever gives him.",
+      "tags": ["the justice field", "self-administering punishment", "the trial", "no guards"],
+      "climate": {
+        "tempHigh": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "tempLow":  [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+      },
+      "crowd":      [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+      "costTier": 1,
+      "r": {
+        "technology": 88, "architecture": 68, "cities": 45, "lawAndOrder": 100,
+        "safety": 82, "soloFemaleSafety": 78, "intrigue": 78, "libraries": 55,
+        "history": 45, "comfort": 55, "luxury": 22, "foodScene": 32, "feasting": 22,
+        "ale": 12, "taverns": 5, "revels": 2, "gambling": 2, "markets": 12,
+        "shopping": 12, "familyFriendly": 32, "seniors": 45, "hospitality": 32,
+        "healing": 62, "questing": 62, "combat": 5, "monsters": 22, "adrenaline": 42,
+        "spaceTravel": 88, "stargazing": 72, "scenery": 32, "peoples": 25,
+        "commonTongue": 92, "magic": 0, "timeStrange": 32, "warRisk": 88,
+        "gettingThere": 32, "gettingBack": 42
+      },
+      "photos": ["Prison cell block interior", "Modern courtroom interior", "White space station corridor", "Empty prison corridor", "Institutional hall echo", "Security control room"]
+    },
+    {
+      "id": "better-than-life", "name": "Better Than Life", "country": "RD", "region": "A Total Immersion Game", "continent": "Science Fiction",
+      "type": "region", "arch": "utopia",
+      "blurb": "A total-immersion game that reads your desires and grants all of them: the mansion, the marriage, the money, the applause. Players starve to death in the chair with a smile on. Guilt is the only exit.",
+      "about": "The sharpest thing Grant Naylor wrote — a paradise powered by your own subconscious, so a man who hates himself will sabotage it from the inside without ever understanding why. Rimmer's fantasy collapses into a tax demand and a wife who leaves him, because at some level that is what he believes he has coming.",
+      "tags": ["total immersion", "your own desires", "the tax man", "nobody comes out"],
+      "climate": {
+        "tempHigh": [26, 26, 27, 27, 28, 28, 28, 28, 27, 27, 26, 26],
+        "tempLow":  [19, 19, 19, 20, 20, 20, 20, 20, 20, 19, 19, 19],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "humidity": [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55],
+        "seaTemp":  [26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26]
+      },
+      "crowd":      [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40],
+      "costTier": 3,
+      "r": {
+        "luxury": 100, "comfort": 100, "foodScene": 100, "feasting": 100, "wine": 96,
+        "festivals": 92, "revels": 92, "music": 88, "romance": 92, "gambling": 88,
+        "markets": 88, "shopping": 96, "cities": 78, "architecture": 88, "scenery": 92,
+        "swimming": 88, "coast": 82, "islands": 78, "safety": 55,
+        "soloFemaleSafety": 62, "familyFriendly": 45, "seniors": 62, "hospitality": 92,
+        "healing": 32, "survivability": 5, "timeStrange": 88, "magic": 55,
+        "technology": 96, "intrigue": 82, "adrenaline": 62, "libraries": 45,
+        "peoples": 55, "commonTongue": 92, "stargazing": 62, "lawAndOrder": 42,
+        "questing": 32, "gettingThere": 78, "gettingBack": 2
+      },
+      "photos": ["Luxury hotel suite interior", "Tropical resort infinity pool", "Champagne glasses celebration", "Mansion exterior driveway", "Casino interior lights", "Fine dining restaurant table"]
+    }
+  ]
+}

@@ -376,6 +376,94 @@
       "medium": "Television",
       "also": "Reimagined by Ronald D. Moore in 2003",
       "text": "Twelve colonies destroyed in an afternoon by machines their own people built, leaving a convoy of survivors looking for a planet most of them consider a myth. The 2003 version is the one that hurts."
+    },
+    "BEL": {
+      "work": "The Silmarillion",
+      "creator": "J. R. R. Tolkien",
+      "year": 1977,
+      "medium": "Novel",
+      "also": "Assembled and edited by Christopher Tolkien, published posthumously",
+      "text": "The Elder Days, written across sixty years and published four after Tolkien died. Beleriand is the north-west of Middle-earth in the First Age — older, larger and far more violent than the Third Age of the novels — and every acre of it is under the sea by the time a hobbit leaves Bag End."
+    },
+    "NUM": {
+      "work": "The Silmarillion: Akallabêth",
+      "creator": "J. R. R. Tolkien",
+      "year": 1977,
+      "medium": "Novel",
+      "also": "More in Unfinished Tales, 1980",
+      "text": "Tolkien's Atlantis, which he traced to a recurring dream of a great green wave. Númenor was the reward given to Men for the First Age war, and the Akallabêth is the account of how they threw it away: the one part of the legendarium written as straight political tragedy."
+    },
+    "AMAN": {
+      "work": "The Silmarillion",
+      "creator": "J. R. R. Tolkien",
+      "year": 1977,
+      "medium": "Novel",
+      "also": "Glimpsed from a distance in The Lord of the Rings, 1954–55",
+      "text": "The Undying Lands are undying because the people living there are, not because a visitor would be. Aman is where the Valar went after Almaren was ruined, and Tolkien keeps it deliberately off-stage — the novels only ever look west towards it, and the one character who describes it is homesick."
+    },
+    "EA": {
+      "work": "The Silmarillion: Ainulindalë",
+      "creator": "J. R. R. Tolkien",
+      "year": 1977,
+      "medium": "Novel",
+      "also": "First drafted in 1917",
+      "text": "Tolkien's creation myth, written in a notebook during the First World War and barely altered afterwards. The world is sung into being by angelic powers who then have to live inside their own composition — and the Void outside it is the only place in the legendarium that contains nothing at all."
+    },
+    "BR": {
+      "work": "Blade Runner",
+      "creator": "Ridley Scott",
+      "year": 1982,
+      "medium": "Film",
+      "also": "Blade Runner 2049, Denis Villeneuve, 2017; from Philip K. Dick's Do Androids Dream of Electric Sheep?, 1968",
+      "text": "Dick's novel asks what counts as a person; Scott's film answers by building the city around the question and letting the set do the arguing. Between them they decided how screen science fiction looks — rain, neon, advertising and permanent night — and almost every future city since has been quoting the first ten minutes."
+    },
+    "FLAT": {
+      "work": "Flatland: A Romance of Many Dimensions",
+      "creator": "Edwin A. Abbott",
+      "year": 1884,
+      "medium": "Novella",
+      "also": "Published under the pseudonym A Square",
+      "text": "A Victorian headmaster’s satire on class and gender, disguised as a geometry lesson and now read mostly as the geometry lesson. The Square’s problem is not that a third dimension is hard to imagine — it is that everyone he tries to tell about it is offended."
+    },
+    "DIV": {
+      "work": "Divergent",
+      "creator": "Veronica Roth",
+      "year": 2011,
+      "medium": "Novels",
+      "also": "Films, 2014–2016",
+      "text": "A Chicago sorted into five virtues, which is either a personality quiz with a body count or a precise account of how institutions recruit teenagers. The trilogy’s real subject is the aptitude test: a system that tells you who you are and then punishes you for being more than one thing."
+    },
+    "MAZE": {
+      "work": "The Maze Runner",
+      "creator": "James Dashner",
+      "year": 2009,
+      "medium": "Novels",
+      "also": "Films, 2014–2018",
+      "text": "A locked-room mystery with the room the size of a city and the lock rearranging itself every night. The books are mostly about the ethics of the people running the experiment, who are allowed to be sympathetic — which is exactly what makes them harder to dismiss."
+    },
+    "TERM": {
+      "work": "The Terminator",
+      "creator": "James Cameron",
+      "year": 1984,
+      "medium": "Film",
+      "also": "Terminator 2: Judgment Day, 1991",
+      "text": "Cameron rations the future deliberately — a few blue-lit seconds per film, tank treads going over a hill of skulls — and the restraint is why it works. The series is one closed causal loop: the chip that starts Skynet is recovered from the wreckage of the machine sent back to prevent it."
+    },
+    "ODY": {
+      "work": "2001: A Space Odyssey",
+      "creator": "Stanley Kubrick and Arthur C. Clarke",
+      "year": 1968,
+      "medium": "Film",
+      "also": "Clarke’s novel, written alongside it and published after",
+      "text": "Film and novel were made simultaneously, which is why the book explains everything the film refuses to. Kubrick got the hardware right by asking engineers rather than illustrators, so the ships still look correct sixty years on — and the most frightening thing aboard is the calm one."
+    },
+    "RD": {
+      "work": "Red Dwarf",
+      "creator": "Rob Grant and Doug Naylor",
+      "year": 1988,
+      "medium": "Television",
+      "also": "Novels from 1989, beginning with Infinity Welcomes Careful Drivers",
+      "text": "A sitcom set three million years into deep space, in which the last human alive shares a mining ship with a hologram of the bunkmate he could not stand, a creature evolved from his cat, and a service droid with a guilt complex. The science-fiction ideas are consistently better than the budget, and frequently better than the sitcom wrapped around them."
     }
   }
 }

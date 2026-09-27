@@ -1,0 +1,99 @@
+{
+  "_doc": "Flatland, and the two smaller worlds the Square is shown on his way to understanding a third dimension. Ratings that depend on there being an up — mountains, climbing, stargazing — are zero here, which is the honest answer rather than a missing value.",
+  "destinations": [
+    {
+      "id": "flatland", "name": "Flatland", "country": "FLAT", "region": "The Plane", "continent": "Classic Literature",
+      "type": "plains", "arch": "dystopia",
+      "blurb": "A two-dimensional plane where your class is the number of your sides, fog is a public utility that lets people judge one another accurately, and it rains from the North so everybody knows which way is up.",
+      "about": "Abbott's satire is not gentle. Flatland's women are straight lines — lethal end-on, legally obliged to sway constantly and to emit a peace-cry on entering a room — and irregular polygons are destroyed at birth for the public good. The Square narrates all of it approvingly, which is the joke, and then spends the second half of the book in prison for having seen a third dimension and said so.",
+      "tags": ["two dimensions", "sides and status", "the fog", "a square"],
+      "climate": {
+        "tempHigh": [12, 13, 15, 17, 19, 21, 22, 22, 20, 17, 14, 12],
+        "tempLow":  [6, 6, 8, 9, 11, 13, 14, 14, 13, 10, 8, 6],
+        "rainDays": [18, 17, 17, 16, 16, 15, 15, 16, 16, 17, 18, 18],
+        "sunHours": [1, 1, 2, 2, 2, 3, 3, 2, 2, 2, 1, 1],
+        "humidity": [95, 95, 94, 93, 92, 91, 90, 91, 92, 93, 94, 95]
+      },
+      "crowd":      [65, 65, 66, 68, 70, 72, 72, 72, 70, 68, 66, 65],
+      "costTier": 1,
+      "r": {
+        "plains": 78, "cities": 68, "architecture": 55, "localCulture": 92, "history": 72,
+        "libraries": 62, "timeStrange": 82, "intrigue": 62, "prophecy": 45, "magic": 12,
+        "wizards": 25, "technology": 25, "peoples": 35, "commonTongue": 88,
+        "lawAndOrder": 88, "safety": 45, "soloFemaleSafety": 2, "comfort": 45,
+        "luxury": 32, "hospitality": 42, "healing": 32, "survivability": 55,
+        "foodScene": 22, "feasting": 25, "vegetarian": 88, "ale": 12, "taverns": 15,
+        "festivals": 32, "markets": 45, "shopping": 32, "music": 25, "revels": 22,
+        "gambling": 12, "temples": 38, "familyFriendly": 25, "seniors": 45,
+        "romance": 22, "soloTravel": 42, "fellowship": 45, "questing": 55, "combat": 55,
+        "monsters": 22, "adrenaline": 32, "wandering": 32, "hiking": 22, "scenery": 12,
+        "wilderness": 8, "beasts": 12, "ruins": 12, "artefacts": 22,
+        "mountains": 0, "climbing": 0, "stargazing": 0, "forests": 0, "rivers": 0,
+        "coast": 0, "islands": 0, "desert": 0, "volcanic": 0, "underground": 0,
+        "swimming": 0, "sailing": 0, "seaMonsters": 0, "dragons": 0, "undead": 5,
+        "spaceTravel": 0, "gettingThere": 8, "gettingBack": 12
+      },
+      "photos": ["Geometric floor tiling pattern", "Fog over flat landscape", "Salt flats horizon line", "Victorian parlour interior", "Stained glass geometric pattern", "Frost crystals on window"]
+    },
+    {
+      "id": "lineland", "name": "Lineland", "country": "FLAT", "region": "One Dimension", "continent": "Classic Literature",
+      "type": "region", "arch": "wonderland",
+      "blurb": "A single line on which everyone is a point or a segment, your two neighbours are the only beings you will ever perceive, and the King cannot be brought to understand that sideways exists.",
+      "about": "The Square visits Lineland in a dream and tries to explain width to a monarch who has never had a neighbour he was not touching. He fails, loses his temper, and is threatened with violence for heresy — which is precisely what happens to him one chapter later, when the Sphere does exactly the same thing to him. The structure is the argument.",
+      "tags": ["one dimension", "the king", "no such thing as sideways", "a dream"],
+      "climate": {
+        "tempHigh": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "tempLow":  [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11],
+        "rainDays": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "sunHours": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        "humidity": [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70]
+      },
+      "crowd":      [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40],
+      "costTier": 1,
+      "r": {
+        "timeStrange": 88, "music": 62, "localCulture": 78, "lawAndOrder": 82,
+        "safety": 62, "soloFemaleSafety": 32, "peoples": 12, "commonTongue": 62,
+        "history": 45, "prophecy": 32, "magic": 25, "comfort": 32, "luxury": 8,
+        "romance": 42, "familyFriendly": 32, "seniors": 45, "foodScene": 8,
+        "feasting": 5, "hospitality": 25, "healing": 22, "survivability": 45,
+        "cities": 12, "markets": 5, "shopping": 2, "taverns": 2, "libraries": 12,
+        "intrigue": 32, "questing": 32, "combat": 25, "wandering": 5, "hiking": 2,
+        "scenery": 2, "mountains": 0, "climbing": 0, "stargazing": 0, "forests": 0,
+        "rivers": 0, "coast": 0, "islands": 0, "swimming": 0, "sailing": 0,
+        "underground": 0, "wilderness": 0, "dragons": 0, "monsters": 5,
+        "gettingThere": 4, "gettingBack": 8
+      },
+      "photos": ["Straight road to the horizon", "Railway tracks straight distance", "Long straight canal", "Row of posts in a line", "Beach horizon straight line", "Telegraph poles receding"]
+    },
+    {
+      "id": "pointland", "name": "Pointland", "country": "FLAT", "region": "No Dimensions", "continent": "Classic Literature",
+      "type": "underworld", "arch": "wonderland",
+      "blurb": "A single point containing one being who is his own universe, his own subjects and his own applause, and who cannot be told otherwise because there is no otherwise. Nothing to see. Nobody to meet.",
+      "about": "The Sphere shows the Square the abyss of no dimensions as a warning. The Point is perfectly happy, praises himself in his own voice, and treats any speech from outside as one of his own thoughts — so he cannot be corrected, argued with, or humbled. It is the book's coldest joke: the lowest being in the hierarchy is the only one who cannot be humiliated.",
+      "tags": ["no dimensions", "the point", "self-satisfied", "a warning"],
+      "climate": {
+        "tempHigh": [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "tempLow":  [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
+      },
+      "crowd":      [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      "costTier": 1,
+      "r": {
+        "timeStrange": 96, "magic": 32, "safety": 78, "survivability": 25,
+        "soloFemaleSafety": 55, "soloTravel": 62, "music": 42, "prophecy": 42,
+        "history": 22, "comfort": 42, "luxury": 5, "seniors": 55, "familyFriendly": 12,
+        "peoples": 2, "commonTongue": 15, "hospitality": 5, "healing": 12,
+        "foodScene": 0, "feasting": 0, "vegetarian": 0, "ale": 0, "wine": 0,
+        "taverns": 0, "markets": 0, "shopping": 0, "cities": 0, "libraries": 0,
+        "scenery": 0, "wilderness": 0, "mountains": 0, "climbing": 0, "stargazing": 0,
+        "forests": 0, "rivers": 0, "coast": 0, "islands": 0, "swimming": 0,
+        "sailing": 0, "underground": 0, "combat": 0, "monsters": 0, "dragons": 0,
+        "undead": 0, "fellowship": 2, "romance": 2, "wandering": 0,
+        "gettingThere": 2, "gettingBack": 5
+      },
+      "photos": ["Single star in dark sky", "Dew drop macro dark background", "Point of light in darkness", "Single candle flame in the dark", "Lone lamp in fog", "Long exposure star trail dot"]
+    }
+  ]
+}

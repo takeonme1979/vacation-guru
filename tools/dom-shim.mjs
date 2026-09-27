@@ -178,7 +178,7 @@ export function installDom({ fetchFile = null, hash = '#/setup', search = '' } =
   global.location = {
     hash,
     protocol: 'http:',
-    href: 'http://localhost/' + search,
+    href: 'http://localhost/' + search + hash,
     origin: 'http://localhost',
     pathname: '/',
     search
@@ -192,6 +192,7 @@ export function installDom({ fetchFile = null, hash = '#/setup', search = '' } =
       global.location.href = next.href;
       global.location.pathname = next.pathname;
       global.location.search = next.search;
+      global.location.hash = next.hash;
     }
   };
   // Node 24 defines `navigator` as a getter-only global, so plain assignment throws.

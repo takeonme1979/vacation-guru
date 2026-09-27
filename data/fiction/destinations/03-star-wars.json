@@ -16,6 +16,7 @@
       "crowd":      [32, 32, 35, 38, 42, 45, 48, 48, 44, 38, 34, 32],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 25,
         "desert": 100, "stargazing": 96, "scenery": 78, "wilderness": 82, "underground": 62,
         "markets": 72, "taverns": 82, "gambling": 92, "adrenaline": 88, "music": 78,
         "peoples": 78, "localCulture": 78, "combat": 68, "monsters": 68,
@@ -42,6 +43,7 @@
       "crowd":      [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92],
       "costTier": 3,
       "r": {
+        "soloFemaleSafety": 55,
         "cities": 100, "architecture": 96, "technology": 96, "spaceTravel": 96,
         "peoples": 98, "markets": 88, "shopping": 92, "intrigue": 98, "libraries": 88,
         "music": 88, "revels": 82, "gambling": 78, "taverns": 82, "foodScene": 82,
@@ -121,6 +123,7 @@
       "crowd":      [38, 40, 48, 58, 65, 70, 72, 70, 65, 55, 44, 40],
       "costTier": 3,
       "r": {
+        "soloFemaleSafety": 92,
         "scenery": 98, "architecture": 98, "rivers": 96, "cities": 88, "coast": 78,
         "swimming": 82, "sailing": 78, "luxury": 96, "comfort": 92, "romance": 96,
         "foodScene": 88, "wine": 88, "festivals": 88, "music": 88, "artefacts": 62,
@@ -146,6 +149,7 @@
       "crowd":      [6, 6, 6, 7, 8, 8, 9, 9, 8, 7, 6, 6],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 2,
         "volcanic": 100, "scenery": 72, "technology": 72, "spaceTravel": 68,
         "combat": 88, "adrenaline": 82, "underground": 78, "monsters": 42,
         "survivability": 3, "safety": 3, "comfort": 3, "healing": 15, "hospitality": 5,
@@ -303,6 +307,7 @@
       "crowd":      [62, 62, 65, 68, 70, 72, 74, 74, 71, 67, 64, 62],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 25,
         "taverns": 96, "music": 96, "gambling": 92, "markets": 88, "peoples": 92,
         "spaceTravel": 88, "technology": 68, "intrigue": 88, "combat": 78,
         "desert": 92, "revels": 78, "shopping": 68, "adrenaline": 72,
@@ -354,6 +359,7 @@
       "crowd":      [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 8,
         "technology": 100, "spaceTravel": 96, "architecture": 78, "cities": 72,
         "combat": 92, "intrigue": 88, "adrenaline": 78, "underground": 72,
         "stargazing": 78, "peoples": 42, "lawAndOrder": 78,

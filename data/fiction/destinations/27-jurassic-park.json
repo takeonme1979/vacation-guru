@@ -1,0 +1,144 @@
+{
+  "_doc": "Jurassic Park beyond Isla Nublar's first bad weekend — Site B, the park that actually opened, the visitor centre it was abandoned in, the house where they auctioned the animals, and the valley they were finally let loose in.",
+  "destinations": [
+    {
+      "id": "isla-sorna", "name": "Isla Sorna", "country": "JP", "region": "Site B", "continent": "Science Fiction",
+      "type": "island", "arch": "lost-world",
+      "blurb": "The factory floor: the island where the animals were actually grown before being shipped to the park, evacuated in a hurry after a hurricane and left to run itself for six years. No fences, no paddocks, no staff.",
+      "about": "Site B is the better idea. Nublar is a theme park that fails; Sorna is an ecosystem that succeeded without anybody watching, which is what makes The Lost World's premise worth the sequel. The animals bred, the lysine contingency did nothing, and the survey team arrive to find an island that has stopped being an experiment and become a place.",
+      "tags": ["site b", "no fences", "hurricane clarissa", "they breed"],
+      "climate": {
+        "tempHigh": [28, 29, 30, 30, 30, 29, 29, 29, 29, 29, 28, 28],
+        "tempLow":  [21, 21, 22, 23, 23, 23, 22, 22, 22, 22, 22, 21],
+        "rainDays": [11, 9, 9, 13, 20, 23, 21, 22, 24, 25, 18, 13],
+        "sunHours": [6, 7, 7, 6, 4, 3, 4, 4, 3, 3, 4, 5],
+        "humidity": [86, 84, 83, 86, 90, 92, 91, 92, 93, 93, 90, 88],
+        "seaTemp":  [27, 27, 28, 29, 29, 29, 29, 29, 29, 29, 28, 28]
+      },
+      "crowd":      [6, 6, 6, 6, 5, 4, 5, 5, 4, 4, 5, 6],
+      "costTier": 1,
+      "r": {
+        "beasts": 100, "monsters": 96, "forests": 96, "islands": 92, "wilderness": 96,
+        "scenery": 88, "coast": 78, "rivers": 78, "hiking": 72, "climbing": 55,
+        "adrenaline": 96, "questing": 78, "swimming": 42, "seaMonsters": 55,
+        "technology": 42, "ruins": 62, "history": 45, "libraries": 12,
+        "safety": 3, "survivability": 12, "soloFemaleSafety": 12, "comfort": 5,
+        "luxury": 2, "healing": 8, "hospitality": 5, "foodScene": 5, "feasting": 2,
+        "taverns": 0, "markets": 0, "shopping": 0, "cities": 2, "familyFriendly": 0,
+        "seniors": 2, "stargazing": 62, "commonTongue": 45, "magic": 0, "dragons": 32,
+        "gettingThere": 25, "gettingBack": 18
+      },
+      "photos": ["Costa Rica rainforest canopy", "Tropical island jungle coast", "Dense fern undergrowth forest", "Cloud forest mist Costa Rica", "Volcanic island coastline tropical", "Muddy jungle river"]
+    },
+    {
+      "id": "jurassic-world-park", "name": "Jurassic World", "country": "JP", "region": "Isla Nublar", "continent": "Science Fiction",
+      "type": "island", "arch": "lost-world",
+      "blurb": "The park that opened, ran for ten years and took twenty thousand visitors a day: a main street, a monorail, a lagoon with something enormous in it, and a corporate need for a bigger attraction every few seasons.",
+      "about": "Jurassic World's joke is that a functioning dinosaur park would be boring within a decade, so the marketing department commissions a hybrid — and the hybrid is smarter than the marketing department. Everything about the resort is convincingly mundane: the queue times, the sponsored enclosures, the gift shop selling the animal that eats the tourists.",
+      "tags": ["it opened", "the mosasaurus lagoon", "gyrospheres", "indominus rex"],
+      "climate": {
+        "tempHigh": [28, 29, 30, 30, 30, 29, 29, 29, 29, 29, 28, 28],
+        "tempLow":  [21, 21, 22, 23, 23, 23, 22, 22, 22, 22, 22, 21],
+        "rainDays": [8, 6, 6, 9, 17, 20, 18, 19, 21, 22, 15, 10],
+        "sunHours": [7, 8, 8, 7, 5, 4, 5, 5, 4, 4, 5, 6],
+        "humidity": [82, 80, 79, 82, 86, 88, 87, 88, 89, 89, 86, 84],
+        "seaTemp":  [27, 27, 28, 29, 29, 29, 29, 29, 29, 29, 28, 28]
+      },
+      "crowd":      [88, 88, 85, 80, 72, 68, 78, 82, 68, 66, 74, 86],
+      "costTier": 3,
+      "r": {
+        "beasts": 100, "islands": 92, "coast": 82, "swimming": 78, "forests": 78,
+        "scenery": 85, "technology": 92, "adrenaline": 88, "monsters": 78,
+        "seaMonsters": 82, "luxury": 88, "comfort": 88, "foodScene": 78, "feasting": 72,
+        "markets": 72, "shopping": 92, "festivals": 72, "familyFriendly": 68,
+        "seniors": 55, "hospitality": 78, "healing": 68, "safety": 42, "lawAndOrder": 62,
+        "soloFemaleSafety": 62, "commonTongue": 92, "libraries": 45, "history": 55,
+        "taverns": 62, "revels": 55, "gambling": 32, "magic": 0, "dragons": 42,
+        "stargazing": 45, "gettingThere": 62, "gettingBack": 48
+      },
+      "photos": ["Theme park main street", "Aquarium underwater viewing tunnel", "Monorail through park", "Crowd at theme park entrance", "Tropical resort hotel pool", "Large aquarium tank visitors"]
+    },
+    {
+      "id": "visitor-centre", "name": "The Visitor Centre", "country": "JP", "region": "Isla Nublar", "continent": "Science Fiction",
+      "type": "ruins", "arch": "lost-world",
+      "blurb": "A half-finished rotunda with two skeletons in the atrium, a banner reading When Dinosaurs Ruled the Earth, and a kitchen everybody remembers for the wrong reasons. Abandoned mid-construction, twice.",
+      "about": "The centre is the film's whole thesis in one building: a museum about extinction, unfinished, in a park that has already failed, with the mounted fossils of the animals currently outside in the rain. Spielberg drops the banner across the frame at the end because he could not resist, and it is still the best closing shot in the franchise.",
+      "tags": ["when dinosaurs ruled the earth", "the kitchen", "unfinished", "the mural"],
+      "climate": {
+        "tempHigh": [28, 29, 30, 30, 30, 29, 29, 29, 29, 29, 28, 28],
+        "tempLow":  [21, 21, 22, 23, 23, 23, 22, 22, 22, 22, 22, 21],
+        "rainDays": [9, 7, 7, 10, 18, 21, 19, 20, 22, 23, 16, 11],
+        "sunHours": [6, 7, 7, 6, 4, 4, 4, 4, 3, 3, 4, 5],
+        "humidity": [84, 82, 81, 84, 88, 90, 89, 90, 91, 91, 88, 86]
+      },
+      "crowd":      [10, 10, 10, 9, 8, 7, 8, 8, 7, 7, 8, 10],
+      "costTier": 1,
+      "r": {
+        "ruins": 92, "architecture": 72, "libraries": 62, "history": 78, "artefacts": 78,
+        "beasts": 88, "monsters": 82, "forests": 82, "islands": 82, "wilderness": 72,
+        "technology": 62, "adrenaline": 82, "questing": 72, "scenery": 62,
+        "safety": 8, "survivability": 18, "soloFemaleSafety": 15, "comfort": 15,
+        "luxury": 12, "healing": 22, "hospitality": 12, "foodScene": 22, "feasting": 15,
+        "taverns": 5, "markets": 12, "shopping": 25, "cities": 12, "familyFriendly": 5,
+        "seniors": 8, "commonTongue": 92, "magic": 0, "dragons": 32, "stargazing": 32,
+        "gettingThere": 32, "gettingBack": 28
+      },
+      "photos": ["Overgrown abandoned building interior", "Dinosaur skeleton museum hall", "Derelict interior peeling paint", "Museum rotunda skylight", "Overgrown concrete building jungle", "Mounted fossil skeleton display"]
+    },
+    {
+      "id": "biosyn-valley", "name": "Biosyn Valley", "country": "JP", "region": "The Dolomites", "continent": "Science Fiction",
+      "type": "valley", "arch": "lost-world",
+      "blurb": "A private alpine sanctuary in northern Italy where a biotech company keeps the world's loose dinosaurs, studies amber, and has a very good staff canteen above an underground research campus.",
+      "about": "Dominion's best idea is the least dinosaur-shaped one: a corporation that gathers the animals for genuinely stated conservation reasons and is also quietly engineering locusts to eat everybody else's crops. The valley itself is the franchise's prettiest setting — limestone walls, pine, snow above the treeline, and something enormous in the trees.",
+      "tags": ["amber", "sanctuary", "locusts", "dolomites"],
+      "climate": {
+        "tempHigh": [1, 3, 8, 13, 18, 22, 24, 23, 19, 13, 7, 2],
+        "tempLow":  [-8, -7, -3, 2, 6, 10, 12, 12, 8, 3, -2, -6],
+        "rainDays": [7, 7, 8, 10, 12, 12, 11, 11, 9, 8, 9, 8],
+        "sunHours": [4, 5, 6, 6, 7, 8, 9, 8, 6, 5, 3, 3],
+        "humidity": [72, 70, 68, 70, 72, 73, 72, 74, 76, 78, 78, 75],
+        "snowDepth": [65, 70, 55, 20, 2, 0, 0, 0, 0, 5, 30, 55]
+      },
+      "crowd":      [22, 22, 26, 32, 40, 48, 52, 52, 44, 34, 26, 24],
+      "costTier": 3,
+      "r": {
+        "mountains": 92, "forests": 88, "wilderness": 82, "scenery": 96, "hiking": 82,
+        "climbing": 72, "rivers": 68, "beasts": 96, "monsters": 72, "technology": 92,
+        "libraries": 78, "artefacts": 72, "history": 62, "intrigue": 92,
+        "comfort": 82, "luxury": 78, "foodScene": 78, "feasting": 68, "wine": 78,
+        "healing": 78, "safety": 42, "lawAndOrder": 55, "soloFemaleSafety": 55,
+        "hospitality": 55, "familyFriendly": 25, "seniors": 32, "stargazing": 78,
+        "commonTongue": 82, "magic": 0, "dragons": 42, "adrenaline": 78,
+        "gettingThere": 42, "gettingBack": 55
+      },
+      "photos": ["Dolomites valley Italy", "Alpine valley forest cliffs", "Modern laboratory building exterior", "Amber fossil insect", "Alpine lake and pine forest", "Limestone peaks Dolomites"]
+    },
+    {
+      "id": "lockwood-manor", "name": "Lockwood Manor", "country": "JP", "region": "Northern California", "continent": "Science Fiction",
+      "type": "castle", "arch": "dystopia",
+      "blurb": "A gothic house full of natural history: panelled halls, a fossil collection, a granddaughter with an unusual medical history, and an auction in the basement selling live animals to arms dealers.",
+      "about": "Fallen Kingdom relocates the franchise indoors and it works far better than it should — a haunted-house third act with a raptor in the corridors and a bidding war underneath it. The house is also where the series finally says the quiet part: the value of these animals was never scientific, and the buyers were always going to be military.",
+      "tags": ["the auction", "fossil collection", "maisie", "indoraptor"],
+      "climate": {
+        "tempHigh": [13, 15, 17, 19, 21, 24, 25, 25, 24, 21, 16, 13],
+        "tempLow":  [4, 5, 6, 8, 10, 12, 13, 13, 12, 9, 6, 4],
+        "rainDays": [12, 11, 10, 6, 3, 1, 0, 1, 2, 5, 9, 12],
+        "sunHours": [5, 6, 8, 9, 10, 11, 11, 10, 9, 8, 6, 5],
+        "humidity": [78, 76, 74, 70, 68, 66, 67, 69, 70, 72, 76, 79]
+      },
+      "crowd":      [25, 25, 26, 28, 30, 32, 34, 34, 32, 30, 27, 25],
+      "costTier": 3,
+      "r": {
+        "architecture": 92, "libraries": 88, "artefacts": 92, "history": 82,
+        "luxury": 92, "comfort": 88, "cities": 32, "intrigue": 96, "monsters": 82,
+        "beasts": 82, "combat": 62, "adrenaline": 78, "questing": 68, "technology": 78,
+        "foodScene": 72, "feasting": 68, "wine": 82, "markets": 55, "shopping": 45,
+        "safety": 22, "lawAndOrder": 32, "soloFemaleSafety": 42, "healing": 62,
+        "hospitality": 45, "familyFriendly": 15, "seniors": 45, "forests": 55,
+        "scenery": 62, "commonTongue": 92, "magic": 0, "undead": 12, "gambling": 62,
+        "gettingThere": 68, "gettingBack": 55
+      },
+      "photos": ["Gothic mansion staircase interior", "Victorian manor house exterior", "Wood panelled great hall", "Auction room bidders", "Stone mansion at night", "Natural history collection cabinet"]
+    }
+  ]
+}

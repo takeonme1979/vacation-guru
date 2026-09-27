@@ -11,6 +11,7 @@
       "lon": 74.65,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 4,
       "blurb": "Where three of the world's great mountain ranges collide — the Karakoram, Himalaya and Hindu Kush all visible from one valley, terraced with apricot orchards and famous for its long-lived elders.",
       "tags": ["karakoram highway", "apricot blossom", "rakaposhi", "silk road"],
       "climate": {
@@ -53,6 +54,7 @@
       "lon": 75.63,
       "type": "mountains",
       "arch": "mountain-town",
+      "transfer": 1,
       "blurb": "Base camp country for K2 and the Karakoram's giants, with cold desert dunes improbably stacked beside glacial lakes and expeditions setting off every summer for the world's hardest mountain.",
       "tags": ["k2 base camp", "cold desert", "deosai plains", "concordia trek"],
       "climate": {
@@ -111,6 +113,7 @@
         "luxury": 145
       },
       "r": {
+        "oldTown": 75,
         "historicSites": 96, "architecture": 96, "religiousSites": 92, "museums": 78,
         "localCulture": 92, "markets": 90, "foodScene": 96, "streetFood": 100, "festivals": 78,
         "shopping": 78, "valueForMoney": 96, "backpacker": 68, "safety": 58,
@@ -135,6 +138,7 @@
       "lon": 89.5,
       "type": "wetland",
       "arch": "jungle-eco",
+      "transfer": 5,
       "blurb": "The largest mangrove forest on earth, a maze of tidal channels shared between Bangladesh and India, and the only place where Bengal tigers regularly swim between islands.",
       "tags": ["mangrove forest", "bengal tigers", "river cruise", "unesco"],
       "climate": {
@@ -192,6 +196,7 @@
         "luxury": 155
       },
       "r": {
+        "oldTown": 55,
         "historicSites": 78, "architecture": 72, "religiousSites": 72, "museums": 62,
         "localCulture": 92, "markets": 92, "foodScene": 85, "streetFood": 92, "lakesRivers": 78,
         "artScene": 62, "valueForMoney": 96, "backpacker": 58, "safety": 48,
@@ -234,6 +239,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 85,
         "historicSites": 90, "architecture": 96, "museums": 82, "religiousSites": 72,
         "localCulture": 82, "markets": 78, "foodScene": 85, "streetFood": 82, "bars": 78,
         "shopping": 82, "swimming": 55, "valueForMoney": 85, "safety": 88, "familyYoungKids": 68,
@@ -275,6 +281,7 @@
         "luxury": 480
       },
       "r": {
+        "oldTown": 55,
         "historicSites": 100, "architecture": 96, "museums": 78, "desert": 88, "scenery": 92,
         "hiking": 62, "stargazing": 92, "adrenaline": 62, "localCulture": 68, "romance": 78,
         "valueForMoney": 55, "safety": 88, "familyYoungKids": 55, "luxury": 82
@@ -339,6 +346,7 @@
       "lon": 103.9,
       "type": "lake",
       "arch": "wilderness-park",
+      "transfer": 1.5,
       "blurb": "A valley of turquoise terraced lakes so vivid they look photoshopped, in a province that also gives you giant pandas, the numbingly spicy hotpot, and Tibetan monasteries in the western hills.",
       "tags": ["turquoise lakes", "giant pandas", "sichuan hotpot", "tibetan monasteries"],
       "climate": {
@@ -398,6 +406,7 @@
         "luxury": 195
       },
       "r": {
+        "oldTown": 90,
         "mountains": 96, "hiking": 96, "scenery": 96, "nationalParks": 85, "historicSites": 82,
         "architecture": 82, "localCulture": 92, "religiousSites": 68, "markets": 78,
         "foodScene": 85, "streetFood": 80, "stargazing": 72, "adrenaline": 78,
@@ -481,6 +490,7 @@
         "luxury": 145
       },
       "r": {
+        "oldTown": 35,
         "historicSites": 78, "architecture": 78, "religiousSites": 88, "museums": 62,
         "localCulture": 85, "markets": 75, "foodScene": 78, "streetFood": 82, "roadTrip": 72,
         "valueForMoney": 94, "backpacker": 85, "safety": 78, "familyYoungKids": 58
@@ -504,6 +514,7 @@
       "lon": 70.9,
       "type": "desert",
       "arch": "desert",
+      "transfer": 3,
       "blurb": "A sandcastle-coloured fort still lived in by five thousand people, with camel safaris into dunes at the edge of the Thar Desert and a border with Pakistan close enough to see the wire.",
       "tags": ["golden fort", "camel safari", "thar desert", "havelis"],
       "climate": {
@@ -521,6 +532,7 @@
         "luxury": 145
       },
       "r": {
+        "oldTown": 90,
         "desert": 96, "historicSites": 96, "architecture": 96, "museums": 68, "localCulture": 92,
         "markets": 85, "adrenaline": 68, "stargazing": 92, "foodScene": 78, "streetFood": 78,
         "valueForMoney": 95, "backpacker": 88, "romance": 82, "safety": 62,
@@ -545,6 +557,7 @@
       "lon": 97.65,
       "type": "island",
       "arch": "beach-resort",
+      "transfer": 1.5,
       "blurb": "Nine granite islands in the Andaman Sea repeatedly ranked among the best dive sites on earth, closed half the year to let the reef recover — Thailand's most protected stretch of coast.",
       "tags": ["similan islands", "seasonal closure", "granite boulders", "liveaboard diving"],
       "climate": {

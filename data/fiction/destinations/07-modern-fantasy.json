@@ -17,6 +17,7 @@
       "crowd":      [55, 55, 60, 66, 72, 76, 78, 78, 74, 68, 60, 56],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 100,
         "cities": 92, "architecture": 100, "libraries": 100, "history": 96,
         "magic": 96, "wizards": 96, "prophecy": 96, "intrigue": 100,
         "artefacts": 88, "temples": 55, "markets": 82, "shopping": 72,
@@ -46,6 +47,7 @@
       "crowd":      [10, 10, 14, 20, 26, 30, 32, 32, 26, 20, 14, 12],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 88,
         "plains": 88, "forests": 78, "rivers": 78, "scenery": 78,
         "hiking": 68, "wandering": 72, "wilderness": 55, "beasts": 55,
         "pipeweed": 96, "ale": 88, "taverns": 88, "feasting": 82, "foodScene": 68,
@@ -77,6 +79,7 @@
       "crowd":      [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 2,
         "ruins": 100, "architecture": 92, "history": 92, "cities": 62,
         "artefacts": 100, "undead": 92, "monsters": 92, "magic": 88,
         "underground": 82, "scenery": 62, "wilderness": 78, "intrigue": 62,
@@ -168,6 +171,7 @@
       "crowd":      [62, 62, 66, 72, 78, 82, 84, 84, 78, 72, 66, 64],
       "costTier": 2,
       "r": {
+        "soloFemaleSafety": 25,
         "cities": 96, "markets": 92, "architecture": 88, "history": 82,
         "intrigue": 96, "temples": 78, "peoples": 82, "shopping": 82,
         "taverns": 96, "ale": 92, "wine": 82, "gambling": 96, "revels": 88,
@@ -199,6 +203,7 @@
       "crowd":      [12, 12, 14, 18, 24, 30, 34, 32, 26, 18, 14, 12],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 62,
         "islands": 96, "coast": 96, "sailing": 96, "seaMonsters": 92,
         "scenery": 96, "mountains": 82, "wilderness": 88, "hiking": 82,
         "climbing": 72, "forests": 68, "wandering": 78, "stargazing": 78,
@@ -230,6 +235,7 @@
       "crowd":      [6, 6, 5, 4, 3, 3, 3, 3, 3, 4, 5, 6],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 55,
         "mountains": 96, "wilderness": 92, "forests": 82, "scenery": 92,
         "hiking": 82, "climbing": 78, "ruins": 88, "history": 82,
         "combat": 100, "monsters": 82, "beasts": 72, "artefacts": 78,
@@ -353,6 +359,7 @@
       "crowd":      [28, 28, 32, 38, 45, 52, 55, 55, 48, 40, 32, 30],
       "costTier": 1,
       "r": {
+        "soloFemaleSafety": 96,
         "feasting": 100, "foodScene": 92, "ale": 96, "wine": 72, "vegetarian": 100,
         "hospitality": 100, "fellowship": 96, "festivals": 92, "music": 88,
         "revels": 82, "familyFriendly": 96, "seniors": 88, "comfort": 82,

@@ -234,6 +234,14 @@ async function buildWorld(world) {
         if (typeof d.lat !== 'number' || typeof d.lon !== 'number' ||
             Math.abs(d.lat) > 90 || Math.abs(d.lon) > 180) err(`${d.id}: bad lat/lon`);
       }
+      // Hours by road, rail or ferry from the nearest airport with sensible
+      // connections. Optional: left out, the engine assumes an ordinary
+      // airport-to-centre hop. Český Krumlov is two hours' flight from London
+      // and then three more on a bus, and without this it looked like Prague.
+      if (d.transfer !== undefined &&
+          (typeof d.transfer !== 'number' || d.transfer < 0 || d.transfer > 12)) {
+        err(`${d.id}: transfer must be 0-12 hours, got ${d.transfer}`);
+      }
       if (!d.name) err(`${d.id}: missing name`);
       if (!d.blurb) warn(`${d.id}: no blurb`);
       // Six topics is a target, not a rule. Some places — a fictional one
@@ -253,6 +261,7 @@ async function buildWorld(world) {
         continent: d.continent,
         lat: d.lat ?? null,
         lon: d.lon ?? null,
+        transferHours: d.transfer ?? null,
         type: d.type,
         archetype: d.arch,
         blurb: d.blurb || '',

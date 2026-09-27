@@ -6,7 +6,25 @@ import { destinationCard, emptyState, when} from './components.js';
 
 let shownCount = 12;
 
-export function resetPaging() { shownCount = 12; }
+/** Countries the reader has asked to see the rest of, e.g. "10 more in Greece". */
+let expandedCountries = new Set();
+
+export function resetPaging() { shownCount = 12; expandedCountries = new Set(); }
+
+/**
+ * The control that reveals a country's remaining matches, in place.
+ *
+ * Full-width inside the results grid, so it reads as a divider belonging to the
+ * cards above it rather than as another card.
+ */
+function moreInCountry(country, count, open, onToggle) {
+  return h('div', { class: 'moreIn' },
+    h('button', {
+      class: 'btn btn--ghost btn--sm',
+      'aria-expanded': String(open),
+      onclick: onToggle
+    }, open ? `Show fewer in ${country}` : `Show ${count} more in ${country}`));
+}
 
 export function renderResults(root, { go }) {
   const { destinations, criteriaById } = data();
@@ -29,7 +47,7 @@ export function renderResults(root, { go }) {
     }
   };
 
-  const { results, strictDropped } = rankDestinations(destinations, effective, criteriaById);
+  const { results, strictDropped, moreByCountry } = rankDestinations(destinations, effective, criteriaById);
   const visible = results.slice(0, shownCount);
   const rerender = () => renderResults(root, { go });
 
@@ -45,6 +63,41 @@ export function renderResults(root, { go }) {
     } else if (n === 1) {
       compareCta.appendChild(h('span', { class: 'results__ctaHint' }, 'Pick one more to compare'));
     }
+  };
+
+  const cardOf = (r, rank) => destinationCard(r, {
+    rank,
+    onOpen: (id) => go('#/place/' + id),
+    onToggle: paintCompareCta
+  });
+
+  /**
+   * The visible cards, with each capped country's leftovers hanging off the
+   * last card that country got. Expanded entries are deliberately unranked:
+   * they are alternatives to the card above, not places in the running order.
+   */
+  const buildTiles = () => {
+    const lastIndexOf = new Map();
+    visible.forEach((r, i) => lastIndexOf.set(r.dest.country || r.dest.id, i));
+
+    const tiles = [];
+    visible.forEach((r, i) => {
+      tiles.push(cardOf(r, i + 1));
+
+      const key = r.dest.country || r.dest.id;
+      if (lastIndexOf.get(key) !== i) return;          // only after the country's last card
+      const extra = moreByCountry.get(key);
+      if (!extra || !extra.length) return;
+
+      const open = expandedCountries.has(key);
+      tiles.push(moreInCountry(key, extra.length, open, () => {
+        if (open) expandedCountries.delete(key);
+        else expandedCountries.add(key);
+        rerender();
+      }));
+      if (open) extra.forEach((x) => tiles.push(cardOf(x, null)));
+    });
+    return tiles;
   };
 
   mount(root,
@@ -85,13 +138,7 @@ export function renderResults(root, { go }) {
         ? emptyState('🔍', 'Nothing matched',
             'Strict mode is hiding everything that fails a must-have. Try relaxing a must-have to “Important”, or turn strict mode off.',
             h('button', { class: 'btn btn--primary', onclick: () => go('#/setup') }, 'Adjust settings'))
-        : h('div', { class: 'grid' },
-            visible.map((r, i) => destinationCard(r, {
-              rank: i + 1,
-              onOpen: (id) => go('#/place/' + id),
-              onToggle: paintCompareCta
-            }))
-          ),
+        : h('div', { class: 'grid' }, buildTiles()),
 
       results.length > shownCount
         ? h('div', { class: 'more' },

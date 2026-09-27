@@ -28,6 +28,7 @@
         "luxury": 195
       },
       "r": {
+        "oldTown": 92,
         "architecture": 94, "historicSites": 88, "museums": 85, "artScene": 85,
         "localCulture": 88, "markets": 82, "festivals": 85, "theatre": 82, "walkability": 92,
         "cycling": 82, "lakesRivers": 78, "foodScene": 85, "streetFood": 78, "beer": 92,
@@ -71,6 +72,7 @@
         "luxury": 185
       },
       "r": {
+        "oldTown": 86,
         "historicSites": 90, "architecture": 90, "museums": 85, "religiousSites": 88,
         "localCulture": 88, "markets": 82, "artScene": 78, "festivals": 82, "walkability": 90,
         "cycling": 82, "lakesRivers": 72, "foodScene": 85, "streetFood": 78, "beer": 90,
@@ -97,6 +99,7 @@
       "lon": 19.949,
       "type": "mountains",
       "arch": "ski-resort",
+      "transfer": 2,
       "blurb": "Poland's winter capital, all carved timber and smoked sheep's cheese, with the Tatras rising straight behind it and a funicular up Gubałówka for the view back.",
       "tags": ["góralski", "oscypek", "morskie oko", "wooden architecture"],
       "climate": {
@@ -115,6 +118,7 @@
         "luxury": 200
       },
       "r": {
+        "oldTown": 30,
         "mountains": 94, "hiking": 96, "skiing": 88, "scenery": 94, "nationalParks": 90,
         "climbing": 85, "lakesRivers": 88, "forests": 85, "cycling": 72, "adrenaline": 78,
         "wellness": 85, "architecture": 85, "localCulture": 92, "foodScene": 82, "markets": 82,
@@ -140,6 +144,7 @@
       "lon": 21.6,
       "type": "lake",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "Two thousand lakes joined by canals in Poland's north-east, sailed rather than driven, with Teutonic castles on the shores and the Wolf's Lair rotting in the forest.",
       "tags": ["sailing", "canals", "teutonic castles", "wolf's lair"],
       "climate": {
@@ -157,6 +162,7 @@
         "luxury": 190
       },
       "r": {
+        "oldTown": 20,
         "lakesRivers": 98, "sailing": 96, "kayaking": 94, "swimming": 82, "scenery": 88,
         "forests": 90, "wildlife": 85, "nationalParks": 78, "cycling": 85, "hiking": 78,
         "fishing": 90, "historicSites": 82, "architecture": 72, "stargazing": 85, "wellness": 72,
@@ -182,6 +188,7 @@
       "lon": 18.598,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.75,
       "blurb": "A Gothic brick town the war somehow missed, where Copernicus was born and gingerbread has been baked to the same recipe since the 1300s — with Europe's last primeval forest east of it.",
       "tags": ["copernicus", "gingerbread", "gothic brick", "bison"],
       "climate": {
@@ -199,6 +206,7 @@
         "luxury": 175
       },
       "r": {
+        "oldTown": 92,
         "historicSites": 94, "architecture": 94, "museums": 85, "religiousSites": 85,
         "localCulture": 88, "walkability": 92, "markets": 78, "artScene": 68, "forests": 92,
         "wildlife": 94, "nationalParks": 88, "hiking": 78, "cycling": 82, "lakesRivers": 68,
@@ -225,6 +233,7 @@
       "lon": 16.608,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 1.5,
       "blurb": "Czechia's second city, with a functionalist villa that changed architecture, a genuinely strange cathedral bell habit, and the country's wine region rolling away to the south.",
       "tags": ["villa tugendhat", "moravian wine", "bar scene", "špilberk"],
       "climate": {
@@ -242,6 +251,7 @@
         "luxury": 200
       },
       "r": {
+        "oldTown": 72,
         "architecture": 92, "historicSites": 85, "museums": 82, "artScene": 88,
         "localCulture": 88, "theatre": 82, "festivals": 82, "walkability": 90, "bars": 94,
         "beer": 96, "coffee": 92, "wine": 90, "foodScene": 85, "clubbing": 82, "markets": 78,
@@ -267,6 +277,7 @@
       "lon": 12.872,
       "type": "region",
       "arch": "mountain-town",
+      "transfer": 2,
       "blurb": "A spa town of pastel colonnades where you sip hot mineral water from a special spouted cup, and to the north sandstone arches and gorges out of a Romantic painting.",
       "tags": ["spa colonnades", "pravčická brána", "becherovka", "sandstone"],
       "climate": {
@@ -285,6 +296,7 @@
         "luxury": 235
       },
       "r": {
+        "oldTown": 78,
         "wellness": 96, "architecture": 92, "historicSites": 82, "scenery": 92, "hiking": 92,
         "forests": 92, "nationalParks": 88, "climbing": 85, "mountains": 78, "lakesRivers": 72,
         "cycling": 82, "museums": 72, "romance": 85, "foodScene": 78, "beer": 92, "wine": 68,
@@ -328,6 +340,7 @@
         "luxury": 260
       },
       "r": {
+        "oldTown": 80,
         "historicSites": 90, "architecture": 88, "religiousSites": 82, "museums": 78,
         "beaches": 85, "swimming": 90, "sailing": 92, "islands": 90, "kayaking": 82,
         "snorkelling": 72, "scenery": 88, "nationalParks": 85, "localCulture": 85,
@@ -354,6 +367,7 @@
       "lon": 15.616,
       "type": "region",
       "arch": "wilderness-park",
+      "transfer": 2,
       "blurb": "Sixteen terraced lakes falling into one another over travertine barriers that are still growing, connected by miles of boardwalk laid inches above turquoise water.",
       "tags": ["terraced lakes", "boardwalks", "travertine", "waterfalls"],
       "climate": {
@@ -372,6 +386,7 @@
         "luxury": 240
       },
       "r": {
+        "oldTown": 10,
         "lakesRivers": 98, "nationalParks": 98, "scenery": 98, "forests": 94, "hiking": 92,
         "wildlife": 82, "swimming": 62, "kayaking": 55, "cycling": 68, "stargazing": 78,
         "romance": 85, "adrenaline": 55, "foodScene": 72, "localCulture": 72,
@@ -414,6 +429,7 @@
         "luxury": 220
       },
       "r": {
+        "oldTown": 72,
         "coffee": 96, "bars": 90, "foodScene": 88, "markets": 92, "festivals": 90, "museums": 90,
         "artScene": 88, "architecture": 88, "historicSites": 82, "theatre": 82,
         "localCulture": 88, "walkability": 90, "shopping": 78, "beer": 82, "wine": 85,
@@ -439,6 +455,7 @@
       "lon": 16.19,
       "type": "island",
       "arch": "tropical-island",
+      "transfer": 2.5,
       "blurb": "Vis was closed to foreigners as a military base until 1989 and is still the least spoiled Adriatic island. Korčula claims Marco Polo and makes very good white wine.",
       "tags": ["blue cave", "marco polo", "grk wine", "stiniva"],
       "climate": {
@@ -457,6 +474,7 @@
         "luxury": 290
       },
       "r": {
+        "oldTown": 76,
         "beaches": 92, "swimming": 96, "islands": 96, "sailing": 94, "snorkelling": 88,
         "scuba": 85, "kayaking": 88, "scenery": 92, "historicSites": 85, "architecture": 88,
         "localCulture": 88, "foodScene": 92, "wine": 92, "fineDining": 82, "cycling": 78,
@@ -500,6 +518,7 @@
         "luxury": 165
       },
       "r": {
+        "oldTown": 88,
         "historicSites": 94, "religiousSites": 94, "architecture": 90, "museums": 90,
         "localCulture": 96, "markets": 90, "foodScene": 90, "streetFood": 88, "coffee": 96,
         "walkability": 88, "mountains": 85, "hiking": 85, "skiing": 78, "scenery": 85,
@@ -518,7 +537,7 @@
     },
     {
       "id": "ohrid-mk",
-      "name": "Lake Ohrid",
+      "name": "Ohrid & the Lake",
       "country": "MK",
       "region": "North Macedonia",
       "continent": "Europe",
@@ -544,6 +563,7 @@
         "luxury": 160
       },
       "r": {
+        "oldTown": 88,
         "lakesRivers": 96, "swimming": 88, "religiousSites": 96, "historicSites": 92,
         "architecture": 88, "museums": 78, "scenery": 92, "localCulture": 90, "hiking": 82,
         "mountains": 82, "cycling": 78, "kayaking": 82, "beaches": 78, "sailing": 68,
@@ -570,6 +590,7 @@
       "lon": 19.944,
       "type": "city",
       "arch": "historic-city",
+      "transfer": 2,
       "blurb": "Two Ottoman towns of stacked stone houses — Berat's thousand windows climbing the hillside, Gjirokastër's slate roofs — both still lived in rather than curated.",
       "tags": ["thousand windows", "ottoman", "slate roofs", "castles"],
       "climate": {
@@ -587,6 +608,7 @@
         "luxury": 150
       },
       "r": {
+        "oldTown": 92,
         "historicSites": 94, "architecture": 96, "religiousSites": 85, "museums": 78,
         "localCulture": 92, "markets": 78, "scenery": 88, "mountains": 85, "hiking": 85,
         "lakesRivers": 78, "walkability": 82, "cycling": 62, "foodScene": 85, "wine": 82,
@@ -612,6 +634,7 @@
       "lon": 19.05,
       "type": "mountains",
       "arch": "wilderness-park",
+      "transfer": 2.5,
       "blurb": "Forty-eight peaks over two thousand metres, eighteen glacial lakes, and the deepest river canyon in Europe running 1,300 metres down through the middle of it.",
       "tags": ["tara canyon", "black lake", "rafting", "glacial lakes"],
       "climate": {
@@ -630,6 +653,7 @@
         "luxury": 180
       },
       "r": {
+        "oldTown": 10,
         "mountains": 96, "hiking": 96, "scenery": 96, "nationalParks": 94, "lakesRivers": 92,
         "climbing": 88, "adrenaline": 94, "kayaking": 92, "forests": 90, "skiing": 78,
         "wildlife": 78, "cycling": 78, "stargazing": 90, "roadTrip": 90, "localCulture": 78,
@@ -673,6 +697,7 @@
         "luxury": 175
       },
       "r": {
+        "oldTown": 72,
         "architecture": 88, "historicSites": 82, "museums": 78, "artScene": 88,
         "localCulture": 85, "festivals": 96, "liveMusic": 92, "theatre": 82, "bars": 90,
         "clubbing": 90, "coffee": 92, "foodScene": 85, "beer": 85, "wine": 82, "walkability": 88,

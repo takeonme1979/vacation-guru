@@ -12,7 +12,7 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { installDom, countNodes, Nd } from './dom-shim.mjs';
-import { budgetSpread, crowdWord, applyPreset } from '../js/scoring.js';
+import { crowdWord, applyPreset, travelBurden } from '../js/scoring.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -269,24 +269,31 @@ check('temperature, cost and flight time also get targets there', () => {
     `expected 3 targets, got ${r.querySelectorAll('.crit__target').length}`);
   const text = r.textContent;
   assert(/ideal daytime temperature/i.test(text), 'temperature target missing');
-  assert(/budget per person/i.test(text), 'budget target missing');
+  assert(/scored against £/i.test(text), 'cost target does not point at the spend control');
   assert(/home airport/i.test(text), 'flight time should prompt for a home airport when none is set');
   return '3 targets, flight time prompts for an airport';
 });
 
-check('an impossible style + budget combination is called out', () => {
+check('spend and travel style can no longer disagree', () => {
+  // These were two controls in two blocks of the same screen, and nothing stopped
+  // them contradicting each other — luxury at £50 a day being the obvious case.
+  // Style is read off the spend now, so the impossible pair cannot be expressed.
   store_.update((s) => {
     s.prefs.weights = {};
-    s.prefs.targets.budgetStyle = 'luxury';
+    s.prefs.targets.budgetStyle = 'luxury';       // deliberately wrong for the money
     s.prefs.targets.budgetPerDay = 50;
   }, { persist: false });
   store_.setImportance('cost', 2);
   const r = root();
   renderSetup(r, { go: () => {} });
+
+  assert(store_.state.prefs.targets.budgetStyle === 'budget',
+    `£50 a day is budget travel, but style stayed "${store_.state.prefs.targets.budgetStyle}"`);
   const note = r.querySelector('.budget-note');
-  assert(note, 'no budget note beside the budget slider');
-  assert(/is-bad/.test(note.className), `expected a hard warning, class was "${note.className}"`);
-  assert(/Nothing costs under/.test(note.textContent), `unexpected message: ${note.textContent}`);
+  assert(note, 'no note beside the spend slider');
+  assert(!/is-bad/.test(note.className),
+    `£50 at budget prices is workable, but was called impossible: ${note.textContent}`);
+  assert(/fit at this budget/.test(note.textContent), `unexpected message: ${note.textContent}`);
   return note.textContent.slice(0, 60) + '…';
 });
 
@@ -346,21 +353,65 @@ check('trip length is on the first page and drives total cost', () => {
   return 'nights set to 10, total shown';
 });
 
-check('switching travel style re-anchors the daily spend', () => {
+check('what you spend is what sets the travel style', () => {
   store_.update((s) => {
-    s.prefs.targets.budgetStyle = 'luxury';
+    s.prefs.weights = {};
     s.prefs.targets.budgetPerDay = 500;
   }, { persist: false });
   const r = root();
   renderSetup(r, { go: () => {} });
-  r.querySelectorAll('.seg__btn')[0].click();          // budget / mid / luxury
-  const t = store_.state.prefs.targets;
-  const spread = budgetSpread(data().destinations, 'budget', store_.state.prefs.month);
-  assert(t.budgetStyle === 'budget', 'style did not change');
-  assert(t.budgetPerDay < 500, `spend stayed at £${t.budgetPerDay}`);
-  assert(Math.abs(t.budgetPerDay - spread.median) <= 10,
-    `spend £${t.budgetPerDay} is not near the £${spread.median} median`);
-  return `budget £${spread.median}/day`;
+  // Several sliders live on this screen, so find the one that is about money.
+  const spendSlider = () => r.querySelectorAll('.range__input')
+    .find((el) => /spend/i.test(el.attributes['aria-label'] || ''));
+  assert(spendSlider(), 'no spend slider on the Trip screen');
+
+  // One control, dragged across its range, walks the tier with it.
+  const spendTo = (v) => {
+    fire(spendSlider(), 'input', v);
+    return store_.state.prefs.targets.budgetStyle;
+  };
+  const cheap = spendTo(40);
+  assert(cheap === 'budget', `£40 a day should be budget travel, got "${cheap}"`);
+  const middle = spendTo(130);
+  assert(middle === 'mid', `£130 a day should be mid-range, got "${middle}"`);
+  const rich = spendTo(500);
+  assert(rich === 'luxury', `£500 a day should be luxury, got "${rich}"`);
+
+  // And the screen says so in words, so the tier is never a hidden setting.
+  assert(/that is luxury travel/i.test(r.textContent),
+    'the spend control does not name the travel style it buys');
+  return '£40 budget · £130 mid · £500 luxury';
+});
+
+console.log('\nTravel time is judged against the length of the trip');
+check('a long flight is only a problem on a short trip', () => {
+  const dest = data().destinations.find((d) => d.name === 'Bali')
+    || data().destinations.find((d) => /bali/i.test(d.name));
+  assert(dest, 'no Bali in the catalogue to test against');
+  const home = { id: 'LHR', label: 'London Heathrow', lat: 51.47, lon: -0.454 };
+
+  const short = travelBurden(dest, { home, targets: { tripNights: 3 } });
+  const long = travelBurden(dest, { home, targets: { tripNights: 21 } });
+  assert(short.verdict === 'heavy', `3 nights to Bali should be heavy, was "${short.verdict}"`);
+  assert(long.verdict === 'fine', `21 nights to Bali should be fine, was "${long.verdict}"`);
+  assert(short.usableDays < long.usableDays, 'usable days did not grow with the trip');
+  assert(short.daysLost === long.daysLost, 'the flight itself should cost the same either way');
+  return `3 nights leaves ${short.usableDays} days, 21 nights leaves ${long.usableDays}`;
+});
+
+check('and the Trip screen says so before you pick anywhere', () => {
+  store_.update((s) => {
+    s.prefs.weights = {};
+    s.prefs.home = { id: 'LHR', label: 'London Heathrow', lat: 51.47, lon: -0.454 };
+    s.prefs.targets.tripNights = 4;
+  }, { persist: false });
+  const r = root();
+  renderSetup(r, { go: () => {} });
+  const note = r.querySelector('.block__note');
+  assert(note, 'no travel-time judgement on the Trip screen');
+  assert(/day at each end|slice of it|barely matters/i.test(note.textContent),
+    `unexpected note: "${note.textContent}"`);
+  return note.textContent.slice(0, 70) + '…';
 });
 
 

@@ -1,0 +1,91 @@
+{
+  "_doc": "Outside the world altogether: the halls the Ainur were made in, the emptiness beyond the Walls, and the gate between them. None of this is in Arda and none of it can be reached from anywhere, which is the point. Photo topics are the nearest things on Earth to nothing at all.",
+  "destinations": [
+    {
+      "id": "timeless-halls", "name": "The Timeless Halls", "country": "EA", "region": "Before Eä", "continent": "High Fantasy",
+      "type": "sky", "arch": "wonderland",
+      "blurb": "Where the Ainur were made and the Music was sung: no world yet, no time yet, nothing but the halls of Ilúvatar and a theme being taken up in parts. Everything since has been a performance of what was sung here.",
+      "about": "The Ainulindalë is the first thing in The Silmarillion and the strangest. Ilúvatar propounds a theme, the Ainur sing it, Melkor sings against it, and the discord is woven back in so that the worst of history turns out to have been part of the composition all along. Then Ilúvatar says Eä — let it Be — and the singers who go down into the world become the Valar. They do not come back.",
+      "tags": ["ilúvatar", "the ainulindalë", "the music", "before everything"],
+      "climate": {
+        "tempHigh": [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+        "tempLow":  [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
+      },
+      "crowd":      [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+      "costTier": 1,
+      "r": {
+        "music": 100, "timeStrange": 100, "magic": 100, "wizards": 100, "prophecy": 100,
+        "history": 100, "libraries": 62, "artefacts": 25, "peoples": 25, "scenery": 96,
+        "architecture": 88, "temples": 92, "safety": 100, "survivability": 8,
+        "soloFemaleSafety": 100, "comfort": 62, "healing": 88, "hospitality": 62,
+        "foodScene": 0, "feasting": 0, "vegetarian": 0, "ale": 0, "wine": 0, "taverns": 0,
+        "revels": 25, "festivals": 45, "gambling": 0, "markets": 0, "shopping": 0,
+        "cities": 12, "luxury": 45, "familyFriendly": 12, "seniors": 25, "romance": 25,
+        "stargazing": 12, "localCulture": 92, "fellowship": 88, "questing": 25,
+        "wilderness": 0, "wandering": 12, "combat": 0, "monsters": 0, "undead": 0,
+        "dragons": 0, "technology": 0, "commonTongue": 15,
+        "gettingThere": 0, "gettingBack": 0
+      },
+      "photos": ["Light through cathedral vault", "Choir singing in cathedral", "Sunbeams through cathedral window", "Golden light rays through cloud", "Organ pipes cathedral interior", "Nebula deep space light"]
+    },
+    {
+      "id": "the-void", "name": "The Void", "country": "EA", "region": "The Outer Dark", "continent": "High Fantasy",
+      "type": "underworld", "arch": "underworld",
+      "blurb": "The Everlasting Dark outside the world, containing nothing whatsoever except Morgoth, who was thrown into it through a door that is guarded. No floor, no end, no other guests.",
+      "about": "Melkor went into the Void looking for the Flame Imperishable and did not find it, because it is with Ilúvatar — the first thing that goes wrong in creation, and everything else follows from it. After the War of Wrath the Valar thrust him out through the Door of Night, and the prophecy says he comes back through it for the last battle. Until then this is the emptiest destination available anywhere.",
+      "tags": ["morgoth", "the outer dark", "nothing at all", "dagor dagorath"],
+      "climate": {
+        "tempHigh": [-118, -118, -118, -118, -118, -118, -118, -118, -118, -118, -118, -118],
+        "tempLow":  [-160, -160, -160, -160, -160, -160, -160, -160, -160, -160, -160, -160],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      },
+      "crowd":      [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      "costTier": 1,
+      "r": {
+        "timeStrange": 100, "prophecy": 100, "magic": 88, "history": 92, "undead": 55,
+        "monsters": 92, "combat": 55, "questing": 62, "adrenaline": 92, "wilderness": 100,
+        "underground": 55, "wizards": 45, "stargazing": 2, "scenery": 5, "safety": 0,
+        "survivability": 0, "gettingThere": 0, "gettingBack": 0, "soloFemaleSafety": 0,
+        "comfort": 0, "healing": 0, "hospitality": 0, "foodScene": 0, "feasting": 0,
+        "vegetarian": 0, "ale": 0, "wine": 0, "taverns": 0, "music": 0, "revels": 0,
+        "festivals": 0, "gambling": 0, "markets": 0, "shopping": 0, "cities": 0,
+        "libraries": 0, "luxury": 0, "familyFriendly": 0, "seniors": 0, "romance": 0,
+        "artefacts": 12, "peoples": 2, "commonTongue": 2, "technology": 0, "dragons": 5,
+        "fellowship": 12, "wandering": 25
+      },
+      "photos": ["Barnard 68 dark nebula", "Deep space dark region stars", "Cave in total darkness", "Starless night sky black", "Dark ocean horizon at night", "Black volcanic sand texture"]
+    },
+    {
+      "id": "door-of-night", "name": "The Door of Night", "country": "EA", "region": "The Walls of the World", "continent": "High Fantasy",
+      "type": "sky", "arch": "wonderland",
+      "blurb": "A gate in the wall at the edge of everything, guarded permanently against one specific returning visitor, with the ship of Eärendil passing overhead on its way up. The last thing before there is nothing.",
+      "about": "Beyond the Outer Sea stand the Walls of the World, and in them the Door of Night, through which Morgoth was thrust and through which the prophecy says he returns for the Dagor Dagorath. Eärendil sails above it with a Silmaril bound to his brow — the Evening Star, the one light left in Middle-earth that comes from the Trees, and the one Sam and Frodo look up at in Mordor and take heart from.",
+      "tags": ["eärendil", "the walls of the world", "the last battle", "guarded"],
+      "climate": {
+        "tempHigh": [-40, -40, -40, -40, -40, -40, -40, -40, -40, -40, -40, -40],
+        "tempLow":  [-80, -80, -80, -80, -80, -80, -80, -80, -80, -80, -80, -80],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+      },
+      "crowd":      [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+      "costTier": 2,
+      "r": {
+        "prophecy": 100, "timeStrange": 100, "magic": 96, "stargazing": 100, "sailing": 78,
+        "scenery": 92, "history": 96, "artefacts": 88, "wizards": 78, "adrenaline": 82,
+        "questing": 88, "monsters": 45, "combat": 42, "undead": 22, "coast": 45,
+        "wilderness": 92, "fellowship": 55, "music": 55, "safety": 12, "survivability": 5,
+        "gettingThere": 0, "gettingBack": 1, "soloFemaleSafety": 25, "comfort": 2,
+        "healing": 5, "hospitality": 5, "foodScene": 0, "feasting": 0, "vegetarian": 0,
+        "ale": 0, "taverns": 0, "cities": 0, "markets": 0, "luxury": 5, "libraries": 5,
+        "familyFriendly": 0, "seniors": 2, "romance": 42, "commonTongue": 5, "peoples": 5
+      },
+      "photos": ["Doorway of light in darkness", "Ancient stone doorway at night", "Comet in the night sky", "Venus evening star twilight", "Gate silhouette at dusk", "Aurora over dark horizon"]
+    }
+  ]
+}
