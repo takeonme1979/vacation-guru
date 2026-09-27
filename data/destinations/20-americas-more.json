@@ -72,6 +72,7 @@
         "luxury": 400
       },
       "r": {
+        "christmasMarkets": 55,
         "mountains": 94, "hiking": 92, "skiing": 88, "scenery": 90, "nationalParks": 92,
         "climbing": 88, "cycling": 88, "adrenaline": 85, "lakesRivers": 72, "wildlife": 78,
         "roadTrip": 92, "beer": 98, "liveMusic": 92, "foodScene": 85, "museums": 80,
@@ -114,6 +115,7 @@
         "luxury": 370
       },
       "r": {
+        "christmasMarkets": 30,
         "oldTown": 88,
         "historicSites": 94, "architecture": 96, "museums": 78, "artScene": 82,
         "walkability": 94, "localCulture": 88, "scenery": 88, "romance": 92, "foodScene": 88,

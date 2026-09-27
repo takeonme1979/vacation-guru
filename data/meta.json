@@ -1,11 +1,11 @@
 {
-  "builtId": "a33d48408cec",
+  "builtId": "e239e758c45e",
   "schemaVersion": 1,
   "destinations": 704,
   "countries": 163,
-  "ratedCriteria": 80,
-  "totalCriteria": 89,
-  "dataPoints": 56320,
+  "ratedCriteria": 81,
+  "totalCriteria": 90,
+  "dataPoints": 57024,
   "photoTopics": 4224,
   "byContinent": {
     "Europe": 269,

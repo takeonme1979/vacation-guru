@@ -113,6 +113,15 @@ async function buildWorld(world) {
   const ratedSet = new Set(ratedIds);
   const allCritIds = new Set(criteria.criteria.map((c) => c.id));
 
+  // A calendar gate (months) is twelve availability factors, Jan..Dec, 0-1.
+  for (const c of criteria.criteria) {
+    const cal = c.gate?.months;
+    if (cal !== undefined && (!Array.isArray(cal) || cal.length !== 12
+        || cal.some((v) => typeof v !== 'number' || v < 0 || v > 1))) {
+      err(`criterion ${c.id}: gate.months must be 12 numbers from 0 to 1`);
+    }
+  }
+
   const countryKeys = countries.keyOrder;
   const countryRatings = {};
   for (const [cc, row] of Object.entries(countries.countries)) {

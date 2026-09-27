@@ -29,6 +29,7 @@
         "luxury": 440
       },
       "r": {
+        "christmasMarkets": 15,
         "oldTown": 35,
         "beaches": 94, "swimming": 90, "surfing": 92, "sailing": 92, "kayaking": 82,
         "waterSports": 84, "scenery": 88, "architecture": 88, "foodScene": 92, "fineDining": 90,
@@ -74,6 +75,7 @@
         "luxury": 420
       },
       "r": {
+        "christmasMarkets": 20,
         "oldTown": 20,
         "coffee": 100, "foodScene": 96, "fineDining": 92, "markets": 90, "artScene": 96,
         "museums": 88, "theatre": 90, "liveMusic": 96, "festivals": 92, "sports": 100,

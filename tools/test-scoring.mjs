@@ -190,6 +190,25 @@ console.log('\nSeasonality');
 }
 
 // ---------------------------------------------------------------------------
+console.log('\nCalendar-gated criteria');
+// ---------------------------------------------------------------------------
+{
+  // Christmas markets are a calendar, not a climate: Nuremberg's is world
+  // class in December and does not exist in July.
+  const xmas = criteriaById.get('christmasMarkets');
+  const nbg = destinations.find((d) => d.id === 'nuremberg-de');
+  const at = (month) => scoreCriterion(xmas, nbg, { ...emptyPrefs(), month });
+  check('Christmas markets score in December', at(11).score >= 0.95, `${at(11).score}`);
+  check('…partly in late November', at(10).score > 0.3 && at(10).score < 0.7 && /only some/.test(at(10).detail),
+    `${at(10).score} — ${at(10).detail}`);
+  check('…and not at all in July', at(6).score === 0 && /No Christmas markets/.test(at(6).detail), at(6).detail);
+
+  const decTop = top({ ...emptyPrefs(), month: 11, maxPerCountry: 0, weights: { christmasMarkets: 3 } }, 8);
+  check('a December Christmas-market search finds the famous ones',
+    decTop.every((r) => r.dest.ratings.christmasMarkets >= 90), names(decTop));
+}
+
+// ---------------------------------------------------------------------------
 console.log('\nMust-haves and dealbreakers');
 // ---------------------------------------------------------------------------
 {

@@ -23,6 +23,7 @@
       "priceIndex": [60, 60, 65, 72, 78, 85, 100, 100, 80, 70, 62, 68],
       "cost": { "budget": 25, "mid": 55, "luxury": 140 },
       "r": {
+        "christmasMarkets": 20,
         "oldTown": 72, "historicSites": 72, "architecture": 62, "religiousSites": 80, "museums": 55,
         "localCulture": 86, "coffee": 98, "bars": 78, "clubbing": 62, "liveMusic": 60, "festivals": 70,
         "foodScene": 74, "markets": 62, "shopping": 55, "walkability": 72, "publicTransport": 45,
@@ -62,6 +63,7 @@
       "priceIndex": [55, 55, 62, 70, 78, 86, 100, 100, 78, 66, 58, 60],
       "cost": { "budget": 22, "mid": 50, "luxury": 120 },
       "r": {
+        "christmasMarkets": 10,
         "oldTown": 94, "historicSites": 88, "architecture": 88, "religiousSites": 88, "museums": 55,
         "localCulture": 92, "festivals": 84, "liveMusic": 58, "walkability": 92, "coffee": 96,
         "foodScene": 78, "markets": 66, "bars": 70, "clubbing": 45, "shopping": 45,
@@ -100,6 +102,7 @@
       "priceIndex": [60, 60, 66, 74, 80, 86, 95, 95, 82, 70, 62, 68],
       "cost": { "budget": 25, "mid": 58, "luxury": 150 },
       "r": {
+        "christmasMarkets": 40,
         "oldTown": 84, "historicSites": 76, "architecture": 70, "religiousSites": 72, "museums": 62,
         "markets": 88, "localCulture": 84, "festivals": 62, "coffee": 84, "foodScene": 78,
         "streetFood": 74, "bars": 75, "clubbing": 62, "shopping": 62, "walkability": 78,
@@ -140,6 +143,7 @@
       "priceIndex": [58, 58, 62, 70, 76, 84, 95, 95, 80, 68, 60, 64],
       "cost": { "budget": 22, "mid": 50, "luxury": 120 },
       "r": {
+        "christmasMarkets": 25,
         "oldTown": 86, "historicSites": 88, "architecture": 86, "religiousSites": 72, "museums": 62,
         "localCulture": 84, "coffee": 90, "bars": 70, "clubbing": 40, "walkability": 86,
         "markets": 72, "festivals": 72, "foodScene": 76, "valueForMoney": 96, "romance": 72,
@@ -180,6 +184,7 @@
       "priceIndex": [55, 55, 60, 70, 78, 86, 96, 96, 82, 68, 58, 62],
       "cost": { "budget": 24, "mid": 55, "luxury": 130 },
       "r": {
+        "christmasMarkets": 45,
         "oldTown": 92, "historicSites": 92, "architecture": 86, "religiousSites": 82, "museums": 62,
         "markets": 65, "localCulture": 84, "festivals": 65, "walkability": 76, "scenery": 82,
         "lakesRivers": 70, "hiking": 70, "valueForMoney": 96, "romance": 82, "backpacker": 74,
@@ -218,6 +223,7 @@
       "priceIndex": [65, 65, 70, 78, 84, 88, 92, 92, 85, 75, 68, 78],
       "cost": { "budget": 50, "mid": 105, "luxury": 220 },
       "r": {
+        "christmasMarkets": 78,
         "oldTown": 94, "historicSites": 86, "architecture": 96, "religiousSites": 70, "museums": 64,
         "walkability": 88, "romance": 80, "localCulture": 62, "valueForMoney": 82, "beer": 80,
         "coffee": 70, "bars": 50, "clubbing": 20, "publicTransport": 60, "cycling": 72,
@@ -255,6 +261,7 @@
       "priceIndex": [60, 60, 62, 70, 80, 88, 98, 98, 82, 70, 62, 70],
       "cost": { "budget": 35, "mid": 75, "luxury": 160 },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 90, "historicSites": 88, "architecture": 86, "religiousSites": 70, "museums": 72,
         "walkability": 72, "scenery": 82, "lakesRivers": 72, "swimming": 45, "hiking": 76,
         "forests": 78, "mountains": 55, "volcanic": 40, "romance": 78, "localCulture": 72,

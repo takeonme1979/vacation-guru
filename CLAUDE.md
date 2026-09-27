@@ -1,6 +1,6 @@
 # Vacation Guru
 
-Offline-first holiday destination matcher, scored on-device across ~89
+Offline-first holiday destination matcher, scored on-device across ~90
 criteria — see `README.md` for how the matching/scoring works and
 `DEPLOY.md` for hosting. This file is maintained as work progresses —
 update it (don't just let it go stale) as current focus changes.
@@ -83,3 +83,14 @@ source. CI checks that you did this.
   change only reaches returning visitors when `sw.js` changes. `netlify.toml`
   is now part of the `CACHE_VERSION` fingerprint in `build-data.mjs` for that
   reason — always rebuild after editing it.
+
+## Christmas Markets (added 2026-09-28)
+
+- New rated criterion **`christmasMarkets`** (Culture, after Markets &
+  Bazaars), with a **calendar gate**: `gate.months` in `criteria.json` is 12
+  factors Jan..Dec (Jan 0.2, Nov 0.5, Dec 1, else 0), handled in
+  `scoreCriterion` alongside the climate gates. Out of season it scores 0
+  with "No Christmas markets this month".
+- Archetype baseline 0; 197 destinations rated by judgement (Nuremberg 99,
+  Strasbourg/Alsace 99, Dresden 98, Vienna 97, Cologne/Salzburg/Prague/
+  Tallinn/Zagreb 95…). Unrated = no notable market.

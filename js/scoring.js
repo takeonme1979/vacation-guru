@@ -384,10 +384,19 @@ export function scoreCriterion(criterion, dest, prefs) {
       // criterion multiplies its standing rating by a monthly availability
       // factor rather than reporting the annual truth all year round.
       if (criterion.gate) {
-        const raw = monthValue(dest, criterion.gate.src, month);
-        const factor = raw == null
-          ? (criterion.gate.absentIs ?? 0)
-          : clamp01(normaliseScale(raw, criterion.gate.scale));
+        // Two kinds of gate. Most read the place's own climate (snow, sea
+        // temperature). A calendar gate is the same everywhere: Christmas
+        // markets run in December whatever the weather, and not in July.
+        const cal = criterion.gate.months;
+        let factor;
+        if (Array.isArray(cal)) {
+          factor = clamp01(month == null ? annualMean(cal) : cal[month]);
+        } else {
+          const raw = monthValue(dest, criterion.gate.src, month);
+          factor = raw == null
+            ? (criterion.gate.absentIs ?? 0)
+            : clamp01(normaliseScale(raw, criterion.gate.scale));
+        }
         const score = base * factor;
         if (factor < 0.15) {
           return {

@@ -29,6 +29,7 @@
         "luxury": 340
       },
       "r": {
+        "christmasMarkets": 45,
         "foodScene": 100, "fineDining": 100, "streetFood": 82, "markets": 88, "shopping": 100,
         "museums": 84, "artScene": 86, "architecture": 84, "religiousSites": 82,
         "historicSites": 70, "theatre": 82, "liveMusic": 82, "festivals": 84, "localCulture": 92,
@@ -342,6 +343,7 @@
         "luxury": 290
       },
       "r": {
+        "christmasMarkets": 25,
         "oldTown": 45,
         "foodScene": 94, "streetFood": 92, "markets": 90, "shopping": 94, "bars": 92,
         "clubbing": 92, "groupParty": 88, "liveMusic": 86, "historicSites": 84, "museums": 80,

@@ -29,6 +29,7 @@
         "luxury": 195
       },
       "r": {
+        "christmasMarkets": 70,
         "oldTown": 70,
         "historicSites": 82, "architecture": 92, "museums": 78, "religiousSites": 62,
         "localCulture": 78, "markets": 68, "foodScene": 75, "streetFood": 68, "bars": 75,
@@ -115,6 +116,7 @@
         "luxury": 220
       },
       "r": {
+        "christmasMarkets": 85,
         "oldTown": 84,
         "historicSites": 80, "architecture": 78, "museums": 68, "religiousSites": 60,
         "localCulture": 70, "markets": 62, "foodScene": 72, "streetFood": 68, "bars": 82,
@@ -157,6 +159,7 @@
         "luxury": 340
       },
       "r": {
+        "christmasMarkets": 88,
         "oldTown": 78,
         "historicSites": 82, "architecture": 88, "museums": 85, "religiousSites": 62,
         "localCulture": 75, "markets": 72, "foodScene": 90, "streetFood": 78, "bars": 88,
@@ -199,6 +202,7 @@
         "luxury": 520
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 68,
         "historicSites": 68, "architecture": 68, "museums": 72, "lakesRivers": 88,
         "swimming": 62, "sailing": 68, "localCulture": 60, "foodScene": 82, "fineDining": 85,
@@ -242,6 +246,7 @@
         "luxury": 170
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 65,
         "historicSites": 78, "architecture": 75, "museums": 55, "religiousSites": 55,
         "localCulture": 72, "markets": 62, "foodScene": 68, "streetFood": 68, "bars": 78,
@@ -284,6 +289,7 @@
         "luxury": 245
       },
       "r": {
+        "christmasMarkets": 65,
         "oldTown": 40,
         "historicSites": 72, "architecture": 68, "museums": 65, "religiousSites": 45,
         "localCulture": 68, "markets": 62, "foodScene": 68, "streetFood": 55, "bars": 75,
@@ -326,6 +332,7 @@
         "luxury": 220
       },
       "r": {
+        "christmasMarkets": 85,
         "oldTown": 25,
         "historicSites": 55, "architecture": 58, "museums": 62, "religiousSites": 40,
         "localCulture": 65, "markets": 68, "foodScene": 78, "streetFood": 62, "bars": 75,
@@ -369,6 +376,7 @@
         "luxury": 175
       },
       "r": {
+        "christmasMarkets": 20,
         "oldTown": 30,
         "beaches": 68, "swimming": 78, "lakesRivers": 92, "sailing": 68, "kayaking": 62,
         "scenery": 72, "cycling": 78, "localCulture": 55, "foodScene": 60, "familyYoungKids": 82,

@@ -58,6 +58,8 @@
     { "id": "localCulture",    "cat": "culture", "kind": "max", "icon": "🪘", "label": "Living Local Culture",     "help": "Traditions, crafts and daily life that feel distinct." },
     { "id": "artScene",        "cat": "culture", "kind": "max", "icon": "🎨", "label": "Art & Design Scene",       "help": "Contemporary art, studios, street art and design." },
     { "id": "markets",         "cat": "culture", "kind": "max", "icon": "🧺", "label": "Markets & Bazaars",        "help": "Food halls, souks and street markets." },
+    { "id": "christmasMarkets","cat": "culture", "kind": "max", "icon": "🎄", "label": "Christmas Markets",        "help": "Traditional Christmas markets — wooden stalls, mulled wine and lights. Counts only from late November to early January.",
+      "gate": { "months": [0.2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 1], "closed": "No Christmas markets this month", "limited": "only some markets open" } },
 
     { "id": "foodScene",       "cat": "food", "kind": "max", "icon": "🍽️", "label": "Overall Food Scene",   "help": "How good it simply is to eat here." },
     { "id": "streetFood",      "cat": "food", "kind": "max", "icon": "🌮", "label": "Street Food",          "help": "Cheap, excellent food eaten standing up." },

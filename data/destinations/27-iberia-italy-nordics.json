@@ -73,6 +73,7 @@
         "luxury": 300
       },
       "r": {
+        "christmasMarkets": 40,
         "oldTown": 72,
         "museums": 96, "artScene": 94, "architecture": 96, "foodScene": 98, "fineDining": 96,
         "streetFood": 94, "markets": 92, "wine": 90, "bars": 92, "localCulture": 94,
@@ -513,6 +514,7 @@
         "luxury": 330
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 90,
         "foodScene": 100, "fineDining": 94, "markets": 96, "streetFood": 88, "wine": 92,
         "architecture": 94, "historicSites": 92, "museums": 88, "artScene": 85,
@@ -556,6 +558,7 @@
         "luxury": 330
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 70,
         "architecture": 94, "museums": 96, "historicSites": 88, "artScene": 88, "coffee": 98,
         "foodScene": 96, "fineDining": 94, "wine": 98, "markets": 90, "bars": 90, "theatre": 85,
@@ -599,6 +602,7 @@
         "luxury": 350
       },
       "r": {
+        "christmasMarkets": 70,
         "oldTown": 90,
         "historicSites": 94, "architecture": 94, "theatre": 96, "museums": 82,
         "religiousSites": 85, "walkability": 94, "localCulture": 88, "lakesRivers": 92,
@@ -643,6 +647,7 @@
         "luxury": 290
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 95,
         "historicSites": 100, "architecture": 98, "religiousSites": 90, "museums": 82,
         "localCulture": 92, "scenery": 92, "walkability": 85, "hiking": 82, "foodScene": 92,
@@ -732,6 +737,7 @@
         "luxury": 360
       },
       "r": {
+        "christmasMarkets": 45,
         "oldTown": 96,
         "historicSites": 98, "architecture": 98, "museums": 88, "religiousSites": 92,
         "scenery": 98, "localCulture": 94, "festivals": 96, "walkability": 92, "wine": 98,
@@ -776,6 +782,7 @@
         "luxury": 400
       },
       "r": {
+        "christmasMarkets": 78,
         "oldTown": 45,
         "foodScene": 94, "fineDining": 92, "markets": 90, "coffee": 96, "museums": 85,
         "artScene": 85, "architecture": 82, "localCulture": 85, "islands": 92, "sailing": 92,
@@ -820,6 +827,7 @@
         "luxury": 385
       },
       "r": {
+        "christmasMarkets": 70,
         "oldTown": 62,
         "museums": 92, "artScene": 92, "architecture": 90, "foodScene": 92, "fineDining": 92,
         "coffee": 94, "markets": 82, "bars": 88, "beer": 88, "cycling": 96, "walkability": 92,
@@ -911,6 +919,7 @@
         "luxury": 365
       },
       "r": {
+        "christmasMarkets": 60,
         "oldTown": 50,
         "islands": 96, "sailing": 94, "kayaking": 92, "cycling": 96, "swimming": 62,
         "fishing": 88, "forests": 90, "wildlife": 78, "scenery": 90, "wellness": 96,

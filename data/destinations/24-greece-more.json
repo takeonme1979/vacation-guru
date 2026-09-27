@@ -250,6 +250,7 @@
         "luxury": 240
       },
       "r": {
+        "christmasMarkets": 45,
         "oldTown": 62,
         "foodScene": 96, "streetFood": 94, "markets": 92, "fineDining": 85, "bars": 94,
         "clubbing": 90, "liveMusic": 88, "coffee": 94, "wine": 88, "historicSites": 92,

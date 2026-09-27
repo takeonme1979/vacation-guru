@@ -111,7 +111,7 @@ data/destinations/*.json the individual place — identity, climate, costs,
 data/destinations.json   flat runtime file the app actually loads
 ```
 
-Only `max`-kind criteria carry a stored rating (80 of the 89). The rest are computed
+Only `max`-kind criteria carry a stored rating (81 of the 90). The rest are computed
 at scoring time and **cannot** be overridden — `build-data.mjs` rejects the file if
 you try.
 
@@ -248,7 +248,7 @@ js/
   util/               dom.js (hyperscript), storage.js
 data/
   worlds.json         the world registry — one entry per dataset
-  criteria.json       89 criteria in 9 categories, + 12 presets
+  criteria.json       90 criteria in 9 categories, + 12 presets
   archetypes.json     17 place-shape baselines
   countries.json      158 country context baselines
   origins.json        80 home airports for flight-time estimates
@@ -485,7 +485,7 @@ Two complete worlds, one engine.
 | --- | --- | --- |
 | Destinations | 602 | 347 |
 | Countries / universes | 156 | 63 |
-| Criteria | 89 (80 rated) | 79 (71 rated) |
+| Criteria | 90 (81 rated) | 79 (71 rated) |
 | Rated data points | 47,558 | 24,637 |
 | Photographs resolved | 3,612 | 2,076 |
 

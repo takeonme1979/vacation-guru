@@ -126,6 +126,7 @@
         "luxury": 300
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 94,
         "historicSites": 94,
         "architecture": 92,
@@ -633,6 +634,7 @@
         "luxury": 300
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 90,
         "historicSites": 88,
         "architecture": 90,
@@ -1275,6 +1277,7 @@
         "luxury": 290
       },
       "r": {
+        "christmasMarkets": 45,
         "oldTown": 95,
         "historicSites": 96,
         "architecture": 92,
@@ -1449,6 +1452,7 @@
         "luxury": 330
       },
       "r": {
+        "christmasMarkets": 72,
         "oldTown": 55,
         "historicSites": 92,
         "architecture": 94,
@@ -1605,6 +1609,7 @@
         "luxury": 295
       },
       "r": {
+        "christmasMarkets": 45,
         "oldTown": 70,
         "historicSites": 84,
         "architecture": 88,
@@ -1782,6 +1787,7 @@
         "luxury": 225
       },
       "r": {
+        "christmasMarkets": 50,
         "oldTown": 86,
         "historicSites": 92,
         "architecture": 92,
@@ -1951,6 +1957,7 @@
         "luxury": 215
       },
       "r": {
+        "christmasMarkets": 80,
         "oldTown": 90,
         "historicSites": 88,
         "architecture": 92,
@@ -2125,6 +2132,7 @@
         "luxury": 205
       },
       "r": {
+        "christmasMarkets": 60,
         "oldTown": 88,
         "historicSites": 90,
         "architecture": 88,
@@ -2298,6 +2306,7 @@
         "luxury": 205
       },
       "r": {
+        "christmasMarkets": 40,
         "oldTown": 70,
         "historicSites": 96,
         "architecture": 92,
@@ -2469,6 +2478,7 @@
         "luxury": 320
       },
       "r": {
+        "christmasMarkets": 78,
         "oldTown": 80,
         "historicSites": 86,
         "architecture": 88,
@@ -2644,6 +2654,7 @@
         "luxury": 330
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 86,
         "historicSites": 86,
         "architecture": 90,
@@ -2822,6 +2833,7 @@
         "luxury": 290
       },
       "r": {
+        "christmasMarkets": 50,
         "oldTown": 60,
         "historicSites": 80,
         "architecture": 78,
@@ -3002,6 +3014,7 @@
         "luxury": 470
       },
       "r": {
+        "christmasMarkets": 72,
         "oldTown": 94,
         "historicSites": 88,
         "architecture": 92,
@@ -3178,6 +3191,7 @@
         "luxury": 470
       },
       "r": {
+        "christmasMarkets": 88,
         "oldTown": 80,
         "historicSites": 82,
         "architecture": 90,
@@ -3356,6 +3370,7 @@
         "luxury": 315
       },
       "r": {
+        "christmasMarkets": 60,
         "oldTown": 72,
         "historicSites": 86,
         "architecture": 90,
@@ -3530,6 +3545,7 @@
         "luxury": 205
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 82,
         "historicSites": 88,
         "architecture": 88,
@@ -3702,6 +3718,7 @@
         "luxury": 195
       },
       "r": {
+        "christmasMarkets": 88,
         "oldTown": 92,
         "historicSites": 90,
         "architecture": 90,
@@ -3878,6 +3895,7 @@
         "luxury": 215
       },
       "r": {
+        "christmasMarkets": 60,
         "oldTown": 84,
         "historicSites": 86,
         "architecture": 88,
@@ -4595,6 +4613,7 @@
         "luxury": 350
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 55,
         "historicSites": 70,
         "architecture": 82,
@@ -4793,6 +4812,7 @@
         "luxury": 350
       },
       "r": {
+        "christmasMarkets": 65,
         "oldTown": 75,
         "historicSites": 78,
         "architecture": 80,

@@ -29,6 +29,7 @@
         "luxury": 480
       },
       "r": {
+        "christmasMarkets": 75,
         "oldTown": 30,
         "museums": 100, "theatre": 100, "artScene": 96, "liveMusic": 94, "architecture": 92,
         "foodScene": 96, "fineDining": 94, "streetFood": 84, "markets": 84, "shopping": 96,
@@ -251,6 +252,7 @@
         "luxury": 400
       },
       "r": {
+        "christmasMarkets": 40,
         "oldTown": 85,
         "liveMusic": 100, "festivals": 100, "foodScene": 96, "bars": 96, "localCulture": 98,
         "architecture": 92, "historicSites": 84, "museums": 82, "streetFood": 84, "markets": 78,
@@ -296,6 +298,7 @@
         "luxury": 420
       },
       "r": {
+        "christmasMarkets": 82,
         "oldTown": 20,
         "architecture": 100, "museums": 94, "artScene": 88, "theatre": 92, "liveMusic": 94,
         "foodScene": 92, "fineDining": 90, "bars": 90, "beer": 90, "sports": 94, "shopping": 86,
@@ -341,6 +344,7 @@
         "luxury": 460
       },
       "r": {
+        "christmasMarkets": 45,
         "oldTown": 70,
         "historicSites": 96, "museums": 90, "architecture": 86, "walkability": 94,
         "artScene": 82, "theatre": 82, "liveMusic": 80, "foodScene": 86, "fineDining": 84,
@@ -386,6 +390,7 @@
         "luxury": 440
       },
       "r": {
+        "christmasMarkets": 55,
         "oldTown": 35,
         "museums": 100, "historicSites": 92, "architecture": 88, "artScene": 84, "theatre": 82,
         "foodScene": 86, "fineDining": 84, "markets": 78, "walkability": 88,
@@ -521,6 +526,7 @@
         "luxury": 400
       },
       "r": {
+        "christmasMarkets": 30,
         "oldTown": 85,
         "architecture": 96, "historicSites": 92, "foodScene": 94, "fineDining": 92,
         "walkability": 92, "museums": 76, "artScene": 78, "markets": 78, "localCulture": 88,
@@ -565,6 +571,7 @@
         "luxury": 350
       },
       "r": {
+        "christmasMarkets": 35,
         "oldTown": 15,
         "liveMusic": 100, "bars": 94, "groupParty": 94, "foodScene": 86, "festivals": 86,
         "museums": 78, "localCulture": 88, "theatre": 72, "walkability": 74, "shopping": 76,
