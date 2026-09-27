@@ -190,5 +190,31 @@ for (const worldId of ['real', 'fiction']) {
   });
 }
 
+// The deployed site's CSP decides which image hosts load at all, and local
+// development sends no CSP — so a new host looks fine here and shows gradients
+// in production. Every photo host must be allowed by both img-src and
+// connect-src (the service worker re-fetches images itself).
+console.log('\nThe live site is allowed to load every photo');
+{
+  const toml = await readFile(join(ROOT, 'netlify.toml'), 'utf8');
+  const csp = (toml.match(/Content-Security-Policy\s*=\s*"([^"]+)"/) || [])[1] || '';
+  const directive = (name) => (csp.match(new RegExp(`${name}([^;]*)`)) || [])[1] || '';
+  for (const world of ['data', 'data/fiction']) {
+    const photos = JSON.parse(await readFile(join(ROOT, world, 'photos.json'), 'utf8')).photos || {};
+    const hosts = new Set();
+    for (const list of Object.values(photos)) {
+      for (const p of list) {
+        for (const u of [p.full, p.thumb]) if (/^https?:/.test(u || '')) hosts.add(new URL(u).origin);
+      }
+    }
+    check(`${world}: every photo host is allowed by the site's CSP`, () => {
+      const blocked = [...hosts].filter((o) =>
+        !directive('img-src').includes(o) || !directive('connect-src').includes(o));
+      assert(blocked.length === 0, `not in img-src/connect-src: ${blocked.join(', ')}`);
+      return [...hosts].join(', ');
+    });
+  }
+}
+
 console.log(`\n${passed} passed, ${failures.length} failed\n`);
 if (failures.length) { for (const f of failures) console.error('  FAIL ' + f); process.exit(1); }
