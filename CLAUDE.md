@@ -54,6 +54,8 @@ source. CI checks that you did this.
 - Pristina is rated 72 on purpose (small Ottoman quarter, not a showpiece
   old town) so it ranks mid-table on the preset; bump it in the shard if the
   user wants it higher.
+- **Live site: https://vacation-guru.netlify.app** (deploys on push to `main`;
+  check `data/meta.json`'s `builtId` against the local one to confirm).
 - **Deployed 2026-09-27** (commit 3301845, CI green) — this push also
   carried the backlog of earlier uncommitted work (shards 36-42, fiction).
 - **Ground transfer (added 2026-09-27):** optional `"transfer"` hours per
