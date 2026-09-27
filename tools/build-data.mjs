@@ -362,9 +362,12 @@ Build failed: ${errors.length} error(s), ${warnings.length} warning(s).`);
   // visitors kept being served whatever data was cached on their first visit,
   // no matter how many times the catalogue was rebuilt.
   const swPath = join(ROOT, 'sw.js');
-  // Every world's fingerprint, plus the shell files the worker precaches.
+  // Every world's fingerprint, plus the shell files the worker precaches — and
+  // netlify.toml, because an installed worker keeps the CSP it was delivered
+  // with. Loosening img-src/connect-src does nothing for returning visitors
+  // until sw.js itself changes and the browser installs a new worker.
   const shell = await Promise.all(
-    ['index.html', 'css/styles.css', 'js/main.js', 'js/scoring.js']
+    ['index.html', 'css/styles.css', 'js/main.js', 'js/scoring.js', 'netlify.toml']
       .map((f) => readFile(join(ROOT, f), 'utf8').catch(() => ''))
   );
   const buildId = 'vg-' + contentId([...ids, ...shell].join(' '));
