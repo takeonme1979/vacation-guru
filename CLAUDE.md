@@ -70,3 +70,16 @@ source. CI checks that you did this.
   defaults to `NO_FLIGHT_LIMIT` (24 = "No limit" on the slider), so a 13h
   flight is judged only by how much of the trip it eats. A limit the user
   sets still applies. `restore()` drops a saved 8 (the old silent default).
+
+## Photo hosts and the live CSP (fixed 2026-09-27)
+
+- Commons now returns thumbnails on **`thumb.wikimedia.org`** as well as
+  `upload.wikimedia.org`. The CSP in `netlify.toml` only allowed the latter,
+  so 557 photos (~100 destinations, all the new old towns) showed
+  placeholders on the live site while looking fine locally (no CSP locally).
+  Both hosts are now in `img-src` and `connect-src`, and
+  `tools/test-photos.mjs` fails if any photo host is missing from either.
+- An installed service worker keeps the CSP it was delivered with, so a CSP
+  change only reaches returning visitors when `sw.js` changes. `netlify.toml`
+  is now part of the `CACHE_VERSION` fingerprint in `build-data.mjs` for that
+  reason — always rebuild after editing it.
