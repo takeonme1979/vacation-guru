@@ -46,12 +46,16 @@ source. CI checks that you did this.
   `oldTown` override in their shard's `r` block (Prague 98, Kraków 97,
   Tallinn/Dubrovnik/Bruges 97…). Anything unlisted gets the archetype value.
 - New shard `data/destinations/43-old-towns.json`: Pristina, Prizren (both
-  country `XK`, Kosovo — new row in `countries.json`), Skopje, Veliko
+  country `XK`, Kosovo — new row in `countries.json`), Skopje, Bitola, Veliko
   Tarnovo, Görlitz, Banská Štiavnica, Guimarães & Braga, Safranbolu,
   Mardin, Pingyao, Guanajuato & San Miguel de Allende. Photos resolved.
+  `ohrid-mk` was renamed "Lake Ohrid" -> "Ohrid & the Lake" (user asked for
+  Ohrid; it already existed, the town just was not obvious from the name).
 - Pristina is rated 72 on purpose (small Ottoman quarter, not a showpiece
   old town) so it ranks mid-table on the preset; bump it in the shard if the
   user wants it higher.
+- **Deployed 2026-09-27** (commit 3301845, CI green) — this push also
+  carried the backlog of earlier uncommitted work (shards 36-42, fiction).
 - **Ground transfer (added 2026-09-27):** optional `"transfer"` hours per
   destination (overland from the nearest well-connected airport; absent =
   an ordinary ~45 min hop). `js/scoring.js` adds anything beyond 0.75h to
