@@ -110,3 +110,16 @@ source. CI checks that you did this.
   wired into `photos.json` yet.
 - Full rebuild + `npm test` run clean before committing (348 destinations,
   154 tests, zero failures).
+
+## Four more video game worlds (added 2026-10-02)
+
+- **Rapture** (`rapture-bioshock`, BioShock), **City 17** (`city-17`,
+  Half-Life 2), **Yharnam** (`yharnam`, Bloodborne), **The House of Hades**
+  (`house-of-hades`, Hades) — all in `08-games-and-dystopias.json` alongside
+  the Lands Between. New country codes `RAPT`/`CMBN`/`YHRN`/`HADS`.
+  Chosen deliberately to cover genres the existing game-world roster
+  (Elder Scrolls, Zelda, Forgotten Realms, Warcraft, Mario, Elden Ring —
+  all fantasy-RPG) didn't: underwater dystopia, occupied-Earth sci-fi,
+  Gothic horror, and a modern Greek-myth retelling that sits next to Dante's
+  Inferno and the Odyssey without duplicating either.
+- 352 destinations now. Rebuild + `npm test` clean before committing.
