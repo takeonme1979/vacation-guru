@@ -472,6 +472,38 @@
       "medium": "Video game",
       "also": "Shadow of the Erdtree expansion, 2024",
       "text": "FromSoftware's first fully open-world game, built on the mechanical grammar of the Dark Souls trilogy and Bloodborne: sparse guidance, punishing and precise combat, and lore delivered almost entirely through item descriptions and the wreckage of a fallen civilisation. Martin wrote the deep backstory — the Golden Order, the Greater Will, and the shattering of the Elden Ring into Great Runes — which Miyazaki's team then set about burying, fragmenting and contradicting in the game itself."
+    },
+    "RAPT": {
+      "work": "BioShock",
+      "creator": "Ken Levine, Irrational Games",
+      "year": 2007,
+      "medium": "Video game",
+      "also": "BioShock 2, 2010; BioShock Infinite, 2013, set in the sister city of Columbia",
+      "text": "An underwater Art Deco utopia built by the libertarian industrialist Andrew Ryan and destroyed by exactly the forces unregulated self-interest was supposed to prevent. The genetic drug ADAM made superhuman abilities possible and addiction inevitable; the city's collapse into splicer-infested ruin is told almost entirely through audio diaries left by the people who caused it. 'Would You Kindly' remains one of the defining twists in the medium."
+    },
+    "CMBN": {
+      "work": "Half-Life 2",
+      "creator": "Valve, written by Marc Laidlaw",
+      "year": 2004,
+      "medium": "Video game",
+      "also": "Half-Life 2: Episode One and Episode Two, 2006/2007",
+      "text": "A sequel that spent six years in development and reset the bar for scripted first-person storytelling on arrival. City 17 is an unnamed Eastern European city under the total administration of an interdimensional empire, the Combine, who arrived, won a seven-hour war, and have spent twenty years perfecting bureaucratic occupation. Gordon Freeman gets off a train with no explanation and the game never once breaks first-person to give him one."
+    },
+    "YHRN": {
+      "work": "Bloodborne",
+      "creator": "Hidetaka Miyazaki, FromSoftware",
+      "year": 2015,
+      "medium": "Video game",
+      "also": "The Old Hunters expansion, 2015",
+      "text": "A PlayStation exclusive that swapped the Souls series' shields and swords for firearms and trick weapons, and its Tolkien-adjacent dark fantasy for full Gothic and cosmic horror. The Healing Church's discovery of miraculous old blood turns the city of Yharnam into a nightly hunting ground for the beasts its own citizens became. Miyazaki has repeatedly named it his most personal project."
+    },
+    "HADS": {
+      "work": "Hades",
+      "creator": "Supergiant Games",
+      "year": 2020,
+      "medium": "Video game",
+      "also": "Hades II, early access 2024",
+      "text": "A roguelike dungeon-crawler in which Zagreus, son of Hades, repeatedly attempts to escape the underworld to the surface, each death returning him home to fully voiced characters who remember every previous attempt. Its irreverent, contemporary take on the Greek pantheon — Zeus texting, Dionysus holding court like an influencer — made it a crossover hit, and in 2021 it became the first video game ever to win a Hugo Award."
     }
   }
 }

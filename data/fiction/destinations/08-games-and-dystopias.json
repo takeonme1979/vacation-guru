@@ -1,5 +1,5 @@
 {
-  "_doc": "Game worlds, comics and dystopias — Tamriel, Hyrule, Faerûn, Azeroth, the Mushroom Kingdom, the Lands Between, Marvel, Panem and Airstrip One.",
+  "_doc": "Game worlds, comics and dystopias — Tamriel, Hyrule, Faerûn, Azeroth, the Mushroom Kingdom, the Lands Between, Rapture, City 17, Yharnam, the House of Hades, Marvel, Panem and Airstrip One.",
   "destinations": [
     {
       "id": "skyrim", "name": "Skyrim", "country": "TAM", "region": "Northern Tamriel", "continent": "High Fantasy",
@@ -614,6 +614,129 @@
         "pipeweed": 0, "familyFriendly": 3
       },
       "photos": ["Golden dying tree massive fantasy landscape", "Misty lake ruins reflection fantasy", "Ruined gothic castle cliffside overcast", "Foggy battlefield armoured knight silhouette", "Ancient dragon fantasy mountain landscape", "Golden fantasy city spires capital"]
+    },
+    {
+      "id": "rapture-bioshock", "name": "Rapture", "country": "RAPT", "region": "The Atlantic Ocean Floor", "continent": "Science Fiction",
+      "type": "undersea", "arch": "dystopia",
+      "blurb": "A city built on the sea floor by a man who wanted no gods, no kings, only man — and then ADAM, a genetic miracle drug, turned the grateful citizens into something else entirely. The architecture is the best thing that survived.",
+      "about": "Ken Levine and Irrational Games built Rapture out of 1930s Art Deco skyscrapers and ocean-liner design, then let Andrew Ryan's libertarian utopia collapse under exactly the pressures he refused to plan for. 'Would You Kindly' is still one of the great twists in the medium — a game about free will, built entirely inside a genre built entirely on following orders. BioShock won more Game of the Year awards than anything before it; the plasmid-slinging, Big Daddy-guarded ruin it left behind is still the most beautiful wreck in games.",
+      "tags": ["art deco", "adam", "would you kindly", "andrew ryan"],
+      "climate": {
+        "tempHigh": [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "tempLow":  [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
+      },
+      "crowd":      [15, 15, 16, 16, 18, 18, 18, 18, 16, 16, 15, 15],
+      "costTier": 3,
+      "r": {
+        "architecture": 98, "scenery": 92, "ruins": 85, "technology": 88, "intrigue": 85,
+        "combat": 82, "monsters": 75, "cities": 78, "artefacts": 72, "history": 75,
+        "wandering": 82, "questing": 72, "underground": 78, "soloTravel": 55, "luxury": 55,
+        "music": 45, "shopping": 35, "markets": 45, "localCulture": 55, "peoples": 35,
+        "libraries": 40, "temples": 20, "taverns": 25, "wine": 20, "ale": 15,
+        "foodScene": 15, "feasting": 10, "vegetarian": 20, "swimming": 10, "healing": 35,
+        "undead": 15, "warRisk": 72, "lawAndOrder": 5, "safety": 8, "survivability": 15,
+        "hospitality": 10, "comfort": 15, "familyFriendly": 3, "romance": 15, "seniors": 5,
+        "commonTongue": 85, "magic": 0, "wizards": 0, "dragons": 0, "spaceTravel": 0,
+        "mountains": 0, "forests": 0, "plains": 0, "desert": 0, "volcanic": 0, "islands": 0,
+        "coast": 0, "rivers": 0, "sailing": 0, "seaMonsters": 0, "stargazing": 0,
+        "festivals": 0, "revels": 15, "gambling": 20, "prophecy": 10, "timeStrange": 25
+      },
+      "photos": ["Art deco underwater city ruins", "Flooded art deco ballroom corridor", "Neon sign flooded tunnel decay", "Underwater window ocean pressure city", "Rusted art deco skyscraper interior", "Vending machine flooded corridor eerie"]
+    },
+    {
+      "id": "city-17", "name": "City 17", "country": "CMBN", "region": "Eastern Europe, Occupied Earth", "continent": "Science Fiction",
+      "type": "city", "arch": "dystopia",
+      "blurb": "A grey Eastern European city under total alien occupation, administered by a floating Citadel that filters your thoughts as readily as your water. The trains all arrive. None of them are for you.",
+      "about": "Valve's Half-Life 2 (2004) remains the most imitated shooter ever made, and City 17's oppressive grey brutalism — shot through with real footage of Communist-era Eastern Europe — is why the genre spent the next decade building grey corridors. The Combine arrived, won in seven hours, and have spent twenty years perfecting administration: Civil Protection on every corner, a Citadel visible from anywhere in the city, breeding pits where the harbour used to be. Gordon Freeman gets off a train with no luggage, and the game never once explains why everyone already seems to know who he is.",
+      "tags": ["the combine", "civil protection", "the citadel", "gordon freeman"],
+      "climate": {
+        "tempHigh": [2, 3, 7, 13, 18, 21, 23, 22, 18, 12, 6, 3],
+        "tempLow":  [-3, -2, 1, 5, 9, 13, 15, 14, 10, 6, 1, -2],
+        "rainDays": [14, 12, 12, 11, 11, 10, 10, 10, 10, 12, 13, 15],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 7, 5, 4, 2, 2],
+        "humidity": [82, 78, 74, 70, 68, 65, 64, 66, 70, 76, 80, 84]
+      },
+      "crowd":      [45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45],
+      "costTier": 1,
+      "r": {
+        "technology": 82, "warRisk": 92, "combat": 78, "intrigue": 78, "cities": 68,
+        "architecture": 55, "ruins": 45, "undead": 62, "monsters": 55, "underground": 55,
+        "rivers": 25, "soloTravel": 65, "peoples": 42, "history": 45, "artefacts": 25,
+        "lawAndOrder": 25, "safety": 10, "survivability": 20, "hospitality": 8, "comfort": 10,
+        "familyFriendly": 5, "wandering": 35, "localCulture": 25, "libraries": 15, "markets": 12,
+        "shopping": 10, "stargazing": 10, "coast": 15, "swimming": 10, "romance": 10, "seniors": 5,
+        "commonTongue": 70, "magic": 0, "wizards": 0, "dragons": 0, "spaceTravel": 5,
+        "mountains": 0, "forests": 0, "plains": 0, "desert": 0, "volcanic": 0, "islands": 0,
+        "sailing": 0, "seaMonsters": 0, "festivals": 0, "foodScene": 5, "feasting": 2,
+        "vegetarian": 15, "ale": 10, "wine": 5, "taverns": 8, "music": 5, "revels": 0,
+        "gambling": 5, "luxury": 2, "temples": 0, "prophecy": 5, "timeStrange": 15, "healing": 20
+      },
+      "photos": ["Grey brutalist eastern european city", "Soviet apartment blocks decay overcast", "Propaganda screen urban surveillance", "Concrete canal city occupied grim", "Tower alien structure city skyline", "Train station concrete platform grey"]
+    },
+    {
+      "id": "yharnam", "name": "Yharnam", "country": "YHRN", "region": "The Healing Church's Domain", "continent": "High Fantasy",
+      "type": "city", "arch": "dark-realm",
+      "blurb": "A Gothic city of blood ministration and beast-plagued nights, built by a church that discovered something in old blood and could not stop drinking it. The hunt begins at dusk. It does not, strictly speaking, ever end.",
+      "about": "FromSoftware's 2015 departure from the Souls formula swapped shields for firearms and swung the whole aesthetic from Tolkien-adjacent dark fantasy to full Gothic horror — Victorian spires, plague doctors, cosmic horror hiding under every cathedral. Yharnam's Healing Church found old blood with miraculous properties and distributed it citywide; the beasts loping through the streets by night are what became of the grateful. Hidetaka Miyazaki has called Bloodborne his most personal work, and the Souls community still argues it was the studio's real masterpiece.",
+      "tags": ["the healing church", "old blood", "the hunt", "beasts"],
+      "climate": {
+        "tempHigh": [5, 6, 9, 13, 16, 19, 20, 19, 16, 12, 8, 6],
+        "tempLow":  [0, 0, 2, 5, 8, 11, 13, 12, 9, 5, 2, 0],
+        "rainDays": [16, 14, 13, 12, 10, 9, 9, 10, 12, 14, 16, 17],
+        "sunHours": [1, 2, 3, 4, 5, 6, 6, 6, 4, 3, 2, 1],
+        "humidity": [85, 82, 78, 74, 70, 68, 66, 68, 72, 78, 83, 86]
+      },
+      "crowd":      [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+      "costTier": 1,
+      "r": {
+        "architecture": 92, "combat": 96, "monsters": 92, "scenery": 85, "beasts": 85,
+        "adrenaline": 92, "questing": 88, "intrigue": 78, "history": 72, "temples": 72,
+        "magic": 68, "wandering": 78, "undead": 68, "prophecy": 62, "artefacts": 68,
+        "timeStrange": 55, "cities": 65, "underground": 55, "climbing": 55, "stargazing": 35,
+        "wizards": 35, "libraries": 45, "mountains": 30, "forests": 25, "music": 35,
+        "rivers": 25, "coast": 20, "hiking": 45, "soloTravel": 75, "localCulture": 35,
+        "peoples": 30, "technology": 20, "shopping": 20, "markets": 18, "wine": 25, "ale": 20,
+        "taverns": 15, "feasting": 12, "foodScene": 10, "vegetarian": 15, "healing": 25,
+        "safety": 4, "survivability": 8, "warRisk": 65, "lawAndOrder": 12, "hospitality": 10,
+        "comfort": 8, "familyFriendly": 2, "romance": 10, "seniors": 3, "fellowship": 25,
+        "luxury": 15, "festivals": 5, "revels": 5, "gambling": 8, "dragons": 15,
+        "spaceTravel": 0, "seaMonsters": 15, "islands": 10, "plains": 10, "desert": 0, "volcanic": 0
+      },
+      "photos": ["Gothic victorian city fog night", "Cathedral spires foggy cobblestone street", "Victorian plague doctor lamp street", "Blood moon gothic city rooftops", "Candlelit gothic chapel interior ornate", "Fog cobbled plaza gothic architecture"]
+    },
+    {
+      "id": "house-of-hades", "name": "The House of Hades", "country": "HADS", "region": "The Underworld, Ancient Greece", "continent": "Classic Literature",
+      "type": "underworld", "arch": "underworld",
+      "blurb": "The House of Hades, rendered as a shifting labyrinth of obsidian halls and burning rivers that one particular prince has been escaping, repeatedly, for the family practice. The staff are extremely online for people who have been dead three thousand years.",
+      "about": "Supergiant Games' 2020 roguelike restages the Greek underworld as a procedurally shuffled dungeon-crawl, and the trick that made it a phenomenon was writing every Olympian like they'd just read their own Wikipedia page — Zeus texts, Dionysus is an influencer, Achilles gives career advice. Zagreus, son of Hades, attempts the climb to the surface across hundreds of runs, each death sending him home to a conversation that actually remembers the last one. Hades won the first Hugo Award ever given to a video game.",
+      "tags": ["zagreus", "the olympians", "the escape attempts", "the styx"],
+      "climate": {
+        "tempHigh": [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28],
+        "tempLow":  [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+        "rainDays": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "sunHours": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "humidity": [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+      },
+      "crowd":      [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25],
+      "costTier": 1,
+      "r": {
+        "underground": 95, "combat": 90, "monsters": 88, "undead": 85, "magic": 85,
+        "architecture": 85, "scenery": 88, "questing": 92, "history": 82, "artefacts": 78,
+        "rivers": 70, "adrenaline": 85, "intrigue": 68, "prophecy": 65, "fellowship": 55,
+        "music": 55, "romance": 35, "luxury": 45, "wine": 35, "feasting": 30, "hospitality": 45,
+        "temples": 55, "localCulture": 55, "peoples": 45, "lawAndOrder": 45, "healing": 40,
+        "survivability": 15, "comfort": 35, "warRisk": 35, "volcanic": 35, "climbing": 55,
+        "wandering": 68, "shopping": 25, "gambling": 15, "revels": 25, "foodScene": 25,
+        "vegetarian": 25, "ale": 15, "taverns": 20, "seniors": 10, "familyFriendly": 15,
+        "soloTravel": 70, "libraries": 30, "festivals": 15, "wizards": 20, "forests": 15,
+        "mountains": 20, "plains": 10, "coast": 10, "swimming": 10, "safety": 10,
+        "commonTongue": 85, "technology": 10, "spaceTravel": 0, "dragons": 25, "stargazing": 0,
+        "desert": 0, "islands": 0, "sailing": 0, "seaMonsters": 0
+      },
+      "photos": ["Obsidian palace dark fantasy underworld", "River of fire volcanic underworld", "Ancient greek vase underworld myth", "Dark red palace greek mythology", "River styx dark fantasy boat", "Greek temple underworld dramatic lighting"]
     }
   ]
 }
