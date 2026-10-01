@@ -94,3 +94,19 @@ source. CI checks that you did this.
 - Archetype baseline 0; 197 destinations rated by judgement (Nuremberg 99,
   Strasbourg/Alsace 99, Dresden 98, Vienna 97, Cologne/Salzburg/Prague/
   Tallinn/Zagreb 95…). Unrated = no notable market.
+
+## Fiction catalogue: The Lands Between (added 2026-10-01)
+
+- New destination **`lands-between`** (Elden Ring) in
+  `data/fiction/destinations/08-games-and-dystopias.json`, alongside the
+  other game worlds (Tamriel, Hyrule, Faerûn, Azeroth, Mushroom Kingdom).
+  Country code `ELDN` (new row in `countries.json` and `sources.json`).
+  Archetype `dark-realm` — full judged `r` block, not just the archetype
+  default (scenery 96, combat 98, ruins 96, safety 3, familyFriendly 3).
+- Photorealistic AI-generated imagery (not Wikimedia stand-ins) is being
+  rolled out across the fiction catalogue separately — see the ComfyUI
+  pipeline at `D:\AI\ComfyUI\vg\` (outside this repo). Lands Between's six
+  images were generated as part of that; nothing from that pipeline is
+  wired into `photos.json` yet.
+- Full rebuild + `npm test` run clean before committing (348 destinations,
+  154 tests, zero failures).

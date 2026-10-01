@@ -1,17 +1,17 @@
 {
-  "builtId": "a911abe6c219",
+  "builtId": "f0261c66e2b8",
   "schemaVersion": 1,
-  "destinations": 347,
-  "countries": 63,
+  "destinations": 348,
+  "countries": 64,
   "ratedCriteria": 71,
   "totalCriteria": 79,
-  "dataPoints": 24637,
-  "photoTopics": 2082,
+  "dataPoints": 24708,
+  "photoTopics": 2088,
   "byContinent": {
     "Science Fiction": 161,
     "Classic Literature": 19,
     "Modern & Comics": 18,
-    "High Fantasy": 149
+    "High Fantasy": 150
   },
   "byType": {
     "megastructure": 10,
@@ -20,7 +20,7 @@
     "plains": 8,
     "island": 18,
     "city": 60,
-    "region": 26,
+    "region": 27,
     "coast": 15,
     "ice": 5,
     "badlands": 13,

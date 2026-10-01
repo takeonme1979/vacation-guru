@@ -1,5 +1,5 @@
 {
-  "_doc": "Game worlds, comics and dystopias — Tamriel, Hyrule, Faerûn, Azeroth, the Mushroom Kingdom, Marvel, Panem and Airstrip One.",
+  "_doc": "Game worlds, comics and dystopias — Tamriel, Hyrule, Faerûn, Azeroth, the Mushroom Kingdom, the Lands Between, Marvel, Panem and Airstrip One.",
   "destinations": [
     {
       "id": "skyrim", "name": "Skyrim", "country": "TAM", "region": "Northern Tamriel", "continent": "High Fantasy",
@@ -580,6 +580,40 @@
         "seaMonsters": 0, "desert": 0, "plains": 5, "islands": 5, "volcanic": 0
       },
       "photos": ["Bombed London terraced street", "Brutalist ministry building", "Post war austerity queue", "Grey concrete tower block", "Foggy London street lamps", "Propaganda poster wall peeling"]
+    },
+    {
+      "id": "lands-between", "name": "The Lands Between", "country": "ELDN", "region": "Beneath the Erdtree", "continent": "High Fantasy",
+      "type": "region", "arch": "dark-realm",
+      "blurb": "A shattered kingdom under a dying golden tree, ruled by demigods who murdered their own god and then turned on each other. Breathtaking scenery, appalling odds, and a horse that can double-jump.",
+      "about": "FromSoftware built the mechanics; George R. R. Martin wrote the founding myth — the Golden Order, and the Elden Ring's shattering into the Great Runes the demigods now hoard as birthright and weapon. It was the studio's first fully open world: Limgrave's fields run into Liurnia's flooded ruins, Caelid's scarlet rot, and the gold-leafed capital of Leyndell, all walkable without a loading screen, all of it built to kill you in an interesting way. Sites of Grace mark the only ground that will not. The 2024 Shadow of the Erdtree expansion added an entire second realm without softening the difficulty by one hit point.",
+      "tags": ["erdtree", "demigods", "open world", "torrent"],
+      "climate": {
+        "tempHigh": [4, 5, 8, 12, 16, 19, 21, 21, 17, 12, 8, 5],
+        "tempLow":  [-2, -2, 0, 3, 7, 10, 12, 12, 9, 5, 1, -1],
+        "rainDays": [14, 12, 12, 11, 10, 9, 9, 10, 11, 13, 14, 15],
+        "sunHours": [2, 3, 4, 5, 6, 7, 7, 7, 5, 4, 2, 2],
+        "humidity": [82, 78, 74, 70, 66, 64, 62, 64, 68, 74, 80, 84]
+      },
+      "crowd":      [22, 22, 24, 26, 28, 30, 32, 32, 28, 26, 24, 22],
+      "costTier": 1,
+      "r": {
+        "scenery": 96, "ruins": 96, "underground": 92, "architecture": 92, "artefacts": 92,
+        "combat": 98, "adrenaline": 96, "wandering": 96, "monsters": 95, "dragons": 92,
+        "questing": 96, "history": 88, "magic": 88, "wilderness": 88, "mountains": 82,
+        "hiking": 82, "beasts": 78, "undead": 72, "prophecy": 85, "climbing": 68,
+        "wizards": 68, "intrigue": 68, "forests": 62, "volcanic": 62, "soloTravel": 78,
+        "cities": 55, "rivers": 55, "plains": 55, "temples": 55,
+        "stargazing": 45, "timeStrange": 48, "libraries": 42, "commonTongue": 42,
+        "localCulture": 35, "peoples": 35, "fellowship": 35,
+        "coast": 12, "desert": 12, "seaMonsters": 15, "islands": 8, "swimming": 8, "sailing": 5,
+        "technology": 5, "spaceTravel": 0,
+        "warRisk": 95, "survivability": 8, "healing": 25, "lawAndOrder": 10, "hospitality": 12,
+        "romance": 15, "seniors": 8, "comfort": 5, "safety": 3, "soloFemaleSafety": 5, "luxury": 3,
+        "vegetarian": 20, "ale": 15, "wine": 12, "shopping": 15, "markets": 15, "music": 22,
+        "foodScene": 8, "feasting": 12, "taverns": 5, "festivals": 3, "revels": 5, "gambling": 5,
+        "pipeweed": 0, "familyFriendly": 3
+      },
+      "photos": ["Golden dying tree massive fantasy landscape", "Misty lake ruins reflection fantasy", "Ruined gothic castle cliffside overcast", "Foggy battlefield armoured knight silhouette", "Ancient dragon fantasy mountain landscape", "Golden fantasy city spires capital"]
     }
   ]
 }

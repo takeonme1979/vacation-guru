@@ -464,6 +464,14 @@
       "medium": "Television",
       "also": "Novels from 1989, beginning with Infinity Welcomes Careful Drivers",
       "text": "A sitcom set three million years into deep space, in which the last human alive shares a mining ship with a hologram of the bunkmate he could not stand, a creature evolved from his cat, and a service droid with a guilt complex. The science-fiction ideas are consistently better than the budget, and frequently better than the sitcom wrapped around them."
+    },
+    "ELDN": {
+      "work": "Elden Ring",
+      "creator": "Hidetaka Miyazaki and FromSoftware, world and mythos by George R. R. Martin",
+      "year": 2022,
+      "medium": "Video game",
+      "also": "Shadow of the Erdtree expansion, 2024",
+      "text": "FromSoftware's first fully open-world game, built on the mechanical grammar of the Dark Souls trilogy and Bloodborne: sparse guidance, punishing and precise combat, and lore delivered almost entirely through item descriptions and the wreckage of a fallen civilisation. Martin wrote the deep backstory — the Golden Order, the Greater Will, and the shattering of the Elden Ring into Great Runes — which Miyazaki's team then set about burying, fragmenting and contradicting in the game itself."
     }
   }
 }
