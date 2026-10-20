@@ -155,6 +155,30 @@ source. CI checks that you did this.
   inside compound words like "OpenStreetMap" (no word boundary mid-string),
   so added literal `openstreetmap`, `locator`, `banknote`/`bank note`,
   `currency` to the reject regex.
-- This was not an exhaustive review of all 4224 photos — coverage was
-  zero-word-overlap-with-filename cases plus a PNG/map-file sweep, not a
-  visual check of every image. Worth another pass if more turn up.
+- **Second pass (2026-10-21), covering what the first pass skipped:** fetched
+  Wikimedia categories for all 4102 resolved photos and cross-checked each
+  against its destination's actual country (plus demonym aliases — "Holland"
+  for Netherlands, "Fort-de-France" false-matching "France", etc.). Found 38
+  candidates, 19 real: Amritsar's Golden Temple resolved to Kyoto's
+  Kinkaku-ji; Cartagena, Colombia's clock tower resolved to Cartagena, Spain's;
+  Tikal's "Flores island" resolved to Flores, Indonesia; Yala's safari topic
+  broadened down to plain "Yala" and resolved to Yala, Thailand. Also a
+  same-day full-catalogue sweep for cemetery/grave/memorial-tagged photos
+  (the original complaint that started this whole effort) — one real hit:
+  Cinque Terre's "terraced vineyards" topic resolved to a cemetery photo.
+  Everywhere else that keyword showed up (Recoleta Cemetery in Buenos Aires,
+  the Mausoleum at Halicarnassus in Bodrum, the Hiroshima Peace Memorial) was
+  genuinely significant to that destination, not a mismatch.
+- A Commons search result that shares a filename-metadata batch with an
+  unwanted photo (same photographer, same shoot, overlapping place-name
+  words) can keep outranking the photo you actually want no matter how you
+  reword the topic — reword toward the OTHER photo's own distinguishing
+  words instead of adding more of the words it already shares. Cinque
+  Terre's vineyard topic kept losing to a cemetery photo from the same
+  photoshoot until the topic was reworded to "Vineyards Terraces Volastra"
+  — the vineyard photo's own title — instead of "Corniglia ... terraced
+  vineyards", which both photos' titles matched equally well.
+- Still not exhaustive: the ~3050 photos with no country name anywhere in
+  their title/categories were sampled (40 of them) rather than checked in
+  full — every sampled one was fine, so this bucket is low-yield, but it's
+  sampled, not cleared.
