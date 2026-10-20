@@ -108,6 +108,10 @@ source. CI checks that you did this.
   pipeline at `D:\AI\ComfyUI\vg\` (outside this repo). Lands Between's six
   images were generated as part of that; nothing from that pipeline is
   wired into `photos.json` yet.
+- **Revert path for that rollout:** `photo-reserve/` (in this folder, ~700 MB,
+  excluded via `.git/info/exclude`, never committed) holds a 2026-09-30
+  snapshot of the fiction JSON plus full-size originals of every Wikimedia
+  fiction photo. Moved here from `D:\Claude\vacation-guru-photo-reserve`.
 - Full rebuild + `npm test` run clean before committing (348 destinations,
   154 tests, zero failures).
 
@@ -123,3 +127,34 @@ source. CI checks that you did this.
   Gothic horror, and a modern Greek-myth retelling that sits next to Dante's
   Inferno and the Odyssey without duplicating either.
 - 352 destinations now. Rebuild + `npm test` clean before committing.
+
+## Real-world photo mismatch pass (2026-10-20)
+
+- Audited the real-world photo set (704 destinations, 4224 topics) for
+  genuinely wrong matches — not just loosely-topical ones. Worst case found:
+  Prague Castle's topic resolved to the Golden Gate Bridge. Others: Tunisia's
+  Star Wars set topic resolved to a plant called "desert rocket"; a Bahamas
+  yacht topic resolved to a yacht photographed in Poole, Dorset; Wanaka's ski
+  field topic resolved to Lake Wakatipu at Queenstown (the wrong lake).
+- Fixed by rewording the source `photos` topic strings (23 destinations) so
+  the search has a specific place-name anchor, then re-running
+  `tools/build-photos.mjs --force --only <ids>` — never by hand-editing
+  `data/photos.json` directly, since it's regenerated from `destinations.json`
+  (itself built from the shards) on every build.
+- `tools/build-photos.mjs` reads the *built* `data/destinations.json`, not
+  the source shards — a shard edit needs `node tools/build-data.mjs` before
+  re-running the photo resolver, or it re-resolves against stale topic text.
+- `--force --only <id>` re-resolves *every* topic for that destination, not
+  just the one you changed. Commons search isn't fully stable run-to-run, so
+  this can silently swap a previously-fine photo for a worse one on a topic
+  you never touched — caught one this way (the Bahamas yacht/Dorset mismatch
+  above came from this, not from a deliberate edit). Diff `photos.json`
+  before/after by path (ignoring the upload/thumb host, which rotates even
+  for an unchanged match) to catch this.
+- `REJECT_ALWAYS` in `build-photos.mjs` strengthened: `\bmap\b` doesn't match
+  inside compound words like "OpenStreetMap" (no word boundary mid-string),
+  so added literal `openstreetmap`, `locator`, `banknote`/`bank note`,
+  `currency` to the reject regex.
+- This was not an exhaustive review of all 4224 photos — coverage was
+  zero-word-overlap-with-filename cases plus a PNG/map-file sweep, not a
+  visual check of every image. Worth another pass if more turn up.

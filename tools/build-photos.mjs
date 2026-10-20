@@ -75,7 +75,7 @@ const REJECT = /\.(svg|pdf|djvu?|ogv|webm|ogg|gif|tif|tiff)$/i;
 const IA_BOOK_PAGE = /\(1[5-9]\d\d\)\s*\(\d{8,}\)|\(20[01]\d\)\s*\(\d{8,}\)/;
 
 /** Never useful in any world: schematics, heraldry, merchandise. */
-const REJECT_ALWAYS = /\b(map|karte|mapa|logo|coat of arms|wappen|flag|flagge|diagram|blueprint|plan of|floor ?plan|seal|emblem|chart|graph|banner|icon|stamp|coin|postcard)\b/i;
+const REJECT_ALWAYS = /\b(map|karte|mapa|openstreetmap|locator|logo|coat of arms|wappen|flag|flagge|diagram|blueprint|plan of|floor ?plan|seal|emblem|chart|graph|banner|icon|stamp|coin|postcard|banknote|bank ?note|currency)\b/i;
 
 /**
  * Rejected only where a photograph is the point. A steel engraving of Lilliput
