@@ -259,3 +259,17 @@ source. CI checks that you did this.
   heuristic can see. Not pursued further; diminishing returns against the
   3+ hours already spent, and zero real misses found in the last ~700
   entries checked this way.
+
+- **Fifth pass: replicas and content-type on the full set.** A cheap
+  category-keyword sweep (no new API calls, reused the category cache)
+  for `replica`/`reproduction` and for illustration/engraving/poster/stamp
+  found 3 more real ones out of 15 flagged: Xi'an's Terracotta Army topic
+  resolved to a replica display at Buscot Park, England; Big Sur's "Point
+  Sur Lighthouse" topic resolved to Pigeon Point Lighthouse, a different
+  lighthouse on the same coast; Guernsey's coastal-cliff topic resolved to
+  a replica WWII gun at a wartime battery (right island, wrong subject).
+  Most of the 15 flagged were correct and intentional — Lascaux's own
+  topic says "replica" because the real cave is closed to visitors and
+  Lascaux II is the official substitute; the painting/fresco hits were
+  all genuinely significant site art (Ohrid's Byzantine frescoes, Bagan's
+  temple murals, Delft's own pottery-painting craft).
