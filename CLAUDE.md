@@ -231,3 +231,31 @@ source. CI checks that you did this.
   were judged case by case rather than auto-flagged or auto-fixed — a photo
   from the "wrong" side of a shared landmark isn't the same kind of error as
   Monaco vs. Guangzhou, and sometimes (Victoria Falls) was left alone.
+
+- **Fourth pass (2026-10-21): proper-noun overlap on the "exact match"
+  bucket.** The ~3050 exact-match photos with no country name anywhere in
+  their metadata (sampled, not fully checked, in the second pass) still
+  hid same-country/same-word collisions a country-level check can't see.
+  Re-ran the check requiring the topic's own specific proper nouns (not
+  just the country) to appear in the photo's title/categories. Found 6
+  more: Mycenae's "lion gate" resolved to the Lion Gate at Hattusa, Turkey
+  (both ancient sites use that name for their own gate); Mykonos's beach
+  topic resolved to Agia Napa, Cyprus; Montréal's mural topic resolved to
+  Vancouver's mural festival; Los Cabos' grey whale topic resolved to
+  Cabrillo National Monument in San Diego; Florence's countryside topic
+  resolved to the Florence American Cemetery (a real, correctly-located
+  site — just a solemn one for a "rolling hills" topic); Ruaha's elephant
+  topic resolved to a train.
+- Re-verify collateral changes after *every* `--force` batch, not just the
+  first one — two more turned up fixing the proper-noun batch itself:
+  Montréal's untouched bagel topic drifted to a Vancouver bagel shop, and
+  Los Cabos' untouched desert-coast topic drifted to a Sahara dust-storm
+  satellite image. Neither was touched by that round's edits; both were
+  caught only by diffing the full photos.json against the very first
+  pre-session baseline, not against the previous round's output.
+- Four passes in, the remaining unknown is whatever survives a proper-noun
+  check with no country AND no specific-enough proper noun to test against
+  — a short, generic topic whose match is simply wrong in a way neither
+  heuristic can see. Not pursued further; diminishing returns against the
+  3+ hours already spent, and zero real misses found in the last ~700
+  entries checked this way.
