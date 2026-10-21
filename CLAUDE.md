@@ -332,3 +332,22 @@ source. CI checks that you did this.
   Harmless (photos.json is keyed consistently off the same id either
   way) but worth a deliberate rename if anyone's reading the id as
   documentation.
+
+- **Seventh pass (2026-10-21): a second visual-inspection sample, 25 more
+  hero photos.** Two more real finds, same pattern as pass six — plausible
+  in text, wrong once seen: Black Forest's "fir trees" topic was showing
+  a mowed suburban field with electricity pylons (filename: "Black Forest
+  Power Line1.JPG" — technically within the region's boundary, but no
+  forest in the frame at all); Easter Island's "Moai statues" topic was
+  showing a **museum exhibit replica** — a single moai indoors on a tiled
+  pedestal, railed off, with a Spanish "no sentarse / no sacar piedras"
+  sign and a printed photo backdrop standing in for the real landscape.
+  Everything else in the 25-photo sample checked out, including one
+  photo worth noting as a *non*-issue: Verona's opera topic resolved to
+  an authentic 1958 black-and-white photo of an actual Nabucco
+  performance in the Arena — old, but not a mismatch, so left alone.
+  Two visual passes (50 photos total) have now each found roughly 2 real
+  mismatches text heuristics missed — a steady, non-trivial hit rate that
+  the earlier text-only passes had stopped matching by their final
+  rounds. If continuing this work later, another visual sample is likely
+  still worth more than a sixth text heuristic.
