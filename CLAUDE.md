@@ -273,3 +273,62 @@ source. CI checks that you did this.
   Lascaux II is the official substitute; the painting/fresco hits were
   all genuinely significant site art (Ohrid's Byzantine frescoes, Bagan's
   temple murals, Delft's own pottery-painting craft).
+
+- **Sixth pass (2026-10-21): actually looking at the photos.** Five text
+  heuristics in a row had diminishing returns, so switched to downloading
+  and visually opening a spread sample of hero (first) photos. Found two
+  real mismatches no text check had caught: Dubrovnik's "city walls
+  aerial" topic was showing Ston — a real, nearby, but different walled
+  town — and Aarhus's "rainbow panorama" topic was showing the ARoS
+  museum's plain interior staircase (filename said "Treppenhaus") instead
+  of the actual rainbow-glass rooftop walkway. Both had been read over
+  without concern in earlier passes' text review; seeing the image made
+  the mismatch obvious in a way the asked/got topic pair alone did not.
+  Also caught, from the free `destId` dump used to build the sample
+  (zero cost): Menorca's cove topic resolving to a beach explicitly
+  titled and categorized as Mallorca — a different island. The only
+  reason the proper-noun check (pass four) missed it: the photo's one
+  "Menorca" category hit was *Canal de Menorca*, the strait between the
+  two islands, not the island itself — a word match that was real but
+  contextually wrong. A same-word category on an adjacent/connecting
+  feature is a blind spot no automated check here closes.
+- **Satellite imagery was a bigger, structural problem, not isolated
+  mismatches.** The `REJECT_ORBITAL` filter only tested the file's title
+  and URL — but Commons' satellite photography (Copernicus, Landsat,
+  NASA Earth Observatory, ESA, Planet Labs, Envisat, Maxar) frequently
+  ships under an innocuous filename like "Bazaruto Archipelago National
+  Park, Mozambique.jpg", with the giveaway ("Copernicus Sentinel-2
+  imagery", "NASA Earth Observatory images by...") only in the credit.
+  Extended the check to the credit/Artist field, then found 13 more
+  satellite composites already resolved and sitting in `photos.json` from
+  *before* this session even started — including two of this session's
+  own earlier "fixes" (Ravenna's lagoon from round 1, Los Cabos' desert
+  coast from round 4) that had picked a satellite photo and gone
+  undetected because its filename alone looked fine. A free, no-API-call
+  sweep of `photos.json`'s already-stored `credit` field (never checked
+  against before) found these at zero cost — worth doing before any new
+  Commons queries, since the data already answers the question.
+  `REJECT_ORBITAL` now also matches `planet labs`, `maxar`,
+  `digitalglobe`, `european space agency`, `envisat`, `earth observatory`,
+  and an `ESA\d{4}`-style catalogue-number pattern, alongside the
+  original Copernicus/MODIS/Landsat/Sentinel/NASA/ISS terms.
+- Four Bazaruto/Mozambique topics and a few others now sit unresolved
+  (honest placeholder) rather than showing the best available match,
+  because the best available match on Commons for those specific scenes
+  was *only* satellite imagery — no ground photo exists. Unresolved is
+  the correct outcome there, not a regression.
+- A same-destination duplicate-image check (two topics in one
+  destination's gallery resolving to the identical file) and a
+  cross-destination reuse check (the same file used by two different
+  destinations) were both run and found **zero real problems** — every
+  cross-destination reuse was a legitimate shared landmark between
+  adjacent/overlapping destinations (Maroon Bells near both Aspen and
+  Denver, Aitutaki within the Cook Islands, Dahab's Blue Hole shared by
+  the Sinai and Red Sea destinations). Worth running once, not worth
+  repeating.
+- Separately noticed, not a photo issue: the destination `id:
+  "lake-malawi-mz"` has `name: "Mozambique's Coast"` — a stale id left
+  over from an earlier rename, in `data/destinations/16-africa-more.json`.
+  Harmless (photos.json is keyed consistently off the same id either
+  way) but worth a deliberate rename if anyone's reading the id as
+  documentation.

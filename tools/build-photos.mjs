@@ -93,7 +93,7 @@ const REJECT_IF_PHOTO_ONLY = /\b(engraving|drawing|sketch|painting of|portrait o
  * of farmland from orbit, and Rangiroa to a MODIS tile. Nobody picks a holiday
  * from 400km up.
  */
-const REJECT_ORBITAL = /\b(copernicus|modis|landsat|sentinel-?\d|earth from space|from space|seen from orbit|satellite (image|view)|astronaut photograph)\b|\biss[\s_-]?\d{3}|\bsts-?\d{2,3}\b|\b(nasa|iss)\b/i;
+const REJECT_ORBITAL = /\b(copernicus|modis|landsat|sentinel-?\d|planet labs|maxar|digitalglobe|european space agency|envisat|earth observatory|earth from space|from space|seen from orbit|satellite (image|view)|astronaut photograph)\b|\biss[\s_-]?\d{3}|\bsts-?\d{2,3}\b|\besa\d{4}|\b(nasa|iss)\b/i;
 
 /**
  * Archive collections of genuinely old photographs. A 1959 Fortepan shot of
@@ -298,8 +298,6 @@ function pickBest(json, topic, used) {
     if (REJECT_ALWAYS.test(title)) continue;
     if (IA_BOOK_PAGE.test(title)) continue;
     if (!ALLOW_ART && REJECT_IF_PHOTO_ONLY.test(title)) continue;
-    if (!ALLOW_ART && (REJECT_ORBITAL.test(title) || REJECT_ORBITAL.test(ii.url))
-        && !REJECT_ORBITAL.test(topic)) continue;
     if (!ALLOW_ART && REJECT_ARCHIVE.test(title)) continue;
     if (!ALLOW_ART && REJECT_SIGN.test(title) && !REJECT_SIGN.test(topic)) continue;
     if ((ii.width || 0) < MIN_WIDTH()) continue;
@@ -309,6 +307,13 @@ function pickBest(json, topic, used) {
     const meta = ii.extmetadata || {};
     const licence = stripHtml(meta.LicenseShortName?.value);
     const artist = stripHtml(meta.Artist?.value) || 'Unknown';
+    // Satellite imagery frequently carries an innocuous filename — the
+    // instrument/program name only shows up in the credit, e.g. "European
+    // Union, Copernicus Sentinel-2 imagery" or a Landsat "OLI2" catalogue
+    // number — so the orbital check has to read the credit too, not just
+    // the title and URL.
+    if (!ALLOW_ART && (REJECT_ORBITAL.test(title) || REJECT_ORBITAL.test(ii.url) || REJECT_ORBITAL.test(artist))
+        && !REJECT_ORBITAL.test(topic)) continue;
 
     // Bulk uploaders of scanned book illustrations. In fiction these are gold —
     // a plate from an 1838 Gulliver is the primary source. Where a photograph is
