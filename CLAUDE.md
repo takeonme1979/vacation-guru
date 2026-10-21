@@ -182,3 +182,52 @@ source. CI checks that you did this.
   their title/categories were sampled (40 of them) rather than checked in
   full — every sampled one was fine, so this bucket is low-yield, but it's
   sampled, not cleared.
+
+- **Third pass (2026-10-21): the full "broadened" list.** `tools/audit-photos.mjs
+  --all` lists every topic where `queryVariants()` had to shorten the search
+  before anything matched (632 of them) — this is the single highest-yield
+  bucket, since broadening down to one or two generic words is exactly the
+  mechanism that caused most of the mismatches found across all three
+  passes. Read all 632 by hand (not just the ones a heuristic flagged) and
+  found ~39 more real mismatches, mostly name collisions between a real
+  place and a differently-located one that happens to share a word:
+  Monaco's skyline resolved to Guangzhou, China (both searched well on
+  "skyline"); the Wachau's "Dürnstein blue church" resolved to Ulm, Germany
+  (missing umlaut — "Durnstein" without it ranks differently on Commons than
+  "Dürnstein"); Jersey's "Jersey Royal potatoes" resolved to New Jersey, USA
+  farming; Anguilla's "Meads Bay" resolved to Bristol Temple Meads railway
+  station; Eleuthera's "Glass Window Bridge" resolved to a literal window at
+  a pub called The Bridge Inn; the Channel Islands' Sark resolved to
+  California's Channel Islands. A few were wrong-content-type rather than
+  wrong-place: Provence's market topic resolved to a Van Gogh painting,
+  Panama's sloth topic resolved to an 1880s canal-company stock certificate,
+  Hawke's Bay's cycle-trail topic resolved to 1931 earthquake committee
+  meeting minutes (a PDF, not even nominally a photo).
+- **A topic with no capital letters silently resolves to nothing.**
+  `queryVariants()` requires `/[A-Z]/.test(candidate)` on every variant it's
+  willing to try, including the full query itself — reasoning that a query
+  with no proper noun has stopped being about a place. Wrote a replacement
+  topic as all-lowercase once ("humpback whale ocean tail fluke") and it
+  produced zero variants, hence zero search attempts, for no logged reason.
+  If a fresh topic rewrite resolves to nothing with no entry in the
+  resolver's own "no usable image" list explaining why, check capitalization
+  before anything else.
+- **A topic fixed in the source but never re-resolved stays stale.** Fixed
+  Yala's "coastal lagoon" topic (was resolving to Panama, the country, via
+  the real Panama's own "Panama Island") by editing the shard, but moved on
+  to the next finding without re-running `build-data.mjs` + `build-photos.mjs
+  --only yala-lk` for it specifically. `photos.json` kept the old Panama
+  photo for an entire extra pass until a blanket before/after diff caught
+  it. A topic edit does nothing to `photos.json` until the resolver actually
+  re-runs for that destination.
+- `--force --only <ids>` across a large batch (here, 37 destinations at
+  once) is slow enough under today's Commons rate limiting to exceed even a
+  20-minute background timeout and get killed mid-run — harmlessly, since
+  `build-photos.mjs` writes `photos.json` incrementally and already-written
+  destinations survive; just resume with the remaining `--only` ids.
+- Transboundary features spanning two countries (Victoria Falls, visible
+  from both Zambia and Zimbabwe; the Ai-Ais/Richtersveld park straddling
+  Namibia and South Africa; the Sundarbans spanning Bangladesh and India)
+  were judged case by case rather than auto-flagged or auto-fixed — a photo
+  from the "wrong" side of a shared landmark isn't the same kind of error as
+  Monaco vs. Guangzhou, and sometimes (Victoria Falls) was left alone.

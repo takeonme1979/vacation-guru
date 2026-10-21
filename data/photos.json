@@ -3764,50 +3764,49 @@
   "provence-fr": [
    {
     "topic": "Lavender fields Valensole Provence",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Valensole_%2835373548170%29.jpg/1280px-Valensole_%2835373548170%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Valensole_%2835373548170%29.jpg/500px-Valensole_%2835373548170%29.jpg",
-    "credit": "Ylliab Photo from Grenoble, France",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Valensole_(35373548170).jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Lavender_fileds_in_Valensole.jpg/1280px-Lavender_fileds_in_Valensole.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Lavender_fileds_in_Valensole.jpg/500px-Lavender_fileds_in_Valensole.jpg",
+    "credit": "Nuno Alves",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lavender_fileds_in_Valensole.jpg"
    },
    {
     "topic": "Gordes hilltop village Provence",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg/1280px-Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg/500px-Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg/1280px-Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg/500px-Gordes_-_Chateau_de_Gordes_%285837455138%29.jpg",
     "credit": "Elliott Brown from Birmingham, United Kingdom",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Gordes_-_Chateau_de_Gordes_(5837455138).jpg"
    },
    {
     "topic": "Pont du Gard aqueduct",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Pont_du_Gard_%2830%29.jpg/1280px-Pont_du_Gard_%2830%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Pont_du_Gard_%2830%29.jpg/500px-Pont_du_Gard_%2830%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Pont_du_Gard_%2830%29.jpg/1280px-Pont_du_Gard_%2830%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Pont_du_Gard_%2830%29.jpg/500px-Pont_du_Gard_%2830%29.jpg",
     "credit": "Krzysztof Golik",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_(30).jpg"
    },
    {
     "topic": "Roussillon ochre village Provence",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Roussillon_-_ochre_cliff_%285845988681%29.jpg/1280px-Roussillon_-_ochre_cliff_%285845988681%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Roussillon_-_ochre_cliff_%285845988681%29.jpg/500px-Roussillon_-_ochre_cliff_%285845988681%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Roussillon_-_ochre_cliff_%285845988681%29.jpg/1280px-Roussillon_-_ochre_cliff_%285845988681%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Roussillon_-_ochre_cliff_%285845988681%29.jpg/500px-Roussillon_-_ochre_cliff_%285845988681%29.jpg",
     "credit": "Elliott Brown from Birmingham, United Kingdom",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Roussillon_-_ochre_cliff_(5845988681).jpg"
    },
    {
-    "topic": "Provence",
-    "wanted": "Provence market stall olives",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Farmhouse_in_Provence%2C_1888%2C_Vincent_van_Gogh%2C_NGA.jpg/1280px-Farmhouse_in_Provence%2C_1888%2C_Vincent_van_Gogh%2C_NGA.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Farmhouse_in_Provence%2C_1888%2C_Vincent_van_Gogh%2C_NGA.jpg/500px-Farmhouse_in_Provence%2C_1888%2C_Vincent_van_Gogh%2C_NGA.jpg",
-    "credit": "Vincent van Gogh",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Farmhouse_in_Provence,_1888,_Vincent_van_Gogh,_NGA.jpg"
+    "topic": "Provencal market olives stall",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%C3%89tal_de_march%C3%A9_avec_%C3%A9charpes_traditionnelles%2C_Cours_Mirabeau%2C_Aix-en-Provence.jpg/1280px-%C3%89tal_de_march%C3%A9_avec_%C3%A9charpes_traditionnelles%2C_Cours_Mirabeau%2C_Aix-en-Provence.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%C3%89tal_de_march%C3%A9_avec_%C3%A9charpes_traditionnelles%2C_Cours_Mirabeau%2C_Aix-en-Provence.jpg/500px-%C3%89tal_de_march%C3%A9_avec_%C3%A9charpes_traditionnelles%2C_Cours_Mirabeau%2C_Aix-en-Provence.jpg",
+    "credit": "Rolf Kranz",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%89tal_de_march%C3%A9_avec_%C3%A9charpes_traditionnelles,_Cours_Mirabeau,_Aix-en-Provence.jpg"
    },
    {
-    "topic": "Verdon Gorge",
+    "topic": "Verdon Gorge river",
     "wanted": "Verdon Gorge turquoise river",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Verdon_Gorge_1.jpg/1280px-Verdon_Gorge_1.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Verdon_Gorge_1.jpg/500px-Verdon_Gorge_1.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Verdon_Gorge_1.jpg/1280px-Verdon_Gorge_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Verdon_Gorge_1.jpg/500px-Verdon_Gorge_1.jpg",
     "credit": "kallerna",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Verdon_Gorge_1.jpg"
@@ -4015,51 +4014,49 @@
   ],
   "salzburg-at": [
    {
-    "topic": "Salzburg old town and",
-    "wanted": "Salzburg old town and fortress",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Old_Town_Salzburg_across_the_Salzach_river.jpg/1280px-Old_Town_Salzburg_across_the_Salzach_river.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Old_Town_Salzburg_across_the_Salzach_river.jpg/500px-Old_Town_Salzburg_across_the_Salzach_river.jpg",
+    "topic": "Salzburg old town and fortress",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Old_Town_Salzburg_across_the_Salzach_river.jpg/1280px-Old_Town_Salzburg_across_the_Salzach_river.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Old_Town_Salzburg_across_the_Salzach_river.jpg/500px-Old_Town_Salzburg_across_the_Salzach_river.jpg",
     "credit": "Jiuguang Wang",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Old_Town_Salzburg_across_the_Salzach_river.jpg"
    },
    {
     "topic": "Hohensalzburg Fortress Salzburg",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg/1280px-Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg/500px-Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg/1280px-Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg/500px-Festung_Hohensalzburg_seen_from_the_West%2C_Salzburg%2C_Austria%2C_20260430_1638_0140.jpg",
     "credit": "Jakub Hałun",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Festung_Hohensalzburg_seen_from_the_West,_Salzburg,_Austria,_20260430_1638_0140.jpg"
    },
    {
     "topic": "Mirabell Gardens Salzburg",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Salzburg_Mirabellgarten-8098.jpg/1280px-Salzburg_Mirabellgarten-8098.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Salzburg_Mirabellgarten-8098.jpg/500px-Salzburg_Mirabellgarten-8098.jpg",
-    "credit": "Isiwal",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_Mirabellgarten-8098.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Mirabell_Gardens%2C_Salzburg%2C_september_2014_-_panoramio.jpg/1280px-Mirabell_Gardens%2C_Salzburg%2C_september_2014_-_panoramio.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Mirabell_Gardens%2C_Salzburg%2C_september_2014_-_panoramio.jpg/500px-Mirabell_Gardens%2C_Salzburg%2C_september_2014_-_panoramio.jpg",
+    "credit": "Sorin Craciun",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mirabell_Gardens,_Salzburg,_september_2014_-_panoramio.jpg"
    },
    {
     "topic": "Getreidegasse Salzburg signs",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Salzburg_Getreidegasse_%2848481774701%29.jpg/1280px-Salzburg_Getreidegasse_%2848481774701%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Salzburg_Getreidegasse_%2848481774701%29.jpg/500px-Salzburg_Getreidegasse_%2848481774701%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Salzburg_Getreidegasse_%2848481774701%29.jpg/1280px-Salzburg_Getreidegasse_%2848481774701%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Salzburg_Getreidegasse_%2848481774701%29.jpg/500px-Salzburg_Getreidegasse_%2848481774701%29.jpg",
     "credit": "Jorge Franganillo",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Salzburg_Getreidegasse_(48481774701).jpg"
    },
    {
-    "topic": "near Salzburg",
-    "wanted": "Hallstatt lake near Salzburg",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SMATRICS_high_performance_charging_site_Designer_Outlet_Center_Salzburg_at_Kasernenstra%C3%9Fe_1_in_Salzburg%2C_Salzburg%2C_Austria-site_front_near_upper_PNr%C2%B00694.jpg/1280px-SMATRICS_high_performance_charging_site_Designer_Outlet_Center_Salzburg_at_Kasernenstra%C3%9Fe_1_in_Salzburg%2C_Salzburg%2C_Austria-site_front_near_upper_PNr%C2%B00694.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SMATRICS_high_performance_charging_site_Designer_Outlet_Center_Salzburg_at_Kasernenstra%C3%9Fe_1_in_Salzburg%2C_Salzburg%2C_Austria-site_front_near_upper_PNr%C2%B00694.jpg/500px-SMATRICS_high_performance_charging_site_Designer_Outlet_Center_Salzburg_at_Kasernenstra%C3%9Fe_1_in_Salzburg%2C_Salzburg%2C_Austria-site_front_near_upper_PNr%C2%B00694.jpg",
-    "credit": "D-Kuru",
+    "topic": "Hallstatt Salzkammergut Austria lake",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Hallst%C3%A4tter_See_20180206.jpg/1280px-Hallst%C3%A4tter_See_20180206.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Hallst%C3%A4tter_See_20180206.jpg/500px-Hallst%C3%A4tter_See_20180206.jpg",
+    "credit": "Uoaei1",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:SMATRICS_high_performance_charging_site_Designer_Outlet_Center_Salzburg_at_Kasernenstra%C3%9Fe_1_in_Salzburg,_Salzburg,_Austria-site_front_near_upper_PNr%C2%B00694.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Hallst%C3%A4tter_See_20180206.jpg"
    },
    {
     "topic": "Salzburg Christmas market",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Christmas_Market_Salzburg_Austria_.jpg/1280px-Christmas_Market_Salzburg_Austria_.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Christmas_Market_Salzburg_Austria_.jpg/500px-Christmas_Market_Salzburg_Austria_.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Christmas_Market_Salzburg_Austria_.jpg/1280px-Christmas_Market_Salzburg_Austria_.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Christmas_Market_Salzburg_Austria_.jpg/500px-Christmas_Market_Salzburg_Austria_.jpg",
     "credit": "Salzburger Nockerl",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Christmas_Market_Salzburg_Austria_.jpg"
@@ -5836,34 +5833,33 @@
   "bariloche-ar": [
    {
     "topic": "Bariloche Nahuel Huapi lake Argentina",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Llao_Llao_Peninsula.jpg/1280px-Llao_Llao_Peninsula.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Llao_Llao_Peninsula.jpg/500px-Llao_Llao_Peninsula.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Llao_Llao_Peninsula.jpg/1280px-Llao_Llao_Peninsula.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Llao_Llao_Peninsula.jpg/500px-Llao_Llao_Peninsula.jpg",
     "credit": "Fernando",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Llao_Llao_Peninsula.jpg"
    },
    {
     "topic": "Cerro Catedral skiing Argentina",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_11.JPG/1280px-Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_11.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_11.JPG/500px-Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_11.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_20.JPG/1280px-Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_20.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_20.JPG/500px-Base_del_Cerro_Catedral_en_Bariloche._%28Patagonia_Argentina%29_20.JPG",
     "credit": "Diego Gabriel",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Base_del_Cerro_Catedral_en_Bariloche._(Patagonia_Argentina)_11.JPG"
+    "source": "https://commons.wikimedia.org/wiki/File:Base_del_Cerro_Catedral_en_Bariloche._(Patagonia_Argentina)_20.JPG"
    },
    {
-    "topic": "Seven Lakes Route",
-    "wanted": "Seven Lakes Route Patagonia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/US_Route_6_-_New_York_-_4975982279.jpg/1280px-US_Route_6_-_New_York_-_4975982279.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/US_Route_6_-_New_York_-_4975982279.jpg/500px-US_Route_6_-_New_York_-_4975982279.jpg",
-    "credit": "Dougtone",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:US_Route_6_-_New_York_-_4975982279.jpg"
+    "topic": "Ruta de los Siete Lagos Argentina",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/CAMINO_DE_LOS_SIETE_LAGOS.JPG/1280px-CAMINO_DE_LOS_SIETE_LAGOS.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/CAMINO_DE_LOS_SIETE_LAGOS.JPG/500px-CAMINO_DE_LOS_SIETE_LAGOS.JPG",
+    "credit": "No machine-readable author provided. Albasmalko assumed (based on copyright claims).",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:CAMINO_DE_LOS_SIETE_LAGOS.JPG"
    },
    {
     "topic": "Bariloche chocolate",
     "wanted": "Bariloche chocolate shop",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ElTurista-Bariloche.jpg/1280px-ElTurista-Bariloche.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ElTurista-Bariloche.jpg/500px-ElTurista-Bariloche.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/ElTurista-Bariloche.jpg/1280px-ElTurista-Bariloche.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/ElTurista-Bariloche.jpg/500px-ElTurista-Bariloche.jpg",
     "credit": "Ezarate",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:ElTurista-Bariloche.jpg"
@@ -5871,16 +5867,16 @@
    {
     "topic": "Cerro Campanario",
     "wanted": "Cerro Campanario viewpoint Bariloche",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Argentina_-_View_from_Cerro_Campanario.jpg/1280px-Argentina_-_View_from_Cerro_Campanario.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Argentina_-_View_from_Cerro_Campanario.jpg/500px-Argentina_-_View_from_Cerro_Campanario.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Argentina_-_View_from_Cerro_Campanario.jpg/1280px-Argentina_-_View_from_Cerro_Campanario.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Argentina_-_View_from_Cerro_Campanario.jpg/500px-Argentina_-_View_from_Cerro_Campanario.jpg",
     "credit": "P. Hughes",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Argentina_-_View_from_Cerro_Campanario.jpg"
    },
    {
     "topic": "Villa La Angostura Argentina",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Villa_la_Angostura_%2CArgentina.JPG/1280px-Villa_la_Angostura_%2CArgentina.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Villa_la_Angostura_%2CArgentina.JPG/500px-Villa_la_Angostura_%2CArgentina.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Villa_la_Angostura_%2CArgentina.JPG/1280px-Villa_la_Angostura_%2CArgentina.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Villa_la_Angostura_%2CArgentina.JPG/500px-Villa_la_Angostura_%2CArgentina.JPG",
     "credit": "Pambas73",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Villa_la_Angostura_,Argentina.JPG"
@@ -6798,16 +6794,16 @@
   "cook-islands-ck": [
    {
     "topic": "Aitutaki lagoon Cook Islands aerial",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg/1280px-Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg/500px-Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg/1280px-Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg/500px-Maina_Island%2C_Aitutaki_Lagoon%2C_Cook_Islands.jpg",
     "credit": "Patrick Nunn",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Maina_Island,_Aitutaki_Lagoon,_Cook_Islands.jpg"
    },
    {
     "topic": "Muri Beach Rarotonga",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg/1280px-Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg/500px-Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg/1280px-Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg/500px-Muri_Beach%2C_Rarotonga%2C_Cook_Islands.jpg",
     "credit": "Gemma Longman",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Muri_Beach,_Rarotonga,_Cook_Islands.jpg"
@@ -6822,11 +6818,11 @@
    },
    {
     "topic": "Cook Islands dance performance",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-068%29.jpg/1280px-Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-068%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-068%29.jpg/500px-Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-068%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-070%29.jpg/1280px-Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-070%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-070%29.jpg/500px-Cook_Islands_dance_performance%2C_ASB_Polyfest._%28POLY-D-2015-070%29.jpg",
     "credit": "Smita Biswas",
     "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cook_Islands_dance_performance,_ASB_Polyfest._(POLY-D-2015-068).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Cook_Islands_dance_performance,_ASB_Polyfest._(POLY-D-2015-070).jpg"
    },
    {
     "topic": "Rarotonga interior mountains",
@@ -6837,64 +6833,62 @@
     "source": "https://commons.wikimedia.org/wiki/File:Rarotonga_Island_interior.jpg"
    },
    {
-    "topic": "Cook Islands",
-    "wanted": "Cook Islands snorkelling lagoon",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pacific_Solutions_Summit%2C_Rarotonga%2C_Cook_Islands-_August_21-25%2C_2023_39.jpg/1280px-Pacific_Solutions_Summit%2C_Rarotonga%2C_Cook_Islands-_August_21-25%2C_2023_39.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pacific_Solutions_Summit%2C_Rarotonga%2C_Cook_Islands-_August_21-25%2C_2023_39.jpg/500px-Pacific_Solutions_Summit%2C_Rarotonga%2C_Cook_Islands-_August_21-25%2C_2023_39.jpg",
-    "credit": "US Embassy New Zealand",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Pacific_Solutions_Summit,_Rarotonga,_Cook_Islands-_August_21-25,_2023_39.jpg"
+    "topic": "Aitutaki Cook Islands",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Poaki_O_Rae_stone_circle%2C_Aitutaki%2C_Cook_Islands.jpg/1280px-Poaki_O_Rae_stone_circle%2C_Aitutaki%2C_Cook_Islands.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Poaki_O_Rae_stone_circle%2C_Aitutaki%2C_Cook_Islands.jpg/500px-Poaki_O_Rae_stone_circle%2C_Aitutaki%2C_Cook_Islands.jpg",
+    "credit": "Patrick Nunn",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Poaki_O_Rae_stone_circle,_Aitutaki,_Cook_Islands.jpg"
    }
   ],
   "costa-rica-cr": [
    {
     "topic": "Arenal Volcano Costa Rica",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Arenal_Volcano_%2870602%29.jpg/1280px-Arenal_Volcano_%2870602%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Arenal_Volcano_%2870602%29.jpg/500px-Arenal_Volcano_%2870602%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Arenal_Volcano_%2870602%29.jpg/1280px-Arenal_Volcano_%2870602%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Arenal_Volcano_%2870602%29.jpg/500px-Arenal_Volcano_%2870602%29.jpg",
     "credit": "Rhododendrites",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Arenal_Volcano_(70602).jpg"
    },
    {
     "topic": "Monteverde cloud forest canopy",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Monteverde_Cloud_Forest_01.jpg/1280px-Monteverde_Cloud_Forest_01.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Monteverde_Cloud_Forest_01.jpg/500px-Monteverde_Cloud_Forest_01.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Monteverde_Cloud_Forest_01.jpg/1280px-Monteverde_Cloud_Forest_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Monteverde_Cloud_Forest_01.jpg/500px-Monteverde_Cloud_Forest_01.jpg",
     "credit": "Cephas",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Monteverde_Cloud_Forest_01.jpg"
    },
    {
     "topic": "Manuel Antonio beach Costa Rica",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/1280px-Parque_Nacional_Manuel_Antonio_02.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/500px-Parque_Nacional_Manuel_Antonio_02.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/1280px-Parque_Nacional_Manuel_Antonio_02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/500px-Parque_Nacional_Manuel_Antonio_02.jpg",
     "credit": "Bernard Gagnon",
     "license": "CC0",
     "source": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Manuel_Antonio_02.jpg"
    },
    {
     "topic": "Sloth Costa Rica rainforest",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Costa_Rican_Three-Toed_Sloth.jpg/1280px-Costa_Rican_Three-Toed_Sloth.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Costa_Rican_Three-Toed_Sloth.jpg/500px-Costa_Rican_Three-Toed_Sloth.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Costa_Rican_Three-Toed_Sloth.jpg/1280px-Costa_Rican_Three-Toed_Sloth.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Costa_Rican_Three-Toed_Sloth.jpg/500px-Costa_Rican_Three-Toed_Sloth.jpg",
     "credit": "Urak-Tou",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Costa_Rican_Three-Toed_Sloth.jpg"
    },
    {
-    "topic": "Zip lining",
-    "wanted": "Zip lining Costa Rica jungle",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Polynesian_Days_zip-lining_%2832595138258%29.jpg/1280px-Polynesian_Days_zip-lining_%2832595138258%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Polynesian_Days_zip-lining_%2832595138258%29.jpg/500px-Polynesian_Days_zip-lining_%2832595138258%29.jpg",
-    "credit": "Ben P L from Provo, USA",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Polynesian_Days_zip-lining_(32595138258).jpg"
+    "topic": "Monteverde cloud forest canopy walkway Costa Rica",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/DirkvdM_canopy_walk.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/DirkvdM_canopy_walk.jpg",
+    "credit": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DirkvdM_canopy_walk.jpg"
    },
    {
     "topic": "Red eyed tree frog Costa Rica",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Golden-eyed_tree_frog_%28Agalychnis_annae%29_1.jpg/1280px-Golden-eyed_tree_frog_%28Agalychnis_annae%29_1.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Golden-eyed_tree_frog_%28Agalychnis_annae%29_1.jpg/500px-Golden-eyed_tree_frog_%28Agalychnis_annae%29_1.jpg",
-    "credit": "Charles J. Sharp",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Golden-eyed_tree_frog_(Agalychnis_annae)_1.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Red-eyed_tree_frog_in_Costa_Rica_01.jpg/1280px-Red-eyed_tree_frog_in_Costa_Rica_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Red-eyed_tree_frog_in_Costa_Rica_01.jpg/500px-Red-eyed_tree_frog_in_Costa_Rica_01.jpg",
+    "credit": "Bernard Gagnon",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-eyed_tree_frog_in_Costa_Rica_01.jpg"
    }
   ],
   "curacao-cw": [
@@ -7051,49 +7045,48 @@
   "diani-ke": [
    {
     "topic": "Diani Beach Kenya white sand",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Diani_white_beaches.jpg/1280px-Diani_white_beaches.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Diani_white_beaches.jpg/500px-Diani_white_beaches.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Diani_white_beaches.jpg/1280px-Diani_white_beaches.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Diani_white_beaches.jpg/500px-Diani_white_beaches.jpg",
     "credit": "Erick Moiro",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Diani_white_beaches.jpg"
    },
    {
     "topic": "Mombasa Old Town Fort Jesus",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Views_from_Fort_Jesus%2C_2025_%2812%29.jpg/1280px-Views_from_Fort_Jesus%2C_2025_%2812%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Views_from_Fort_Jesus%2C_2025_%2812%29.jpg/500px-Views_from_Fort_Jesus%2C_2025_%2812%29.jpg",
-    "credit": "Bahnfrend",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Fort_Jesus_Mombasa_Old_Town_3.jpg/1280px-Fort_Jesus_Mombasa_Old_Town_3.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Fort_Jesus_Mombasa_Old_Town_3.jpg/500px-Fort_Jesus_Mombasa_Old_Town_3.jpg",
+    "credit": "Bertina Kanaka",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Views_from_Fort_Jesus,_2025_(12).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Fort_Jesus_Mombasa_Old_Town_3.jpg"
    },
    {
     "topic": "Colobus monkey Kenya coast",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg/1280px-Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg/500px-Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg/1280px-Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg/500px-Angola_Colobus_Monkey_with_Baby_%2813279675693%29.jpg",
     "credit": "Trish Hartmann from Tampa, Florida, USA",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Angola_Colobus_Monkey_with_Baby_(13279675693).jpg"
    },
    {
     "topic": "Dhow sailing Kenya coast",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Africa_1987.44_%281452858534%29.jpg/1280px-Africa_1987.44_%281452858534%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Africa_1987.44_%281452858534%29.jpg/500px-Africa_1987.44_%281452858534%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Africa_1987.44_%281452858534%29.jpg/1280px-Africa_1987.44_%281452858534%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Africa_1987.44_%281452858534%29.jpg/500px-Africa_1987.44_%281452858534%29.jpg",
     "credit": "anoldent from Asheville, NC, USA",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Africa_1987.44_(1452858534).jpg"
    },
    {
-    "topic": "Kenya",
-    "wanted": "Kenya coral reef snorkelling",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gyps_rueppellii_-Nairobi_National_Park%2C_Kenya-8-4c.jpg/1280px-Gyps_rueppellii_-Nairobi_National_Park%2C_Kenya-8-4c.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gyps_rueppellii_-Nairobi_National_Park%2C_Kenya-8-4c.jpg/500px-Gyps_rueppellii_-Nairobi_National_Park%2C_Kenya-8-4c.jpg",
-    "credit": "Gyps_rueppellii_-Nairobi_National_Park,_Kenya-8.jpg: Jorge Láscar from Bogotá, Colombia derivative work: Snowmanradio (talk)",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Gyps_rueppellii_-Nairobi_National_Park,_Kenya-8-4c.jpg"
+    "topic": "Diani Beach Kenya",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/A_bicyle_delivery_guy_in_diani_kenya.jpg/1280px-A_bicyle_delivery_guy_in_diani_kenya.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/A_bicyle_delivery_guy_in_diani_kenya.jpg/500px-A_bicyle_delivery_guy_in_diani_kenya.jpg",
+    "credit": "Emmaculate jacobine",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_bicyle_delivery_guy_in_diani_kenya.jpg"
    },
    {
     "topic": "Swahili door carving Lamu",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Beautiful_Swahili_Style_Door_Frame.jpg/1280px-Beautiful_Swahili_Style_Door_Frame.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Beautiful_Swahili_Style_Door_Frame.jpg/500px-Beautiful_Swahili_Style_Door_Frame.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Beautiful_Swahili_Style_Door_Frame.jpg/1280px-Beautiful_Swahili_Style_Door_Frame.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Beautiful_Swahili_Style_Door_Frame.jpg/500px-Beautiful_Swahili_Style_Door_Frame.jpg",
     "credit": "Ahmedshayo14",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Swahili_Style_Door_Frame.jpg"
@@ -9164,24 +9157,24 @@
   "komodo-id": [
    {
     "topic": "Komodo dragon Indonesia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Komodo_dragon_%28Varanus_komodoensis%29.jpg/1280px-Komodo_dragon_%28Varanus_komodoensis%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Komodo_dragon_%28Varanus_komodoensis%29.jpg/500px-Komodo_dragon_%28Varanus_komodoensis%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Komodo_dragon_%28Varanus_komodoensis%29.jpg/1280px-Komodo_dragon_%28Varanus_komodoensis%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Komodo_dragon_%28Varanus_komodoensis%29.jpg/500px-Komodo_dragon_%28Varanus_komodoensis%29.jpg",
     "credit": "Charles J. Sharp",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Komodo_dragon_(Varanus_komodoensis).jpg"
    },
    {
     "topic": "Padar Island viewpoint Komodo",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg/1280px-Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg/500px-Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg/1280px-Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg/500px-Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg",
     "credit": "Jakub Hałun",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Padar_Island,_Komodo_National_Park,_Indonesia,_20250822_0929_2659.jpg"
    },
    {
     "topic": "Pink Beach Komodo Indonesia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg/1280px-Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg/500px-Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg/1280px-Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg/500px-Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg",
     "credit": "Jakub Hałun",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pink_Beach,_Padar_Island,_Komodo_National_Park,_Indonesia,_20250822_1108_2680.jpg"
@@ -9189,28 +9182,27 @@
    {
     "topic": "diving Komodo",
     "wanted": "Manta ray diving Komodo",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg/1280px-Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg/500px-Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg/1280px-Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg/500px-Wild_Komodo_dragon_-_Komodo_island_%2817123830311%29.jpg",
     "credit": "Jorge Láscar from Melbourne, Australia",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Wild_Komodo_dragon_-_Komodo_island_(17123830311).jpg"
    },
    {
     "topic": "Labuan Bajo harbour boats",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Labuan_Bajo_Harbour_-_43602513235.jpg/1280px-Labuan_Bajo_Harbour_-_43602513235.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Labuan_Bajo_Harbour_-_43602513235.jpg/500px-Labuan_Bajo_Harbour_-_43602513235.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Labuan_Bajo_Harbour_-_43602513235.jpg/1280px-Labuan_Bajo_Harbour_-_43602513235.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Labuan_Bajo_Harbour_-_43602513235.jpg/500px-Labuan_Bajo_Harbour_-_43602513235.jpg",
     "credit": "Isabell Schulz",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Labuan_Bajo_Harbour_-_43602513235.jpg"
    },
    {
-    "topic": "crater lakes Flores",
-    "wanted": "Kelimutu coloured crater lakes Flores",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Caldeira_da_Lomba_-_Flores_%28Azores%29.jpg/1280px-Caldeira_da_Lomba_-_Flores_%28Azores%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Caldeira_da_Lomba_-_Flores_%28Azores%29.jpg/500px-Caldeira_da_Lomba_-_Flores_%28Azores%29.jpg",
-    "credit": "Alexandre Albore",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Caldeira_da_Lomba_-_Flores_(Azores).jpg"
+    "topic": "Kelimutu crater lakes Flores Indonesia",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/KEL_-_Visitors_overlooking_Kelimutu_crater_lakes%2C_Flores%2C_Indonesia%2C_2019.jpg/1280px-KEL_-_Visitors_overlooking_Kelimutu_crater_lakes%2C_Flores%2C_Indonesia%2C_2019.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/KEL_-_Visitors_overlooking_Kelimutu_crater_lakes%2C_Flores%2C_Indonesia%2C_2019.jpg/500px-KEL_-_Visitors_overlooking_Kelimutu_crater_lakes%2C_Flores%2C_Indonesia%2C_2019.jpg",
+    "credit": "Josep M. Gracia",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KEL_-_Visitors_overlooking_Kelimutu_crater_lakes,_Flores,_Indonesia,_2019.jpg"
    }
   ],
   "krabi-th": [
@@ -10272,49 +10264,48 @@
   "merida-mx": [
    {
     "topic": "Merida Paseo de Montejo mansion",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg/1280px-La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg/500px-La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg/1280px-La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg/500px-La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida%2C_Yucat%C3%A1n.jpg",
     "credit": "eileenmak",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:La_Minarete_-_Mansion_on_Paseo_de_Montejo_-_now_a_fancy_restaurant_-_M%C3%A9rida,_Yucat%C3%A1n.jpg"
    },
    {
     "topic": "Uxmal Maya pyramid Yucatan",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg/1280px-Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg/500px-Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg/1280px-Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg/500px-Under_the_Pyramid%2C_Uxmal_Maya_site%2C_Yucatan%2C_June_2024.jpg",
     "credit": "Eden, Janine and Jim from New York City",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Under_the_Pyramid,_Uxmal_Maya_site,_Yucatan,_June_2024.jpg"
    },
    {
     "topic": "Cenote Ik Kil Yucatan",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg/1280px-Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg/500px-Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg/1280px-Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg/500px-Cenote_Ik_Kil%2C_Yucatan%2C_Dec_2011_-_06.jpg",
     "credit": "Shinya Suzuki",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Cenote_Ik_Kil,_Yucatan,_Dec_2011_-_06.jpg"
    },
    {
-    "topic": "Merida",
-    "wanted": "Merida colourful colonial street",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Carnaval_M%C3%A9rida%2C_2023.jpg/1280px-Carnaval_M%C3%A9rida%2C_2023.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Carnaval_M%C3%A9rida%2C_2023.jpg/500px-Carnaval_M%C3%A9rida%2C_2023.jpg",
-    "credit": "Bromoxido",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Carnaval_M%C3%A9rida,_2023.jpg"
+    "topic": "Mérida Mexico colonial street Yucatan",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Esquina_de_El_Colonial%2C_M%C3%A9rida%2C_Yucat%C3%A1n_%2801%29.jpg/1280px-Esquina_de_El_Colonial%2C_M%C3%A9rida%2C_Yucat%C3%A1n_%2801%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Esquina_de_El_Colonial%2C_M%C3%A9rida%2C_Yucat%C3%A1n_%2801%29.jpg/500px-Esquina_de_El_Colonial%2C_M%C3%A9rida%2C_Yucat%C3%A1n_%2801%29.jpg",
+    "credit": "Inri",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Esquina_de_El_Colonial,_M%C3%A9rida,_Yucat%C3%A1n_(01).jpg"
    },
    {
     "topic": "Flamingos Celestun Yucatan",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flamingos%2C_Celest%C3%BAn_Mayo_2014.jpg/1280px-Flamingos%2C_Celest%C3%BAn_Mayo_2014.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flamingos%2C_Celest%C3%BAn_Mayo_2014.jpg/500px-Flamingos%2C_Celest%C3%BAn_Mayo_2014.jpg",
-    "credit": "Gildardo Sánchez",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Flamingos,_Celest%C3%BAn_Mayo_2014.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/American_Flamingo_%28Phoenicopterus_ruber%29_taking_off_-_Celestun_Biosphere_Reserve.jpg/1280px-American_Flamingo_%28Phoenicopterus_ruber%29_taking_off_-_Celestun_Biosphere_Reserve.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/American_Flamingo_%28Phoenicopterus_ruber%29_taking_off_-_Celestun_Biosphere_Reserve.jpg/500px-American_Flamingo_%28Phoenicopterus_ruber%29_taking_off_-_Celestun_Biosphere_Reserve.jpg",
+    "credit": "Bernard DUPONT",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Flamingo_(Phoenicopterus_ruber)_taking_off_-_Celestun_Biosphere_Reserve.jpg"
    },
    {
     "topic": "Valladolid Mexico colonial",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg/1280px-Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg/500px-Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg/1280px-Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg/500px-Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg",
     "credit": "Adam Jones",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Street_Scene_Colonial_Architecture_-_Valladolid_-_Yucatan_-_Mexico.jpg"
@@ -11127,52 +11118,51 @@
   "panama-pa": [
    {
     "topic": "Panama Canal Miraflores locks",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/WorkerAtMirafloresLocksPanamaCanal.jpg/1280px-WorkerAtMirafloresLocksPanamaCanal.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/WorkerAtMirafloresLocksPanamaCanal.jpg/500px-WorkerAtMirafloresLocksPanamaCanal.jpg",
-    "credit": "Markus Leupold-Löwenthal",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:WorkerAtMirafloresLocksPanamaCanal.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/06._Canal_de_Panama_%2817%29.JPG/1280px-06._Canal_de_Panama_%2817%29.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/06._Canal_de_Panama_%2817%29.JPG/500px-06._Canal_de_Panama_%2817%29.JPG",
+    "credit": "Elemaki",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:06._Canal_de_Panama_(17).JPG"
    },
    {
     "topic": "San Blas islands Panama",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg/1280px-San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg/500px-San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg/1280px-San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg/500px-San_Blas%2C_Panama%2C_Indiens_Guna_dansant.jpg",
     "credit": "Langlois, Bruno",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:San_Blas,_Panama,_Indiens_Guna_dansant.jpg"
    },
    {
     "topic": "Casco Viejo Panama City",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Panama_Casco_Antiguo_panorama.jpg/1280px-Panama_Casco_Antiguo_panorama.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Panama_Casco_Antiguo_panorama.jpg/500px-Panama_Casco_Antiguo_panorama.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Panama_Casco_Antiguo_panorama.jpg/1280px-Panama_Casco_Antiguo_panorama.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Panama_Casco_Antiguo_panorama.jpg/500px-Panama_Casco_Antiguo_panorama.jpg",
     "credit": "Ivo Kruusamägi",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Panama_Casco_Antiguo_panorama.jpg"
    },
    {
     "topic": "Bocas del Toro Panama",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bocas_del_Toro_Panama.jpg/1280px-Bocas_del_Toro_Panama.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bocas_del_Toro_Panama.jpg/500px-Bocas_del_Toro_Panama.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bocas_del_Toro_Panama.jpg/1280px-Bocas_del_Toro_Panama.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bocas_del_Toro_Panama.jpg/500px-Bocas_del_Toro_Panama.jpg",
     "credit": "Dronepicr",
     "license": "CC BY 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Bocas_del_Toro_Panama.jpg"
    },
    {
     "topic": "Panama City skyline",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Panama_City_Skyline_1.jpg/1280px-Panama_City_Skyline_1.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Panama_City_Skyline_1.jpg/500px-Panama_City_Skyline_1.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Panama_City_Skyline_1.jpg/1280px-Panama_City_Skyline_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Panama_City_Skyline_1.jpg/500px-Panama_City_Skyline_1.jpg",
     "credit": "Dr. Thomas Liptak",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Panama_City_Skyline_1.jpg"
    },
    {
-    "topic": "Panama",
-    "wanted": "Panama rainforest sloth",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Aktie_Canal_de_Panama_1880.jpg/1280px-Aktie_Canal_de_Panama_1880.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Aktie_Canal_de_Panama_1880.jpg/500px-Aktie_Canal_de_Panama_1880.jpg",
-    "credit": "Issued by Compagnie Universelle Canal Océanique de Panama, reproduced from an original document by Palauenc05",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Aktie_Canal_de_Panama_1880.jpg"
+    "topic": "sloth Panama Gamboa",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Hoffmann%27s_two-toed_sloth_%28Choloepus_hoffmanni%29_male_1.jpg/1280px-Hoffmann%27s_two-toed_sloth_%28Choloepus_hoffmanni%29_male_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Hoffmann%27s_two-toed_sloth_%28Choloepus_hoffmanni%29_male_1.jpg/500px-Hoffmann%27s_two-toed_sloth_%28Choloepus_hoffmanni%29_male_1.jpg",
+    "credit": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hoffmann%27s_two-toed_sloth_(Choloepus_hoffmanni)_male_1.jpg"
    }
   ],
   "penang-my": [
@@ -11432,52 +11422,51 @@
   "pokhara-np": [
    {
     "topic": "Phewa Lake Pokhara Annapurna",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/The_Annapurna_range_from_Pokhara.jpg/1280px-The_Annapurna_range_from_Pokhara.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/The_Annapurna_range_from_Pokhara.jpg/500px-The_Annapurna_range_from_Pokhara.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/The_Annapurna_range_from_Pokhara.jpg/1280px-The_Annapurna_range_from_Pokhara.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/The_Annapurna_range_from_Pokhara.jpg/500px-The_Annapurna_range_from_Pokhara.jpg",
     "credit": "Jmhullot",
     "license": "CC BY 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:The_Annapurna_range_from_Pokhara.jpg"
    },
    {
     "topic": "Annapurna Base Camp trek",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg/1280px-Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg/500px-Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg/1280px-Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg/500px-Tea_House_during_Annapurna_Base_Camp_trek%2C_Chhomrong_Hill-2991.jpg",
     "credit": "Bijay Chaurasia",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tea_House_during_Annapurna_Base_Camp_trek,_Chhomrong_Hill-2991.jpg"
    },
    {
     "topic": "Poon Hill sunrise Nepal",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Morning_shot_before_sunrise_from_poon_hill.png/1280px-Morning_shot_before_sunrise_from_poon_hill.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Morning_shot_before_sunrise_from_poon_hill.png/500px-Morning_shot_before_sunrise_from_poon_hill.png",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Morning_shot_before_sunrise_from_poon_hill.png/1280px-Morning_shot_before_sunrise_from_poon_hill.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Morning_shot_before_sunrise_from_poon_hill.png/500px-Morning_shot_before_sunrise_from_poon_hill.png",
     "credit": "Trekking Planner Nepal",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Morning_shot_before_sunrise_from_poon_hill.png"
    },
    {
     "topic": "Paragliding Pokhara Nepal",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg/1280px-Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg/500px-Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg/1280px-Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg/500px-Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg",
     "credit": "Nirmal Dulal",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Paragliding_in_Pokhara_-_Nirmal_Dulal.jpg"
    },
    {
     "topic": "Machhapuchhre fishtail mountain",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg/1280px-Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg/500px-Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg/1280px-Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg/500px-Machhapuchhre_or_Fishtail_Mountain_6%2C993_m_%2822%2C943_ft%29-_IMG_5246.jpg",
     "credit": "Bijay Chaurasia",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Machhapuchhre_or_Fishtail_Mountain_6,993_m_(22,943_ft)-_IMG_5246.jpg"
    },
    {
-    "topic": "Nepal",
-    "wanted": "Nepal mountain teahouse trek",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Sagarmatha_Everest_Zone%2C_Nepal%2C_Himalayas.jpg/1280px-Sagarmatha_Everest_Zone%2C_Nepal%2C_Himalayas.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Sagarmatha_Everest_Zone%2C_Nepal%2C_Himalayas.jpg/500px-Sagarmatha_Everest_Zone%2C_Nepal%2C_Himalayas.jpg",
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Sagarmatha_Everest_Zone,_Nepal,_Himalayas.jpg"
+    "topic": "Annapurna base camp Nepal trek",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Modi_river_along_trekking_way_to_Annapurna_Base_Camp-_Kaski_District-3302.jpg/1280px-Modi_river_along_trekking_way_to_Annapurna_Base_Camp-_Kaski_District-3302.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Modi_river_along_trekking_way_to_Annapurna_Base_Camp-_Kaski_District-3302.jpg/500px-Modi_river_along_trekking_way_to_Annapurna_Base_Camp-_Kaski_District-3302.jpg",
+    "credit": "Bijay Chaurasia",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Modi_river_along_trekking_way_to_Annapurna_Base_Camp-_Kaski_District-3302.jpg"
    }
   ],
   "puerto-rico-pr": [
@@ -12240,49 +12229,48 @@
    {
     "topic": "Pelourinho Salvador Bahia",
     "wanted": "Pelourinho Salvador Bahia colourful",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg/1280px-Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg/500px-Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg/1280px-Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg/500px-Largo_do_Pelourinho_Salvador_2019-9754_%28cropped%29.jpg",
     "credit": "Paul R. Burley",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Largo_do_Pelourinho_Salvador_2019-9754_(cropped).jpg"
    },
    {
     "topic": "Capoeira Salvador Brazil",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg/1280px-Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg/500px-Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg/1280px-Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg/500px-Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg",
     "credit": "Thaismay",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Arena_da_Capoeira_-_Salvador_-_20250721150853.jpg"
    },
    {
     "topic": "Salvador Carnival street party",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg/1280px-Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg/500px-Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg/1280px-Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg/500px-Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_%2853689884560%29.jpg",
     "credit": "Carnaval.com Studios from The Inner Mission San Francisco, Earth",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Carnaval_SF_2024_Grand_Marshal_is_Rigoberta_Menchu_(53689884560).jpg"
    },
    {
     "topic": "Elevador Lacerda Salvador",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg/1280px-Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg/500px-Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg/1280px-Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg/500px-Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg",
     "credit": "Paul R. Burley",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Elevador_Lacerda_Salvador_Bahia_Outubro_Rosa_2021-1851.jpg"
    },
    {
-    "topic": "Bahian",
-    "wanted": "Bahian acaraje street food",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nyctiprogne_vielliardi_Bahian_Nighthawk%3B_S%C3%A3o_Francisco_river%2C_Janu%C3%A1ria%2C_Minas_Gerais%2C_Brazil.jpg/1280px-Nyctiprogne_vielliardi_Bahian_Nighthawk%3B_S%C3%A3o_Francisco_river%2C_Janu%C3%A1ria%2C_Minas_Gerais%2C_Brazil.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nyctiprogne_vielliardi_Bahian_Nighthawk%3B_S%C3%A3o_Francisco_river%2C_Janu%C3%A1ria%2C_Minas_Gerais%2C_Brazil.jpg/500px-Nyctiprogne_vielliardi_Bahian_Nighthawk%3B_S%C3%A3o_Francisco_river%2C_Janu%C3%A1ria%2C_Minas_Gerais%2C_Brazil.jpg",
-    "credit": "Hector Bottai",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Nyctiprogne_vielliardi_Bahian_Nighthawk;_S%C3%A3o_Francisco_river,_Janu%C3%A1ria,_Minas_Gerais,_Brazil.jpg"
+    "topic": "Dinha acaraje Salvador",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dinha%2C_Rio_Vermelho%2C_Salvador.jpg/1280px-Dinha%2C_Rio_Vermelho%2C_Salvador.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dinha%2C_Rio_Vermelho%2C_Salvador.jpg/500px-Dinha%2C_Rio_Vermelho%2C_Salvador.jpg",
+    "credit": "Portal da Copa/ME (victoria.camara)",
+    "license": "CC BY 3.0 br",
+    "source": "https://commons.wikimedia.org/wiki/File:Dinha,_Rio_Vermelho,_Salvador.jpg"
    },
    {
     "topic": "Igreja Sao Francisco Salvador gold",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Salvador-SFranciscoChurch2.jpg/1280px-Salvador-SFranciscoChurch2.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Salvador-SFranciscoChurch2.jpg/500px-Salvador-SFranciscoChurch2.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Salvador-SFranciscoChurch2.jpg/1280px-Salvador-SFranciscoChurch2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Salvador-SFranciscoChurch2.jpg/500px-Salvador-SFranciscoChurch2.jpg",
     "credit": "Rosino",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Salvador-SFranciscoChurch2.jpg"
@@ -14046,49 +14034,48 @@
   "victoria-falls-zw": [
    {
     "topic": "Victoria Falls Zimbabwe",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lunar_Rainbow_at_Victoria_Falls_HP_L2778e2.jpg/1280px-Lunar_Rainbow_at_Victoria_Falls_HP_L2778e2.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lunar_Rainbow_at_Victoria_Falls_HP_L2778e2.jpg/500px-Lunar_Rainbow_at_Victoria_Falls_HP_L2778e2.jpg",
-    "credit": "Alchemist-hp (talk)",
-    "license": "FAL",
-    "source": "https://commons.wikimedia.org/wiki/File:Lunar_Rainbow_at_Victoria_Falls_HP_L2778e2.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Victoria_Falls%2C_Zimbabwe_01.jpg/1280px-Victoria_Falls%2C_Zimbabwe_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Victoria_Falls%2C_Zimbabwe_01.jpg/500px-Victoria_Falls%2C_Zimbabwe_01.jpg",
+    "credit": "Bernard Gagnon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls,_Zimbabwe_01.jpg"
    },
    {
     "topic": "Devils Pool Victoria Falls",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mosi-oa-Tunya%2C_Livingstone_%2820260519-P1075699%29.jpg/1280px-Mosi-oa-Tunya%2C_Livingstone_%2820260519-P1075699%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mosi-oa-Tunya%2C_Livingstone_%2820260519-P1075699%29.jpg/500px-Mosi-oa-Tunya%2C_Livingstone_%2820260519-P1075699%29.jpg",
-    "credit": "Matti Blume",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/1280px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/500px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg",
+    "credit": "Diego Delso",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075699).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg"
    },
    {
-    "topic": "White water rafting",
-    "wanted": "White water rafting Zambezi",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fun_Rafting_Elo_River_Magelang.jpg/1280px-Fun_Rafting_Elo_River_Magelang.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fun_Rafting_Elo_River_Magelang.jpg/500px-Fun_Rafting_Elo_River_Magelang.jpg",
-    "credit": "Heri nugroho",
+    "topic": "Batoka Gorge Zambezi",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Central_hidr%C3%A1ulica_junto_a_las_cataratas_Victoria%2C_Zambia%2C_2018-07-27%2C_DD_12.jpg/1280px-Central_hidr%C3%A1ulica_junto_a_las_cataratas_Victoria%2C_Zambia%2C_2018-07-27%2C_DD_12.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Central_hidr%C3%A1ulica_junto_a_las_cataratas_Victoria%2C_Zambia%2C_2018-07-27%2C_DD_12.jpg/500px-Central_hidr%C3%A1ulica_junto_a_las_cataratas_Victoria%2C_Zambia%2C_2018-07-27%2C_DD_12.jpg",
+    "credit": "Diego Delso",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fun_Rafting_Elo_River_Magelang.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Central_hidr%C3%A1ulica_junto_a_las_cataratas_Victoria,_Zambia,_2018-07-27,_DD_12.jpg"
    },
    {
     "topic": "Victoria Falls bridge bungee",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Victoria_Falls_from_the_helicopter.jpg/1280px-Victoria_Falls_from_the_helicopter.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Victoria_Falls_from_the_helicopter.jpg/500px-Victoria_Falls_from_the_helicopter.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Victoria_Falls_from_the_helicopter.jpg/1280px-Victoria_Falls_from_the_helicopter.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Victoria_Falls_from_the_helicopter.jpg/500px-Victoria_Falls_from_the_helicopter.jpg",
     "credit": "John Walker, July 2001",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_from_the_helicopter.jpg"
    },
    {
     "topic": "Victoria Falls rainbow spray",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg/1280px-Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg/500px-Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg/1280px-Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg/500px-Victoria_Falls%2C_Zambia_-rainbow-4Aug2009.jpg",
     "credit": "Le Grand Portage",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls,_Zambia_-rainbow-4Aug2009.jpg"
    },
    {
     "topic": "Zambezi sunset cruise elephants",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg/1280px-Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg/500px-Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg/1280px-Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg/500px-Sunset_cruise%2C_Livingstone_%2820260518-P1075484%29.jpg",
     "credit": "Matti Blume",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sunset_cruise,_Livingstone_(20260518-P1075484).jpg"
@@ -14281,13 +14268,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Srilankan_Peacock_with_its_heavy_feathers.jpg"
    },
    {
-    "topic": "Yala coastal",
-    "wanted": "Yala coastal lagoon",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Panama_Island.jpg/1280px-Panama_Island.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Panama_Island.jpg/500px-Panama_Island.jpg",
-    "credit": "FranHogan",
+    "topic": "Yala National Park Sri Lanka landscape",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Sri_Lanka_Photo178.jpg/1280px-Sri_Lanka_Photo178.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Sri_Lanka_Photo178.jpg/500px-Sri_Lanka_Photo178.jpg",
+    "credit": "psychoslave",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Panama_Island.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Sri_Lanka_Photo178.jpg"
    },
    {
     "topic": "Sloth bear Sri Lanka",
@@ -14654,42 +14640,41 @@
   "taghazout-ma": [
    {
     "topic": "Taghazout surf Morocco",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fishing_Boats_in_Taghazout_%288629464546%29.jpg/1280px-Fishing_Boats_in_Taghazout_%288629464546%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fishing_Boats_in_Taghazout_%288629464546%29.jpg/500px-Fishing_Boats_in_Taghazout_%288629464546%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Blue_fishing_boats_in_Taghazout%2C_Morocco_%288628196631%29.jpg/1280px-Blue_fishing_boats_in_Taghazout%2C_Morocco_%288628196631%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Blue_fishing_boats_in_Taghazout%2C_Morocco_%288628196631%29.jpg/500px-Blue_fishing_boats_in_Taghazout%2C_Morocco_%288628196631%29.jpg",
     "credit": "Heather Cowper from Bristol, UK",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fishing_Boats_in_Taghazout_(8629464546).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_fishing_boats_in_Taghazout,_Morocco_(8628196631).jpg"
    },
    {
     "topic": "Agadir beach Morocco",
     "wanted": "Agadir beach Morocco aerial",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Agadir_beach%2C_Morocco.JPG/1280px-Agadir_beach%2C_Morocco.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Agadir_beach%2C_Morocco.JPG/500px-Agadir_beach%2C_Morocco.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Agadir_beach%2C_Morocco.JPG/1280px-Agadir_beach%2C_Morocco.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Agadir_beach%2C_Morocco.JPG/500px-Agadir_beach%2C_Morocco.JPG",
     "credit": "Yassine a t 10",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Agadir_beach,_Morocco.JPG"
    },
    {
     "topic": "Moroccan Atlantic coast cliffs",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg/1280px-Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg/500px-Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg/1280px-Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg/500px-Rocks%2C_Touddmine_beach%2C_Tafedna%2C_Morocco%2C_2008.jpg",
     "credit": "DimiTalen",
     "license": "CC0",
     "source": "https://commons.wikimedia.org/wiki/File:Rocks,_Touddmine_beach,_Tafedna,_Morocco,_2008.jpg"
    },
    {
-    "topic": "Surfers Anchor",
-    "wanted": "Surfers Anchor Point Morocco",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ghajn_Tuffieha_1.jpg/1280px-Ghajn_Tuffieha_1.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ghajn_Tuffieha_1.jpg/500px-Ghajn_Tuffieha_1.jpg",
-    "credit": "JosephAmodio",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ghajn_Tuffieha_1.jpg"
+    "topic": "Taghazout Morocco surf beach",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Panorama_beach_at_Taghazout.jpg/1280px-Panorama_beach_at_Taghazout.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Panorama_beach_at_Taghazout.jpg/500px-Panorama_beach_at_Taghazout.jpg",
+    "credit": "Heather Cowper from Bristol, UK",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_beach_at_Taghazout.jpg"
    },
    {
     "topic": "Argan tree goats Morocco",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Goats_in_an_argan_tree_Morocco.jpg/1280px-Goats_in_an_argan_tree_Morocco.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Goats_in_an_argan_tree_Morocco.jpg/500px-Goats_in_an_argan_tree_Morocco.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Goats_in_an_argan_tree_Morocco.jpg/1280px-Goats_in_an_argan_tree_Morocco.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Goats_in_an_argan_tree_Morocco.jpg/500px-Goats_in_an_argan_tree_Morocco.jpg",
     "credit": "Elena Tatiana Chis",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Goats_in_an_argan_tree_Morocco.jpg"
@@ -14697,11 +14682,11 @@
    {
     "topic": "Taghazout village",
     "wanted": "Taghazout village sunset",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Taghazout_2.jpg/1280px-Taghazout_2.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Taghazout_2.jpg/500px-Taghazout_2.jpg",
-    "credit": "AJSPARK4444",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Taghazout_village_.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/48/Taghazout_village_.jpg",
+    "credit": "Jimbobbailey312",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Taghazout_2.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Taghazout_village_.jpg"
    }
   ],
   "almaty-kz": [
@@ -14957,52 +14942,51 @@
    {
     "topic": "Bogota La Candelaria houses",
     "wanted": "Bogota La Candelaria colourful houses",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg/1280px-2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg/500px-2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg/1280px-2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg/500px-2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg",
     "credit": "Felipe Restrepo Acosta",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg"
    },
    {
     "topic": "Monserrate Bogota view",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Monserrate_y_centro_de_Bogota.jpg/1280px-Monserrate_y_centro_de_Bogota.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Monserrate_y_centro_de_Bogota.jpg/500px-Monserrate_y_centro_de_Bogota.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Monserrate_y_centro_de_Bogota.jpg/1280px-Monserrate_y_centro_de_Bogota.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Monserrate_y_centro_de_Bogota.jpg/500px-Monserrate_y_centro_de_Bogota.jpg",
     "credit": "Jos Cuevasc",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Monserrate_y_centro_de_Bogota.jpg"
    },
    {
     "topic": "Gold Museum Bogota",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Gold_Museum_Muisca_Tunjos_BOG_03_2018_8305.jpg/1280px-Gold_Museum_Muisca_Tunjos_BOG_03_2018_8305.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Gold_Museum_Muisca_Tunjos_BOG_03_2018_8305.jpg/500px-Gold_Museum_Muisca_Tunjos_BOG_03_2018_8305.jpg",
-    "credit": "Mariordo (Mario Roberto Durán Ortiz)",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/In_the_Gold_Museum_%28Bogota%29.jpg/1280px-In_the_Gold_Museum_%28Bogota%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/In_the_Gold_Museum_%28Bogota%29.jpg/500px-In_the_Gold_Museum_%28Bogota%29.jpg",
+    "credit": "Leon petrosyan",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Gold_Museum_Muisca_Tunjos_BOG_03_2018_8305.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:In_the_Gold_Museum_(Bogota).jpg"
    },
    {
     "topic": "Bogota street art graffiti",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ColomGraffiti.jpg/1280px-ColomGraffiti.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ColomGraffiti.jpg/500px-ColomGraffiti.jpg",
-    "credit": "Michael Tieso",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:ColomGraffiti.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Fresque_street_art.jpg/1280px-Fresque_street_art.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Fresque_street_art.jpg/500px-Fresque_street_art.jpg",
+    "credit": "Thierry Pierrard",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fresque_street_art.jpg"
    },
    {
     "topic": "Ciclovia Bogota cyclists",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bogota_Ciclovia.JPG/1280px-Bogota_Ciclovia.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bogota_Ciclovia.JPG/500px-Bogota_Ciclovia.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Bogota_Ciclovia.JPG/1280px-Bogota_Ciclovia.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Bogota_Ciclovia.JPG/500px-Bogota_Ciclovia.JPG",
     "credit": "Jeremy Ordett",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:Bogota_Ciclovia.JPG"
    },
    {
-    "topic": "skyline Andes",
-    "wanted": "Bogota skyline Andes",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/La_Paz_Skyline.jpg/1280px-La_Paz_Skyline.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/La_Paz_Skyline.jpg/500px-La_Paz_Skyline.jpg",
-    "credit": "EEJCC",
+    "topic": "Bogota Colombia skyline cityscape",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bogot%C3%A1%2C_Santa_Fe%2C_2023-06_CN-02.jpg/1280px-Bogot%C3%A1%2C_Santa_Fe%2C_2023-06_CN-02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bogot%C3%A1%2C_Santa_Fe%2C_2023-06_CN-02.jpg/500px-Bogot%C3%A1%2C_Santa_Fe%2C_2023-06_CN-02.jpg",
+    "credit": "Steffen Schmitz (more photos)",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:La_Paz_Skyline.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Bogot%C3%A1,_Santa_Fe,_2023-06_CN-02.jpg"
    }
   ],
   "brisbane-au": [
@@ -15605,49 +15589,48 @@
   "hawkes-bay-nz": [
    {
     "topic": "Napier Art Deco New Zealand",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Napier_Art_Deco_Festival_2020_%2849571835706%29.jpg/1280px-Napier_Art_Deco_Festival_2020_%2849571835706%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Napier_Art_Deco_Festival_2020_%2849571835706%29.jpg/500px-Napier_Art_Deco_Festival_2020_%2849571835706%29.jpg",
-    "credit": "Geoff McKay from Palmerston North, New Zealand",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Napier_Art_Deco%2C_New_Zealand_%286567969%29.jpg/1280px-Napier_Art_Deco%2C_New_Zealand_%286567969%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Napier_Art_Deco%2C_New_Zealand_%286567969%29.jpg/500px-Napier_Art_Deco%2C_New_Zealand_%286567969%29.jpg",
+    "credit": "Phillip Capper from Wellington, New Zealand",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Napier_Art_Deco_Festival_2020_(49571835706).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Napier_Art_Deco,_New_Zealand_(6567969).jpg"
    },
    {
     "topic": "Hawkes Bay vineyards New Zealand",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg/1280px-Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg/500px-Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg/1280px-Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg/500px-Prospect_Vineyard%2C_Hawkes_Bay%2C_New_Zealand%2C_10_May_2006_%28144981934%29.jpg",
     "credit": "Phillip Capper from Wellington, New Zealand",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Prospect_Vineyard,_Hawkes_Bay,_New_Zealand,_10_May_2006_(144981934).jpg"
    },
    {
     "topic": "Cape Kidnappers gannet colony",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Gannet_colony_at_Cape_Kidnappers.jpg/1280px-Gannet_colony_at_Cape_Kidnappers.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Gannet_colony_at_Cape_Kidnappers.jpg/500px-Gannet_colony_at_Cape_Kidnappers.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Gannet_colony_at_Cape_Kidnappers.jpg/1280px-Gannet_colony_at_Cape_Kidnappers.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Gannet_colony_at_Cape_Kidnappers.jpg/500px-Gannet_colony_at_Cape_Kidnappers.jpg",
     "credit": "Pseudopanax at English Wikipedia",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:Gannet_colony_at_Cape_Kidnappers.jpg"
    },
    {
     "topic": "Napier waterfront Marine Parade",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg/1280px-Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg/500px-Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg/1280px-Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg/500px-Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg",
     "credit": "Pseudopanax at English Wikipedia",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Marine_Parade_viewing_platform_on_Napier%27s_waterfront.jpg"
    },
    {
-    "topic": "Hawkes Bay",
-    "wanted": "Hawkes Bay cycle trail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/1931_Hawkes_Bay_Earthquake_-_Minutes_of_First_Meeting_of_the_Hawkes_Bay_Earthquake_Relief_Fund_Committee_%2824631618026%29.jpg/1280px-1931_Hawkes_Bay_Earthquake_-_Minutes_of_First_Meeting_of_the_Hawkes_Bay_Earthquake_Relief_Fund_Committee_%2824631618026%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/1931_Hawkes_Bay_Earthquake_-_Minutes_of_First_Meeting_of_the_Hawkes_Bay_Earthquake_Relief_Fund_Committee_%2824631618026%29.jpg/500px-1931_Hawkes_Bay_Earthquake_-_Minutes_of_First_Meeting_of_the_Hawkes_Bay_Earthquake_Relief_Fund_Committee_%2824631618026%29.jpg",
-    "credit": "Archives New Zealand from New Zealand",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:1931_Hawkes_Bay_Earthquake_-_Minutes_of_First_Meeting_of_the_Hawkes_Bay_Earthquake_Relief_Fund_Committee_(24631618026).jpg"
+    "topic": "Hawkes Bay vineyard New Zealand",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Vineyard_Outside_Te_Awanga.jpg/1280px-Vineyard_Outside_Te_Awanga.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Vineyard_Outside_Te_Awanga.jpg/500px-Vineyard_Outside_Te_Awanga.jpg",
+    "credit": "Citikiwi",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Vineyard_Outside_Te_Awanga.jpg"
    },
    {
     "topic": "Te Mata Peak Hawkes Bay",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg/1280px-Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg/500px-Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg/1280px-Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg/500px-Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg",
     "credit": "HuntaWaerea",
     "license": "CC0",
     "source": "https://commons.wikimedia.org/wiki/File:Te_mata_peak_and_over_view_of_Hawkes_Bay_Area.jpg"
@@ -15759,16 +15742,16 @@
   "sri-lanka-north-lk": [
    {
     "topic": "Nallur Kandaswamy temple Jaffna",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg/1280px-Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg/500px-Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg/1280px-Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg/500px-Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg",
     "credit": "Yercaud-elango",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kandaswamy_koil-8-nallur-jaffna-Sri_Lanka.jpg"
    },
    {
     "topic": "Jaffna Sri Lanka fort",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg/1280px-Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg/500px-Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg/1280px-Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg/500px-Jaffna_Fort_after_bomb_attack%2C_Sri_Lanka.jpg",
     "credit": "Zameer Akram",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jaffna_Fort_after_bomb_attack,_Sri_Lanka.jpg"
@@ -15776,33 +15759,32 @@
    {
     "topic": "Palmyra palms Sri Lanka",
     "wanted": "Palmyra palms Sri Lanka north",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Palmyra_down.jpg/1280px-Palmyra_down.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Palmyra_down.jpg/500px-Palmyra_down.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Palmyra_down.jpg/1280px-Palmyra_down.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Palmyra_down.jpg/500px-Palmyra_down.jpg",
     "credit": "Mauranmau",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Palmyra_down.jpg"
    },
    {
     "topic": "Delft island ponies Sri Lanka",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ponies_of_the_Delft_Island.jpg/1280px-Ponies_of_the_Delft_Island.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ponies_of_the_Delft_Island.jpg/500px-Ponies_of_the_Delft_Island.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ponies_of_the_Delft_Island.jpg/1280px-Ponies_of_the_Delft_Island.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ponies_of_the_Delft_Island.jpg/500px-Ponies_of_the_Delft_Island.jpg",
     "credit": "Shenal Sadurshan",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ponies_of_the_Delft_Island.jpg"
    },
    {
-    "topic": "market Tamil",
-    "wanted": "Jaffna market Tamil",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tailor_Ooty_Market_Nilgiris_Aug25_A7CR_07090.jpg/1280px-Tailor_Ooty_Market_Nilgiris_Aug25_A7CR_07090.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tailor_Ooty_Market_Nilgiris_Aug25_A7CR_07090.jpg/500px-Tailor_Ooty_Market_Nilgiris_Aug25_A7CR_07090.jpg",
-    "credit": "Timothy A. Gonsalves",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Tailor_Ooty_Market_Nilgiris_Aug25_A7CR_07090.jpg"
+    "topic": "Jaffna market Sri Lanka",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Jaffna_market_13.jpg/1280px-Jaffna_market_13.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Jaffna_market_13.jpg/500px-Jaffna_market_13.jpg",
+    "credit": "David Brewer",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jaffna_market_13.jpg"
    },
    {
     "topic": "Casuarina beach Jaffna",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Casurina_Beach.jpg/1280px-Casurina_Beach.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Casurina_Beach.jpg/500px-Casurina_Beach.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Casurina_Beach.jpg/1280px-Casurina_Beach.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Casurina_Beach.jpg/500px-Casurina_Beach.jpg",
     "credit": "Vakeezan",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Casurina_Beach.jpg"
@@ -16378,41 +16360,40 @@
   "monaco-mc": [
    {
     "topic": "Monaco harbour superyachts",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG/1280px-Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG/500px-Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG/1280px-Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG/500px-Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG",
     "credit": "Mike is Michi",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Port_Hercule_Monaco_with_yachts_and_Le_Rocher_2026.JPG"
    },
    {
     "topic": "Monte Carlo casino Monaco",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg/1280px-2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg/500px-2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg/1280px-2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg/500px-2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg",
     "credit": "Jacek Halicki",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:2023_%C5%BBeton_z_Casino_de_Monte-Carlo.jpg"
    },
    {
     "topic": "Monaco Grand Prix circuit",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2013_Monaco_Grand_Prix_-_Sunday.jpg/1280px-2013_Monaco_Grand_Prix_-_Sunday.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2013_Monaco_Grand_Prix_-_Sunday.jpg/500px-2013_Monaco_Grand_Prix_-_Sunday.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2013_Monaco_Grand_Prix_-_Sunday.jpg/1280px-2013_Monaco_Grand_Prix_-_Sunday.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2013_Monaco_Grand_Prix_-_Sunday.jpg/500px-2013_Monaco_Grand_Prix_-_Sunday.jpg",
     "credit": "Charles Coates/LAT Photographic",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:2013_Monaco_Grand_Prix_-_Sunday.jpg"
    },
    {
-    "topic": "skyline Mediterranean",
-    "wanted": "Monaco skyline Mediterranean",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Guangzhou_Municipality_Tianhe_District_Zhujiang_New_Town_Xiancun_Road_Skyline_20211029.jpg/1280px-Guangzhou_Municipality_Tianhe_District_Zhujiang_New_Town_Xiancun_Road_Skyline_20211029.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Guangzhou_Municipality_Tianhe_District_Zhujiang_New_Town_Xiancun_Road_Skyline_20211029.jpg/500px-Guangzhou_Municipality_Tianhe_District_Zhujiang_New_Town_Xiancun_Road_Skyline_20211029.jpg",
-    "credit": "中少",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Guangzhou_Municipality_Tianhe_District_Zhujiang_New_Town_Xiancun_Road_Skyline_20211029.jpg"
+    "topic": "Monaco Mediterranean coast",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Monaco%E2%80%99s_urbanised_coast_between_the_Maritime_Alps_and_the_sea_%28P-070208-00-16%29.jpg/1280px-Monaco%E2%80%99s_urbanised_coast_between_the_Maritime_Alps_and_the_sea_%28P-070208-00-16%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Monaco%E2%80%99s_urbanised_coast_between_the_Maritime_Alps_and_the_sea_%28P-070208-00-16%29.jpg/500px-Monaco%E2%80%99s_urbanised_coast_between_the_Maritime_Alps_and_the_sea_%28P-070208-00-16%29.jpg",
+    "credit": "Copernicus Sentinel-2 imagery, EK - GD DEFIS, EC - DG DEFIS, SPACETEC PARTNERS, CE - DG DEFIS",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Monaco%E2%80%99s_urbanised_coast_between_the_Maritime_Alps_and_the_sea_(P-070208-00-16).jpg"
    },
    {
     "topic": "Monaco old town Le Rocher",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg/1280px-Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg/500px-Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg/1280px-Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg/500px-Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg",
     "credit": "Zairon",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Monaco_Rocher_de_Monaco_Place_de_la_Mairie.jpg"
@@ -16420,8 +16401,8 @@
    {
     "topic": "French Riviera",
     "wanted": "French Riviera coast Monaco",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Backlit_view_of_the_complete_French_Riviera.jpg/1280px-Backlit_view_of_the_complete_French_Riviera.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Backlit_view_of_the_complete_French_Riviera.jpg/500px-Backlit_view_of_the_complete_French_Riviera.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Backlit_view_of_the_complete_French_Riviera.jpg/1280px-Backlit_view_of_the_complete_French_Riviera.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Backlit_view_of_the_complete_French_Riviera.jpg/500px-Backlit_view_of_the_complete_French_Riviera.jpg",
     "credit": "Olivier Cleynen",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Backlit_view_of_the_complete_French_Riviera.jpg"
@@ -18020,26 +18001,26 @@
   ],
   "tonga-to": [
    {
-    "topic": "swim Tonga",
-    "wanted": "Humpback whale swim Tonga",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/US_Navy_110525-N-KB563-089_Military_personnel_and_civilians_embarked_aboard_the_amphibious_transport_dock_ship_USS_Cleveland_%28LPD_7%29_swim_during_a.jpg/1280px-US_Navy_110525-N-KB563-089_Military_personnel_and_civilians_embarked_aboard_the_amphibious_transport_dock_ship_USS_Cleveland_%28LPD_7%29_swim_during_a.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/US_Navy_110525-N-KB563-089_Military_personnel_and_civilians_embarked_aboard_the_amphibious_transport_dock_ship_USS_Cleveland_%28LPD_7%29_swim_during_a.jpg/500px-US_Navy_110525-N-KB563-089_Military_personnel_and_civilians_embarked_aboard_the_amphibious_transport_dock_ship_USS_Cleveland_%28LPD_7%29_swim_during_a.jpg",
-    "credit": "U.S. Navy photo by Mass Communication Specialist 2nd Class Michael Russell",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:US_Navy_110525-N-KB563-089_Military_personnel_and_civilians_embarked_aboard_the_amphibious_transport_dock_ship_USS_Cleveland_(LPD_7)_swim_during_a.jpg"
+    "topic": "whale Tonga",
+    "wanted": "whale Tonga Vavau",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Humpback_Whale-Megaptera_novaeangliae_%2816793944076%29.jpg/1280px-Humpback_Whale-Megaptera_novaeangliae_%2816793944076%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Humpback_Whale-Megaptera_novaeangliae_%2816793944076%29.jpg/500px-Humpback_Whale-Megaptera_novaeangliae_%2816793944076%29.jpg",
+    "credit": "Sylke Rohrlach from Sydney",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Humpback_Whale-Megaptera_novaeangliae_(16793944076).jpg"
    },
    {
     "topic": "Vavau islands Tonga aerial",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tonga_fetokopunga_telekivavau.jpg/1280px-Tonga_fetokopunga_telekivavau.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tonga_fetokopunga_telekivavau.jpg/500px-Tonga_fetokopunga_telekivavau.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Tonga_fetokopunga_telekivavau.jpg/1280px-Tonga_fetokopunga_telekivavau.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Tonga_fetokopunga_telekivavau.jpg/500px-Tonga_fetokopunga_telekivavau.jpg",
     "credit": "Arne Müseler",
     "license": "CC BY-SA 3.0 de",
     "source": "https://commons.wikimedia.org/wiki/File:Tonga_fetokopunga_telekivavau.jpg"
    },
    {
     "topic": "Tonga blowholes Tongatapu",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/TO-Mapu_a_Vaea.JPG/1280px-TO-Mapu_a_Vaea.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/TO-Mapu_a_Vaea.JPG/500px-TO-Mapu_a_Vaea.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/TO-Mapu_a_Vaea.JPG/1280px-TO-Mapu_a_Vaea.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/TO-Mapu_a_Vaea.JPG/500px-TO-Mapu_a_Vaea.JPG",
     "credit": "Hobe / Holger Behr",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:TO-Mapu_a_Vaea.JPG"
@@ -18047,8 +18028,8 @@
    {
     "topic": "Tongan village",
     "wanted": "Tongan village church",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg/1280px-Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg/500px-Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg/1280px-Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg/500px-Tongan_Village_at_Pasifika_Festival%2C_2016._%28PASF-D-2016-218%29.jpg",
     "credit": "Adana Dobranis",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tongan_Village_at_Pasifika_Festival,_2016._(PASF-D-2016-218).jpg"
@@ -18056,8 +18037,8 @@
    {
     "topic": "Tonga sailing",
     "wanted": "Tonga sailing anchorage",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kalia_Tongan_sailing_craft.png/1280px-Kalia_Tongan_sailing_craft.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kalia_Tongan_sailing_craft.png/500px-Kalia_Tongan_sailing_craft.png",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Kalia_Tongan_sailing_craft.png/1280px-Kalia_Tongan_sailing_craft.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Kalia_Tongan_sailing_craft.png/500px-Kalia_Tongan_sailing_craft.png",
     "credit": "GizmoProxima",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kalia_Tongan_sailing_craft.png"
@@ -18508,13 +18489,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kyauk_Ka_Lat_Pagoda.jpg"
    },
    {
-    "topic": "cave Buddha",
-    "wanted": "Saddan cave Buddha statues",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cave_26_%28Mahaparinirvana_of_the_Buddha%29%2C_Ajanta_caves.jpg/1280px-Cave_26_%28Mahaparinirvana_of_the_Buddha%29%2C_Ajanta_caves.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cave_26_%28Mahaparinirvana_of_the_Buddha%29%2C_Ajanta_caves.jpg/500px-Cave_26_%28Mahaparinirvana_of_the_Buddha%29%2C_Ajanta_caves.jpg",
-    "credit": "Rohit Sharma",
+    "topic": "Saddan Cave Hpa An Myanmar",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mahar_Sadan_Cave_5.jpg/1280px-Mahar_Sadan_Cave_5.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mahar_Sadan_Cave_5.jpg/500px-Mahar_Sadan_Cave_5.jpg",
+    "credit": "kallerna",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cave_26_(Mahaparinirvana_of_the_Buddha),_Ajanta_caves.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Mahar_Sadan_Cave_5.jpg"
    },
    {
     "topic": "Myanmar paddy fields",
@@ -18948,34 +18928,33 @@
   ],
   "asturias-es": [
    {
-    "topic": "coast cliffs Spain",
-    "wanted": "Asturias green coast cliffs Spain",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sydney_%28AU%29%2C_Coast%2C_Australian_Fur_Seals_--_2019_--_3489.jpg/1280px-Sydney_%28AU%29%2C_Coast%2C_Australian_Fur_Seals_--_2019_--_3489.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sydney_%28AU%29%2C_Coast%2C_Australian_Fur_Seals_--_2019_--_3489.jpg/500px-Sydney_%28AU%29%2C_Coast%2C_Australian_Fur_Seals_--_2019_--_3489.jpg",
-    "credit": "Dietmar Rabich",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Coast,_Australian_Fur_Seals_--_2019_--_3489.jpg"
+    "topic": "Asturias cliffs Spain coast",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Oleaje_en_Llames_de_Pria%2C_Asturias._-_panoramio.jpg/1280px-Oleaje_en_Llames_de_Pria%2C_Asturias._-_panoramio.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Oleaje_en_Llames_de_Pria%2C_Asturias._-_panoramio.jpg/500px-Oleaje_en_Llames_de_Pria%2C_Asturias._-_panoramio.jpg",
+    "credit": "McBodes",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oleaje_en_Llames_de_Pria,_Asturias._-_panoramio.jpg"
    },
    {
     "topic": "Picos de Europa mountains",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg/1280px-View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg/500px-View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg/1280px-View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg/500px-View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg",
     "credit": "Tuxyso",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:View_from_Balc%C3%B3n_de_Europa_in_Nerja_2014.jpg"
    },
    {
     "topic": "Asturian cider pouring",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg/1280px-Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg/500px-Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg/1280px-Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg/500px-Gijon_-_having_the_cider_poured_Asturian_style_%2813541391283%29.jpg",
     "credit": "muffinn from Worcester, UK",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Gijon_-_having_the_cider_poured_Asturian_style_(13541391283).jpg"
    },
    {
     "topic": "Playa del Silencio Asturias",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg/1280px-Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg/500px-Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg/1280px-Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg/500px-Playa_del_Silencio._Asturias_-_Flickr_-_%40valdithrash_77.jpg",
     "credit": "VALDITHRASH from Madrid, España",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Playa_del_Silencio._Asturias_-_Flickr_-_@valdithrash_77.jpg"
@@ -18983,16 +18962,16 @@
    {
     "topic": "Cudillero village Spain",
     "wanted": "Cudillero colourful village Spain",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sealights_At_Village_%28229692505%29.jpeg/1280px-Sealights_At_Village_%28229692505%29.jpeg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sealights_At_Village_%28229692505%29.jpeg/500px-Sealights_At_Village_%28229692505%29.jpeg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Sealights_At_Village_%28229692505%29.jpeg/1280px-Sealights_At_Village_%28229692505%29.jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Sealights_At_Village_%28229692505%29.jpeg/500px-Sealights_At_Village_%28229692505%29.jpeg",
     "credit": "Vicenmiranda",
     "license": "CC BY 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sealights_At_Village_(229692505).jpeg"
    },
    {
     "topic": "Cabrales cheese Asturias",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Queso_Azul-Asturias.jpg/1280px-Queso_Azul-Asturias.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Queso_Azul-Asturias.jpg/500px-Queso_Azul-Asturias.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Queso_Azul-Asturias.jpg/1280px-Queso_Azul-Asturias.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Queso_Azul-Asturias.jpg/500px-Queso_Azul-Asturias.jpg",
     "credit": "Tamorlan",
     "license": "CC BY 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Queso_Azul-Asturias.jpg"
@@ -19484,18 +19463,17 @@
   ],
   "cluj-ro": [
    {
-    "topic": "main square Romania",
-    "wanted": "Cluj Napoca main square Romania",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Main_Square_of_the_late_Roman_city%2C_Histria%2C_Moesia_Inferior%2C_Romania_%2828636949588%29.jpg/1280px-The_Main_Square_of_the_late_Roman_city%2C_Histria%2C_Moesia_Inferior%2C_Romania_%2828636949588%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Main_Square_of_the_late_Roman_city%2C_Histria%2C_Moesia_Inferior%2C_Romania_%2828636949588%29.jpg/500px-The_Main_Square_of_the_late_Roman_city%2C_Histria%2C_Moesia_Inferior%2C_Romania_%2828636949588%29.jpg",
-    "credit": "Carole Raddato from FRANKFURT, Germany",
+    "topic": "Cluj Napoca Piata Unirii",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Cluj_napoca_piata_unirii_%2852069735705%29.jpg/1280px-Cluj_napoca_piata_unirii_%2852069735705%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Cluj_napoca_piata_unirii_%2852069735705%29.jpg/500px-Cluj_napoca_piata_unirii_%2852069735705%29.jpg",
+    "credit": "Nuță Lucian from Cluj-Napoca, Romania",
     "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:The_Main_Square_of_the_late_Roman_city,_Histria,_Moesia_Inferior,_Romania_(28636949588).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Cluj_napoca_piata_unirii_(52069735705).jpg"
    },
    {
     "topic": "Timisoara Union Square Romania",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg/1280px-Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg/500px-Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg/1280px-Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg/500px-Union_Square%2C_Timi%C8%99oara%2C_Banat_02.jpg",
     "credit": "Pudelek",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Union_Square,_Timi%C8%99oara,_Banat_02.jpg"
@@ -19511,8 +19489,8 @@
    },
    {
     "topic": "Cluj Napoca cathedral",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg/1280px-Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg/500px-Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg/1280px-Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg/500px-Biserica_Minori%C8%9Bilor_Cluj-Napoca_%282024%29_-_img_09.jpg",
     "credit": "Chainwit.",
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Biserica_Minori%C8%9Bilor_Cluj-Napoca_(2024)_-_img_09.jpg"
@@ -19523,8 +19501,8 @@
    {
     "topic": "Timisoara baroque buildings",
     "wanted": "Timisoara colourful baroque buildings",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/1280px-MuzeuArta_Timisoara.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/500px-MuzeuArta_Timisoara.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/1280px-MuzeuArta_Timisoara.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/500px-MuzeuArta_Timisoara.jpg",
     "credit": "Original uploader was Radufan at ro.wikipedia",
     "license": "CC BY 2.5",
     "source": "https://commons.wikimedia.org/wiki/File:MuzeuArta_Timisoara.jpg"
@@ -19934,53 +19912,52 @@
   "glasgow-gb": [
    {
     "topic": "Glasgow Kelvingrove museum",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Glasgow%2C_Kelvingrove_Gallery_%2838560538976%29.jpg/1280px-Glasgow%2C_Kelvingrove_Gallery_%2838560538976%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Glasgow%2C_Kelvingrove_Gallery_%2838560538976%29.jpg/500px-Glasgow%2C_Kelvingrove_Gallery_%2838560538976%29.jpg",
-    "credit": "Herbert Frank from Wien (Vienna), AT",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Glasgow,_Kelvingrove_Gallery_(38560538976).jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Kelvingrove_Art_Gallery_and_Museum%2C_Glasgow%2C_Scotland%2C_UK.jpg/1280px-The_Kelvingrove_Art_Gallery_and_Museum%2C_Glasgow%2C_Scotland%2C_UK.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Kelvingrove_Art_Gallery_and_Museum%2C_Glasgow%2C_Scotland%2C_UK.jpg/500px-The_Kelvingrove_Art_Gallery_and_Museum%2C_Glasgow%2C_Scotland%2C_UK.jpg",
+    "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Kelvingrove_Art_Gallery_and_Museum,_Glasgow,_Scotland,_UK.jpg"
    },
    {
     "topic": "Glasgow School of Art Mackintosh",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg/1280px-2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg/500px-2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg/1280px-2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg/500px-2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg",
     "credit": "Gunnar Klack",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:2002-05-Glasgow-Bourdon-Building-Mackintosh-School-of-Architecture-1.jpg"
    },
    {
-    "topic": "Glasgow West End",
-    "wanted": "Glasgow West End Ashton Lane",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ScotRail_153_and_156_Bridge_of_Orchy_-_Rannoch.jpg/1280px-ScotRail_153_and_156_Bridge_of_Orchy_-_Rannoch.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ScotRail_153_and_156_Bridge_of_Orchy_-_Rannoch.jpg/500px-ScotRail_153_and_156_Bridge_of_Orchy_-_Rannoch.jpg",
-    "credit": "Kabelleger",
+    "topic": "Glasgow West End Byres Road",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Byres_Road_in_Glasgow%27s_West_End%2C_Scotland%2C_UK.jpg/1280px-Byres_Road_in_Glasgow%27s_West_End%2C_Scotland%2C_UK.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Byres_Road_in_Glasgow%27s_West_End%2C_Scotland%2C_UK.jpg/500px-Byres_Road_in_Glasgow%27s_West_End%2C_Scotland%2C_UK.jpg",
+    "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:ScotRail_153_and_156_Bridge_of_Orchy_-_Rannoch.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Byres_Road_in_Glasgow%27s_West_End,_Scotland,_UK.jpg"
    },
    {
     "topic": "Glasgow George Square",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Statue_Of_James_Watt.jpg/1280px-Statue_Of_James_Watt.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Statue_Of_James_Watt.jpg/500px-Statue_Of_James_Watt.jpg",
-    "credit": "TomZoy",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Statue_Of_James_Watt.jpg"
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/11/Statue_of_James_Watt%2C_George_Square%2C_Glasgow_-_geograph.org.uk_-_6322899.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Statue_of_James_Watt%2C_George_Square%2C_Glasgow_-_geograph.org.uk_-_6322899.jpg",
+    "credit": "Stephen Craven",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Statue_of_James_Watt,_George_Square,_Glasgow_-_geograph.org.uk_-_6322899.jpg"
    },
    {
     "topic": "Glasgow music venue",
     "wanted": "Glasgow music venue gig",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Randolph%27s_Leap_playing_in_Stereo%2C_Glasgow.jpg/1280px-Randolph%27s_Leap_playing_in_Stereo%2C_Glasgow.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Randolph%27s_Leap_playing_in_Stereo%2C_Glasgow.jpg/500px-Randolph%27s_Leap_playing_in_Stereo%2C_Glasgow.jpg",
-    "credit": "Optimum Cheese",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Randolph%27s_Leap_playing_in_Stereo,_Glasgow.jpg"
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Ferry_music_venue_on_The_Clyde_%28geograph_7829178%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Ferry_music_venue_on_The_Clyde_%28geograph_7829178%29.jpg",
+    "credit": "Mrs W J Sutherland",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Ferry_music_venue_on_The_Clyde_(geograph_7829178).jpg"
    },
    {
     "topic": "Necropolis Glasgow cathedral",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Glasgow_Cathedral_%26_Glasgow_Necropolis_-_aerial_-_2025-04-17.jpg/1280px-Glasgow_Cathedral_%26_Glasgow_Necropolis_-_aerial_-_2025-04-17.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Glasgow_Cathedral_%26_Glasgow_Necropolis_-_aerial_-_2025-04-17.jpg/500px-Glasgow_Cathedral_%26_Glasgow_Necropolis_-_aerial_-_2025-04-17.jpg",
-    "credit": "瑞丽江的河水",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Glasgow_Cathedral_%26_Glasgow_Necropolis_-_aerial_-_2025-04-17.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Glasgow_Cathedral%2C_from_The_Necropolis_-_geograph.org.uk_-_2625583.jpg/1280px-Glasgow_Cathedral%2C_from_The_Necropolis_-_geograph.org.uk_-_2625583.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Glasgow_Cathedral%2C_from_The_Necropolis_-_geograph.org.uk_-_2625583.jpg/500px-Glasgow_Cathedral%2C_from_The_Necropolis_-_geograph.org.uk_-_2625583.jpg",
+    "credit": "Peter Barr",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glasgow_Cathedral,_from_The_Necropolis_-_geograph.org.uk_-_2625583.jpg"
    }
   ],
   "gothenburg-se": [
@@ -20172,26 +20149,25 @@
   ],
   "guernsey-je": [
    {
-    "topic": "island cliffs Channel Islands",
-    "wanted": "Sark island cliffs Channel Islands",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Arch_Rock%2C_Anacapa_Island%2C_Channel_Islands_National_Park%2C_California_%284081727865%29.jpg/1280px-Arch_Rock%2C_Anacapa_Island%2C_Channel_Islands_National_Park%2C_California_%284081727865%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Arch_Rock%2C_Anacapa_Island%2C_Channel_Islands_National_Park%2C_California_%284081727865%29.jpg/500px-Arch_Rock%2C_Anacapa_Island%2C_Channel_Islands_National_Park%2C_California_%284081727865%29.jpg",
-    "credit": "Ken Lund from Reno, Nevada, USA",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Arch_Rock,_Anacapa_Island,_Channel_Islands_National_Park,_California_(4081727865).jpg"
+    "topic": "Sark island Channel Islands",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Sark_Seigneurie.jpg/1280px-Sark_Seigneurie.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Sark_Seigneurie.jpg/500px-Sark_Seigneurie.jpg",
+    "credit": "Daniel Kraft",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sark_Seigneurie.jpg"
    },
    {
     "topic": "St Peter Port Guernsey harbour",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/St_Peter_Port_Guernsey.jpg/1280px-St_Peter_Port_Guernsey.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/St_Peter_Port_Guernsey.jpg/500px-St_Peter_Port_Guernsey.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/St_Peter_Port_Guernsey.jpg/1280px-St_Peter_Port_Guernsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/St_Peter_Port_Guernsey.jpg/500px-St_Peter_Port_Guernsey.jpg",
     "credit": "Alistair young",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:St_Peter_Port_Guernsey.jpg"
    },
    {
     "topic": "Herm island Shell Beach",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Shell_Beach_Herm.jpg/1280px-Shell_Beach_Herm.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Shell_Beach_Herm.jpg/500px-Shell_Beach_Herm.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Shell_Beach_Herm.jpg/1280px-Shell_Beach_Herm.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Shell_Beach_Herm.jpg/500px-Shell_Beach_Herm.jpg",
     "credit": "Daniel Kraft",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Shell_Beach_Herm.jpg"
@@ -20199,8 +20175,8 @@
    {
     "topic": "Guernsey coastal cliff",
     "wanted": "Guernsey coastal cliff path",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg/1280px-Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg/500px-Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg/1280px-Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg/500px-Replica_22_cm_K532_Guernsey%2C_Batterie_Dollmann.jpg",
     "credit": "Alistair young",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Replica_22_cm_K532_Guernsey,_Batterie_Dollmann.jpg"
@@ -20210,8 +20186,8 @@
    },
    {
     "topic": "Victor Hugo house Guernsey",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg/1280px-Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg/500px-Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg/1280px-Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg/500px-Hauteville_House%2C_Victor_Hugo%2C_Guernsey_2.jpg",
     "credit": "Heather Cowper",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hauteville_House,_Victor_Hugo,_Guernsey_2.jpg"
@@ -20422,50 +20398,49 @@
   "jersey-je": [
    {
     "topic": "Jersey beach low tide Channel Islands",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG/1280px-Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG/500px-Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG/1280px-Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG/500px-Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_%28%C3%A9t%C3%A9_2019%29.JPG",
     "credit": "Florian Pépellin",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Saint-Br%C3%A9lade_depuis_la_plage_%C3%A0_mar%C3%A9e_basse_%C3%A0_Jersey_(%C3%A9t%C3%A9_2019).JPG"
    },
    {
     "topic": "Corbiere lighthouse Jersey",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg/1280px-Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg/500px-Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg/1280px-Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg/500px-Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg",
     "credit": "Robert Linsdell from St. Andrews, Canada",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Corbiere_Lighthouse,_Jersey_(300161)_(9450837949).jpg"
    },
    {
     "topic": "Mont Orgueil castle Jersey",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mont_Orgueil_and_Gorey.jpg/1280px-Mont_Orgueil_and_Gorey.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mont_Orgueil_and_Gorey.jpg/500px-Mont_Orgueil_and_Gorey.jpg",
-    "credit": "Daniel Kraft",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Jersey_-_Mont_Orgueil_01.jpg/1280px-Jersey_-_Mont_Orgueil_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Jersey_-_Mont_Orgueil_01.jpg/500px-Jersey_-_Mont_Orgueil_01.jpg",
+    "credit": "Paweł 'pbm' Szubert (talk)",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mont_Orgueil_and_Gorey.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Jersey_-_Mont_Orgueil_01.jpg"
    },
    {
     "topic": "Jersey coastal path",
     "wanted": "Jersey coastal path cliffs",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Coastal_path_in_St_John%2C_Jersey.jpg/1280px-Coastal_path_in_St_John%2C_Jersey.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Coastal_path_in_St_John%2C_Jersey.jpg/500px-Coastal_path_in_St_John%2C_Jersey.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Coastal_path_in_St_John%2C_Jersey.jpg/1280px-Coastal_path_in_St_John%2C_Jersey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Coastal_path_in_St_John%2C_Jersey.jpg/500px-Coastal_path_in_St_John%2C_Jersey.jpg",
     "credit": "Danrok",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Coastal_path_in_St_John,_Jersey.jpg"
    },
    {
-    "topic": "Jersey Royal",
-    "wanted": "Jersey Royal potatoes field",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Royal_mail_jet_jersey_airport.JPG/1280px-Royal_mail_jet_jersey_airport.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Royal_mail_jet_jersey_airport.JPG/500px-Royal_mail_jet_jersey_airport.JPG",
-    "credit": "Danrok",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Royal_mail_jet_jersey_airport.JPG"
+    "topic": "Jersey Royal potato Channel Island",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Jersey_Royal_potatoes_boiled.jpg/1280px-Jersey_Royal_potatoes_boiled.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Jersey_Royal_potatoes_boiled.jpg/500px-Jersey_Royal_potatoes_boiled.jpg",
+    "credit": "Man vyi",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Jersey_Royal_potatoes_boiled.jpg"
    },
    {
     "topic": "St Helier harbour Jersey",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/St_helier_marina_jersey.JPG/1280px-St_helier_marina_jersey.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/St_helier_marina_jersey.JPG/500px-St_helier_marina_jersey.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/St_helier_marina_jersey.JPG/1280px-St_helier_marina_jersey.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/St_helier_marina_jersey.JPG/500px-St_helier_marina_jersey.JPG",
     "credit": "Dan Marsh",
     "license": "CC BY 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:St_helier_marina_jersey.JPG"
@@ -21697,24 +21672,24 @@
   "saaremaa-ee": [
    {
     "topic": "Angla windmills Saaremaa Estonia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Angla_tuulikud_Saaremaal.jpg/1280px-Angla_tuulikud_Saaremaal.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Angla_tuulikud_Saaremaal.jpg/500px-Angla_tuulikud_Saaremaal.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Angla_tuulikud_Saaremaal.jpg/1280px-Angla_tuulikud_Saaremaal.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Angla_tuulikud_Saaremaal.jpg/500px-Angla_tuulikud_Saaremaal.jpg",
     "credit": "Abrget47j",
     "license": "CC BY-SA 3.0 ee",
     "source": "https://commons.wikimedia.org/wiki/File:Angla_tuulikud_Saaremaal.jpg"
    },
    {
     "topic": "Kuressaare castle Estonia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kuressaare-linnus%2C_2010.jpg/1280px-Kuressaare-linnus%2C_2010.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kuressaare-linnus%2C_2010.jpg/500px-Kuressaare-linnus%2C_2010.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Kuressaare-linnus%2C_2010.jpg/1280px-Kuressaare-linnus%2C_2010.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Kuressaare-linnus%2C_2010.jpg/500px-Kuressaare-linnus%2C_2010.jpg",
     "credit": "WikedKentaur",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kuressaare-linnus,_2010.jpg"
    },
    {
     "topic": "Kaali meteorite crater Estonia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg/1280px-Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg/500px-Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg/1280px-Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg/500px-Kaali_Meteorite_Crater%2C_Kaali%2C_Saaremaa%2C_Estonia_01.jpg",
     "credit": "Fry72, Karel Frydrýšek",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kaali_Meteorite_Crater,_Kaali,_Saaremaa,_Estonia_01.jpg"
@@ -21722,28 +21697,27 @@
    {
     "topic": "Estonian island juniper",
     "wanted": "Estonian island juniper coast",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kadakapuud_Osmussaar.JPG/1280px-Kadakapuud_Osmussaar.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kadakapuud_Osmussaar.JPG/500px-Kadakapuud_Osmussaar.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Kadakapuud_Osmussaar.JPG/1280px-Kadakapuud_Osmussaar.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Kadakapuud_Osmussaar.JPG/500px-Kadakapuud_Osmussaar.JPG",
     "credit": "Heidi Soosalu",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kadakapuud_Osmussaar.JPG"
    },
    {
     "topic": "Hiiumaa lighthouse Estonia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg/1280px-K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg/500px-K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg/1280px-K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg/500px-K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg",
     "credit": "Hiiumaamudeliklubi",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:K%C3%B5pu_tuletorn._Vaade_%C3%BClevalt.jpg"
    },
    {
-    "topic": "spa Estonia",
-    "wanted": "Saaremaa spa Estonia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Porsche_Carrera_Cup_Benelux_2024_Spa-Francorchamps_Porsche_Estonia_Porsche_911_GT3_Cup_%28992%29_No.48_Thomas_Kangro_%28DSC08511%29.jpg/1280px-Porsche_Carrera_Cup_Benelux_2024_Spa-Francorchamps_Porsche_Estonia_Porsche_911_GT3_Cup_%28992%29_No.48_Thomas_Kangro_%28DSC08511%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Porsche_Carrera_Cup_Benelux_2024_Spa-Francorchamps_Porsche_Estonia_Porsche_911_GT3_Cup_%28992%29_No.48_Thomas_Kangro_%28DSC08511%29.jpg/500px-Porsche_Carrera_Cup_Benelux_2024_Spa-Francorchamps_Porsche_Estonia_Porsche_911_GT3_Cup_%28992%29_No.48_Thomas_Kangro_%28DSC08511%29.jpg",
-    "credit": "MarcelX42",
+    "topic": "Kuressaare Saaremaa Estonia",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Kuressaare_linn_ja_sadam_2015.jpg/1280px-Kuressaare_linn_ja_sadam_2015.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Kuressaare_linn_ja_sadam_2015.jpg/500px-Kuressaare_linn_ja_sadam_2015.jpg",
+    "credit": "Hiiumaamudeliklubi",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Porsche_Carrera_Cup_Benelux_2024_Spa-Francorchamps_Porsche_Estonia_Porsche_911_GT3_Cup_(992)_No.48_Thomas_Kangro_(DSC08511).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Kuressaare_linn_ja_sadam_2015.jpg"
    }
   ],
   "san-marino-sm": [
@@ -22655,36 +22629,35 @@
    },
    {
     "topic": "Laxey Wheel Isle of Man",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Laxey_Wheel_Isle_of_Man.jpg/1280px-Laxey_Wheel_Isle_of_Man.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Laxey_Wheel_Isle_of_Man.jpg/500px-Laxey_Wheel_Isle_of_Man.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Laxey_Wheel_Isle_of_Man.jpg/1280px-Laxey_Wheel_Isle_of_Man.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Laxey_Wheel_Isle_of_Man.jpg/500px-Laxey_Wheel_Isle_of_Man.jpg",
     "credit": "Frank Schuengel",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Laxey_Wheel_Isle_of_Man.jpg"
    },
    {
     "topic": "Manx steam railway",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MNR_No_4_Caledonia_at_Castletown_railway_station_-_1.jpg/1280px-MNR_No_4_Caledonia_at_Castletown_railway_station_-_1.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MNR_No_4_Caledonia_at_Castletown_railway_station_-_1.jpg/500px-MNR_No_4_Caledonia_at_Castletown_railway_station_-_1.jpg",
-    "credit": "David Jones",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:MNR_No_4_Caledonia_at_Castletown_railway_station_-_1.jpg"
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Manx_Steam_Railway_-_geograph.org.uk_-_8183839.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/Manx_Steam_Railway_-_geograph.org.uk_-_8183839.jpg",
+    "credit": "N Chadwick",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manx_Steam_Railway_-_geograph.org.uk_-_8183839.jpg"
    },
    {
     "topic": "Peel castle Isle of Man",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg/1280px-Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg/500px-Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg/1280px-Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg/500px-Peel_castle_and_beach%2C_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg",
     "credit": "Patrick Hamilton",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Peel_castle_and_beach,_Isle_of_Man_-_geograph.org.uk_-_6222129.jpg"
    },
    {
-    "topic": "Isle of Man",
-    "wanted": "Isle of Man dark sky stars",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Isle_of_Man_Constabulary_conducting_traffic_stop.jpg/1280px-Isle_of_Man_Constabulary_conducting_traffic_stop.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Isle_of_Man_Constabulary_conducting_traffic_stop.jpg/500px-Isle_of_Man_Constabulary_conducting_traffic_stop.jpg",
-    "credit": "Frank Schuengel",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Isle_of_Man_Constabulary_conducting_traffic_stop.jpg"
+    "topic": "Niarbyl Isle of Man coast",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/MV_Balmoral_-_Niarbyl_-_Isle_of_Man_-_kingsley_-_23-JUN-09.jpg/1280px-MV_Balmoral_-_Niarbyl_-_Isle_of_Man_-_kingsley_-_23-JUN-09.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/MV_Balmoral_-_Niarbyl_-_Isle_of_Man_-_kingsley_-_23-JUN-09.jpg/500px-MV_Balmoral_-_Niarbyl_-_Isle_of_Man_-_kingsley_-_23-JUN-09.jpg",
+    "credit": "Gregory J Kingsley",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MV_Balmoral_-_Niarbyl_-_Isle_of_Man_-_kingsley_-_23-JUN-09.jpg"
    }
   ],
   "jurassic-coast-gb": [
@@ -24036,52 +24009,51 @@
   "baku-az": [
    {
     "topic": "Baku Flame Towers Azerbaijan",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vista_de_Baku%2C_Azerbaiy%C3%A1n%2C_2016-09-26%2C_DD_101-106_PAN.jpg/1280px-Vista_de_Baku%2C_Azerbaiy%C3%A1n%2C_2016-09-26%2C_DD_101-106_PAN.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vista_de_Baku%2C_Azerbaiy%C3%A1n%2C_2016-09-26%2C_DD_101-106_PAN.jpg/500px-Vista_de_Baku%2C_Azerbaiy%C3%A1n%2C_2016-09-26%2C_DD_101-106_PAN.jpg",
-    "credit": "Diego Delso",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/1280px-Flame_towers_from_Baku_boulevard.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/500px-Flame_towers_from_Baku_boulevard.JPG",
+    "credit": "Xoncha",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Vista_de_Baku,_Azerbaiy%C3%A1n,_2016-09-26,_DD_101-106_PAN.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Flame_towers_from_Baku_boulevard.JPG"
    },
    {
     "topic": "Baku old city walls",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg/1280px-Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg/500px-Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg/1280px-Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg/500px-Walls_of_the_fortress_of_the_Baku_Old_City_%28Azerbaijan%29_-_10-12centuries6.jpg",
     "credit": "Самый древний",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:Walls_of_the_fortress_of_the_Baku_Old_City_(Azerbaijan)_-_10-12centuries6.jpg"
    },
    {
     "topic": "Azerbaijan mud volcanoes",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gobustan_mud_volcanoes_07.jpg/1280px-Gobustan_mud_volcanoes_07.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gobustan_mud_volcanoes_07.jpg/500px-Gobustan_mud_volcanoes_07.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Gobustan_mud_volcanoes_01.jpg/1280px-Gobustan_mud_volcanoes_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Gobustan_mud_volcanoes_01.jpg/500px-Gobustan_mud_volcanoes_01.jpg",
     "credit": "Bernard Gagnon",
     "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Gobustan_mud_volcanoes_07.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Gobustan_mud_volcanoes_01.jpg"
    },
    {
     "topic": "Baku Caspian Sea skyline",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg/1280px-Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg/500px-Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg/1280px-Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg/500px-Modern_Baku_seen_from_the_Martyrs%27_Memorial_%2837068871235%29.jpg",
     "credit": "shankar s. from Dubai, united arab emirates",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Modern_Baku_seen_from_the_Martyrs%27_Memorial_(37068871235).jpg"
    },
    {
     "topic": "Baku Palace of the Shirvanshahs",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Shirvanshahs_Palace_Mosque_02.jpg/1280px-Shirvanshahs_Palace_Mosque_02.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Shirvanshahs_Palace_Mosque_02.jpg/500px-Shirvanshahs_Palace_Mosque_02.jpg",
-    "credit": "Bernard Gagnon",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Shirvanshahs_Palace_Mosque_02.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Palace_of_the_Shirvanshahs%2C_Baku_%28%C5%9Eirvan%C5%9Fahlar_saray%C4%B1%29.jpg/1280px-Palace_of_the_Shirvanshahs%2C_Baku_%28%C5%9Eirvan%C5%9Fahlar_saray%C4%B1%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Palace_of_the_Shirvanshahs%2C_Baku_%28%C5%9Eirvan%C5%9Fahlar_saray%C4%B1%29.jpg/500px-Palace_of_the_Shirvanshahs%2C_Baku_%28%C5%9Eirvan%C5%9Fahlar_saray%C4%B1%29.jpg",
+    "credit": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Palace_of_the_Shirvanshahs,_Baku_(%C5%9Eirvan%C5%9Fahlar_saray%C4%B1).jpg"
    },
    {
-    "topic": "architecture Heydar Aliyev",
-    "wanted": "Baku modern architecture Heydar Aliyev",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ilham_Aliyev_presented_%E2%80%9CHeydar_Aliyev%E2%80%9D_Order_to_Polad_Bulbuloghlu_01.jpg/1280px-Ilham_Aliyev_presented_%E2%80%9CHeydar_Aliyev%E2%80%9D_Order_to_Polad_Bulbuloghlu_01.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ilham_Aliyev_presented_%E2%80%9CHeydar_Aliyev%E2%80%9D_Order_to_Polad_Bulbuloghlu_01.jpg/500px-Ilham_Aliyev_presented_%E2%80%9CHeydar_Aliyev%E2%80%9D_Order_to_Polad_Bulbuloghlu_01.jpg",
-    "credit": "Press Service of the President of the Republic of Azerbaijan",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_presented_%E2%80%9CHeydar_Aliyev%E2%80%9D_Order_to_Polad_Bulbuloghlu_01.jpg"
+    "topic": "Zaha Hadid Heydar Aliyev Center Baku",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg",
+    "credit": "Dmitry Ternovoy",
+    "license": "FAL",
+    "source": "https://commons.wikimedia.org/wiki/File:Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg"
    }
   ],
   "brunei-bn": [
@@ -24646,8 +24618,8 @@
    {
     "topic": "surf beach El Salvador",
     "wanted": "El Tunco surf beach El Salvador",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Punta_Mango_en_El_Salvador.jpg/1280px-Punta_Mango_en_El_Salvador.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Punta_Mango_en_El_Salvador.jpg/500px-Punta_Mango_en_El_Salvador.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Punta_Mango_en_El_Salvador.jpg/1280px-Punta_Mango_en_El_Salvador.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Punta_Mango_en_El_Salvador.jpg/500px-Punta_Mango_en_El_Salvador.jpg",
     "credit": "Casa Presidencial El Salvador",
     "license": "CC0",
     "source": "https://commons.wikimedia.org/wiki/File:Punta_Mango_en_El_Salvador.jpg"
@@ -24663,8 +24635,8 @@
    {
     "topic": "Pupusas El Salvador",
     "wanted": "Pupusas El Salvador street food",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pupusas_El_Salvador_Centro_America.JPG/1280px-Pupusas_El_Salvador_Centro_America.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pupusas_El_Salvador_Centro_America.JPG/500px-Pupusas_El_Salvador_Centro_America.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Pupusas_El_Salvador_Centro_America.JPG/1280px-Pupusas_El_Salvador_Centro_America.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Pupusas_El_Salvador_Centro_America.JPG/500px-Pupusas_El_Salvador_Centro_America.JPG",
     "credit": "JMRAFFi",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pupusas_El_Salvador_Centro_America.JPG"
@@ -24672,28 +24644,27 @@
    {
     "topic": "El Tunco El Salvador",
     "wanted": "El Tunco El Salvador surfing",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Puente_peatonal_Rio_El_Tunco_-_panoramio.jpg/1280px-Puente_peatonal_Rio_El_Tunco_-_panoramio.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Puente_peatonal_Rio_El_Tunco_-_panoramio.jpg/500px-Puente_peatonal_Rio_El_Tunco_-_panoramio.jpg",
-    "credit": "Daniel chavez castro",
-    "license": "CC BY 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Puente_peatonal_Rio_El_Tunco_-_panoramio.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2010.05.05.124022_El_Tunco_El_Sunzal_El_Salvador.jpg/1280px-2010.05.05.124022_El_Tunco_El_Sunzal_El_Salvador.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2010.05.05.124022_El_Tunco_El_Sunzal_El_Salvador.jpg/500px-2010.05.05.124022_El_Tunco_El_Sunzal_El_Salvador.jpg",
+    "credit": "Hermann Luyken",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2010.05.05.124022_El_Tunco_El_Sunzal_El_Salvador.jpg"
    },
    {
     "topic": "Santa Ana volcano crater",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg/1280px-Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg/500px-Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg/1280px-Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg/500px-Crat%C3%A8re_du_Volcan_de_Santa_Ana%2C_Salvador.jpg",
     "credit": "Emberlifi",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Crat%C3%A8re_du_Volcan_de_Santa_Ana,_Salvador.jpg"
    },
    {
-    "topic": "El Salvador",
-    "wanted": "El Salvador coastal sunset",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Windows_Iglesia_de_El_Salvador_-_Santa_Cruz_de_La_Palma.jpg/1280px-Windows_Iglesia_de_El_Salvador_-_Santa_Cruz_de_La_Palma.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Windows_Iglesia_de_El_Salvador_-_Santa_Cruz_de_La_Palma.jpg/500px-Windows_Iglesia_de_El_Salvador_-_Santa_Cruz_de_La_Palma.jpg",
-    "credit": "H. Zell",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Windows_Iglesia_de_El_Salvador_-_Santa_Cruz_de_La_Palma.jpg"
+    "topic": "El Tunco beach El Salvador",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Playa_de_El_Salvador.jpg/1280px-Playa_de_El_Salvador.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Playa_de_El_Salvador.jpg/500px-Playa_de_El_Salvador.jpg",
+    "credit": "Rodrigo var351",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Playa_de_El_Salvador.jpg"
    }
   ],
   "esperance-au": [
@@ -25520,43 +25491,42 @@
    },
    {
     "topic": "Nyika Plateau Malawi hills",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nyika_afromontane_forest.jpg/1280px-Nyika_afromontane_forest.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nyika_afromontane_forest.jpg/500px-Nyika_afromontane_forest.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nyika_afromontane_forest.jpg/1280px-Nyika_afromontane_forest.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nyika_afromontane_forest.jpg/500px-Nyika_afromontane_forest.jpg",
     "credit": "Dr. Thomas Wagner, Environmental and Agricultural Consulting and Research",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Nyika_afromontane_forest.jpg"
    },
    {
-    "topic": "Malawi black",
-    "wanted": "Malawi black rhino",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Initiation_ritual_of_boys_in_Malawi.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/Initiation_ritual_of_boys_in_Malawi.jpg",
-    "credit": "Steve Evans from Citizen of the World",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Initiation_ritual_of_boys_in_Malawi.jpg"
+    "topic": "black rhino Africa wildlife",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1280px-Black_Rhino_at_Working_with_Wildlife.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/500px-Black_Rhino_at_Working_with_Wildlife.jpg",
+    "credit": "AfricanConservation",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_Rhino_at_Working_with_Wildlife.jpg"
    },
    {
     "topic": "Liwonde national park",
     "wanted": "Liwonde national park sunset",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Liwonde_NP_-_panoramio.jpg/1280px-Liwonde_NP_-_panoramio.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Liwonde_NP_-_panoramio.jpg/500px-Liwonde_NP_-_panoramio.jpg",
-    "credit": "Timon Zingg",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Liwonde_NP_-_panoramio.jpg"
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Flora_in_Liwonde_Park_%2814874711337%29.jpg/1280px-Flora_in_Liwonde_Park_%2814874711337%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Flora_in_Liwonde_Park_%2814874711337%29.jpg/500px-Flora_in_Liwonde_Park_%2814874711337%29.jpg",
+    "credit": "Ludger Heide",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flora_in_Liwonde_Park_(14874711337).jpg"
    },
    {
     "topic": "Nyika Plateau",
     "wanted": "Nyika Plateau wildflowers",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Altopiano_nyika-malawi.jpg/1280px-Altopiano_nyika-malawi.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Altopiano_nyika-malawi.jpg/500px-Altopiano_nyika-malawi.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Nyika_Plateau_II_%2814874700438%29.jpg/1280px-Nyika_Plateau_II_%2814874700438%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Nyika_Plateau_II_%2814874700438%29.jpg/500px-Nyika_Plateau_II_%2814874700438%29.jpg",
     "credit": "Ludger Heide",
     "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Altopiano_nyika-malawi.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Nyika_Plateau_II_(14874700438).jpg"
    },
    {
     "topic": "Shire River Malawi",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg/1280px-Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg/500px-Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg/1280px-Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg/500px-Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg",
     "credit": "Victuallers",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kutchire_Lodge_safari_in_Malawi_in_2026_River_Shire.jpg"
@@ -28560,8 +28530,8 @@
   "eger-hu": [
    {
     "topic": "Eger castle Hungary",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Eger_Castle_-_panoramio.jpg/1280px-Eger_Castle_-_panoramio.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Eger_Castle_-_panoramio.jpg/500px-Eger_Castle_-_panoramio.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Eger_Castle_-_panoramio.jpg/1280px-Eger_Castle_-_panoramio.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Eger_Castle_-_panoramio.jpg/500px-Eger_Castle_-_panoramio.jpg",
     "credit": "Mister No",
     "license": "CC BY 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Eger_Castle_-_panoramio.jpg"
@@ -28570,34 +28540,33 @@
     "topic": "Eger minaret baroque town"
    },
    {
-    "topic": "Valley of the Women",
-    "wanted": "Valley of the Beautiful Women wine cellars Eger",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Women_Planting_Vegetables_Ketti_Valley_Nov25_A7CR_09799.jpg/1280px-Women_Planting_Vegetables_Ketti_Valley_Nov25_A7CR_09799.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Women_Planting_Vegetables_Ketti_Valley_Nov25_A7CR_09799.jpg/500px-Women_Planting_Vegetables_Ketti_Valley_Nov25_A7CR_09799.jpg",
-    "credit": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Women_Planting_Vegetables_Ketti_Valley_Nov25_A7CR_09799.jpg"
+    "topic": "Szepasszonyvolgy Eger wine cellars",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cellar_No._14%2C_wine_press_relief_in_Sz%C3%A9passzonyv%C3%B6lgy%2C_Eger%2C_2016_Hungary.jpg/1280px-Cellar_No._14%2C_wine_press_relief_in_Sz%C3%A9passzonyv%C3%B6lgy%2C_Eger%2C_2016_Hungary.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cellar_No._14%2C_wine_press_relief_in_Sz%C3%A9passzonyv%C3%B6lgy%2C_Eger%2C_2016_Hungary.jpg/500px-Cellar_No._14%2C_wine_press_relief_in_Sz%C3%A9passzonyv%C3%B6lgy%2C_Eger%2C_2016_Hungary.jpg",
+    "credit": "Globetrotter19",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cellar_No._14,_wine_press_relief_in_Sz%C3%A9passzonyv%C3%B6lgy,_Eger,_2016_Hungary.jpg"
    },
    {
     "topic": "Eger basilica",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Eger_castle_-_ruins_of_the_romanesque_basilica.JPG/1280px-Eger_castle_-_ruins_of_the_romanesque_basilica.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Eger_castle_-_ruins_of_the_romanesque_basilica.JPG/500px-Eger_castle_-_ruins_of_the_romanesque_basilica.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Eger_castle_-_ruins_of_the_romanesque_basilica.JPG/1280px-Eger_castle_-_ruins_of_the_romanesque_basilica.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Eger_castle_-_ruins_of_the_romanesque_basilica.JPG/500px-Eger_castle_-_ruins_of_the_romanesque_basilica.JPG",
     "credit": "Pudelek (Marcin Szala)",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Eger_castle_-_ruins_of_the_romanesque_basilica.JPG"
    },
    {
     "topic": "Eger thermal bath",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Thermal_Bath_in_Eger.JPG/1280px-Thermal_Bath_in_Eger.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Thermal_Bath_in_Eger.JPG/500px-Thermal_Bath_in_Eger.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Thermal_Bath_in_Eger.JPG/1280px-Thermal_Bath_in_Eger.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Thermal_Bath_in_Eger.JPG/500px-Thermal_Bath_in_Eger.JPG",
     "credit": "Pudelek (Marcin Szala)",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Thermal_Bath_in_Eger.JPG"
    },
    {
     "topic": "Danube Bend Visegrad Hungary",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hungary_donau_Visegrad_bend_IMG_0185.JPG/1280px-Hungary_donau_Visegrad_bend_IMG_0185.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hungary_donau_Visegrad_bend_IMG_0185.JPG/500px-Hungary_donau_Visegrad_bend_IMG_0185.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Hungary_donau_Visegrad_bend_IMG_0185.JPG/1280px-Hungary_donau_Visegrad_bend_IMG_0185.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Hungary_donau_Visegrad_bend_IMG_0185.JPG/500px-Hungary_donau_Visegrad_bend_IMG_0185.JPG",
     "credit": "Bjoertvedt",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hungary_donau_Visegrad_bend_IMG_0185.JPG"
@@ -28753,8 +28722,8 @@
   "freiburg-de": [
    {
     "topic": "Freiburg Munster cathedral tower",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg/1280px-Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg/500px-Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg/1280px-Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg/500px-Freiburg_im_Breisgau%2C_M%C3%BCnster%2C_Turm_--_2025_--_8041.jpg",
     "credit": "Dietmar Rabich",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Freiburg_im_Breisgau,_M%C3%BCnster,_Turm_--_2025_--_8041.jpg"
@@ -28763,26 +28732,25 @@
     "topic": "Freiburg Bachle water channels old town"
    },
    {
-    "topic": "square Historisches Kaufhaus",
-    "wanted": "Freiburg market square Historisches Kaufhaus",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Moskau-Roter_Platz-20-Kremlmauer-Historisches_Museum-Kaufhaus_GUM-2012-gje.jpg/1280px-Moskau-Roter_Platz-20-Kremlmauer-Historisches_Museum-Kaufhaus_GUM-2012-gje.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Moskau-Roter_Platz-20-Kremlmauer-Historisches_Museum-Kaufhaus_GUM-2012-gje.jpg/500px-Moskau-Roter_Platz-20-Kremlmauer-Historisches_Museum-Kaufhaus_GUM-2012-gje.jpg",
-    "credit": "Gerd Eichmann",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Moskau-Roter_Platz-20-Kremlmauer-Historisches_Museum-Kaufhaus_GUM-2012-gje.jpg"
+    "topic": "Freiburg Kaufhaus Munsterplatz",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Dach_Historisches_Kaufhaus_von_1532_Freiburg_Deutschland.jpg/1280px-Dach_Historisches_Kaufhaus_von_1532_Freiburg_Deutschland.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Dach_Historisches_Kaufhaus_von_1532_Freiburg_Deutschland.jpg/500px-Dach_Historisches_Kaufhaus_von_1532_Freiburg_Deutschland.jpg",
+    "credit": "Marc-Lautenbacher",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dach_Historisches_Kaufhaus_von_1532_Freiburg_Deutschland.jpg"
    },
    {
     "topic": "Kaiserstuhl vineyards Baden",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Vineyards_-_Oberbergen_01.jpg/1280px-Vineyards_-_Oberbergen_01.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Vineyards_-_Oberbergen_01.jpg/500px-Vineyards_-_Oberbergen_01.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Vineyards_-_Oberbergen_01.jpg/1280px-Vineyards_-_Oberbergen_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Vineyards_-_Oberbergen_01.jpg/500px-Vineyards_-_Oberbergen_01.jpg",
     "credit": "Llez",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Vineyards_-_Oberbergen_01.jpg"
    },
    {
     "topic": "Freiburg Schlossberg view over city",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg/1280px-Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg/500px-Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg/1280px-Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg/500px-Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg",
     "credit": "Unknown",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Freiburg_Blick_vom_Schlo%C3%9Fberg.jpg"
@@ -29912,13 +29880,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Melk_8387.JPG"
    },
    {
-    "topic": "blue church tower Danube",
-    "wanted": "Durnstein Austria blue church tower Danube valley",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ulm_Panorama_02.jpg/1280px-Ulm_Panorama_02.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ulm_Panorama_02.jpg/500px-Ulm_Panorama_02.jpg",
-    "credit": "Uoaei1",
+    "topic": "Dürnstein Stift Abbey Wachau",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Stift_D%C3%BCrnstein%2C_20210728_1223_0745.jpg/1280px-Stift_D%C3%BCrnstein%2C_20210728_1223_0745.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Stift_D%C3%BCrnstein%2C_20210728_1223_0745.jpg/500px-Stift_D%C3%BCrnstein%2C_20210728_1223_0745.jpg",
+    "credit": "Jakub Hałun",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ulm_Panorama_02.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Stift_D%C3%BCrnstein,_20210728_1223_0745.jpg"
    },
    {
     "topic": "Wachau terraced vineyards Danube",
@@ -30054,26 +30021,25 @@
   ],
   "wurzburg-de": [
    {
-    "topic": "palace staircase Tiepolo",
-    "wanted": "Wurzburg Residenz palace staircase Tiepolo",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Over_hundre_%C3%A5r%2C_og_fikk_Pisani-Moretta.jpg/1280px-Over_hundre_%C3%A5r%2C_og_fikk_Pisani-Moretta.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Over_hundre_%C3%A5r%2C_og_fikk_Pisani-Moretta.jpg/500px-Over_hundre_%C3%A5r%2C_og_fikk_Pisani-Moretta.jpg",
-    "credit": "Anne merete",
+    "topic": "Wurzburg Residenz staircase Treppenhaus",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Treppenhaus_Residenz_W%C3%BCrzburg_Deckenfresco_01.JPG/1280px-Treppenhaus_Residenz_W%C3%BCrzburg_Deckenfresco_01.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Treppenhaus_Residenz_W%C3%BCrzburg_Deckenfresco_01.JPG/500px-Treppenhaus_Residenz_W%C3%BCrzburg_Deckenfresco_01.JPG",
+    "credit": "Giovanni Battista Tiepolo",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Over_hundre_%C3%A5r,_og_fikk_Pisani-Moretta.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Treppenhaus_Residenz_W%C3%BCrzburg_Deckenfresco_01.JPG"
    },
    {
     "topic": "Marienberg Fortress Wurzburg vineyards",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG/1280px-Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG/500px-Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG/1280px-Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG/500px-Vitejo%2C_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG",
     "credit": "Super nabla",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Vitejo,_Staatlicher_Hofkeller_W%C3%BCrzburg.JPG"
    },
    {
     "topic": "Wurzburg Alte Mainbrucke old bridge statues",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg/1280px-W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg/500px-W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg/1280px-W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg/500px-W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_%283%29.jpg",
     "credit": "Fred Romero from Paris, France",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:W%C3%BCrzburg_-_Alte_Mainbr%C3%BCcke_(3).jpg"
@@ -30088,8 +30054,8 @@
    },
    {
     "topic": "Wurzburg cathedral interior",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg/1280px-W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg/500px-W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg/1280px-W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg/500px-W%C3%BCrzburg%2C_St.-Kilians-Dom_--_2018_--_0250.jpg",
     "credit": "Dietmar Rabich",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:W%C3%BCrzburg,_St.-Kilians-Dom_--_2018_--_0250.jpg"
@@ -30321,13 +30287,12 @@
     "topic": "Anguilla beach shack restaurant"
    },
    {
-    "topic": "Meads Bay",
-    "wanted": "Meads Bay Anguilla",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Bristol_Temple_Meads_railway_station_MMB_50.jpg/1280px-Bristol_Temple_Meads_railway_station_MMB_50.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Bristol_Temple_Meads_railway_station_MMB_50.jpg/500px-Bristol_Temple_Meads_railway_station_MMB_50.jpg",
-    "credit": "mattbuck (category)",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Bristol_Temple_Meads_railway_station_MMB_50.jpg"
+    "topic": "Anguilla beach Caribbean",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Anguilla_Shoal_Bay_is_the_BEST_beach_in_the_Caribbean._-_panoramio.jpg/1280px-Anguilla_Shoal_Bay_is_the_BEST_beach_in_the_Caribbean._-_panoramio.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Anguilla_Shoal_Bay_is_the_BEST_beach_in_the_Caribbean._-_panoramio.jpg/500px-Anguilla_Shoal_Bay_is_the_BEST_beach_in_the_Caribbean._-_panoramio.jpg",
+    "credit": "onj",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anguilla_Shoal_Bay_is_the_BEST_beach_in_the_Caribbean._-_panoramio.jpg"
    },
    {
     "topic": "Sandy Island Anguilla",
@@ -30830,13 +30795,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:SandyIsland2018.jpg"
    },
    {
-    "topic": "Anse La Roche",
-    "wanted": "Anse La Roche beach Carriacou",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Roche_du_Pas_de_Cabri_%40_Anse_des_Cascades.jpg/1280px-Roche_du_Pas_de_Cabri_%40_Anse_des_Cascades.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Roche_du_Pas_de_Cabri_%40_Anse_des_Cascades.jpg/500px-Roche_du_Pas_de_Cabri_%40_Anse_des_Cascades.jpg",
-    "credit": "Rémih",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Roche_du_Pas_de_Cabri_@_Anse_des_Cascades.jpg"
+    "topic": "Carriacou beach Grenada",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Beach_at_Hillsborough_-_panoramio.jpg/1280px-Beach_at_Hillsborough_-_panoramio.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Beach_at_Hillsborough_-_panoramio.jpg/500px-Beach_at_Hillsborough_-_panoramio.jpg",
+    "credit": "FishSpeaker",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beach_at_Hillsborough_-_panoramio.jpg"
    },
    {
     "topic": "Carriacou wooden boatbuilding Windward"
@@ -30855,11 +30819,11 @@
    {
     "topic": "Hillsborough Carriacou",
     "wanted": "Hillsborough Carriacou waterfront",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Beach_at_Hillsborough_-_panoramio.jpg/1280px-Beach_at_Hillsborough_-_panoramio.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Beach_at_Hillsborough_-_panoramio.jpg/500px-Beach_at_Hillsborough_-_panoramio.jpg",
-    "credit": "FishSpeaker",
-    "license": "CC BY 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Beach_at_Hillsborough_-_panoramio.jpg"
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hillsborough_carriacou.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hillsborough_carriacou.jpg",
+    "credit": "Jackregan at English Wikipedia",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Hillsborough_carriacou.jpg"
    }
   ],
   "coron-busuanga-ph": [
@@ -31125,22 +31089,15 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pink_Sands_Beach,_Harbour_Island_(4236832563).jpg"
    },
    {
-    "topic": "Glass Window Bridge",
-    "wanted": "Glass Window Bridge Eleuthera",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Window_in_The_Bridge_Inn%2C_Port_Sunlight.jpg/1280px-Window_in_The_Bridge_Inn%2C_Port_Sunlight.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Window_in_The_Bridge_Inn%2C_Port_Sunlight.jpg/500px-Window_in_The_Bridge_Inn%2C_Port_Sunlight.jpg",
-    "credit": "Rodhullandemu",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Window_in_The_Bridge_Inn,_Port_Sunlight.jpg"
+    "topic": "Eleuthera Bahamas coast",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Eleuthera_Sunset_explored_%288198051514%29.jpg/1280px-Eleuthera_Sunset_explored_%288198051514%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Eleuthera_Sunset_explored_%288198051514%29.jpg/500px-Eleuthera_Sunset_explored_%288198051514%29.jpg",
+    "credit": "Trish Hartmann from Tampa, Florida, USA",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eleuthera_Sunset_explored_(8198051514).jpg"
    },
    {
-    "topic": "Queens Bath",
-    "wanted": "Queens Bath Eleuthera",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/QUEENS_BATH_PLACE_AT_HAMPI.jpg/1280px-QUEENS_BATH_PLACE_AT_HAMPI.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/QUEENS_BATH_PLACE_AT_HAMPI.jpg/500px-QUEENS_BATH_PLACE_AT_HAMPI.jpg",
-    "credit": "Parthdeepak",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:QUEENS_BATH_PLACE_AT_HAMPI.jpg"
+    "topic": "Eleuthera Bahamas rocks tide pool"
    },
    {
     "topic": "Dunmore Town Harbour Island",
@@ -32031,13 +31988,12 @@
     "topic": "Mancora point break surfing"
    },
    {
-    "topic": "northern Peru",
-    "wanted": "Humpback whale northern Peru",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_05.JPG/1280px-Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_05.JPG",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_05.JPG/500px-Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_05.JPG",
-    "credit": "Diego Delso",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n,_Cusco,_Per%C3%BA,_2015-07-31,_DD_05.JPG"
+    "topic": "Humpback Whale ocean tail fluke",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Humpback_Whale_Tail_%28Megaptera_novaeangliae%29_-_Flickr_-_Gregory_%22Slobirdr%22_Smith.jpg/1280px-Humpback_Whale_Tail_%28Megaptera_novaeangliae%29_-_Flickr_-_Gregory_%22Slobirdr%22_Smith.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Humpback_Whale_Tail_%28Megaptera_novaeangliae%29_-_Flickr_-_Gregory_%22Slobirdr%22_Smith.jpg/500px-Humpback_Whale_Tail_%28Megaptera_novaeangliae%29_-_Flickr_-_Gregory_%22Slobirdr%22_Smith.jpg",
+    "credit": "Gregory \"Slobirdr\" Smith",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Humpback_Whale_Tail_(Megaptera_novaeangliae)_-_Flickr_-_Gregory_%22Slobirdr%22_Smith.jpg"
    },
    {
     "topic": "Mancora sunset beach",
@@ -34133,13 +34089,12 @@
   ],
   "wild-coast-za": [
    {
-    "topic": "Hole in the Wall Wild",
-    "wanted": "Hole in the Wall Wild Coast",
-    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Hole-in-the-Wall%2C_Wyoming.jpg/1280px-Hole-in-the-Wall%2C_Wyoming.jpg",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Hole-in-the-Wall%2C_Wyoming.jpg/500px-Hole-in-the-Wall%2C_Wyoming.jpg",
-    "credit": "Sam Beebe",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hole-in-the-Wall,_Wyoming.jpg"
+    "topic": "Coffee Bay Hole in the Wall Eastern Cape",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Hole_In_The_Wall.jpg/1280px-Hole_In_The_Wall.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Hole_In_The_Wall.jpg/500px-Hole_In_The_Wall.jpg",
+    "credit": "Vincentvanoosten",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hole_In_The_Wall.jpg"
    },
    {
     "topic": "Coffee Bay Eastern Cape",
@@ -34174,7 +34129,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sardine_run_in_South_Africa_2022.jpg"
    },
    {
-    "topic": "Wild Coast cliffs ocean"
+    "topic": "Wild Coast cliffs ocean",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Armeria_welwitschii_kz04.jpg/1280px-Armeria_welwitschii_kz04.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Armeria_welwitschii_kz04.jpg/500px-Armeria_welwitschii_kz04.jpg",
+    "credit": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Armeria_welwitschii_kz04.jpg"
    }
   ],
   "yasawas-mamanucas-fj": [
