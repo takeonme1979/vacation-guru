@@ -379,3 +379,14 @@ source. CI checks that you did this.
   source. Reworded to a phrase that avoids that one file in the series.
   Four visual passes, 95 photos, 6 real finds (~6%) — still worth doing;
   not yet seeing the hit rate taper the way the text heuristics did.
+
+- **Tenth pass (2026-10-22): a fifth visual sample, 25 more hero photos.**
+  One real find: Huaraz's "Laguna 69 Peru turquoise" topic (the famous
+  glacial lake) resolved to a fox photographed on the trail up to it —
+  filename ended in "raposa" (Portuguese for fox), from the same
+  photographer's series as the lake shots but not the lake itself.
+  Reworded to a phrase that surfaces the actual lake photo. Five visual
+  passes, 120 photos, 7 real finds (~6%) — the hit rate across ~500 photos
+  sampled so far (text heuristics + visual) holds around this level;
+  continuing to sample the remaining ~580 destinations not yet reviewed
+  by any method is still the most productive next step if resuming.
