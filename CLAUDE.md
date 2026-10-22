@@ -351,3 +351,19 @@ source. CI checks that you did this.
   the earlier text-only passes had stopped matching by their final
   rounds. If continuing this work later, another visual sample is likely
   still worth more than a sixth text heuristic.
+
+- **Eighth pass (2026-10-22): a third visual sample, 25 more hero photos.**
+  One real find, a new failure mode: the Azores' "Sete Cidades crater
+  lake" topic resolved to a file literally titled "...– 360° panorama" —
+  a raw equirectangular panorama with a visibly curved horizon and the
+  photographer's tripod/camera gear in frame, not a normal photo. A free
+  catalogue-wide check for other 360°-panorama files (same pattern as the
+  satellite-credit sweep — check what's already in `photos.json` before
+  spending API calls) found exactly one other, Atacama's night-sky topic,
+  which was left alone: a night-sky panorama has no horizon to look
+  warped, so unlike the Azores case it isn't visually a problem. The rest
+  of the 25-photo sample checked out clean, including a correct-but-dull
+  one (Glasgow's Kelvingrove topic shows the right museum, just obscured
+  behind a sportsground fence — not a mismatch, just not a great photo).
+  Three visual passes, 70 photos, 5 real finds — the hit rate is holding
+  up; still the better move than another text heuristic if resuming.
