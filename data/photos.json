@@ -15381,17 +15381,17 @@
   ],
   "denver-us": [
    {
-    "topic": "Red Rocks amphitheatre Colorado",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Red_Rocks_Amphitheatre%2C_Colorado_18.jpg/1280px-Red_Rocks_Amphitheatre%2C_Colorado_18.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Red_Rocks_Amphitheatre%2C_Colorado_18.jpg/500px-Red_Rocks_Amphitheatre%2C_Colorado_18.jpg",
+    "topic": "Red Rocks Park Morrison Colorado amphitheater",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Red_Rocks_Amphitheatre%2C_Colorado_1.jpg/1280px-Red_Rocks_Amphitheatre%2C_Colorado_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Red_Rocks_Amphitheatre%2C_Colorado_1.jpg/500px-Red_Rocks_Amphitheatre%2C_Colorado_1.jpg",
     "credit": "Sarbjit Bahga",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre,_Colorado_18.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Rocks_Amphitheatre,_Colorado_1.jpg"
    },
    {
     "topic": "Denver skyline Rocky Mountains",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg/1280px-Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg/500px-Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg/1280px-Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg/500px-Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_%2853658444917%29.jpg",
     "credit": "Tony Webster",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Denver_Colorado_Skyline_at_Rocky_Mountain_Arsenal_(53658444917).jpg"
@@ -15399,8 +15399,8 @@
    {
     "topic": "Colorado fourteener hiking",
     "wanted": "Colorado fourteener hiking summit",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg/1280px-GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg/500px-GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg/1280px-GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg/500px-GYGO%21_Colorado_Fourteener_Style_%288406531886%29.jpg",
     "credit": "USFWS Mountain Prairie",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:GYGO!_Colorado_Fourteener_Style_(8406531886).jpg"
@@ -15408,28 +15408,27 @@
    {
     "topic": "Denver brewery",
     "wanted": "Denver brewery taproom",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tivoli_Brewery_Company_2.jpg/1280px-Tivoli_Brewery_Company_2.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tivoli_Brewery_Company_2.jpg/500px-Tivoli_Brewery_Company_2.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Tivoli_Brewery_Company_2.jpg/1280px-Tivoli_Brewery_Company_2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Tivoli_Brewery_Company_2.jpg/500px-Tivoli_Brewery_Company_2.jpg",
     "credit": "Int77345",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tivoli_Brewery_Company_2.jpg"
    },
    {
     "topic": "Rocky Mountain National Park elk",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg/1280px-Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg/500px-Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg/1280px-Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg/500px-Elk_in_Rocky_Mountain_National_Park_%2830905165204%29.jpg",
     "credit": "NPS Natural Resources",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:Elk_in_Rocky_Mountain_National_Park_(30905165204).jpg"
    },
    {
-    "topic": "Maroon Bells Colorado",
-    "wanted": "Maroon Bells Colorado autumn",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Maroon_Bells_%2811553%29a.jpg/1280px-Maroon_Bells_%2811553%29a.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Maroon_Bells_%2811553%29a.jpg/500px-Maroon_Bells_%2811553%29a.jpg",
-    "credit": "Rhododendrites",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Maroon_Bells_(11553)a.jpg"
+    "topic": "Maroon Bells Colorado autumn",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Autumn_at_Silver_Queen_Campground%2C_Maroon_Bells%2C_Colorado_%2845113273842%29.jpg/1280px-Autumn_at_Silver_Queen_Campground%2C_Maroon_Bells%2C_Colorado_%2845113273842%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Autumn_at_Silver_Queen_Campground%2C_Maroon_Bells%2C_Colorado_%2845113273842%29.jpg/500px-Autumn_at_Silver_Queen_Campground%2C_Maroon_Bells%2C_Colorado_%2845113273842%29.jpg",
+    "credit": "Tony Webster from Minneapolis, Minnesota, United States",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Autumn_at_Silver_Queen_Campground,_Maroon_Bells,_Colorado_(45113273842).jpg"
    }
   ],
   "dominica-dm": [

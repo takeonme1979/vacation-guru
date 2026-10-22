@@ -367,3 +367,15 @@ source. CI checks that you did this.
   behind a sportsground fence — not a mismatch, just not a great photo).
   Three visual passes, 70 photos, 5 real finds — the hit rate is holding
   up; still the better move than another text heuristic if resuming.
+
+- **Ninth pass (2026-10-22): a fourth visual sample, 25 more hero photos.**
+  One real find, the clearest case yet of a mislabeled Commons upload:
+  Denver's "Red Rocks amphitheatre Colorado" topic resolved to
+  `Red_Rocks_Amphitheatre,_Colorado_18.jpg` — a file in that exact
+  numbered series (`..._1.jpg`, `..._3.jpg`, `..._16.jpg` are all genuine
+  amphitheatre photos) that actually shows an unrelated decorative floor
+  plaque with an engraved architecture quote. Nothing about the title or
+  categories would catch this — the file is simply mislabeled at the
+  source. Reworded to a phrase that avoids that one file in the series.
+  Four visual passes, 95 photos, 6 real finds (~6%) — still worth doing;
+  not yet seeing the hit rate taper the way the text heuristics did.
