@@ -93,7 +93,7 @@ const REJECT_IF_PHOTO_ONLY = /\b(engraving|drawing|sketch|painting of|portrait o
  * of farmland from orbit, and Rangiroa to a MODIS tile. Nobody picks a holiday
  * from 400km up.
  */
-const REJECT_ORBITAL = /\b(copernicus|modis|landsat|sentinel-?\d|planet labs|maxar|digitalglobe|european space agency|envisat|earth observatory|earth from space|from space|seen from orbit|satellite (image|view)|astronaut photograph)\b|\biss[\s_-]?\d{3}|\bsts-?\d{2,3}\b|\besa\d{4}|\b(nasa|iss)\b/i;
+const REJECT_ORBITAL = /\b(copernicus|modis|landsat|sentinel-?\d|planet labs|maxar|digitalglobe|european space agency|envisat|earth observatory|earth from space|from space|seen from orbit|satellite (image|view)|astronaut photograph|jesse allen|robert simmon|lauren dauphin|joshua stevens)\b|\biss[\s_-]?\d{3}|\bsts-?\d{2,3}\b|\besa\d{4}|\b(nasa|iss)\b/i;
 
 /**
  * Archive collections of genuinely old photographs. A 1959 Fortepan shot of

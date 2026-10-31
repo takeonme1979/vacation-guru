@@ -70,51 +70,62 @@
     "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Mediterranean_biome,_Eden_Project.jpg"
    },
    {
-    "topic": "Utopian city garden",
-    "wanted": "Utopian city garden future",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Utopian_artisans%27_dwellings_Pernik%2C_Bulgaria%2C_Jan_1995_%285132535365%29.jpg/1280px-Utopian_artisans%27_dwellings_Pernik%2C_Bulgaria%2C_Jan_1995_%285132535365%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Utopian_artisans%27_dwellings_Pernik%2C_Bulgaria%2C_Jan_1995_%285132535365%29.jpg/500px-Utopian_artisans%27_dwellings_Pernik%2C_Bulgaria%2C_Jan_1995_%285132535365%29.jpg",
-    "credit": "Sludge G",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Utopian_artisans%27_dwellings_Pernik,_Bulgaria,_Jan_1995_(5132535365).jpg"
+    "topic": "Ring habitat seen from spacecraft window",
+    "full": "assets/img/full/fiction/culture-orbital-2.jpg",
+    "thumb": "assets/img/thumbs/fiction/culture-orbital-2.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Curved horizon habitat interior"
+    "topic": "Starfield Milky Way over parkland at night",
+    "full": "assets/img/full/fiction/culture-orbital-3.jpg",
+    "thumb": "assets/img/thumbs/fiction/culture-orbital-3.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Futuristic terraced garden city"
+    "topic": "Fresh produce market stall abundant",
+    "full": "assets/img/full/fiction/culture-orbital-4.jpg",
+    "thumb": "assets/img/thumbs/fiction/culture-orbital-4.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Space habitat interior",
-    "wanted": "Space habitat interior landscape",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Letters_about_UFO_%28folder_3%29%2C_page_1_%28Original_caption-_Space_Habitat_Interior%29_%2833421621191%29.jpg/1280px-Letters_about_UFO_%28folder_3%29%2C_page_1_%28Original_caption-_Space_Habitat_Interior%29_%2833421621191%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Letters_about_UFO_%28folder_3%29%2C_page_1_%28Original_caption-_Space_Habitat_Interior%29_%2833421621191%29.jpg/500px-Letters_about_UFO_%28folder_3%29%2C_page_1_%28Original_caption-_Space_Habitat_Interior%29_%2833421621191%29.jpg",
-    "credit": "The U.S. National Archives",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Letters_about_UFO_(folder_3),_page_1_(Original_caption-_Space_Habitat_Interior)_(33421621191).jpg"
+    "topic": "Picnic group relaxing parkland meal",
+    "full": "assets/img/full/fiction/culture-orbital-5.jpg",
+    "thumb": "assets/img/thumbs/fiction/culture-orbital-5.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    }
   ],
   "nautilus": [
    {
-    "topic": "Nautilus Verne",
-    "wanted": "Nautilus Verne engraving submarine",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Elbauenpark-Nautilus.jpg/1280px-Elbauenpark-Nautilus.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Elbauenpark-Nautilus.jpg/500px-Elbauenpark-Nautilus.jpg",
-    "credit": "Fmvh",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Elbauenpark-Nautilus.jpg"
+    "topic": "Submarine vessel surfaced at dusk engraving",
+    "full": "assets/img/full/fiction/nautilus-0.jpg",
+    "thumb": "assets/img/thumbs/fiction/nautilus-0.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Twenty Thousand Leagues",
-    "wanted": "Twenty Thousand Leagues illustration",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Twenty_Thousand_Leagues_Under_the_Seas_library_catalog.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/Twenty_Thousand_Leagues_Under_the_Seas_library_catalog.jpg",
-    "credit": "Saifunny",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Twenty_Thousand_Leagues_Under_the_Seas_library_catalog.jpg"
+    "topic": "Submarine grand salon pipe organ engraving",
+    "full": "assets/img/full/fiction/nautilus-1.jpg",
+    "thumb": "assets/img/thumbs/fiction/nautilus-1.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Jules Verne submarine salon engraving"
+    "topic": "Captain at ocean viewing window engraving",
+    "full": "assets/img/full/fiction/nautilus-2.jpg",
+    "thumb": "assets/img/thumbs/fiction/nautilus-2.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
     "topic": "Giant squid attack engraving",
@@ -125,15 +136,20 @@
     "source": "https://commons.wikimedia.org/wiki/File:Giant_squid_attacking_boat.jpg"
    },
    {
-    "topic": "Victorian brass diving helmet"
+    "topic": "Brass diving helmet diver shipwreck engraving",
+    "full": "assets/img/full/fiction/nautilus-4.jpg",
+    "thumb": "assets/img/thumbs/fiction/nautilus-4.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Deep sea coral reef dark",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Deep_blue_Red_Sea_reefs.jpg/1280px-Deep_blue_Red_Sea_reefs.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Deep_blue_Red_Sea_reefs.jpg/500px-Deep_blue_Red_Sea_reefs.jpg",
-    "credit": "European Space Agency",
-    "license": "Attribution",
-    "source": "https://commons.wikimedia.org/wiki/File:Deep_blue_Red_Sea_reefs.jpg"
+    "topic": "Submarine gliding underwater forest engraving",
+    "full": "assets/img/full/fiction/nautilus-5.jpg",
+    "thumb": "assets/img/thumbs/fiction/nautilus-5.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    }
   ],
   "ahch-to": [
@@ -146,85 +162,94 @@
     "source": "https://commons.wikimedia.org/wiki/File:Skellig_Michael,_Ireland_-_2025_44.jpg"
    },
    {
-    "topic": "Skellig Michael steps beehive huts"
+    "topic": "Steep stone steps climbing to beehive huts",
+    "full": "assets/img/full/fiction/ahch-to-1.jpg",
+    "thumb": "assets/img/thumbs/fiction/ahch-to-1.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Puffins Skellig Ireland",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Skellig_Puffin.jpg/1280px-Skellig_Puffin.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Skellig_Puffin.jpg/500px-Skellig_Puffin.jpg",
-    "credit": "NoNameIsLeft",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Skellig_Puffin.jpg"
+    "topic": "Seabirds nesting on grassy cliff edge",
+    "full": "assets/img/full/fiction/ahch-to-2.jpg",
+    "thumb": "assets/img/thumbs/fiction/ahch-to-2.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Remote island Atlantic cliffs",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ISS022-E-78904_-_View_of_the_Atlantic_Ocean.jpg/1280px-ISS022-E-78904_-_View_of_the_Atlantic_Ocean.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ISS022-E-78904_-_View_of_the_Atlantic_Ocean.jpg/500px-ISS022-E-78904_-_View_of_the_Atlantic_Ocean.jpg",
-    "credit": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:ISS022-E-78904_-_View_of_the_Atlantic_Ocean.jpg"
+    "topic": "Remote island seen from boat at sea",
+    "full": "assets/img/full/fiction/ahch-to-3.jpg",
+    "thumb": "assets/img/thumbs/fiction/ahch-to-3.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Stone beehive hut Ireland",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Dingle_beehive_hut.JPG/1280px-Dingle_beehive_hut.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Dingle_beehive_hut.JPG/500px-Dingle_beehive_hut.JPG",
-    "credit": "Dirk Huth",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Dingle_beehive_hut.JPG"
+    "topic": "Dry stone beehive hut construction detail",
+    "full": "assets/img/full/fiction/ahch-to-4.jpg",
+    "thumb": "assets/img/thumbs/fiction/ahch-to-4.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Rough sea rocky island",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rocky_island_in_the_sea_%28Unsplash%29.jpg/1280px-Rocky_island_in_the_sea_%28Unsplash%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rocky_island_in_the_sea_%28Unsplash%29.jpg/500px-Rocky_island_in_the_sea_%28Unsplash%29.jpg",
-    "credit": "Charlie Hang envisual",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Rocky_island_in_the_sea_(Unsplash).jpg"
+    "topic": "Waves crashing on rocky island base",
+    "full": "assets/img/full/fiction/ahch-to-5.jpg",
+    "thumb": "assets/img/thumbs/fiction/ahch-to-5.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    }
   ],
   "airstrip-one": [
    {
-    "topic": "Bombed London terraced street",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Houses_in_Broadwick_Street%2C_Soho_-_geograph.org.uk_-_1073866.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Houses_in_Broadwick_Street%2C_Soho_-_geograph.org.uk_-_1073866.jpg",
-    "credit": "ceridwen",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Houses_in_Broadwick_Street,_Soho_-_geograph.org.uk_-_1073866.jpg"
+    "topic": "Bombed terraced street rubble bomb site",
+    "full": "assets/img/full/fiction/airstrip-one-0.jpg",
+    "thumb": "assets/img/thumbs/fiction/airstrip-one-0.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Brutalist ministry building",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Exercise_Brutalist_Corvid_in_Bosnia_%287566887%29.jpg/1280px-Exercise_Brutalist_Corvid_in_Bosnia_%287566887%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Exercise_Brutalist_Corvid_in_Bosnia_%287566887%29.jpg/500px-Exercise_Brutalist_Corvid_in_Bosnia_%287566887%29.jpg",
-    "credit": "U.S. Army photo by Spc. Mercedes Johnson",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Exercise_Brutalist_Corvid_in_Bosnia_(7566887).jpg"
+    "topic": "Windowless ministry building carved eye motif",
+    "full": "assets/img/full/fiction/airstrip-one-1.jpg",
+    "thumb": "assets/img/thumbs/fiction/airstrip-one-1.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Post war austerity queue"
+    "topic": "Ration queue outside papered shopfront",
+    "full": "assets/img/full/fiction/airstrip-one-2.jpg",
+    "thumb": "assets/img/thumbs/fiction/airstrip-one-2.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Grey concrete tower block",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/East_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario_%2829440272533%29.jpg/1280px-East_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario_%2829440272533%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/East_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario_%2829440272533%29.jpg/500px-East_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario_%2829440272533%29.jpg",
-    "credit": "Ken Lund from Reno, Nevada, USA",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:East_Block,_Parliament_Hill,_Ottawa,_Ontario_(29440272533).jpg"
+    "topic": "Grey concrete tower block washing lines",
+    "full": "assets/img/full/fiction/airstrip-one-3.jpg",
+    "thumb": "assets/img/thumbs/fiction/airstrip-one-3.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Foggy London street lamps",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Have_you_seen_the_old_girl%2C_who_walks_the_streets_of_London%3F_%287943291112%29.jpg/1280px-Have_you_seen_the_old_girl%2C_who_walks_the_streets_of_London%3F_%287943291112%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Have_you_seen_the_old_girl%2C_who_walks_the_streets_of_London%3F_%287943291112%29.jpg/500px-Have_you_seen_the_old_girl%2C_who_walks_the_streets_of_London%3F_%287943291112%29.jpg",
-    "credit": "Lies Thru a Lens ",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Have_you_seen_the_old_girl,_who_walks_the_streets_of_London%3F_(7943291112).jpg"
+    "topic": "Foggy London street dim lamps night",
+    "full": "assets/img/full/fiction/airstrip-one-4.jpg",
+    "thumb": "assets/img/thumbs/fiction/airstrip-one-4.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Propaganda poster wall",
-    "wanted": "Propaganda poster wall peeling",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Museum_of_World_War_II_Boston_Natick_Massachusetts_2015._German_Nazi_propaganda_poster_%22Das_sind_sie%2C_die_Kinderm%C3%B6rder%21%22_Churchill.jpg/1280px-Museum_of_World_War_II_Boston_Natick_Massachusetts_2015._German_Nazi_propaganda_poster_%22Das_sind_sie%2C_die_Kinderm%C3%B6rder%21%22_Churchill.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Museum_of_World_War_II_Boston_Natick_Massachusetts_2015._German_Nazi_propaganda_poster_%22Das_sind_sie%2C_die_Kinderm%C3%B6rder%21%22_Churchill.jpg/500px-Museum_of_World_War_II_Boston_Natick_Massachusetts_2015._German_Nazi_propaganda_poster_%22Das_sind_sie%2C_die_Kinderm%C3%B6rder%21%22_Churchill.jpg",
-    "credit": "Lee Wright",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Museum_of_World_War_II_Boston_Natick_Massachusetts_2015._German_Nazi_propaganda_poster_%22Das_sind_sie,_die_Kinderm%C3%B6rder!%22_Churchill.jpg"
+    "topic": "Peeling poster eye motif on brick wall",
+    "full": "assets/img/full/fiction/airstrip-one-5.jpg",
+    "thumb": "assets/img/thumbs/fiction/airstrip-one-5.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    }
   ],
   "ankh-morpork": [
@@ -6883,12 +6908,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:The_camel_strides_across_the_golden_desert,_making_its_way_to_the_Great_Pyramid.jpg"
    },
    {
-    "topic": "Egyptian temple hieroglyphs",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Thebes%2C_Medinet_Habu%2C_Egypt%2C_Temple_of_Ramesses_III%2C_Egyptian_hieroglyphs%2C_Ancient_Egypt.jpg/1280px-Thebes%2C_Medinet_Habu%2C_Egypt%2C_Temple_of_Ramesses_III%2C_Egyptian_hieroglyphs%2C_Ancient_Egypt.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Thebes%2C_Medinet_Habu%2C_Egypt%2C_Temple_of_Ramesses_III%2C_Egyptian_hieroglyphs%2C_Ancient_Egypt.jpg/500px-Thebes%2C_Medinet_Habu%2C_Egypt%2C_Temple_of_Ramesses_III%2C_Egyptian_hieroglyphs%2C_Ancient_Egypt.jpg",
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Thebes,_Medinet_Habu,_Egypt,_Temple_of_Ramesses_III,_Egyptian_hieroglyphs,_Ancient_Egypt.jpg"
+    "topic": "Temple interior columns hieroglyphs shafts of light",
+    "full": "assets/img/full/fiction/abydos-1.jpg",
+    "thumb": "assets/img/thumbs/fiction/abydos-1.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
     "topic": "Sandstone mine tunnel",
@@ -6907,21 +6932,20 @@
     "source": "https://commons.wikimedia.org/wiki/File:Caravan_in_the_desert.jpg"
    },
    {
-    "topic": "Ancient stone ring monument",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ancient_artwork_detailed_exquisite_stone_carving_chaukhandi_sindh.jpg/1280px-Ancient_artwork_detailed_exquisite_stone_carving_chaukhandi_sindh.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ancient_artwork_detailed_exquisite_stone_carving_chaukhandi_sindh.jpg/500px-Ancient_artwork_detailed_exquisite_stone_carving_chaukhandi_sindh.jpg",
-    "credit": "Yasir Dora",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ancient_artwork_detailed_exquisite_stone_carving_chaukhandi_sindh.jpg"
+    "topic": "Stone ring monument desert symbols",
+    "full": "assets/img/full/fiction/abydos-4.jpg",
+    "thumb": "assets/img/thumbs/fiction/abydos-4.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Desert village",
-    "wanted": "Desert village mudbrick",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Siwa_Oasis%2C_Village_houses%2C_Sahara_Desert%2C_Egypt.jpg/1280px-Siwa_Oasis%2C_Village_houses%2C_Sahara_Desert%2C_Egypt.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Siwa_Oasis%2C_Village_houses%2C_Sahara_Desert%2C_Egypt.jpg/500px-Siwa_Oasis%2C_Village_houses%2C_Sahara_Desert%2C_Egypt.jpg",
-    "credit": "Vyacheslav Argenberg",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_Village_houses,_Sahara_Desert,_Egypt.jpg"
+    "topic": "Mudbrick village street golden hour",
+    "full": "assets/img/full/fiction/abydos-5.jpg",
+    "thumb": "assets/img/thumbs/fiction/abydos-5.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    }
   ],
   "andoria": [
@@ -12946,36 +12970,36 @@
   ],
   "wraith-hive": [
    {
-    "topic": "Cave wall smooth rock",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Breakdown_%28Standing_Rocks%2C_Main_Cave%2C_Mammoth_Cave%2C_Kentucky%2C_USA%29_6_%2826344556049%29.jpg/1280px-Breakdown_%28Standing_Rocks%2C_Main_Cave%2C_Mammoth_Cave%2C_Kentucky%2C_USA%29_6_%2826344556049%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Breakdown_%28Standing_Rocks%2C_Main_Cave%2C_Mammoth_Cave%2C_Kentucky%2C_USA%29_6_%2826344556049%29.jpg/500px-Breakdown_%28Standing_Rocks%2C_Main_Cave%2C_Mammoth_Cave%2C_Kentucky%2C_USA%29_6_%2826344556049%29.jpg",
-    "credit": "James St. John",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Breakdown_(Standing_Rocks,_Main_Cave,_Mammoth_Cave,_Kentucky,_USA)_6_(26344556049).jpg"
+    "topic": "Organic starship hull chitin texture",
+    "full": "assets/img/full/fiction/wraith-hive-0.jpg",
+    "thumb": "assets/img/thumbs/fiction/wraith-hive-0.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Termite mound Australia",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Litchfield_National_Park_%28AU%29%2C_Magnetic_Termite_Mounds_--_2019_--_3728.jpg/1280px-Litchfield_National_Park_%28AU%29%2C_Magnetic_Termite_Mounds_--_2019_--_3728.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Litchfield_National_Park_%28AU%29%2C_Magnetic_Termite_Mounds_--_2019_--_3728.jpg/500px-Litchfield_National_Park_%28AU%29%2C_Magnetic_Termite_Mounds_--_2019_--_3728.jpg",
-    "credit": "Dietmar Rabich",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Litchfield_National_Park_(AU),_Magnetic_Termite_Mounds_--_2019_--_3728.jpg"
+    "topic": "Organic starship silhouette in space",
+    "full": "assets/img/full/fiction/wraith-hive-1.jpg",
+    "thumb": "assets/img/thumbs/fiction/wraith-hive-1.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Coral polyps close up",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Coral_%28Goniopora_lobata%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-13%2C_DD_64.jpg/1280px-Coral_%28Goniopora_lobata%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-13%2C_DD_64.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Coral_%28Goniopora_lobata%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-13%2C_DD_64.jpg/500px-Coral_%28Goniopora_lobata%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-13%2C_DD_64.jpg",
-    "credit": "Diego Delso",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Coral_(Goniopora_lobata),_islas_Ad_Dimaniyat,_Om%C3%A1n,_2024-08-13,_DD_64.jpg"
+    "topic": "Grand ribbed hall interior bioluminescent",
+    "full": "assets/img/full/fiction/wraith-hive-2.jpg",
+    "thumb": "assets/img/thumbs/fiction/wraith-hive-2.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Cocoon chrysalis macro",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cydalima_perspectalis_chrysalis_amidst_silk_strands_of_attached_cocoon_and_its_discarded_larval_head.jpg/1280px-Cydalima_perspectalis_chrysalis_amidst_silk_strands_of_attached_cocoon_and_its_discarded_larval_head.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cydalima_perspectalis_chrysalis_amidst_silk_strands_of_attached_cocoon_and_its_discarded_larval_head.jpg/500px-Cydalima_perspectalis_chrysalis_amidst_silk_strands_of_attached_cocoon_and_its_discarded_larval_head.jpg",
-    "credit": "Franz van Duns",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cydalima_perspectalis_chrysalis_amidst_silk_strands_of_attached_cocoon_and_its_discarded_larval_head.jpg"
+    "topic": "Cocoon-lined corridor glowing amber",
+    "full": "assets/img/full/fiction/wraith-hive-3.jpg",
+    "thumb": "assets/img/thumbs/fiction/wraith-hive-3.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
     "topic": "Dim red lit corridor",
@@ -12986,57 +13010,54 @@
     "source": "https://commons.wikimedia.org/wiki/File:DFC_3491_Dimly_lit_hotel_corridor_with_a_deep_red_carpet_stretching_into_the_distance_flanked_by_warm-toned_walls_and_evenly_spaced_doorways.jpg"
    },
    {
-    "topic": "Coral structure underwater",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Porites_astreoides_%28mustard_hill_coral%29_%28San_Salvador_Island%2C_Bahamas%29_3_%2815477982603%29.jpg/1280px-Porites_astreoides_%28mustard_hill_coral%29_%28San_Salvador_Island%2C_Bahamas%29_3_%2815477982603%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Porites_astreoides_%28mustard_hill_coral%29_%28San_Salvador_Island%2C_Bahamas%29_3_%2815477982603%29.jpg/500px-Porites_astreoides_%28mustard_hill_coral%29_%28San_Salvador_Island%2C_Bahamas%29_3_%2815477982603%29.jpg",
-    "credit": "James St. John",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Porites_astreoides_(mustard_hill_coral)_(San_Salvador_Island,_Bahamas)_3_(15477982603).jpg"
+    "topic": "Bioluminescent vein wall macro texture",
+    "full": "assets/img/full/fiction/wraith-hive-5.jpg",
+    "thumb": "assets/img/thumbs/fiction/wraith-hive-5.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    }
   ],
   "aerilon": [
    {
-    "topic": "Ploughed fields grey",
-    "wanted": "Ploughed fields grey sky",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ploughed_Hillside%2C_Upton_Grey_-_geograph.org.uk_-_2901341.jpg/1280px-Ploughed_Hillside%2C_Upton_Grey_-_geograph.org.uk_-_2901341.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ploughed_Hillside%2C_Upton_Grey_-_geograph.org.uk_-_2901341.jpg/500px-Ploughed_Hillside%2C_Upton_Grey_-_geograph.org.uk_-_2901341.jpg",
-    "credit": "Colin Smith",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ploughed_Hillside,_Upton_Grey_-_geograph.org.uk_-_2901341.jpg"
+    "topic": "Ploughed hillside fields grey sky puddles",
+    "full": "assets/img/full/fiction/aerilon-0.jpg",
+    "thumb": "assets/img/thumbs/fiction/aerilon-0.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Farm machinery harvest field",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Farm_machinery_in_harvested_field_-_geograph.org.uk_-_7857306.jpg/1280px-Farm_machinery_in_harvested_field_-_geograph.org.uk_-_7857306.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Farm_machinery_in_harvested_field_-_geograph.org.uk_-_7857306.jpg/500px-Farm_machinery_in_harvested_field_-_geograph.org.uk_-_7857306.jpg",
-    "credit": "John H Darch",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Farm_machinery_in_harvested_field_-_geograph.org.uk_-_7857306.jpg"
+    "topic": "Weathered harvester machine wheat field",
+    "full": "assets/img/full/fiction/aerilon-1.jpg",
+    "thumb": "assets/img/thumbs/fiction/aerilon-1.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Rural barn cold",
-    "wanted": "Rural barn cold morning",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cold_Comfort_Barn_off_Back_Racecourse_Lane_-_geograph.org.uk_-_7037950.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cold_Comfort_Barn_off_Back_Racecourse_Lane_-_geograph.org.uk_-_7037950.jpg",
-    "credit": "Eric Marsh",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cold_Comfort_Barn_off_Back_Racecourse_Lane_-_geograph.org.uk_-_7037950.jpg"
+    "topic": "Timber barn frost covered field",
+    "full": "assets/img/full/fiction/aerilon-2.jpg",
+    "thumb": "assets/img/thumbs/fiction/aerilon-2.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Wheat field overcast",
-    "wanted": "Wheat field overcast day",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wheatfield_west_of_Moor_Farm%2C_Heyshott_01.jpg/1280px-Wheatfield_west_of_Moor_Farm%2C_Heyshott_01.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wheatfield_west_of_Moor_Farm%2C_Heyshott_01.jpg/500px-Wheatfield_west_of_Moor_Farm%2C_Heyshott_01.jpg",
-    "credit": "Simon Burchell",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Wheatfield_west_of_Moor_Farm,_Heyshott_01.jpg"
+    "topic": "Wheat field path overcast sky",
+    "full": "assets/img/full/fiction/aerilon-3.jpg",
+    "thumb": "assets/img/thumbs/fiction/aerilon-3.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
-    "topic": "Farm workers in field",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Farm_Workers_in_Field_-_DPLA_-_692cc9d0def0ce33b40b17c900091f0e.jpg/1280px-Farm_Workers_in_Field_-_DPLA_-_692cc9d0def0ce33b40b17c900091f0e.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Farm_Workers_in_Field_-_DPLA_-_692cc9d0def0ce33b40b17c900091f0e.jpg/500px-Farm_Workers_in_Field_-_DPLA_-_692cc9d0def0ce33b40b17c900091f0e.jpg",
-    "credit": "Department of the Interior. Bureau of Indian Affairs. Wind River Agency. 9/17/1947",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Farm_Workers_in_Field_-_DPLA_-_692cc9d0def0ce33b40b17c900091f0e.jpg"
+    "topic": "Farm workers harvesting by hand field",
+    "full": "assets/img/full/fiction/aerilon-4.jpg",
+    "thumb": "assets/img/thumbs/fiction/aerilon-4.jpg",
+    "credit": "AI-generated for Vacation Guru",
+    "license": "AI-generated, no copyright claimed",
+    "source": ""
    },
    {
     "topic": "Village under grey clouds",

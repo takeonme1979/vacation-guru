@@ -136,7 +136,7 @@
         "shopping": 22, "libraries": 32, "combat": 25, "intrigue": 32,
         "gettingThere": 55, "gettingBack": 45
       },
-      "photos": ["Ploughed fields grey sky", "Farm machinery harvest field", "Rural barn cold morning", "Wheat field overcast day", "Farm workers in field", "Village under grey clouds"]
+      "photos": ["Ploughed hillside fields grey sky puddles", "Weathered harvester machine wheat field", "Timber barn frost covered field", "Wheat field path overcast sky", "Farm workers harvesting by hand field", "Village under grey clouds"]
     },
     {
       "id": "sagittaron", "name": "Sagittaron", "country": "BSG", "region": "The Twelve Colonies", "continent": "Science Fiction",

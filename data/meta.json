@@ -1,14 +1,14 @@
 {
-  "builtId": "d2ed0f615b3f",
+  "builtId": "46996f5fa6ff",
   "schemaVersion": 1,
-  "destinations": 704,
+  "destinations": 705,
   "countries": 163,
   "ratedCriteria": 81,
   "totalCriteria": 90,
-  "dataPoints": 57024,
-  "photoTopics": 4224,
+  "dataPoints": 57105,
+  "photoTopics": 4230,
   "byContinent": {
-    "Europe": 269,
+    "Europe": 270,
     "Oceania": 56,
     "Africa": 73,
     "Asia": 132,
@@ -17,7 +17,7 @@
     "Caribbean": 37
   },
   "byType": {
-    "city": 254,
+    "city": 255,
     "coast": 90,
     "island": 140,
     "region": 93,

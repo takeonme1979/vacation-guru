@@ -579,7 +579,7 @@
         "wandering": 12, "ruins": 45, "climbing": 5, "sailing": 5,
         "seaMonsters": 0, "desert": 0, "plains": 5, "islands": 5, "volcanic": 0
       },
-      "photos": ["Bombed London terraced street", "Brutalist ministry building", "Post war austerity queue", "Grey concrete tower block", "Foggy London street lamps", "Propaganda poster wall peeling"]
+      "photos": ["Bombed terraced street rubble bomb site", "Windowless ministry building carved eye motif", "Ration queue outside papered shopfront", "Grey concrete tower block washing lines", "Foggy London street dim lamps night", "Peeling poster eye motif on brick wall"]
     },
     {
       "id": "lands-between", "name": "The Lands Between", "country": "ELDN", "region": "Beneath the Erdtree", "continent": "High Fantasy",

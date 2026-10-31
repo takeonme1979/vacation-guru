@@ -31,10 +31,18 @@ source. CI checks that you did this.
 
 ## Working state
 
-- No task list is tracked in this file yet — check `git log` for recent
-  work (currently active area: expanding the fiction/sci-fi destination
-  catalogue, per the last few commits). Fill in current focus here as work
-  happens rather than relying on conversation history to carry it.
+- Two parallel threads of photo-quality work are active:
+  1. Fiction catalogue — replacing weak/redundant/mismatched photos with
+     bespoke AI-generated images (see "Wiring AI-generated photos into the
+     fiction catalogue" below). 7 destinations done; more will follow as
+     the user flags further ones via `D:\AI\ComfyUI\vg\fiction-browser.html`.
+  2. Real-world catalogue — **full first-pass visual coverage complete**
+     (see "Real-world photo mismatch pass" below): all 692 destinations
+     with a resolved hero photo have been looked at once, across 37
+     passes, 30 real mismatches found and fixed. `tools/photo-review-log.json`
+     has the full record. Resuming now means a second pass over the same
+     destinations (likely much lower yield) — worth confirming with the
+     user before restarting rather than assuming it's wanted.
 
 ## Old Towns (added 2026-09-27)
 
@@ -54,6 +62,11 @@ source. CI checks that you did this.
 - Pristina is rated 72 on purpose (small Ottoman quarter, not a showpiece
   old town) so it ranks mid-table on the preset; bump it in the shard if the
   user wants it higher.
+- **Ciudad Real & Almagro** (`ciudad-real-es`, added 2026-10-31) appended
+  to the same shard: La Mancha, theatre 90 (Corral de Comedias / Almagro
+  classical theatre festival, hence the July crowd/price bump), wine 86
+  (Valdepeñas), transfer 1.5h (Madrid airport + AVE). Photos visually checked.
+  Note `peacefulness` is computed at runtime — the build rejects it in `r`.
 - **Live site: https://vacation-guru.netlify.app** (deploys on push to `main`;
   check `data/meta.json`'s `builtId` against the local one to confirm).
 - **Deployed 2026-09-27** (commit 3301845, CI green) — this push also
@@ -390,3 +403,479 @@ source. CI checks that you did this.
   sampled so far (text heuristics + visual) holds around this level;
   continuing to sample the remaining ~580 destinations not yet reviewed
   by any method is still the most productive next step if resuming.
+
+- **Permanent review log, `tools/photo-review-log.json` (added 2026-10-23).**
+  Passes 1-10 never recorded which specific destinations had been visually
+  sampled and found clean — only the real finds got named in this file — so
+  there was no way to avoid re-sampling the same ~120 already-checked
+  destinations when resuming. This file now records every destination
+  reviewed (pass, date, method, clean/fixed, and a note for anything
+  non-obvious), seeded with every fix from passes 1-10 as best as they
+  could be reconstructed from this file's own prose. **Pull the next
+  sample's candidates by excluding `Object.keys(log.reviewed)`, and log
+  every destination touched — clean ones too — before ending a pass.**
+
+- **Eleventh pass (2026-10-23): first pass using the new log, 25 more hero
+  photos.** One real find: Banaue & the Cordilleras' "Batad rice terraces
+  amphitheatre" topic resolved to Tappiyah Falls — a real waterfall
+  actually in Batad, but with no terraces anywhere in frame. Same shape as
+  the Florence/cemetery case in pass four: correctly located, wrong
+  subject for what the topic promises. Reworded to "Batad rice terraces
+  panoramic viewpoint"; re-resolving incidentally also improved the
+  destination's second topic (Banaue's own terraces had itself been
+  pulling a Batad photo, now pulls a genuine Banaue one). Two others
+  looked suspicious at first glance and turned out fine on checking their
+  title/credit: Guernsey, Sark & Herm's "Sark island" topic shows the
+  Seigneurie, Sark's actual landmark building, not a landscape shot but
+  not wrong; the Solomon Islands' "Gizo" topic is a genuine, correctly
+  titled aerial coastal photo with a US Navy vessel incidentally in frame.
+  Six visual passes, 145 photos, 8 real finds — still worth doing.
+
+- **Twelfth pass (2026-10-24): 25 more hero photos.** One real find: Moorea's
+  "bungalows Tahiti" topic resolved to the Musée de Tahiti — a museum
+  building, not bungalows at all. Checked directly against Commons: there
+  is no photo of Moorea's own overwater bungalows findable under any
+  generic phrasing ("Moorea overwater bungalows", "Moorea lagoon resort",
+  etc. all return nothing or unrelated results) — the only way to surface
+  one was to name the actual resort, "Sofitel Moorea overwater bungalows".
+  **When a topic keeps coming up empty or wrong under every generic
+  rewording, search Commons directly for the specific hotel/landmark/event
+  name behind the scene — a generic description often has no dedicated
+  photo, but the specific place that provides the scene usually does.**
+  Two others looked questionable but checked out: Savannah's "squares
+  Spanish moss" topic shows the Oglethorpe Monument, a real statue
+  genuinely standing in one of Savannah's squares, just not showing moss
+  specifically. Seven visual passes, 170 photos, 9 real finds.
+
+- **Thirteenth pass (2026-10-24): 25 more hero photos.** Two real finds.
+  Niseko's "powder skiing Japan" topic resolved to an indoor hotel bar
+  (a New Year's Eve party photo) — no snow or skiing anywhere in frame.
+  Doha's "Museum of Islamic Art" topic hit a mislabeled Commons file —
+  title says the museum, content shows an unrelated spiral minaret tower
+  — same failure class as Denver's Red Rocks file in pass 9, except this
+  time **the correct and incorrect files share an identical generic
+  title** ("Museum of Islamic Art, Doha"), so a descriptive reword
+  ("...courtyard arches") still matched the wrong file; only anchoring on
+  the one candidate with a genuinely distinct title ("...Park, Doha")
+  broke the tie. **When two files share a title, describing the content
+  you want doesn't help — you have to find a title word unique to the
+  right file.**
+- **A `--force --only` re-resolve on one destination can introduce a new
+  mismatch on a topic you didn't touch, not just on the one you edited** —
+  re-fixing Niseko's ski topic collaterally re-resolved its onsen topic
+  from a correct (if unremarkable) match to Tsunagi Onsen, a real hot
+  spring ~600km away in Morioka, Iwate — caught only by noticing the name
+  didn't sound like a Hokkaido place and checking its Commons categories.
+  Fixed, then **re-resolved that one topic WITHOUT `--force`** — the
+  resolver's reuse-skip cache leaves every topic whose text didn't change
+  untouched on a non-force run, so this is the safer default whenever
+  only one topic in a multi-topic destination actually needs re-resolving;
+  reserve `--force` for when every topic genuinely needs a fresh query.
+  Eight visual passes, 195 photos, 11 real finds.
+
+- **Fourteenth pass (2026-10-24): 25 more hero photos.** Two real finds,
+  both unusually stubborn to fix. Lake Balaton's "beach" topic resolved to
+  a hospital therapy pool ("Balatonfüred Heart Hospital. Beach pool.").
+  The one Commons file with an exactly-matching title turned out to be
+  only 500×332px — too small to generate the site's 1280px full image, so
+  the resolver silently skipped it regardless of rewording. **When a topic
+  keeps resolving wrong despite an apparently perfect-title file existing,
+  check that file's own resolution before assuming the search/matching
+  logic is at fault.** Fixed by anchoring on a 4000px alternative
+  ("Kisfaludy Beach, Balatonfüred"). Genoa's "Via Garibaldi palazzi" topic
+  resolved to a UNESCO building-designator plaque; worse, **Genoa has
+  multiple roads named after Garibaldi** (including an unrelated car
+  tunnel), so every generic rewording of the street name kept re-matching
+  one wrong file or the other — fixed only by abandoning the street name
+  entirely and anchoring on a uniquely-titled photo from the official
+  UNESCO documentation series instead ("Genoa Strade Nuove Palazzi dei
+  Rolli"). **A `--force` re-resolve, even restricted to one destination
+  with `--only`, is not needed when just one topic's text changed** — use
+  the bare (non-force) resolver run so only that changed topic re-queries;
+  this session did it both ways this pass and the non-force path left the
+  other 5 topics provably untouched, confirmed by immediate reuse counts.
+  Nine visual passes, 220 photos, 13 real finds.
+
+- **Fifteenth pass (2026-10-24): 25 more hero photos, zero real finds.**
+  Three looked questionable and all turned out legitimate on checking
+  title/metadata: Muscat's mosque topic shows an unexpected painted
+  ceiling but is part of a genuinely-titled photo series from the actual
+  complex; Toruń's "Gothic old town" topic shows the Town Hall's interior
+  ("wnętrza ratusza"), the right building, just not the exterior street
+  view; Skopje's bazaar topic is a genuinely-titled elevated view over the
+  district rather than a street-level shot. First fully clean pass since
+  the eleventh — a reminder that not every pass finds something, and a
+  clean pass is itself useful signal, not a wasted one.
+
+- **Sixteenth pass (2026-10-24): 25 more hero photos, zero real finds.**
+  Second clean pass in a row. Two more candidates checked and cleared the
+  same way as pass fifteen's: Cape Town's "Table Mountain" topic shows a
+  close-up of exposed summit-plateau rock/fynbos rather than a skyline
+  silhouette, but is genuinely part of a titled Table Mountain photo
+  series; Johannesburg's Apartheid Museum topic shows an interior
+  installation (suspended rock-filled cages behind a flag), a real and
+  evocative exhibit at the actual museum. 189 destinations now logged
+  (27% of 704) across 16 passes; the unreviewed remainder keeps shrinking
+  as a straightforward random sample each time, no special selection
+  needed.
+
+- **Seventeenth pass (2026-10-24): 25 more hero photos.** One real find,
+  a double mismatch: Quito's "old town colonial Ecuador" topic resolved
+  to a historical engraving of **Cayambe** — a different Ecuadorian town
+  entirely, nothing to do with Quito — and it wasn't even a photo, an
+  antique book-plate illustration that slipped past the "no book scans or
+  schematics" test because it's a hand-drawn engraving, not a flat scanned
+  page (that test's filter was built around scanned documents, not
+  illustrated plates — a gap worth remembering for future finds of this
+  shape). Fixed by anchoring on a genuine high-resolution photo of the
+  colonial old town from El Panecillo hill. 214 destinations now logged
+  (30% of 704) across 17 passes, 14 real finds.
+
+- **Eighteenth pass (2026-10-24): 25 more hero photos.** One real find,
+  another replica case: Trier's "Porta Nigra Roman gate" topic resolved
+  to a small bronze tactile scale model sitting on a plinth (the real
+  gate blurred out of focus behind it) — same failure class as Easter
+  Island's museum-replica photo in pass 7 and a reminder that this
+  failure mode recurs across completely unrelated destinations and is
+  worth specifically checking for whenever a monument photo looks
+  slightly *too* small or oddly framed relative to the people around it.
+  Fixed by anchoring on a 20,000px full-resolution genuine exterior shot.
+  Two others double-checked and cleared: Yasawa Islands' "beach" topic is
+  a genuinely-titled close-up composition, not a mismatch; Ifrane's
+  alpine-looking lake photo is real — Ifrane is nicknamed "the Switzerland
+  of Morocco" for exactly this scenery. 239 destinations now logged (34%
+  of 704) across 18 passes, 15 real finds.
+
+- **Nineteenth pass (2026-10-24): 25 more hero photos.** One real find,
+  the same broadening failure mode as several earlier passes: Sifnos's
+  "Folegandros chora cliff village Greece" topic (the destination covers
+  both islands) broadened down to generic "cliff village Greece" and
+  matched the Cliffs Of Santorini instead — a third, unrelated Cycladic
+  island. Fixed by anchoring on a specific, correctly-titled Folegandros
+  Chora photo. 264 destinations now logged (37% of 704) across 19 passes,
+  16 real finds.
+
+- **Twentieth pass (2026-10-24): 25 more hero photos.** One real find, a
+  literal-word-match mismatch: Uruguay's "Punta del Este La Mano
+  sculpture" topic resolved to a jewelry product photo titled "Hand and
+  power stone bracelets" — matched on nothing but the word "hand". Fixed
+  by anchoring on the sculpture's own Spanish name, "La mano de Punta del
+  Este". 289 destinations now logged (41% of 704) across 20 passes, 17
+  real finds.
+
+- **Twenty-first pass (2026-10-24): 25 more hero photos, zero real
+  finds.** Fully clean pass. 314 destinations now logged (45% of 704)
+  across 21 passes, 17 real finds overall.
+
+- **Twenty-second pass (2026-10-24): 25 more hero photos.** Two real
+  finds, both a new variant of the recurring "right place, wrong subject"
+  pattern — genuinely located at the destination, correctly titled, but
+  not showing what the topic promises. Tobago's "Pigeon Point beach"
+  topic resolved to the park's entrance booth/parking kiosk, not the
+  beach; fixed by anchoring on the site's iconic thatched-roof jetty
+  photo instead. Cairo's "Pyramids of Giza" topic resolved to a photo
+  genuinely taken at Giza during the real "Forever is Now" art
+  exhibition, but the pyramids are reduced to a small background detail
+  behind a dominant modern wire sculpture that dominates the frame; fixed
+  by anchoring on an actual panorama of all the pyramids. Two others
+  checked and cleared the same way: Coimbra's library topic shows the
+  genuine entrance portal, not the interior, but is correctly titled;
+  Portland's food-cart topic shows an adjacent bar building but is
+  verified via Commons categories as a real photo from the actual
+  "Cartside Food Carts" location series. 339 destinations now logged
+  (48% of 704) across 22 passes, 19 real finds.
+
+- **Twenty-third pass (2026-10-24): 25 more hero photos, zero real
+  finds.** Fully clean. Three checked and cleared: Delft's market-square
+  topic is a genuine 1743 Rijksmuseum engraving (same precedent as
+  Heidelberg, pass 13); Chiang Mai's temple topic shows a painted village
+  mural rather than the golden chedi, but is part of the temple's own
+  numbered photo series; Poznań's market-square topic shows an
+  archaeological dig, a real and correctly-dated renovation at the actual
+  square. 364 destinations now logged (52% of 704, past the halfway
+  point) across 23 passes, 19 real finds overall.
+
+- **Twenty-fourth pass (2026-10-24): 25 more hero photos.** One real
+  find, a new content-type case: Alaska's "Denali mountain" topic
+  resolved to a hand-painted National Park Service panorama illustration
+  by Heinrich Berann — genuine official NPS artwork, but artwork, not a
+  photograph, with its "without_labels" filename making it easy to
+  mistake for a photo at a glance. Same shape as the Quito/Cayambe
+  engraving (pass 17) and the Trier tactile model (pass 18) — the content
+  type itself was wrong, not just the place. Fixed by anchoring on a
+  genuine aerial photograph, "Wonder Lake and Denali." One other checked
+  and cleared: Lübeck's Holstentor topic shows an interior vaulted
+  ceiling rather than the famous twin-towered exterior, but is genuinely
+  categorized as part of the monument. 389 destinations now logged (55%
+  of 704) across 24 passes, 20 real finds.
+
+- **Twenty-fifth pass (2026-10-24): 25 more hero photos, zero real
+  finds.** Fully clean. Three more checked and cleared the same way:
+  Sarajevo's Baščaršija topic shows a tourist info board (correctly
+  located, poor hero shot); Loire's Chambord topic shows an antique
+  carriage from a real 2016 exhibition held at the château; Canberra's
+  War Memorial topic shows ANZAC Parade toward Parliament House, taken
+  from the Memorial's own steps. 414 destinations now logged (59% of
+  704) across 25 passes, 20 real finds overall.
+
+- **Twenty-sixth pass (2026-10-24): 25 more hero photos, zero real
+  finds.** Fully clean — third clean pass in a row. Trinidad's Carnival
+  topic shows costume mannequins at a "Mas Camp" (a real masquerade
+  costume workshop), correctly located in Port of Spain, checked and
+  cleared. 439 destinations now logged (62% of 704) across 26 passes, 20
+  real finds overall.
+
+- **Twenty-seventh pass (2026-10-24): 24 of 25 hero photos (Quebec
+  City's download failed repeatedly and was left unlogged for a future
+  pass), zero real finds.** Fourth clean pass in a row. 463 destinations
+  now logged (66% of 704) across 27 passes, 20
+  real finds overall. The hit rate has visibly tapered since the mid-20s
+  passes (zero finds in passes 21, 23, 25, 26, 27) — consistent with the
+  project's standing observation that the easiest, most obvious
+  mismatches surface first.
+
+- **Twenty-eighth pass (2026-10-24): 25 more hero photos, zero real
+  finds.** Fifth clean pass in a row. Two checked and cleared: St Kitts'
+  fortress topic shows a plantation-style cottage (part of the actual
+  fortress grounds, a real numbered photo series); Biarritz's beach-surf
+  topic shows a distant nighttime view of the Basque coast from the
+  Ibardin pass — correct region, genuinely titled, but about as weak a
+  representative shot as this project has found without crossing into
+  outright mismatch. 488 destinations now logged (69% of 704) across 28
+  passes, 20 real finds overall.
+
+- **Twenty-ninth pass (2026-10-24): 25 more hero photos.** Two real
+  finds, breaking the clean streak. Hunter Valley's topic broadened from
+  "vineyard rows" down to generic "Hunter Valley" and resolved to a
+  genuine open-cut coal mine in the same region — the wrong subject for
+  a wine-tourism destination even though it's a real place with that
+  exact name. Fixed by anchoring on a specific high-resolution photo
+  from the real "Hunter Valley Vineyards" series. Stewart Island's "kiwi
+  bird" topic resolved to a taxidermy specimen at Otago Museum — in
+  Dunedin, not even on Stewart Island, and not alive. Commons has
+  essentially no usable photos of wild kiwis (they're nocturnal and
+  rarely photographed); fixed by anchoring on a genuine live kiwi
+  photographed at a sanctuary at night — not from Stewart Island
+  specifically, but a live bird is a meaningfully better representation
+  than a taxidermy mount from a different city entirely. **When no photo
+  of the literal specified subject exists, a live/authentic example of
+  the general subject beats a technically-closer but fundamentally wrong
+  one (taxidermy, replica, model).** 513 destinations now logged (73% of
+  704) across 29 passes, 22 real finds overall.
+
+- **Thirtieth pass (2026-10-24): 25 more hero photos.** One real find,
+  the same "right place, wrong subject the topic promises" shape as
+  Tobago (pass 22): Liverpool's "Albert Dock waterfront" topic resolved
+  to a photo of a portable tennis court set up at the dock — genuinely
+  there, but with no warehouse architecture or waterfront visible at
+  all. Fixed by anchoring on an aerial photo of the actual brick
+  warehouse waterfront. 538 destinations now logged (76% of 704) across
+  30 passes, 23 real finds overall — only ~166 destinations remain
+  unreviewed, so full catalogue coverage is close.
+
+- **Thirty-first pass (2026-10-24): 25 more hero photos, zero real
+  finds.** Fully clean. Noticed Glasgow has two separate catalog entries
+  (`glasgow-uk`, reviewed pass 8, and `glasgow-gb`, this pass) — both
+  show Kelvingrove with a similar minor foreground obstruction; neither
+  is a mismatch, just worth knowing the id split exists if the catalogue
+  is ever de-duplicated. 563 destinations now logged (80% of 704) across
+  31 passes, 23 real finds overall.
+
+- **Thirty-second pass (2026-10-24): 25 more hero photos.** One real
+  find during the sample, plus a second found via a free sweep. Åland's
+  "archipelago" topic resolved to a NASA satellite image credited to
+  "Jesse Allen and Robert Simmon" — well-known NASA Earth Observatory
+  visualizers, confirmed via Commons categories ("satellite pictures",
+  "PD NASA") — that evaded `REJECT_ORBITAL` because neither the filename
+  nor those credited names contain any of the filter's trigger words.
+  This is a structural gap, not a one-off, so (same technique as the
+  real-world sixth pass) **swept the already-resolved `photos.json` for
+  other photos credited to the same NASA visualizer names, at zero API
+  cost** — found one more: Samburu & Laikipia's "Ewaso Nyiro river" topic
+  (index 2, not the sampled hero photo), also a NASA satellite image,
+  also credited to Jesse Allen. Both fixed by anchoring on genuine ground
+  photos. **`build-photos.mjs`'s `REJECT_ORBITAL` only matches
+  institutional/mission keywords, not the individual visualizer names
+  NASA Earth Observatory credits its imagery to** — a worthwhile future
+  addition to the filter itself, not just a one-off fix, since Jesse
+  Allen and Robert Simmon alone are credited on a large fraction of all
+  Earth Observatory releases. **Fixed `REJECT_ORBITAL` itself** to add
+  `jesse allen|robert simmon|lauren dauphin|joshua stevens` (the two
+  confirmed from this session's finds, plus two more frequently-credited
+  NASA EO visualizers added preventively, not independently confirmed) —
+  this only affects future resolver runs, not already-resolved entries;
+  `npm test` still 154/154 after the change. 588 destinations now logged
+  (84% of 704) across 32 passes, 25 real finds overall.
+
+- **Thirty-third pass (2026-10-24): 25 more hero photos.** One real
+  find, a second instance of the map/illustration content-type issue
+  first seen with Denali in pass 24: Glacier National Park's "Going to
+  the Sun Road" topic resolved to a literal park map, credited to Tom
+  Patterson — an NPS cartographer, not a photographer. Fixed by
+  anchoring on a genuine photo of the actual road. Ran a free sweep (same
+  technique as the satellite-credit sweep) for other photos credited to
+  Tom Patterson or Heinrich Berann across the whole catalogue — zero
+  other instances found. One other checked and cleared: Bath's "Royal
+  Crescent" topic is genuinely titled and confirmed correct, not
+  confused with the similar-looking Circus nearby. 613 destinations now
+  logged (87% of 704) across 33 passes, 26 real finds overall.
+
+- **Thirty-fourth pass (2026-10-24): 25 more hero photos.** One real
+  find, a species mismatch: Borneo (Sabah)'s "Orangutan Borneo Sepilok"
+  topic resolved to a file literally titled "Macaque at Sepilok
+  orangutan sanctuary" — right sanctuary, wrong primate entirely (a
+  macaque, not an ape). Fixed by anchoring on a genuine orangutan photo
+  from the same photographer's own series at the same sanctuary. 638
+  destinations now logged (91% of 704) across 34 passes, 27 real finds
+  overall.
+
+- **Thirty-fifth pass (2026-10-24): 25 more hero photos.** One real
+  find, a case with no clean fix available: Samaná & Las Terrenas'
+  "Humpback whale Samana Bay" topic resolved to a river photo from Los
+  Haitises — a different, nearby national park, no whale at all. The
+  only genuine live-whale photo for this exact location is 720px wide,
+  just under the resolver's 800px quality floor, so it was never even a
+  candidate — a reminder that **"no good photo was found" sometimes means
+  a good photo exists but is too small**, worth checking before assuming
+  none exists. Used a full articulated whale skeleton at a dedicated
+  whale museum in Samaná instead: not alive, but genuinely whale-related
+  and at the right place — the best real option available, same
+  trade-off reasoning as the Stewart Island kiwi case in pass 29. Two
+  others checked and cleared: Ethiopia's rock-hewn-church topic shows a
+  genuine excavated passage within the actual Lalibela complex;
+  Sundarbans' topic shows a Purple Sunbird genuinely photographed within
+  the real wildlife sanctuary. 663 destinations now logged (94% of 704)
+  across 35 passes, 28 real finds overall.
+
+- **Thirty-sixth pass (2026-10-24): 25 more hero photos.** One real find
+  and one long-standing download mystery solved. Anguilla's "Shoal Bay
+  East" topic resolved to "Brittle stars at East Shoal" — an unrelated
+  underwater macro photo from a different dive site entirely (a name
+  collision on "shoal" + "east"), credited to a photographer known for
+  South African marine life, nothing to do with Anguilla. Fixed by
+  anchoring on a genuine, correctly-titled Shoal Bay beach photo.
+  Separately, **Quebec City's hero photo had failed to download across
+  four separate passes (11, 13, 27, 36)** — turned out the file had been
+  renamed on Commons (a redirect), leaving the stored thumb URL pointing
+  at a stale path that error'd instead of 404'ing; fetching the file's
+  *current* URL via a fresh API lookup worked immediately, and the photo
+  itself was correct all along. **A download that fails consistently
+  across multiple unrelated sessions, rather than failing once and
+  succeeding on retry, may mean the stored URL itself has gone stale —
+  worth a fresh `action=query&prop=imageinfo` lookup rather than just
+  retrying the same URL.** Two others checked and cleared: Oslo's topic
+  is a genuine view from the Opera House's own walkable roof; Tunisia's
+  Sahara topic shows the real Roman fort ruins that sit at Ksar Ghilane
+  itself, correct location. 688 destinations now logged (98% of 704)
+  across 36 passes, 29 real finds overall — only ~16 remain.
+
+- **Thirty-seventh pass (2026-10-27): the final 18, completing full
+  first-pass coverage.** One real find, a third word-trap case: Churchill's
+  "Polar bear Hudson Bay Canada" topic resolved to a photo literally
+  titled "Polar bear express" — the name of an Ontario Northland train
+  line, not an actual bear (same shape as the Uruguay/hand case, pass 20,
+  and the Hunter Valley case, pass 29: a real place/thing sharing the
+  search words, scoring well on text match alone). Fixed by anchoring on
+  a genuine wild polar bear photo on the actual Hudson Bay shoreline at
+  Churchill. **Every one of the 704 real-world destinations with a
+  resolved hero photo (692 — the other 12 have no photo at all) is now
+  logged in `tools/photo-review-log.json` under its current id.** 14
+  stray entries from the original pass-1-10 seed (`tunisia-sw`,
+  `bahamas`, `amritsar-in`, etc.) use now-retired ids and don't match any
+  current destination — harmless, left as-is rather than cleaned up,
+  since the real destinations they referred to are separately covered
+  under their current ids. **706 total log entries across 37 passes, 30
+  real finds (~4.3% hit rate overall).** Resuming this work means a
+  *second* pass over the same 692 destinations — likely much lower
+  yield, since every photo has now been looked at once; worth weighing
+  against other priorities before diving back in.
+
+## Wiring AI-generated photos into the fiction catalogue (added 2026-10-22)
+
+- User review tool: `D:\AI\ComfyUI\vg\fiction-browser.html` (built by
+  `build-fiction-browser.mjs` in the same folder, outside this repo) shows
+  every fiction destination's 6-photo gallery; the user clicks to flag bad
+  or too-similar photos and exports a plain-text list (destId + photo
+  index + topic) to paste back into chat. User preference: replacements
+  should be **AI-generated**, not differently-worded Wikimedia searches —
+  matches the photorealistic-imagery rollout already underway (see "Fiction
+  catalogue: The Lands Between" above).
+- **Generation pipeline:** bespoke, hand-written prompts (never templated)
+  per `D:\AI\ComfyUI\vg\PROMPTING.md`'s 9 rules — no negative prompts work
+  (cfg=1 zeroes them, every correction must be positive), name real
+  materials/wear/mundane detail instead of saying "photorealistic", state
+  grandeur alongside weathering for fantastical architecture, never use
+  Earth vehicle nouns, never request legible text (omit it, or make it
+  illegible by physical damage/blur — a request for "abstract eye motif,
+  no face, no text, bleached/torn paper" was needed on a retry after a
+  first pass rendered genuinely legible Cyrillic-style text and
+  propaganda-poster faces), state non-human scale twice with "adults, not
+  children" plus a reference object. Run via `node vg/gen.mjs <batch.json>
+  <outdir>` against a local ComfyUI server (FLUX.2 klein 9B, ~90-210s per
+  image) — lower the server's (and the node script's) Windows process
+  priority to BelowNormal before a long run so it doesn't starve
+  foreground work; new processes spawn at Normal each run, so re-check
+  after every `gen.mjs` invocation.
+- **Always visually inspect before wiring in** — two real failures this
+  round neither a good prompt nor a first glance caught: a "ring-shaped
+  space habitat exterior" render read as an indoor drum chamber (the
+  model interpreted "viewing gallery" as interior) until the prompt was
+  rewritten around "photographed through a spacecraft window, looking
+  back at the full ring, deep space all around" with no gallery/interior
+  language at all; a "propaganda poster wall" render produced legible
+  Cyrillic-style text and real-looking political portraits even though
+  the prompt never asked for either — caught only by cropping and zooming
+  the output, not from the thumbnail. Crop-and-zoom any photo with fine
+  detail in a corner before trusting it; thumbnail-resolution review can
+  miss exactly the failure the "no text" rule exists to prevent.
+- **Wiring script:** `tools/wire-generated-photo.mjs <manifest.json>`
+  (manifest: `[{destId, index, topic, pngPath, credit}]`). For each entry
+  it (1) shells out to `tools/resize-generated.py` to produce a 500px
+  thumb and 1280px full JPEG at `assets/img/thumbs/fiction/<id>-<i>.jpg`
+  and `assets/img/full/fiction/<id>-<i>.jpg`, (2) finds the destination's
+  shard file by scanning `data/fiction/destinations/*.json` for `"id":
+  "<destId>"`, then surgically replaces just the Nth string literal in
+  that destination's `photos` array (brace-matched + string-literal
+  positional scan, never a full `JSON.parse`/`stringify` of the file —
+  that reformats the whole file and produces a huge diff), (3) writes the
+  matching record directly into `data/fiction/photos.json`.
+- **`photos.json`'s own field name is `photos`, not `photoTopics`** (that
+  name only exists in some in-memory/runtime code) — the wiring script
+  originally guessed wrong and had to be fixed; check the actual shard
+  text if extending this script rather than trusting a field name from
+  memory.
+- **Local images need a real `license` value, not an empty string** —
+  `tools/test-photos.mjs`'s attribution test (`Fiction: every stored photo
+  carries its attribution`) requires both `credit` and `license` to be
+  truthy for every record with a `full` URL. AI-generated records use
+  `license: "AI-generated, no copyright claimed"`. First pass left it `""`
+  and failed the test for all 33 records in one shot — `npm test` catches
+  this immediately, run it before considering a wiring batch done.
+- **Why hand-wired `photos.json` records survive a rebuild:**
+  `build-photos.mjs`'s reuse-skip check (`!FORCE && prev.full &&
+  (prev.wanted ?? prev.topic) === topic`) leaves an entry alone on an
+  ordinary (non `--force`) run as long as its `topic` matches the shard's
+  current `photos[i]` string exactly — which the wiring script guarantees
+  by construction. `npm run build` (= `build-data.mjs` + `bundle.mjs`)
+  never touches `photos.json` at all, so routine builds are always safe
+  for these records regardless.
+- **Local image paths work exactly like remote URLs** — `js/images.js`
+  treats `full`/`thumb` as opaque strings, and `netlify.toml`'s CSP
+  already allows `img-src 'self'` (no CSP change needed for local
+  assets). `assets/` was previously an unused convention (a `--download`
+  flag on `build-photos.mjs` that had never actually been run); this is
+  the first time it's been populated and committed. `netlify.toml`'s
+  `publish = "."` serves the whole repo root, so no deploy config change
+  is needed either — committing `assets/` is sufficient.
+- First batch: 33 images across the 7 user-flagged destinations (4 + 5 +
+  5 + 3 + 5 + 5 + 6). Two destinations' replacement scope grew beyond
+  what the user explicitly flagged, after their *existing* photos.json
+  records turned out to hide real mismatches once inspected directly:
+  abydos's "Ancient stone ring monument" (meant to be the Stargate) had
+  resolved to the Chaukhandi tombs in Sindh, Pakistan; ahch-to's "Remote
+  island Atlantic cliffs" had resolved to an ISS satellite photo of open
+  ocean (`REJECT_ORBITAL` again — see the real-world sixth pass above).
+  Both destinations also had unresolved (placeholder) slots alongside
+  the flagged ones, filled in the same pass rather than left half-done.
+  Full rebuild + `npm test` clean (57+35+28+17+17 = 154 passed) before
+  this was left ready to commit.
